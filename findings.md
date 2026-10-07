@@ -40,7 +40,9 @@
 - **benchmark 数据契约（TASK-001 定稿，`32311d4`）**：clean 行三字段（id/field/value）；dirty 行六字段（id/field/value/truth/perturbation/split）；每类 200 干净值 × 5 类扰动 = 1000 脏行；划分 = seed 洗牌后前 20% heldout；同 seed 逐字节一致；`tests/test_benchmark.py` 的 `test_repo_artifacts_fresh` 守着「生成器改动必须重生成产物」。
 - **合成数据已知限制**（不阻塞，规则开发时留意）：区划是「省级+地级+通用区名」随机组合，会出现「上海市西城区」这类不存在的组合；部分名字组合少见；手机号段只保形状不保在用。若要求真实区县对应关系，需要官方行政区划数据源（task_plan Key Question 2）。
 - **评测管线口径（TASK-002 定稿，`aab345a`）**：`benchmarks/evaluate.py`，注入点 `--impl stub|perfect|rules`（rules 为真实规则名，2026-10-07 脑拍板）；默认只评 heldout；summary 三张分组表同源计数；失败案例含真值 = 「失败案例公开」口径有意为之，**脱敏开关留发布前**。
-- **真实数台账（heldout，rules 实现）**：person 72.00%（144/200；space/sep/noise 各 100%、typo 60%、abbrev 0% 属预期）；address/phone/company 恒等 0%（未注册，逐个 TASK 补）。≥95% 是目标不是承诺。
+- **真实数台账（heldout，rules 实现）**：person 72.00%（space/sep/noise 100%、typo 60%、abbrev 0%）；**phone 100.00%**（五类全对，`e44d3b0`；⚠️ 含测试集容量小成分——生成器 PHONE_TYPOS 仅 6 对，如实声明）；address/company 未注册 0%（逐个 TASK 补）。总盘 43.00%（344/800）。≥95% 是目标不是承诺。
+- **abbrev 语义差异（读表口径）**：person=缺字（不可恢复 0%）、phone=加国家码（可剥离 100%）、company=缩写（部分可补）；同标签难度迥异，汇总行会掩盖，读表按 field 分开看。
+- **回归护栏惯例（TASK-004 确立）**：每注册一个字段，该字段测试必须带 person/已注册字段的回归断言（防注册表污染）。
 - **规则层口径（TASK-003 定稿，`e64f6ac`）**：接口 `normalize(value, field) -> str` / `normalize_with_confidence -> (str, float)`（value 在前，docstring 若与之矛盾以契约为准）；置信度 0.9 结构 / 0.7 推断 / 0.1 无证据；**结构层命中即返回、不叠加推断层**；错字表只收「错字几乎不可能当名用字」。
 - **遗留 medium 记账**：person.py TYPO_TO_CORRECT 含「田→天」「路→露」「木→沐」「果→国」等与收录标准不自洽条目（heldout 零误伤已核验），后续扩表 TASK 时统一自检。
 - **判据命令规范（2026-10-07 裁定）**：凡 import zhclean 的命令，判据一律 `uv run --project . python ...`（裸 python 3.14.7 无 zhclean）；脑派单前亲跑验证。

@@ -6,11 +6,11 @@
 | 日期 | 2026-10-07 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/rules/phone.py`、`src/zhclean/rules/__init__.py`、`tests/test_phone.py`、`benchmarks/evaluate.py`（**仅**修正第 12/13 行两处过时注释，见 §2.5）、`benchmarks/results/**`（评测产物，不入库） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib only）；跑 `uv run` / `pytest` 命令；读 `benchmarks/**`、`src/zhclean/rules/person.py`（参考实现风格）、`task_plan.md`、`findings.md`。**禁止：联网、装包/改依赖、git commit、调用其他 agent、动范围外任何文件** |
 | **_Depends:**（依赖） | TASK-003（已通过，`e64f6ac`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `e44d3b0`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -71,3 +71,12 @@ git status --porcelain -uall
 - results/ 已 .gitignore：判据 2 后 `git status` 不应出现 results 产物（被忽略）。
 - 参考 `src/zhclean/rules/person.py` 的实现结构与置信度档位，保持风格一致。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-004.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。回执申报清单外新文件并贴 §1.5 基线输出。
+
+## 7. 验收结论（2026-10-07 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 104 passed；②`uv run --project . python -m benchmarks.evaluate --impl rules` → exit 0、**phone 100.00%**（200/200 五类全对）、failures 456。
+- 边界检查：手侧 4 个改动文件 ⊆ `_Boundary:_`（零越界）；evaluate.py 确认只改注释。
+- **结构化代码审查**（4/4 覆盖 100%）：critical/high/medium 0、low 1（合法号码低置信，与 person 同口径，留待置信度体系细化），不阻塞；「|」死代码清除属实、国家码长度守卫有测试守护。
+- 手 §5 提请裁决：①形近 100% 含测试集容量小成分——记 findings；②「|」按分隔符处理——同意；③abbrev 语义差异——记 findings；④每字段注册带回归护栏——采纳为后续 TASK 惯例。
+- 真实数入账：phone heldout 100.00%；总盘 43.00%（344/800）。
+- `_Status: 已完成`；`_Commit: e44d3b0`。
