@@ -29,7 +29,14 @@ S: 词典取自通用知识，不得针对测试扰动模式调参（留出集�
 
 from __future__ import annotations
 
-import re
+from .common import (
+    CONF_INFER,
+    CONF_NONE,
+    CONF_STRUCTURAL,
+    repair_typos_by_known_words,
+    strip_noise,
+    strip_ws_sep,
+)
 
 # ============================================================ 词典
 
@@ -70,16 +77,8 @@ TYPO_TO_CORRECT: dict[str, str] = {
     "志": "智", "资": "咨",
 }
 
-# 前后缀噪声：前缀标签 / 尾部括号备注 / 尾随标点
-_LABEL_RE = re.compile(r"^[一-鿿]{1,4}[：:]")                    # 「单位：」「公司名称:」
-_PAREN_RE = re.compile(r"[（(][^）)]{1,10}[）)]\s*$")                # 「（总部）」「（分公司）」
-_PUNCT = "。，,.、！!?？；;～~“”\"'’‘"                               # 首尾标点
-# 空白（含全角空格 U+3000）+ 常见分隔符，出现在哪里都去掉
-_WS_SEP_RE = re.compile(r"[\s\-－—–·・|｜/／,，、\\_~～]+")
-
-CONF_STRUCTURAL = 0.9  # 结构清洗命中
-CONF_INFER = 0.7       # 推断层命中（缩写补全 / 错字修复）
-CONF_NONE = 0.1        # 无证据：原样返回
+# 结构清洗 / 置信度档位 / 错字修复机制在 rules/common.py（四字段共用）；
+# 本字段的专有物只有上面这些词典 + 下面两条判据。
 
 # ============================================================ 内部步骤
 
@@ -87,25 +86,6 @@ CONF_NONE = 0.1        # 无证据：原样返回
 def _looks_like_company(s: str) -> bool:
     """清洗后是否「像公司名」：长度合理 + 以某个组织形式全称结尾。"""
     return len(s) >= 4 and s.endswith(tuple(ORG_FORMS))
-
-
-def _strip_noise(s: str) -> tuple[str, bool]:
-    """去前缀标签 / 尾部括号备注 / 尾随标点（循环到稳定）。返回 (结果, 是否改动)。"""
-    out = s
-    for _ in range(3):
-        before = out
-        out = _LABEL_RE.sub("", out, count=1)
-        out = _PAREN_RE.sub("", out)
-        out = out.strip(_PUNCT)
-        if out == before:
-            break
-    return out, out != s
-
-
-def _strip_ws_sep(s: str) -> tuple[str, bool]:
-    """去掉串内所有空白与分隔符（无损）。返回 (结果, 是否改动)。"""
-    out = _WS_SEP_RE.sub("", s)
-    return out, out != s
 
 
 def _expand_suffix(s: str) -> tuple[str, bool]:
@@ -119,24 +99,6 @@ def _expand_suffix(s: str) -> tuple[str, bool]:
             return s[: -len(short)] + full, True
     return s, False
 
-
-def _repair_typos(s: str) -> tuple[str, bool]:
-    """错字修复：在**已知词组**（组织形式 / 行业词）的窗口内逐字修。
-
-    只在「修完恰好等于某个已知词组」时才采纳 —— 这就是闸门。窗口从长到短扫，
-    先命中的是更大的词组（如「股份有限公司」优先于「公司」），避免被短词截断。
-    品牌名里的同形字修完不构成已知词组 ⇒ 天然不会被误伤。
-    返回 (结果, 是否改动)；未命中返回原串。
-    """
-    max_len = max(len(w) for w in _KNOWN_WORDS)
-    for k in range(min(max_len, len(s)), 1, -1):
-        for start in range(0, len(s) - k + 1):
-            window = s[start:start + k]
-            fixed = "".join(TYPO_TO_CORRECT.get(ch, ch) for ch in window)
-            if fixed != window and fixed in _KNOWN_WORDS:
-                return s[:start] + fixed + s[start + k:], True
-    return s, False
-
 # ============================================================ 主入口
 
 
@@ -146,18 +108,20 @@ def normalize_company(value: str) -> tuple[str, float]:
         return value, CONF_NONE
 
     # 第 1 层：结构清洗（无损）。命中即返回，不叠加第二层推断。
-    stripped, noise_hit = _strip_noise(value)
-    core, sep_hit = _strip_ws_sep(stripped)
+    stripped, noise_hit = strip_noise(value)
+    core, sep_hit = strip_ws_sep(stripped)
     if noise_hit or sep_hit:
         if _looks_like_company(core):
             return core, CONF_STRUCTURAL
         return value, CONF_NONE  # 洗出来不像公司名：宁可原样返回
 
     # 第 2 层：结构上本就干净，只剩「缩写」或「错字」两种可能。都是推断，降一档。
+    # 本字段的错字修复**只用滑窗轮**（无单字轮）：公司名只有组织形式/行业词是闭集，
+    # 而它们全是多字词，滑窗闸门足够；开单字轮反而会去动品牌名。
     expanded, exp_hit = _expand_suffix(core)
     if exp_hit and _looks_like_company(expanded):
         return expanded, CONF_INFER
-    repaired, rep_hit = _repair_typos(core)
+    repaired, rep_hit = repair_typos_by_known_words(core, TYPO_TO_CORRECT, _KNOWN_WORDS)
     if rep_hit and _looks_like_company(repaired):
         return repaired, CONF_INFER
 

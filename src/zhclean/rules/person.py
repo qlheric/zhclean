@@ -22,6 +22,15 @@ from __future__ import annotations
 
 import re
 
+from .common import (
+    CONF_INFER,
+    CONF_NONE,
+    CONF_STRUCTURAL,
+    apply_table,
+    strip_noise,
+    strip_ws_sep,
+)
+
 # ============================================================ 词典
 
 # 常见姓氏（含复姓）：用于判断「清洗后像不像人名」以及切出名字部分
@@ -51,18 +60,11 @@ TYPO_TO_CORRECT: dict[str, str] = {
     "柠": "宁", "率": "帅", "师": "诗", "闵": "敏", "田": "天", "隆": "龙",
 }
 
-# 前后缀噪声：敬称/称谓、括号备注、前缀标签
+# 尾部敬称/称谓（**人名独有**：其余字段没有这一种噪声）。顺序即匹配优先级。
 _HONORIFICS = ("先生", "女士", "小姐", "老师", "医生", "教授", "同志", "同学", "大人")
-_LABEL_RE = re.compile(r"^[一-鿿]{1,4}[：:]")             # 「姓名：」「名字:」
-_PAREN_RE = re.compile(r"[（(][^）)]{1,10}[）)]\s*$")             # 尾部备注「（本人）」
-_PUNCT = "。，,.、！!?？；;～~“”\"'’‘"                            # 首尾标点
-# 空白（含全角空格 U+3000）+ 常见分隔符，出现在哪里都去掉
-_WS_SEP_RE = re.compile(r"[\s\-－—–·・|｜/／,，、\\_~～]+")
 _NAME_RE = re.compile(r"^[一-鿿]{2,6}$")
 
-CONF_STRUCTURAL = 0.9  # 结构清洗命中
-CONF_TYPO = 0.7        # 错字纠正命中（仍是推断）
-CONF_NONE = 0.1        # 无证据：原样返回
+# 清洗/置信度档位在 rules/common.py（四字段共用）
 
 # ============================================================ 内部步骤
 
@@ -86,32 +88,8 @@ def _split_surname(s: str) -> tuple[str, str]:
 
 
 def _strip_noise(s: str) -> tuple[str, bool]:
-    """去前缀标签 / 尾部敬称·括号备注·标点（循环到稳定）。返回 (结果, 是否改动)。"""
-    out = s
-    for _ in range(3):
-        before = out
-        out = _LABEL_RE.sub("", out, count=1)
-        for h in _HONORIFICS:
-            if out.endswith(h):
-                out = out[: -len(h)]
-                break
-        out = _PAREN_RE.sub("", out)
-        out = out.strip(_PUNCT)
-        if out == before:
-            break
-    return out, out != s
-
-
-def _strip_ws_sep(s: str) -> tuple[str, bool]:
-    """去掉串内所有空白与分隔符（无损）。返回 (结果, 是否改动)。"""
-    out = _WS_SEP_RE.sub("", s)
-    return out, out != s
-
-
-def _fix_typos(given: str) -> tuple[str, bool]:
-    """按通用表逐字纠正。返回 (结果, 是否改动)。表里没有的字原样保留。"""
-    out = "".join(TYPO_TO_CORRECT.get(ch, ch) for ch in given)
-    return out, out != given
+    """去前缀标签 / 尾部敬称·括号备注·标点。敬称表是本字段独有的，透传给公共件。"""
+    return strip_noise(s, _HONORIFICS)
 
 # ============================================================ 主入口
 
@@ -123,17 +101,19 @@ def normalize_person(value: str) -> tuple[str, float]:
 
     # 第 1 层：结构清洗（无损）。命中即返回，不叠加第二层推断。
     stripped, noise_hit = _strip_noise(value)
-    core, sep_hit = _strip_ws_sep(stripped)
+    core, sep_hit = strip_ws_sep(stripped)
     if noise_hit or sep_hit:
         if _looks_like_name(core):
             return core, CONF_STRUCTURAL
         return value, CONF_NONE  # 洗出来不像人名：宁可原样返回
 
     # 第 2 层：结构上本就干净，只可能剩「错别字」。这是推断，置信度降一档。
+    # 人名的错字层是**逐字直替**（不是滑窗闸门）：安全靠「只替名部分 + 替完仍像人名」，
+    # 见模块头「设计取舍 2」——表里已排除双向歧义字，故无需 known_words 闸门。
     surname, given = _split_surname(core)
-    fixed, typo_hit = _fix_typos(given)
+    fixed, typo_hit = apply_table(given, TYPO_TO_CORRECT)
     if typo_hit and _looks_like_name(surname + fixed):
-        return surname + fixed, CONF_TYPO
+        return surname + fixed, CONF_INFER
 
     # 没证据（含 abbrev 缺字、名字用字不认识）：原样返回，交上层。
     return value, CONF_NONE

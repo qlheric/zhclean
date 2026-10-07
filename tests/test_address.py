@@ -114,6 +114,26 @@ def test_typos_repaired(dirty, expected):
     assert zhclean.normalize(dirty, "address") == expected
 
 
+# ---------- 约束②：方位构词的位置约束（TASK-007）----------
+# 方位构词（城东 / 河西…）只有后面紧跟「区」或「城」才是行政区名；否则多为小区 / 道路名。
+# 出处：TASK-006 §8 脑裁决「保留 15 词 + 加位置约束」，见 RESULT-006 §6-1。
+
+@pytest.mark.parametrize("dirty, expected", [
+    ("湖北省武汉市洪山区城茜区建设路1号", "湖北省武汉市洪山区城西区建设路1号"),  # 城西 后跟「区」⇒ 修
+    ("重庆市河冬区建设路16号",            "重庆市河东区建设路16号"),             # 河东 后跟「区」⇒ 修
+])
+def test_district_word_repaired_only_before_district_suffix(dirty, expected):
+    assert zhclean.normalize(dirty, "address") == expected
+
+
+@pytest.mark.parametrize("value", [
+    "湖北省武汉市洪山区城冬雅苑3栋1单元101室",   # 城冬 后跟「雅」⇒ 小区名，不修（位置约束挡住）
+    "北京市朝阳区城楠花园5号楼302室",            # 楠→南 会造出「城南」，但后跟「花」⇒ 不修
+])
+def test_district_word_not_repaired_when_not_before_district_suffix(value):
+    assert zhclean.normalize_with_confidence(value, "address") == (value, 0.1)
+
+
 def test_one_to_many_typo_disambiguated_by_position():
     # 「式」一对多：串尾且前面是数字 ⇒ 房间号「室」；否则 ⇒ 行政区划「市」
     assert zhclean.normalize("湖北省武汉市洪山区452号23栋2单元145式", "address") == \

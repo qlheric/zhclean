@@ -39,11 +39,24 @@ S: 词典取自通用知识，不得针对测试扰动模式调参（留出集�
      真地址里结构字后面必跟门牌号，否则该字多半是专名的一部分
      （「雨露路」「洞庭路」「报到路」），此时不动。
    三条守卫都不依赖测试集：它们只描述「中文地址的结构常识」，故不放宽也不收紧到具体样本。
+6. 通用机制（`strip_noise` / `strip_ws_sep` / 滑窗轮 + 单字轮本体 / `CONF_*`）已抽到
+   `rules/common.py`（TASK-007）。本模块只留**地址专有物**：词典、判据集合、守卫名单、
+   补全层，以及第 3 条的**一对多消歧**。守卫经 `_GUARDS` 传给公共件；第 5 条三条守卫
+   之外多了一条「方位构词位置约束」（见 `_GUARDS["trailing"]` 处注释）。
 """
 
 from __future__ import annotations
 
 import re
+
+from .common import (
+    CONF_INFER,
+    CONF_NONE,
+    CONF_STRUCTURAL,
+    repair_typos_by_known_words,
+    strip_noise,
+    strip_ws_sep,
+)
 
 # ============================================================ 词典
 
@@ -134,8 +147,6 @@ _TYPO_GUARD_NAMES = frozenset({"曲阜", "曲江", "曲阳", "曲沃", "曲周",
 # 否则该字多半是专名的一部分（「雨露路」「洞庭路」「报到路」）⇒ 不动。
 _DIGIT_NEEDED_SRC = frozenset("露洞到")
 
-_MAX_KNOWN_LEN = max(len(w) for w in _KNOWN_WORDS)
-
 # 通用错字表（错 → 正）。来源：常见中文地址用字的形近/同音混淆（通用知识整理）。
 # 安全性由推断层闸门保证 —— 修完必须恰是某个已知词组，或（单字路径）位置不在已知地名开头。
 TYPO_TO_CORRECT: dict[str, str] = {
@@ -155,18 +166,20 @@ _PROV_SHORTS_BY_LEN = sorted(PROVINCES, key=len, reverse=True)
 _PROV_FULLS_BY_LEN = sorted(set(PROVINCES.values()), key=len, reverse=True)
 _CITIES_BY_LEN = sorted(CITY_NAMES, key=len, reverse=True)
 
-# 前后缀噪声：前缀标签 / 尾部括号备注 / 尾随标点
-_LABEL_RE = re.compile(r"^[一-鿿]{1,4}[：:]")              # 「地址：」「住址:」
-_PAREN_RE = re.compile(r"[（(][^）)]{1,10}[）)]\s*$")        # 「（收货地址）」「（已搬迁）」
-_PUNCT = "。，,.、！!?？；;～~“”\"'’‘"
-# 空白（含全角空格 U+3000）+ 常见分隔符，出现在哪里都去掉
-_WS_SEP_RE = re.compile(r"[\s\-－—–·・|｜/／,，、\\_~～]+")
 # 「像不像一个地址」：含数字 + 含至少一个行政区划/道路标记字
 _ADDR_MARKER_RE = re.compile(r"[省市区县乡镇路街巷道号栋室层楼单元]")
 
-CONF_STRUCTURAL = 0.9  # 结构清洗命中
-CONF_INFER = 0.7       # 推断层命中（标记补全 / 错字修复）
-CONF_NONE = 0.1        # 无证据：原样返回
+# 结构清洗 / 置信度档位 / 滑窗+单字通用机制在 rules/common.py（四字段共用）。
+
+# 单字轮 + 滑窗轮的守卫表（语义见 common.repair_typos_by_known_words 的 docstring）。
+# `trailing` = 约束②：方位构词（DISTRICT_COMPONENT_WORDS）只有后面紧跟「区」或「城」
+# 才算行政区名（「城东区」可修），否则多半是小区/道路名（「城东雅苑」不修）。
+_GUARDS = {
+    "guard_names": _TYPO_GUARD_NAMES,
+    "need_prev_digit": frozenset({"号", "室"}),
+    "need_next_digit": _DIGIT_NEEDED_SRC,
+    "trailing": (DISTRICT_COMPONENT_WORDS, frozenset("区城")),
+}
 
 # ============================================================ 内部步骤
 
@@ -180,25 +193,6 @@ def _looks_like_address(s: str) -> bool:
     return bool(re.search(r"\d", s)) and bool(_ADDR_MARKER_RE.search(s))
 
 
-def _strip_noise(s: str) -> tuple[str, bool]:
-    """去前缀标签 / 尾部括号备注 / 尾随标点（循环到稳定）。返回 (结果, 是否改动)。"""
-    out = s
-    for _ in range(3):
-        before = out
-        out = _LABEL_RE.sub("", out, count=1)
-        out = _PAREN_RE.sub("", out)
-        out = out.strip(_PUNCT)
-        if out == before:
-            break
-    return out, out != s
-
-
-def _strip_ws_sep(s: str) -> tuple[str, bool]:
-    """去掉串内所有空白与分隔符（无损）。返回 (结果, 是否改动)。"""
-    out = _WS_SEP_RE.sub("", s)
-    return out, out != s
-
-
 def _repair_typos(s: str) -> tuple[str, bool]:
     """错字修复。返回 (结果, 是否改动)；未命中返回原串。
 
@@ -206,41 +200,17 @@ def _repair_typos(s: str) -> tuple[str, bool]:
     第一轮（长度 ≥ 2 的窗口，从长到短）：修完必须**恰等于**某个已知词组
         （行政区划名 / 方位复合词 / 结构词）—— 这是 company 那套滑窗闸门。
     第二轮（单字）：纠正后的字符本身就是结构字（区/路/号/栋…），无需专名作证，
-        但加两条守卫防「拆掉合法地名」，见模块头第 5 条。
+        但加三条守卫防「拆掉合法地名」，见模块头第 5 条。
+
+    **一对多消歧留在本模块**（第 3 条，地址专有）；两轮本体在 common。
     """
     # 一对多先消歧：串尾且前面是数字 → 房间号「室」（地址末位就是房号）
     if s.endswith("式") and len(s) >= 2 and s[-2].isdigit():
         return s[:-1] + "室", True
 
-    max_len = _MAX_KNOWN_LEN
-
-    for k in range(min(max_len, len(s)), 1, -1):          # 窗口从长到短，先命中最长的词组
-        for start in range(0, len(s) - k + 1):
-            window = s[start:start + k]
-            fixed = "".join(TYPO_TO_CORRECT.get(ch, ch) for ch in window)
-            if fixed != window and fixed in _KNOWN_WORDS:
-                return s[:start] + fixed + s[start + k:], True
-
-    for i, ch in enumerate(s):
-        new = TYPO_TO_CORRECT.get(ch)
-        if new is None or new not in _SINGLE_CHAR_OK:
-            continue
-        # 守卫 1：此位置不是某个已知地名/词组的开头（否则「曲靖」→「区靖」，「曲阜」→「区阜」）
-        if any(s[i:i + m] in _KNOWN_WORDS or s[i:i + m] in _TYPO_GUARD_NAMES
-               for m in range(2, max_len + 1) if i + m <= len(s)):
-            continue
-        # 守卫 2：门牌/房号永远跟在数字后面（否则路名里的「豪」→「号」）
-        if new in ("号", "室") and not (i > 0 and s[i - 1].isdigit()):
-            continue
-        # 守卫 3：路/栋/道 后面必跟门牌数字，否则该字多半是专名的一部分
-        # （「雨露路」「洞庭路」「报到路」）⇒ 不动，避免把合法路名改坏。
-        if ch in _DIGIT_NEEDED_SRC:
-            j = i + 1
-            if not (j < len(s) and s[j].isdigit()):
-                continue
-        return s[:i] + new + s[i + 1:], True
-
-    return s, False
+    return repair_typos_by_known_words(
+        s, TYPO_TO_CORRECT, _KNOWN_WORDS, _SINGLE_CHAR_OK, _GUARDS
+    )
 
 
 def _add_city_marker(tail: str) -> tuple[str, bool]:
@@ -294,8 +264,8 @@ def normalize_address(value: str) -> tuple[str, float]:
         return value, CONF_NONE
 
     # 第 1 层：结构清洗（无损）。命中即返回，不叠加第二层推断。
-    stripped, noise_hit = _strip_noise(value)
-    core, sep_hit = _strip_ws_sep(stripped)
+    stripped, noise_hit = strip_noise(value)
+    core, sep_hit = strip_ws_sep(stripped)
     if noise_hit or sep_hit:
         if _looks_like_address(core):
             return core, CONF_STRUCTURAL

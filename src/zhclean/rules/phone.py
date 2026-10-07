@@ -21,6 +21,15 @@ from __future__ import annotations
 
 import re
 
+from .common import (
+    CONF_INFER,
+    CONF_NONE,
+    CONF_STRUCTURAL,
+    apply_table,
+    strip_noise,
+    strip_ws_sep,
+)
+
 # ============================================================ 词典
 
 # 中国大陆手机号：11 位、1[3-9] 开头（校验闸门，判据见模块头）
@@ -42,16 +51,7 @@ CONFUSABLE_TO_DIGIT: dict[str, str] = {
 # 国家码前缀（剥掉后才可能是 11 位国内号）。**只在剩余恰为 11 位时才剥**，避免误伤号段。
 _COUNTRY_CODES = ("0086", "086", "86")
 
-# 前后缀噪声：前缀标签 / 尾部括号备注 / 尾随标点
-_LABEL_RE = re.compile(r"^[一-鿿]{1,4}[：:]")                    # 「电话：」「手机:」
-_PAREN_RE = re.compile(r"[（(][^）)]{1,10}[）)]\s*$")                # 「（微信同号）」
-_PUNCT = "。，,.、！!?？；;～~“”\"'’‘"                               # 首尾标点
-# 空白（含全角空格 U+3000）+ 常见分隔符，出现在哪里都去掉
-_WS_SEP_RE = re.compile(r"[\s\-－—–·・|｜/／,，、\\_~～]+")
-
-CONF_STRUCTURAL = 0.9  # 结构清洗命中
-CONF_TYPO = 0.7        # 形近修复命中（仍是推断）
-CONF_NONE = 0.1        # 无证据：原样返回
+# 形近表是「错 → 正」，逐字直替；结构清洗 / 置信度档位在 rules/common.py（四字段共用）
 
 # ============================================================ 内部步骤
 
@@ -59,25 +59,6 @@ CONF_NONE = 0.1        # 无证据：原样返回
 def _is_valid(digits: str) -> bool:
     """是否像一个中国大陆手机号（11 位、1[3-9] 开头）。校验闸门。"""
     return bool(_CN_MOBILE_RE.match(digits))
-
-
-def _strip_noise(s: str) -> tuple[str, bool]:
-    """去前缀标签 / 尾部括号备注 / 尾随标点（循环到稳定）。返回 (结果, 是否改动)。"""
-    out = s
-    for _ in range(3):
-        before = out
-        out = _LABEL_RE.sub("", out, count=1)
-        out = _PAREN_RE.sub("", out)
-        out = out.strip(_PUNCT)
-        if out == before:
-            break
-    return out, out != s
-
-
-def _strip_ws_sep(s: str) -> tuple[str, bool]:
-    """去掉串内所有空白与分隔符（无损）。返回 (结果, 是否改动)。"""
-    out = _WS_SEP_RE.sub("", s)
-    return out, out != s
 
 
 def _lstrip_plus(s: str) -> tuple[str, bool]:
@@ -93,12 +74,6 @@ def _strip_country(s: str) -> tuple[str, bool]:
             return s[len(cc):], True
     return s, False
 
-
-def _fix_confusables(s: str) -> tuple[str, bool]:
-    """按通用表逐字把形近字母换回数字。返回 (结果, 是否改动)。表里没有的字原样保留。"""
-    out = "".join(CONFUSABLE_TO_DIGIT.get(ch, ch) for ch in s)
-    return out, out != s
-
 # ============================================================ 主入口
 
 
@@ -108,17 +83,17 @@ def normalize_phone(value: str) -> tuple[str, float]:
         return value, CONF_NONE
 
     # 第 1 层：结构清洗（无损）。产物必须过校验才算命中。
-    out, noise_hit = _strip_noise(value)
-    out, sep_hit = _strip_ws_sep(out)
+    out, noise_hit = strip_noise(value)
+    out, sep_hit = strip_ws_sep(out)
     out, plus_hit = _lstrip_plus(out)
     out, cc_hit = _strip_country(out)
     if (noise_hit or sep_hit or plus_hit or cc_hit) and _is_valid(out):
         return out, CONF_STRUCTURAL
 
     # 第 2 层：数字形近修复（推断）。结构清洗后仍不合法时才试，修完再过校验。
-    fixed, typo_hit = _fix_confusables(out)
+    fixed, typo_hit = apply_table(out, CONFUSABLE_TO_DIGIT)
     if typo_hit and _is_valid(fixed):
-        return fixed, CONF_TYPO
+        return fixed, CONF_INFER
 
     # 没证据（含缺位、位数不对、修完仍不合法）：原样返回，交上层。
     return value, CONF_NONE

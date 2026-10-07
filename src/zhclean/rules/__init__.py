@@ -11,8 +11,9 @@ from __future__ import annotations
 from typing import Callable
 
 from .address import normalize_address
+from .common import CONF_NONE
 from .company import normalize_company
-from .person import CONF_NONE, normalize_person
+from .person import normalize_person
 from .phone import normalize_phone
 
 # 注册表：field → handler(value) -> (规范值, 置信度)
