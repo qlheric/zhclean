@@ -41,6 +41,7 @@ git status --porcelain -uall
 - 不许改：<文件/目录>
 - 不许跑：<危险命令，如 rm -rf、生产重启>
 - 不许动：<数据/配置/密钥>
+- **不许读测试数据生成器/词典源来设计规则**（如 `benchmarks/generate.py` 的词典常量）——防留出集反推（zhclean 项目铁律，2026-10-08 RESULT-005 教训固化）。需要了解缺什么只能从 train 集失败样本看，不得 diff 生成器词表、不得从 heldout 反推。
 
 ## 5. 回滚方式
 <怎么退回原状：备份在哪 / git revert 哪个 commit>

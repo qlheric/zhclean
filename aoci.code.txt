@@ -4,7 +4,7 @@
 AGENTS.md[SG9S]: F:仓库级规则入口：手脑方案契约+aoci 索引纪律+口径指针 | R:code:task_plan.md | A:被本仓所有会话首先读取 | S:唯一规则入口；改它须当轮同步下游件
 .gitattributes[FG5T]: F:行尾与文本属性规范（入库统一 LF） | R:code:.gitignore | A:被 git 检出与提交使用 | S:行尾规范影响全量 diff，改前先量
 .gitignore[FG6T]: F:忽略规则：缓存/虚拟环境/编辑器/评测产物 | R:code:pyproject.toml | A:被 git 与所有提交使用 | S:索引件与.handoff 绝不可被忽略
-findings.md[SG6T]: F:环境与事实底账（aoci 口径/手脑方案/环境修复台账） | R:code:task_plan.md | A:开工与复现前先读 | S:只装事实不装计划
+findings.md[SG6S]: F:环境与事实底账（aoci 口径/手脑方案/环境修复台账） | R:code:task_plan.md | A:开工与复现前先读 | S:只装事实不装计划
 LICENSE[SG4T]: F:MIT 开源许可 | R:code:README.md | A:发布引用 | S:版权年与署名改前先问
 progress.md[SG5T]: F:会话日志（谁干了什么，按天追加） | R:code:task_plan.md | A:每轮收工登记 | S:只追加不覆盖历史
 pyproject.toml[FV6T]: F:打包与依赖声明（setuptools+src 布局；dev 组含 pytest） | R:code:src/zhclean/__init__.py | A:uv/pip install -e . | S:包名 zhclean 固定；加依赖须同步锁文件
@@ -25,10 +25,10 @@ llm.py[IN6T]: F:LLM API 兜底客户端（OpenAI 兼容，deepseek/qwen） | R:c
 loop.py[AW9T]: F:手写 Agent Loop：observe→think→act+停止条件+错误恢复+HITL | R:code:src/zhclean/tools/normalize.py | A:被 cli.py 调用 | S:单条失败不中断整体
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/src/zhclean/rules/===
-__init__.py[DG5T]: F:规则库注册与按字段类型分发（person/phone 已注册） | R:code:src/zhclean/rules/person.py | A:被 tools/normalize.py 导入 | S:词典加载失败必须显式报错
+__init__.py[DG5T]: F:规则库注册与分发（person/phone/company 已注册） | R:code:src/zhclean/rules/person.py | A:被 tools/normalize.py 导入 | S:词典加载失败必须显式报错
 address.py[DL7T]: F:地址规则词典（行政区划/道路结构/简称全称） | R:code:src/zhclean/rules/__init__.py | A:被 tools/normalize.py 调用 | S:留出集不得调参；区划数据需权威源
 amount.py[DL6T]: F:金额规则（中文大写/数字/单位归一，M2） | R:code:src/zhclean/rules/__init__.py | A:被 tools/normalize.py 调用 | S:M2 范围；换算口径写死
-company.py[DL7T]: F:公司名规则（后缀/简称/别称映射） | R:code:src/zhclean/rules/__init__.py | A:被 tools/normalize.py 调用 | S:简称映射需证据源
+company.py[DL8S]: F:公司名规则：结构清洗+缩写补全+错字修复（已知词组软闸门） | R:code:src/zhclean/rules/__init__.py | A:被 normalize.py 调用 | S:推断层产物必须恰是已知词组才采纳
 date.py[DL6T]: F:日期规则（多格式归一 ISO，M2） | R:code:src/zhclean/rules/__init__.py | A:被 tools/normalize.py 调用 | S:歧义日期走 HITL 不猜
 person.py[DL8S]: F:人名规则：结构清洗+通用错字表（不叠加推断层） | R:code:src/zhclean/rules/__init__.py | A:被 normalize.py 调用 | S:词典不得针对测试扰动模式调参
 phone.py[DL8M]: F:电话规则：结构清洗+数字形近修复（校验闸门守门） | R:code:src/zhclean/rules/__init__.py | A:被 normalize.py 调用 | S:修完必须过 11 位校验才返回
@@ -40,7 +40,7 @@ dedupe.py[KB8T]: F:dedupe 工具：hash 精确+rapidfuzz 语义去重 | R:code:s
 normalize.py[DB8T]: F:normalize 主接口+置信度接口+字段分发 | R:code:src/zhclean/rules/__init__.py | A:被 loop.py 调用 | S:未知 field 恒等不猜
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.handoff/===
-TASK模板.md[SG6T]: F:派单模板（七项必填：目标/基线/Boundary/Capability/Depends/判据/状态） | R:code:.handoff/RESULT模板.md | A:脑派单时照填 | S:七项必填缺一不可；状态一律写待执行
+TASK模板.md[SG7T]: F:派单模板（七项必填+禁区含留出集纪律） | R:code:.handoff/RESULT模板.md | A:脑派单时照填 | S:七项必填缺一不可；状态一律写待执行
 RESULT模板.md[SG6T]: F:回执模板（判据/命令/输出/证据四项必填+第7节） | R:code:.handoff/TASK模板.md | A:手交活时照填 | S:贴的输出必须与所示命令对得上
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.handoff/inbox/===
@@ -48,7 +48,8 @@ TASK-001.md[SG8T]: F:派单：benchmark 先行（已通过 32311d4） | R:code:b
 TASK-002.md[SG8T]: F:派单：评测脚本（已通过 aab345a） | R:code:benchmarks/evaluate.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-003.md[SG8T]: F:派单：normalize(人名)最小闭环（已通过 e64f6ac） | R:code:src/zhclean/rules/person.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-004.md[SG8T]: F:派单：电话规则（已通过 e44d3b0） | R:code:src/zhclean/rules/phone.py | A:手侧执行入口 | S:状态只有脑能改
-TASK-005.md[SG8T]: F:派单：公司名规则（结构清洗+缩写补全+错字修复） | R:code:src/zhclean/rules/company.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-005.md[SG8T]: F:派单：公司名规则（已通过 01f03d5） | R:code:src/zhclean/rules/company.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-006.md[SG8T]: F:派单：地址规则（四类收尾；generate.py 不可读） | R:code:src/zhclean/rules/address.py | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -67,6 +68,7 @@ RESULT-001.md[SG7T]: F:回执：TASK-001 benchmark 先行交付（已通过） |
 RESULT-002.md[SG7S]: F:回执：TASK-002 评测管线交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-002.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-004.md[SG7S]: F:回执：TASK-004 电话规则交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-004.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-003.md[SG7S]: F:回执：TASK-003 人名最小闭环交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-003.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-005.md[SG7M]: F:回执：TASK-005 公司名交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-005.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改

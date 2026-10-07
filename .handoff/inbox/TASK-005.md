@@ -6,11 +6,11 @@
 | 日期 | 2026-10-07 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/rules/company.py`、`src/zhclean/rules/__init__.py`、`tests/test_company.py`、`benchmarks/results/**`（评测产物，不入库） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib only）；跑 `uv run` / `pytest` 命令；读 `benchmarks/**`、`src/zhclean/rules/person.py`、`phone.py`（参考实现风格）、`task_plan.md`、`findings.md`。**禁止：联网、装包/改依赖、git commit、调用其他 agent、动范围外任何文件** |
 | **_Depends:**（依赖） | TASK-004（已通过，`e44d3b0`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `01f03d5`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -66,3 +66,12 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀。
 - 先看脏集样本再定口径：`uv run --project . python -c "import json;[print(json.loads(l)) for _,l in zip(range(5),open('benchmarks/dirty/company.jsonl',encoding='utf-8'))]"`（如需）。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-005.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。回执申报清单外新文件并贴 §1.5 基线输出。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 154 passed；②`uv run --project . python -m benchmarks.evaluate --impl rules` → exit 0、**company 81.00%**（162/200；space/sep/noise/typo 全 100%、abbrev 5%）、failures 294。
+- 边界检查：手侧 3 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- **结构化代码审查**（3/3 覆盖 100%）：critical/high/medium 0、low 1（typo 表个别条目依赖闭集现状），不阻塞；**数字声称全部机械核验对上**（改坏 0 / 干净值零改动 / 错字表 18/18+2 / 行业词表 30 词且无测试集特有词 / abbrev 天花板 2/40）。
+- 裁决：①采纳「generate.py 不可读」——已写进 TASK 模板禁区（同批入库）+ TASK-006 生效；②address 完成后派维护单合并错字表；③判据 2 改为相对基线。④手自踩铁律主动撤回附证据——**予以肯定不记失分**（机制缺口脑侧已补）。
+- 真实数入账：company heldout 81.00%；总盘 63.25%（506/800）。
+- `_Status: 已完成`；`_Commit: 01f03d5`。

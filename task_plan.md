@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-Phase 3（normalize 四类做透）→ TASK-004 已通过（`e44d3b0`，phone heldout 100%）；**TASK-005（公司名）已派**，手执行中
+Phase 3（normalize 四类做透）→ TASK-005 已通过（`01f03d5`，company heldout 81%）；**TASK-006（地址，最后一类）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-005.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；不通过则写 TASK-006 打回。
+手交 `.handoff/outbox/RESULT-006.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；通过后派维护单（错字表合并 common.py）。
 
 ## Phases
 
@@ -59,8 +59,8 @@ Phase 3（normalize 四类做透）→ TASK-004 已通过（`e44d3b0`，phone he
 
 - [x] normalize(人名) 最小闭环（TASK-003 已通过 `e64f6ac`：规则打底 + 置信度接口 + `--impl rules` 接入；**person heldout 72%**——space/sep/noise 100%、typo 60%、abbrev 0% 属预期）
 - [x] 电话（TASK-004 已通过 `e44d3b0`：结构清洗 + 数字形近修复 + 校验闸门；**phone heldout 100%**）
-- [ ] 公司名（TASK-005 执行中：结构清洗 + 组织形式缩写补全 + 错字修复）
-- [ ] 地址（最复杂，压轴 TASK-006）
+- [x] 公司名（TASK-005 已通过 `01f03d5`：软闸门+缩写补全+错字修复；**company heldout 81%**，改坏 0）
+- [ ] 地址（TASK-006 执行中：最复杂，abbrev 天花板思维 + 已知词组闸门）
 - **Status:** in_progress
 
 ### Phase 4: dedupe + audit
