@@ -11,6 +11,7 @@ pyproject.toml[FV6T]: F:打包与依赖声明（setuptools+src 布局；dev 组�
 README.md[SG6T]: F:项目对外说明：一句话卖点、用法、状态 | R:code:pyproject.toml | A:对外交付件 | S:每次更新必须整理重构不许一味叠加（老大 2026-10-03 令）
 task_plan.md[SG7S]: F:流程规划唯一件：口径锁定/阶段/决策/错误台账 | R:code:README.md | A:开工前先读 | S:状态只有脑能改
 CLAUDE.md[SG9T]: F:手侧契约：手脑方案执行侧规则（机制生成） | R:code:AGENTS.md | A:被手侧会话每次必读 | S:契约块由机制生成勿手改
+uv.lock[FV5T]: F:依赖锁文件（uv 生成） | R:code:pyproject.toml | A:uv sync/run 读取 | S:机器生成勿手改；与 pyproject 同批变更
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/===
 generate.py[TQ8T]: F:程序化扰动生成脏数据；ground truth=扰动前原值 | R:code:src/zhclean/tools/normalize.py | A:python benchmarks/generate.py | S:留出集独立划分防过拟合
@@ -39,3 +40,6 @@ normalize.py[DB8T]: F:normalize 工具：脏值→规范值+置信度（schema �
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.handoff/===
 TASK模板.md[SG6T]: F:派单模板（七项必填：目标/基线/Boundary/Capability/Depends/判据/状态） | R:code:.handoff/RESULT模板.md | A:脑派单时照填 | S:七项必填缺一不可；状态一律写待执行
 RESULT模板.md[SG6T]: F:回执模板（判据/命令/输出/证据四项必填+第7节） | R:code:.handoff/TASK模板.md | A:手交活时照填 | S:贴的输出必须与所示命令对得上
+
+===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.handoff/inbox/===
+TASK-001.md[SG8T]: F:派单：benchmark 先行（干净集+扰动生成器+留出集划分） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改

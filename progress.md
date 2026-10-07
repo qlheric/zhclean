@@ -1,6 +1,14 @@
 # Progress: S2 zhclean 会话日志
 
-## 2026-10-07 · 手侧立项会话（DSH）
+## 2026-10-07 · 脑侧派单会话（DSH）
+
+- **角色反转（老大令）**：本会话 = 脑；手 = 侧边栏 Claude Code（老大开）。脑不写业务代码。
+- 环境预备：pytest 9.1.1 入 dev 依赖 + uv.lock 提交（`cdb02dd`）；判据亲跑通过。
+- **TASK-001 已派**（`.handoff/inbox/TASK-001.md`）：benchmark 先行——干净集 + 扰动生成器 + 留出集划分 + 7 条不变式；`_Boundary:_`/`_Capability:_`/`_Depends:_` 齐。
+- aoci 同步：TASK-001.md + uv.lock 条目补写，check 五净。
+- 下一步：等 `.handoff/outbox/RESULT-001.md` → 亲跑判据验收。
+
+## 2026-10-07 · 手侧立项会话（DSH，已收官）
 
 - 收到 S2 交接件（grilling 对齐版），口径锁定进 `task_plan.md`。
 - 加载技能：aoci-code / using-superpowers / planning-with-files / diagnose-windows-sandbox-acl / brain-hands-handoff（手脑方案正文已读）。

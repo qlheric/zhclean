@@ -16,17 +16,18 @@
 
 ## 开发流程（手脑方案 · 老大 2026-10-07 令）
 
-- **脑**（DSH 对接入口会话）写 `.handoff/inbox/TASK-NNN.md`（七项必填：目标/基线/`_Boundary:_`/`_Capability:_`/`_Depends:_`/判据/状态）；**手**（本会话）读 TASK → 干生产活 → 写 `.handoff/outbox/RESULT-NNN.md`（四项必填：判据/命令/输出/证据）；**状态只有脑能改**。
-- 手**不递归委派**（不调动其他模型写码）、不越 `_Boundary:_`；单条数据失败不中断整体。
-- **索引纪律**：aoci 认知索引先行并随改动同步（`update-entry` + `check`），防止越做越歪。
+- **脑** = 本会话（DSH）：与老大讨论、拆单（`.handoff/inbox/TASK-NNN.md`，七项必填）、亲跑判据验收、改状态、填 `_Commit:_` 并提交。
+- **手** = 侧边栏 Claude Code（老大开终端）：读 TASK → 干生产活 → 写 `.handoff/outbox/RESULT-NNN.md`（四项必填：判据/命令/输出/证据 + 第 7 节「下次接着做什么」），然后停下。
+- **状态只有脑能改**；手不递归委派、不越 `_Boundary:_`；单条数据失败不中断整体。
+- **索引纪律**：aoci 认知索引随每单同步（新文件经 `scope activate` 放行 + 逐文件写条目 + `check`），防止越做越歪。
 
 ## Current Phase
 
-Phase 0（立项骨架）→ **完成**；等脑派 TASK-001
+Phase 1（benchmark 先行）→ **TASK-001 已派**，手执行中
 
 ## Next Step
 
-等脑派 **TASK-001（benchmark 先行）**；收到即开工。
+手交 `.handoff/outbox/RESULT-001.md` 后：亲跑两条判据 → 边界检查 → 置状态 → 提交；不通过则写 TASK-002 打回。
 
 ## Phases
 
@@ -41,11 +42,12 @@ Phase 0（立项骨架）→ **完成**；等脑派 TASK-001
 
 ### Phase 1: benchmark 先行（可核是命门）
 
-- [ ] 干净集（ground truth：人名/地址/电话/公司名 各 N 条）
+- [x] TASK-001 派单（干净集 + 扰动生成器 + 留出集划分 + 不变式测试；schema 契约锁定）
+- [ ] 干净集（ground truth：人名/地址/电话/公司名 各 200 条）
 - [ ] 程序化扰动生成器（加空格/错别字/简称/重复/格式乱；ground truth = 扰动前原值）
-- [ ] 留出集划分（规则库不得针对测试扰动模式调参）
-- [ ] 评测脚本骨架（规范化率 / 去重 recall 计算 + 失败案例落 results/）
-- **Status:** pending
+- [ ] 留出集划分（train:heldout=8:2，规则库不得针对测试扰动模式调参）
+- [ ] 评测脚本（规范化率 / 去重 recall 计算 + 失败案例落 results/）
+- **Status:** in_progress
 
 ### Phase 2: Agent Loop 骨架
 
@@ -91,7 +93,10 @@ Phase 0（立项骨架）→ **完成**；等脑派 TASK-001
 | 目录 `s2-中文脏数据净化器-zhclean`、包名 `zhclean` | 镜像 S1 惯例（`s1-惜字如金-中文省token`） |
 | src 布局 | 交接件 §五 锁定 |
 | 开发走手脑方案 .handoff 单据 | 老大 2026-10-07 令 |
+| **本会话=脑，Claude Code（侧边栏）=手** | 老大 2026-10-07 令（角色反转，脑不写业务代码） |
 | aoci 索引先行 | 老大令「防越做越歪」；条目不含索引件自身（stock-tool 有 code_orphan 教训） |
+| .handoff 单据与锁文件也入索引，逐文件写条目 | 排除规则=覆盖缩减需真人 TTY，且单据本身是认知资产 |
+| pytest 入 dev 依赖（脑侧环境预备） | 手侧判据可离线跑，不碰 pyproject 边界 |
 
 ## Errors Encountered
 
