@@ -40,3 +40,11 @@
 ## 6. 环境修复台账
 
 - 2026-10-07：工作区 `G:\Agentwork_mvp\plan` 沙箱 grantWrite 失败（Win32 5）→ diagnose-windows-sandbox-acl 修复（补 FullControl，verified）。备份/回滚：`G:\Agentwork_mvp\acl-recovery\acl-backup-ce3da07739114289b6a0046e6b4553bc.json(.ps1)`。会话已切完全权限。
+
+## 7. aoci 治理实录（本仓首次跑通，留档复用）
+
+- 流程：`init --locale zh-CN` → `scan` → `update-entry --stdin --source-sha256`（sha 取自 `.aoci\baseline.json`）→ `check` → 提交。
+- **范围治理**：新增 exclude 规则=覆盖缩减 ⇒ **永不能自动授权**，需真人真 TTY（`scope approve`）。本仓最终口径：**不给 .handoff 加排除规则**，TASK/RESULT 单据逐张写索引条目（单据本身就是认知资产）。安全自动变更用 `scope activate` 放行。
+- **sha 错位坑**：`.gitattributes` 的 `eol=lf` 会让 `git add` 就地重写工作区文件（CRLF→LF）→ 基线 sha 失效 → 条目 `code_stale` / `write_conflict`。解法：**用磁盘实算 sha256 作为 `--source-sha256` 重写条目**（内容相同则零写入、只对齐绑定）。
+- **不索引 aoci 三件自身**（aoci.txt / aoci.meta.txt / aoci.code.txt）——stock-tool 把它们写进 code 卷曾产生 code_orphan（volume_ownership_conflict）。
+- 完工态：28 条 / check 五净可提交 / S 覆盖 28/28 / 基线 32 文件。

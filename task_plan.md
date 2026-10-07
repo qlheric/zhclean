@@ -22,7 +22,7 @@
 
 ## Current Phase
 
-Phase 0（立项骨架）→ 本会话完成中
+Phase 0（立项骨架）→ **完成**；等脑派 TASK-001
 
 ## Next Step
 
@@ -33,11 +33,11 @@ Phase 0（立项骨架）→ 本会话完成中
 ### Phase 0: 立项骨架
 
 - [x] 目录结构（§五锁定：src 布局 + tools/ + rules/ + tests/ + benchmarks/）
-- [x] git 初始化 + 基线提交
-- [ ] aoci 认知索引（23 条 + check）
-- [ ] .handoff 机制安装（handoff-init.ps1）
-- [ ] 规划件落盘（task_plan / findings / progress）
-- **Status:** in_progress
+- [x] git 初始化 + 基线提交（3 次提交）
+- [x] aoci 认知索引（28 条，check 五净可提交，S 覆盖 28/28）
+- [x] .handoff 机制安装（handoff-init.ps1：inbox/outbox + 双模板 + AGENTS/CLAUDE 契约块）
+- [x] 规划件落盘（task_plan / findings / progress）
+- **Status:** complete
 
 ### Phase 1: benchmark 先行（可核是命门）
 
@@ -98,6 +98,8 @@ Phase 0（立项骨架）→ 本会话完成中
 | Error | Attempt | Resolution |
 |-------|---------|------------|
 | 沙箱 grantWrite(G:\Agentwork_mvp\plan) 失败（Win32 5） | 1 | diagnose-windows-sandbox-acl 修复：补当前账户 FullControl，读回验证通过；备份/撤销件在 G:\Agentwork_mvp\acl-recovery\ |
+| aoci scope 变化要求 6 项真人 TTY 复核（含 2 条排除规则=覆盖缩减） | 1 | 撤销排除规则 → `scope activate` 放行安全自动变更 → 策略对齐；排除规则改为「.handoff 单据也入索引、逐张写条目」的既定口径 |
+| AGENTS.md 条目 write_conflict（git eol=lf 重写工作区 → 基线 sha 错位） | 1 | 用磁盘实算 sha256 作为 `--source-sha256` 重写 → 零写入对齐，check 转绿 |
 
 ## Notes
 

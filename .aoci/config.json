@@ -126,28 +126,6 @@
         "created_by": "aoci-init",
         "order": 106,
         "enabled": true
-      },
-      {
-        "rule_id": "handoff-inbox",
-        "action": "exclude",
-        "pattern": ".handoff/inbox/**",
-        "pattern_kind": "glob",
-        "reason": "手脑方案动态派单单据，过程件不进代码认知索引",
-        "source": "user",
-        "created_by": "dsh",
-        "order": 0,
-        "enabled": true
-      },
-      {
-        "rule_id": "handoff-outbox",
-        "action": "exclude",
-        "pattern": ".handoff/outbox/**",
-        "pattern_kind": "glob",
-        "reason": "手脑方案动态回执单据，过程件不进代码认知索引",
-        "source": "user",
-        "created_by": "dsh",
-        "order": 0,
-        "enabled": true
       }
     ]
   },
