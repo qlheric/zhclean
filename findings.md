@@ -37,6 +37,8 @@
 - dedupe 依赖 rapidfuzz（pyproject 已声明 ≥3.0）；语义去重阈值需按留出集校准（不得用测试集调参）。
 - 整表清洗（M2）如需 XLSX 支持再引入 openpyxl（当前未加依赖）。
 - 评测口径：规范化率按「规范值 == ground truth」计；去重 recall 按「应合并对是否被合并」计；失败案例落 `benchmarks/results/` 并公开。
+- **benchmark 数据契约（TASK-001 定稿，`32311d4`）**：clean 行三字段（id/field/value）；dirty 行六字段（id/field/value/truth/perturbation/split）；每类 200 干净值 × 5 类扰动 = 1000 脏行；划分 = seed 洗牌后前 20% heldout；同 seed 逐字节一致；`tests/test_benchmark.py` 的 `test_repo_artifacts_fresh` 守着「生成器改动必须重生成产物」。
+- **合成数据已知限制**（不阻塞，规则开发时留意）：区划是「省级+地级+通用区名」随机组合，会出现「上海市西城区」这类不存在的组合；部分名字组合少见；手机号段只保形状不保在用。若要求真实区县对应关系，需要官方行政区划数据源（task_plan Key Question 2）。
 
 ## 6. 环境修复台账
 

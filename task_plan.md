@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-Phase 1（benchmark 先行）→ **TASK-001 已派**，手执行中
+Phase 1（benchmark 先行）→ TASK-001 **已通过**（`32311d4`）；**TASK-002（评测脚本）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-001.md` 后：亲跑两条判据 → 边界检查 → 置状态 → 提交；不通过则写 TASK-002 打回。
+手交 `.handoff/outbox/RESULT-002.md` 后：亲跑两条判据 → 边界检查 → 置状态 → 提交；不通过则写 TASK-003 打回。
 
 ## Phases
 
@@ -42,11 +42,11 @@ Phase 1（benchmark 先行）→ **TASK-001 已派**，手执行中
 
 ### Phase 1: benchmark 先行（可核是命门）
 
-- [x] TASK-001 派单（干净集 + 扰动生成器 + 留出集划分 + 不变式测试；schema 契约锁定）
-- [ ] 干净集（ground truth：人名/地址/电话/公司名 各 200 条）
-- [ ] 程序化扰动生成器（加空格/错别字/简称/重复/格式乱；ground truth = 扰动前原值）
-- [ ] 留出集划分（train:heldout=8:2，规则库不得针对测试扰动模式调参）
-- [ ] 评测脚本（规范化率 / 去重 recall 计算 + 失败案例落 results/）
+- [x] TASK-001 已通过（`32311d4`）：干净集 4×200 + 脏集 4×1000（5 类扰动）+ 留出集 8:2 + 9 条不变式测试
+- [x] 干净集（ground truth：人名/地址/电话/公司名 各 200 条）
+- [x] 程序化扰动生成器（加空格/错别字/简称/重复/格式乱；ground truth = 扰动前原值）
+- [x] 留出集划分（train:heldout=8:2，seed 洗牌前 20% heldout；规则库不得针对测试扰动模式调参）
+- [ ] 评测脚本（TASK-002 执行中：规范化率计算 + 失败案例落 results/ + 能红断言）
 - **Status:** in_progress
 
 ### Phase 2: Agent Loop 骨架

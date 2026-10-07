@@ -14,7 +14,8 @@ CLAUDE.md[SG9T]: F:手侧契约：手脑方案执行侧规则（机制生成） 
 uv.lock[FV5T]: F:依赖锁文件（uv 生成） | R:code:pyproject.toml | A:uv sync/run 读取 | S:机器生成勿手改；与 pyproject 同批变更
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/===
-generate.py[TQ8T]: F:程序化扰动生成脏数据；ground truth=扰动前原值 | R:code:src/zhclean/tools/normalize.py | A:python benchmarks/generate.py | S:留出集独立划分防过拟合
+generate.py[TQ8M]: F:benchmark 数据生成器：4 类干净值+5 类扰动+留出集划分（stdlib） | R:code:tests/test_benchmark.py | A:python -m benchmarks.generate --seed 42 | S:生成器改动必须重生成产物（fresh 测试守卫）
+__init__.py[EG4T]: F:benchmarks 包入口（支持 python -m 调用） | R:code:benchmarks/generate.py | A:import benchmarks | S:只做包声明
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/src/zhclean/===
 __init__.py[EG5T]: F:包入口，导出核心符号与版本 | R:code:src/zhclean/cli.py | A:import zhclean | S:版本号与 pyproject 同步，勿两处改
@@ -42,4 +43,20 @@ TASK模板.md[SG6T]: F:派单模板（七项必填：目标/基线/Boundary/Capa
 RESULT模板.md[SG6T]: F:回执模板（判据/命令/输出/证据四项必填+第7节） | R:code:.handoff/TASK模板.md | A:手交活时照填 | S:贴的输出必须与所示命令对得上
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.handoff/inbox/===
-TASK-001.md[SG8T]: F:派单：benchmark 先行（干净集+扰动生成器+留出集划分） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-001.md[SG8T]: F:派单：benchmark 先行（已通过 32311d4） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-002.md[SG8T]: F:派单：评测脚本（规范化率+失败案例+能红断言） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
+
+===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
+person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+address.jsonl[TQ5S]: F:地址干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+phone.jsonl[TQ5S]: F:电话干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+company.jsonl[TQ5S]: F:公司名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+
+===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/dirty/===
+person.jsonl[TQ5L]: F:人名脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+address.jsonl[TQ5L]: F:地址脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+phone.jsonl[TQ5L]: F:电话脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+company.jsonl[TQ5L]: F:公司名脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+
+===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.handoff/outbox/===
+RESULT-001.md[SG7T]: F:回执：TASK-001 benchmark 先行交付（已通过） | R:code:.handoff/inbox/TASK-001.md | A:脑验收读取 | S:状态只有脑能改
