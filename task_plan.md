@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 3 完成**（四类 normalize 收齐：person 72% / phone 100% / company 81% / address 90.5%，总盘 85.88%）；**TASK-007（维护单：common.py 合并 + 方位构词位置约束）已派**，手执行中
+**Phase 4（dedupe + audit）启动** → TASK-007 已通过（`234fe81`，重构零漂移）；**TASK-008（dedupe 工具）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-007.md` 后验收；之后进入 Phase 4（dedupe + audit）。
+手交 `.handoff/outbox/RESULT-008.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；之后 TASK-009（dedupe 评测接入）。
 
 ## Phases
 
@@ -66,9 +66,10 @@
 
 ### Phase 4: dedupe + audit
 
-- [ ] dedupe：hash 精确去重 + rapidfuzz 语义去重（阈值可配）
-- [ ] audit：清洗报告 + dry-run 预览 + 可回滚
-- **Status:** pending
+- [ ] dedupe 工具（TASK-008 执行中：hash 精确 + rapidfuzz 语义，先规范化后去重）
+- [ ] dedupe 评测接入（同 id 组 = 应合并组，recall 实测报数）
+- [ ] audit 工具（清洗报告 + dry-run 预览 + 可回滚）
+- **Status:** in_progress
 
 ### Phase 5: LLM 兜底 + M1 验收
 

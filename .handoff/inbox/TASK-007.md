@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/rules/common.py`（新建）、`src/zhclean/rules/{person,phone,company,address,__init__}.py`、`tests/test_address.py`（可加约束用例）、`benchmarks/results/**`（评测产物，不入库） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib only）；跑 `uv run` / `pytest` 命令；读 `task_plan.md`、`findings.md`、train 失败样本。**禁止：联网、装包/改依赖、git commit、调用其他 agent、动范围外任何文件。⚡ 特别禁止：读 `benchmarks/generate.py` 词典常量；禁止从 heldout 反推** |
 | **_Depends:**（依赖） | TASK-006（已通过，`ddedddc`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `234fe81`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -62,3 +62,11 @@ git status --porcelain -uall
 - 这是 TASK-005 §6-2 / RESULT-006 §6-1 建议、脑裁决后的维护单——**目标是去重与口径收敛，不是加功能**。
 - 重构顺序建议：先写 common.py → 逐个字段切 import → 每切一个跑一次 pytest 保绿 → 最后加约束② + 用例 → 跑判据 2 对比数字。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-007.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 229 passed；②`uv run --project . python -m benchmarks.evaluate --impl rules` → exit 0、**逐位零漂移**（address 90.5%、总盘 85.88%、failures 113 与重构前完全相同）。
+- 边界检查：7 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- **结构化代码审查**（7/7 覆盖 100%）：critical/high/medium 0、low 1（common 默认守卫表与各字段自传表重复定义，未来收敛），不阻塞。
+- `CONF_TYPO→CONF_INFER` 纯改名（值 0.7 不变）认可。RuntimeWarning 为 `-m` 固有现象，非缺陷。
+- `_Status: 已完成`；`_Commit: 234fe81`。
