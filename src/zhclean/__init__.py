@@ -6,6 +6,8 @@ A: import zhclean
 S: 不写业务逻辑，只做导出与版本声明
 """
 
+from .tools.normalize import normalize, normalize_with_confidence
+
 __version__ = "0.1.0"
 
-__all__ = ["__version__"]
+__all__ = ["__version__", "normalize", "normalize_with_confidence"]
