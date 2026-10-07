@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# DSH harness 内部记录（非项目内容）
+review-receipts/
+
+# 注意：aoci 索引件（aoci.txt / aoci.meta.txt / aoci.code.txt / .aoci/）
+# 与 .handoff/ 单据必须进 git，绝不可忽略。

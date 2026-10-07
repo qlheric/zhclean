@@ -1,0 +1,17 @@
+[project]
+name = "zhclean"
+version = "0.1.0"
+description = "中文脏数据净化器 —— 给你的 agent 一个中文脏数据清洗基础设施（规范化 + 去重 + 清洗报告）"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "rapidfuzz>=3.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["zhclean", "zhclean.tools", "zhclean.rules"]
