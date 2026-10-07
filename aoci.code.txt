@@ -7,7 +7,7 @@ AGENTS.md[SG9S]: F:仓库级规则入口：手脑方案契约+aoci 索引纪律+
 findings.md[SG6T]: F:环境与事实底账（aoci 口径/手脑方案/环境修复台账） | R:code:task_plan.md | A:开工与复现前先读 | S:只装事实不装计划
 LICENSE[SG4T]: F:MIT 开源许可 | R:code:README.md | A:发布引用 | S:版权年与署名改前先问
 progress.md[SG5T]: F:会话日志（谁干了什么，按天追加） | R:code:task_plan.md | A:每轮收工登记 | S:只追加不覆盖历史
-pyproject.toml[FV6T]: F:打包与依赖声明（setuptools+src 布局） | R:code:src/zhclean/__init__.py | A:uv/pip install -e . | S:包名 zhclean 固定；加依赖须同步锁文件
+pyproject.toml[FV6T]: F:打包与依赖声明（setuptools+src 布局；dev 组含 pytest） | R:code:src/zhclean/__init__.py | A:uv/pip install -e . | S:包名 zhclean 固定；加依赖须同步锁文件
 README.md[SG6T]: F:项目对外说明：一句话卖点、用法、状态 | R:code:pyproject.toml | A:对外交付件 | S:每次更新必须整理重构不许一味叠加（老大 2026-10-03 令）
 task_plan.md[SG7S]: F:流程规划唯一件：口径锁定/阶段/决策/错误台账 | R:code:README.md | A:开工前先读 | S:状态只有脑能改
 CLAUDE.md[SG9T]: F:手侧契约：手脑方案执行侧规则（机制生成） | R:code:AGENTS.md | A:被手侧会话每次必读 | S:契约块由机制生成勿手改

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-10-07T10:06:36Z",
-  "updated_at": "2026-10-07T10:19:06Z",
+  "updated_at": "2026-10-07T10:36:30Z",
   "files": {
     ".gitattributes": {
       "role": "index",
@@ -53,9 +53,9 @@
     },
     "aoci.code.txt": {
       "role": "index",
-      "sha256": "3ca476101d659bfc2d071b7dd81a9a4be1b0b649225682edbbd204050a3948f3",
-      "size": 5455,
-      "normalized_sha256": "3ca476101d659bfc2d071b7dd81a9a4be1b0b649225682edbbd204050a3948f3"
+      "sha256": "5b0c14021c63326a74d384635e0576b766f6a2858eebcd4b4a16aa20bd12879e",
+      "size": 5475,
+      "normalized_sha256": "5b0c14021c63326a74d384635e0576b766f6a2858eebcd4b4a16aa20bd12879e"
     },
     "aoci.meta.txt": {
       "role": "index",
@@ -89,9 +89,9 @@
     },
     "pyproject.toml": {
       "role": "index",
-      "sha256": "b8e76401ae37008d80641bf7dcd06ff1190fa706afcc09d17c7204e23a78729e",
-      "size": 466,
-      "normalized_sha256": "b8e76401ae37008d80641bf7dcd06ff1190fa706afcc09d17c7204e23a78729e"
+      "sha256": "7a455a73c61ace484f3983c40a6e4ae327d52414dcc78972d99e2f5d65e6792d",
+      "size": 600,
+      "normalized_sha256": "7a455a73c61ace484f3983c40a6e4ae327d52414dcc78972d99e2f5d65e6792d"
     },
     "src/zhclean/__init__.py": {
       "role": "index",
