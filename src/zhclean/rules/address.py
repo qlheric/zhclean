@@ -1,7 +1,314 @@
-"""地址规则词典。
+"""地址规则词典与清洗函数（结构清洗打底，行政区划标记补全 + 通用错字修复兜底）。
 
-F: 行政区划（省/市/县）、道路小区门牌结构、简称全称映射
-R: rules/__init__.py（注册）
-A: 被 tools/normalize.py 调用
-S: 留出集不得调参；行政区划数据需公开权威来源
+F: 地址脏值 → 规范值 + 置信度；去空白/分隔符/前后缀噪声 + 行政区划标记补全 + 通用错字修复
+R: rules/__init__.py（注册表 DISPATCH）
+A: zhclean.normalize(value, "address")
+S: 词典取自通用知识，不得针对测试扰动模式调参（留出集纪律）
+
+置信度阶梯（沿用 person/phone/company 档位）：
+    0.9  结构清洗命中（去空白 / 分隔符 / 前后缀噪声）—— 无损、可验证
+    0.7  推断层命中（行政区划标记补全 / 错字修复）—— 有依据，但本质仍是推断
+    0.1  什么都没做（无证据）→ 原样返回，交给上层（LLM / HITL）
+
+设计取舍（与 person / phone / company 的差异，写清楚免得下一个人照抄错）：
+1. 地址**没有**电话那样的客观校验闸门（「11 位、1[3-9] 开头」），故沿用 person/company 的
+   「**结构层命中即返回、不叠加推断层**」，避免两层推断互相误伤。
+2. 推断层分两支：
+   * **行政区划标记补全**（`_complete_admin`）：只补「串里已经写着、只是缺了标记字」的情况
+     （「贵州贵阳…」→「贵州省贵阳市…」、「梧州滨江区…」→「梧州市滨江区…」）。
+     判据 = 省级单位闭集 ∪ 地级市闭集。**整段省级单位被删**（「贵阳市城关区…」，
+     原省未知）属**恢复**而非规范化 ⇒ 一律不猜，对齐 person/company 的 abbrev 口径。
+   * **错字修复**（`_repair_typos`）：沿用 company 的已知词组滑窗闸门 ——
+     在窗口内逐字修，**修完必须恰等于某个已知词组**才采纳。
+     判据集合 = 结构后缀词 ∪ 行政区划名闭集 ∪ 常见方位复合词（见 DISTRICT_COMPONENT_WORDS）。
+     与 company 的差异：company 的判据集合是**纯闭集**（组织形式 ∪ 行业词），地址做不到 ——
+     **道路名（富民路、中山路）与小区名是开集**，不进判据集合，只能靠其中的
+     **结构字**（路/街/巷/道/号/栋/室/层）兜底。后果是地址的错字修复率天然低于 company
+     （错字落在开集名里就必然漏改）；这条闸门保证的仍是「宁可漏改，绝不改坏」。
+3. 一对多消歧：错字「式」既可能是「市」也可能是「室」，用**位置**判据 ——
+   地址末位是房间号，故「式」在**串尾且前面是数字**时判「室」，其余位置判「市」。
+4. **推断层先试错字、后试补全**（与 company 的顺序相反）。原因：补全层的
+   「省级单位已带后缀」守卫看不出被错字污染的形态（「香港特别行政**曲**」的尾巴不是
+   「特别行政区」），先跑错字层把这类串修正成带后缀的正常形态，补全层就不会误补。
+5. 单字修复（第二轮）加了三条守卫，防的是「把合法的地名/路名改坏」：
+   * 该位置**不是**某个已知地名/词组的开头 —— 否则地级市「曲靖」会被拆成「区靖」，
+     同理单列的 `_TYPO_GUARD_NAMES`（曲阜/曲江/曲阳…）挡掉同类拆解；
+   * 修成「号」「室」时要求**前一位是数字** —— 门牌/房间号永远跟在数字后面，
+     这样路名里的「豪」（如「豪庭路」）不会被改成「号庭路」；
+   * 修成「路」「栋」「道」时要求**后一位是数字**（`_DIGIT_NEEDED_SRC`）——
+     真地址里结构字后面必跟门牌号，否则该字多半是专名的一部分
+     （「雨露路」「洞庭路」「报到路」），此时不动。
+   三条守卫都不依赖测试集：它们只描述「中文地址的结构常识」，故不放宽也不收紧到具体样本。
 """
+
+from __future__ import annotations
+
+import re
+
+# ============================================================ 词典
+
+# 省级行政区（34 个）：简称 → 全称。既是补全判据，也是错字修复的判据集合。
+PROVINCES: dict[str, str] = {
+    "北京": "北京市", "天津": "天津市", "上海": "上海市", "重庆": "重庆市",
+    "河北": "河北省", "山西": "山西省", "辽宁": "辽宁省", "吉林": "吉林省",
+    "黑龙江": "黑龙江省", "江苏": "江苏省", "浙江": "浙江省", "安徽": "安徽省",
+    "福建": "福建省", "江西": "江西省", "山东": "山东省", "河南": "河南省",
+    "湖北": "湖北省", "湖南": "湖南省", "广东": "广东省", "海南": "海南省",
+    "四川": "四川省", "贵州": "贵州省", "云南": "云南省", "陕西": "陕西省",
+    "甘肃": "甘肃省", "青海": "青海省", "台湾": "台湾省",
+    "内蒙古": "内蒙古自治区", "广西": "广西壮族自治区", "西藏": "西藏自治区",
+    "宁夏": "宁夏回族自治区", "新疆": "新疆维吾尔自治区",
+    "香港": "香港特别行政区", "澳门": "澳门特别行政区",
+}
+
+# 常见地级市（含地区/自治州/盟，通用知识整理；不针对测试扰动调参）。
+# 用途有二：(a) 补「市」标记字的判据；(b) 错字修复的判据集合。
+# 缺项只会**漏改**（该市名缺「市」时不补、该位置的错字不修），不会改坏。
+CITY_NAMES = frozenset("""
+石家庄 唐山 秦皇岛 邯郸 邢台 保定 张家口 承德 沧州 廊坊 衡水
+太原 大同 阳泉 长治 晋城 朔州 晋中 运城 忻州 临汾 吕梁
+呼和浩特 包头 乌海 赤峰 通辽 鄂尔多斯 呼伦贝尔 巴彦淖尔 乌兰察布 兴安 锡林郭勒 阿拉善
+沈阳 大连 鞍山 抚顺 本溪 丹东 锦州 营口 阜新 辽阳 盘锦 铁岭 朝阳 葫芦岛
+长春 吉林 四平 辽源 通化 白山 松原 白城 延边
+哈尔滨 齐齐哈尔 鸡西 鹤岗 双鸭山 大庆 伊春 佳木斯 七台河 牡丹江 黑河 绥化 大兴安岭
+南京 无锡 徐州 常州 苏州 南通 连云港 淮安 盐城 扬州 镇江 泰州 宿迁
+杭州 宁波 温州 嘉兴 湖州 绍兴 金华 衢州 舟山 台州 丽水
+合肥 芜湖 蚌埠 淮南 马鞍山 淮北 铜陵 安庆 黄山 滁州 阜阳 宿州 六安 亳州 池州 宣城
+福州 厦门 莆田 三明 泉州 漳州 南平 龙岩 宁德
+南昌 景德镇 萍乡 九江 新余 鹰潭 赣州 吉安 宜春 抚州 上饶
+济南 青岛 淄博 枣庄 东营 烟台 潍坊 济宁 泰安 威海 日照 临沂 德州 聊城 滨州 菏泽
+郑州 开封 洛阳 平顶山 安阳 鹤壁 新乡 焦作 濮阳 许昌 漯河 三门峡 南阳 商丘 信阳 周口 驻马店 济源
+武汉 黄石 十堰 宜昌 襄阳 鄂州 荆门 孝感 荆州 黄冈 咸宁 随州 恩施
+长沙 株洲 湘潭 衡阳 邵阳 岳阳 常德 张家界 益阳 郴州 永州 怀化 娄底 湘西
+广州 韶关 深圳 珠海 汕头 佛山 江门 湛江 茂名 肇庆 惠州 梅州 汕尾 河源 阳江 清远 东莞 中山 潮州 揭阳 云浮
+南宁 柳州 桂林 梧州 北海 防城港 钦州 贵港 玉林 百色 贺州 河池 来宾 崇左
+海口 三亚 三沙 儋州 琼海 文昌 万宁 东方 五指山
+成都 自贡 攀枝花 泸州 德阳 绵阳 广元 遂宁 内江 乐山 南充 眉山 宜宾 广安 达州 雅安 巴中 资阳 阿坝 甘孜 凉山
+贵阳 六盘水 遵义 安顺 毕节 铜仁 黔西南 黔东南 黔南
+昆明 曲靖 玉溪 保山 昭通 丽江 普洱 临沧 楚雄 红河 文山 西双版纳 大理 德宏 怒江 迪庆
+拉萨 日喀则 昌都 林芝 山南 那曲 阿里
+西安 铜川 宝鸡 咸阳 渭南 延安 汉中 榆林 安康 商洛
+兰州 嘉峪关 金昌 白银 天水 武威 张掖 平凉 酒泉 庆阳 定西 陇南 临夏 甘南
+西宁 海东 海北 黄南 果洛 玉树 海西
+银川 石嘴山 吴忠 固原 中卫
+乌鲁木齐 克拉玛依 吐鲁番 哈密 昌吉 博尔塔拉 巴音郭楞 阿克苏 克孜勒苏 喀什 和田 伊犁 塔城 阿勒泰
+台北 高雄 台中 台南 新竹 基隆 嘉义
+""".split())
+
+# 结构性后缀词（语法词，不是专名）。错字修复判据集合的第一部分。
+_ADDR_STRUCT = frozenset({
+    "省", "市", "区", "县", "乡", "镇", "村", "街", "巷", "道", "路", "号",
+    "栋", "幢", "座", "楼", "室", "层", "单元", "组", "队",
+    "大道", "大街", "公路", "环路", "环城路",
+    "开发区", "新区", "高新区", "经济开发区", "高新技术产业开发区", "工业区", "产业园",
+    "自治区", "特别行政区", "新城",
+})
+
+# ⚠️ 判断口径的落点：这 15 个是「方位 + 区/城」型的**通用区名构词**（城东区、河西区、
+# 江南区、高新区…在全国各地重名率高，属常识构词而非某地专名）。把它们放进判据集合，
+# 是为了修「城茜区→城西区」「河冬区→河东区」这类错字；**不含**道路专名（人民路、中山路）
+# 与小区名（开集）。若脑认为这条口径过宽，删掉本集合即可整体收紧，后果仅是这几处漏改。
+DISTRICT_COMPONENT_WORDS = frozenset({
+    "城东", "城西", "城南", "城北", "东城", "西城", "南城", "北城",
+    "市中", "河东", "河西", "江南", "江北", "滨江", "高新",
+})
+
+# 已知词组 = 修复产物必须**恰等于**其中之一（闸门）。
+_KNOWN_WORDS = (
+    _ADDR_STRUCT
+    | DISTRICT_COMPONENT_WORDS
+    | frozenset(PROVINCES)
+    | frozenset(PROVINCES.values())
+    | CITY_NAMES
+)
+
+# 单字修复的放行集合：纠正后的字符本身就是地址结构字（无需专名作证）。
+_SINGLE_CHAR_OK = frozenset("省市区县路道街巷栋座幢层楼室号市")
+
+# 单字修复的守卫名单：**以错字表中字开头**的真实地名（通用地理常识整理）。
+# 作用：单字轮命中这些地名开头的位置时一律不动 —— 否则「曲阜」会被拆成「区阜」。
+# 只列「以错字表中字开头、且不在 CITY_NAMES 里」的地名（地级市由 _KNOWN_WORDS 那条守卫覆盖）。
+_TYPO_GUARD_NAMES = frozenset({"曲阜", "曲江", "曲阳", "曲沃", "曲周", "曲松", "曲麻莱"})
+
+# 单字轮里「纠正后是道路/楼栋标记」的那些原形字：真地址里 路/栋/道 后面必跟门牌数字，
+# 否则该字多半是专名的一部分（「雨露路」「洞庭路」「报到路」）⇒ 不动。
+_DIGIT_NEEDED_SRC = frozenset("露洞到")
+
+_MAX_KNOWN_LEN = max(len(w) for w in _KNOWN_WORDS)
+
+# 通用错字表（错 → 正）。来源：常见中文地址用字的形近/同音混淆（通用知识整理）。
+# 安全性由推断层闸门保证 —— 修完必须恰是某个已知词组，或（单字路径）位置不在已知地名开头。
+TYPO_TO_CORRECT: dict[str, str] = {
+    # 道路 / 门牌结构必现字（每个地址都有）
+    "曲": "区", "豪": "号", "露": "路", "洞": "栋", "到": "道", "太": "大",
+    # 行政区划名用字
+    "洲": "州", "茜": "西", "杨": "阳", "诚": "城", "欣": "新",
+    "楠": "南", "贝": "北", "姜": "江", "杉": "山", "宾": "滨", "冬": "东",
+    # 一对多：串尾（前面是数字）判「室」，其余位置判「市」——见 `_repair_typos`
+    "式": "市",
+}
+
+# 省级全称的后缀开头（用于识别「已经带后缀了，别重复补」）
+_PROV_SUFFIX_HEADS = ("省", "自治区", "特别行政区", "自治", "壮族", "回族", "维吾尔")
+
+_PROV_SHORTS_BY_LEN = sorted(PROVINCES, key=len, reverse=True)
+_PROV_FULLS_BY_LEN = sorted(set(PROVINCES.values()), key=len, reverse=True)
+_CITIES_BY_LEN = sorted(CITY_NAMES, key=len, reverse=True)
+
+# 前后缀噪声：前缀标签 / 尾部括号备注 / 尾随标点
+_LABEL_RE = re.compile(r"^[一-鿿]{1,4}[：:]")              # 「地址：」「住址:」
+_PAREN_RE = re.compile(r"[（(][^）)]{1,10}[）)]\s*$")        # 「（收货地址）」「（已搬迁）」
+_PUNCT = "。，,.、！!?？；;～~“”\"'’‘"
+# 空白（含全角空格 U+3000）+ 常见分隔符，出现在哪里都去掉
+_WS_SEP_RE = re.compile(r"[\s\-－—–·・|｜/／,，、\\_~～]+")
+# 「像不像一个地址」：含数字 + 含至少一个行政区划/道路标记字
+_ADDR_MARKER_RE = re.compile(r"[省市区县乡镇路街巷道号栋室层楼单元]")
+
+CONF_STRUCTURAL = 0.9  # 结构清洗命中
+CONF_INFER = 0.7       # 推断层命中（标记补全 / 错字修复）
+CONF_NONE = 0.1        # 无证据：原样返回
+
+# ============================================================ 内部步骤
+
+
+def _looks_like_address(s: str) -> bool:
+    """清洗后是否「像地址」：含数字 + 含行政区划/道路标记字。
+
+    故意放宽（不要求以「号/室」结尾）：真地址的写法太多，宁可放行清洗结果，
+    也不要把已经洗干净的值退回去。真正的护栏在推断层闸门，不在这里。
+    """
+    return bool(re.search(r"\d", s)) and bool(_ADDR_MARKER_RE.search(s))
+
+
+def _strip_noise(s: str) -> tuple[str, bool]:
+    """去前缀标签 / 尾部括号备注 / 尾随标点（循环到稳定）。返回 (结果, 是否改动)。"""
+    out = s
+    for _ in range(3):
+        before = out
+        out = _LABEL_RE.sub("", out, count=1)
+        out = _PAREN_RE.sub("", out)
+        out = out.strip(_PUNCT)
+        if out == before:
+            break
+    return out, out != s
+
+
+def _strip_ws_sep(s: str) -> tuple[str, bool]:
+    """去掉串内所有空白与分隔符（无损）。返回 (结果, 是否改动)。"""
+    out = _WS_SEP_RE.sub("", s)
+    return out, out != s
+
+
+def _repair_typos(s: str) -> tuple[str, bool]:
+    """错字修复。返回 (结果, 是否改动)；未命中返回原串。
+
+    分两轮，都是「宁可漏改，绝不改坏」：
+    第一轮（长度 ≥ 2 的窗口，从长到短）：修完必须**恰等于**某个已知词组
+        （行政区划名 / 方位复合词 / 结构词）—— 这是 company 那套滑窗闸门。
+    第二轮（单字）：纠正后的字符本身就是结构字（区/路/号/栋…），无需专名作证，
+        但加两条守卫防「拆掉合法地名」，见模块头第 5 条。
+    """
+    # 一对多先消歧：串尾且前面是数字 → 房间号「室」（地址末位就是房号）
+    if s.endswith("式") and len(s) >= 2 and s[-2].isdigit():
+        return s[:-1] + "室", True
+
+    max_len = _MAX_KNOWN_LEN
+
+    for k in range(min(max_len, len(s)), 1, -1):          # 窗口从长到短，先命中最长的词组
+        for start in range(0, len(s) - k + 1):
+            window = s[start:start + k]
+            fixed = "".join(TYPO_TO_CORRECT.get(ch, ch) for ch in window)
+            if fixed != window and fixed in _KNOWN_WORDS:
+                return s[:start] + fixed + s[start + k:], True
+
+    for i, ch in enumerate(s):
+        new = TYPO_TO_CORRECT.get(ch)
+        if new is None or new not in _SINGLE_CHAR_OK:
+            continue
+        # 守卫 1：此位置不是某个已知地名/词组的开头（否则「曲靖」→「区靖」，「曲阜」→「区阜」）
+        if any(s[i:i + m] in _KNOWN_WORDS or s[i:i + m] in _TYPO_GUARD_NAMES
+               for m in range(2, max_len + 1) if i + m <= len(s)):
+            continue
+        # 守卫 2：门牌/房号永远跟在数字后面（否则路名里的「豪」→「号」）
+        if new in ("号", "室") and not (i > 0 and s[i - 1].isdigit()):
+            continue
+        # 守卫 3：路/栋/道 后面必跟门牌数字，否则该字多半是专名的一部分
+        # （「雨露路」「洞庭路」「报到路」）⇒ 不动，避免把合法路名改坏。
+        if ch in _DIGIT_NEEDED_SRC:
+            j = i + 1
+            if not (j < len(s) and s[j].isdigit()):
+                continue
+        return s[:i] + new + s[i + 1:], True
+
+    return s, False
+
+
+def _add_city_marker(tail: str) -> tuple[str, bool]:
+    """tail 以某个地级市简称开头且缺「市」字时补上（「梧州滨江区」→「梧州市滨江区」）。"""
+    for city in _CITIES_BY_LEN:                            # 长名优先（「石嘴山」先于「石嘴」）
+        if not tail.startswith(city) or tail.startswith(city + "市"):
+            continue
+        rest = tail[len(city):]
+        if rest[:1] in ("市", "区", "县"):                  # 「中山区…」是区名，不是「中山市」
+            continue
+        if not re.search(r"[区县]", rest[:6]):              # 市名后面没有区/县 ⇒ 未必是市，不猜
+            continue
+        return city + "市" + rest, True
+    return tail, False
+
+
+def _complete_admin(s: str) -> tuple[str, bool]:
+    """补全行政区划**标记字** —— 只补「串里已写着、只缺标记字」的情况。
+
+    「贵州贵阳…」→「贵州省贵阳市…」、「梧州滨江区…」→「梧州市滨江区…」。
+    **整段省级单位被删**（「贵阳市城关区…」）属恢复而非规范化 ⇒ 不猜、原样返回。
+    返回 (结果, 是否改动)。
+    """
+    hit = False
+    for short in _PROV_SHORTS_BY_LEN:
+        full = PROVINCES[short]
+        if not s.startswith(short) or s.startswith(full):
+            continue
+        rest = s[len(short):]
+        if rest[:1] == "市" or rest.startswith(_PROV_SUFFIX_HEADS):
+            continue                                       # 「吉林市…」是市名；已带后缀的不重复补
+        s, hit = full + rest, True
+        break
+
+    tail = s
+    for full in _PROV_FULLS_BY_LEN:
+        if tail.startswith(full):
+            tail = tail[len(full):]
+            break
+    fixed_tail, city_hit = _add_city_marker(tail)
+    if city_hit:
+        return s[: len(s) - len(tail)] + fixed_tail, True
+    return s, hit
+
+# ============================================================ 主入口
+
+
+def normalize_address(value: str) -> tuple[str, float]:
+    """地址 → (规范值, 置信度)。认不出/无证据时原样返回，不猜。"""
+    if not isinstance(value, str) or not value:
+        return value, CONF_NONE
+
+    # 第 1 层：结构清洗（无损）。命中即返回，不叠加第二层推断。
+    stripped, noise_hit = _strip_noise(value)
+    core, sep_hit = _strip_ws_sep(stripped)
+    if noise_hit or sep_hit:
+        if _looks_like_address(core):
+            return core, CONF_STRUCTURAL
+        return value, CONF_NONE  # 洗出来不像地址：宁可原样返回
+
+    # 第 2 层：结构上本就干净，只剩「错字」或「行政区划标记缺失」两种可能。
+    # 顺序：先错字、后补全（见模块头第 4 条）。
+    repaired, rep_hit = _repair_typos(core)
+    if rep_hit and _looks_like_address(repaired):
+        return repaired, CONF_INFER
+    completed, adm_hit = _complete_admin(core)
+    if adm_hit and _looks_like_address(completed):
+        return completed, CONF_INFER
+
+    # 没证据（含「整段省级单位被删」的不可恢复型）：原样返回，交上层。
+    return value, CONF_NONE
