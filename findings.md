@@ -48,7 +48,7 @@
 
 - **角色**：本会话 = 脑（拆单/验收/改状态/提交，不写业务代码）；手 = 侧边栏 Claude Code（老大开终端）；主人 = 老大（按按钮 + 最终拍板）。
 - **判据环境前提**：脑派单前必须亲跑判据命令（§11.1）。已预装：pytest 9.1.1 进 dev 依赖（`dependency-groups.dev`）+ uv.lock 提交（`cdb02dd`）；判据离线可跑：`uv run --project . pytest tests/ -q`。
-- **aoci 新文件流程（实测）**：新文件出现 → `scope plan`（会报 authoring + 人工复核数，正常）→ `scope activate`（安全自动变更直接应用、刷新 Baseline）→ 逐文件 `update-entry`（先试 baseline sha，write_conflict 时改用磁盘实算 sha）→ `check` 五净 → 提交。**不需要真人 TTY**，每单照此维护。
+- **aoci 新文件流程（实测）**：新文件出现 → `scope plan`（会报 authoring + 人工复核数，正常）→ `scope acknowledge --reviewed-by dsh-brain`（observe 指纹复核，脑=复核人）→ `scope activate`（安全自动变更直接应用、刷新 Baseline）→ 逐文件 `update-entry`（先试 baseline sha，write_conflict 时改用磁盘实算 sha）→ `check` 五净 → 提交。**不需要真人 TTY**，每单照此维护。
 
 ## 7. aoci 治理实录（本仓首次跑通，留档复用）
 
