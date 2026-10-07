@@ -5,6 +5,7 @@
 ## 1. 本机环境（2026-10-07 实测）
 
 - Python 3.14.7（PATH）；uv 0.11.7；Node v24.18.0；pnpm 11.22.0；torch 未装（本项目不需要）。
+- **pytest 未装**（2026-10-07 实测 `No module named pytest`）⇒ 判据命令用 `uv run --project . pytest tests/ -q`（会自动装 dev 依赖），或先 `uv add --dev pytest`。
 - LLM 走 API：DeepSeek 官方 `DEEPSEEK_API_KEY` / 智谱 `ZHIPU_API_KEY`；协议 OpenAI 兼容；**GPT-6 系列用 `max_completion_tokens`（不是 `max_tokens`）**。key 在 `.credentials.yaml`。
 - aoci 工具：`G:\workagent1\tools\aoci\aoci.exe`（0.1.0-rc17）。
 

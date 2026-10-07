@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-10-07T10:06:36Z",
-  "updated_at": "2026-10-07T10:17:24Z",
+  "updated_at": "2026-10-07T10:19:06Z",
   "files": {
     ".gitattributes": {
       "role": "index",
@@ -77,9 +77,9 @@
     },
     "findings.md": {
       "role": "index",
-      "sha256": "07ee0150f01e3d8714619196d38a7162b1972d56042cab4fa25a19e2371a5101",
-      "size": 4831,
-      "normalized_sha256": "07ee0150f01e3d8714619196d38a7162b1972d56042cab4fa25a19e2371a5101"
+      "sha256": "91312f7a244036d2853ab9c72687875c1c36223571dbd07bea2742cd0ecabf5e",
+      "size": 5019,
+      "normalized_sha256": "91312f7a244036d2853ab9c72687875c1c36223571dbd07bea2742cd0ecabf5e"
     },
     "progress.md": {
       "role": "index",
