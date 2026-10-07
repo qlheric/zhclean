@@ -8,9 +8,9 @@ S: 默认只评 heldout；口径逐字符相等，不做空白宽容
 normalize 可插拔：IMPLS 里的函数接收一整行 dirty 记录、返回规范化后的字符串。
 - stub    恒返回原值（能红：规范化率应为 0%）
 - perfect 直接回 truth（能绿：规范化率应为 100%，只用于验证管线本身）
-真实规则后续接入时在 IMPLS 里加一项即可，例如
-    "rules": lambda row: zhclean.normalize(row["field"], row["value"])
-（本单不 import src/zhclean）
+真实规则接入时在 IMPLS 里加一项即可，例如
+    "rules": lambda row: zhclean.normalize(row["value"], row["field"])
+（rules 实现会 import src/zhclean，见文件头 import）
 
 产物：
 - results/summary-<impl>-<split>.json   总分 + by_field + by_perturbation + by_field_perturbation

@@ -1,5 +1,14 @@
 # Progress: S2 zhclean 会话日志
 
+## 2026-10-07 · 脑侧验收会话③（DSH）
+
+- **TASK-003 验收通过**（`e64f6ac`）：判据亲跑（58 passed / person 72%、failures 656）；边界零越界。
+- **代码审查 6/6**（structured-code-review）：critical/high 0、medium 1、low 3，不阻塞；**数字声称全部机械核验对上**（47/31/34、16 条归因、姓氏零缺失）。
+- 三个裁决：import 不算越界（规则改进：边界写「含必要 import」）；接口以 §2.5 为准（docstring 遗留交 TASK-004）；判据统一 uv run 前缀。
+- 脑侧治理：results 产物改不入库（.gitignore + git rm --cached）。
+- **TASK-004 已派**：电话规则（结构清洗 + 数字形近修复）。
+- 下一步：等 RESULT-004 → 亲跑 + 审查验收。
+
 ## 2026-10-07 · 脑侧验收会话②（DSH）
 
 - **TASK-002 验收通过**（`aab345a`）：两条判据亲跑通过（15 passed / stub 0% / perfect 100%）；边界零越界。

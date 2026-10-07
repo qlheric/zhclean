@@ -6,11 +6,11 @@
 | 日期 | 2026-10-07 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/__init__.py`、`src/zhclean/rules/__init__.py`、`src/zhclean/rules/person.py`、`src/zhclean/tools/normalize.py`、`benchmarks/evaluate.py`（**仅**在 IMPLS 加 `"rules"` 一项）、`tests/test_normalize.py`、`benchmarks/results/**`（rules 评测产物） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib only）；跑 `python` / `uv run` / `pytest` 命令；读 `benchmarks/**`、`task_plan.md`、`findings.md`。**禁止：联网、装包/改依赖、git commit、调用其他 agent、动范围外任何文件** |
 | **_Depends:**（依赖） | TASK-002（已通过，`aab345a`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `e64f6ac`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -73,3 +73,12 @@ git status --porcelain -uall
 - 评测口径见 `findings.md` §5：规范化率 = normalize(value) == truth 逐字符相等；失败案例公开（含真值，脱敏开关发布前再加）。
 - 建议实现顺序：先写 test_normalize.py 的代表性用例 → person.py 规则 → normalize 接口 → 接入 evaluate → 跑判据 2 看真实数。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-003.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。回执申报清单外新文件并贴 §1.5 基线输出。
+
+## 7. 验收结论（2026-10-07 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 58 passed；②`uv run --project . python -m benchmarks.evaluate --impl rules` → exit 0、person 72.00%（144/200）、failures 656 < 800。
+- 边界检查：8 个改动文件 ⊆ `_Boundary:_`（零越界；RESULT-003 属交接机制豁免）。
+- **结构化代码审查**（6/6 覆盖 100%）：critical 0 / high 0 / medium 1 / low 3，均不阻塞；数字声称（47/31/34、16 条归因、姓氏零缺失）全部经脑侧脚本机械核验对上。
+- 三个拍板点裁决（详见 RESULT-003 §8）：①import 不算越界（必要前提+已申报）；②接口以 §2.5 为准，docstring 过时注释由 TASK-004 边界内修；③判据加 uv run 前缀合规（本机裸 python 3.14.7 无 zhclean，已亲验）——后续判据统一 `uv run --project . python ...`。
+- 真实数入账：**person heldout 72.00%**（space/sep/noise 100%、typo 60%、abbrev 0% 属预期）。≥95% 是目标不是承诺，如实记录（findings）。
+- `_Status: 已完成`；`_Commit: e64f6ac`。

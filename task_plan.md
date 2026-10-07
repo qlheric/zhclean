@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-Phase 3（normalize 人名最小闭环）→ TASK-002 已通过（`aab345a`）；**TASK-003 已派**，手执行中
+Phase 3（normalize 四类做透）→ TASK-003 已通过（`e64f6ac`，person heldout 72%）；**TASK-004（电话）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-003.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；不通过则写 TASK-004 打回。
+手交 `.handoff/outbox/RESULT-004.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；不通过则写 TASK-005 打回。
 
 ## Phases
 
@@ -57,8 +57,9 @@ Phase 3（normalize 人名最小闭环）→ TASK-002 已通过（`aab345a`）�
 
 ### Phase 3: normalize 四类做透（最小闭环先行）
 
-- [ ] normalize(人名) 打通最小闭环（TASK-003 已派：规则打底 + 置信度接口 + `--impl rules` 评测接入）
-- [ ] 电话 → 地址 → 公司名 逐个补规则词典
+- [x] normalize(人名) 最小闭环（TASK-003 已通过 `e64f6ac`：规则打底 + 置信度接口 + `--impl rules` 接入；**person heldout 72%**——space/sep/noise 100%、typo 60%、abbrev 0% 属预期）
+- [ ] 电话（TASK-004 执行中：结构清洗 + 数字形近修复）
+- [ ] 地址 → 公司名 逐个补规则词典
 - **Status:** in_progress
 
 ### Phase 4: dedupe + audit

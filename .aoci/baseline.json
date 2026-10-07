@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-10-07T10:06:36Z",
-  "updated_at": "2026-10-07T14:15:10Z",
+  "updated_at": "2026-10-07T15:39:25Z",
   "files": {
     ".gitattributes": {
       "role": "index",
@@ -313,6 +313,12 @@
       "sha256": "1035f0a7c612753390c02f2115401b7d81d356202ce54a2b9a3be4fbd436bcce",
       "size": 6615,
       "normalized_sha256": "1035f0a7c612753390c02f2115401b7d81d356202ce54a2b9a3be4fbd436bcce"
+    },
+    "tests/test_normalize.py": {
+      "role": "observe",
+      "sha256": "a05ebcc2462047bc03b275a092e399b02346c68e9a5428ea3abe3cb4ee4d1ed1",
+      "size": 4648,
+      "normalized_sha256": "a05ebcc2462047bc03b275a092e399b02346c68e9a5428ea3abe3cb4ee4d1ed1"
     },
     "tests/test_package.py": {
       "role": "observe",
