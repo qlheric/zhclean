@@ -1,0 +1,168 @@
+{
+  "by_field": {
+    "address": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 200
+    },
+    "company": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 200
+    },
+    "person": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 200
+    },
+    "phone": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 200
+    }
+  },
+  "by_field_perturbation": {
+    "address": {
+      "abbrev": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "noise": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "sep": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "space": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "typo": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      }
+    },
+    "company": {
+      "abbrev": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "noise": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "sep": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "space": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "typo": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      }
+    },
+    "person": {
+      "abbrev": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "noise": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "sep": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "space": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "typo": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      }
+    },
+    "phone": {
+      "abbrev": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "noise": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "sep": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "space": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      },
+      "typo": {
+        "correct": 0,
+        "rate": 0.0,
+        "total": 40
+      }
+    }
+  },
+  "by_perturbation": {
+    "abbrev": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 160
+    },
+    "noise": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 160
+    },
+    "sep": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 160
+    },
+    "space": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 160
+    },
+    "typo": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 160
+    }
+  },
+  "impl": "stub",
+  "split": "heldout",
+  "total": {
+    "correct": 0,
+    "rate": 0.0,
+    "total": 800
+  }
+}
