@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-Phase 1（benchmark 先行）→ TASK-001 **已通过**（`32311d4`）；**TASK-002（评测脚本）已派**，手执行中
+Phase 3（normalize 人名最小闭环）→ TASK-002 已通过（`aab345a`）；**TASK-003 已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-002.md` 后：亲跑两条判据 → 边界检查 → 置状态 → 提交；不通过则写 TASK-003 打回。
+手交 `.handoff/outbox/RESULT-003.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；不通过则写 TASK-004 打回。
 
 ## Phases
 
@@ -46,8 +46,8 @@ Phase 1（benchmark 先行）→ TASK-001 **已通过**（`32311d4`）；**TASK-
 - [x] 干净集（ground truth：人名/地址/电话/公司名 各 200 条）
 - [x] 程序化扰动生成器（加空格/错别字/简称/重复/格式乱；ground truth = 扰动前原值）
 - [x] 留出集划分（train:heldout=8:2，seed 洗牌前 20% heldout；规则库不得针对测试扰动模式调参）
-- [ ] 评测脚本（TASK-002 执行中：规范化率计算 + 失败案例落 results/ + 能红断言）
-- **Status:** in_progress
+- [x] 评测脚本（TASK-002 已通过 `aab345a`：规范化率计算 + 失败案例落 results/ + stub/perfect 能红断言；脑侧结构化代码审查 2/2 通过）
+- **Status:** complete
 
 ### Phase 2: Agent Loop 骨架
 
@@ -57,9 +57,9 @@ Phase 1（benchmark 先行）→ TASK-001 **已通过**（`32311d4`）；**TASK-
 
 ### Phase 3: normalize 四类做透（最小闭环先行）
 
-- [ ] normalize(人名) 打通最小闭环（含置信度、schema 显式）
+- [ ] normalize(人名) 打通最小闭环（TASK-003 已派：规则打底 + 置信度接口 + `--impl rules` 评测接入）
 - [ ] 电话 → 地址 → 公司名 逐个补规则词典
-- **Status:** pending
+- **Status:** in_progress
 
 ### Phase 4: dedupe + audit
 

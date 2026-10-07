@@ -6,11 +6,11 @@
 | 日期 | 2026-10-07 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `benchmarks/evaluate.py`、`benchmarks/results/**`、`tests/test_evaluate.py` |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib only）；跑 `python` / `uv run` / `pytest` 命令；读 `benchmarks/{clean,dirty}/*.jsonl`、`task_plan.md`、`findings.md` 作上下文。**禁止：联网、装包/改依赖、git commit、调用其他 agent、动范围外任何文件（尤其 `src/zhclean/**`）** |
 | **_Depends:**（依赖） | TASK-001（已通过，`32311d4`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `aab345a`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -66,3 +66,12 @@ git status --porcelain -uall
 - dedupe recall 评测留到 dedupe 任务的 TASK（口径建议：同 id 的 clean + 5 条 dirty = 一个「应合并组」，RESULT-001 §6）。
 - 判据环境：pytest 9.1.1 已预装（dev 依赖），`uv run` 离线可用。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-002.md`（判据/命令/输出/证据四项必填 + 第 7 节），然后停下；不动 TASK 状态字段。回执申报清单外新文件并贴 §1.5 基线输出。
+
+## 7. 验收结论（2026-10-07 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 15 passed；②stub 0/800=0.00%、perfect 800/800=100.00%，均 exit 0，4 个产物齐、内容与回执一致。
+- 边界检查：改动文件 ⊆ `_Boundary:_`（零越界；RESULT-002 属交接机制豁免）。
+- **结构化代码审查**（structured-code-review 口径，见 RESULT-002 §8）：可审 2/2 覆盖 100%；critical 0 / high 0 / medium 1 / low 2，均不阻塞。
+- 拍板点（脑定，已落 RESULT-002 §8）：①真实规则注入名定为 **`--impl rules`**；②失败案例含真值属「失败案例公开」口径有意为之，脱敏开关留发布前。
+- 手申报处置：__pycache__ 由 .gitignore 忽略；仓库外 2 个临时目录手未列名、无法定点清理，留系统轮转（无害）。
+- `_Status: 已完成`；`_Commit: aab345a`。
