@@ -51,7 +51,7 @@
 - **遗留 medium 记账**：person.py TYPO_TO_CORRECT 含「田→天」「路→露」「木→沐」「果→国」等与收录标准不自洽条目（heldout 零误伤已核验），后续扩表 TASK 时统一自检。
 - **判据命令规范（2026-10-07 裁定）**：凡 import zhclean 的命令，判据一律 `uv run --project . python ...`（裸 python 3.14.7 无 zhclean）；脑派单前亲跑验证。
 - **评测产物不入库（2026-10-07 脑侧治理）**：`benchmarks/results/*.json(jsonl)` 进 .gitignore（可 100% 重生成）；「失败案例公开」走发布物而非 git 入库。
-- **aoci 已知限制（挂账）**：`remove-entry` 的 CLI 兼容路径报 `volume_read_only`，按设计只能走 MCP 管道（本机未接入）⇒ 4 条已出库评测产物的孤儿条目暂挂账（check 恒 blocked 4 项，属诚实态）。处置：接入 aoci MCP 后 `remove-entry` 清除，或等工具升级；不影响索引使用（孤儿目标文件不存在，不会误导）。⚠️ 真人 TTY approve 双击件三次未产出 approval 工件（交互未走完），2026-10-08 已撤除双击件，不再以该路径清孤儿。
+- **aoci 已知限制（挂账）**：`remove-entry` 的 CLI 路径恒 `volume_read_only`（维护只能走 MCP 的 `aoci_maintain`，本机未接入）⇒ 孤儿条目暂挂账（check 恒 blocked，诚实态）。当前孤儿 5 条 = 4 个已出库评测产物 + 1 条脑侧误写（给 observe 角色的 tests/test_address.py 写了条目）。**教训：observe 角色文件（tests/test_*.py）不得写 code 条目——production profile 的 observe 规则即测试不进索引，写了必成孤儿。** 处置：接入 aoci MCP 后 `aoci_maintain` 一次清；不影响索引使用。⚠️ 真人 TTY approve 双击件三次未产出工件，已撤除该路径。
 - **给老大的 .cmd 必须 GBK 编码**：cmd.exe 按 GBK 解析批处理文件，UTF-8 写的中文路径/echo 全乱（2026-10-07 实测翻车一次）。写法：`[System.IO.File]::WriteAllText(path, content, [System.Text.Encoding]::GetEncoding(936))`。
 
 ## 6. 环境修复台账
