@@ -1,0 +1,1000 @@
+{"id": "address-0001", "field": "address", "value": "贵州省贵阳市城关区建设路596号1栋6单元2　241室", "truth": "贵州省贵阳市城关区建设路596号1栋6单元2241室", "perturbation": "space", "split": "train"}
+{"id": "address-0001", "field": "address", "value": "贵洲省贵阳市城关区建设路596号1栋6单元2241室", "truth": "贵州省贵阳市城关区建设路596号1栋6单元2241室", "perturbation": "typo", "split": "train"}
+{"id": "address-0001", "field": "address", "value": "贵阳市城关区建设路596号1栋6单元2241室", "truth": "贵州省贵阳市城关区建设路596号1栋6单元2241室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0001", "field": "address", "value": "贵州省-贵阳市-城关区-建设路-596号-1栋6单元2241室", "truth": "贵州省贵阳市城关区建设路596号1栋6单元2241室", "perturbation": "sep", "split": "train"}
+{"id": "address-0001", "field": "address", "value": "贵州省贵阳市城关区建设路596号1栋6单元2241室（收货地址）", "truth": "贵州省贵阳市城关区建设路596号1栋6单元2241室", "perturbation": "noise", "split": "train"}
+{"id": "address-0002", "field": "address", "value": "重　庆市经济开发区长江路180号", "truth": "重庆市经济开发区长江路180号", "perturbation": "space", "split": "train"}
+{"id": "address-0002", "field": "address", "value": "重庆市经济开发区长江路180豪", "truth": "重庆市经济开发区长江路180号", "perturbation": "typo", "split": "train"}
+{"id": "address-0002", "field": "address", "value": "经济开发区长江路180号", "truth": "重庆市经济开发区长江路180号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0002", "field": "address", "value": "重庆市-经济开发区-长江路-180号", "truth": "重庆市经济开发区长江路180号", "perturbation": "sep", "split": "train"}
+{"id": "address-0002", "field": "address", "value": "重庆市经济开发区长江路180号（已搬迁）", "truth": "重庆市经济开发区长江路180号", "perturbation": "noise", "split": "train"}
+{"id": "address-0003", "field": "address", "value": "上海市西城区 迎宾大道1579号15栋4单元850室", "truth": "上海市西城区迎宾大道1579号15栋4单元850室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0003", "field": "address", "value": "上海市西城区迎宾大道1579号15洞4单元850室", "truth": "上海市西城区迎宾大道1579号15栋4单元850室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0003", "field": "address", "value": "上海西城区迎宾大道1579号15栋4单元850室", "truth": "上海市西城区迎宾大道1579号15栋4单元850室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0003", "field": "address", "value": "上海市-西城区-迎宾大道-1579号-15栋4单元850室", "truth": "上海市西城区迎宾大道1579号15栋4单元850室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0003", "field": "address", "value": "地址：上海市西城区迎宾大道1579号15栋4单元850室", "truth": "上海市西城区迎宾大道1579号15栋4单元850室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0004", "field": "address", "value": "海南　省海口市市中区科技大道481号19栋3单元2109室", "truth": "海南省海口市市中区科技大道481号19栋3单元2109室", "perturbation": "space", "split": "train"}
+{"id": "address-0004", "field": "address", "value": "海南省海口市式中区科技大道481号19栋3单元2109室", "truth": "海南省海口市市中区科技大道481号19栋3单元2109室", "perturbation": "typo", "split": "train"}
+{"id": "address-0004", "field": "address", "value": "海口市市中区科技大道481号19栋3单元2109室", "truth": "海南省海口市市中区科技大道481号19栋3单元2109室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0004", "field": "address", "value": "海南省，海口市，市中区，科技大道，481号，19栋3单元2109室", "truth": "海南省海口市市中区科技大道481号19栋3单元2109室", "perturbation": "sep", "split": "train"}
+{"id": "address-0004", "field": "address", "value": "地址：海南省海口市市中区科技大道481号19栋3单元2109室", "truth": "海南省海口市市中区科技大道481号19栋3单元2109室", "perturbation": "noise", "split": "train"}
+{"id": "address-0005", "field": "address", "value": "广西壮族自治区梧州市　滨江区民主路452号23栋2单元145室", "truth": "广西壮族自治区梧州市滨江区民主路452号23栋2单元145室", "perturbation": "space", "split": "train"}
+{"id": "address-0005", "field": "address", "value": "广西壮族自治区梧州市滨江区民主路452号23洞2单元145室", "truth": "广西壮族自治区梧州市滨江区民主路452号23栋2单元145室", "perturbation": "typo", "split": "train"}
+{"id": "address-0005", "field": "address", "value": "广西壮族自治区梧州滨江区民主路452号23栋2单元145室", "truth": "广西壮族自治区梧州市滨江区民主路452号23栋2单元145室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0005", "field": "address", "value": "广西壮族自治区-梧州市-滨江区-民主路-452号-23栋2单元145室", "truth": "广西壮族自治区梧州市滨江区民主路452号23栋2单元145室", "perturbation": "sep", "split": "train"}
+{"id": "address-0005", "field": "address", "value": "住址:广西壮族自治区梧州市滨江区民主路452号23栋2单元145室", "truth": "广西壮族自治区梧州市滨江区民主路452号23栋2单元145室", "perturbation": "noise", "split": "train"}
+{"id": "address-0006", "field": "address", "value": "贵州省贵阳市新城 区文化路1159号", "truth": "贵州省贵阳市新城区文化路1159号", "perturbation": "space", "split": "train"}
+{"id": "address-0006", "field": "address", "value": "贵州省贵阳市新城区文化路1159豪", "truth": "贵州省贵阳市新城区文化路1159号", "perturbation": "typo", "split": "train"}
+{"id": "address-0006", "field": "address", "value": "贵州贵阳新城区文化路1159号", "truth": "贵州省贵阳市新城区文化路1159号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0006", "field": "address", "value": "贵州省／贵阳市／新城区／文化路／1159号", "truth": "贵州省贵阳市新城区文化路1159号", "perturbation": "sep", "split": "train"}
+{"id": "address-0006", "field": "address", "value": "住址:贵州省贵阳市新城区文化路1159号", "truth": "贵州省贵阳市新城区文化路1159号", "perturbation": "noise", "split": "train"}
+{"id": "address-0007", "field": "address", "value": "青海省西宁市高新区学院路17　27号", "truth": "青海省西宁市高新区学院路1727号", "perturbation": "space", "split": "train"}
+{"id": "address-0007", "field": "address", "value": "青海省茜宁市高新区学院路1727号", "truth": "青海省西宁市高新区学院路1727号", "perturbation": "typo", "split": "train"}
+{"id": "address-0007", "field": "address", "value": "青海西宁高新区学院路1727号", "truth": "青海省西宁市高新区学院路1727号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0007", "field": "address", "value": "青海省·西宁市·高新区·学院路·1727号", "truth": "青海省西宁市高新区学院路1727号", "perturbation": "sep", "split": "train"}
+{"id": "address-0007", "field": "address", "value": "地址：青海省西宁市高新区学院路1727号", "truth": "青海省西宁市高新区学院路1727号", "perturbation": "noise", "split": "train"}
+{"id": "address-0008", "field": "address", "value": "四川省泸州 市江南区富民路547号", "truth": "四川省泸州市江南区富民路547号", "perturbation": "space", "split": "train"}
+{"id": "address-0008", "field": "address", "value": "四川省泸州市江南区富民露547号", "truth": "四川省泸州市江南区富民路547号", "perturbation": "typo", "split": "train"}
+{"id": "address-0008", "field": "address", "value": "四川泸州江南区富民路547号", "truth": "四川省泸州市江南区富民路547号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0008", "field": "address", "value": "四川省／泸州市／江南区／富民路／547号", "truth": "四川省泸州市江南区富民路547号", "perturbation": "sep", "split": "train"}
+{"id": "address-0008", "field": "address", "value": "四川省泸州市江南区富民路547号（已搬迁）", "truth": "四川省泸州市江南区富民路547号", "perturbation": "noise", "split": "train"}
+{"id": "address-0009", "field": "address", "value": "青　海省西宁市新城区望江路548号27栋4单元2204室", "truth": "青海省西宁市新城区望江路548号27栋4单元2204室", "perturbation": "space", "split": "train"}
+{"id": "address-0009", "field": "address", "value": "青海省西宁市新城区望江路548豪27栋4单元2204室", "truth": "青海省西宁市新城区望江路548号27栋4单元2204室", "perturbation": "typo", "split": "train"}
+{"id": "address-0009", "field": "address", "value": "青海西宁市新城区望江路548号27栋4单元2204室", "truth": "青海省西宁市新城区望江路548号27栋4单元2204室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0009", "field": "address", "value": "青海省／西宁市／新城区／望江路／548号／27栋4单元2204室", "truth": "青海省西宁市新城区望江路548号27栋4单元2204室", "perturbation": "sep", "split": "train"}
+{"id": "address-0009", "field": "address", "value": "住址:青海省西宁市新城区望江路548号27栋4单元2204室", "truth": "青海省西宁市新城区望江路548号27栋4单元2204室", "perturbation": "noise", "split": "train"}
+{"id": "address-0010", "field": "address", "value": "海南省 三亚市新区光明路1611号", "truth": "海南省三亚市新区光明路1611号", "perturbation": "space", "split": "train"}
+{"id": "address-0010", "field": "address", "value": "海南省三亚市欣区光明路1611号", "truth": "海南省三亚市新区光明路1611号", "perturbation": "typo", "split": "train"}
+{"id": "address-0010", "field": "address", "value": "海南三亚市新区光明路1611号", "truth": "海南省三亚市新区光明路1611号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0010", "field": "address", "value": "海南省·三亚市·新区·光明路·1611号", "truth": "海南省三亚市新区光明路1611号", "perturbation": "sep", "split": "train"}
+{"id": "address-0010", "field": "address", "value": "海南省三亚市新区光明路1611号（收货地址）", "truth": "海南省三亚市新区光明路1611号", "perturbation": "noise", "split": "train"}
+{"id": "address-0011", "field": "address", "value": "安徽省安庆市朝阳　区黄河路1017号", "truth": "安徽省安庆市朝阳区黄河路1017号", "perturbation": "space", "split": "train"}
+{"id": "address-0011", "field": "address", "value": "安徽省安庆式朝阳区黄河路1017号", "truth": "安徽省安庆市朝阳区黄河路1017号", "perturbation": "typo", "split": "train"}
+{"id": "address-0011", "field": "address", "value": "安徽安庆朝阳区黄河路1017号", "truth": "安徽省安庆市朝阳区黄河路1017号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0011", "field": "address", "value": "安徽省-安庆市-朝阳区-黄河路-1017号", "truth": "安徽省安庆市朝阳区黄河路1017号", "perturbation": "sep", "split": "train"}
+{"id": "address-0011", "field": "address", "value": "地址：安徽省安庆市朝阳区黄河路1017号", "truth": "安徽省安庆市朝阳区黄河路1017号", "perturbation": "noise", "split": "train"}
+{"id": "address-0012", "field": "address", "value": "北京市河西区胜利　路1427号11栋1单元2112室", "truth": "北京市河西区胜利路1427号11栋1单元2112室", "perturbation": "space", "split": "train"}
+{"id": "address-0012", "field": "address", "value": "北京市河西区胜利路1427豪11栋1单元2112室", "truth": "北京市河西区胜利路1427号11栋1单元2112室", "perturbation": "typo", "split": "train"}
+{"id": "address-0012", "field": "address", "value": "北京河西区胜利路1427号11栋1单元2112室", "truth": "北京市河西区胜利路1427号11栋1单元2112室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0012", "field": "address", "value": "北京市／河西区／胜利路／1427号／11栋1单元2112室", "truth": "北京市河西区胜利路1427号11栋1单元2112室", "perturbation": "sep", "split": "train"}
+{"id": "address-0012", "field": "address", "value": "北京市河西区胜利路1427号11栋1单元2112室。", "truth": "北京市河西区胜利路1427号11栋1单元2112室", "perturbation": "noise", "split": "train"}
+{"id": "address-0013", "field": "address", "value": "陕西省汉 中市江北区人民路758号", "truth": "陕西省汉中市江北区人民路758号", "perturbation": "space", "split": "train"}
+{"id": "address-0013", "field": "address", "value": "陕西省汉中市江北曲人民路758号", "truth": "陕西省汉中市江北区人民路758号", "perturbation": "typo", "split": "train"}
+{"id": "address-0013", "field": "address", "value": "汉中市江北区人民路758号", "truth": "陕西省汉中市江北区人民路758号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0013", "field": "address", "value": "陕西省，汉中市，江北区，人民路，758号", "truth": "陕西省汉中市江北区人民路758号", "perturbation": "sep", "split": "train"}
+{"id": "address-0013", "field": "address", "value": "地址：陕西省汉中市江北区人民路758号", "truth": "陕西省汉中市江北区人民路758号", "perturbation": "noise", "split": "train"}
+{"id": "address-0014", "field": "address", "value": "宁夏回族自治区银 川市市北区长江路617号", "truth": "宁夏回族自治区银川市市北区长江路617号", "perturbation": "space", "split": "train"}
+{"id": "address-0014", "field": "address", "value": "宁夏回族自治区银川式市北区长江路617号", "truth": "宁夏回族自治区银川市市北区长江路617号", "perturbation": "typo", "split": "train"}
+{"id": "address-0014", "field": "address", "value": "宁夏回族自治区银川市北区长江路617号", "truth": "宁夏回族自治区银川市市北区长江路617号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0014", "field": "address", "value": "宁夏回族自治区／银川市／市北区／长江路／617号", "truth": "宁夏回族自治区银川市市北区长江路617号", "perturbation": "sep", "split": "train"}
+{"id": "address-0014", "field": "address", "value": "住址:宁夏回族自治区银川市市北区长江路617号", "truth": "宁夏回族自治区银川市市北区长江路617号", "perturbation": "noise", "split": "train"}
+{"id": "address-0015", "field": "address", "value": "上海市新城区　新华路1074号28栋1单元2215室", "truth": "上海市新城区新华路1074号28栋1单元2215室", "perturbation": "space", "split": "train"}
+{"id": "address-0015", "field": "address", "value": "上海市新城区新华露1074号28栋1单元2215室", "truth": "上海市新城区新华路1074号28栋1单元2215室", "perturbation": "typo", "split": "train"}
+{"id": "address-0015", "field": "address", "value": "上海新城区新华路1074号28栋1单元2215室", "truth": "上海市新城区新华路1074号28栋1单元2215室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0015", "field": "address", "value": "上海市-新城区-新华路-1074号-28栋1单元2215室", "truth": "上海市新城区新华路1074号28栋1单元2215室", "perturbation": "sep", "split": "train"}
+{"id": "address-0015", "field": "address", "value": "上海市新城区新华路1074号28栋1单元2215室（收货地址）", "truth": "上海市新城区新华路1074号28栋1单元2215室", "perturbation": "noise", "split": "train"}
+{"id": "address-0016", "field": "address", "value": "北京市 经济开发区胜利路602号", "truth": "北京市经济开发区胜利路602号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0016", "field": "address", "value": "北京市经济开发曲胜利路602号", "truth": "北京市经济开发区胜利路602号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0016", "field": "address", "value": "北京经济开发区胜利路602号", "truth": "北京市经济开发区胜利路602号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0016", "field": "address", "value": "北京市，经济开发区，胜利路，602号", "truth": "北京市经济开发区胜利路602号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0016", "field": "address", "value": "北京市经济开发区胜利路602号（老地址）", "truth": "北京市经济开发区胜利路602号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0017", "field": "address", "value": "吉林省四　平市河东区创业路1875号26栋5单元180室", "truth": "吉林省四平市河东区创业路1875号26栋5单元180室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0017", "field": "address", "value": "吉林省四平市河东区创业路1875号26洞5单元180室", "truth": "吉林省四平市河东区创业路1875号26栋5单元180室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0017", "field": "address", "value": "吉林四平市河东区创业路1875号26栋5单元180室", "truth": "吉林省四平市河东区创业路1875号26栋5单元180室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0017", "field": "address", "value": "吉林省／四平市／河东区／创业路／1875号／26栋5单元180室", "truth": "吉林省四平市河东区创业路1875号26栋5单元180室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0017", "field": "address", "value": "吉林省四平市河东区创业路1875号26栋5单元180室（老地址）", "truth": "吉林省四平市河东区创业路1875号26栋5单元180室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0018", "field": "address", "value": "江西省九江市城北区滨江路1　832号", "truth": "江西省九江市城北区滨江路1832号", "perturbation": "space", "split": "train"}
+{"id": "address-0018", "field": "address", "value": "江西省九江市城北曲滨江路1832号", "truth": "江西省九江市城北区滨江路1832号", "perturbation": "typo", "split": "train"}
+{"id": "address-0018", "field": "address", "value": "江西九江市城北区滨江路1832号", "truth": "江西省九江市城北区滨江路1832号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0018", "field": "address", "value": "江西省-九江市-城北区-滨江路-1832号", "truth": "江西省九江市城北区滨江路1832号", "perturbation": "sep", "split": "train"}
+{"id": "address-0018", "field": "address", "value": "地址：江西省九江市城北区滨江路1832号", "truth": "江西省九江市城北区滨江路1832号", "perturbation": "noise", "split": "train"}
+{"id": "address-0019", "field": "address", "value": "重庆市城西区长江路1 011号", "truth": "重庆市城西区长江路1011号", "perturbation": "space", "split": "train"}
+{"id": "address-0019", "field": "address", "value": "重庆市城西区长江露1011号", "truth": "重庆市城西区长江路1011号", "perturbation": "typo", "split": "train"}
+{"id": "address-0019", "field": "address", "value": "城西区长江路1011号", "truth": "重庆市城西区长江路1011号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0019", "field": "address", "value": "重庆市·城西区·长江路·1011号", "truth": "重庆市城西区长江路1011号", "perturbation": "sep", "split": "train"}
+{"id": "address-0019", "field": "address", "value": "重庆市城西区长江路1011号（老地址）", "truth": "重庆市城西区长江路1011号", "perturbation": "noise", "split": "train"}
+{"id": "address-0020", "field": "address", "value": "海　南省海口市经济开发区解放路665号4栋1单元1316室", "truth": "海南省海口市经济开发区解放路665号4栋1单元1316室", "perturbation": "space", "split": "train"}
+{"id": "address-0020", "field": "address", "value": "海南省海口市经济开发区解放路665豪4栋1单元1316室", "truth": "海南省海口市经济开发区解放路665号4栋1单元1316室", "perturbation": "typo", "split": "train"}
+{"id": "address-0020", "field": "address", "value": "海南海口经济开发区解放路665号4栋1单元1316室", "truth": "海南省海口市经济开发区解放路665号4栋1单元1316室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0020", "field": "address", "value": "海南省／海口市／经济开发区／解放路／665号／4栋1单元1316室", "truth": "海南省海口市经济开发区解放路665号4栋1单元1316室", "perturbation": "sep", "split": "train"}
+{"id": "address-0020", "field": "address", "value": "海南省海口市经济开发区解放路665号4栋1单元1316室（已搬迁）", "truth": "海南省海口市经济开发区解放路665号4栋1单元1316室", "perturbation": "noise", "split": "train"}
+{"id": "address-0021", "field": "address", "value": "黑龙江省牡丹江市市北区花园路　336号", "truth": "黑龙江省牡丹江市市北区花园路336号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0021", "field": "address", "value": "黑龙江省牡丹江式市北区花园路336号", "truth": "黑龙江省牡丹江市市北区花园路336号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0021", "field": "address", "value": "牡丹江市市北区花园路336号", "truth": "黑龙江省牡丹江市市北区花园路336号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0021", "field": "address", "value": "黑龙江省·牡丹江市·市北区·花园路·336号", "truth": "黑龙江省牡丹江市市北区花园路336号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0021", "field": "address", "value": "黑龙江省牡丹江市市北区花园路336号（老地址）", "truth": "黑龙江省牡丹江市市北区花园路336号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0022", "field": "address", "value": "山西省 太原市城关区科技大道1280号25栋5单元1953室", "truth": "山西省太原市城关区科技大道1280号25栋5单元1953室", "perturbation": "space", "split": "train"}
+{"id": "address-0022", "field": "address", "value": "山西省太原式城关区科技大道1280号25栋5单元1953室", "truth": "山西省太原市城关区科技大道1280号25栋5单元1953室", "perturbation": "typo", "split": "train"}
+{"id": "address-0022", "field": "address", "value": "山西太原市城关区科技大道1280号25栋5单元1953室", "truth": "山西省太原市城关区科技大道1280号25栋5单元1953室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0022", "field": "address", "value": "山西省，太原市，城关区，科技大道，1280号，25栋5单元1953室", "truth": "山西省太原市城关区科技大道1280号25栋5单元1953室", "perturbation": "sep", "split": "train"}
+{"id": "address-0022", "field": "address", "value": "山西省太原市城关区科技大道1280号25栋5单元1953室（收货地址）", "truth": "山西省太原市城关区科技大道1280号25栋5单元1953室", "perturbation": "noise", "split": "train"}
+{"id": "address-0023", "field": "address", "value": "山东省青岛市滨江区新华路1375号21栋5单元1636　室", "truth": "山东省青岛市滨江区新华路1375号21栋5单元1636室", "perturbation": "space", "split": "train"}
+{"id": "address-0023", "field": "address", "value": "山东省青岛市宾江区新华路1375号21栋5单元1636室", "truth": "山东省青岛市滨江区新华路1375号21栋5单元1636室", "perturbation": "typo", "split": "train"}
+{"id": "address-0023", "field": "address", "value": "山东青岛市滨江区新华路1375号21栋5单元1636室", "truth": "山东省青岛市滨江区新华路1375号21栋5单元1636室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0023", "field": "address", "value": "山东省／青岛市／滨江区／新华路／1375号／21栋5单元1636室", "truth": "山东省青岛市滨江区新华路1375号21栋5单元1636室", "perturbation": "sep", "split": "train"}
+{"id": "address-0023", "field": "address", "value": "山东省青岛市滨江区新华路1375号21栋5单元1636室（老地址）", "truth": "山东省青岛市滨江区新华路1375号21栋5单元1636室", "perturbation": "noise", "split": "train"}
+{"id": "address-0024", "field": "address", "value": "云南省红河市新 区团结路467号", "truth": "云南省红河市新区团结路467号", "perturbation": "space", "split": "train"}
+{"id": "address-0024", "field": "address", "value": "云南省红河市新区团结露467号", "truth": "云南省红河市新区团结路467号", "perturbation": "typo", "split": "train"}
+{"id": "address-0024", "field": "address", "value": "红河市新区团结路467号", "truth": "云南省红河市新区团结路467号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0024", "field": "address", "value": "云南省|红河市|新区|团结路|467号", "truth": "云南省红河市新区团结路467号", "perturbation": "sep", "split": "train"}
+{"id": "address-0024", "field": "address", "value": "云南省红河市新区团结路467号（已搬迁）", "truth": "云南省红河市新区团结路467号", "perturbation": "noise", "split": "train"}
+{"id": "address-0025", "field": "address", "value": "江苏省南通市新区学院 路1419号", "truth": "江苏省南通市新区学院路1419号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0025", "field": "address", "value": "江苏省南通市新区学院路1419豪", "truth": "江苏省南通市新区学院路1419号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0025", "field": "address", "value": "江苏南通市新区学院路1419号", "truth": "江苏省南通市新区学院路1419号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0025", "field": "address", "value": "江苏省／南通市／新区／学院路／1419号", "truth": "江苏省南通市新区学院路1419号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0025", "field": "address", "value": "地址：江苏省南通市新区学院路1419号", "truth": "江苏省南通市新区学院路1419号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0026", "field": "address", "value": "辽宁省营口市城西区 望江路63号", "truth": "辽宁省营口市城西区望江路63号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0026", "field": "address", "value": "辽宁省营口市城茜区望江路63号", "truth": "辽宁省营口市城西区望江路63号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0026", "field": "address", "value": "辽宁营口市城西区望江路63号", "truth": "辽宁省营口市城西区望江路63号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0026", "field": "address", "value": "辽宁省|营口市|城西区|望江路|63号", "truth": "辽宁省营口市城西区望江路63号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0026", "field": "address", "value": "辽宁省营口市城西区望江路63号。", "truth": "辽宁省营口市城西区望江路63号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0027", "field": "address", "value": "天津市中山区新华路1958号18栋　6单元260室", "truth": "天津市中山区新华路1958号18栋6单元260室", "perturbation": "space", "split": "train"}
+{"id": "address-0027", "field": "address", "value": "天津市中山区新华露1958号18栋6单元260室", "truth": "天津市中山区新华路1958号18栋6单元260室", "perturbation": "typo", "split": "train"}
+{"id": "address-0027", "field": "address", "value": "中山区新华路1958号18栋6单元260室", "truth": "天津市中山区新华路1958号18栋6单元260室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0027", "field": "address", "value": "天津市|中山区|新华路|1958号|18栋6单元260室", "truth": "天津市中山区新华路1958号18栋6单元260室", "perturbation": "sep", "split": "train"}
+{"id": "address-0027", "field": "address", "value": "地址：天津市中山区新华路1958号18栋6单元260室", "truth": "天津市中山区新华路1958号18栋6单元260室", "perturbation": "noise", "split": "train"}
+{"id": "address-0028", "field": "address", "value": "青　海省海东市高新技术产业开发区富民路557号4栋4单元2446室", "truth": "青海省海东市高新技术产业开发区富民路557号4栋4单元2446室", "perturbation": "space", "split": "train"}
+{"id": "address-0028", "field": "address", "value": "青海省海东市高新技术产业开发曲富民路557号4栋4单元2446室", "truth": "青海省海东市高新技术产业开发区富民路557号4栋4单元2446室", "perturbation": "typo", "split": "train"}
+{"id": "address-0028", "field": "address", "value": "青海海东市高新技术产业开发区富民路557号4栋4单元2446室", "truth": "青海省海东市高新技术产业开发区富民路557号4栋4单元2446室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0028", "field": "address", "value": "青海省，海东市，高新技术产业开发区，富民路，557号，4栋4单元2446室", "truth": "青海省海东市高新技术产业开发区富民路557号4栋4单元2446室", "perturbation": "sep", "split": "train"}
+{"id": "address-0028", "field": "address", "value": "青海省海东市高新技术产业开发区富民路557号4栋4单元2446室（老地址）", "truth": "青海省海东市高新技术产业开发区富民路557号4栋4单元2446室", "perturbation": "noise", "split": "train"}
+{"id": "address-0029", "field": "address", "value": "青海省海东市城西区青年路4号13　栋6单元1412室", "truth": "青海省海东市城西区青年路4号13栋6单元1412室", "perturbation": "space", "split": "train"}
+{"id": "address-0029", "field": "address", "value": "青海省海东市城茜区青年路4号13栋6单元1412室", "truth": "青海省海东市城西区青年路4号13栋6单元1412室", "perturbation": "typo", "split": "train"}
+{"id": "address-0029", "field": "address", "value": "海东市城西区青年路4号13栋6单元1412室", "truth": "青海省海东市城西区青年路4号13栋6单元1412室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0029", "field": "address", "value": "青海省／海东市／城西区／青年路／4号／13栋6单元1412室", "truth": "青海省海东市城西区青年路4号13栋6单元1412室", "perturbation": "sep", "split": "train"}
+{"id": "address-0029", "field": "address", "value": "青海省海东市城西区青年路4号13栋6单元1412室（已搬迁）", "truth": "青海省海东市城西区青年路4号13栋6单元1412室", "perturbation": "noise", "split": "train"}
+{"id": "address-0030", "field": "address", "value": "山西 省长治市高新技术产业开发区迎宾大道1984号27栋6单元2119室", "truth": "山西省长治市高新技术产业开发区迎宾大道1984号27栋6单元2119室", "perturbation": "space", "split": "train"}
+{"id": "address-0030", "field": "address", "value": "山西省长治市高新技术产业开发区迎宾大到1984号27栋6单元2119室", "truth": "山西省长治市高新技术产业开发区迎宾大道1984号27栋6单元2119室", "perturbation": "typo", "split": "train"}
+{"id": "address-0030", "field": "address", "value": "山西长治市高新技术产业开发区迎宾大道1984号27栋6单元2119室", "truth": "山西省长治市高新技术产业开发区迎宾大道1984号27栋6单元2119室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0030", "field": "address", "value": "山西省|长治市|高新技术产业开发区|迎宾大道|1984号|27栋6单元2119室", "truth": "山西省长治市高新技术产业开发区迎宾大道1984号27栋6单元2119室", "perturbation": "sep", "split": "train"}
+{"id": "address-0030", "field": "address", "value": "山西省长治市高新技术产业开发区迎宾大道1984号27栋6单元2119室。", "truth": "山西省长治市高新技术产业开发区迎宾大道1984号27栋6单元2119室", "perturbation": "noise", "split": "train"}
+{"id": "address-0031", "field": "address", "value": "江苏省　扬州市朝阳区黄河路1141号22栋5单元235室", "truth": "江苏省扬州市朝阳区黄河路1141号22栋5单元235室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0031", "field": "address", "value": "江苏省扬州市朝阳区黄河路1141号22洞5单元235室", "truth": "江苏省扬州市朝阳区黄河路1141号22栋5单元235室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0031", "field": "address", "value": "江苏扬州朝阳区黄河路1141号22栋5单元235室", "truth": "江苏省扬州市朝阳区黄河路1141号22栋5单元235室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0031", "field": "address", "value": "江苏省·扬州市·朝阳区·黄河路·1141号·22栋5单元235室", "truth": "江苏省扬州市朝阳区黄河路1141号22栋5单元235室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0031", "field": "address", "value": "江苏省扬州市朝阳区黄河路1141号22栋5单元235室（老地址）", "truth": "江苏省扬州市朝阳区黄河路1141号22栋5单元235室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0032", "field": "address", "value": "广西壮族自治区玉林　市新区兴业路158号", "truth": "广西壮族自治区玉林市新区兴业路158号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0032", "field": "address", "value": "广西壮族自治区玉林市欣区兴业路158号", "truth": "广西壮族自治区玉林市新区兴业路158号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0032", "field": "address", "value": "广西壮族自治区玉林新区兴业路158号", "truth": "广西壮族自治区玉林市新区兴业路158号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0032", "field": "address", "value": "广西壮族自治区／玉林市／新区／兴业路／158号", "truth": "广西壮族自治区玉林市新区兴业路158号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0032", "field": "address", "value": "地址：广西壮族自治区玉林市新区兴业路158号", "truth": "广西壮族自治区玉林市新区兴业路158号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0033", "field": "address", "value": "香港特别行政区城北区望江路8　0号", "truth": "香港特别行政区城北区望江路80号", "perturbation": "space", "split": "train"}
+{"id": "address-0033", "field": "address", "value": "香港特别行政区城北曲望江路80号", "truth": "香港特别行政区城北区望江路80号", "perturbation": "typo", "split": "train"}
+{"id": "address-0033", "field": "address", "value": "城北区望江路80号", "truth": "香港特别行政区城北区望江路80号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0033", "field": "address", "value": "香港特别行政区-城北区-望江路-80号", "truth": "香港特别行政区城北区望江路80号", "perturbation": "sep", "split": "train"}
+{"id": "address-0033", "field": "address", "value": "香港特别行政区城北区望江路80号（已搬迁）", "truth": "香港特别行政区城北区望江路80号", "perturbation": "noise", "split": "train"}
+{"id": "address-0034", "field": "address", "value": "天津市朝阳区光明路150　3号10栋5单元2184室", "truth": "天津市朝阳区光明路1503号10栋5单元2184室", "perturbation": "space", "split": "train"}
+{"id": "address-0034", "field": "address", "value": "天津市朝阳区光明路1503号10洞5单元2184室", "truth": "天津市朝阳区光明路1503号10栋5单元2184室", "perturbation": "typo", "split": "train"}
+{"id": "address-0034", "field": "address", "value": "朝阳区光明路1503号10栋5单元2184室", "truth": "天津市朝阳区光明路1503号10栋5单元2184室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0034", "field": "address", "value": "天津市-朝阳区-光明路-1503号-10栋5单元2184室", "truth": "天津市朝阳区光明路1503号10栋5单元2184室", "perturbation": "sep", "split": "train"}
+{"id": "address-0034", "field": "address", "value": "天津市朝阳区光明路1503号10栋5单元2184室（老地址）", "truth": "天津市朝阳区光明路1503号10栋5单元2184室", "perturbation": "noise", "split": "train"}
+{"id": "address-0035", "field": "address", "value": "河南省许昌市河东区花园路917　号", "truth": "河南省许昌市河东区花园路917号", "perturbation": "space", "split": "train"}
+{"id": "address-0035", "field": "address", "value": "河南省许昌市河东曲花园路917号", "truth": "河南省许昌市河东区花园路917号", "perturbation": "typo", "split": "train"}
+{"id": "address-0035", "field": "address", "value": "河南许昌市河东区花园路917号", "truth": "河南省许昌市河东区花园路917号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0035", "field": "address", "value": "河南省-许昌市-河东区-花园路-917号", "truth": "河南省许昌市河东区花园路917号", "perturbation": "sep", "split": "train"}
+{"id": "address-0035", "field": "address", "value": "河南省许昌市河东区花园路917号（收货地址）", "truth": "河南省许昌市河东区花园路917号", "perturbation": "noise", "split": "train"}
+{"id": "address-0036", "field": "address", "value": "江 西省南昌市新城区中山路1718号", "truth": "江西省南昌市新城区中山路1718号", "perturbation": "space", "split": "train"}
+{"id": "address-0036", "field": "address", "value": "江茜省南昌市新城区中山路1718号", "truth": "江西省南昌市新城区中山路1718号", "perturbation": "typo", "split": "train"}
+{"id": "address-0036", "field": "address", "value": "江西南昌新城区中山路1718号", "truth": "江西省南昌市新城区中山路1718号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0036", "field": "address", "value": "江西省／南昌市／新城区／中山路／1718号", "truth": "江西省南昌市新城区中山路1718号", "perturbation": "sep", "split": "train"}
+{"id": "address-0036", "field": "address", "value": "江西省南昌市新城区中山路1718号（老地址）", "truth": "江西省南昌市新城区中山路1718号", "perturbation": "noise", "split": "train"}
+{"id": "address-0037", "field": "address", "value": "吉林省通化市江北区 北京路1542号1栋2单元394室", "truth": "吉林省通化市江北区北京路1542号1栋2单元394室", "perturbation": "space", "split": "train"}
+{"id": "address-0037", "field": "address", "value": "吉林省通化市姜北区北京路1542号1栋2单元394室", "truth": "吉林省通化市江北区北京路1542号1栋2单元394室", "perturbation": "typo", "split": "train"}
+{"id": "address-0037", "field": "address", "value": "通化市江北区北京路1542号1栋2单元394室", "truth": "吉林省通化市江北区北京路1542号1栋2单元394室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0037", "field": "address", "value": "吉林省·通化市·江北区·北京路·1542号·1栋2单元394室", "truth": "吉林省通化市江北区北京路1542号1栋2单元394室", "perturbation": "sep", "split": "train"}
+{"id": "address-0037", "field": "address", "value": "吉林省通化市江北区北京路1542号1栋2单元394室（老地址）", "truth": "吉林省通化市江北区北京路1542号1栋2单元394室", "perturbation": "noise", "split": "train"}
+{"id": "address-0038", "field": "address", "value": "福建省 莆田市滨江区中山路878号", "truth": "福建省莆田市滨江区中山路878号", "perturbation": "space", "split": "train"}
+{"id": "address-0038", "field": "address", "value": "福建省莆田市滨江曲中山路878号", "truth": "福建省莆田市滨江区中山路878号", "perturbation": "typo", "split": "train"}
+{"id": "address-0038", "field": "address", "value": "福建莆田市滨江区中山路878号", "truth": "福建省莆田市滨江区中山路878号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0038", "field": "address", "value": "福建省|莆田市|滨江区|中山路|878号", "truth": "福建省莆田市滨江区中山路878号", "perturbation": "sep", "split": "train"}
+{"id": "address-0038", "field": "address", "value": "福建省莆田市滨江区中山路878号（老地址）", "truth": "福建省莆田市滨江区中山路878号", "perturbation": "noise", "split": "train"}
+{"id": "address-0039", "field": "address", "value": "广东省中山市城北区学院路 275号7栋4单元2154室", "truth": "广东省中山市城北区学院路275号7栋4单元2154室", "perturbation": "space", "split": "train"}
+{"id": "address-0039", "field": "address", "value": "广东省中山市城北区学院路275豪7栋4单元2154室", "truth": "广东省中山市城北区学院路275号7栋4单元2154室", "perturbation": "typo", "split": "train"}
+{"id": "address-0039", "field": "address", "value": "广东中山城北区学院路275号7栋4单元2154室", "truth": "广东省中山市城北区学院路275号7栋4单元2154室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0039", "field": "address", "value": "广东省|中山市|城北区|学院路|275号|7栋4单元2154室", "truth": "广东省中山市城北区学院路275号7栋4单元2154室", "perturbation": "sep", "split": "train"}
+{"id": "address-0039", "field": "address", "value": "广东省中山市城北区学院路275号7栋4单元2154室。", "truth": "广东省中山市城北区学院路275号7栋4单元2154室", "perturbation": "noise", "split": "train"}
+{"id": "address-0040", "field": "address", "value": "湖南省常德市西城区和 平路1097号", "truth": "湖南省常德市西城区和平路1097号", "perturbation": "space", "split": "train"}
+{"id": "address-0040", "field": "address", "value": "湖南省常德式西城区和平路1097号", "truth": "湖南省常德市西城区和平路1097号", "perturbation": "typo", "split": "train"}
+{"id": "address-0040", "field": "address", "value": "湖南常德市西城区和平路1097号", "truth": "湖南省常德市西城区和平路1097号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0040", "field": "address", "value": "湖南省，常德市，西城区，和平路，1097号", "truth": "湖南省常德市西城区和平路1097号", "perturbation": "sep", "split": "train"}
+{"id": "address-0040", "field": "address", "value": "地址：湖南省常德市西城区和平路1097号", "truth": "湖南省常德市西城区和平路1097号", "perturbation": "noise", "split": "train"}
+{"id": "address-0041", "field": "address", "value": "江西省吉安市高新区迎宾大道882号2 3栋6单元1947室", "truth": "江西省吉安市高新区迎宾大道882号23栋6单元1947室", "perturbation": "space", "split": "train"}
+{"id": "address-0041", "field": "address", "value": "江西省吉安市高欣区迎宾大道882号23栋6单元1947室", "truth": "江西省吉安市高新区迎宾大道882号23栋6单元1947室", "perturbation": "typo", "split": "train"}
+{"id": "address-0041", "field": "address", "value": "江西吉安市高新区迎宾大道882号23栋6单元1947室", "truth": "江西省吉安市高新区迎宾大道882号23栋6单元1947室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0041", "field": "address", "value": "江西省-吉安市-高新区-迎宾大道-882号-23栋6单元1947室", "truth": "江西省吉安市高新区迎宾大道882号23栋6单元1947室", "perturbation": "sep", "split": "train"}
+{"id": "address-0041", "field": "address", "value": "江西省吉安市高新区迎宾大道882号23栋6单元1947室（收货地址）", "truth": "江西省吉安市高新区迎宾大道882号23栋6单元1947室", "perturbation": "noise", "split": "train"}
+{"id": "address-0042", "field": "address", "value": "山西省临汾市城西区迎宾大道1516号16栋6　单元2032室", "truth": "山西省临汾市城西区迎宾大道1516号16栋6单元2032室", "perturbation": "space", "split": "train"}
+{"id": "address-0042", "field": "address", "value": "山西省临汾市城西区迎宾大道1516号16洞6单元2032室", "truth": "山西省临汾市城西区迎宾大道1516号16栋6单元2032室", "perturbation": "typo", "split": "train"}
+{"id": "address-0042", "field": "address", "value": "山西临汾市城西区迎宾大道1516号16栋6单元2032室", "truth": "山西省临汾市城西区迎宾大道1516号16栋6单元2032室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0042", "field": "address", "value": "山西省-临汾市-城西区-迎宾大道-1516号-16栋6单元2032室", "truth": "山西省临汾市城西区迎宾大道1516号16栋6单元2032室", "perturbation": "sep", "split": "train"}
+{"id": "address-0042", "field": "address", "value": "山西省临汾市城西区迎宾大道1516号16栋6单元2032室。", "truth": "山西省临汾市城西区迎宾大道1516号16栋6单元2032室", "perturbation": "noise", "split": "train"}
+{"id": "address-0043", "field": "address", "value": "四川省南充市市中区兴业路1830号10栋2单元　2105室", "truth": "四川省南充市市中区兴业路1830号10栋2单元2105室", "perturbation": "space", "split": "train"}
+{"id": "address-0043", "field": "address", "value": "四川省南充市式中区兴业路1830号10栋2单元2105室", "truth": "四川省南充市市中区兴业路1830号10栋2单元2105室", "perturbation": "typo", "split": "train"}
+{"id": "address-0043", "field": "address", "value": "南充市市中区兴业路1830号10栋2单元2105室", "truth": "四川省南充市市中区兴业路1830号10栋2单元2105室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0043", "field": "address", "value": "四川省·南充市·市中区·兴业路·1830号·10栋2单元2105室", "truth": "四川省南充市市中区兴业路1830号10栋2单元2105室", "perturbation": "sep", "split": "train"}
+{"id": "address-0043", "field": "address", "value": "四川省南充市市中区兴业路1830号10栋2单元2105室（老地址）", "truth": "四川省南充市市中区兴业路1830号10栋2单元2105室", "perturbation": "noise", "split": "train"}
+{"id": "address-0044", "field": "address", "value": "澳门特别行政区朝阳区　长江路43号", "truth": "澳门特别行政区朝阳区长江路43号", "perturbation": "space", "split": "train"}
+{"id": "address-0044", "field": "address", "value": "澳门特别行政区朝阳区长江露43号", "truth": "澳门特别行政区朝阳区长江路43号", "perturbation": "typo", "split": "train"}
+{"id": "address-0044", "field": "address", "value": "朝阳区长江路43号", "truth": "澳门特别行政区朝阳区长江路43号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0044", "field": "address", "value": "澳门特别行政区|朝阳区|长江路|43号", "truth": "澳门特别行政区朝阳区长江路43号", "perturbation": "sep", "split": "train"}
+{"id": "address-0044", "field": "address", "value": "澳门特别行政区朝阳区长江路43号（已搬迁）", "truth": "澳门特别行政区朝阳区长江路43号", "perturbation": "noise", "split": "train"}
+{"id": "address-0045", "field": "address", "value": "甘肃省酒泉市新区 光明路1836号29栋4单元855室", "truth": "甘肃省酒泉市新区光明路1836号29栋4单元855室", "perturbation": "space", "split": "train"}
+{"id": "address-0045", "field": "address", "value": "甘肃省酒泉市新区光明路1836号29洞4单元855室", "truth": "甘肃省酒泉市新区光明路1836号29栋4单元855室", "perturbation": "typo", "split": "train"}
+{"id": "address-0045", "field": "address", "value": "甘肃酒泉新区光明路1836号29栋4单元855室", "truth": "甘肃省酒泉市新区光明路1836号29栋4单元855室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0045", "field": "address", "value": "甘肃省-酒泉市-新区-光明路-1836号-29栋4单元855室", "truth": "甘肃省酒泉市新区光明路1836号29栋4单元855室", "perturbation": "sep", "split": "train"}
+{"id": "address-0045", "field": "address", "value": "甘肃省酒泉市新区光明路1836号29栋4单元855室（收货地址）", "truth": "甘肃省酒泉市新区光明路1836号29栋4单元855室", "perturbation": "noise", "split": "train"}
+{"id": "address-0046", "field": "address", "value": "浙江省金华市西城区 创业路228号12栋5单元425室", "truth": "浙江省金华市西城区创业路228号12栋5单元425室", "perturbation": "space", "split": "train"}
+{"id": "address-0046", "field": "address", "value": "浙江省金华市茜城区创业路228号12栋5单元425室", "truth": "浙江省金华市西城区创业路228号12栋5单元425室", "perturbation": "typo", "split": "train"}
+{"id": "address-0046", "field": "address", "value": "金华市西城区创业路228号12栋5单元425室", "truth": "浙江省金华市西城区创业路228号12栋5单元425室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0046", "field": "address", "value": "浙江省·金华市·西城区·创业路·228号·12栋5单元425室", "truth": "浙江省金华市西城区创业路228号12栋5单元425室", "perturbation": "sep", "split": "train"}
+{"id": "address-0046", "field": "address", "value": "浙江省金华市西城区创业路228号12栋5单元425室（已搬迁）", "truth": "浙江省金华市西城区创业路228号12栋5单元425室", "perturbation": "noise", "split": "train"}
+{"id": "address-0047", "field": "address", "value": "陕西省渭南市江北区　黄河路496号", "truth": "陕西省渭南市江北区黄河路496号", "perturbation": "space", "split": "train"}
+{"id": "address-0047", "field": "address", "value": "陕西省渭南市江北曲黄河路496号", "truth": "陕西省渭南市江北区黄河路496号", "perturbation": "typo", "split": "train"}
+{"id": "address-0047", "field": "address", "value": "陕西渭南市江北区黄河路496号", "truth": "陕西省渭南市江北区黄河路496号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0047", "field": "address", "value": "陕西省，渭南市，江北区，黄河路，496号", "truth": "陕西省渭南市江北区黄河路496号", "perturbation": "sep", "split": "train"}
+{"id": "address-0047", "field": "address", "value": "陕西省渭南市江北区黄河路496号（收货地址）", "truth": "陕西省渭南市江北区黄河路496号", "perturbation": "noise", "split": "train"}
+{"id": "address-0048", "field": "address", "value": "湖南省郴州市城南区新华路1778号3栋1单元1　246室", "truth": "湖南省郴州市城南区新华路1778号3栋1单元1246室", "perturbation": "space", "split": "train"}
+{"id": "address-0048", "field": "address", "value": "湖南省郴州市城南区新华路1778豪3栋1单元1246室", "truth": "湖南省郴州市城南区新华路1778号3栋1单元1246室", "perturbation": "typo", "split": "train"}
+{"id": "address-0048", "field": "address", "value": "湖南郴州城南区新华路1778号3栋1单元1246室", "truth": "湖南省郴州市城南区新华路1778号3栋1单元1246室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0048", "field": "address", "value": "湖南省，郴州市，城南区，新华路，1778号，3栋1单元1246室", "truth": "湖南省郴州市城南区新华路1778号3栋1单元1246室", "perturbation": "sep", "split": "train"}
+{"id": "address-0048", "field": "address", "value": "湖南省郴州市城南区新华路1778号3栋1单元1246室。", "truth": "湖南省郴州市城南区新华路1778号3栋1单元1246室", "perturbation": "noise", "split": "train"}
+{"id": "address-0049", "field": "address", "value": "澳门特别行政区河东区花园路1368号 2栋5单元2289室", "truth": "澳门特别行政区河东区花园路1368号2栋5单元2289室", "perturbation": "space", "split": "train"}
+{"id": "address-0049", "field": "address", "value": "澳门特别行政区河东区花园路1368豪2栋5单元2289室", "truth": "澳门特别行政区河东区花园路1368号2栋5单元2289室", "perturbation": "typo", "split": "train"}
+{"id": "address-0049", "field": "address", "value": "河东区花园路1368号2栋5单元2289室", "truth": "澳门特别行政区河东区花园路1368号2栋5单元2289室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0049", "field": "address", "value": "澳门特别行政区-河东区-花园路-1368号-2栋5单元2289室", "truth": "澳门特别行政区河东区花园路1368号2栋5单元2289室", "perturbation": "sep", "split": "train"}
+{"id": "address-0049", "field": "address", "value": "澳门特别行政区河东区花园路1368号2栋5单元2289室。", "truth": "澳门特别行政区河东区花园路1368号2栋5单元2289室", "perturbation": "noise", "split": "train"}
+{"id": "address-0050", "field": "address", "value": "天津市城东区　兴业路115号28栋4单元1578室", "truth": "天津市城东区兴业路115号28栋4单元1578室", "perturbation": "space", "split": "train"}
+{"id": "address-0050", "field": "address", "value": "天津市诚东区兴业路115号28栋4单元1578室", "truth": "天津市城东区兴业路115号28栋4单元1578室", "perturbation": "typo", "split": "train"}
+{"id": "address-0050", "field": "address", "value": "天津城东区兴业路115号28栋4单元1578室", "truth": "天津市城东区兴业路115号28栋4单元1578室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0050", "field": "address", "value": "天津市-城东区-兴业路-115号-28栋4单元1578室", "truth": "天津市城东区兴业路115号28栋4单元1578室", "perturbation": "sep", "split": "train"}
+{"id": "address-0050", "field": "address", "value": "天津市城东区兴业路115号28栋4单元1578室。", "truth": "天津市城东区兴业路115号28栋4单元1578室", "perturbation": "noise", "split": "train"}
+{"id": "address-0051", "field": "address", "value": "江西省上饶市城东区新华 路1085号", "truth": "江西省上饶市城东区新华路1085号", "perturbation": "space", "split": "train"}
+{"id": "address-0051", "field": "address", "value": "江西省上饶市诚东区新华路1085号", "truth": "江西省上饶市城东区新华路1085号", "perturbation": "typo", "split": "train"}
+{"id": "address-0051", "field": "address", "value": "江西上饶市城东区新华路1085号", "truth": "江西省上饶市城东区新华路1085号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0051", "field": "address", "value": "江西省·上饶市·城东区·新华路·1085号", "truth": "江西省上饶市城东区新华路1085号", "perturbation": "sep", "split": "train"}
+{"id": "address-0051", "field": "address", "value": "地址：江西省上饶市城东区新华路1085号", "truth": "江西省上饶市城东区新华路1085号", "perturbation": "noise", "split": "train"}
+{"id": "address-0052", "field": "address", "value": "贵州　省毕节市江南区科技大道507号8栋6单元1102室", "truth": "贵州省毕节市江南区科技大道507号8栋6单元1102室", "perturbation": "space", "split": "train"}
+{"id": "address-0052", "field": "address", "value": "贵州省毕节市江南区科技大道507号8栋6单元1102式", "truth": "贵州省毕节市江南区科技大道507号8栋6单元1102室", "perturbation": "typo", "split": "train"}
+{"id": "address-0052", "field": "address", "value": "贵州毕节江南区科技大道507号8栋6单元1102室", "truth": "贵州省毕节市江南区科技大道507号8栋6单元1102室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0052", "field": "address", "value": "贵州省-毕节市-江南区-科技大道-507号-8栋6单元1102室", "truth": "贵州省毕节市江南区科技大道507号8栋6单元1102室", "perturbation": "sep", "split": "train"}
+{"id": "address-0052", "field": "address", "value": "住址:贵州省毕节市江南区科技大道507号8栋6单元1102室", "truth": "贵州省毕节市江南区科技大道507号8栋6单元1102室", "perturbation": "noise", "split": "train"}
+{"id": "address-0053", "field": "address", "value": "河南省信阳市河西区朝阳路1179　号", "truth": "河南省信阳市河西区朝阳路1179号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0053", "field": "address", "value": "河南省信阳市河西区朝阳路1179豪", "truth": "河南省信阳市河西区朝阳路1179号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0053", "field": "address", "value": "信阳市河西区朝阳路1179号", "truth": "河南省信阳市河西区朝阳路1179号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0053", "field": "address", "value": "河南省·信阳市·河西区·朝阳路·1179号", "truth": "河南省信阳市河西区朝阳路1179号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0053", "field": "address", "value": "河南省信阳市河西区朝阳路1179号（已搬迁）", "truth": "河南省信阳市河西区朝阳路1179号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0054", "field": "address", "value": "贵州省贵阳市城　西区建设路1748号25栋4单元245室", "truth": "贵州省贵阳市城西区建设路1748号25栋4单元245室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0054", "field": "address", "value": "贵州省贵阳市城西区建设路1748号25洞4单元245室", "truth": "贵州省贵阳市城西区建设路1748号25栋4单元245室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0054", "field": "address", "value": "贵阳市城西区建设路1748号25栋4单元245室", "truth": "贵州省贵阳市城西区建设路1748号25栋4单元245室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0054", "field": "address", "value": "贵州省／贵阳市／城西区／建设路／1748号／25栋4单元245室", "truth": "贵州省贵阳市城西区建设路1748号25栋4单元245室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0054", "field": "address", "value": "地址：贵州省贵阳市城西区建设路1748号25栋4单元245室", "truth": "贵州省贵阳市城西区建设路1748号25栋4单元245室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0055", "field": "address", "value": "吉林省松原市朝阳 区兴业路643号", "truth": "吉林省松原市朝阳区兴业路643号", "perturbation": "space", "split": "train"}
+{"id": "address-0055", "field": "address", "value": "吉林省松原市朝阳区兴业露643号", "truth": "吉林省松原市朝阳区兴业路643号", "perturbation": "typo", "split": "train"}
+{"id": "address-0055", "field": "address", "value": "吉林松原市朝阳区兴业路643号", "truth": "吉林省松原市朝阳区兴业路643号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0055", "field": "address", "value": "吉林省·松原市·朝阳区·兴业路·643号", "truth": "吉林省松原市朝阳区兴业路643号", "perturbation": "sep", "split": "train"}
+{"id": "address-0055", "field": "address", "value": "吉林省松原市朝阳区兴业路643号。", "truth": "吉林省松原市朝阳区兴业路643号", "perturbation": "noise", "split": "train"}
+{"id": "address-0056", "field": "address", "value": "江西省九江市高新区科技大道15　72号", "truth": "江西省九江市高新区科技大道1572号", "perturbation": "space", "split": "train"}
+{"id": "address-0056", "field": "address", "value": "江西省九江市高欣区科技大道1572号", "truth": "江西省九江市高新区科技大道1572号", "perturbation": "typo", "split": "train"}
+{"id": "address-0056", "field": "address", "value": "江西九江高新区科技大道1572号", "truth": "江西省九江市高新区科技大道1572号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0056", "field": "address", "value": "江西省，九江市，高新区，科技大道，1572号", "truth": "江西省九江市高新区科技大道1572号", "perturbation": "sep", "split": "train"}
+{"id": "address-0056", "field": "address", "value": "地址：江西省九江市高新区科技大道1572号", "truth": "江西省九江市高新区科技大道1572号", "perturbation": "noise", "split": "train"}
+{"id": "address-0057", "field": "address", "value": "香港特别行政　区城西区振兴路894号", "truth": "香港特别行政区城西区振兴路894号", "perturbation": "space", "split": "train"}
+{"id": "address-0057", "field": "address", "value": "香港特别行政区城茜区振兴路894号", "truth": "香港特别行政区城西区振兴路894号", "perturbation": "typo", "split": "train"}
+{"id": "address-0057", "field": "address", "value": "城西区振兴路894号", "truth": "香港特别行政区城西区振兴路894号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0057", "field": "address", "value": "香港特别行政区，城西区，振兴路，894号", "truth": "香港特别行政区城西区振兴路894号", "perturbation": "sep", "split": "train"}
+{"id": "address-0057", "field": "address", "value": "香港特别行政区城西区振兴路894号（老地址）", "truth": "香港特别行政区城西区振兴路894号", "perturbation": "noise", "split": "train"}
+{"id": "address-0058", "field": "address", "value": "山西省运城 市鼓楼区中山路218号", "truth": "山西省运城市鼓楼区中山路218号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0058", "field": "address", "value": "山西省运城市鼓楼区中山露218号", "truth": "山西省运城市鼓楼区中山路218号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0058", "field": "address", "value": "运城市鼓楼区中山路218号", "truth": "山西省运城市鼓楼区中山路218号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0058", "field": "address", "value": "山西省，运城市，鼓楼区，中山路，218号", "truth": "山西省运城市鼓楼区中山路218号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0058", "field": "address", "value": "山西省运城市鼓楼区中山路218号（老地址）", "truth": "山西省运城市鼓楼区中山路218号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0059", "field": "address", "value": "山西省运城市市南区世纪 大道101号14栋6单元2000室", "truth": "山西省运城市市南区世纪大道101号14栋6单元2000室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0059", "field": "address", "value": "山西省运城市市南区世纪太道101号14栋6单元2000室", "truth": "山西省运城市市南区世纪大道101号14栋6单元2000室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0059", "field": "address", "value": "运城市市南区世纪大道101号14栋6单元2000室", "truth": "山西省运城市市南区世纪大道101号14栋6单元2000室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0059", "field": "address", "value": "山西省|运城市|市南区|世纪大道|101号|14栋6单元2000室", "truth": "山西省运城市市南区世纪大道101号14栋6单元2000室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0059", "field": "address", "value": "山西省运城市市南区世纪大道101号14栋6单元2000室（收货地址）", "truth": "山西省运城市市南区世纪大道101号14栋6单元2000室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0060", "field": "address", "value": "湖北省十堰市江 南区北京路1908号", "truth": "湖北省十堰市江南区北京路1908号", "perturbation": "space", "split": "train"}
+{"id": "address-0060", "field": "address", "value": "湖北省十堰市江楠区北京路1908号", "truth": "湖北省十堰市江南区北京路1908号", "perturbation": "typo", "split": "train"}
+{"id": "address-0060", "field": "address", "value": "十堰市江南区北京路1908号", "truth": "湖北省十堰市江南区北京路1908号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0060", "field": "address", "value": "湖北省／十堰市／江南区／北京路／1908号", "truth": "湖北省十堰市江南区北京路1908号", "perturbation": "sep", "split": "train"}
+{"id": "address-0060", "field": "address", "value": "住址:湖北省十堰市江南区北京路1908号", "truth": "湖北省十堰市江南区北京路1908号", "perturbation": "noise", "split": "train"}
+{"id": "address-0061", "field": "address", "value": "江西省宜春市经济开发区学院路　255号", "truth": "江西省宜春市经济开发区学院路255号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0061", "field": "address", "value": "江西省宜春市经济开发区学院路255豪", "truth": "江西省宜春市经济开发区学院路255号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0061", "field": "address", "value": "宜春市经济开发区学院路255号", "truth": "江西省宜春市经济开发区学院路255号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0061", "field": "address", "value": "江西省，宜春市，经济开发区，学院路，255号", "truth": "江西省宜春市经济开发区学院路255号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0061", "field": "address", "value": "江西省宜春市经济开发区学院路255号（收货地址）", "truth": "江西省宜春市经济开发区学院路255号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0062", "field": "address", "value": "山西省长治市新城区光明路 1988号", "truth": "山西省长治市新城区光明路1988号", "perturbation": "space", "split": "train"}
+{"id": "address-0062", "field": "address", "value": "山西省长治市新城区光明路1988豪", "truth": "山西省长治市新城区光明路1988号", "perturbation": "typo", "split": "train"}
+{"id": "address-0062", "field": "address", "value": "长治市新城区光明路1988号", "truth": "山西省长治市新城区光明路1988号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0062", "field": "address", "value": "山西省-长治市-新城区-光明路-1988号", "truth": "山西省长治市新城区光明路1988号", "perturbation": "sep", "split": "train"}
+{"id": "address-0062", "field": "address", "value": "山西省长治市新城区光明路1988号（老地址）", "truth": "山西省长治市新城区光明路1988号", "perturbation": "noise", "split": "train"}
+{"id": "address-0063", "field": "address", "value": "四川省乐山市市中区富民路579号17栋3单元187　2室", "truth": "四川省乐山市市中区富民路579号17栋3单元1872室", "perturbation": "space", "split": "train"}
+{"id": "address-0063", "field": "address", "value": "四川省乐山市市中区富民路579号17洞3单元1872室", "truth": "四川省乐山市市中区富民路579号17栋3单元1872室", "perturbation": "typo", "split": "train"}
+{"id": "address-0063", "field": "address", "value": "四川乐山市中区富民路579号17栋3单元1872室", "truth": "四川省乐山市市中区富民路579号17栋3单元1872室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0063", "field": "address", "value": "四川省·乐山市·市中区·富民路·579号·17栋3单元1872室", "truth": "四川省乐山市市中区富民路579号17栋3单元1872室", "perturbation": "sep", "split": "train"}
+{"id": "address-0063", "field": "address", "value": "四川省乐山市市中区富民路579号17栋3单元1872室。", "truth": "四川省乐山市市中区富民路579号17栋3单元1872室", "perturbation": "noise", "split": "train"}
+{"id": "address-0064", "field": "address", "value": "内蒙古自治区呼和浩特市经 济开发区民主路943号27栋1单元2398室", "truth": "内蒙古自治区呼和浩特市经济开发区民主路943号27栋1单元2398室", "perturbation": "space", "split": "train"}
+{"id": "address-0064", "field": "address", "value": "内蒙古自治区呼和浩特市经济开发区民主路943豪27栋1单元2398室", "truth": "内蒙古自治区呼和浩特市经济开发区民主路943号27栋1单元2398室", "perturbation": "typo", "split": "train"}
+{"id": "address-0064", "field": "address", "value": "呼和浩特市经济开发区民主路943号27栋1单元2398室", "truth": "内蒙古自治区呼和浩特市经济开发区民主路943号27栋1单元2398室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0064", "field": "address", "value": "内蒙古自治区|呼和浩特市|经济开发区|民主路|943号|27栋1单元2398室", "truth": "内蒙古自治区呼和浩特市经济开发区民主路943号27栋1单元2398室", "perturbation": "sep", "split": "train"}
+{"id": "address-0064", "field": "address", "value": "内蒙古自治区呼和浩特市经济开发区民主路943号27栋1单元2398室（收货地址）", "truth": "内蒙古自治区呼和浩特市经济开发区民主路943号27栋1单元2398室", "perturbation": "noise", "split": "train"}
+{"id": "address-0065", "field": "address", "value": "宁夏回　族自治区石嘴山市新城区科技大道135号", "truth": "宁夏回族自治区石嘴山市新城区科技大道135号", "perturbation": "space", "split": "train"}
+{"id": "address-0065", "field": "address", "value": "宁夏回族自治曲石嘴山市新城区科技大道135号", "truth": "宁夏回族自治区石嘴山市新城区科技大道135号", "perturbation": "typo", "split": "train"}
+{"id": "address-0065", "field": "address", "value": "石嘴山市新城区科技大道135号", "truth": "宁夏回族自治区石嘴山市新城区科技大道135号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0065", "field": "address", "value": "宁夏回族自治区-石嘴山市-新城区-科技大道-135号", "truth": "宁夏回族自治区石嘴山市新城区科技大道135号", "perturbation": "sep", "split": "train"}
+{"id": "address-0065", "field": "address", "value": "宁夏回族自治区石嘴山市新城区科技大道135号（收货地址）", "truth": "宁夏回族自治区石嘴山市新城区科技大道135号", "perturbation": "noise", "split": "train"}
+{"id": "address-0066", "field": "address", "value": "河北省保定市朝阳区光明路1737 号25栋4单元2144室", "truth": "河北省保定市朝阳区光明路1737号25栋4单元2144室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0066", "field": "address", "value": "河北省保定市朝阳区光明路1737号25洞4单元2144室", "truth": "河北省保定市朝阳区光明路1737号25栋4单元2144室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0066", "field": "address", "value": "保定市朝阳区光明路1737号25栋4单元2144室", "truth": "河北省保定市朝阳区光明路1737号25栋4单元2144室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0066", "field": "address", "value": "河北省·保定市·朝阳区·光明路·1737号·25栋4单元2144室", "truth": "河北省保定市朝阳区光明路1737号25栋4单元2144室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0066", "field": "address", "value": "河北省保定市朝阳区光明路1737号25栋4单元2144室（收货地址）", "truth": "河北省保定市朝阳区光明路1737号25栋4单元2144室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0067", "field": "address", "value": "安徽省滁州市高新技术产业开发区花园路5 64号8栋5单元224室", "truth": "安徽省滁州市高新技术产业开发区花园路564号8栋5单元224室", "perturbation": "space", "split": "train"}
+{"id": "address-0067", "field": "address", "value": "安徽省滁州市高新技术产业开发区花园路564号8洞5单元224室", "truth": "安徽省滁州市高新技术产业开发区花园路564号8栋5单元224室", "perturbation": "typo", "split": "train"}
+{"id": "address-0067", "field": "address", "value": "安徽滁州市高新技术产业开发区花园路564号8栋5单元224室", "truth": "安徽省滁州市高新技术产业开发区花园路564号8栋5单元224室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0067", "field": "address", "value": "安徽省|滁州市|高新技术产业开发区|花园路|564号|8栋5单元224室", "truth": "安徽省滁州市高新技术产业开发区花园路564号8栋5单元224室", "perturbation": "sep", "split": "train"}
+{"id": "address-0067", "field": "address", "value": "住址:安徽省滁州市高新技术产业开发区花园路564号8栋5单元224室", "truth": "安徽省滁州市高新技术产业开发区花园路564号8栋5单元224室", "perturbation": "noise", "split": "train"}
+{"id": "address-0068", "field": "address", "value": "上海市开发区望江路　776号", "truth": "上海市开发区望江路776号", "perturbation": "space", "split": "train"}
+{"id": "address-0068", "field": "address", "value": "上海式开发区望江路776号", "truth": "上海市开发区望江路776号", "perturbation": "typo", "split": "train"}
+{"id": "address-0068", "field": "address", "value": "开发区望江路776号", "truth": "上海市开发区望江路776号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0068", "field": "address", "value": "上海市·开发区·望江路·776号", "truth": "上海市开发区望江路776号", "perturbation": "sep", "split": "train"}
+{"id": "address-0068", "field": "address", "value": "住址:上海市开发区望江路776号", "truth": "上海市开发区望江路776号", "perturbation": "noise", "split": "train"}
+{"id": "address-0069", "field": "address", "value": "山西省临汾市鼓楼区长江 路697号", "truth": "山西省临汾市鼓楼区长江路697号", "perturbation": "space", "split": "train"}
+{"id": "address-0069", "field": "address", "value": "山西省临汾市鼓楼区长江露697号", "truth": "山西省临汾市鼓楼区长江路697号", "perturbation": "typo", "split": "train"}
+{"id": "address-0069", "field": "address", "value": "临汾市鼓楼区长江路697号", "truth": "山西省临汾市鼓楼区长江路697号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0069", "field": "address", "value": "山西省·临汾市·鼓楼区·长江路·697号", "truth": "山西省临汾市鼓楼区长江路697号", "perturbation": "sep", "split": "train"}
+{"id": "address-0069", "field": "address", "value": "山西省临汾市鼓楼区长江路697号（已搬迁）", "truth": "山西省临汾市鼓楼区长江路697号", "perturbation": "noise", "split": "train"}
+{"id": "address-0070", "field": "address", "value": "青海省海东市江北区振兴 路1822号", "truth": "青海省海东市江北区振兴路1822号", "perturbation": "space", "split": "train"}
+{"id": "address-0070", "field": "address", "value": "青海省海东市姜北区振兴路1822号", "truth": "青海省海东市江北区振兴路1822号", "perturbation": "typo", "split": "train"}
+{"id": "address-0070", "field": "address", "value": "青海海东市江北区振兴路1822号", "truth": "青海省海东市江北区振兴路1822号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0070", "field": "address", "value": "青海省·海东市·江北区·振兴路·1822号", "truth": "青海省海东市江北区振兴路1822号", "perturbation": "sep", "split": "train"}
+{"id": "address-0070", "field": "address", "value": "住址:青海省海东市江北区振兴路1822号", "truth": "青海省海东市江北区振兴路1822号", "perturbation": "noise", "split": "train"}
+{"id": "address-0071", "field": "address", "value": "广东省肇庆市朝阳区北京　路1175号21栋3单元508室", "truth": "广东省肇庆市朝阳区北京路1175号21栋3单元508室", "perturbation": "space", "split": "train"}
+{"id": "address-0071", "field": "address", "value": "广东省肇庆式朝阳区北京路1175号21栋3单元508室", "truth": "广东省肇庆市朝阳区北京路1175号21栋3单元508室", "perturbation": "typo", "split": "train"}
+{"id": "address-0071", "field": "address", "value": "广东肇庆朝阳区北京路1175号21栋3单元508室", "truth": "广东省肇庆市朝阳区北京路1175号21栋3单元508室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0071", "field": "address", "value": "广东省·肇庆市·朝阳区·北京路·1175号·21栋3单元508室", "truth": "广东省肇庆市朝阳区北京路1175号21栋3单元508室", "perturbation": "sep", "split": "train"}
+{"id": "address-0071", "field": "address", "value": "广东省肇庆市朝阳区北京路1175号21栋3单元508室（收货地址）", "truth": "广东省肇庆市朝阳区北京路1175号21栋3单元508室", "perturbation": "noise", "split": "train"}
+{"id": "address-0072", "field": "address", "value": "福建省漳州市高新区环 城路1919号19栋2单元2048室", "truth": "福建省漳州市高新区环城路1919号19栋2单元2048室", "perturbation": "space", "split": "train"}
+{"id": "address-0072", "field": "address", "value": "福建省漳洲市高新区环城路1919号19栋2单元2048室", "truth": "福建省漳州市高新区环城路1919号19栋2单元2048室", "perturbation": "typo", "split": "train"}
+{"id": "address-0072", "field": "address", "value": "漳州市高新区环城路1919号19栋2单元2048室", "truth": "福建省漳州市高新区环城路1919号19栋2单元2048室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0072", "field": "address", "value": "福建省|漳州市|高新区|环城路|1919号|19栋2单元2048室", "truth": "福建省漳州市高新区环城路1919号19栋2单元2048室", "perturbation": "sep", "split": "train"}
+{"id": "address-0072", "field": "address", "value": "福建省漳州市高新区环城路1919号19栋2单元2048室（老地址）", "truth": "福建省漳州市高新区环城路1919号19栋2单元2048室", "perturbation": "noise", "split": "train"}
+{"id": "address-0073", "field": "address", "value": "甘肃省酒泉　市城关区中山路83号", "truth": "甘肃省酒泉市城关区中山路83号", "perturbation": "space", "split": "train"}
+{"id": "address-0073", "field": "address", "value": "甘肃省酒泉市城关曲中山路83号", "truth": "甘肃省酒泉市城关区中山路83号", "perturbation": "typo", "split": "train"}
+{"id": "address-0073", "field": "address", "value": "酒泉市城关区中山路83号", "truth": "甘肃省酒泉市城关区中山路83号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0073", "field": "address", "value": "甘肃省-酒泉市-城关区-中山路-83号", "truth": "甘肃省酒泉市城关区中山路83号", "perturbation": "sep", "split": "train"}
+{"id": "address-0073", "field": "address", "value": "甘肃省酒泉市城关区中山路83号。", "truth": "甘肃省酒泉市城关区中山路83号", "perturbation": "noise", "split": "train"}
+{"id": "address-0074", "field": "address", "value": "新疆维吾尔自治区喀什市西城区中山路113 2号18栋6单元1326室", "truth": "新疆维吾尔自治区喀什市西城区中山路1132号18栋6单元1326室", "perturbation": "space", "split": "train"}
+{"id": "address-0074", "field": "address", "value": "新疆维吾尔自治区喀什市西城区中山路1132号18洞6单元1326室", "truth": "新疆维吾尔自治区喀什市西城区中山路1132号18栋6单元1326室", "perturbation": "typo", "split": "train"}
+{"id": "address-0074", "field": "address", "value": "喀什市西城区中山路1132号18栋6单元1326室", "truth": "新疆维吾尔自治区喀什市西城区中山路1132号18栋6单元1326室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0074", "field": "address", "value": "新疆维吾尔自治区，喀什市，西城区，中山路，1132号，18栋6单元1326室", "truth": "新疆维吾尔自治区喀什市西城区中山路1132号18栋6单元1326室", "perturbation": "sep", "split": "train"}
+{"id": "address-0074", "field": "address", "value": "住址:新疆维吾尔自治区喀什市西城区中山路1132号18栋6单元1326室", "truth": "新疆维吾尔自治区喀什市西城区中山路1132号18栋6单元1326室", "perturbation": "noise", "split": "train"}
+{"id": "address-0075", "field": "address", "value": "四川省宜宾市城关区富民路 494号24栋4单元1789室", "truth": "四川省宜宾市城关区富民路494号24栋4单元1789室", "perturbation": "space", "split": "train"}
+{"id": "address-0075", "field": "address", "value": "四川省宜宾市城关区富民路494号24洞4单元1789室", "truth": "四川省宜宾市城关区富民路494号24栋4单元1789室", "perturbation": "typo", "split": "train"}
+{"id": "address-0075", "field": "address", "value": "四川宜宾市城关区富民路494号24栋4单元1789室", "truth": "四川省宜宾市城关区富民路494号24栋4单元1789室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0075", "field": "address", "value": "四川省，宜宾市，城关区，富民路，494号，24栋4单元1789室", "truth": "四川省宜宾市城关区富民路494号24栋4单元1789室", "perturbation": "sep", "split": "train"}
+{"id": "address-0075", "field": "address", "value": "四川省宜宾市城关区富民路494号24栋4单元1789室。", "truth": "四川省宜宾市城关区富民路494号24栋4单元1789室", "perturbation": "noise", "split": "train"}
+{"id": "address-0076", "field": "address", "value": "广西壮族自治区北海市城西区育才路194号13栋3单元　1900室", "truth": "广西壮族自治区北海市城西区育才路194号13栋3单元1900室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0076", "field": "address", "value": "广西壮族自治曲北海市城西区育才路194号13栋3单元1900室", "truth": "广西壮族自治区北海市城西区育才路194号13栋3单元1900室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0076", "field": "address", "value": "北海市城西区育才路194号13栋3单元1900室", "truth": "广西壮族自治区北海市城西区育才路194号13栋3单元1900室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0076", "field": "address", "value": "广西壮族自治区·北海市·城西区·育才路·194号·13栋3单元1900室", "truth": "广西壮族自治区北海市城西区育才路194号13栋3单元1900室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0076", "field": "address", "value": "广西壮族自治区北海市城西区育才路194号13栋3单元1900室（老地址）", "truth": "广西壮族自治区北海市城西区育才路194号13栋3单元1900室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0077", "field": "address", "value": "香港特别行政区新区人民路1673　号", "truth": "香港特别行政区新区人民路1673号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0077", "field": "address", "value": "香港特别行政区新曲人民路1673号", "truth": "香港特别行政区新区人民路1673号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0077", "field": "address", "value": "新区人民路1673号", "truth": "香港特别行政区新区人民路1673号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0077", "field": "address", "value": "香港特别行政区，新区，人民路，1673号", "truth": "香港特别行政区新区人民路1673号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0077", "field": "address", "value": "住址:香港特别行政区新区人民路1673号", "truth": "香港特别行政区新区人民路1673号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0078", "field": "address", "value": "陕西省榆林市开发区解放路1623号19栋6单元19　70室", "truth": "陕西省榆林市开发区解放路1623号19栋6单元1970室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0078", "field": "address", "value": "陕西省榆林市开发区解放路1623豪19栋6单元1970室", "truth": "陕西省榆林市开发区解放路1623号19栋6单元1970室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0078", "field": "address", "value": "陕西榆林市开发区解放路1623号19栋6单元1970室", "truth": "陕西省榆林市开发区解放路1623号19栋6单元1970室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0078", "field": "address", "value": "陕西省-榆林市-开发区-解放路-1623号-19栋6单元1970室", "truth": "陕西省榆林市开发区解放路1623号19栋6单元1970室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0078", "field": "address", "value": "陕西省榆林市开发区解放路1623号19栋6单元1970室（已搬迁）", "truth": "陕西省榆林市开发区解放路1623号19栋6单元1970室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0079", "field": "address", "value": "内蒙古自治区赤峰市高新区团结路848号　10栋6单元1851室", "truth": "内蒙古自治区赤峰市高新区团结路848号10栋6单元1851室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0079", "field": "address", "value": "内蒙古自治区赤峰市高新区团结路848号10栋6单元1851式", "truth": "内蒙古自治区赤峰市高新区团结路848号10栋6单元1851室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0079", "field": "address", "value": "内蒙古自治区赤峰高新区团结路848号10栋6单元1851室", "truth": "内蒙古自治区赤峰市高新区团结路848号10栋6单元1851室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0079", "field": "address", "value": "内蒙古自治区-赤峰市-高新区-团结路-848号-10栋6单元1851室", "truth": "内蒙古自治区赤峰市高新区团结路848号10栋6单元1851室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0079", "field": "address", "value": "内蒙古自治区赤峰市高新区团结路848号10栋6单元1851室（已搬迁）", "truth": "内蒙古自治区赤峰市高新区团结路848号10栋6单元1851室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0080", "field": "address", "value": "江西省九江市经济开发区 人民路1230号", "truth": "江西省九江市经济开发区人民路1230号", "perturbation": "space", "split": "train"}
+{"id": "address-0080", "field": "address", "value": "江西省九江式经济开发区人民路1230号", "truth": "江西省九江市经济开发区人民路1230号", "perturbation": "typo", "split": "train"}
+{"id": "address-0080", "field": "address", "value": "九江市经济开发区人民路1230号", "truth": "江西省九江市经济开发区人民路1230号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0080", "field": "address", "value": "江西省·九江市·经济开发区·人民路·1230号", "truth": "江西省九江市经济开发区人民路1230号", "perturbation": "sep", "split": "train"}
+{"id": "address-0080", "field": "address", "value": "住址:江西省九江市经济开发区人民路1230号", "truth": "江西省九江市经济开发区人民路1230号", "perturbation": "noise", "split": "train"}
+{"id": "address-0081", "field": "address", "value": "广西壮族自治区桂林市城关区世纪大　道1284号9栋4单元2151室", "truth": "广西壮族自治区桂林市城关区世纪大道1284号9栋4单元2151室", "perturbation": "space", "split": "train"}
+{"id": "address-0081", "field": "address", "value": "广西壮族自治区桂林市城关区世纪大道1284号9栋4单元2151式", "truth": "广西壮族自治区桂林市城关区世纪大道1284号9栋4单元2151室", "perturbation": "typo", "split": "train"}
+{"id": "address-0081", "field": "address", "value": "广西壮族自治区桂林城关区世纪大道1284号9栋4单元2151室", "truth": "广西壮族自治区桂林市城关区世纪大道1284号9栋4单元2151室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0081", "field": "address", "value": "广西壮族自治区-桂林市-城关区-世纪大道-1284号-9栋4单元2151室", "truth": "广西壮族自治区桂林市城关区世纪大道1284号9栋4单元2151室", "perturbation": "sep", "split": "train"}
+{"id": "address-0081", "field": "address", "value": "住址:广西壮族自治区桂林市城关区世纪大道1284号9栋4单元2151室", "truth": "广西壮族自治区桂林市城关区世纪大道1284号9栋4单元2151室", "perturbation": "noise", "split": "train"}
+{"id": "address-0082", "field": "address", "value": "山东省烟台市城东区环城路 403号", "truth": "山东省烟台市城东区环城路403号", "perturbation": "space", "split": "train"}
+{"id": "address-0082", "field": "address", "value": "山东省烟台市城东区环诚路403号", "truth": "山东省烟台市城东区环城路403号", "perturbation": "typo", "split": "train"}
+{"id": "address-0082", "field": "address", "value": "山东烟台城东区环城路403号", "truth": "山东省烟台市城东区环城路403号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0082", "field": "address", "value": "山东省／烟台市／城东区／环城路／403号", "truth": "山东省烟台市城东区环城路403号", "perturbation": "sep", "split": "train"}
+{"id": "address-0082", "field": "address", "value": "山东省烟台市城东区环城路403号。", "truth": "山东省烟台市城东区环城路403号", "perturbation": "noise", "split": "train"}
+{"id": "address-0083", "field": "address", "value": "香港特别行政区城西区花园路13 83号3栋6单元1451室", "truth": "香港特别行政区城西区花园路1383号3栋6单元1451室", "perturbation": "space", "split": "train"}
+{"id": "address-0083", "field": "address", "value": "香港特别行政曲城西区花园路1383号3栋6单元1451室", "truth": "香港特别行政区城西区花园路1383号3栋6单元1451室", "perturbation": "typo", "split": "train"}
+{"id": "address-0083", "field": "address", "value": "城西区花园路1383号3栋6单元1451室", "truth": "香港特别行政区城西区花园路1383号3栋6单元1451室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0083", "field": "address", "value": "香港特别行政区-城西区-花园路-1383号-3栋6单元1451室", "truth": "香港特别行政区城西区花园路1383号3栋6单元1451室", "perturbation": "sep", "split": "train"}
+{"id": "address-0083", "field": "address", "value": "住址:香港特别行政区城西区花园路1383号3栋6单元1451室", "truth": "香港特别行政区城西区花园路1383号3栋6单元1451室", "perturbation": "noise", "split": "train"}
+{"id": "address-0084", "field": "address", "value": "北京市江南区创业路770号17栋 1单元1883室", "truth": "北京市江南区创业路770号17栋1单元1883室", "perturbation": "space", "split": "train"}
+{"id": "address-0084", "field": "address", "value": "北京市江楠区创业路770号17栋1单元1883室", "truth": "北京市江南区创业路770号17栋1单元1883室", "perturbation": "typo", "split": "train"}
+{"id": "address-0084", "field": "address", "value": "江南区创业路770号17栋1单元1883室", "truth": "北京市江南区创业路770号17栋1单元1883室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0084", "field": "address", "value": "北京市·江南区·创业路·770号·17栋1单元1883室", "truth": "北京市江南区创业路770号17栋1单元1883室", "perturbation": "sep", "split": "train"}
+{"id": "address-0084", "field": "address", "value": "地址：北京市江南区创业路770号17栋1单元1883室", "truth": "北京市江南区创业路770号17栋1单元1883室", "perturbation": "noise", "split": "train"}
+{"id": "address-0085", "field": "address", "value": "青海省西宁市鼓楼区人民路1936号16栋6单元 202室", "truth": "青海省西宁市鼓楼区人民路1936号16栋6单元202室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0085", "field": "address", "value": "青海省茜宁市鼓楼区人民路1936号16栋6单元202室", "truth": "青海省西宁市鼓楼区人民路1936号16栋6单元202室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0085", "field": "address", "value": "青海西宁市鼓楼区人民路1936号16栋6单元202室", "truth": "青海省西宁市鼓楼区人民路1936号16栋6单元202室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0085", "field": "address", "value": "青海省，西宁市，鼓楼区，人民路，1936号，16栋6单元202室", "truth": "青海省西宁市鼓楼区人民路1936号16栋6单元202室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0085", "field": "address", "value": "住址:青海省西宁市鼓楼区人民路1936号16栋6单元202室", "truth": "青海省西宁市鼓楼区人民路1936号16栋6单元202室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0086", "field": "address", "value": "浙江省丽　水市市北区环城路266号", "truth": "浙江省丽水市市北区环城路266号", "perturbation": "space", "split": "train"}
+{"id": "address-0086", "field": "address", "value": "浙江省丽水市市北曲环城路266号", "truth": "浙江省丽水市市北区环城路266号", "perturbation": "typo", "split": "train"}
+{"id": "address-0086", "field": "address", "value": "浙江丽水市市北区环城路266号", "truth": "浙江省丽水市市北区环城路266号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0086", "field": "address", "value": "浙江省|丽水市|市北区|环城路|266号", "truth": "浙江省丽水市市北区环城路266号", "perturbation": "sep", "split": "train"}
+{"id": "address-0086", "field": "address", "value": "浙江省丽水市市北区环城路266号。", "truth": "浙江省丽水市市北区环城路266号", "perturbation": "noise", "split": "train"}
+{"id": "address-0087", "field": "address", "value": "辽宁省锦州市城南区 胜利路1940号", "truth": "辽宁省锦州市城南区胜利路1940号", "perturbation": "space", "split": "train"}
+{"id": "address-0087", "field": "address", "value": "辽宁省锦州市城南区胜利露1940号", "truth": "辽宁省锦州市城南区胜利路1940号", "perturbation": "typo", "split": "train"}
+{"id": "address-0087", "field": "address", "value": "辽宁锦州城南区胜利路1940号", "truth": "辽宁省锦州市城南区胜利路1940号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0087", "field": "address", "value": "辽宁省，锦州市，城南区，胜利路，1940号", "truth": "辽宁省锦州市城南区胜利路1940号", "perturbation": "sep", "split": "train"}
+{"id": "address-0087", "field": "address", "value": "辽宁省锦州市城南区胜利路1940号。", "truth": "辽宁省锦州市城南区胜利路1940号", "perturbation": "noise", "split": "train"}
+{"id": "address-0088", "field": "address", "value": "上海市中山区迎宾大道 974号", "truth": "上海市中山区迎宾大道974号", "perturbation": "space", "split": "train"}
+{"id": "address-0088", "field": "address", "value": "上海市中山曲迎宾大道974号", "truth": "上海市中山区迎宾大道974号", "perturbation": "typo", "split": "train"}
+{"id": "address-0088", "field": "address", "value": "上海中山区迎宾大道974号", "truth": "上海市中山区迎宾大道974号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0088", "field": "address", "value": "上海市，中山区，迎宾大道，974号", "truth": "上海市中山区迎宾大道974号", "perturbation": "sep", "split": "train"}
+{"id": "address-0088", "field": "address", "value": "上海市中山区迎宾大道974号（已搬迁）", "truth": "上海市中山区迎宾大道974号", "perturbation": "noise", "split": "train"}
+{"id": "address-0089", "field": "address", "value": "内蒙古自治区通辽市新城区黄河路1109号12　栋2单元541室", "truth": "内蒙古自治区通辽市新城区黄河路1109号12栋2单元541室", "perturbation": "space", "split": "train"}
+{"id": "address-0089", "field": "address", "value": "内蒙古自治曲通辽市新城区黄河路1109号12栋2单元541室", "truth": "内蒙古自治区通辽市新城区黄河路1109号12栋2单元541室", "perturbation": "typo", "split": "train"}
+{"id": "address-0089", "field": "address", "value": "通辽市新城区黄河路1109号12栋2单元541室", "truth": "内蒙古自治区通辽市新城区黄河路1109号12栋2单元541室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0089", "field": "address", "value": "内蒙古自治区|通辽市|新城区|黄河路|1109号|12栋2单元541室", "truth": "内蒙古自治区通辽市新城区黄河路1109号12栋2单元541室", "perturbation": "sep", "split": "train"}
+{"id": "address-0089", "field": "address", "value": "内蒙古自治区通辽市新城区黄河路1109号12栋2单元541室。", "truth": "内蒙古自治区通辽市新城区黄河路1109号12栋2单元541室", "perturbation": "noise", "split": "train"}
+{"id": "address-0090", "field": "address", "value": "广 西壮族自治区柳州市高新区创业路703号6栋3单元1883室", "truth": "广西壮族自治区柳州市高新区创业路703号6栋3单元1883室", "perturbation": "space", "split": "train"}
+{"id": "address-0090", "field": "address", "value": "广西壮族自治区柳州市高新区创业路703号6栋3单元1883式", "truth": "广西壮族自治区柳州市高新区创业路703号6栋3单元1883室", "perturbation": "typo", "split": "train"}
+{"id": "address-0090", "field": "address", "value": "广西壮族自治区柳州高新区创业路703号6栋3单元1883室", "truth": "广西壮族自治区柳州市高新区创业路703号6栋3单元1883室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0090", "field": "address", "value": "广西壮族自治区·柳州市·高新区·创业路·703号·6栋3单元1883室", "truth": "广西壮族自治区柳州市高新区创业路703号6栋3单元1883室", "perturbation": "sep", "split": "train"}
+{"id": "address-0090", "field": "address", "value": "住址:广西壮族自治区柳州市高新区创业路703号6栋3单元1883室", "truth": "广西壮族自治区柳州市高新区创业路703号6栋3单元1883室", "perturbation": "noise", "split": "train"}
+{"id": "address-0091", "field": "address", "value": "湖南省湘潭 市新区科技大道684号", "truth": "湖南省湘潭市新区科技大道684号", "perturbation": "space", "split": "train"}
+{"id": "address-0091", "field": "address", "value": "湖楠省湘潭市新区科技大道684号", "truth": "湖南省湘潭市新区科技大道684号", "perturbation": "typo", "split": "train"}
+{"id": "address-0091", "field": "address", "value": "湖南湘潭市新区科技大道684号", "truth": "湖南省湘潭市新区科技大道684号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0091", "field": "address", "value": "湖南省|湘潭市|新区|科技大道|684号", "truth": "湖南省湘潭市新区科技大道684号", "perturbation": "sep", "split": "train"}
+{"id": "address-0091", "field": "address", "value": "湖南省湘潭市新区科技大道684号（老地址）", "truth": "湖南省湘潭市新区科技大道684号", "perturbation": "noise", "split": "train"}
+{"id": "address-0092", "field": "address", "value": "内蒙古自治区赤峰市中山区振兴路226号　9栋6单元2351室", "truth": "内蒙古自治区赤峰市中山区振兴路226号9栋6单元2351室", "perturbation": "space", "split": "train"}
+{"id": "address-0092", "field": "address", "value": "内蒙古自治区赤峰市中山曲振兴路226号9栋6单元2351室", "truth": "内蒙古自治区赤峰市中山区振兴路226号9栋6单元2351室", "perturbation": "typo", "split": "train"}
+{"id": "address-0092", "field": "address", "value": "赤峰市中山区振兴路226号9栋6单元2351室", "truth": "内蒙古自治区赤峰市中山区振兴路226号9栋6单元2351室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0092", "field": "address", "value": "内蒙古自治区／赤峰市／中山区／振兴路／226号／9栋6单元2351室", "truth": "内蒙古自治区赤峰市中山区振兴路226号9栋6单元2351室", "perturbation": "sep", "split": "train"}
+{"id": "address-0092", "field": "address", "value": "内蒙古自治区赤峰市中山区振兴路226号9栋6单元2351室（已搬迁）", "truth": "内蒙古自治区赤峰市中山区振兴路226号9栋6单元2351室", "perturbation": "noise", "split": "train"}
+{"id": "address-0093", "field": "address", "value": "宁夏回族自治　区石嘴山市河东区世纪大道507号", "truth": "宁夏回族自治区石嘴山市河东区世纪大道507号", "perturbation": "space", "split": "train"}
+{"id": "address-0093", "field": "address", "value": "宁夏回族自治区石嘴杉市河东区世纪大道507号", "truth": "宁夏回族自治区石嘴山市河东区世纪大道507号", "perturbation": "typo", "split": "train"}
+{"id": "address-0093", "field": "address", "value": "石嘴山市河东区世纪大道507号", "truth": "宁夏回族自治区石嘴山市河东区世纪大道507号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0093", "field": "address", "value": "宁夏回族自治区／石嘴山市／河东区／世纪大道／507号", "truth": "宁夏回族自治区石嘴山市河东区世纪大道507号", "perturbation": "sep", "split": "train"}
+{"id": "address-0093", "field": "address", "value": "宁夏回族自治区石嘴山市河东区世纪大道507号。", "truth": "宁夏回族自治区石嘴山市河东区世纪大道507号", "perturbation": "noise", "split": "train"}
+{"id": "address-0094", "field": "address", "value": "吉林 省市中区胜利路331号8栋1单元570室", "truth": "吉林省市中区胜利路331号8栋1单元570室", "perturbation": "space", "split": "train"}
+{"id": "address-0094", "field": "address", "value": "吉林省市中区胜利路331号8栋1单元570式", "truth": "吉林省市中区胜利路331号8栋1单元570室", "perturbation": "typo", "split": "train"}
+{"id": "address-0094", "field": "address", "value": "吉林市中区胜利路331号8栋1单元570室", "truth": "吉林省市中区胜利路331号8栋1单元570室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0094", "field": "address", "value": "吉林省，市中区，胜利路，331号，8栋1单元570室", "truth": "吉林省市中区胜利路331号8栋1单元570室", "perturbation": "sep", "split": "train"}
+{"id": "address-0094", "field": "address", "value": "地址：吉林省市中区胜利路331号8栋1单元570室", "truth": "吉林省市中区胜利路331号8栋1单元570室", "perturbation": "noise", "split": "train"}
+{"id": "address-0095", "field": "address", "value": "江西省吉安 市江南区长江路164号30栋4单元880室", "truth": "江西省吉安市江南区长江路164号30栋4单元880室", "perturbation": "space", "split": "train"}
+{"id": "address-0095", "field": "address", "value": "江西省吉安市姜南区长江路164号30栋4单元880室", "truth": "江西省吉安市江南区长江路164号30栋4单元880室", "perturbation": "typo", "split": "train"}
+{"id": "address-0095", "field": "address", "value": "江西吉安市江南区长江路164号30栋4单元880室", "truth": "江西省吉安市江南区长江路164号30栋4单元880室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0095", "field": "address", "value": "江西省，吉安市，江南区，长江路，164号，30栋4单元880室", "truth": "江西省吉安市江南区长江路164号30栋4单元880室", "perturbation": "sep", "split": "train"}
+{"id": "address-0095", "field": "address", "value": "江西省吉安市江南区长江路164号30栋4单元880室（老地址）", "truth": "江西省吉安市江南区长江路164号30栋4单元880室", "perturbation": "noise", "split": "train"}
+{"id": "address-0096", "field": "address", "value": "香港特别行政区高新区振兴　路1258号14栋6单元235室", "truth": "香港特别行政区高新区振兴路1258号14栋6单元235室", "perturbation": "space", "split": "train"}
+{"id": "address-0096", "field": "address", "value": "香港特别行政区高新区振兴路1258豪14栋6单元235室", "truth": "香港特别行政区高新区振兴路1258号14栋6单元235室", "perturbation": "typo", "split": "train"}
+{"id": "address-0096", "field": "address", "value": "高新区振兴路1258号14栋6单元235室", "truth": "香港特别行政区高新区振兴路1258号14栋6单元235室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0096", "field": "address", "value": "香港特别行政区|高新区|振兴路|1258号|14栋6单元235室", "truth": "香港特别行政区高新区振兴路1258号14栋6单元235室", "perturbation": "sep", "split": "train"}
+{"id": "address-0096", "field": "address", "value": "香港特别行政区高新区振兴路1258号14栋6单元235室。", "truth": "香港特别行政区高新区振兴路1258号14栋6单元235室", "perturbation": "noise", "split": "train"}
+{"id": "address-0097", "field": "address", "value": "山东　省淄博市城南区和平路326号7栋5单元956室", "truth": "山东省淄博市城南区和平路326号7栋5单元956室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0097", "field": "address", "value": "山东省淄博市城南区和平路326号7洞5单元956室", "truth": "山东省淄博市城南区和平路326号7栋5单元956室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0097", "field": "address", "value": "山东淄博城南区和平路326号7栋5单元956室", "truth": "山东省淄博市城南区和平路326号7栋5单元956室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0097", "field": "address", "value": "山东省·淄博市·城南区·和平路·326号·7栋5单元956室", "truth": "山东省淄博市城南区和平路326号7栋5单元956室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0097", "field": "address", "value": "山东省淄博市城南区和平路326号7栋5单元956室（已搬迁）", "truth": "山东省淄博市城南区和平路326号7栋5单元956室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0098", "field": "address", "value": "宁夏回族自治区石嘴山市江南区幸　福路559号3栋1单元2208室", "truth": "宁夏回族自治区石嘴山市江南区幸福路559号3栋1单元2208室", "perturbation": "space", "split": "train"}
+{"id": "address-0098", "field": "address", "value": "宁夏回族自治区石嘴山式江南区幸福路559号3栋1单元2208室", "truth": "宁夏回族自治区石嘴山市江南区幸福路559号3栋1单元2208室", "perturbation": "typo", "split": "train"}
+{"id": "address-0098", "field": "address", "value": "石嘴山市江南区幸福路559号3栋1单元2208室", "truth": "宁夏回族自治区石嘴山市江南区幸福路559号3栋1单元2208室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0098", "field": "address", "value": "宁夏回族自治区·石嘴山市·江南区·幸福路·559号·3栋1单元2208室", "truth": "宁夏回族自治区石嘴山市江南区幸福路559号3栋1单元2208室", "perturbation": "sep", "split": "train"}
+{"id": "address-0098", "field": "address", "value": "住址:宁夏回族自治区石嘴山市江南区幸福路559号3栋1单元2208室", "truth": "宁夏回族自治区石嘴山市江南区幸福路559号3栋1单元2208室", "perturbation": "noise", "split": "train"}
+{"id": "address-0099", "field": "address", "value": "北京市城南区迎宾大道 899号", "truth": "北京市城南区迎宾大道899号", "perturbation": "space", "split": "train"}
+{"id": "address-0099", "field": "address", "value": "北京市城南区迎宾大道899豪", "truth": "北京市城南区迎宾大道899号", "perturbation": "typo", "split": "train"}
+{"id": "address-0099", "field": "address", "value": "北京城南区迎宾大道899号", "truth": "北京市城南区迎宾大道899号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0099", "field": "address", "value": "北京市／城南区／迎宾大道／899号", "truth": "北京市城南区迎宾大道899号", "perturbation": "sep", "split": "train"}
+{"id": "address-0099", "field": "address", "value": "北京市城南区迎宾大道899号（收货地址）", "truth": "北京市城南区迎宾大道899号", "perturbation": "noise", "split": "train"}
+{"id": "address-0100", "field": "address", "value": "甘肃省白银市市北区胜利路36号6栋5单　元108室", "truth": "甘肃省白银市市北区胜利路36号6栋5单元108室", "perturbation": "space", "split": "train"}
+{"id": "address-0100", "field": "address", "value": "甘肃省白银市市北区胜利路36豪6栋5单元108室", "truth": "甘肃省白银市市北区胜利路36号6栋5单元108室", "perturbation": "typo", "split": "train"}
+{"id": "address-0100", "field": "address", "value": "甘肃白银市北区胜利路36号6栋5单元108室", "truth": "甘肃省白银市市北区胜利路36号6栋5单元108室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0100", "field": "address", "value": "甘肃省-白银市-市北区-胜利路-36号-6栋5单元108室", "truth": "甘肃省白银市市北区胜利路36号6栋5单元108室", "perturbation": "sep", "split": "train"}
+{"id": "address-0100", "field": "address", "value": "甘肃省白银市市北区胜利路36号6栋5单元108室（已搬迁）", "truth": "甘肃省白银市市北区胜利路36号6栋5单元108室", "perturbation": "noise", "split": "train"}
+{"id": "address-0101", "field": "address", "value": "黑龙江省大庆　市开发区人民路611号", "truth": "黑龙江省大庆市开发区人民路611号", "perturbation": "space", "split": "train"}
+{"id": "address-0101", "field": "address", "value": "黑龙江省大庆市开发区人民路611豪", "truth": "黑龙江省大庆市开发区人民路611号", "perturbation": "typo", "split": "train"}
+{"id": "address-0101", "field": "address", "value": "黑龙江大庆市开发区人民路611号", "truth": "黑龙江省大庆市开发区人民路611号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0101", "field": "address", "value": "黑龙江省|大庆市|开发区|人民路|611号", "truth": "黑龙江省大庆市开发区人民路611号", "perturbation": "sep", "split": "train"}
+{"id": "address-0101", "field": "address", "value": "黑龙江省大庆市开发区人民路611号（收货地址）", "truth": "黑龙江省大庆市开发区人民路611号", "perturbation": "noise", "split": "train"}
+{"id": "address-0102", "field": "address", "value": "宁夏回族自治区银川　市滨江区朝阳路1240号22栋1单元1184室", "truth": "宁夏回族自治区银川市滨江区朝阳路1240号22栋1单元1184室", "perturbation": "space", "split": "train"}
+{"id": "address-0102", "field": "address", "value": "宁夏回族自治区银川市滨江区朝阳路1240号22栋1单元1184式", "truth": "宁夏回族自治区银川市滨江区朝阳路1240号22栋1单元1184室", "perturbation": "typo", "split": "train"}
+{"id": "address-0102", "field": "address", "value": "宁夏回族自治区银川滨江区朝阳路1240号22栋1单元1184室", "truth": "宁夏回族自治区银川市滨江区朝阳路1240号22栋1单元1184室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0102", "field": "address", "value": "宁夏回族自治区-银川市-滨江区-朝阳路-1240号-22栋1单元1184室", "truth": "宁夏回族自治区银川市滨江区朝阳路1240号22栋1单元1184室", "perturbation": "sep", "split": "train"}
+{"id": "address-0102", "field": "address", "value": "宁夏回族自治区银川市滨江区朝阳路1240号22栋1单元1184室（收货地址）", "truth": "宁夏回族自治区银川市滨江区朝阳路1240号22栋1单元1184室", "perturbation": "noise", "split": "train"}
+{"id": "address-0103", "field": "address", "value": "广东省深圳市高新区文化 路98号", "truth": "广东省深圳市高新区文化路98号", "perturbation": "space", "split": "train"}
+{"id": "address-0103", "field": "address", "value": "广东省深圳市高新曲文化路98号", "truth": "广东省深圳市高新区文化路98号", "perturbation": "typo", "split": "train"}
+{"id": "address-0103", "field": "address", "value": "广东深圳市高新区文化路98号", "truth": "广东省深圳市高新区文化路98号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0103", "field": "address", "value": "广东省／深圳市／高新区／文化路／98号", "truth": "广东省深圳市高新区文化路98号", "perturbation": "sep", "split": "train"}
+{"id": "address-0103", "field": "address", "value": "广东省深圳市高新区文化路98号（收货地址）", "truth": "广东省深圳市高新区文化路98号", "perturbation": "noise", "split": "train"}
+{"id": "address-0104", "field": "address", "value": "北　京市新区胜利路346号18栋1单元375室", "truth": "北京市新区胜利路346号18栋1单元375室", "perturbation": "space", "split": "train"}
+{"id": "address-0104", "field": "address", "value": "北京市新区胜利路346号18洞1单元375室", "truth": "北京市新区胜利路346号18栋1单元375室", "perturbation": "typo", "split": "train"}
+{"id": "address-0104", "field": "address", "value": "北京新区胜利路346号18栋1单元375室", "truth": "北京市新区胜利路346号18栋1单元375室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0104", "field": "address", "value": "北京市-新区-胜利路-346号-18栋1单元375室", "truth": "北京市新区胜利路346号18栋1单元375室", "perturbation": "sep", "split": "train"}
+{"id": "address-0104", "field": "address", "value": "地址：北京市新区胜利路346号18栋1单元375室", "truth": "北京市新区胜利路346号18栋1单元375室", "perturbation": "noise", "split": "train"}
+{"id": "address-0105", "field": "address", "value": "浙江省嘉兴市市中区新华路777号　21栋6单元1005室", "truth": "浙江省嘉兴市市中区新华路777号21栋6单元1005室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0105", "field": "address", "value": "浙江省嘉兴式市中区新华路777号21栋6单元1005室", "truth": "浙江省嘉兴市市中区新华路777号21栋6单元1005室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0105", "field": "address", "value": "浙江嘉兴市中区新华路777号21栋6单元1005室", "truth": "浙江省嘉兴市市中区新华路777号21栋6单元1005室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0105", "field": "address", "value": "浙江省|嘉兴市|市中区|新华路|777号|21栋6单元1005室", "truth": "浙江省嘉兴市市中区新华路777号21栋6单元1005室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0105", "field": "address", "value": "浙江省嘉兴市市中区新华路777号21栋6单元1005室（已搬迁）", "truth": "浙江省嘉兴市市中区新华路777号21栋6单元1005室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0106", "field": "address", "value": "新疆维吾尔自治区喀什市市南区世纪大道899号　24栋3单元1527室", "truth": "新疆维吾尔自治区喀什市市南区世纪大道899号24栋3单元1527室", "perturbation": "space", "split": "train"}
+{"id": "address-0106", "field": "address", "value": "新疆维吾尔自治区喀什市市南区世纪大到899号24栋3单元1527室", "truth": "新疆维吾尔自治区喀什市市南区世纪大道899号24栋3单元1527室", "perturbation": "typo", "split": "train"}
+{"id": "address-0106", "field": "address", "value": "喀什市市南区世纪大道899号24栋3单元1527室", "truth": "新疆维吾尔自治区喀什市市南区世纪大道899号24栋3单元1527室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0106", "field": "address", "value": "新疆维吾尔自治区，喀什市，市南区，世纪大道，899号，24栋3单元1527室", "truth": "新疆维吾尔自治区喀什市市南区世纪大道899号24栋3单元1527室", "perturbation": "sep", "split": "train"}
+{"id": "address-0106", "field": "address", "value": "新疆维吾尔自治区喀什市市南区世纪大道899号24栋3单元1527室（老地址）", "truth": "新疆维吾尔自治区喀什市市南区世纪大道899号24栋3单元1527室", "perturbation": "noise", "split": "train"}
+{"id": "address-0107", "field": "address", "value": "福建省龙岩市市南区团结路631号　11栋5单元2440室", "truth": "福建省龙岩市市南区团结路631号11栋5单元2440室", "perturbation": "space", "split": "train"}
+{"id": "address-0107", "field": "address", "value": "福建省龙岩市市南区团结路631豪11栋5单元2440室", "truth": "福建省龙岩市市南区团结路631号11栋5单元2440室", "perturbation": "typo", "split": "train"}
+{"id": "address-0107", "field": "address", "value": "福建龙岩市南区团结路631号11栋5单元2440室", "truth": "福建省龙岩市市南区团结路631号11栋5单元2440室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0107", "field": "address", "value": "福建省，龙岩市，市南区，团结路，631号，11栋5单元2440室", "truth": "福建省龙岩市市南区团结路631号11栋5单元2440室", "perturbation": "sep", "split": "train"}
+{"id": "address-0107", "field": "address", "value": "住址:福建省龙岩市市南区团结路631号11栋5单元2440室", "truth": "福建省龙岩市市南区团结路631号11栋5单元2440室", "perturbation": "noise", "split": "train"}
+{"id": "address-0108", "field": "address", "value": "江西省吉安市市北区科技大道1792号1　9栋4单元668室", "truth": "江西省吉安市市北区科技大道1792号19栋4单元668室", "perturbation": "space", "split": "train"}
+{"id": "address-0108", "field": "address", "value": "江西省吉安式市北区科技大道1792号19栋4单元668室", "truth": "江西省吉安市市北区科技大道1792号19栋4单元668室", "perturbation": "typo", "split": "train"}
+{"id": "address-0108", "field": "address", "value": "吉安市市北区科技大道1792号19栋4单元668室", "truth": "江西省吉安市市北区科技大道1792号19栋4单元668室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0108", "field": "address", "value": "江西省-吉安市-市北区-科技大道-1792号-19栋4单元668室", "truth": "江西省吉安市市北区科技大道1792号19栋4单元668室", "perturbation": "sep", "split": "train"}
+{"id": "address-0108", "field": "address", "value": "地址：江西省吉安市市北区科技大道1792号19栋4单元668室", "truth": "江西省吉安市市北区科技大道1792号19栋4单元668室", "perturbation": "noise", "split": "train"}
+{"id": "address-0109", "field": "address", "value": "贵州省　贵阳市西城区育才路1628号", "truth": "贵州省贵阳市西城区育才路1628号", "perturbation": "space", "split": "train"}
+{"id": "address-0109", "field": "address", "value": "贵州省贵阳市西诚区育才路1628号", "truth": "贵州省贵阳市西城区育才路1628号", "perturbation": "typo", "split": "train"}
+{"id": "address-0109", "field": "address", "value": "贵州贵阳西城区育才路1628号", "truth": "贵州省贵阳市西城区育才路1628号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0109", "field": "address", "value": "贵州省-贵阳市-西城区-育才路-1628号", "truth": "贵州省贵阳市西城区育才路1628号", "perturbation": "sep", "split": "train"}
+{"id": "address-0109", "field": "address", "value": "贵州省贵阳市西城区育才路1628号（老地址）", "truth": "贵州省贵阳市西城区育才路1628号", "perturbation": "noise", "split": "train"}
+{"id": "address-0110", "field": "address", "value": "广东省深圳市市中区胜利路114号15栋6单元 1615室", "truth": "广东省深圳市市中区胜利路114号15栋6单元1615室", "perturbation": "space", "split": "train"}
+{"id": "address-0110", "field": "address", "value": "广冬省深圳市市中区胜利路114号15栋6单元1615室", "truth": "广东省深圳市市中区胜利路114号15栋6单元1615室", "perturbation": "typo", "split": "train"}
+{"id": "address-0110", "field": "address", "value": "深圳市市中区胜利路114号15栋6单元1615室", "truth": "广东省深圳市市中区胜利路114号15栋6单元1615室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0110", "field": "address", "value": "广东省-深圳市-市中区-胜利路-114号-15栋6单元1615室", "truth": "广东省深圳市市中区胜利路114号15栋6单元1615室", "perturbation": "sep", "split": "train"}
+{"id": "address-0110", "field": "address", "value": "广东省深圳市市中区胜利路114号15栋6单元1615室（已搬迁）", "truth": "广东省深圳市市中区胜利路114号15栋6单元1615室", "perturbation": "noise", "split": "train"}
+{"id": "address-0111", "field": "address", "value": "广东省肇庆市城关　区黄河路667号", "truth": "广东省肇庆市城关区黄河路667号", "perturbation": "space", "split": "train"}
+{"id": "address-0111", "field": "address", "value": "广东省肇庆市城关区黄河露667号", "truth": "广东省肇庆市城关区黄河路667号", "perturbation": "typo", "split": "train"}
+{"id": "address-0111", "field": "address", "value": "广东肇庆城关区黄河路667号", "truth": "广东省肇庆市城关区黄河路667号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0111", "field": "address", "value": "广东省-肇庆市-城关区-黄河路-667号", "truth": "广东省肇庆市城关区黄河路667号", "perturbation": "sep", "split": "train"}
+{"id": "address-0111", "field": "address", "value": "广东省肇庆市城关区黄河路667号。", "truth": "广东省肇庆市城关区黄河路667号", "perturbation": "noise", "split": "train"}
+{"id": "address-0112", "field": "address", "value": "河南省焦作市朝阳区创业路1101号25栋3单元2　243室", "truth": "河南省焦作市朝阳区创业路1101号25栋3单元2243室", "perturbation": "space", "split": "train"}
+{"id": "address-0112", "field": "address", "value": "河南省焦作式朝阳区创业路1101号25栋3单元2243室", "truth": "河南省焦作市朝阳区创业路1101号25栋3单元2243室", "perturbation": "typo", "split": "train"}
+{"id": "address-0112", "field": "address", "value": "河南焦作朝阳区创业路1101号25栋3单元2243室", "truth": "河南省焦作市朝阳区创业路1101号25栋3单元2243室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0112", "field": "address", "value": "河南省|焦作市|朝阳区|创业路|1101号|25栋3单元2243室", "truth": "河南省焦作市朝阳区创业路1101号25栋3单元2243室", "perturbation": "sep", "split": "train"}
+{"id": "address-0112", "field": "address", "value": "河南省焦作市朝阳区创业路1101号25栋3单元2243室（老地址）", "truth": "河南省焦作市朝阳区创业路1101号25栋3单元2243室", "perturbation": "noise", "split": "train"}
+{"id": "address-0113", "field": "address", "value": "青海省西 宁市河西区创业路1243号", "truth": "青海省西宁市河西区创业路1243号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0113", "field": "address", "value": "青海省西宁市河西曲创业路1243号", "truth": "青海省西宁市河西区创业路1243号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0113", "field": "address", "value": "西宁市河西区创业路1243号", "truth": "青海省西宁市河西区创业路1243号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0113", "field": "address", "value": "青海省|西宁市|河西区|创业路|1243号", "truth": "青海省西宁市河西区创业路1243号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0113", "field": "address", "value": "住址:青海省西宁市河西区创业路1243号", "truth": "青海省西宁市河西区创业路1243号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0114", "field": "address", "value": "海南 省海口市西城区新华路102号1栋3单元2034室", "truth": "海南省海口市西城区新华路102号1栋3单元2034室", "perturbation": "space", "split": "train"}
+{"id": "address-0114", "field": "address", "value": "海南省海口市西城区新华路102豪1栋3单元2034室", "truth": "海南省海口市西城区新华路102号1栋3单元2034室", "perturbation": "typo", "split": "train"}
+{"id": "address-0114", "field": "address", "value": "海口市西城区新华路102号1栋3单元2034室", "truth": "海南省海口市西城区新华路102号1栋3单元2034室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0114", "field": "address", "value": "海南省／海口市／西城区／新华路／102号／1栋3单元2034室", "truth": "海南省海口市西城区新华路102号1栋3单元2034室", "perturbation": "sep", "split": "train"}
+{"id": "address-0114", "field": "address", "value": "海南省海口市西城区新华路102号1栋3单元2034室（老地址）", "truth": "海南省海口市西城区新华路102号1栋3单元2034室", "perturbation": "noise", "split": "train"}
+{"id": "address-0115", "field": "address", "value": "辽宁省抚顺市江北区人民　路443号17栋6单元627室", "truth": "辽宁省抚顺市江北区人民路443号17栋6单元627室", "perturbation": "space", "split": "train"}
+{"id": "address-0115", "field": "address", "value": "辽宁省抚顺市江北区人民路443号17洞6单元627室", "truth": "辽宁省抚顺市江北区人民路443号17栋6单元627室", "perturbation": "typo", "split": "train"}
+{"id": "address-0115", "field": "address", "value": "抚顺市江北区人民路443号17栋6单元627室", "truth": "辽宁省抚顺市江北区人民路443号17栋6单元627室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0115", "field": "address", "value": "辽宁省·抚顺市·江北区·人民路·443号·17栋6单元627室", "truth": "辽宁省抚顺市江北区人民路443号17栋6单元627室", "perturbation": "sep", "split": "train"}
+{"id": "address-0115", "field": "address", "value": "辽宁省抚顺市江北区人民路443号17栋6单元627室（老地址）", "truth": "辽宁省抚顺市江北区人民路443号17栋6单元627室", "perturbation": "noise", "split": "train"}
+{"id": "address-0116", "field": "address", "value": "北京市东城区　环城路140号14栋5单元138室", "truth": "北京市东城区环城路140号14栋5单元138室", "perturbation": "space", "split": "train"}
+{"id": "address-0116", "field": "address", "value": "北京市东城区环诚路140号14栋5单元138室", "truth": "北京市东城区环城路140号14栋5单元138室", "perturbation": "typo", "split": "train"}
+{"id": "address-0116", "field": "address", "value": "东城区环城路140号14栋5单元138室", "truth": "北京市东城区环城路140号14栋5单元138室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0116", "field": "address", "value": "北京市／东城区／环城路／140号／14栋5单元138室", "truth": "北京市东城区环城路140号14栋5单元138室", "perturbation": "sep", "split": "train"}
+{"id": "address-0116", "field": "address", "value": "北京市东城区环城路140号14栋5单元138室（收货地址）", "truth": "北京市东城区环城路140号14栋5单元138室", "perturbation": "noise", "split": "train"}
+{"id": "address-0117", "field": "address", "value": "福建省龙岩市 新区解放路1136号10栋3单元918室", "truth": "福建省龙岩市新区解放路1136号10栋3单元918室", "perturbation": "space", "split": "train"}
+{"id": "address-0117", "field": "address", "value": "福建省龙岩式新区解放路1136号10栋3单元918室", "truth": "福建省龙岩市新区解放路1136号10栋3单元918室", "perturbation": "typo", "split": "train"}
+{"id": "address-0117", "field": "address", "value": "福建龙岩市新区解放路1136号10栋3单元918室", "truth": "福建省龙岩市新区解放路1136号10栋3单元918室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0117", "field": "address", "value": "福建省，龙岩市，新区，解放路，1136号，10栋3单元918室", "truth": "福建省龙岩市新区解放路1136号10栋3单元918室", "perturbation": "sep", "split": "train"}
+{"id": "address-0117", "field": "address", "value": "福建省龙岩市新区解放路1136号10栋3单元918室（老地址）", "truth": "福建省龙岩市新区解放路1136号10栋3单元918室", "perturbation": "noise", "split": "train"}
+{"id": "address-0118", "field": "address", "value": "内蒙古自治区赤峰市江北区光明路663号13栋 2单元2254室", "truth": "内蒙古自治区赤峰市江北区光明路663号13栋2单元2254室", "perturbation": "space", "split": "train"}
+{"id": "address-0118", "field": "address", "value": "内蒙古自治区赤峰市江北区光明路663号13洞2单元2254室", "truth": "内蒙古自治区赤峰市江北区光明路663号13栋2单元2254室", "perturbation": "typo", "split": "train"}
+{"id": "address-0118", "field": "address", "value": "赤峰市江北区光明路663号13栋2单元2254室", "truth": "内蒙古自治区赤峰市江北区光明路663号13栋2单元2254室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0118", "field": "address", "value": "内蒙古自治区-赤峰市-江北区-光明路-663号-13栋2单元2254室", "truth": "内蒙古自治区赤峰市江北区光明路663号13栋2单元2254室", "perturbation": "sep", "split": "train"}
+{"id": "address-0118", "field": "address", "value": "住址:内蒙古自治区赤峰市江北区光明路663号13栋2单元2254室", "truth": "内蒙古自治区赤峰市江北区光明路663号13栋2单元2254室", "perturbation": "noise", "split": "train"}
+{"id": "address-0119", "field": "address", "value": "西藏自治区拉萨市滨江区望江路936号14栋6单元59 4室", "truth": "西藏自治区拉萨市滨江区望江路936号14栋6单元594室", "perturbation": "space", "split": "train"}
+{"id": "address-0119", "field": "address", "value": "西藏自治曲拉萨市滨江区望江路936号14栋6单元594室", "truth": "西藏自治区拉萨市滨江区望江路936号14栋6单元594室", "perturbation": "typo", "split": "train"}
+{"id": "address-0119", "field": "address", "value": "西藏自治区拉萨滨江区望江路936号14栋6单元594室", "truth": "西藏自治区拉萨市滨江区望江路936号14栋6单元594室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0119", "field": "address", "value": "西藏自治区／拉萨市／滨江区／望江路／936号／14栋6单元594室", "truth": "西藏自治区拉萨市滨江区望江路936号14栋6单元594室", "perturbation": "sep", "split": "train"}
+{"id": "address-0119", "field": "address", "value": "西藏自治区拉萨市滨江区望江路936号14栋6单元594室（收货地址）", "truth": "西藏自治区拉萨市滨江区望江路936号14栋6单元594室", "perturbation": "noise", "split": "train"}
+{"id": "address-0120", "field": "address", "value": "甘肃省庆阳市开发区建设路187 0号8栋5单元806室", "truth": "甘肃省庆阳市开发区建设路1870号8栋5单元806室", "perturbation": "space", "split": "train"}
+{"id": "address-0120", "field": "address", "value": "甘肃省庆杨市开发区建设路1870号8栋5单元806室", "truth": "甘肃省庆阳市开发区建设路1870号8栋5单元806室", "perturbation": "typo", "split": "train"}
+{"id": "address-0120", "field": "address", "value": "甘肃庆阳开发区建设路1870号8栋5单元806室", "truth": "甘肃省庆阳市开发区建设路1870号8栋5单元806室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0120", "field": "address", "value": "甘肃省|庆阳市|开发区|建设路|1870号|8栋5单元806室", "truth": "甘肃省庆阳市开发区建设路1870号8栋5单元806室", "perturbation": "sep", "split": "train"}
+{"id": "address-0120", "field": "address", "value": "甘肃省庆阳市开发区建设路1870号8栋5单元806室（老地址）", "truth": "甘肃省庆阳市开发区建设路1870号8栋5单元806室", "perturbation": "noise", "split": "train"}
+{"id": "address-0121", "field": "address", "value": "河北省沧州市河西区建设路1　456号", "truth": "河北省沧州市河西区建设路1456号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0121", "field": "address", "value": "河北省沧州市河西区建设露1456号", "truth": "河北省沧州市河西区建设路1456号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0121", "field": "address", "value": "河北沧州市河西区建设路1456号", "truth": "河北省沧州市河西区建设路1456号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0121", "field": "address", "value": "河北省，沧州市，河西区，建设路，1456号", "truth": "河北省沧州市河西区建设路1456号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0121", "field": "address", "value": "河北省沧州市河西区建设路1456号（已搬迁）", "truth": "河北省沧州市河西区建设路1456号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0122", "field": "address", "value": "重庆市中山区新华路1303号1栋2单元24 62室", "truth": "重庆市中山区新华路1303号1栋2单元2462室", "perturbation": "space", "split": "train"}
+{"id": "address-0122", "field": "address", "value": "重庆市中山曲新华路1303号1栋2单元2462室", "truth": "重庆市中山区新华路1303号1栋2单元2462室", "perturbation": "typo", "split": "train"}
+{"id": "address-0122", "field": "address", "value": "中山区新华路1303号1栋2单元2462室", "truth": "重庆市中山区新华路1303号1栋2单元2462室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0122", "field": "address", "value": "重庆市，中山区，新华路，1303号，1栋2单元2462室", "truth": "重庆市中山区新华路1303号1栋2单元2462室", "perturbation": "sep", "split": "train"}
+{"id": "address-0122", "field": "address", "value": "重庆市中山区新华路1303号1栋2单元2462室。", "truth": "重庆市中山区新华路1303号1栋2单元2462室", "perturbation": "noise", "split": "train"}
+{"id": "address-0123", "field": "address", "value": "湖北省荆州市西城区青年路1387号19栋2单元13 30室", "truth": "湖北省荆州市西城区青年路1387号19栋2单元1330室", "perturbation": "space", "split": "train"}
+{"id": "address-0123", "field": "address", "value": "湖贝省荆州市西城区青年路1387号19栋2单元1330室", "truth": "湖北省荆州市西城区青年路1387号19栋2单元1330室", "perturbation": "typo", "split": "train"}
+{"id": "address-0123", "field": "address", "value": "湖北荆州市西城区青年路1387号19栋2单元1330室", "truth": "湖北省荆州市西城区青年路1387号19栋2单元1330室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0123", "field": "address", "value": "湖北省·荆州市·西城区·青年路·1387号·19栋2单元1330室", "truth": "湖北省荆州市西城区青年路1387号19栋2单元1330室", "perturbation": "sep", "split": "train"}
+{"id": "address-0123", "field": "address", "value": "湖北省荆州市西城区青年路1387号19栋2单元1330室（已搬迁）", "truth": "湖北省荆州市西城区青年路1387号19栋2单元1330室", "perturbation": "noise", "split": "train"}
+{"id": "address-0124", "field": "address", "value": "海　南省三亚市滨江区望江路1356号", "truth": "海南省三亚市滨江区望江路1356号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0124", "field": "address", "value": "海楠省三亚市滨江区望江路1356号", "truth": "海南省三亚市滨江区望江路1356号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0124", "field": "address", "value": "海南三亚滨江区望江路1356号", "truth": "海南省三亚市滨江区望江路1356号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0124", "field": "address", "value": "海南省-三亚市-滨江区-望江路-1356号", "truth": "海南省三亚市滨江区望江路1356号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0124", "field": "address", "value": "海南省三亚市滨江区望江路1356号（已搬迁）", "truth": "海南省三亚市滨江区望江路1356号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0125", "field": "address", "value": "北京 市河东区朝阳路486号", "truth": "北京市河东区朝阳路486号", "perturbation": "space", "split": "train"}
+{"id": "address-0125", "field": "address", "value": "北京式河东区朝阳路486号", "truth": "北京市河东区朝阳路486号", "perturbation": "typo", "split": "train"}
+{"id": "address-0125", "field": "address", "value": "河东区朝阳路486号", "truth": "北京市河东区朝阳路486号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0125", "field": "address", "value": "北京市·河东区·朝阳路·486号", "truth": "北京市河东区朝阳路486号", "perturbation": "sep", "split": "train"}
+{"id": "address-0125", "field": "address", "value": "北京市河东区朝阳路486号。", "truth": "北京市河东区朝阳路486号", "perturbation": "noise", "split": "train"}
+{"id": "address-0126", "field": "address", "value": "山东省济南市城东区青年 路736号13栋4单元2472室", "truth": "山东省济南市城东区青年路736号13栋4单元2472室", "perturbation": "space", "split": "train"}
+{"id": "address-0126", "field": "address", "value": "山东省济南市城东曲青年路736号13栋4单元2472室", "truth": "山东省济南市城东区青年路736号13栋4单元2472室", "perturbation": "typo", "split": "train"}
+{"id": "address-0126", "field": "address", "value": "山东济南城东区青年路736号13栋4单元2472室", "truth": "山东省济南市城东区青年路736号13栋4单元2472室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0126", "field": "address", "value": "山东省-济南市-城东区-青年路-736号-13栋4单元2472室", "truth": "山东省济南市城东区青年路736号13栋4单元2472室", "perturbation": "sep", "split": "train"}
+{"id": "address-0126", "field": "address", "value": "山东省济南市城东区青年路736号13栋4单元2472室（老地址）", "truth": "山东省济南市城东区青年路736号13栋4单元2472室", "perturbation": "noise", "split": "train"}
+{"id": "address-0127", "field": "address", "value": "北京市市中区中山路1876号2栋6单元63 8室", "truth": "北京市市中区中山路1876号2栋6单元638室", "perturbation": "space", "split": "train"}
+{"id": "address-0127", "field": "address", "value": "北京式市中区中山路1876号2栋6单元638室", "truth": "北京市市中区中山路1876号2栋6单元638室", "perturbation": "typo", "split": "train"}
+{"id": "address-0127", "field": "address", "value": "市中区中山路1876号2栋6单元638室", "truth": "北京市市中区中山路1876号2栋6单元638室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0127", "field": "address", "value": "北京市／市中区／中山路／1876号／2栋6单元638室", "truth": "北京市市中区中山路1876号2栋6单元638室", "perturbation": "sep", "split": "train"}
+{"id": "address-0127", "field": "address", "value": "住址:北京市市中区中山路1876号2栋6单元638室", "truth": "北京市市中区中山路1876号2栋6单元638室", "perturbation": "noise", "split": "train"}
+{"id": "address-0128", "field": "address", "value": "新　疆维吾尔自治区喀什市市北区建设路615号", "truth": "新疆维吾尔自治区喀什市市北区建设路615号", "perturbation": "space", "split": "train"}
+{"id": "address-0128", "field": "address", "value": "新疆维吾尔自治曲喀什市市北区建设路615号", "truth": "新疆维吾尔自治区喀什市市北区建设路615号", "perturbation": "typo", "split": "train"}
+{"id": "address-0128", "field": "address", "value": "新疆维吾尔自治区喀什市北区建设路615号", "truth": "新疆维吾尔自治区喀什市市北区建设路615号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0128", "field": "address", "value": "新疆维吾尔自治区-喀什市-市北区-建设路-615号", "truth": "新疆维吾尔自治区喀什市市北区建设路615号", "perturbation": "sep", "split": "train"}
+{"id": "address-0128", "field": "address", "value": "新疆维吾尔自治区喀什市市北区建设路615号（已搬迁）", "truth": "新疆维吾尔自治区喀什市市北区建设路615号", "perturbation": "noise", "split": "train"}
+{"id": "address-0129", "field": "address", "value": "内蒙古自治区鄂尔多斯　市中山区文化路1637号6栋3单元1414室", "truth": "内蒙古自治区鄂尔多斯市中山区文化路1637号6栋3单元1414室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0129", "field": "address", "value": "内蒙古自治区鄂尔多斯市中杉区文化路1637号6栋3单元1414室", "truth": "内蒙古自治区鄂尔多斯市中山区文化路1637号6栋3单元1414室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0129", "field": "address", "value": "鄂尔多斯市中山区文化路1637号6栋3单元1414室", "truth": "内蒙古自治区鄂尔多斯市中山区文化路1637号6栋3单元1414室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0129", "field": "address", "value": "内蒙古自治区·鄂尔多斯市·中山区·文化路·1637号·6栋3单元1414室", "truth": "内蒙古自治区鄂尔多斯市中山区文化路1637号6栋3单元1414室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0129", "field": "address", "value": "内蒙古自治区鄂尔多斯市中山区文化路1637号6栋3单元1414室（已搬迁）", "truth": "内蒙古自治区鄂尔多斯市中山区文化路1637号6栋3单元1414室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0130", "field": "address", "value": "安徽省阜阳市城东区建设路70 1号19栋6单元982室", "truth": "安徽省阜阳市城东区建设路701号19栋6单元982室", "perturbation": "space", "split": "train"}
+{"id": "address-0130", "field": "address", "value": "安徽省阜杨市城东区建设路701号19栋6单元982室", "truth": "安徽省阜阳市城东区建设路701号19栋6单元982室", "perturbation": "typo", "split": "train"}
+{"id": "address-0130", "field": "address", "value": "安徽阜阳城东区建设路701号19栋6单元982室", "truth": "安徽省阜阳市城东区建设路701号19栋6单元982室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0130", "field": "address", "value": "安徽省|阜阳市|城东区|建设路|701号|19栋6单元982室", "truth": "安徽省阜阳市城东区建设路701号19栋6单元982室", "perturbation": "sep", "split": "train"}
+{"id": "address-0130", "field": "address", "value": "安徽省阜阳市城东区建设路701号19栋6单元982室。", "truth": "安徽省阜阳市城东区建设路701号19栋6单元982室", "perturbation": "noise", "split": "train"}
+{"id": "address-0131", "field": "address", "value": "贵州省毕节市江南区环　城路1751号27栋5单元1932室", "truth": "贵州省毕节市江南区环城路1751号27栋5单元1932室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0131", "field": "address", "value": "贵州省毕节市江南区环诚路1751号27栋5单元1932室", "truth": "贵州省毕节市江南区环城路1751号27栋5单元1932室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0131", "field": "address", "value": "毕节市江南区环城路1751号27栋5单元1932室", "truth": "贵州省毕节市江南区环城路1751号27栋5单元1932室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0131", "field": "address", "value": "贵州省|毕节市|江南区|环城路|1751号|27栋5单元1932室", "truth": "贵州省毕节市江南区环城路1751号27栋5单元1932室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0131", "field": "address", "value": "地址：贵州省毕节市江南区环城路1751号27栋5单元1932室", "truth": "贵州省毕节市江南区环城路1751号27栋5单元1932室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0132", "field": "address", "value": "天　津市河东区科技大道60号", "truth": "天津市河东区科技大道60号", "perturbation": "space", "split": "train"}
+{"id": "address-0132", "field": "address", "value": "天津市河东曲科技大道60号", "truth": "天津市河东区科技大道60号", "perturbation": "typo", "split": "train"}
+{"id": "address-0132", "field": "address", "value": "天津河东区科技大道60号", "truth": "天津市河东区科技大道60号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0132", "field": "address", "value": "天津市|河东区|科技大道|60号", "truth": "天津市河东区科技大道60号", "perturbation": "sep", "split": "train"}
+{"id": "address-0132", "field": "address", "value": "天津市河东区科技大道60号。", "truth": "天津市河东区科技大道60号", "perturbation": "noise", "split": "train"}
+{"id": "address-0133", "field": "address", "value": "河南省南阳市 中山区育才路1557号", "truth": "河南省南阳市中山区育才路1557号", "perturbation": "space", "split": "train"}
+{"id": "address-0133", "field": "address", "value": "河南省南阳市中山曲育才路1557号", "truth": "河南省南阳市中山区育才路1557号", "perturbation": "typo", "split": "train"}
+{"id": "address-0133", "field": "address", "value": "河南南阳市中山区育才路1557号", "truth": "河南省南阳市中山区育才路1557号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0133", "field": "address", "value": "河南省／南阳市／中山区／育才路／1557号", "truth": "河南省南阳市中山区育才路1557号", "perturbation": "sep", "split": "train"}
+{"id": "address-0133", "field": "address", "value": "河南省南阳市中山区育才路1557号。", "truth": "河南省南阳市中山区育才路1557号", "perturbation": "noise", "split": "train"}
+{"id": "address-0134", "field": "address", "value": "北京市鼓楼区振兴路1605　号18栋3单元1730室", "truth": "北京市鼓楼区振兴路1605号18栋3单元1730室", "perturbation": "space", "split": "train"}
+{"id": "address-0134", "field": "address", "value": "贝京市鼓楼区振兴路1605号18栋3单元1730室", "truth": "北京市鼓楼区振兴路1605号18栋3单元1730室", "perturbation": "typo", "split": "train"}
+{"id": "address-0134", "field": "address", "value": "鼓楼区振兴路1605号18栋3单元1730室", "truth": "北京市鼓楼区振兴路1605号18栋3单元1730室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0134", "field": "address", "value": "北京市-鼓楼区-振兴路-1605号-18栋3单元1730室", "truth": "北京市鼓楼区振兴路1605号18栋3单元1730室", "perturbation": "sep", "split": "train"}
+{"id": "address-0134", "field": "address", "value": "北京市鼓楼区振兴路1605号18栋3单元1730室。", "truth": "北京市鼓楼区振兴路1605号18栋3单元1730室", "perturbation": "noise", "split": "train"}
+{"id": "address-0135", "field": "address", "value": "湖北省黄石市城北区富民　路54号", "truth": "湖北省黄石市城北区富民路54号", "perturbation": "space", "split": "train"}
+{"id": "address-0135", "field": "address", "value": "湖北省黄石市城北区富民露54号", "truth": "湖北省黄石市城北区富民路54号", "perturbation": "typo", "split": "train"}
+{"id": "address-0135", "field": "address", "value": "湖北黄石市城北区富民路54号", "truth": "湖北省黄石市城北区富民路54号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0135", "field": "address", "value": "湖北省／黄石市／城北区／富民路／54号", "truth": "湖北省黄石市城北区富民路54号", "perturbation": "sep", "split": "train"}
+{"id": "address-0135", "field": "address", "value": "住址:湖北省黄石市城北区富民路54号", "truth": "湖北省黄石市城北区富民路54号", "perturbation": "noise", "split": "train"}
+{"id": "address-0136", "field": "address", "value": "辽宁省抚顺市朝阳区中山路723号2　1栋6单元2161室", "truth": "辽宁省抚顺市朝阳区中山路723号21栋6单元2161室", "perturbation": "space", "split": "train"}
+{"id": "address-0136", "field": "address", "value": "辽宁省抚顺市朝阳区中杉路723号21栋6单元2161室", "truth": "辽宁省抚顺市朝阳区中山路723号21栋6单元2161室", "perturbation": "typo", "split": "train"}
+{"id": "address-0136", "field": "address", "value": "辽宁抚顺朝阳区中山路723号21栋6单元2161室", "truth": "辽宁省抚顺市朝阳区中山路723号21栋6单元2161室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0136", "field": "address", "value": "辽宁省-抚顺市-朝阳区-中山路-723号-21栋6单元2161室", "truth": "辽宁省抚顺市朝阳区中山路723号21栋6单元2161室", "perturbation": "sep", "split": "train"}
+{"id": "address-0136", "field": "address", "value": "住址:辽宁省抚顺市朝阳区中山路723号21栋6单元2161室", "truth": "辽宁省抚顺市朝阳区中山路723号21栋6单元2161室", "perturbation": "noise", "split": "train"}
+{"id": "address-0137", "field": "address", "value": "河北省廊坊市城南区民主路1676号5栋4单元　1738室", "truth": "河北省廊坊市城南区民主路1676号5栋4单元1738室", "perturbation": "space", "split": "train"}
+{"id": "address-0137", "field": "address", "value": "河北省廊坊市城南区民主路1676号5栋4单元1738式", "truth": "河北省廊坊市城南区民主路1676号5栋4单元1738室", "perturbation": "typo", "split": "train"}
+{"id": "address-0137", "field": "address", "value": "河北廊坊城南区民主路1676号5栋4单元1738室", "truth": "河北省廊坊市城南区民主路1676号5栋4单元1738室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0137", "field": "address", "value": "河北省／廊坊市／城南区／民主路／1676号／5栋4单元1738室", "truth": "河北省廊坊市城南区民主路1676号5栋4单元1738室", "perturbation": "sep", "split": "train"}
+{"id": "address-0137", "field": "address", "value": "河北省廊坊市城南区民主路1676号5栋4单元1738室（收货地址）", "truth": "河北省廊坊市城南区民主路1676号5栋4单元1738室", "perturbation": "noise", "split": "train"}
+{"id": "address-0138", "field": "address", "value": "西藏自治区拉萨 市鼓楼区学院路1422号", "truth": "西藏自治区拉萨市鼓楼区学院路1422号", "perturbation": "space", "split": "train"}
+{"id": "address-0138", "field": "address", "value": "西藏自治区拉萨式鼓楼区学院路1422号", "truth": "西藏自治区拉萨市鼓楼区学院路1422号", "perturbation": "typo", "split": "train"}
+{"id": "address-0138", "field": "address", "value": "西藏自治区拉萨鼓楼区学院路1422号", "truth": "西藏自治区拉萨市鼓楼区学院路1422号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0138", "field": "address", "value": "西藏自治区／拉萨市／鼓楼区／学院路／1422号", "truth": "西藏自治区拉萨市鼓楼区学院路1422号", "perturbation": "sep", "split": "train"}
+{"id": "address-0138", "field": "address", "value": "西藏自治区拉萨市鼓楼区学院路1422号（已搬迁）", "truth": "西藏自治区拉萨市鼓楼区学院路1422号", "perturbation": "noise", "split": "train"}
+{"id": "address-0139", "field": "address", "value": "云南省昆明市江 北区解放路900号20栋6单元466室", "truth": "云南省昆明市江北区解放路900号20栋6单元466室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0139", "field": "address", "value": "云南省昆明市江北区解放路900豪20栋6单元466室", "truth": "云南省昆明市江北区解放路900号20栋6单元466室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0139", "field": "address", "value": "云南昆明市江北区解放路900号20栋6单元466室", "truth": "云南省昆明市江北区解放路900号20栋6单元466室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0139", "field": "address", "value": "云南省-昆明市-江北区-解放路-900号-20栋6单元466室", "truth": "云南省昆明市江北区解放路900号20栋6单元466室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0139", "field": "address", "value": "云南省昆明市江北区解放路900号20栋6单元466室（老地址）", "truth": "云南省昆明市江北区解放路900号20栋6单元466室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0140", "field": "address", "value": "广东省茂名　市市南区北京路772号", "truth": "广东省茂名市市南区北京路772号", "perturbation": "space", "split": "train"}
+{"id": "address-0140", "field": "address", "value": "广东省茂名市市南区贝京路772号", "truth": "广东省茂名市市南区北京路772号", "perturbation": "typo", "split": "train"}
+{"id": "address-0140", "field": "address", "value": "广东茂名市南区北京路772号", "truth": "广东省茂名市市南区北京路772号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0140", "field": "address", "value": "广东省·茂名市·市南区·北京路·772号", "truth": "广东省茂名市市南区北京路772号", "perturbation": "sep", "split": "train"}
+{"id": "address-0140", "field": "address", "value": "广东省茂名市市南区北京路772号（已搬迁）", "truth": "广东省茂名市市南区北京路772号", "perturbation": "noise", "split": "train"}
+{"id": "address-0141", "field": "address", "value": "吉林省长春市西城区育才路　1475号10栋4单元897室", "truth": "吉林省长春市西城区育才路1475号10栋4单元897室", "perturbation": "space", "split": "train"}
+{"id": "address-0141", "field": "address", "value": "吉林省长春市西城曲育才路1475号10栋4单元897室", "truth": "吉林省长春市西城区育才路1475号10栋4单元897室", "perturbation": "typo", "split": "train"}
+{"id": "address-0141", "field": "address", "value": "长春市西城区育才路1475号10栋4单元897室", "truth": "吉林省长春市西城区育才路1475号10栋4单元897室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0141", "field": "address", "value": "吉林省·长春市·西城区·育才路·1475号·10栋4单元897室", "truth": "吉林省长春市西城区育才路1475号10栋4单元897室", "perturbation": "sep", "split": "train"}
+{"id": "address-0141", "field": "address", "value": "吉林省长春市西城区育才路1475号10栋4单元897室（已搬迁）", "truth": "吉林省长春市西城区育才路1475号10栋4单元897室", "perturbation": "noise", "split": "train"}
+{"id": "address-0142", "field": "address", "value": "四川省德　阳市河西区和平路32号9栋3单元1503室", "truth": "四川省德阳市河西区和平路32号9栋3单元1503室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0142", "field": "address", "value": "四川省德阳市河茜区和平路32号9栋3单元1503室", "truth": "四川省德阳市河西区和平路32号9栋3单元1503室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0142", "field": "address", "value": "四川德阳河西区和平路32号9栋3单元1503室", "truth": "四川省德阳市河西区和平路32号9栋3单元1503室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0142", "field": "address", "value": "四川省／德阳市／河西区／和平路／32号／9栋3单元1503室", "truth": "四川省德阳市河西区和平路32号9栋3单元1503室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0142", "field": "address", "value": "四川省德阳市河西区和平路32号9栋3单元1503室。", "truth": "四川省德阳市河西区和平路32号9栋3单元1503室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0143", "field": "address", "value": "天津市江南区兴业路744号24栋6单元108 室", "truth": "天津市江南区兴业路744号24栋6单元108室", "perturbation": "space", "split": "train"}
+{"id": "address-0143", "field": "address", "value": "天津市江楠区兴业路744号24栋6单元108室", "truth": "天津市江南区兴业路744号24栋6单元108室", "perturbation": "typo", "split": "train"}
+{"id": "address-0143", "field": "address", "value": "江南区兴业路744号24栋6单元108室", "truth": "天津市江南区兴业路744号24栋6单元108室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0143", "field": "address", "value": "天津市-江南区-兴业路-744号-24栋6单元108室", "truth": "天津市江南区兴业路744号24栋6单元108室", "perturbation": "sep", "split": "train"}
+{"id": "address-0143", "field": "address", "value": "住址:天津市江南区兴业路744号24栋6单元108室", "truth": "天津市江南区兴业路744号24栋6单元108室", "perturbation": "noise", "split": "train"}
+{"id": "address-0144", "field": "address", "value": "山东省淄博市高新区创业 路111号", "truth": "山东省淄博市高新区创业路111号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0144", "field": "address", "value": "山东省淄博市高新曲创业路111号", "truth": "山东省淄博市高新区创业路111号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0144", "field": "address", "value": "山东淄博高新区创业路111号", "truth": "山东省淄博市高新区创业路111号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0144", "field": "address", "value": "山东省-淄博市-高新区-创业路-111号", "truth": "山东省淄博市高新区创业路111号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0144", "field": "address", "value": "山东省淄博市高新区创业路111号（老地址）", "truth": "山东省淄博市高新区创业路111号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0145", "field": "address", "value": "山西 省太原市经济开发区幸福路1745号", "truth": "山西省太原市经济开发区幸福路1745号", "perturbation": "space", "split": "train"}
+{"id": "address-0145", "field": "address", "value": "山茜省太原市经济开发区幸福路1745号", "truth": "山西省太原市经济开发区幸福路1745号", "perturbation": "typo", "split": "train"}
+{"id": "address-0145", "field": "address", "value": "山西太原经济开发区幸福路1745号", "truth": "山西省太原市经济开发区幸福路1745号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0145", "field": "address", "value": "山西省／太原市／经济开发区／幸福路／1745号", "truth": "山西省太原市经济开发区幸福路1745号", "perturbation": "sep", "split": "train"}
+{"id": "address-0145", "field": "address", "value": "山西省太原市经济开发区幸福路1745号。", "truth": "山西省太原市经济开发区幸福路1745号", "perturbation": "noise", "split": "train"}
+{"id": "address-0146", "field": "address", "value": "黑龙江省佳木斯市中山　区望江路1294号27栋6单元1178室", "truth": "黑龙江省佳木斯市中山区望江路1294号27栋6单元1178室", "perturbation": "space", "split": "train"}
+{"id": "address-0146", "field": "address", "value": "黑龙江省佳木斯市中山区望江路1294豪27栋6单元1178室", "truth": "黑龙江省佳木斯市中山区望江路1294号27栋6单元1178室", "perturbation": "typo", "split": "train"}
+{"id": "address-0146", "field": "address", "value": "黑龙江佳木斯市中山区望江路1294号27栋6单元1178室", "truth": "黑龙江省佳木斯市中山区望江路1294号27栋6单元1178室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0146", "field": "address", "value": "黑龙江省|佳木斯市|中山区|望江路|1294号|27栋6单元1178室", "truth": "黑龙江省佳木斯市中山区望江路1294号27栋6单元1178室", "perturbation": "sep", "split": "train"}
+{"id": "address-0146", "field": "address", "value": "黑龙江省佳木斯市中山区望江路1294号27栋6单元1178室（老地址）", "truth": "黑龙江省佳木斯市中山区望江路1294号27栋6单元1178室", "perturbation": "noise", "split": "train"}
+{"id": "address-0147", "field": "address", "value": "广西壮族自治区梧州市城北区兴业路164号8栋6单元198 1室", "truth": "广西壮族自治区梧州市城北区兴业路164号8栋6单元1981室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0147", "field": "address", "value": "广西壮族自治区梧州市城北区兴业路164号8栋6单元1981式", "truth": "广西壮族自治区梧州市城北区兴业路164号8栋6单元1981室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0147", "field": "address", "value": "梧州市城北区兴业路164号8栋6单元1981室", "truth": "广西壮族自治区梧州市城北区兴业路164号8栋6单元1981室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0147", "field": "address", "value": "广西壮族自治区-梧州市-城北区-兴业路-164号-8栋6单元1981室", "truth": "广西壮族自治区梧州市城北区兴业路164号8栋6单元1981室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0147", "field": "address", "value": "广西壮族自治区梧州市城北区兴业路164号8栋6单元1981室（收货地址）", "truth": "广西壮族自治区梧州市城北区兴业路164号8栋6单元1981室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0148", "field": "address", "value": "甘肃省兰　州市高新区兴业路1130号25栋5单元1772室", "truth": "甘肃省兰州市高新区兴业路1130号25栋5单元1772室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0148", "field": "address", "value": "甘肃省兰洲市高新区兴业路1130号25栋5单元1772室", "truth": "甘肃省兰州市高新区兴业路1130号25栋5单元1772室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0148", "field": "address", "value": "甘肃兰州高新区兴业路1130号25栋5单元1772室", "truth": "甘肃省兰州市高新区兴业路1130号25栋5单元1772室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0148", "field": "address", "value": "甘肃省-兰州市-高新区-兴业路-1130号-25栋5单元1772室", "truth": "甘肃省兰州市高新区兴业路1130号25栋5单元1772室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0148", "field": "address", "value": "甘肃省兰州市高新区兴业路1130号25栋5单元1772室。", "truth": "甘肃省兰州市高新区兴业路1130号25栋5单元1772室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0149", "field": "address", "value": "北京市新区黄河路289号24栋1单元 1839室", "truth": "北京市新区黄河路289号24栋1单元1839室", "perturbation": "space", "split": "train"}
+{"id": "address-0149", "field": "address", "value": "北京市新区黄河路289豪24栋1单元1839室", "truth": "北京市新区黄河路289号24栋1单元1839室", "perturbation": "typo", "split": "train"}
+{"id": "address-0149", "field": "address", "value": "北京新区黄河路289号24栋1单元1839室", "truth": "北京市新区黄河路289号24栋1单元1839室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0149", "field": "address", "value": "北京市|新区|黄河路|289号|24栋1单元1839室", "truth": "北京市新区黄河路289号24栋1单元1839室", "perturbation": "sep", "split": "train"}
+{"id": "address-0149", "field": "address", "value": "北京市新区黄河路289号24栋1单元1839室。", "truth": "北京市新区黄河路289号24栋1单元1839室", "perturbation": "noise", "split": "train"}
+{"id": "address-0150", "field": "address", "value": "内蒙古自治区赤峰市新　区青年路1355号", "truth": "内蒙古自治区赤峰市新区青年路1355号", "perturbation": "space", "split": "train"}
+{"id": "address-0150", "field": "address", "value": "内蒙古自治区赤峰市欣区青年路1355号", "truth": "内蒙古自治区赤峰市新区青年路1355号", "perturbation": "typo", "split": "train"}
+{"id": "address-0150", "field": "address", "value": "内蒙古自治区赤峰新区青年路1355号", "truth": "内蒙古自治区赤峰市新区青年路1355号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0150", "field": "address", "value": "内蒙古自治区／赤峰市／新区／青年路／1355号", "truth": "内蒙古自治区赤峰市新区青年路1355号", "perturbation": "sep", "split": "train"}
+{"id": "address-0150", "field": "address", "value": "地址：内蒙古自治区赤峰市新区青年路1355号", "truth": "内蒙古自治区赤峰市新区青年路1355号", "perturbation": "noise", "split": "train"}
+{"id": "address-0151", "field": "address", "value": "安徽省阜阳市滨江区迎宾大道13　83号", "truth": "安徽省阜阳市滨江区迎宾大道1383号", "perturbation": "space", "split": "train"}
+{"id": "address-0151", "field": "address", "value": "安徽省阜阳市宾江区迎宾大道1383号", "truth": "安徽省阜阳市滨江区迎宾大道1383号", "perturbation": "typo", "split": "train"}
+{"id": "address-0151", "field": "address", "value": "阜阳市滨江区迎宾大道1383号", "truth": "安徽省阜阳市滨江区迎宾大道1383号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0151", "field": "address", "value": "安徽省|阜阳市|滨江区|迎宾大道|1383号", "truth": "安徽省阜阳市滨江区迎宾大道1383号", "perturbation": "sep", "split": "train"}
+{"id": "address-0151", "field": "address", "value": "安徽省阜阳市滨江区迎宾大道1383号。", "truth": "安徽省阜阳市滨江区迎宾大道1383号", "perturbation": "noise", "split": "train"}
+{"id": "address-0152", "field": "address", "value": "澳门特别行政区市　北区中山路777号", "truth": "澳门特别行政区市北区中山路777号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0152", "field": "address", "value": "澳门特别行政区市北区中山露777号", "truth": "澳门特别行政区市北区中山路777号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0152", "field": "address", "value": "澳门特别行政区北区中山路777号", "truth": "澳门特别行政区市北区中山路777号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0152", "field": "address", "value": "澳门特别行政区／市北区／中山路／777号", "truth": "澳门特别行政区市北区中山路777号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0152", "field": "address", "value": "澳门特别行政区市北区中山路777号。", "truth": "澳门特别行政区市北区中山路777号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0153", "field": "address", "value": "山东省淄博市鼓楼区花园路1325　号28栋3单元278室", "truth": "山东省淄博市鼓楼区花园路1325号28栋3单元278室", "perturbation": "space", "split": "train"}
+{"id": "address-0153", "field": "address", "value": "山东省淄博市鼓楼区花园路1325号28栋3单元278式", "truth": "山东省淄博市鼓楼区花园路1325号28栋3单元278室", "perturbation": "typo", "split": "train"}
+{"id": "address-0153", "field": "address", "value": "淄博市鼓楼区花园路1325号28栋3单元278室", "truth": "山东省淄博市鼓楼区花园路1325号28栋3单元278室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0153", "field": "address", "value": "山东省-淄博市-鼓楼区-花园路-1325号-28栋3单元278室", "truth": "山东省淄博市鼓楼区花园路1325号28栋3单元278室", "perturbation": "sep", "split": "train"}
+{"id": "address-0153", "field": "address", "value": "山东省淄博市鼓楼区花园路1325号28栋3单元278室（收货地址）", "truth": "山东省淄博市鼓楼区花园路1325号28栋3单元278室", "perturbation": "noise", "split": "train"}
+{"id": "address-0154", "field": "address", "value": "湖北省荆州市开发区　黄河路16号", "truth": "湖北省荆州市开发区黄河路16号", "perturbation": "space", "split": "train"}
+{"id": "address-0154", "field": "address", "value": "湖贝省荆州市开发区黄河路16号", "truth": "湖北省荆州市开发区黄河路16号", "perturbation": "typo", "split": "train"}
+{"id": "address-0154", "field": "address", "value": "湖北荆州开发区黄河路16号", "truth": "湖北省荆州市开发区黄河路16号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0154", "field": "address", "value": "湖北省-荆州市-开发区-黄河路-16号", "truth": "湖北省荆州市开发区黄河路16号", "perturbation": "sep", "split": "train"}
+{"id": "address-0154", "field": "address", "value": "地址：湖北省荆州市开发区黄河路16号", "truth": "湖北省荆州市开发区黄河路16号", "perturbation": "noise", "split": "train"}
+{"id": "address-0155", "field": "address", "value": "浙江省金　华市市中区环城路1427号", "truth": "浙江省金华市市中区环城路1427号", "perturbation": "space", "split": "train"}
+{"id": "address-0155", "field": "address", "value": "浙江省金华市式中区环城路1427号", "truth": "浙江省金华市市中区环城路1427号", "perturbation": "typo", "split": "train"}
+{"id": "address-0155", "field": "address", "value": "浙江金华市市中区环城路1427号", "truth": "浙江省金华市市中区环城路1427号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0155", "field": "address", "value": "浙江省／金华市／市中区／环城路／1427号", "truth": "浙江省金华市市中区环城路1427号", "perturbation": "sep", "split": "train"}
+{"id": "address-0155", "field": "address", "value": "浙江省金华市市中区环城路1427号（老地址）", "truth": "浙江省金华市市中区环城路1427号", "perturbation": "noise", "split": "train"}
+{"id": "address-0156", "field": "address", "value": "吉林省通化市市　北区中山路533号", "truth": "吉林省通化市市北区中山路533号", "perturbation": "space", "split": "train"}
+{"id": "address-0156", "field": "address", "value": "吉林省通化市市北区中山路533豪", "truth": "吉林省通化市市北区中山路533号", "perturbation": "typo", "split": "train"}
+{"id": "address-0156", "field": "address", "value": "吉林通化市市北区中山路533号", "truth": "吉林省通化市市北区中山路533号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0156", "field": "address", "value": "吉林省-通化市-市北区-中山路-533号", "truth": "吉林省通化市市北区中山路533号", "perturbation": "sep", "split": "train"}
+{"id": "address-0156", "field": "address", "value": "住址:吉林省通化市市北区中山路533号", "truth": "吉林省通化市市北区中山路533号", "perturbation": "noise", "split": "train"}
+{"id": "address-0157", "field": "address", "value": "海南　省海口市西城区滨江路582号", "truth": "海南省海口市西城区滨江路582号", "perturbation": "space", "split": "train"}
+{"id": "address-0157", "field": "address", "value": "海南省海口市西城曲滨江路582号", "truth": "海南省海口市西城区滨江路582号", "perturbation": "typo", "split": "train"}
+{"id": "address-0157", "field": "address", "value": "海南海口西城区滨江路582号", "truth": "海南省海口市西城区滨江路582号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0157", "field": "address", "value": "海南省／海口市／西城区／滨江路／582号", "truth": "海南省海口市西城区滨江路582号", "perturbation": "sep", "split": "train"}
+{"id": "address-0157", "field": "address", "value": "海南省海口市西城区滨江路582号（已搬迁）", "truth": "海南省海口市西城区滨江路582号", "perturbation": "noise", "split": "train"}
+{"id": "address-0158", "field": "address", "value": "新疆维吾尔自治区伊宁市城南区花园路132 号", "truth": "新疆维吾尔自治区伊宁市城南区花园路132号", "perturbation": "space", "split": "train"}
+{"id": "address-0158", "field": "address", "value": "新疆维吾尔自治区伊宁式城南区花园路132号", "truth": "新疆维吾尔自治区伊宁市城南区花园路132号", "perturbation": "typo", "split": "train"}
+{"id": "address-0158", "field": "address", "value": "伊宁市城南区花园路132号", "truth": "新疆维吾尔自治区伊宁市城南区花园路132号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0158", "field": "address", "value": "新疆维吾尔自治区／伊宁市／城南区／花园路／132号", "truth": "新疆维吾尔自治区伊宁市城南区花园路132号", "perturbation": "sep", "split": "train"}
+{"id": "address-0158", "field": "address", "value": "新疆维吾尔自治区伊宁市城南区花园路132号。", "truth": "新疆维吾尔自治区伊宁市城南区花园路132号", "perturbation": "noise", "split": "train"}
+{"id": "address-0159", "field": "address", "value": "陕西　省渭南市经济开发区光明路1814号28栋6单元513室", "truth": "陕西省渭南市经济开发区光明路1814号28栋6单元513室", "perturbation": "space", "split": "train"}
+{"id": "address-0159", "field": "address", "value": "陕西省渭南式经济开发区光明路1814号28栋6单元513室", "truth": "陕西省渭南市经济开发区光明路1814号28栋6单元513室", "perturbation": "typo", "split": "train"}
+{"id": "address-0159", "field": "address", "value": "陕西渭南经济开发区光明路1814号28栋6单元513室", "truth": "陕西省渭南市经济开发区光明路1814号28栋6单元513室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0159", "field": "address", "value": "陕西省／渭南市／经济开发区／光明路／1814号／28栋6单元513室", "truth": "陕西省渭南市经济开发区光明路1814号28栋6单元513室", "perturbation": "sep", "split": "train"}
+{"id": "address-0159", "field": "address", "value": "陕西省渭南市经济开发区光明路1814号28栋6单元513室（已搬迁）", "truth": "陕西省渭南市经济开发区光明路1814号28栋6单元513室", "perturbation": "noise", "split": "train"}
+{"id": "address-0160", "field": "address", "value": "重庆市高新区黄河路268号21栋5单元17 48室", "truth": "重庆市高新区黄河路268号21栋5单元1748室", "perturbation": "space", "split": "train"}
+{"id": "address-0160", "field": "address", "value": "重庆市高新曲黄河路268号21栋5单元1748室", "truth": "重庆市高新区黄河路268号21栋5单元1748室", "perturbation": "typo", "split": "train"}
+{"id": "address-0160", "field": "address", "value": "重庆高新区黄河路268号21栋5单元1748室", "truth": "重庆市高新区黄河路268号21栋5单元1748室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0160", "field": "address", "value": "重庆市，高新区，黄河路，268号，21栋5单元1748室", "truth": "重庆市高新区黄河路268号21栋5单元1748室", "perturbation": "sep", "split": "train"}
+{"id": "address-0160", "field": "address", "value": "重庆市高新区黄河路268号21栋5单元1748室（已搬迁）", "truth": "重庆市高新区黄河路268号21栋5单元1748室", "perturbation": "noise", "split": "train"}
+{"id": "address-0161", "field": "address", "value": "贵州省　贵阳市中山区长江路858号", "truth": "贵州省贵阳市中山区长江路858号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0161", "field": "address", "value": "贵洲省贵阳市中山区长江路858号", "truth": "贵州省贵阳市中山区长江路858号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0161", "field": "address", "value": "贵州贵阳市中山区长江路858号", "truth": "贵州省贵阳市中山区长江路858号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0161", "field": "address", "value": "贵州省／贵阳市／中山区／长江路／858号", "truth": "贵州省贵阳市中山区长江路858号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0161", "field": "address", "value": "地址：贵州省贵阳市中山区长江路858号", "truth": "贵州省贵阳市中山区长江路858号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0162", "field": "address", "value": "甘肃省天水市市中区振兴路1917　号", "truth": "甘肃省天水市市中区振兴路1917号", "perturbation": "space", "split": "train"}
+{"id": "address-0162", "field": "address", "value": "甘肃省天水市式中区振兴路1917号", "truth": "甘肃省天水市市中区振兴路1917号", "perturbation": "typo", "split": "train"}
+{"id": "address-0162", "field": "address", "value": "甘肃天水市市中区振兴路1917号", "truth": "甘肃省天水市市中区振兴路1917号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0162", "field": "address", "value": "甘肃省·天水市·市中区·振兴路·1917号", "truth": "甘肃省天水市市中区振兴路1917号", "perturbation": "sep", "split": "train"}
+{"id": "address-0162", "field": "address", "value": "住址:甘肃省天水市市中区振兴路1917号", "truth": "甘肃省天水市市中区振兴路1917号", "perturbation": "noise", "split": "train"}
+{"id": "address-0163", "field": "address", "value": "内蒙古自治区通辽市新城区世纪大道　979号", "truth": "内蒙古自治区通辽市新城区世纪大道979号", "perturbation": "space", "split": "train"}
+{"id": "address-0163", "field": "address", "value": "内蒙古自治区通辽式新城区世纪大道979号", "truth": "内蒙古自治区通辽市新城区世纪大道979号", "perturbation": "typo", "split": "train"}
+{"id": "address-0163", "field": "address", "value": "通辽市新城区世纪大道979号", "truth": "内蒙古自治区通辽市新城区世纪大道979号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0163", "field": "address", "value": "内蒙古自治区，通辽市，新城区，世纪大道，979号", "truth": "内蒙古自治区通辽市新城区世纪大道979号", "perturbation": "sep", "split": "train"}
+{"id": "address-0163", "field": "address", "value": "内蒙古自治区通辽市新城区世纪大道979号（已搬迁）", "truth": "内蒙古自治区通辽市新城区世纪大道979号", "perturbation": "noise", "split": "train"}
+{"id": "address-0164", "field": "address", "value": "山西省长治市高新技术产业开发区民 主路335号6栋1单元1887室", "truth": "山西省长治市高新技术产业开发区民主路335号6栋1单元1887室", "perturbation": "space", "split": "train"}
+{"id": "address-0164", "field": "address", "value": "山西省长治式高新技术产业开发区民主路335号6栋1单元1887室", "truth": "山西省长治市高新技术产业开发区民主路335号6栋1单元1887室", "perturbation": "typo", "split": "train"}
+{"id": "address-0164", "field": "address", "value": "山西长治高新技术产业开发区民主路335号6栋1单元1887室", "truth": "山西省长治市高新技术产业开发区民主路335号6栋1单元1887室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0164", "field": "address", "value": "山西省-长治市-高新技术产业开发区-民主路-335号-6栋1单元1887室", "truth": "山西省长治市高新技术产业开发区民主路335号6栋1单元1887室", "perturbation": "sep", "split": "train"}
+{"id": "address-0164", "field": "address", "value": "山西省长治市高新技术产业开发区民主路335号6栋1单元1887室（老地址）", "truth": "山西省长治市高新技术产业开发区民主路335号6栋1单元1887室", "perturbation": "noise", "split": "train"}
+{"id": "address-0165", "field": "address", "value": "贵州省遵 义市市北区北京路1732号13栋5单元387室", "truth": "贵州省遵义市市北区北京路1732号13栋5单元387室", "perturbation": "space", "split": "train"}
+{"id": "address-0165", "field": "address", "value": "贵州省遵义市市北区北京露1732号13栋5单元387室", "truth": "贵州省遵义市市北区北京路1732号13栋5单元387室", "perturbation": "typo", "split": "train"}
+{"id": "address-0165", "field": "address", "value": "贵州遵义市北区北京路1732号13栋5单元387室", "truth": "贵州省遵义市市北区北京路1732号13栋5单元387室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0165", "field": "address", "value": "贵州省-遵义市-市北区-北京路-1732号-13栋5单元387室", "truth": "贵州省遵义市市北区北京路1732号13栋5单元387室", "perturbation": "sep", "split": "train"}
+{"id": "address-0165", "field": "address", "value": "贵州省遵义市市北区北京路1732号13栋5单元387室（收货地址）", "truth": "贵州省遵义市市北区北京路1732号13栋5单元387室", "perturbation": "noise", "split": "train"}
+{"id": "address-0166", "field": "address", "value": "安徽省蚌埠　市城南区光明路810号24栋6单元1645室", "truth": "安徽省蚌埠市城南区光明路810号24栋6单元1645室", "perturbation": "space", "split": "train"}
+{"id": "address-0166", "field": "address", "value": "安徽省蚌埠市城南区光明路810号24洞6单元1645室", "truth": "安徽省蚌埠市城南区光明路810号24栋6单元1645室", "perturbation": "typo", "split": "train"}
+{"id": "address-0166", "field": "address", "value": "安徽蚌埠市城南区光明路810号24栋6单元1645室", "truth": "安徽省蚌埠市城南区光明路810号24栋6单元1645室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0166", "field": "address", "value": "安徽省|蚌埠市|城南区|光明路|810号|24栋6单元1645室", "truth": "安徽省蚌埠市城南区光明路810号24栋6单元1645室", "perturbation": "sep", "split": "train"}
+{"id": "address-0166", "field": "address", "value": "地址：安徽省蚌埠市城南区光明路810号24栋6单元1645室", "truth": "安徽省蚌埠市城南区光明路810号24栋6单元1645室", "perturbation": "noise", "split": "train"}
+{"id": "address-0167", "field": "address", "value": "宁夏回族自治区吴忠市中山区兴业路1930号28栋2单元12 99室", "truth": "宁夏回族自治区吴忠市中山区兴业路1930号28栋2单元1299室", "perturbation": "space", "split": "train"}
+{"id": "address-0167", "field": "address", "value": "宁夏回族自治区吴忠市中山区兴业露1930号28栋2单元1299室", "truth": "宁夏回族自治区吴忠市中山区兴业路1930号28栋2单元1299室", "perturbation": "typo", "split": "train"}
+{"id": "address-0167", "field": "address", "value": "宁夏回族自治区吴忠中山区兴业路1930号28栋2单元1299室", "truth": "宁夏回族自治区吴忠市中山区兴业路1930号28栋2单元1299室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0167", "field": "address", "value": "宁夏回族自治区|吴忠市|中山区|兴业路|1930号|28栋2单元1299室", "truth": "宁夏回族自治区吴忠市中山区兴业路1930号28栋2单元1299室", "perturbation": "sep", "split": "train"}
+{"id": "address-0167", "field": "address", "value": "宁夏回族自治区吴忠市中山区兴业路1930号28栋2单元1299室（收货地址）", "truth": "宁夏回族自治区吴忠市中山区兴业路1930号28栋2单元1299室", "perturbation": "noise", "split": "train"}
+{"id": "address-0168", "field": "address", "value": "江西省宜春市市中区创业路93号 15栋4单元930室", "truth": "江西省宜春市市中区创业路93号15栋4单元930室", "perturbation": "space", "split": "train"}
+{"id": "address-0168", "field": "address", "value": "江茜省宜春市市中区创业路93号15栋4单元930室", "truth": "江西省宜春市市中区创业路93号15栋4单元930室", "perturbation": "typo", "split": "train"}
+{"id": "address-0168", "field": "address", "value": "江西宜春市中区创业路93号15栋4单元930室", "truth": "江西省宜春市市中区创业路93号15栋4单元930室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0168", "field": "address", "value": "江西省／宜春市／市中区／创业路／93号／15栋4单元930室", "truth": "江西省宜春市市中区创业路93号15栋4单元930室", "perturbation": "sep", "split": "train"}
+{"id": "address-0168", "field": "address", "value": "地址：江西省宜春市市中区创业路93号15栋4单元930室", "truth": "江西省宜春市市中区创业路93号15栋4单元930室", "perturbation": "noise", "split": "train"}
+{"id": "address-0169", "field": "address", "value": "云南省曲靖市市南区　世纪大道1794号14栋4单元1225室", "truth": "云南省曲靖市市南区世纪大道1794号14栋4单元1225室", "perturbation": "space", "split": "train"}
+{"id": "address-0169", "field": "address", "value": "云南省曲靖式市南区世纪大道1794号14栋4单元1225室", "truth": "云南省曲靖市市南区世纪大道1794号14栋4单元1225室", "perturbation": "typo", "split": "train"}
+{"id": "address-0169", "field": "address", "value": "云南曲靖市市南区世纪大道1794号14栋4单元1225室", "truth": "云南省曲靖市市南区世纪大道1794号14栋4单元1225室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0169", "field": "address", "value": "云南省|曲靖市|市南区|世纪大道|1794号|14栋4单元1225室", "truth": "云南省曲靖市市南区世纪大道1794号14栋4单元1225室", "perturbation": "sep", "split": "train"}
+{"id": "address-0169", "field": "address", "value": "云南省曲靖市市南区世纪大道1794号14栋4单元1225室（老地址）", "truth": "云南省曲靖市市南区世纪大道1794号14栋4单元1225室", "perturbation": "noise", "split": "train"}
+{"id": "address-0170", "field": "address", "value": "四川省南充市东城区建设路649号2栋6单元1　297室", "truth": "四川省南充市东城区建设路649号2栋6单元1297室", "perturbation": "space", "split": "train"}
+{"id": "address-0170", "field": "address", "value": "四川省楠充市东城区建设路649号2栋6单元1297室", "truth": "四川省南充市东城区建设路649号2栋6单元1297室", "perturbation": "typo", "split": "train"}
+{"id": "address-0170", "field": "address", "value": "南充市东城区建设路649号2栋6单元1297室", "truth": "四川省南充市东城区建设路649号2栋6单元1297室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0170", "field": "address", "value": "四川省-南充市-东城区-建设路-649号-2栋6单元1297室", "truth": "四川省南充市东城区建设路649号2栋6单元1297室", "perturbation": "sep", "split": "train"}
+{"id": "address-0170", "field": "address", "value": "地址：四川省南充市东城区建设路649号2栋6单元1297室", "truth": "四川省南充市东城区建设路649号2栋6单元1297室", "perturbation": "noise", "split": "train"}
+{"id": "address-0171", "field": "address", "value": "辽宁省鞍山市西城　区新华路1115号16栋6单元1200室", "truth": "辽宁省鞍山市西城区新华路1115号16栋6单元1200室", "perturbation": "space", "split": "train"}
+{"id": "address-0171", "field": "address", "value": "辽宁省鞍山市西城区新华路1115号16栋6单元1200式", "truth": "辽宁省鞍山市西城区新华路1115号16栋6单元1200室", "perturbation": "typo", "split": "train"}
+{"id": "address-0171", "field": "address", "value": "辽宁鞍山西城区新华路1115号16栋6单元1200室", "truth": "辽宁省鞍山市西城区新华路1115号16栋6单元1200室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0171", "field": "address", "value": "辽宁省·鞍山市·西城区·新华路·1115号·16栋6单元1200室", "truth": "辽宁省鞍山市西城区新华路1115号16栋6单元1200室", "perturbation": "sep", "split": "train"}
+{"id": "address-0171", "field": "address", "value": "住址:辽宁省鞍山市西城区新华路1115号16栋6单元1200室", "truth": "辽宁省鞍山市西城区新华路1115号16栋6单元1200室", "perturbation": "noise", "split": "train"}
+{"id": "address-0172", "field": "address", "value": "河南省南阳市中山区环城路18 33号", "truth": "河南省南阳市中山区环城路1833号", "perturbation": "space", "split": "train"}
+{"id": "address-0172", "field": "address", "value": "河南省南阳市中杉区环城路1833号", "truth": "河南省南阳市中山区环城路1833号", "perturbation": "typo", "split": "train"}
+{"id": "address-0172", "field": "address", "value": "河南南阳市中山区环城路1833号", "truth": "河南省南阳市中山区环城路1833号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0172", "field": "address", "value": "河南省／南阳市／中山区／环城路／1833号", "truth": "河南省南阳市中山区环城路1833号", "perturbation": "sep", "split": "train"}
+{"id": "address-0172", "field": "address", "value": "河南省南阳市中山区环城路1833号。", "truth": "河南省南阳市中山区环城路1833号", "perturbation": "noise", "split": "train"}
+{"id": "address-0173", "field": "address", "value": "广西壮族自 治区梧州市新城区和平路384号4栋6单元2111室", "truth": "广西壮族自治区梧州市新城区和平路384号4栋6单元2111室", "perturbation": "space", "split": "train"}
+{"id": "address-0173", "field": "address", "value": "广西壮族自治区梧州市新诚区和平路384号4栋6单元2111室", "truth": "广西壮族自治区梧州市新城区和平路384号4栋6单元2111室", "perturbation": "typo", "split": "train"}
+{"id": "address-0173", "field": "address", "value": "梧州市新城区和平路384号4栋6单元2111室", "truth": "广西壮族自治区梧州市新城区和平路384号4栋6单元2111室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0173", "field": "address", "value": "广西壮族自治区，梧州市，新城区，和平路，384号，4栋6单元2111室", "truth": "广西壮族自治区梧州市新城区和平路384号4栋6单元2111室", "perturbation": "sep", "split": "train"}
+{"id": "address-0173", "field": "address", "value": "住址:广西壮族自治区梧州市新城区和平路384号4栋6单元2111室", "truth": "广西壮族自治区梧州市新城区和平路384号4栋6单元2111室", "perturbation": "noise", "split": "train"}
+{"id": "address-0174", "field": "address", "value": "贵州省六 盘水市江南区育才路622号10栋2单元1495室", "truth": "贵州省六盘水市江南区育才路622号10栋2单元1495室", "perturbation": "space", "split": "train"}
+{"id": "address-0174", "field": "address", "value": "贵州省六盘水市江南区育才路622号10栋2单元1495式", "truth": "贵州省六盘水市江南区育才路622号10栋2单元1495室", "perturbation": "typo", "split": "train"}
+{"id": "address-0174", "field": "address", "value": "六盘水市江南区育才路622号10栋2单元1495室", "truth": "贵州省六盘水市江南区育才路622号10栋2单元1495室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0174", "field": "address", "value": "贵州省|六盘水市|江南区|育才路|622号|10栋2单元1495室", "truth": "贵州省六盘水市江南区育才路622号10栋2单元1495室", "perturbation": "sep", "split": "train"}
+{"id": "address-0174", "field": "address", "value": "地址：贵州省六盘水市江南区育才路622号10栋2单元1495室", "truth": "贵州省六盘水市江南区育才路622号10栋2单元1495室", "perturbation": "noise", "split": "train"}
+{"id": "address-0175", "field": "address", "value": "河　南省焦作市经济开发区学院路522号", "truth": "河南省焦作市经济开发区学院路522号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0175", "field": "address", "value": "河南省焦作市经济开发曲学院路522号", "truth": "河南省焦作市经济开发区学院路522号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0175", "field": "address", "value": "河南焦作市经济开发区学院路522号", "truth": "河南省焦作市经济开发区学院路522号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0175", "field": "address", "value": "河南省，焦作市，经济开发区，学院路，522号", "truth": "河南省焦作市经济开发区学院路522号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0175", "field": "address", "value": "地址：河南省焦作市经济开发区学院路522号", "truth": "河南省焦作市经济开发区学院路522号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0176", "field": "address", "value": "吉林省松原　市河东区团结路465号16栋3单元1268室", "truth": "吉林省松原市河东区团结路465号16栋3单元1268室", "perturbation": "space", "split": "train"}
+{"id": "address-0176", "field": "address", "value": "吉林省松原式河东区团结路465号16栋3单元1268室", "truth": "吉林省松原市河东区团结路465号16栋3单元1268室", "perturbation": "typo", "split": "train"}
+{"id": "address-0176", "field": "address", "value": "吉林松原河东区团结路465号16栋3单元1268室", "truth": "吉林省松原市河东区团结路465号16栋3单元1268室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0176", "field": "address", "value": "吉林省，松原市，河东区，团结路，465号，16栋3单元1268室", "truth": "吉林省松原市河东区团结路465号16栋3单元1268室", "perturbation": "sep", "split": "train"}
+{"id": "address-0176", "field": "address", "value": "吉林省松原市河东区团结路465号16栋3单元1268室（老地址）", "truth": "吉林省松原市河东区团结路465号16栋3单元1268室", "perturbation": "noise", "split": "train"}
+{"id": "address-0177", "field": "address", "value": "山西省长治市河西区人民路1542 号10栋4单元304室", "truth": "山西省长治市河西区人民路1542号10栋4单元304室", "perturbation": "space", "split": "train"}
+{"id": "address-0177", "field": "address", "value": "山西省长治市河西区人民露1542号10栋4单元304室", "truth": "山西省长治市河西区人民路1542号10栋4单元304室", "perturbation": "typo", "split": "train"}
+{"id": "address-0177", "field": "address", "value": "山西长治河西区人民路1542号10栋4单元304室", "truth": "山西省长治市河西区人民路1542号10栋4单元304室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0177", "field": "address", "value": "山西省|长治市|河西区|人民路|1542号|10栋4单元304室", "truth": "山西省长治市河西区人民路1542号10栋4单元304室", "perturbation": "sep", "split": "train"}
+{"id": "address-0177", "field": "address", "value": "山西省长治市河西区人民路1542号10栋4单元304室。", "truth": "山西省长治市河西区人民路1542号10栋4单元304室", "perturbation": "noise", "split": "train"}
+{"id": "address-0178", "field": "address", "value": "云南省丽江市城东区　胜利路62号", "truth": "云南省丽江市城东区胜利路62号", "perturbation": "space", "split": "train"}
+{"id": "address-0178", "field": "address", "value": "云南省丽江式城东区胜利路62号", "truth": "云南省丽江市城东区胜利路62号", "perturbation": "typo", "split": "train"}
+{"id": "address-0178", "field": "address", "value": "云南丽江市城东区胜利路62号", "truth": "云南省丽江市城东区胜利路62号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0178", "field": "address", "value": "云南省|丽江市|城东区|胜利路|62号", "truth": "云南省丽江市城东区胜利路62号", "perturbation": "sep", "split": "train"}
+{"id": "address-0178", "field": "address", "value": "云南省丽江市城东区胜利路62号。", "truth": "云南省丽江市城东区胜利路62号", "perturbation": "noise", "split": "train"}
+{"id": "address-0179", "field": "address", "value": "甘 肃省天水市朝阳区幸福路1915号23栋1单元1475室", "truth": "甘肃省天水市朝阳区幸福路1915号23栋1单元1475室", "perturbation": "space", "split": "train"}
+{"id": "address-0179", "field": "address", "value": "甘肃省天水市朝杨区幸福路1915号23栋1单元1475室", "truth": "甘肃省天水市朝阳区幸福路1915号23栋1单元1475室", "perturbation": "typo", "split": "train"}
+{"id": "address-0179", "field": "address", "value": "甘肃天水朝阳区幸福路1915号23栋1单元1475室", "truth": "甘肃省天水市朝阳区幸福路1915号23栋1单元1475室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0179", "field": "address", "value": "甘肃省·天水市·朝阳区·幸福路·1915号·23栋1单元1475室", "truth": "甘肃省天水市朝阳区幸福路1915号23栋1单元1475室", "perturbation": "sep", "split": "train"}
+{"id": "address-0179", "field": "address", "value": "住址:甘肃省天水市朝阳区幸福路1915号23栋1单元1475室", "truth": "甘肃省天水市朝阳区幸福路1915号23栋1单元1475室", "perturbation": "noise", "split": "train"}
+{"id": "address-0180", "field": "address", "value": "广西壮族自治区北海市 东城区世纪大道147号25栋6单元1545室", "truth": "广西壮族自治区北海市东城区世纪大道147号25栋6单元1545室", "perturbation": "space", "split": "train"}
+{"id": "address-0180", "field": "address", "value": "广西壮族自治区贝海市东城区世纪大道147号25栋6单元1545室", "truth": "广西壮族自治区北海市东城区世纪大道147号25栋6单元1545室", "perturbation": "typo", "split": "train"}
+{"id": "address-0180", "field": "address", "value": "广西壮族自治区北海东城区世纪大道147号25栋6单元1545室", "truth": "广西壮族自治区北海市东城区世纪大道147号25栋6单元1545室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0180", "field": "address", "value": "广西壮族自治区，北海市，东城区，世纪大道，147号，25栋6单元1545室", "truth": "广西壮族自治区北海市东城区世纪大道147号25栋6单元1545室", "perturbation": "sep", "split": "train"}
+{"id": "address-0180", "field": "address", "value": "地址：广西壮族自治区北海市东城区世纪大道147号25栋6单元1545室", "truth": "广西壮族自治区北海市东城区世纪大道147号25栋6单元1545室", "perturbation": "noise", "split": "train"}
+{"id": "address-0181", "field": "address", "value": "安徽省合肥市滨江区长江路77号20栋4单元　748室", "truth": "安徽省合肥市滨江区长江路77号20栋4单元748室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0181", "field": "address", "value": "安徽省合肥市滨江区长江路77号20栋4单元748式", "truth": "安徽省合肥市滨江区长江路77号20栋4单元748室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0181", "field": "address", "value": "合肥市滨江区长江路77号20栋4单元748室", "truth": "安徽省合肥市滨江区长江路77号20栋4单元748室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0181", "field": "address", "value": "安徽省-合肥市-滨江区-长江路-77号-20栋4单元748室", "truth": "安徽省合肥市滨江区长江路77号20栋4单元748室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0181", "field": "address", "value": "安徽省合肥市滨江区长江路77号20栋4单元748室。", "truth": "安徽省合肥市滨江区长江路77号20栋4单元748室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0182", "field": "address", "value": "安徽　省马鞍山市高新技术产业开发区团结路305号21栋3单元844室", "truth": "安徽省马鞍山市高新技术产业开发区团结路305号21栋3单元844室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0182", "field": "address", "value": "安徽省马鞍山市高欣技术产业开发区团结路305号21栋3单元844室", "truth": "安徽省马鞍山市高新技术产业开发区团结路305号21栋3单元844室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0182", "field": "address", "value": "马鞍山市高新技术产业开发区团结路305号21栋3单元844室", "truth": "安徽省马鞍山市高新技术产业开发区团结路305号21栋3单元844室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0182", "field": "address", "value": "安徽省／马鞍山市／高新技术产业开发区／团结路／305号／21栋3单元844室", "truth": "安徽省马鞍山市高新技术产业开发区团结路305号21栋3单元844室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0182", "field": "address", "value": "住址:安徽省马鞍山市高新技术产业开发区团结路305号21栋3单元844室", "truth": "安徽省马鞍山市高新技术产业开发区团结路305号21栋3单元844室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0183", "field": "address", "value": "宁夏回族自治区石嘴山市　新城区振兴路768号", "truth": "宁夏回族自治区石嘴山市新城区振兴路768号", "perturbation": "space", "split": "train"}
+{"id": "address-0183", "field": "address", "value": "宁夏回族自治区石嘴山市新城区振兴露768号", "truth": "宁夏回族自治区石嘴山市新城区振兴路768号", "perturbation": "typo", "split": "train"}
+{"id": "address-0183", "field": "address", "value": "宁夏回族自治区石嘴山新城区振兴路768号", "truth": "宁夏回族自治区石嘴山市新城区振兴路768号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0183", "field": "address", "value": "宁夏回族自治区·石嘴山市·新城区·振兴路·768号", "truth": "宁夏回族自治区石嘴山市新城区振兴路768号", "perturbation": "sep", "split": "train"}
+{"id": "address-0183", "field": "address", "value": "住址:宁夏回族自治区石嘴山市新城区振兴路768号", "truth": "宁夏回族自治区石嘴山市新城区振兴路768号", "perturbation": "noise", "split": "train"}
+{"id": "address-0184", "field": "address", "value": "河南省开封市河东区黄河路1088号8栋2单元22 15室", "truth": "河南省开封市河东区黄河路1088号8栋2单元2215室", "perturbation": "space", "split": "train"}
+{"id": "address-0184", "field": "address", "value": "河南省开封市河东区黄河路1088号8洞2单元2215室", "truth": "河南省开封市河东区黄河路1088号8栋2单元2215室", "perturbation": "typo", "split": "train"}
+{"id": "address-0184", "field": "address", "value": "河南开封市河东区黄河路1088号8栋2单元2215室", "truth": "河南省开封市河东区黄河路1088号8栋2单元2215室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0184", "field": "address", "value": "河南省·开封市·河东区·黄河路·1088号·8栋2单元2215室", "truth": "河南省开封市河东区黄河路1088号8栋2单元2215室", "perturbation": "sep", "split": "train"}
+{"id": "address-0184", "field": "address", "value": "河南省开封市河东区黄河路1088号8栋2单元2215室（老地址）", "truth": "河南省开封市河东区黄河路1088号8栋2单元2215室", "perturbation": "noise", "split": "train"}
+{"id": "address-0185", "field": "address", "value": "江　西省吉安市开发区世纪大道1897号", "truth": "江西省吉安市开发区世纪大道1897号", "perturbation": "space", "split": "train"}
+{"id": "address-0185", "field": "address", "value": "江西省吉安市开发区世纪大到1897号", "truth": "江西省吉安市开发区世纪大道1897号", "perturbation": "typo", "split": "train"}
+{"id": "address-0185", "field": "address", "value": "吉安市开发区世纪大道1897号", "truth": "江西省吉安市开发区世纪大道1897号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0185", "field": "address", "value": "江西省-吉安市-开发区-世纪大道-1897号", "truth": "江西省吉安市开发区世纪大道1897号", "perturbation": "sep", "split": "train"}
+{"id": "address-0185", "field": "address", "value": "住址:江西省吉安市开发区世纪大道1897号", "truth": "江西省吉安市开发区世纪大道1897号", "perturbation": "noise", "split": "train"}
+{"id": "address-0186", "field": "address", "value": "澳　门特别行政区朝阳区中山路1695号", "truth": "澳门特别行政区朝阳区中山路1695号", "perturbation": "space", "split": "heldout"}
+{"id": "address-0186", "field": "address", "value": "澳门特别行政区朝阳区中山路1695豪", "truth": "澳门特别行政区朝阳区中山路1695号", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0186", "field": "address", "value": "朝阳区中山路1695号", "truth": "澳门特别行政区朝阳区中山路1695号", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0186", "field": "address", "value": "澳门特别行政区|朝阳区|中山路|1695号", "truth": "澳门特别行政区朝阳区中山路1695号", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0186", "field": "address", "value": "澳门特别行政区朝阳区中山路1695号（老地址）", "truth": "澳门特别行政区朝阳区中山路1695号", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0187", "field": "address", "value": "浙江省舟山市经济开发区振兴路1　507号", "truth": "浙江省舟山市经济开发区振兴路1507号", "perturbation": "space", "split": "train"}
+{"id": "address-0187", "field": "address", "value": "浙江省舟山市经济开发曲振兴路1507号", "truth": "浙江省舟山市经济开发区振兴路1507号", "perturbation": "typo", "split": "train"}
+{"id": "address-0187", "field": "address", "value": "浙江舟山市经济开发区振兴路1507号", "truth": "浙江省舟山市经济开发区振兴路1507号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0187", "field": "address", "value": "浙江省·舟山市·经济开发区·振兴路·1507号", "truth": "浙江省舟山市经济开发区振兴路1507号", "perturbation": "sep", "split": "train"}
+{"id": "address-0187", "field": "address", "value": "浙江省舟山市经济开发区振兴路1507号（已搬迁）", "truth": "浙江省舟山市经济开发区振兴路1507号", "perturbation": "noise", "split": "train"}
+{"id": "address-0188", "field": "address", "value": "辽宁　省营口市中山区长江路1454号", "truth": "辽宁省营口市中山区长江路1454号", "perturbation": "space", "split": "train"}
+{"id": "address-0188", "field": "address", "value": "辽宁省营口市中山区长江露1454号", "truth": "辽宁省营口市中山区长江路1454号", "perturbation": "typo", "split": "train"}
+{"id": "address-0188", "field": "address", "value": "营口市中山区长江路1454号", "truth": "辽宁省营口市中山区长江路1454号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0188", "field": "address", "value": "辽宁省|营口市|中山区|长江路|1454号", "truth": "辽宁省营口市中山区长江路1454号", "perturbation": "sep", "split": "train"}
+{"id": "address-0188", "field": "address", "value": "地址：辽宁省营口市中山区长江路1454号", "truth": "辽宁省营口市中山区长江路1454号", "perturbation": "noise", "split": "train"}
+{"id": "address-0189", "field": "address", "value": "河南省信阳市河西区学院路1588　号6栋1单元507室", "truth": "河南省信阳市河西区学院路1588号6栋1单元507室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0189", "field": "address", "value": "河南省信阳市河西区学院路1588号6栋1单元507式", "truth": "河南省信阳市河西区学院路1588号6栋1单元507室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0189", "field": "address", "value": "信阳市河西区学院路1588号6栋1单元507室", "truth": "河南省信阳市河西区学院路1588号6栋1单元507室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0189", "field": "address", "value": "河南省-信阳市-河西区-学院路-1588号-6栋1单元507室", "truth": "河南省信阳市河西区学院路1588号6栋1单元507室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0189", "field": "address", "value": "河南省信阳市河西区学院路1588号6栋1单元507室（已搬迁）", "truth": "河南省信阳市河西区学院路1588号6栋1单元507室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0190", "field": "address", "value": "重 庆市河东区建设路1682号30栋5单元1265室", "truth": "重庆市河东区建设路1682号30栋5单元1265室", "perturbation": "space", "split": "train"}
+{"id": "address-0190", "field": "address", "value": "重庆市河冬区建设路1682号30栋5单元1265室", "truth": "重庆市河东区建设路1682号30栋5单元1265室", "perturbation": "typo", "split": "train"}
+{"id": "address-0190", "field": "address", "value": "河东区建设路1682号30栋5单元1265室", "truth": "重庆市河东区建设路1682号30栋5单元1265室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0190", "field": "address", "value": "重庆市·河东区·建设路·1682号·30栋5单元1265室", "truth": "重庆市河东区建设路1682号30栋5单元1265室", "perturbation": "sep", "split": "train"}
+{"id": "address-0190", "field": "address", "value": "住址:重庆市河东区建设路1682号30栋5单元1265室", "truth": "重庆市河东区建设路1682号30栋5单元1265室", "perturbation": "noise", "split": "train"}
+{"id": "address-0191", "field": "address", "value": "吉林省通化市市　南区人民路650号", "truth": "吉林省通化市市南区人民路650号", "perturbation": "space", "split": "train"}
+{"id": "address-0191", "field": "address", "value": "吉林省通化市式南区人民路650号", "truth": "吉林省通化市市南区人民路650号", "perturbation": "typo", "split": "train"}
+{"id": "address-0191", "field": "address", "value": "通化市市南区人民路650号", "truth": "吉林省通化市市南区人民路650号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0191", "field": "address", "value": "吉林省·通化市·市南区·人民路·650号", "truth": "吉林省通化市市南区人民路650号", "perturbation": "sep", "split": "train"}
+{"id": "address-0191", "field": "address", "value": "吉林省通化市市南区人民路650号（已搬迁）", "truth": "吉林省通化市市南区人民路650号", "perturbation": "noise", "split": "train"}
+{"id": "address-0192", "field": "address", "value": "黑龙江省大庆 市市中区中山路529号8栋6单元570室", "truth": "黑龙江省大庆市市中区中山路529号8栋6单元570室", "perturbation": "space", "split": "train"}
+{"id": "address-0192", "field": "address", "value": "黑龙江省大庆市式中区中山路529号8栋6单元570室", "truth": "黑龙江省大庆市市中区中山路529号8栋6单元570室", "perturbation": "typo", "split": "train"}
+{"id": "address-0192", "field": "address", "value": "大庆市市中区中山路529号8栋6单元570室", "truth": "黑龙江省大庆市市中区中山路529号8栋6单元570室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0192", "field": "address", "value": "黑龙江省，大庆市，市中区，中山路，529号，8栋6单元570室", "truth": "黑龙江省大庆市市中区中山路529号8栋6单元570室", "perturbation": "sep", "split": "train"}
+{"id": "address-0192", "field": "address", "value": "黑龙江省大庆市市中区中山路529号8栋6单元570室（老地址）", "truth": "黑龙江省大庆市市中区中山路529号8栋6单元570室", "perturbation": "noise", "split": "train"}
+{"id": "address-0193", "field": "address", "value": "海南省海口市河西　区青年路1030号", "truth": "海南省海口市河西区青年路1030号", "perturbation": "space", "split": "train"}
+{"id": "address-0193", "field": "address", "value": "海南省海口市河西区青年露1030号", "truth": "海南省海口市河西区青年路1030号", "perturbation": "typo", "split": "train"}
+{"id": "address-0193", "field": "address", "value": "海口市河西区青年路1030号", "truth": "海南省海口市河西区青年路1030号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0193", "field": "address", "value": "海南省／海口市／河西区／青年路／1030号", "truth": "海南省海口市河西区青年路1030号", "perturbation": "sep", "split": "train"}
+{"id": "address-0193", "field": "address", "value": "地址：海南省海口市河西区青年路1030号", "truth": "海南省海口市河西区青年路1030号", "perturbation": "noise", "split": "train"}
+{"id": "address-0194", "field": "address", "value": "辽宁省营口市城西区人民路635号12栋2 单元693室", "truth": "辽宁省营口市城西区人民路635号12栋2单元693室", "perturbation": "space", "split": "train"}
+{"id": "address-0194", "field": "address", "value": "辽宁省营口市诚西区人民路635号12栋2单元693室", "truth": "辽宁省营口市城西区人民路635号12栋2单元693室", "perturbation": "typo", "split": "train"}
+{"id": "address-0194", "field": "address", "value": "辽宁营口城西区人民路635号12栋2单元693室", "truth": "辽宁省营口市城西区人民路635号12栋2单元693室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0194", "field": "address", "value": "辽宁省，营口市，城西区，人民路，635号，12栋2单元693室", "truth": "辽宁省营口市城西区人民路635号12栋2单元693室", "perturbation": "sep", "split": "train"}
+{"id": "address-0194", "field": "address", "value": "住址:辽宁省营口市城西区人民路635号12栋2单元693室", "truth": "辽宁省营口市城西区人民路635号12栋2单元693室", "perturbation": "noise", "split": "train"}
+{"id": "address-0195", "field": "address", "value": "海南省海口市高新　区胜利路448号2栋1单元2112室", "truth": "海南省海口市高新区胜利路448号2栋1单元2112室", "perturbation": "space", "split": "train"}
+{"id": "address-0195", "field": "address", "value": "海南省海口式高新区胜利路448号2栋1单元2112室", "truth": "海南省海口市高新区胜利路448号2栋1单元2112室", "perturbation": "typo", "split": "train"}
+{"id": "address-0195", "field": "address", "value": "海南海口高新区胜利路448号2栋1单元2112室", "truth": "海南省海口市高新区胜利路448号2栋1单元2112室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0195", "field": "address", "value": "海南省|海口市|高新区|胜利路|448号|2栋1单元2112室", "truth": "海南省海口市高新区胜利路448号2栋1单元2112室", "perturbation": "sep", "split": "train"}
+{"id": "address-0195", "field": "address", "value": "住址:海南省海口市高新区胜利路448号2栋1单元2112室", "truth": "海南省海口市高新区胜利路448号2栋1单元2112室", "perturbation": "noise", "split": "train"}
+{"id": "address-0196", "field": "address", "value": "新疆维吾　尔自治区伊宁市城西区人民路742号", "truth": "新疆维吾尔自治区伊宁市城西区人民路742号", "perturbation": "space", "split": "train"}
+{"id": "address-0196", "field": "address", "value": "新疆维吾尔自治区伊宁式城西区人民路742号", "truth": "新疆维吾尔自治区伊宁市城西区人民路742号", "perturbation": "typo", "split": "train"}
+{"id": "address-0196", "field": "address", "value": "新疆维吾尔自治区伊宁城西区人民路742号", "truth": "新疆维吾尔自治区伊宁市城西区人民路742号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0196", "field": "address", "value": "新疆维吾尔自治区，伊宁市，城西区，人民路，742号", "truth": "新疆维吾尔自治区伊宁市城西区人民路742号", "perturbation": "sep", "split": "train"}
+{"id": "address-0196", "field": "address", "value": "新疆维吾尔自治区伊宁市城西区人民路742号（收货地址）", "truth": "新疆维吾尔自治区伊宁市城西区人民路742号", "perturbation": "noise", "split": "train"}
+{"id": "address-0197", "field": "address", "value": "江苏省盐城市市南区新华路1563号12 栋1单元1763室", "truth": "江苏省盐城市市南区新华路1563号12栋1单元1763室", "perturbation": "space", "split": "train"}
+{"id": "address-0197", "field": "address", "value": "江苏省盐城市市南区欣华路1563号12栋1单元1763室", "truth": "江苏省盐城市市南区新华路1563号12栋1单元1763室", "perturbation": "typo", "split": "train"}
+{"id": "address-0197", "field": "address", "value": "盐城市市南区新华路1563号12栋1单元1763室", "truth": "江苏省盐城市市南区新华路1563号12栋1单元1763室", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0197", "field": "address", "value": "江苏省-盐城市-市南区-新华路-1563号-12栋1单元1763室", "truth": "江苏省盐城市市南区新华路1563号12栋1单元1763室", "perturbation": "sep", "split": "train"}
+{"id": "address-0197", "field": "address", "value": "地址：江苏省盐城市市南区新华路1563号12栋1单元1763室", "truth": "江苏省盐城市市南区新华路1563号12栋1单元1763室", "perturbation": "noise", "split": "train"}
+{"id": "address-0198", "field": "address", "value": "福建省福州市河西区望江路1373号12栋1单　元2333室", "truth": "福建省福州市河西区望江路1373号12栋1单元2333室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0198", "field": "address", "value": "福建省福洲市河西区望江路1373号12栋1单元2333室", "truth": "福建省福州市河西区望江路1373号12栋1单元2333室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0198", "field": "address", "value": "福建福州河西区望江路1373号12栋1单元2333室", "truth": "福建省福州市河西区望江路1373号12栋1单元2333室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0198", "field": "address", "value": "福建省／福州市／河西区／望江路／1373号／12栋1单元2333室", "truth": "福建省福州市河西区望江路1373号12栋1单元2333室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0198", "field": "address", "value": "福建省福州市河西区望江路1373号12栋1单元2333室（老地址）", "truth": "福建省福州市河西区望江路1373号12栋1单元2333室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0199", "field": "address", "value": "江西省宜春市城南区望江路　88号20栋1单元2026室", "truth": "江西省宜春市城南区望江路88号20栋1单元2026室", "perturbation": "space", "split": "heldout"}
+{"id": "address-0199", "field": "address", "value": "江西省宜春市城南区望江路88号20洞1单元2026室", "truth": "江西省宜春市城南区望江路88号20栋1单元2026室", "perturbation": "typo", "split": "heldout"}
+{"id": "address-0199", "field": "address", "value": "江西宜春城南区望江路88号20栋1单元2026室", "truth": "江西省宜春市城南区望江路88号20栋1单元2026室", "perturbation": "abbrev", "split": "heldout"}
+{"id": "address-0199", "field": "address", "value": "江西省，宜春市，城南区，望江路，88号，20栋1单元2026室", "truth": "江西省宜春市城南区望江路88号20栋1单元2026室", "perturbation": "sep", "split": "heldout"}
+{"id": "address-0199", "field": "address", "value": "江西省宜春市城南区望江路88号20栋1单元2026室（已搬迁）", "truth": "江西省宜春市城南区望江路88号20栋1单元2026室", "perturbation": "noise", "split": "heldout"}
+{"id": "address-0200", "field": "address", "value": "北京市河　西区中山路1881号", "truth": "北京市河西区中山路1881号", "perturbation": "space", "split": "train"}
+{"id": "address-0200", "field": "address", "value": "北京市河茜区中山路1881号", "truth": "北京市河西区中山路1881号", "perturbation": "typo", "split": "train"}
+{"id": "address-0200", "field": "address", "value": "北京河西区中山路1881号", "truth": "北京市河西区中山路1881号", "perturbation": "abbrev", "split": "train"}
+{"id": "address-0200", "field": "address", "value": "北京市／河西区／中山路／1881号", "truth": "北京市河西区中山路1881号", "perturbation": "sep", "split": "train"}
+{"id": "address-0200", "field": "address", "value": "地址：北京市河西区中山路1881号", "truth": "北京市河西区中山路1881号", "perturbation": "noise", "split": "train"}

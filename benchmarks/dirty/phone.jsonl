@@ -1,0 +1,1000 @@
+{"id": "phone-0001", "field": "phone", "value": "1716288798　9", "truth": "17162887989", "perturbation": "space", "split": "train"}
+{"id": "phone-0001", "field": "phone", "value": "171628879B9", "truth": "17162887989", "perturbation": "typo", "split": "train"}
+{"id": "phone-0001", "field": "phone", "value": "+8617162887989", "truth": "17162887989", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0001", "field": "phone", "value": "171-6288-7989", "truth": "17162887989", "perturbation": "sep", "split": "train"}
+{"id": "phone-0001", "field": "phone", "value": "17162887989（备用）", "truth": "17162887989", "perturbation": "noise", "split": "train"}
+{"id": "phone-0002", "field": "phone", "value": "1503779 6536", "truth": "15037796536", "perturbation": "space", "split": "train"}
+{"id": "phone-0002", "field": "phone", "value": "l5037796536", "truth": "15037796536", "perturbation": "typo", "split": "train"}
+{"id": "phone-0002", "field": "phone", "value": "08615037796536", "truth": "15037796536", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0002", "field": "phone", "value": "150·3779·6536", "truth": "15037796536", "perturbation": "sep", "split": "train"}
+{"id": "phone-0002", "field": "phone", "value": "15037796536（备用）", "truth": "15037796536", "perturbation": "noise", "split": "train"}
+{"id": "phone-0003", "field": "phone", "value": "18816656　679", "truth": "18816656679", "perturbation": "space", "split": "train"}
+{"id": "phone-0003", "field": "phone", "value": "188166S6679", "truth": "18816656679", "perturbation": "typo", "split": "train"}
+{"id": "phone-0003", "field": "phone", "value": "+8618816656679", "truth": "18816656679", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0003", "field": "phone", "value": "188-1665-6679", "truth": "18816656679", "perturbation": "sep", "split": "train"}
+{"id": "phone-0003", "field": "phone", "value": "手机:18816656679", "truth": "18816656679", "perturbation": "noise", "split": "train"}
+{"id": "phone-0004", "field": "phone", "value": "13315 988260", "truth": "13315988260", "perturbation": "space", "split": "train"}
+{"id": "phone-0004", "field": "phone", "value": "1331598826O", "truth": "13315988260", "perturbation": "typo", "split": "train"}
+{"id": "phone-0004", "field": "phone", "value": "8613315988260", "truth": "13315988260", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0004", "field": "phone", "value": "133，1598，8260", "truth": "13315988260", "perturbation": "sep", "split": "train"}
+{"id": "phone-0004", "field": "phone", "value": "手机:13315988260", "truth": "13315988260", "perturbation": "noise", "split": "train"}
+{"id": "phone-0005", "field": "phone", "value": "1678　7512772", "truth": "16787512772", "perturbation": "space", "split": "train"}
+{"id": "phone-0005", "field": "phone", "value": "167875l2772", "truth": "16787512772", "perturbation": "typo", "split": "train"}
+{"id": "phone-0005", "field": "phone", "value": "08616787512772", "truth": "16787512772", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0005", "field": "phone", "value": "167-8751-2772", "truth": "16787512772", "perturbation": "sep", "split": "train"}
+{"id": "phone-0005", "field": "phone", "value": "手机:16787512772", "truth": "16787512772", "perturbation": "noise", "split": "train"}
+{"id": "phone-0006", "field": "phone", "value": "1939 9034838", "truth": "19399034838", "perturbation": "space", "split": "train"}
+{"id": "phone-0006", "field": "phone", "value": "193990348E8", "truth": "19399034838", "perturbation": "typo", "split": "train"}
+{"id": "phone-0006", "field": "phone", "value": "+8619399034838", "truth": "19399034838", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0006", "field": "phone", "value": "193|9903|4838", "truth": "19399034838", "perturbation": "sep", "split": "train"}
+{"id": "phone-0006", "field": "phone", "value": "19399034838（本人）", "truth": "19399034838", "perturbation": "noise", "split": "train"}
+{"id": "phone-0007", "field": "phone", "value": "1360　7104482", "truth": "13607104482", "perturbation": "space", "split": "train"}
+{"id": "phone-0007", "field": "phone", "value": "136071044B2", "truth": "13607104482", "perturbation": "typo", "split": "train"}
+{"id": "phone-0007", "field": "phone", "value": "8613607104482", "truth": "13607104482", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0007", "field": "phone", "value": "136·0710·4482", "truth": "13607104482", "perturbation": "sep", "split": "train"}
+{"id": "phone-0007", "field": "phone", "value": "手机:13607104482", "truth": "13607104482", "perturbation": "noise", "split": "train"}
+{"id": "phone-0008", "field": "phone", "value": "17049 002748", "truth": "17049002748", "perturbation": "space", "split": "train"}
+{"id": "phone-0008", "field": "phone", "value": "1704900274B", "truth": "17049002748", "perturbation": "typo", "split": "train"}
+{"id": "phone-0008", "field": "phone", "value": "+8617049002748", "truth": "17049002748", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0008", "field": "phone", "value": "170|4900|2748", "truth": "17049002748", "perturbation": "sep", "split": "train"}
+{"id": "phone-0008", "field": "phone", "value": "17049002748（本人）", "truth": "17049002748", "perturbation": "noise", "split": "train"}
+{"id": "phone-0009", "field": "phone", "value": "1322　4614689", "truth": "13224614689", "perturbation": "space", "split": "train"}
+{"id": "phone-0009", "field": "phone", "value": "132Z4614689", "truth": "13224614689", "perturbation": "typo", "split": "train"}
+{"id": "phone-0009", "field": "phone", "value": "08613224614689", "truth": "13224614689", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0009", "field": "phone", "value": "132·2461·4689", "truth": "13224614689", "perturbation": "sep", "split": "train"}
+{"id": "phone-0009", "field": "phone", "value": "13224614689（备用）", "truth": "13224614689", "perturbation": "noise", "split": "train"}
+{"id": "phone-0010", "field": "phone", "value": "15810　301728", "truth": "15810301728", "perturbation": "space", "split": "train"}
+{"id": "phone-0010", "field": "phone", "value": "15810E01728", "truth": "15810301728", "perturbation": "typo", "split": "train"}
+{"id": "phone-0010", "field": "phone", "value": "08615810301728", "truth": "15810301728", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0010", "field": "phone", "value": "158，1030，1728", "truth": "15810301728", "perturbation": "sep", "split": "train"}
+{"id": "phone-0010", "field": "phone", "value": "15810301728（微信同号）", "truth": "15810301728", "perturbation": "noise", "split": "train"}
+{"id": "phone-0011", "field": "phone", "value": "19878663　011", "truth": "19878663011", "perturbation": "space", "split": "train"}
+{"id": "phone-0011", "field": "phone", "value": "198786630l1", "truth": "19878663011", "perturbation": "typo", "split": "train"}
+{"id": "phone-0011", "field": "phone", "value": "08619878663011", "truth": "19878663011", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0011", "field": "phone", "value": "198／7866／3011", "truth": "19878663011", "perturbation": "sep", "split": "train"}
+{"id": "phone-0011", "field": "phone", "value": "手机:19878663011", "truth": "19878663011", "perturbation": "noise", "split": "train"}
+{"id": "phone-0012", "field": "phone", "value": "189029　73803", "truth": "18902973803", "perturbation": "space", "split": "train"}
+{"id": "phone-0012", "field": "phone", "value": "189029738O3", "truth": "18902973803", "perturbation": "typo", "split": "train"}
+{"id": "phone-0012", "field": "phone", "value": "+8618902973803", "truth": "18902973803", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0012", "field": "phone", "value": "189-0297-3803", "truth": "18902973803", "perturbation": "sep", "split": "train"}
+{"id": "phone-0012", "field": "phone", "value": "18902973803（本人）", "truth": "18902973803", "perturbation": "noise", "split": "train"}
+{"id": "phone-0013", "field": "phone", "value": "1716575628 3", "truth": "17165756283", "perturbation": "space", "split": "train"}
+{"id": "phone-0013", "field": "phone", "value": "17165756Z83", "truth": "17165756283", "perturbation": "typo", "split": "train"}
+{"id": "phone-0013", "field": "phone", "value": "+8617165756283", "truth": "17165756283", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0013", "field": "phone", "value": "171|6575|6283", "truth": "17165756283", "perturbation": "sep", "split": "train"}
+{"id": "phone-0013", "field": "phone", "value": "17165756283（本人）", "truth": "17165756283", "perturbation": "noise", "split": "train"}
+{"id": "phone-0014", "field": "phone", "value": "1809757356 4", "truth": "18097573564", "perturbation": "space", "split": "train"}
+{"id": "phone-0014", "field": "phone", "value": "l8097573564", "truth": "18097573564", "perturbation": "typo", "split": "train"}
+{"id": "phone-0014", "field": "phone", "value": "08618097573564", "truth": "18097573564", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0014", "field": "phone", "value": "180／9757／3564", "truth": "18097573564", "perturbation": "sep", "split": "train"}
+{"id": "phone-0014", "field": "phone", "value": "电话：18097573564", "truth": "18097573564", "perturbation": "noise", "split": "train"}
+{"id": "phone-0015", "field": "phone", "value": "186 45431817", "truth": "18645431817", "perturbation": "space", "split": "train"}
+{"id": "phone-0015", "field": "phone", "value": "186454318l7", "truth": "18645431817", "perturbation": "typo", "split": "train"}
+{"id": "phone-0015", "field": "phone", "value": "+8618645431817", "truth": "18645431817", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0015", "field": "phone", "value": "186·4543·1817", "truth": "18645431817", "perturbation": "sep", "split": "train"}
+{"id": "phone-0015", "field": "phone", "value": "18645431817。", "truth": "18645431817", "perturbation": "noise", "split": "train"}
+{"id": "phone-0016", "field": "phone", "value": "15 745524079", "truth": "15745524079", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0016", "field": "phone", "value": "15745524O79", "truth": "15745524079", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0016", "field": "phone", "value": "8615745524079", "truth": "15745524079", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0016", "field": "phone", "value": "157-4552-4079", "truth": "15745524079", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0016", "field": "phone", "value": "电话：15745524079", "truth": "15745524079", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0017", "field": "phone", "value": "132929544　30", "truth": "13292954430", "perturbation": "space", "split": "train"}
+{"id": "phone-0017", "field": "phone", "value": "l3292954430", "truth": "13292954430", "perturbation": "typo", "split": "train"}
+{"id": "phone-0017", "field": "phone", "value": "08613292954430", "truth": "13292954430", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0017", "field": "phone", "value": "132·9295·4430", "truth": "13292954430", "perturbation": "sep", "split": "train"}
+{"id": "phone-0017", "field": "phone", "value": "13292954430（本人）", "truth": "13292954430", "perturbation": "noise", "split": "train"}
+{"id": "phone-0018", "field": "phone", "value": "17　664195223", "truth": "17664195223", "perturbation": "space", "split": "train"}
+{"id": "phone-0018", "field": "phone", "value": "17664195Z23", "truth": "17664195223", "perturbation": "typo", "split": "train"}
+{"id": "phone-0018", "field": "phone", "value": "08617664195223", "truth": "17664195223", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0018", "field": "phone", "value": "176／6419／5223", "truth": "17664195223", "perturbation": "sep", "split": "train"}
+{"id": "phone-0018", "field": "phone", "value": "17664195223（微信同号）", "truth": "17664195223", "perturbation": "noise", "split": "train"}
+{"id": "phone-0019", "field": "phone", "value": "1457336190 5", "truth": "14573361905", "perturbation": "space", "split": "train"}
+{"id": "phone-0019", "field": "phone", "value": "1457E361905", "truth": "14573361905", "perturbation": "typo", "split": "train"}
+{"id": "phone-0019", "field": "phone", "value": "08614573361905", "truth": "14573361905", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0019", "field": "phone", "value": "145-7336-1905", "truth": "14573361905", "perturbation": "sep", "split": "train"}
+{"id": "phone-0019", "field": "phone", "value": "14573361905（备用）", "truth": "14573361905", "perturbation": "noise", "split": "train"}
+{"id": "phone-0020", "field": "phone", "value": "19359 453236", "truth": "19359453236", "perturbation": "space", "split": "train"}
+{"id": "phone-0020", "field": "phone", "value": "1935945E236", "truth": "19359453236", "perturbation": "typo", "split": "train"}
+{"id": "phone-0020", "field": "phone", "value": "+8619359453236", "truth": "19359453236", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0020", "field": "phone", "value": "193，5945，3236", "truth": "19359453236", "perturbation": "sep", "split": "train"}
+{"id": "phone-0020", "field": "phone", "value": "电话：19359453236", "truth": "19359453236", "perturbation": "noise", "split": "train"}
+{"id": "phone-0021", "field": "phone", "value": "1318727362　7", "truth": "13187273627", "perturbation": "space", "split": "train"}
+{"id": "phone-0021", "field": "phone", "value": "13187Z73627", "truth": "13187273627", "perturbation": "typo", "split": "train"}
+{"id": "phone-0021", "field": "phone", "value": "+8613187273627", "truth": "13187273627", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0021", "field": "phone", "value": "131／8727／3627", "truth": "13187273627", "perturbation": "sep", "split": "train"}
+{"id": "phone-0021", "field": "phone", "value": "13187273627（微信同号）", "truth": "13187273627", "perturbation": "noise", "split": "train"}
+{"id": "phone-0022", "field": "phone", "value": "14 589948015", "truth": "14589948015", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0022", "field": "phone", "value": "14S89948015", "truth": "14589948015", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0022", "field": "phone", "value": "8614589948015", "truth": "14589948015", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0022", "field": "phone", "value": "145|8994|8015", "truth": "14589948015", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0022", "field": "phone", "value": "手机:14589948015", "truth": "14589948015", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0023", "field": "phone", "value": "1　5917242495", "truth": "15917242495", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0023", "field": "phone", "value": "15917Z42495", "truth": "15917242495", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0023", "field": "phone", "value": "8615917242495", "truth": "15917242495", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0023", "field": "phone", "value": "159-1724-2495", "truth": "15917242495", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0023", "field": "phone", "value": "15917242495（备用）", "truth": "15917242495", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0024", "field": "phone", "value": "1979　7968806", "truth": "19797968806", "perturbation": "space", "split": "train"}
+{"id": "phone-0024", "field": "phone", "value": "1979796B806", "truth": "19797968806", "perturbation": "typo", "split": "train"}
+{"id": "phone-0024", "field": "phone", "value": "08619797968806", "truth": "19797968806", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0024", "field": "phone", "value": "197-9796-8806", "truth": "19797968806", "perturbation": "sep", "split": "train"}
+{"id": "phone-0024", "field": "phone", "value": "19797968806（本人）", "truth": "19797968806", "perturbation": "noise", "split": "train"}
+{"id": "phone-0025", "field": "phone", "value": "19308 710485", "truth": "19308710485", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0025", "field": "phone", "value": "l9308710485", "truth": "19308710485", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0025", "field": "phone", "value": "+8619308710485", "truth": "19308710485", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0025", "field": "phone", "value": "193，0871，0485", "truth": "19308710485", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0025", "field": "phone", "value": "19308710485（微信同号）", "truth": "19308710485", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0026", "field": "phone", "value": "19227 989977", "truth": "19227989977", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0026", "field": "phone", "value": "19Z27989977", "truth": "19227989977", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0026", "field": "phone", "value": "8619227989977", "truth": "19227989977", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0026", "field": "phone", "value": "192-2798-9977", "truth": "19227989977", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0026", "field": "phone", "value": "19227989977（微信同号）", "truth": "19227989977", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0027", "field": "phone", "value": "19088 015684", "truth": "19088015684", "perturbation": "space", "split": "train"}
+{"id": "phone-0027", "field": "phone", "value": "190880l5684", "truth": "19088015684", "perturbation": "typo", "split": "train"}
+{"id": "phone-0027", "field": "phone", "value": "08619088015684", "truth": "19088015684", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0027", "field": "phone", "value": "190-8801-5684", "truth": "19088015684", "perturbation": "sep", "split": "train"}
+{"id": "phone-0027", "field": "phone", "value": "19088015684（备用）", "truth": "19088015684", "perturbation": "noise", "split": "train"}
+{"id": "phone-0028", "field": "phone", "value": "1 3681484970", "truth": "13681484970", "perturbation": "space", "split": "train"}
+{"id": "phone-0028", "field": "phone", "value": "136B1484970", "truth": "13681484970", "perturbation": "typo", "split": "train"}
+{"id": "phone-0028", "field": "phone", "value": "+8613681484970", "truth": "13681484970", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0028", "field": "phone", "value": "136，8148，4970", "truth": "13681484970", "perturbation": "sep", "split": "train"}
+{"id": "phone-0028", "field": "phone", "value": "13681484970（微信同号）", "truth": "13681484970", "perturbation": "noise", "split": "train"}
+{"id": "phone-0029", "field": "phone", "value": "149490 83829", "truth": "14949083829", "perturbation": "space", "split": "train"}
+{"id": "phone-0029", "field": "phone", "value": "149490838Z9", "truth": "14949083829", "perturbation": "typo", "split": "train"}
+{"id": "phone-0029", "field": "phone", "value": "+8614949083829", "truth": "14949083829", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0029", "field": "phone", "value": "149|4908|3829", "truth": "14949083829", "perturbation": "sep", "split": "train"}
+{"id": "phone-0029", "field": "phone", "value": "14949083829（本人）", "truth": "14949083829", "perturbation": "noise", "split": "train"}
+{"id": "phone-0030", "field": "phone", "value": "19　389097144", "truth": "19389097144", "perturbation": "space", "split": "train"}
+{"id": "phone-0030", "field": "phone", "value": "193B9097144", "truth": "19389097144", "perturbation": "typo", "split": "train"}
+{"id": "phone-0030", "field": "phone", "value": "8619389097144", "truth": "19389097144", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0030", "field": "phone", "value": "193-8909-7144", "truth": "19389097144", "perturbation": "sep", "split": "train"}
+{"id": "phone-0030", "field": "phone", "value": "19389097144（本人）", "truth": "19389097144", "perturbation": "noise", "split": "train"}
+{"id": "phone-0031", "field": "phone", "value": "19　130122349", "truth": "19130122349", "perturbation": "space", "split": "train"}
+{"id": "phone-0031", "field": "phone", "value": "19130l22349", "truth": "19130122349", "perturbation": "typo", "split": "train"}
+{"id": "phone-0031", "field": "phone", "value": "08619130122349", "truth": "19130122349", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0031", "field": "phone", "value": "191|3012|2349", "truth": "19130122349", "perturbation": "sep", "split": "train"}
+{"id": "phone-0031", "field": "phone", "value": "手机:19130122349", "truth": "19130122349", "perturbation": "noise", "split": "train"}
+{"id": "phone-0032", "field": "phone", "value": "13541099 699", "truth": "13541099699", "perturbation": "space", "split": "train"}
+{"id": "phone-0032", "field": "phone", "value": "l3541099699", "truth": "13541099699", "perturbation": "typo", "split": "train"}
+{"id": "phone-0032", "field": "phone", "value": "+8613541099699", "truth": "13541099699", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0032", "field": "phone", "value": "135-4109-9699", "truth": "13541099699", "perturbation": "sep", "split": "train"}
+{"id": "phone-0032", "field": "phone", "value": "13541099699。", "truth": "13541099699", "perturbation": "noise", "split": "train"}
+{"id": "phone-0033", "field": "phone", "value": "131442438 58", "truth": "13144243858", "perturbation": "space", "split": "train"}
+{"id": "phone-0033", "field": "phone", "value": "1314424385B", "truth": "13144243858", "perturbation": "typo", "split": "train"}
+{"id": "phone-0033", "field": "phone", "value": "08613144243858", "truth": "13144243858", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0033", "field": "phone", "value": "131-4424-3858", "truth": "13144243858", "perturbation": "sep", "split": "train"}
+{"id": "phone-0033", "field": "phone", "value": "13144243858（微信同号）", "truth": "13144243858", "perturbation": "noise", "split": "train"}
+{"id": "phone-0034", "field": "phone", "value": "17069683　700", "truth": "17069683700", "perturbation": "space", "split": "train"}
+{"id": "phone-0034", "field": "phone", "value": "170696B3700", "truth": "17069683700", "perturbation": "typo", "split": "train"}
+{"id": "phone-0034", "field": "phone", "value": "8617069683700", "truth": "17069683700", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0034", "field": "phone", "value": "170·6968·3700", "truth": "17069683700", "perturbation": "sep", "split": "train"}
+{"id": "phone-0034", "field": "phone", "value": "手机:17069683700", "truth": "17069683700", "perturbation": "noise", "split": "train"}
+{"id": "phone-0035", "field": "phone", "value": "13420166　343", "truth": "13420166343", "perturbation": "space", "split": "train"}
+{"id": "phone-0035", "field": "phone", "value": "134Z0166343", "truth": "13420166343", "perturbation": "typo", "split": "train"}
+{"id": "phone-0035", "field": "phone", "value": "+8613420166343", "truth": "13420166343", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0035", "field": "phone", "value": "134-2016-6343", "truth": "13420166343", "perturbation": "sep", "split": "train"}
+{"id": "phone-0035", "field": "phone", "value": "13420166343（微信同号）", "truth": "13420166343", "perturbation": "noise", "split": "train"}
+{"id": "phone-0036", "field": "phone", "value": "1595390　3992", "truth": "15953903992", "perturbation": "space", "split": "train"}
+{"id": "phone-0036", "field": "phone", "value": "159539O3992", "truth": "15953903992", "perturbation": "typo", "split": "train"}
+{"id": "phone-0036", "field": "phone", "value": "8615953903992", "truth": "15953903992", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0036", "field": "phone", "value": "159，5390，3992", "truth": "15953903992", "perturbation": "sep", "split": "train"}
+{"id": "phone-0036", "field": "phone", "value": "手机:15953903992", "truth": "15953903992", "perturbation": "noise", "split": "train"}
+{"id": "phone-0037", "field": "phone", "value": "13000791 352", "truth": "13000791352", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0037", "field": "phone", "value": "l3000791352", "truth": "13000791352", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0037", "field": "phone", "value": "08613000791352", "truth": "13000791352", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0037", "field": "phone", "value": "130|0079|1352", "truth": "13000791352", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0037", "field": "phone", "value": "手机:13000791352", "truth": "13000791352", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0038", "field": "phone", "value": "18874　133869", "truth": "18874133869", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0038", "field": "phone", "value": "18B74133869", "truth": "18874133869", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0038", "field": "phone", "value": "08618874133869", "truth": "18874133869", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0038", "field": "phone", "value": "188／7413／3869", "truth": "18874133869", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0038", "field": "phone", "value": "18874133869（备用）", "truth": "18874133869", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0039", "field": "phone", "value": "176601585 13", "truth": "17660158513", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0039", "field": "phone", "value": "17660158S13", "truth": "17660158513", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0039", "field": "phone", "value": "+8617660158513", "truth": "17660158513", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0039", "field": "phone", "value": "176／6015／8513", "truth": "17660158513", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0039", "field": "phone", "value": "17660158513（备用）", "truth": "17660158513", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0040", "field": "phone", "value": "1493 9244795", "truth": "14939244795", "perturbation": "space", "split": "train"}
+{"id": "phone-0040", "field": "phone", "value": "l4939244795", "truth": "14939244795", "perturbation": "typo", "split": "train"}
+{"id": "phone-0040", "field": "phone", "value": "+8614939244795", "truth": "14939244795", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0040", "field": "phone", "value": "149|3924|4795", "truth": "14939244795", "perturbation": "sep", "split": "train"}
+{"id": "phone-0040", "field": "phone", "value": "14939244795（本人）", "truth": "14939244795", "perturbation": "noise", "split": "train"}
+{"id": "phone-0041", "field": "phone", "value": "1901404　5422", "truth": "19014045422", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0041", "field": "phone", "value": "19O14045422", "truth": "19014045422", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0041", "field": "phone", "value": "08619014045422", "truth": "19014045422", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0041", "field": "phone", "value": "190|1404|5422", "truth": "19014045422", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0041", "field": "phone", "value": "手机:19014045422", "truth": "19014045422", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0042", "field": "phone", "value": "1　5552374064", "truth": "15552374064", "perturbation": "space", "split": "train"}
+{"id": "phone-0042", "field": "phone", "value": "1S552374064", "truth": "15552374064", "perturbation": "typo", "split": "train"}
+{"id": "phone-0042", "field": "phone", "value": "8615552374064", "truth": "15552374064", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0042", "field": "phone", "value": "155·5237·4064", "truth": "15552374064", "perturbation": "sep", "split": "train"}
+{"id": "phone-0042", "field": "phone", "value": "15552374064（备用）", "truth": "15552374064", "perturbation": "noise", "split": "train"}
+{"id": "phone-0043", "field": "phone", "value": "158971　54783", "truth": "15897154783", "perturbation": "space", "split": "train"}
+{"id": "phone-0043", "field": "phone", "value": "15B97154783", "truth": "15897154783", "perturbation": "typo", "split": "train"}
+{"id": "phone-0043", "field": "phone", "value": "+8615897154783", "truth": "15897154783", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0043", "field": "phone", "value": "158，9715，4783", "truth": "15897154783", "perturbation": "sep", "split": "train"}
+{"id": "phone-0043", "field": "phone", "value": "15897154783。", "truth": "15897154783", "perturbation": "noise", "split": "train"}
+{"id": "phone-0044", "field": "phone", "value": "1761465057　1", "truth": "17614650571", "perturbation": "space", "split": "train"}
+{"id": "phone-0044", "field": "phone", "value": "1761465057l", "truth": "17614650571", "perturbation": "typo", "split": "train"}
+{"id": "phone-0044", "field": "phone", "value": "+8617614650571", "truth": "17614650571", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0044", "field": "phone", "value": "176，1465，0571", "truth": "17614650571", "perturbation": "sep", "split": "train"}
+{"id": "phone-0044", "field": "phone", "value": "17614650571（备用）", "truth": "17614650571", "perturbation": "noise", "split": "train"}
+{"id": "phone-0045", "field": "phone", "value": "1　4535236818", "truth": "14535236818", "perturbation": "space", "split": "train"}
+{"id": "phone-0045", "field": "phone", "value": "145352368l8", "truth": "14535236818", "perturbation": "typo", "split": "train"}
+{"id": "phone-0045", "field": "phone", "value": "+8614535236818", "truth": "14535236818", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0045", "field": "phone", "value": "145·3523·6818", "truth": "14535236818", "perturbation": "sep", "split": "train"}
+{"id": "phone-0045", "field": "phone", "value": "电话：14535236818", "truth": "14535236818", "perturbation": "noise", "split": "train"}
+{"id": "phone-0046", "field": "phone", "value": "173 46087099", "truth": "17346087099", "perturbation": "space", "split": "train"}
+{"id": "phone-0046", "field": "phone", "value": "17E46087099", "truth": "17346087099", "perturbation": "typo", "split": "train"}
+{"id": "phone-0046", "field": "phone", "value": "08617346087099", "truth": "17346087099", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0046", "field": "phone", "value": "173-4608-7099", "truth": "17346087099", "perturbation": "sep", "split": "train"}
+{"id": "phone-0046", "field": "phone", "value": "手机:17346087099", "truth": "17346087099", "perturbation": "noise", "split": "train"}
+{"id": "phone-0047", "field": "phone", "value": "13064 679307", "truth": "13064679307", "perturbation": "space", "split": "train"}
+{"id": "phone-0047", "field": "phone", "value": "13064679E07", "truth": "13064679307", "perturbation": "typo", "split": "train"}
+{"id": "phone-0047", "field": "phone", "value": "08613064679307", "truth": "13064679307", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0047", "field": "phone", "value": "130|6467|9307", "truth": "13064679307", "perturbation": "sep", "split": "train"}
+{"id": "phone-0047", "field": "phone", "value": "13064679307（备用）", "truth": "13064679307", "perturbation": "noise", "split": "train"}
+{"id": "phone-0048", "field": "phone", "value": "1719341853　2", "truth": "17193418532", "perturbation": "space", "split": "train"}
+{"id": "phone-0048", "field": "phone", "value": "17l93418532", "truth": "17193418532", "perturbation": "typo", "split": "train"}
+{"id": "phone-0048", "field": "phone", "value": "+8617193418532", "truth": "17193418532", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0048", "field": "phone", "value": "171，9341，8532", "truth": "17193418532", "perturbation": "sep", "split": "train"}
+{"id": "phone-0048", "field": "phone", "value": "17193418532。", "truth": "17193418532", "perturbation": "noise", "split": "train"}
+{"id": "phone-0049", "field": "phone", "value": "1303144820　7", "truth": "13031448207", "perturbation": "space", "split": "train"}
+{"id": "phone-0049", "field": "phone", "value": "130E1448207", "truth": "13031448207", "perturbation": "typo", "split": "train"}
+{"id": "phone-0049", "field": "phone", "value": "8613031448207", "truth": "13031448207", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0049", "field": "phone", "value": "130，3144，8207", "truth": "13031448207", "perturbation": "sep", "split": "train"}
+{"id": "phone-0049", "field": "phone", "value": "电话：13031448207", "truth": "13031448207", "perturbation": "noise", "split": "train"}
+{"id": "phone-0050", "field": "phone", "value": "157082936 17", "truth": "15708293617", "perturbation": "space", "split": "train"}
+{"id": "phone-0050", "field": "phone", "value": "1570829E617", "truth": "15708293617", "perturbation": "typo", "split": "train"}
+{"id": "phone-0050", "field": "phone", "value": "8615708293617", "truth": "15708293617", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0050", "field": "phone", "value": "157，0829，3617", "truth": "15708293617", "perturbation": "sep", "split": "train"}
+{"id": "phone-0050", "field": "phone", "value": "手机:15708293617", "truth": "15708293617", "perturbation": "noise", "split": "train"}
+{"id": "phone-0051", "field": "phone", "value": "1597148907 0", "truth": "15971489070", "perturbation": "space", "split": "train"}
+{"id": "phone-0051", "field": "phone", "value": "1S971489070", "truth": "15971489070", "perturbation": "typo", "split": "train"}
+{"id": "phone-0051", "field": "phone", "value": "+8615971489070", "truth": "15971489070", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0051", "field": "phone", "value": "159·7148·9070", "truth": "15971489070", "perturbation": "sep", "split": "train"}
+{"id": "phone-0051", "field": "phone", "value": "电话：15971489070", "truth": "15971489070", "perturbation": "noise", "split": "train"}
+{"id": "phone-0052", "field": "phone", "value": "1 3689862719", "truth": "13689862719", "perturbation": "space", "split": "train"}
+{"id": "phone-0052", "field": "phone", "value": "136B9862719", "truth": "13689862719", "perturbation": "typo", "split": "train"}
+{"id": "phone-0052", "field": "phone", "value": "8613689862719", "truth": "13689862719", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0052", "field": "phone", "value": "136，8986，2719", "truth": "13689862719", "perturbation": "sep", "split": "train"}
+{"id": "phone-0052", "field": "phone", "value": "13689862719。", "truth": "13689862719", "perturbation": "noise", "split": "train"}
+{"id": "phone-0053", "field": "phone", "value": "13108 289592", "truth": "13108289592", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0053", "field": "phone", "value": "131082B9592", "truth": "13108289592", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0053", "field": "phone", "value": "+8613108289592", "truth": "13108289592", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0053", "field": "phone", "value": "131|0828|9592", "truth": "13108289592", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0053", "field": "phone", "value": "电话：13108289592", "truth": "13108289592", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0054", "field": "phone", "value": "1388 4897700", "truth": "13884897700", "perturbation": "space", "split": "train"}
+{"id": "phone-0054", "field": "phone", "value": "13B84897700", "truth": "13884897700", "perturbation": "typo", "split": "train"}
+{"id": "phone-0054", "field": "phone", "value": "8613884897700", "truth": "13884897700", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0054", "field": "phone", "value": "138／8489／7700", "truth": "13884897700", "perturbation": "sep", "split": "train"}
+{"id": "phone-0054", "field": "phone", "value": "13884897700（本人）", "truth": "13884897700", "perturbation": "noise", "split": "train"}
+{"id": "phone-0055", "field": "phone", "value": "1579 0595097", "truth": "15790595097", "perturbation": "space", "split": "train"}
+{"id": "phone-0055", "field": "phone", "value": "1579O595097", "truth": "15790595097", "perturbation": "typo", "split": "train"}
+{"id": "phone-0055", "field": "phone", "value": "8615790595097", "truth": "15790595097", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0055", "field": "phone", "value": "157／9059／5097", "truth": "15790595097", "perturbation": "sep", "split": "train"}
+{"id": "phone-0055", "field": "phone", "value": "15790595097（本人）", "truth": "15790595097", "perturbation": "noise", "split": "train"}
+{"id": "phone-0056", "field": "phone", "value": "13626682　706", "truth": "13626682706", "perturbation": "space", "split": "train"}
+{"id": "phone-0056", "field": "phone", "value": "136266827O6", "truth": "13626682706", "perturbation": "typo", "split": "train"}
+{"id": "phone-0056", "field": "phone", "value": "8613626682706", "truth": "13626682706", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0056", "field": "phone", "value": "136／2668／2706", "truth": "13626682706", "perturbation": "sep", "split": "train"}
+{"id": "phone-0056", "field": "phone", "value": "电话：13626682706", "truth": "13626682706", "perturbation": "noise", "split": "train"}
+{"id": "phone-0057", "field": "phone", "value": "1570995943　3", "truth": "15709959433", "perturbation": "space", "split": "train"}
+{"id": "phone-0057", "field": "phone", "value": "1570995943E", "truth": "15709959433", "perturbation": "typo", "split": "train"}
+{"id": "phone-0057", "field": "phone", "value": "+8615709959433", "truth": "15709959433", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0057", "field": "phone", "value": "157·0995·9433", "truth": "15709959433", "perturbation": "sep", "split": "train"}
+{"id": "phone-0057", "field": "phone", "value": "15709959433（本人）", "truth": "15709959433", "perturbation": "noise", "split": "train"}
+{"id": "phone-0058", "field": "phone", "value": "195300455　33", "truth": "19530045533", "perturbation": "space", "split": "train"}
+{"id": "phone-0058", "field": "phone", "value": "1953O045533", "truth": "19530045533", "perturbation": "typo", "split": "train"}
+{"id": "phone-0058", "field": "phone", "value": "8619530045533", "truth": "19530045533", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0058", "field": "phone", "value": "195|3004|5533", "truth": "19530045533", "perturbation": "sep", "split": "train"}
+{"id": "phone-0058", "field": "phone", "value": "手机:19530045533", "truth": "19530045533", "perturbation": "noise", "split": "train"}
+{"id": "phone-0059", "field": "phone", "value": "192443 22587", "truth": "19244322587", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0059", "field": "phone", "value": "192443Z2587", "truth": "19244322587", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0059", "field": "phone", "value": "+8619244322587", "truth": "19244322587", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0059", "field": "phone", "value": "192-4432-2587", "truth": "19244322587", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0059", "field": "phone", "value": "19244322587（微信同号）", "truth": "19244322587", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0060", "field": "phone", "value": "19167976 024", "truth": "19167976024", "perturbation": "space", "split": "train"}
+{"id": "phone-0060", "field": "phone", "value": "191679760Z4", "truth": "19167976024", "perturbation": "typo", "split": "train"}
+{"id": "phone-0060", "field": "phone", "value": "+8619167976024", "truth": "19167976024", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0060", "field": "phone", "value": "191，6797，6024", "truth": "19167976024", "perturbation": "sep", "split": "train"}
+{"id": "phone-0060", "field": "phone", "value": "电话：19167976024", "truth": "19167976024", "perturbation": "noise", "split": "train"}
+{"id": "phone-0061", "field": "phone", "value": "16640912 762", "truth": "16640912762", "perturbation": "space", "split": "train"}
+{"id": "phone-0061", "field": "phone", "value": "1664091276Z", "truth": "16640912762", "perturbation": "typo", "split": "train"}
+{"id": "phone-0061", "field": "phone", "value": "+8616640912762", "truth": "16640912762", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0061", "field": "phone", "value": "166|4091|2762", "truth": "16640912762", "perturbation": "sep", "split": "train"}
+{"id": "phone-0061", "field": "phone", "value": "16640912762（备用）", "truth": "16640912762", "perturbation": "noise", "split": "train"}
+{"id": "phone-0062", "field": "phone", "value": "1380878 2617", "truth": "13808782617", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0062", "field": "phone", "value": "13B08782617", "truth": "13808782617", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0062", "field": "phone", "value": "8613808782617", "truth": "13808782617", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0062", "field": "phone", "value": "138／0878／2617", "truth": "13808782617", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0062", "field": "phone", "value": "13808782617（微信同号）", "truth": "13808782617", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0063", "field": "phone", "value": "130756　49520", "truth": "13075649520", "perturbation": "space", "split": "train"}
+{"id": "phone-0063", "field": "phone", "value": "1307564952O", "truth": "13075649520", "perturbation": "typo", "split": "train"}
+{"id": "phone-0063", "field": "phone", "value": "08613075649520", "truth": "13075649520", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0063", "field": "phone", "value": "130|7564|9520", "truth": "13075649520", "perturbation": "sep", "split": "train"}
+{"id": "phone-0063", "field": "phone", "value": "13075649520（备用）", "truth": "13075649520", "perturbation": "noise", "split": "train"}
+{"id": "phone-0064", "field": "phone", "value": "170　16676588", "truth": "17016676588", "perturbation": "space", "split": "train"}
+{"id": "phone-0064", "field": "phone", "value": "17O16676588", "truth": "17016676588", "perturbation": "typo", "split": "train"}
+{"id": "phone-0064", "field": "phone", "value": "08617016676588", "truth": "17016676588", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0064", "field": "phone", "value": "170，1667，6588", "truth": "17016676588", "perturbation": "sep", "split": "train"}
+{"id": "phone-0064", "field": "phone", "value": "手机:17016676588", "truth": "17016676588", "perturbation": "noise", "split": "train"}
+{"id": "phone-0065", "field": "phone", "value": "150607　35453", "truth": "15060735453", "perturbation": "space", "split": "train"}
+{"id": "phone-0065", "field": "phone", "value": "1506073S453", "truth": "15060735453", "perturbation": "typo", "split": "train"}
+{"id": "phone-0065", "field": "phone", "value": "8615060735453", "truth": "15060735453", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0065", "field": "phone", "value": "150|6073|5453", "truth": "15060735453", "perturbation": "sep", "split": "train"}
+{"id": "phone-0065", "field": "phone", "value": "15060735453（本人）", "truth": "15060735453", "perturbation": "noise", "split": "train"}
+{"id": "phone-0066", "field": "phone", "value": "1570481234　3", "truth": "15704812343", "perturbation": "space", "split": "train"}
+{"id": "phone-0066", "field": "phone", "value": "1570481Z343", "truth": "15704812343", "perturbation": "typo", "split": "train"}
+{"id": "phone-0066", "field": "phone", "value": "08615704812343", "truth": "15704812343", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0066", "field": "phone", "value": "157-0481-2343", "truth": "15704812343", "perturbation": "sep", "split": "train"}
+{"id": "phone-0066", "field": "phone", "value": "手机:15704812343", "truth": "15704812343", "perturbation": "noise", "split": "train"}
+{"id": "phone-0067", "field": "phone", "value": "1508　0896290", "truth": "15080896290", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0067", "field": "phone", "value": "1508089629O", "truth": "15080896290", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0067", "field": "phone", "value": "8615080896290", "truth": "15080896290", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0067", "field": "phone", "value": "150|8089|6290", "truth": "15080896290", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0067", "field": "phone", "value": "15080896290（备用）", "truth": "15080896290", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0068", "field": "phone", "value": "16522　669522", "truth": "16522669522", "perturbation": "space", "split": "train"}
+{"id": "phone-0068", "field": "phone", "value": "1652266952Z", "truth": "16522669522", "perturbation": "typo", "split": "train"}
+{"id": "phone-0068", "field": "phone", "value": "+8616522669522", "truth": "16522669522", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0068", "field": "phone", "value": "165，2266，9522", "truth": "16522669522", "perturbation": "sep", "split": "train"}
+{"id": "phone-0068", "field": "phone", "value": "16522669522（本人）", "truth": "16522669522", "perturbation": "noise", "split": "train"}
+{"id": "phone-0069", "field": "phone", "value": "17306　404225", "truth": "17306404225", "perturbation": "space", "split": "train"}
+{"id": "phone-0069", "field": "phone", "value": "173064042Z5", "truth": "17306404225", "perturbation": "typo", "split": "train"}
+{"id": "phone-0069", "field": "phone", "value": "+8617306404225", "truth": "17306404225", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0069", "field": "phone", "value": "173·0640·4225", "truth": "17306404225", "perturbation": "sep", "split": "train"}
+{"id": "phone-0069", "field": "phone", "value": "手机:17306404225", "truth": "17306404225", "perturbation": "noise", "split": "train"}
+{"id": "phone-0070", "field": "phone", "value": "1581 1222152", "truth": "15811222152", "perturbation": "space", "split": "train"}
+{"id": "phone-0070", "field": "phone", "value": "158112Z2152", "truth": "15811222152", "perturbation": "typo", "split": "train"}
+{"id": "phone-0070", "field": "phone", "value": "08615811222152", "truth": "15811222152", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0070", "field": "phone", "value": "158|1122|2152", "truth": "15811222152", "perturbation": "sep", "split": "train"}
+{"id": "phone-0070", "field": "phone", "value": "15811222152（本人）", "truth": "15811222152", "perturbation": "noise", "split": "train"}
+{"id": "phone-0071", "field": "phone", "value": "1785091　2178", "truth": "17850912178", "perturbation": "space", "split": "train"}
+{"id": "phone-0071", "field": "phone", "value": "1785O912178", "truth": "17850912178", "perturbation": "typo", "split": "train"}
+{"id": "phone-0071", "field": "phone", "value": "08617850912178", "truth": "17850912178", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0071", "field": "phone", "value": "178-5091-2178", "truth": "17850912178", "perturbation": "sep", "split": "train"}
+{"id": "phone-0071", "field": "phone", "value": "17850912178。", "truth": "17850912178", "perturbation": "noise", "split": "train"}
+{"id": "phone-0072", "field": "phone", "value": "1573 5334430", "truth": "15735334430", "perturbation": "space", "split": "train"}
+{"id": "phone-0072", "field": "phone", "value": "157353344E0", "truth": "15735334430", "perturbation": "typo", "split": "train"}
+{"id": "phone-0072", "field": "phone", "value": "8615735334430", "truth": "15735334430", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0072", "field": "phone", "value": "157／3533／4430", "truth": "15735334430", "perturbation": "sep", "split": "train"}
+{"id": "phone-0072", "field": "phone", "value": "15735334430（微信同号）", "truth": "15735334430", "perturbation": "noise", "split": "train"}
+{"id": "phone-0073", "field": "phone", "value": "13 371730038", "truth": "13371730038", "perturbation": "space", "split": "train"}
+{"id": "phone-0073", "field": "phone", "value": "133717E0038", "truth": "13371730038", "perturbation": "typo", "split": "train"}
+{"id": "phone-0073", "field": "phone", "value": "8613371730038", "truth": "13371730038", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0073", "field": "phone", "value": "133／7173／0038", "truth": "13371730038", "perturbation": "sep", "split": "train"}
+{"id": "phone-0073", "field": "phone", "value": "13371730038（备用）", "truth": "13371730038", "perturbation": "noise", "split": "train"}
+{"id": "phone-0074", "field": "phone", "value": "184　23661373", "truth": "18423661373", "perturbation": "space", "split": "train"}
+{"id": "phone-0074", "field": "phone", "value": "184Z3661373", "truth": "18423661373", "perturbation": "typo", "split": "train"}
+{"id": "phone-0074", "field": "phone", "value": "+8618423661373", "truth": "18423661373", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0074", "field": "phone", "value": "184|2366|1373", "truth": "18423661373", "perturbation": "sep", "split": "train"}
+{"id": "phone-0074", "field": "phone", "value": "18423661373（本人）", "truth": "18423661373", "perturbation": "noise", "split": "train"}
+{"id": "phone-0075", "field": "phone", "value": "138634793 53", "truth": "13863479353", "perturbation": "space", "split": "train"}
+{"id": "phone-0075", "field": "phone", "value": "1386347935E", "truth": "13863479353", "perturbation": "typo", "split": "train"}
+{"id": "phone-0075", "field": "phone", "value": "+8613863479353", "truth": "13863479353", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0075", "field": "phone", "value": "138，6347，9353", "truth": "13863479353", "perturbation": "sep", "split": "train"}
+{"id": "phone-0075", "field": "phone", "value": "手机:13863479353", "truth": "13863479353", "perturbation": "noise", "split": "train"}
+{"id": "phone-0076", "field": "phone", "value": "15　898825607", "truth": "15898825607", "perturbation": "space", "split": "train"}
+{"id": "phone-0076", "field": "phone", "value": "15898B25607", "truth": "15898825607", "perturbation": "typo", "split": "train"}
+{"id": "phone-0076", "field": "phone", "value": "+8615898825607", "truth": "15898825607", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0076", "field": "phone", "value": "158-9882-5607", "truth": "15898825607", "perturbation": "sep", "split": "train"}
+{"id": "phone-0076", "field": "phone", "value": "15898825607（微信同号）", "truth": "15898825607", "perturbation": "noise", "split": "train"}
+{"id": "phone-0077", "field": "phone", "value": "1958096034　5", "truth": "19580960345", "perturbation": "space", "split": "train"}
+{"id": "phone-0077", "field": "phone", "value": "19S80960345", "truth": "19580960345", "perturbation": "typo", "split": "train"}
+{"id": "phone-0077", "field": "phone", "value": "8619580960345", "truth": "19580960345", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0077", "field": "phone", "value": "195·8096·0345", "truth": "19580960345", "perturbation": "sep", "split": "train"}
+{"id": "phone-0077", "field": "phone", "value": "手机:19580960345", "truth": "19580960345", "perturbation": "noise", "split": "train"}
+{"id": "phone-0078", "field": "phone", "value": "1389132534　0", "truth": "13891325340", "perturbation": "space", "split": "train"}
+{"id": "phone-0078", "field": "phone", "value": "138913Z5340", "truth": "13891325340", "perturbation": "typo", "split": "train"}
+{"id": "phone-0078", "field": "phone", "value": "8613891325340", "truth": "13891325340", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0078", "field": "phone", "value": "138·9132·5340", "truth": "13891325340", "perturbation": "sep", "split": "train"}
+{"id": "phone-0078", "field": "phone", "value": "13891325340。", "truth": "13891325340", "perturbation": "noise", "split": "train"}
+{"id": "phone-0079", "field": "phone", "value": "1　6691855258", "truth": "16691855258", "perturbation": "space", "split": "train"}
+{"id": "phone-0079", "field": "phone", "value": "16691B55258", "truth": "16691855258", "perturbation": "typo", "split": "train"}
+{"id": "phone-0079", "field": "phone", "value": "8616691855258", "truth": "16691855258", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0079", "field": "phone", "value": "166，9185，5258", "truth": "16691855258", "perturbation": "sep", "split": "train"}
+{"id": "phone-0079", "field": "phone", "value": "电话：16691855258", "truth": "16691855258", "perturbation": "noise", "split": "train"}
+{"id": "phone-0080", "field": "phone", "value": "1359 8991856", "truth": "13598991856", "perturbation": "space", "split": "train"}
+{"id": "phone-0080", "field": "phone", "value": "1359B991856", "truth": "13598991856", "perturbation": "typo", "split": "train"}
+{"id": "phone-0080", "field": "phone", "value": "+8613598991856", "truth": "13598991856", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0080", "field": "phone", "value": "135·9899·1856", "truth": "13598991856", "perturbation": "sep", "split": "train"}
+{"id": "phone-0080", "field": "phone", "value": "13598991856（备用）", "truth": "13598991856", "perturbation": "noise", "split": "train"}
+{"id": "phone-0081", "field": "phone", "value": "1556 9658224", "truth": "15569658224", "perturbation": "space", "split": "train"}
+{"id": "phone-0081", "field": "phone", "value": "155696582Z4", "truth": "15569658224", "perturbation": "typo", "split": "train"}
+{"id": "phone-0081", "field": "phone", "value": "08615569658224", "truth": "15569658224", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0081", "field": "phone", "value": "155，6965，8224", "truth": "15569658224", "perturbation": "sep", "split": "train"}
+{"id": "phone-0081", "field": "phone", "value": "手机:15569658224", "truth": "15569658224", "perturbation": "noise", "split": "train"}
+{"id": "phone-0082", "field": "phone", "value": "178　04203442", "truth": "17804203442", "perturbation": "space", "split": "train"}
+{"id": "phone-0082", "field": "phone", "value": "1780420E442", "truth": "17804203442", "perturbation": "typo", "split": "train"}
+{"id": "phone-0082", "field": "phone", "value": "08617804203442", "truth": "17804203442", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0082", "field": "phone", "value": "178／0420／3442", "truth": "17804203442", "perturbation": "sep", "split": "train"}
+{"id": "phone-0082", "field": "phone", "value": "电话：17804203442", "truth": "17804203442", "perturbation": "noise", "split": "train"}
+{"id": "phone-0083", "field": "phone", "value": "19870　179701", "truth": "19870179701", "perturbation": "space", "split": "train"}
+{"id": "phone-0083", "field": "phone", "value": "19870l79701", "truth": "19870179701", "perturbation": "typo", "split": "train"}
+{"id": "phone-0083", "field": "phone", "value": "08619870179701", "truth": "19870179701", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0083", "field": "phone", "value": "198／7017／9701", "truth": "19870179701", "perturbation": "sep", "split": "train"}
+{"id": "phone-0083", "field": "phone", "value": "19870179701（备用）", "truth": "19870179701", "perturbation": "noise", "split": "train"}
+{"id": "phone-0084", "field": "phone", "value": "192　34039579", "truth": "19234039579", "perturbation": "space", "split": "train"}
+{"id": "phone-0084", "field": "phone", "value": "l9234039579", "truth": "19234039579", "perturbation": "typo", "split": "train"}
+{"id": "phone-0084", "field": "phone", "value": "8619234039579", "truth": "19234039579", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0084", "field": "phone", "value": "192|3403|9579", "truth": "19234039579", "perturbation": "sep", "split": "train"}
+{"id": "phone-0084", "field": "phone", "value": "19234039579（本人）", "truth": "19234039579", "perturbation": "noise", "split": "train"}
+{"id": "phone-0085", "field": "phone", "value": "131365　24253", "truth": "13136524253", "perturbation": "space", "split": "train"}
+{"id": "phone-0085", "field": "phone", "value": "131E6524253", "truth": "13136524253", "perturbation": "typo", "split": "train"}
+{"id": "phone-0085", "field": "phone", "value": "8613136524253", "truth": "13136524253", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0085", "field": "phone", "value": "131|3652|4253", "truth": "13136524253", "perturbation": "sep", "split": "train"}
+{"id": "phone-0085", "field": "phone", "value": "电话：13136524253", "truth": "13136524253", "perturbation": "noise", "split": "train"}
+{"id": "phone-0086", "field": "phone", "value": "19640304　022", "truth": "19640304022", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0086", "field": "phone", "value": "19640E04022", "truth": "19640304022", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0086", "field": "phone", "value": "08619640304022", "truth": "19640304022", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0086", "field": "phone", "value": "196·4030·4022", "truth": "19640304022", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0086", "field": "phone", "value": "19640304022（微信同号）", "truth": "19640304022", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0087", "field": "phone", "value": "1587425　2990", "truth": "15874252990", "perturbation": "space", "split": "train"}
+{"id": "phone-0087", "field": "phone", "value": "1587425Z990", "truth": "15874252990", "perturbation": "typo", "split": "train"}
+{"id": "phone-0087", "field": "phone", "value": "+8615874252990", "truth": "15874252990", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0087", "field": "phone", "value": "158-7425-2990", "truth": "15874252990", "perturbation": "sep", "split": "train"}
+{"id": "phone-0087", "field": "phone", "value": "15874252990（备用）", "truth": "15874252990", "perturbation": "noise", "split": "train"}
+{"id": "phone-0088", "field": "phone", "value": "1663 8333010", "truth": "16638333010", "perturbation": "space", "split": "train"}
+{"id": "phone-0088", "field": "phone", "value": "166E8333010", "truth": "16638333010", "perturbation": "typo", "split": "train"}
+{"id": "phone-0088", "field": "phone", "value": "+8616638333010", "truth": "16638333010", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0088", "field": "phone", "value": "166·3833·3010", "truth": "16638333010", "perturbation": "sep", "split": "train"}
+{"id": "phone-0088", "field": "phone", "value": "手机:16638333010", "truth": "16638333010", "perturbation": "noise", "split": "train"}
+{"id": "phone-0089", "field": "phone", "value": "133627 62968", "truth": "13362762968", "perturbation": "space", "split": "train"}
+{"id": "phone-0089", "field": "phone", "value": "1E362762968", "truth": "13362762968", "perturbation": "typo", "split": "train"}
+{"id": "phone-0089", "field": "phone", "value": "8613362762968", "truth": "13362762968", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0089", "field": "phone", "value": "133·6276·2968", "truth": "13362762968", "perturbation": "sep", "split": "train"}
+{"id": "phone-0089", "field": "phone", "value": "13362762968（微信同号）", "truth": "13362762968", "perturbation": "noise", "split": "train"}
+{"id": "phone-0090", "field": "phone", "value": "147241　05340", "truth": "14724105340", "perturbation": "space", "split": "train"}
+{"id": "phone-0090", "field": "phone", "value": "1472410534O", "truth": "14724105340", "perturbation": "typo", "split": "train"}
+{"id": "phone-0090", "field": "phone", "value": "8614724105340", "truth": "14724105340", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0090", "field": "phone", "value": "147-2410-5340", "truth": "14724105340", "perturbation": "sep", "split": "train"}
+{"id": "phone-0090", "field": "phone", "value": "14724105340（本人）", "truth": "14724105340", "perturbation": "noise", "split": "train"}
+{"id": "phone-0091", "field": "phone", "value": "15702031 738", "truth": "15702031738", "perturbation": "space", "split": "train"}
+{"id": "phone-0091", "field": "phone", "value": "1570Z031738", "truth": "15702031738", "perturbation": "typo", "split": "train"}
+{"id": "phone-0091", "field": "phone", "value": "8615702031738", "truth": "15702031738", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0091", "field": "phone", "value": "157·0203·1738", "truth": "15702031738", "perturbation": "sep", "split": "train"}
+{"id": "phone-0091", "field": "phone", "value": "15702031738（备用）", "truth": "15702031738", "perturbation": "noise", "split": "train"}
+{"id": "phone-0092", "field": "phone", "value": "17 738168823", "truth": "17738168823", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0092", "field": "phone", "value": "17738168B23", "truth": "17738168823", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0092", "field": "phone", "value": "8617738168823", "truth": "17738168823", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0092", "field": "phone", "value": "177-3816-8823", "truth": "17738168823", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0092", "field": "phone", "value": "电话：17738168823", "truth": "17738168823", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0093", "field": "phone", "value": "14911402 339", "truth": "14911402339", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0093", "field": "phone", "value": "l4911402339", "truth": "14911402339", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0093", "field": "phone", "value": "08614911402339", "truth": "14911402339", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0093", "field": "phone", "value": "149·1140·2339", "truth": "14911402339", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0093", "field": "phone", "value": "手机:14911402339", "truth": "14911402339", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0094", "field": "phone", "value": "155531　28114", "truth": "15553128114", "perturbation": "space", "split": "train"}
+{"id": "phone-0094", "field": "phone", "value": "155S3128114", "truth": "15553128114", "perturbation": "typo", "split": "train"}
+{"id": "phone-0094", "field": "phone", "value": "8615553128114", "truth": "15553128114", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0094", "field": "phone", "value": "155，5312，8114", "truth": "15553128114", "perturbation": "sep", "split": "train"}
+{"id": "phone-0094", "field": "phone", "value": "15553128114（备用）", "truth": "15553128114", "perturbation": "noise", "split": "train"}
+{"id": "phone-0095", "field": "phone", "value": "1662　4474770", "truth": "16624474770", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0095", "field": "phone", "value": "166Z4474770", "truth": "16624474770", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0095", "field": "phone", "value": "08616624474770", "truth": "16624474770", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0095", "field": "phone", "value": "166，2447，4770", "truth": "16624474770", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0095", "field": "phone", "value": "手机:16624474770", "truth": "16624474770", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0096", "field": "phone", "value": "14584 054538", "truth": "14584054538", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0096", "field": "phone", "value": "145840S4538", "truth": "14584054538", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0096", "field": "phone", "value": "8614584054538", "truth": "14584054538", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0096", "field": "phone", "value": "145，8405，4538", "truth": "14584054538", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0096", "field": "phone", "value": "14584054538。", "truth": "14584054538", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0097", "field": "phone", "value": "152522498　78", "truth": "15252249878", "perturbation": "space", "split": "train"}
+{"id": "phone-0097", "field": "phone", "value": "l5252249878", "truth": "15252249878", "perturbation": "typo", "split": "train"}
+{"id": "phone-0097", "field": "phone", "value": "08615252249878", "truth": "15252249878", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0097", "field": "phone", "value": "152，5224，9878", "truth": "15252249878", "perturbation": "sep", "split": "train"}
+{"id": "phone-0097", "field": "phone", "value": "15252249878。", "truth": "15252249878", "perturbation": "noise", "split": "train"}
+{"id": "phone-0098", "field": "phone", "value": "139128242 05", "truth": "13912824205", "perturbation": "space", "split": "train"}
+{"id": "phone-0098", "field": "phone", "value": "1391Z824205", "truth": "13912824205", "perturbation": "typo", "split": "train"}
+{"id": "phone-0098", "field": "phone", "value": "8613912824205", "truth": "13912824205", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0098", "field": "phone", "value": "139|1282|4205", "truth": "13912824205", "perturbation": "sep", "split": "train"}
+{"id": "phone-0098", "field": "phone", "value": "13912824205。", "truth": "13912824205", "perturbation": "noise", "split": "train"}
+{"id": "phone-0099", "field": "phone", "value": "15344 216103", "truth": "15344216103", "perturbation": "space", "split": "train"}
+{"id": "phone-0099", "field": "phone", "value": "153442161O3", "truth": "15344216103", "perturbation": "typo", "split": "train"}
+{"id": "phone-0099", "field": "phone", "value": "08615344216103", "truth": "15344216103", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0099", "field": "phone", "value": "153／4421／6103", "truth": "15344216103", "perturbation": "sep", "split": "train"}
+{"id": "phone-0099", "field": "phone", "value": "15344216103（本人）", "truth": "15344216103", "perturbation": "noise", "split": "train"}
+{"id": "phone-0100", "field": "phone", "value": "19355252 016", "truth": "19355252016", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0100", "field": "phone", "value": "19355Z52016", "truth": "19355252016", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0100", "field": "phone", "value": "08619355252016", "truth": "19355252016", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0100", "field": "phone", "value": "193|5525|2016", "truth": "19355252016", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0100", "field": "phone", "value": "电话：19355252016", "truth": "19355252016", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0101", "field": "phone", "value": "18　641641375", "truth": "18641641375", "perturbation": "space", "split": "train"}
+{"id": "phone-0101", "field": "phone", "value": "1B641641375", "truth": "18641641375", "perturbation": "typo", "split": "train"}
+{"id": "phone-0101", "field": "phone", "value": "8618641641375", "truth": "18641641375", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0101", "field": "phone", "value": "186-4164-1375", "truth": "18641641375", "perturbation": "sep", "split": "train"}
+{"id": "phone-0101", "field": "phone", "value": "手机:18641641375", "truth": "18641641375", "perturbation": "noise", "split": "train"}
+{"id": "phone-0102", "field": "phone", "value": "187804110 22", "truth": "18780411022", "perturbation": "space", "split": "train"}
+{"id": "phone-0102", "field": "phone", "value": "187B0411022", "truth": "18780411022", "perturbation": "typo", "split": "train"}
+{"id": "phone-0102", "field": "phone", "value": "08618780411022", "truth": "18780411022", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0102", "field": "phone", "value": "187|8041|1022", "truth": "18780411022", "perturbation": "sep", "split": "train"}
+{"id": "phone-0102", "field": "phone", "value": "18780411022。", "truth": "18780411022", "perturbation": "noise", "split": "train"}
+{"id": "phone-0103", "field": "phone", "value": "153259　07662", "truth": "15325907662", "perturbation": "space", "split": "train"}
+{"id": "phone-0103", "field": "phone", "value": "15E25907662", "truth": "15325907662", "perturbation": "typo", "split": "train"}
+{"id": "phone-0103", "field": "phone", "value": "8615325907662", "truth": "15325907662", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0103", "field": "phone", "value": "153-2590-7662", "truth": "15325907662", "perturbation": "sep", "split": "train"}
+{"id": "phone-0103", "field": "phone", "value": "15325907662（微信同号）", "truth": "15325907662", "perturbation": "noise", "split": "train"}
+{"id": "phone-0104", "field": "phone", "value": "16　787999481", "truth": "16787999481", "perturbation": "space", "split": "train"}
+{"id": "phone-0104", "field": "phone", "value": "1678799948l", "truth": "16787999481", "perturbation": "typo", "split": "train"}
+{"id": "phone-0104", "field": "phone", "value": "08616787999481", "truth": "16787999481", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0104", "field": "phone", "value": "167，8799，9481", "truth": "16787999481", "perturbation": "sep", "split": "train"}
+{"id": "phone-0104", "field": "phone", "value": "16787999481。", "truth": "16787999481", "perturbation": "noise", "split": "train"}
+{"id": "phone-0105", "field": "phone", "value": "18636672　019", "truth": "18636672019", "perturbation": "space", "split": "train"}
+{"id": "phone-0105", "field": "phone", "value": "l8636672019", "truth": "18636672019", "perturbation": "typo", "split": "train"}
+{"id": "phone-0105", "field": "phone", "value": "+8618636672019", "truth": "18636672019", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0105", "field": "phone", "value": "186|3667|2019", "truth": "18636672019", "perturbation": "sep", "split": "train"}
+{"id": "phone-0105", "field": "phone", "value": "手机:18636672019", "truth": "18636672019", "perturbation": "noise", "split": "train"}
+{"id": "phone-0106", "field": "phone", "value": "1477 1945106", "truth": "14771945106", "perturbation": "space", "split": "train"}
+{"id": "phone-0106", "field": "phone", "value": "1477l945106", "truth": "14771945106", "perturbation": "typo", "split": "train"}
+{"id": "phone-0106", "field": "phone", "value": "08614771945106", "truth": "14771945106", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0106", "field": "phone", "value": "147／7194／5106", "truth": "14771945106", "perturbation": "sep", "split": "train"}
+{"id": "phone-0106", "field": "phone", "value": "电话：14771945106", "truth": "14771945106", "perturbation": "noise", "split": "train"}
+{"id": "phone-0107", "field": "phone", "value": "157705　70394", "truth": "15770570394", "perturbation": "space", "split": "train"}
+{"id": "phone-0107", "field": "phone", "value": "1577O570394", "truth": "15770570394", "perturbation": "typo", "split": "train"}
+{"id": "phone-0107", "field": "phone", "value": "08615770570394", "truth": "15770570394", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0107", "field": "phone", "value": "157／7057／0394", "truth": "15770570394", "perturbation": "sep", "split": "train"}
+{"id": "phone-0107", "field": "phone", "value": "15770570394（微信同号）", "truth": "15770570394", "perturbation": "noise", "split": "train"}
+{"id": "phone-0108", "field": "phone", "value": "14751974　429", "truth": "14751974429", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0108", "field": "phone", "value": "147519744Z9", "truth": "14751974429", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0108", "field": "phone", "value": "+8614751974429", "truth": "14751974429", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0108", "field": "phone", "value": "147·5197·4429", "truth": "14751974429", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0108", "field": "phone", "value": "14751974429（微信同号）", "truth": "14751974429", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0109", "field": "phone", "value": "155286　37777", "truth": "15528637777", "perturbation": "space", "split": "train"}
+{"id": "phone-0109", "field": "phone", "value": "l5528637777", "truth": "15528637777", "perturbation": "typo", "split": "train"}
+{"id": "phone-0109", "field": "phone", "value": "+8615528637777", "truth": "15528637777", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0109", "field": "phone", "value": "155，2863，7777", "truth": "15528637777", "perturbation": "sep", "split": "train"}
+{"id": "phone-0109", "field": "phone", "value": "电话：15528637777", "truth": "15528637777", "perturbation": "noise", "split": "train"}
+{"id": "phone-0110", "field": "phone", "value": "165 56701785", "truth": "16556701785", "perturbation": "space", "split": "train"}
+{"id": "phone-0110", "field": "phone", "value": "165567O1785", "truth": "16556701785", "perturbation": "typo", "split": "train"}
+{"id": "phone-0110", "field": "phone", "value": "08616556701785", "truth": "16556701785", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0110", "field": "phone", "value": "165／5670／1785", "truth": "16556701785", "perturbation": "sep", "split": "train"}
+{"id": "phone-0110", "field": "phone", "value": "16556701785（微信同号）", "truth": "16556701785", "perturbation": "noise", "split": "train"}
+{"id": "phone-0111", "field": "phone", "value": "166053028　46", "truth": "16605302846", "perturbation": "space", "split": "train"}
+{"id": "phone-0111", "field": "phone", "value": "16605E02846", "truth": "16605302846", "perturbation": "typo", "split": "train"}
+{"id": "phone-0111", "field": "phone", "value": "8616605302846", "truth": "16605302846", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0111", "field": "phone", "value": "166·0530·2846", "truth": "16605302846", "perturbation": "sep", "split": "train"}
+{"id": "phone-0111", "field": "phone", "value": "16605302846（本人）", "truth": "16605302846", "perturbation": "noise", "split": "train"}
+{"id": "phone-0112", "field": "phone", "value": "1789528　3065", "truth": "17895283065", "perturbation": "space", "split": "train"}
+{"id": "phone-0112", "field": "phone", "value": "17B95283065", "truth": "17895283065", "perturbation": "typo", "split": "train"}
+{"id": "phone-0112", "field": "phone", "value": "+8617895283065", "truth": "17895283065", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0112", "field": "phone", "value": "178|9528|3065", "truth": "17895283065", "perturbation": "sep", "split": "train"}
+{"id": "phone-0112", "field": "phone", "value": "17895283065（本人）", "truth": "17895283065", "perturbation": "noise", "split": "train"}
+{"id": "phone-0113", "field": "phone", "value": "17082147 899", "truth": "17082147899", "perturbation": "space", "split": "train"}
+{"id": "phone-0113", "field": "phone", "value": "17O82147899", "truth": "17082147899", "perturbation": "typo", "split": "train"}
+{"id": "phone-0113", "field": "phone", "value": "+8617082147899", "truth": "17082147899", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0113", "field": "phone", "value": "170|8214|7899", "truth": "17082147899", "perturbation": "sep", "split": "train"}
+{"id": "phone-0113", "field": "phone", "value": "17082147899（本人）", "truth": "17082147899", "perturbation": "noise", "split": "train"}
+{"id": "phone-0114", "field": "phone", "value": "177 13372679", "truth": "17713372679", "perturbation": "space", "split": "train"}
+{"id": "phone-0114", "field": "phone", "value": "1771337Z679", "truth": "17713372679", "perturbation": "typo", "split": "train"}
+{"id": "phone-0114", "field": "phone", "value": "08617713372679", "truth": "17713372679", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0114", "field": "phone", "value": "177|1337|2679", "truth": "17713372679", "perturbation": "sep", "split": "train"}
+{"id": "phone-0114", "field": "phone", "value": "17713372679（备用）", "truth": "17713372679", "perturbation": "noise", "split": "train"}
+{"id": "phone-0115", "field": "phone", "value": "158519648 82", "truth": "15851964882", "perturbation": "space", "split": "train"}
+{"id": "phone-0115", "field": "phone", "value": "1585196488Z", "truth": "15851964882", "perturbation": "typo", "split": "train"}
+{"id": "phone-0115", "field": "phone", "value": "+8615851964882", "truth": "15851964882", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0115", "field": "phone", "value": "158·5196·4882", "truth": "15851964882", "perturbation": "sep", "split": "train"}
+{"id": "phone-0115", "field": "phone", "value": "15851964882。", "truth": "15851964882", "perturbation": "noise", "split": "train"}
+{"id": "phone-0116", "field": "phone", "value": "1711095129 2", "truth": "17110951292", "perturbation": "space", "split": "train"}
+{"id": "phone-0116", "field": "phone", "value": "1711095l292", "truth": "17110951292", "perturbation": "typo", "split": "train"}
+{"id": "phone-0116", "field": "phone", "value": "08617110951292", "truth": "17110951292", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0116", "field": "phone", "value": "171·1095·1292", "truth": "17110951292", "perturbation": "sep", "split": "train"}
+{"id": "phone-0116", "field": "phone", "value": "17110951292（备用）", "truth": "17110951292", "perturbation": "noise", "split": "train"}
+{"id": "phone-0117", "field": "phone", "value": "14738 277711", "truth": "14738277711", "perturbation": "space", "split": "train"}
+{"id": "phone-0117", "field": "phone", "value": "147E8277711", "truth": "14738277711", "perturbation": "typo", "split": "train"}
+{"id": "phone-0117", "field": "phone", "value": "+8614738277711", "truth": "14738277711", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0117", "field": "phone", "value": "147／3827／7711", "truth": "14738277711", "perturbation": "sep", "split": "train"}
+{"id": "phone-0117", "field": "phone", "value": "14738277711（本人）", "truth": "14738277711", "perturbation": "noise", "split": "train"}
+{"id": "phone-0118", "field": "phone", "value": "1530 1473037", "truth": "15301473037", "perturbation": "space", "split": "train"}
+{"id": "phone-0118", "field": "phone", "value": "1S301473037", "truth": "15301473037", "perturbation": "typo", "split": "train"}
+{"id": "phone-0118", "field": "phone", "value": "+8615301473037", "truth": "15301473037", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0118", "field": "phone", "value": "153，0147，3037", "truth": "15301473037", "perturbation": "sep", "split": "train"}
+{"id": "phone-0118", "field": "phone", "value": "15301473037。", "truth": "15301473037", "perturbation": "noise", "split": "train"}
+{"id": "phone-0119", "field": "phone", "value": "1340　8838679", "truth": "13408838679", "perturbation": "space", "split": "train"}
+{"id": "phone-0119", "field": "phone", "value": "134O8838679", "truth": "13408838679", "perturbation": "typo", "split": "train"}
+{"id": "phone-0119", "field": "phone", "value": "8613408838679", "truth": "13408838679", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0119", "field": "phone", "value": "134，0883，8679", "truth": "13408838679", "perturbation": "sep", "split": "train"}
+{"id": "phone-0119", "field": "phone", "value": "手机:13408838679", "truth": "13408838679", "perturbation": "noise", "split": "train"}
+{"id": "phone-0120", "field": "phone", "value": "1　6749338927", "truth": "16749338927", "perturbation": "space", "split": "train"}
+{"id": "phone-0120", "field": "phone", "value": "16749E38927", "truth": "16749338927", "perturbation": "typo", "split": "train"}
+{"id": "phone-0120", "field": "phone", "value": "08616749338927", "truth": "16749338927", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0120", "field": "phone", "value": "167，4933，8927", "truth": "16749338927", "perturbation": "sep", "split": "train"}
+{"id": "phone-0120", "field": "phone", "value": "16749338927（微信同号）", "truth": "16749338927", "perturbation": "noise", "split": "train"}
+{"id": "phone-0121", "field": "phone", "value": "1525486　6241", "truth": "15254866241", "perturbation": "space", "split": "train"}
+{"id": "phone-0121", "field": "phone", "value": "15Z54866241", "truth": "15254866241", "perturbation": "typo", "split": "train"}
+{"id": "phone-0121", "field": "phone", "value": "8615254866241", "truth": "15254866241", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0121", "field": "phone", "value": "152-5486-6241", "truth": "15254866241", "perturbation": "sep", "split": "train"}
+{"id": "phone-0121", "field": "phone", "value": "15254866241（微信同号）", "truth": "15254866241", "perturbation": "noise", "split": "train"}
+{"id": "phone-0122", "field": "phone", "value": "1756091191　5", "truth": "17560911915", "perturbation": "space", "split": "train"}
+{"id": "phone-0122", "field": "phone", "value": "1756091l915", "truth": "17560911915", "perturbation": "typo", "split": "train"}
+{"id": "phone-0122", "field": "phone", "value": "8617560911915", "truth": "17560911915", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0122", "field": "phone", "value": "175，6091，1915", "truth": "17560911915", "perturbation": "sep", "split": "train"}
+{"id": "phone-0122", "field": "phone", "value": "17560911915。", "truth": "17560911915", "perturbation": "noise", "split": "train"}
+{"id": "phone-0123", "field": "phone", "value": "198496　96683", "truth": "19849696683", "perturbation": "space", "split": "train"}
+{"id": "phone-0123", "field": "phone", "value": "l9849696683", "truth": "19849696683", "perturbation": "typo", "split": "train"}
+{"id": "phone-0123", "field": "phone", "value": "8619849696683", "truth": "19849696683", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0123", "field": "phone", "value": "198·4969·6683", "truth": "19849696683", "perturbation": "sep", "split": "train"}
+{"id": "phone-0123", "field": "phone", "value": "手机:19849696683", "truth": "19849696683", "perturbation": "noise", "split": "train"}
+{"id": "phone-0124", "field": "phone", "value": "13026 129039", "truth": "13026129039", "perturbation": "space", "split": "train"}
+{"id": "phone-0124", "field": "phone", "value": "l3026129039", "truth": "13026129039", "perturbation": "typo", "split": "train"}
+{"id": "phone-0124", "field": "phone", "value": "+8613026129039", "truth": "13026129039", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0124", "field": "phone", "value": "130·2612·9039", "truth": "13026129039", "perturbation": "sep", "split": "train"}
+{"id": "phone-0124", "field": "phone", "value": "13026129039（备用）", "truth": "13026129039", "perturbation": "noise", "split": "train"}
+{"id": "phone-0125", "field": "phone", "value": "181623 28159", "truth": "18162328159", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0125", "field": "phone", "value": "1816Z328159", "truth": "18162328159", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0125", "field": "phone", "value": "+8618162328159", "truth": "18162328159", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0125", "field": "phone", "value": "181|6232|8159", "truth": "18162328159", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0125", "field": "phone", "value": "18162328159。", "truth": "18162328159", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0126", "field": "phone", "value": "190553　69877", "truth": "19055369877", "perturbation": "space", "split": "train"}
+{"id": "phone-0126", "field": "phone", "value": "1905S369877", "truth": "19055369877", "perturbation": "typo", "split": "train"}
+{"id": "phone-0126", "field": "phone", "value": "+8619055369877", "truth": "19055369877", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0126", "field": "phone", "value": "190／5536／9877", "truth": "19055369877", "perturbation": "sep", "split": "train"}
+{"id": "phone-0126", "field": "phone", "value": "19055369877（微信同号）", "truth": "19055369877", "perturbation": "noise", "split": "train"}
+{"id": "phone-0127", "field": "phone", "value": "147582523 03", "truth": "14758252303", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0127", "field": "phone", "value": "1475825230E", "truth": "14758252303", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0127", "field": "phone", "value": "+8614758252303", "truth": "14758252303", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0127", "field": "phone", "value": "147|5825|2303", "truth": "14758252303", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0127", "field": "phone", "value": "14758252303（微信同号）", "truth": "14758252303", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0128", "field": "phone", "value": "1574　5905998", "truth": "15745905998", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0128", "field": "phone", "value": "1574590599B", "truth": "15745905998", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0128", "field": "phone", "value": "+8615745905998", "truth": "15745905998", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0128", "field": "phone", "value": "157·4590·5998", "truth": "15745905998", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0128", "field": "phone", "value": "15745905998。", "truth": "15745905998", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0129", "field": "phone", "value": "17223 222032", "truth": "17223222032", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0129", "field": "phone", "value": "17223Z22032", "truth": "17223222032", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0129", "field": "phone", "value": "8617223222032", "truth": "17223222032", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0129", "field": "phone", "value": "172|2322|2032", "truth": "17223222032", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0129", "field": "phone", "value": "17223222032（备用）", "truth": "17223222032", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0130", "field": "phone", "value": "139　00784258", "truth": "13900784258", "perturbation": "space", "split": "train"}
+{"id": "phone-0130", "field": "phone", "value": "1390O784258", "truth": "13900784258", "perturbation": "typo", "split": "train"}
+{"id": "phone-0130", "field": "phone", "value": "08613900784258", "truth": "13900784258", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0130", "field": "phone", "value": "139·0078·4258", "truth": "13900784258", "perturbation": "sep", "split": "train"}
+{"id": "phone-0130", "field": "phone", "value": "13900784258（本人）", "truth": "13900784258", "perturbation": "noise", "split": "train"}
+{"id": "phone-0131", "field": "phone", "value": "175735613　01", "truth": "17573561301", "perturbation": "space", "split": "train"}
+{"id": "phone-0131", "field": "phone", "value": "175735613O1", "truth": "17573561301", "perturbation": "typo", "split": "train"}
+{"id": "phone-0131", "field": "phone", "value": "8617573561301", "truth": "17573561301", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0131", "field": "phone", "value": "175，7356，1301", "truth": "17573561301", "perturbation": "sep", "split": "train"}
+{"id": "phone-0131", "field": "phone", "value": "17573561301（备用）", "truth": "17573561301", "perturbation": "noise", "split": "train"}
+{"id": "phone-0132", "field": "phone", "value": "1375　5700523", "truth": "13755700523", "perturbation": "space", "split": "train"}
+{"id": "phone-0132", "field": "phone", "value": "13755700S23", "truth": "13755700523", "perturbation": "typo", "split": "train"}
+{"id": "phone-0132", "field": "phone", "value": "8613755700523", "truth": "13755700523", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0132", "field": "phone", "value": "137，5570，0523", "truth": "13755700523", "perturbation": "sep", "split": "train"}
+{"id": "phone-0132", "field": "phone", "value": "13755700523（备用）", "truth": "13755700523", "perturbation": "noise", "split": "train"}
+{"id": "phone-0133", "field": "phone", "value": "1309566653　7", "truth": "13095666537", "perturbation": "space", "split": "train"}
+{"id": "phone-0133", "field": "phone", "value": "l3095666537", "truth": "13095666537", "perturbation": "typo", "split": "train"}
+{"id": "phone-0133", "field": "phone", "value": "08613095666537", "truth": "13095666537", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0133", "field": "phone", "value": "130／9566／6537", "truth": "13095666537", "perturbation": "sep", "split": "train"}
+{"id": "phone-0133", "field": "phone", "value": "手机:13095666537", "truth": "13095666537", "perturbation": "noise", "split": "train"}
+{"id": "phone-0134", "field": "phone", "value": "1365556302　7", "truth": "13655563027", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0134", "field": "phone", "value": "13655S63027", "truth": "13655563027", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0134", "field": "phone", "value": "+8613655563027", "truth": "13655563027", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0134", "field": "phone", "value": "136-5556-3027", "truth": "13655563027", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0134", "field": "phone", "value": "13655563027（微信同号）", "truth": "13655563027", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0135", "field": "phone", "value": "18889　755920", "truth": "18889755920", "perturbation": "space", "split": "train"}
+{"id": "phone-0135", "field": "phone", "value": "188B9755920", "truth": "18889755920", "perturbation": "typo", "split": "train"}
+{"id": "phone-0135", "field": "phone", "value": "+8618889755920", "truth": "18889755920", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0135", "field": "phone", "value": "188·8975·5920", "truth": "18889755920", "perturbation": "sep", "split": "train"}
+{"id": "phone-0135", "field": "phone", "value": "手机:18889755920", "truth": "18889755920", "perturbation": "noise", "split": "train"}
+{"id": "phone-0136", "field": "phone", "value": "13　234880198", "truth": "13234880198", "perturbation": "space", "split": "train"}
+{"id": "phone-0136", "field": "phone", "value": "13Z34880198", "truth": "13234880198", "perturbation": "typo", "split": "train"}
+{"id": "phone-0136", "field": "phone", "value": "+8613234880198", "truth": "13234880198", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0136", "field": "phone", "value": "132／3488／0198", "truth": "13234880198", "perturbation": "sep", "split": "train"}
+{"id": "phone-0136", "field": "phone", "value": "13234880198（微信同号）", "truth": "13234880198", "perturbation": "noise", "split": "train"}
+{"id": "phone-0137", "field": "phone", "value": "176678 61071", "truth": "17667861071", "perturbation": "space", "split": "train"}
+{"id": "phone-0137", "field": "phone", "value": "17667861O71", "truth": "17667861071", "perturbation": "typo", "split": "train"}
+{"id": "phone-0137", "field": "phone", "value": "+8617667861071", "truth": "17667861071", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0137", "field": "phone", "value": "176／6786／1071", "truth": "17667861071", "perturbation": "sep", "split": "train"}
+{"id": "phone-0137", "field": "phone", "value": "17667861071。", "truth": "17667861071", "perturbation": "noise", "split": "train"}
+{"id": "phone-0138", "field": "phone", "value": "1713002　0659", "truth": "17130020659", "perturbation": "space", "split": "train"}
+{"id": "phone-0138", "field": "phone", "value": "17130O20659", "truth": "17130020659", "perturbation": "typo", "split": "train"}
+{"id": "phone-0138", "field": "phone", "value": "8617130020659", "truth": "17130020659", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0138", "field": "phone", "value": "171·3002·0659", "truth": "17130020659", "perturbation": "sep", "split": "train"}
+{"id": "phone-0138", "field": "phone", "value": "17130020659（微信同号）", "truth": "17130020659", "perturbation": "noise", "split": "train"}
+{"id": "phone-0139", "field": "phone", "value": "149442 33758", "truth": "14944233758", "perturbation": "space", "split": "train"}
+{"id": "phone-0139", "field": "phone", "value": "149442E3758", "truth": "14944233758", "perturbation": "typo", "split": "train"}
+{"id": "phone-0139", "field": "phone", "value": "+8614944233758", "truth": "14944233758", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0139", "field": "phone", "value": "149／4423／3758", "truth": "14944233758", "perturbation": "sep", "split": "train"}
+{"id": "phone-0139", "field": "phone", "value": "14944233758（备用）", "truth": "14944233758", "perturbation": "noise", "split": "train"}
+{"id": "phone-0140", "field": "phone", "value": "15652616　990", "truth": "15652616990", "perturbation": "space", "split": "train"}
+{"id": "phone-0140", "field": "phone", "value": "1565261699O", "truth": "15652616990", "perturbation": "typo", "split": "train"}
+{"id": "phone-0140", "field": "phone", "value": "8615652616990", "truth": "15652616990", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0140", "field": "phone", "value": "156|5261|6990", "truth": "15652616990", "perturbation": "sep", "split": "train"}
+{"id": "phone-0140", "field": "phone", "value": "15652616990。", "truth": "15652616990", "perturbation": "noise", "split": "train"}
+{"id": "phone-0141", "field": "phone", "value": "166009 18230", "truth": "16600918230", "perturbation": "space", "split": "train"}
+{"id": "phone-0141", "field": "phone", "value": "1660091B230", "truth": "16600918230", "perturbation": "typo", "split": "train"}
+{"id": "phone-0141", "field": "phone", "value": "+8616600918230", "truth": "16600918230", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0141", "field": "phone", "value": "166·0091·8230", "truth": "16600918230", "perturbation": "sep", "split": "train"}
+{"id": "phone-0141", "field": "phone", "value": "16600918230（备用）", "truth": "16600918230", "perturbation": "noise", "split": "train"}
+{"id": "phone-0142", "field": "phone", "value": "19689　128653", "truth": "19689128653", "perturbation": "space", "split": "train"}
+{"id": "phone-0142", "field": "phone", "value": "196891Z8653", "truth": "19689128653", "perturbation": "typo", "split": "train"}
+{"id": "phone-0142", "field": "phone", "value": "+8619689128653", "truth": "19689128653", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0142", "field": "phone", "value": "196／8912／8653", "truth": "19689128653", "perturbation": "sep", "split": "train"}
+{"id": "phone-0142", "field": "phone", "value": "电话：19689128653", "truth": "19689128653", "perturbation": "noise", "split": "train"}
+{"id": "phone-0143", "field": "phone", "value": "190745268　68", "truth": "19074526868", "perturbation": "space", "split": "train"}
+{"id": "phone-0143", "field": "phone", "value": "1907452686B", "truth": "19074526868", "perturbation": "typo", "split": "train"}
+{"id": "phone-0143", "field": "phone", "value": "+8619074526868", "truth": "19074526868", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0143", "field": "phone", "value": "190·7452·6868", "truth": "19074526868", "perturbation": "sep", "split": "train"}
+{"id": "phone-0143", "field": "phone", "value": "19074526868（本人）", "truth": "19074526868", "perturbation": "noise", "split": "train"}
+{"id": "phone-0144", "field": "phone", "value": "19055　090763", "truth": "19055090763", "perturbation": "space", "split": "train"}
+{"id": "phone-0144", "field": "phone", "value": "l9055090763", "truth": "19055090763", "perturbation": "typo", "split": "train"}
+{"id": "phone-0144", "field": "phone", "value": "08619055090763", "truth": "19055090763", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0144", "field": "phone", "value": "190／5509／0763", "truth": "19055090763", "perturbation": "sep", "split": "train"}
+{"id": "phone-0144", "field": "phone", "value": "19055090763（微信同号）", "truth": "19055090763", "perturbation": "noise", "split": "train"}
+{"id": "phone-0145", "field": "phone", "value": "16684　771870", "truth": "16684771870", "perturbation": "space", "split": "train"}
+{"id": "phone-0145", "field": "phone", "value": "l6684771870", "truth": "16684771870", "perturbation": "typo", "split": "train"}
+{"id": "phone-0145", "field": "phone", "value": "8616684771870", "truth": "16684771870", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0145", "field": "phone", "value": "166，8477，1870", "truth": "16684771870", "perturbation": "sep", "split": "train"}
+{"id": "phone-0145", "field": "phone", "value": "16684771870（备用）", "truth": "16684771870", "perturbation": "noise", "split": "train"}
+{"id": "phone-0146", "field": "phone", "value": "15　328103786", "truth": "15328103786", "perturbation": "space", "split": "train"}
+{"id": "phone-0146", "field": "phone", "value": "l5328103786", "truth": "15328103786", "perturbation": "typo", "split": "train"}
+{"id": "phone-0146", "field": "phone", "value": "+8615328103786", "truth": "15328103786", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0146", "field": "phone", "value": "153·2810·3786", "truth": "15328103786", "perturbation": "sep", "split": "train"}
+{"id": "phone-0146", "field": "phone", "value": "电话：15328103786", "truth": "15328103786", "perturbation": "noise", "split": "train"}
+{"id": "phone-0147", "field": "phone", "value": "1857　2891075", "truth": "18572891075", "perturbation": "space", "split": "train"}
+{"id": "phone-0147", "field": "phone", "value": "l8572891075", "truth": "18572891075", "perturbation": "typo", "split": "train"}
+{"id": "phone-0147", "field": "phone", "value": "8618572891075", "truth": "18572891075", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0147", "field": "phone", "value": "185-7289-1075", "truth": "18572891075", "perturbation": "sep", "split": "train"}
+{"id": "phone-0147", "field": "phone", "value": "18572891075（本人）", "truth": "18572891075", "perturbation": "noise", "split": "train"}
+{"id": "phone-0148", "field": "phone", "value": "19982838 151", "truth": "19982838151", "perturbation": "space", "split": "train"}
+{"id": "phone-0148", "field": "phone", "value": "199828381S1", "truth": "19982838151", "perturbation": "typo", "split": "train"}
+{"id": "phone-0148", "field": "phone", "value": "08619982838151", "truth": "19982838151", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0148", "field": "phone", "value": "199，8283，8151", "truth": "19982838151", "perturbation": "sep", "split": "train"}
+{"id": "phone-0148", "field": "phone", "value": "19982838151。", "truth": "19982838151", "perturbation": "noise", "split": "train"}
+{"id": "phone-0149", "field": "phone", "value": "157067　15127", "truth": "15706715127", "perturbation": "space", "split": "train"}
+{"id": "phone-0149", "field": "phone", "value": "1570671S127", "truth": "15706715127", "perturbation": "typo", "split": "train"}
+{"id": "phone-0149", "field": "phone", "value": "8615706715127", "truth": "15706715127", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0149", "field": "phone", "value": "157／0671／5127", "truth": "15706715127", "perturbation": "sep", "split": "train"}
+{"id": "phone-0149", "field": "phone", "value": "电话：15706715127", "truth": "15706715127", "perturbation": "noise", "split": "train"}
+{"id": "phone-0150", "field": "phone", "value": "1310　8134215", "truth": "13108134215", "perturbation": "space", "split": "train"}
+{"id": "phone-0150", "field": "phone", "value": "13108134Z15", "truth": "13108134215", "perturbation": "typo", "split": "train"}
+{"id": "phone-0150", "field": "phone", "value": "8613108134215", "truth": "13108134215", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0150", "field": "phone", "value": "131·0813·4215", "truth": "13108134215", "perturbation": "sep", "split": "train"}
+{"id": "phone-0150", "field": "phone", "value": "13108134215。", "truth": "13108134215", "perturbation": "noise", "split": "train"}
+{"id": "phone-0151", "field": "phone", "value": "177632856 56", "truth": "17763285656", "perturbation": "space", "split": "train"}
+{"id": "phone-0151", "field": "phone", "value": "1776328S656", "truth": "17763285656", "perturbation": "typo", "split": "train"}
+{"id": "phone-0151", "field": "phone", "value": "8617763285656", "truth": "17763285656", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0151", "field": "phone", "value": "177／6328／5656", "truth": "17763285656", "perturbation": "sep", "split": "train"}
+{"id": "phone-0151", "field": "phone", "value": "17763285656（备用）", "truth": "17763285656", "perturbation": "noise", "split": "train"}
+{"id": "phone-0152", "field": "phone", "value": "1530　5553622", "truth": "15305553622", "perturbation": "space", "split": "train"}
+{"id": "phone-0152", "field": "phone", "value": "1S305553622", "truth": "15305553622", "perturbation": "typo", "split": "train"}
+{"id": "phone-0152", "field": "phone", "value": "+8615305553622", "truth": "15305553622", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0152", "field": "phone", "value": "153／0555／3622", "truth": "15305553622", "perturbation": "sep", "split": "train"}
+{"id": "phone-0152", "field": "phone", "value": "手机:15305553622", "truth": "15305553622", "perturbation": "noise", "split": "train"}
+{"id": "phone-0153", "field": "phone", "value": "1761059334　3", "truth": "17610593343", "perturbation": "space", "split": "train"}
+{"id": "phone-0153", "field": "phone", "value": "17610593E43", "truth": "17610593343", "perturbation": "typo", "split": "train"}
+{"id": "phone-0153", "field": "phone", "value": "08617610593343", "truth": "17610593343", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0153", "field": "phone", "value": "176-1059-3343", "truth": "17610593343", "perturbation": "sep", "split": "train"}
+{"id": "phone-0153", "field": "phone", "value": "电话：17610593343", "truth": "17610593343", "perturbation": "noise", "split": "train"}
+{"id": "phone-0154", "field": "phone", "value": "13 341892530", "truth": "13341892530", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0154", "field": "phone", "value": "13E41892530", "truth": "13341892530", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0154", "field": "phone", "value": "8613341892530", "truth": "13341892530", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0154", "field": "phone", "value": "133|4189|2530", "truth": "13341892530", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0154", "field": "phone", "value": "13341892530（备用）", "truth": "13341892530", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0155", "field": "phone", "value": "1307 0339937", "truth": "13070339937", "perturbation": "space", "split": "train"}
+{"id": "phone-0155", "field": "phone", "value": "1E070339937", "truth": "13070339937", "perturbation": "typo", "split": "train"}
+{"id": "phone-0155", "field": "phone", "value": "08613070339937", "truth": "13070339937", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0155", "field": "phone", "value": "130／7033／9937", "truth": "13070339937", "perturbation": "sep", "split": "train"}
+{"id": "phone-0155", "field": "phone", "value": "手机:13070339937", "truth": "13070339937", "perturbation": "noise", "split": "train"}
+{"id": "phone-0156", "field": "phone", "value": "180894394 41", "truth": "18089439441", "perturbation": "space", "split": "train"}
+{"id": "phone-0156", "field": "phone", "value": "1808943944l", "truth": "18089439441", "perturbation": "typo", "split": "train"}
+{"id": "phone-0156", "field": "phone", "value": "8618089439441", "truth": "18089439441", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0156", "field": "phone", "value": "180-8943-9441", "truth": "18089439441", "perturbation": "sep", "split": "train"}
+{"id": "phone-0156", "field": "phone", "value": "18089439441（备用）", "truth": "18089439441", "perturbation": "noise", "split": "train"}
+{"id": "phone-0157", "field": "phone", "value": "1916761522　4", "truth": "19167615224", "perturbation": "space", "split": "train"}
+{"id": "phone-0157", "field": "phone", "value": "191676152Z4", "truth": "19167615224", "perturbation": "typo", "split": "train"}
+{"id": "phone-0157", "field": "phone", "value": "8619167615224", "truth": "19167615224", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0157", "field": "phone", "value": "191-6761-5224", "truth": "19167615224", "perturbation": "sep", "split": "train"}
+{"id": "phone-0157", "field": "phone", "value": "19167615224（微信同号）", "truth": "19167615224", "perturbation": "noise", "split": "train"}
+{"id": "phone-0158", "field": "phone", "value": "19928243 787", "truth": "19928243787", "perturbation": "space", "split": "train"}
+{"id": "phone-0158", "field": "phone", "value": "1992824E787", "truth": "19928243787", "perturbation": "typo", "split": "train"}
+{"id": "phone-0158", "field": "phone", "value": "08619928243787", "truth": "19928243787", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0158", "field": "phone", "value": "199／2824／3787", "truth": "19928243787", "perturbation": "sep", "split": "train"}
+{"id": "phone-0158", "field": "phone", "value": "手机:19928243787", "truth": "19928243787", "perturbation": "noise", "split": "train"}
+{"id": "phone-0159", "field": "phone", "value": "156001745 13", "truth": "15600174513", "perturbation": "space", "split": "train"}
+{"id": "phone-0159", "field": "phone", "value": "156O0174513", "truth": "15600174513", "perturbation": "typo", "split": "train"}
+{"id": "phone-0159", "field": "phone", "value": "8615600174513", "truth": "15600174513", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0159", "field": "phone", "value": "156，0017，4513", "truth": "15600174513", "perturbation": "sep", "split": "train"}
+{"id": "phone-0159", "field": "phone", "value": "手机:15600174513", "truth": "15600174513", "perturbation": "noise", "split": "train"}
+{"id": "phone-0160", "field": "phone", "value": "15 303843122", "truth": "15303843122", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0160", "field": "phone", "value": "15303843l22", "truth": "15303843122", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0160", "field": "phone", "value": "+8615303843122", "truth": "15303843122", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0160", "field": "phone", "value": "153·0384·3122", "truth": "15303843122", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0160", "field": "phone", "value": "电话：15303843122", "truth": "15303843122", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0161", "field": "phone", "value": "1　9380647025", "truth": "19380647025", "perturbation": "space", "split": "train"}
+{"id": "phone-0161", "field": "phone", "value": "193806470Z5", "truth": "19380647025", "perturbation": "typo", "split": "train"}
+{"id": "phone-0161", "field": "phone", "value": "08619380647025", "truth": "19380647025", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0161", "field": "phone", "value": "193·8064·7025", "truth": "19380647025", "perturbation": "sep", "split": "train"}
+{"id": "phone-0161", "field": "phone", "value": "19380647025（备用）", "truth": "19380647025", "perturbation": "noise", "split": "train"}
+{"id": "phone-0162", "field": "phone", "value": "135394 79358", "truth": "13539479358", "perturbation": "space", "split": "train"}
+{"id": "phone-0162", "field": "phone", "value": "135E9479358", "truth": "13539479358", "perturbation": "typo", "split": "train"}
+{"id": "phone-0162", "field": "phone", "value": "+8613539479358", "truth": "13539479358", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0162", "field": "phone", "value": "135，3947，9358", "truth": "13539479358", "perturbation": "sep", "split": "train"}
+{"id": "phone-0162", "field": "phone", "value": "13539479358（备用）", "truth": "13539479358", "perturbation": "noise", "split": "train"}
+{"id": "phone-0163", "field": "phone", "value": "1675610　2631", "truth": "16756102631", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0163", "field": "phone", "value": "167S6102631", "truth": "16756102631", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0163", "field": "phone", "value": "8616756102631", "truth": "16756102631", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0163", "field": "phone", "value": "167|5610|2631", "truth": "16756102631", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0163", "field": "phone", "value": "16756102631（本人）", "truth": "16756102631", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0164", "field": "phone", "value": "13322791　996", "truth": "13322791996", "perturbation": "space", "split": "train"}
+{"id": "phone-0164", "field": "phone", "value": "1E322791996", "truth": "13322791996", "perturbation": "typo", "split": "train"}
+{"id": "phone-0164", "field": "phone", "value": "+8613322791996", "truth": "13322791996", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0164", "field": "phone", "value": "133，2279，1996", "truth": "13322791996", "perturbation": "sep", "split": "train"}
+{"id": "phone-0164", "field": "phone", "value": "手机:13322791996", "truth": "13322791996", "perturbation": "noise", "split": "train"}
+{"id": "phone-0165", "field": "phone", "value": "1304707　5898", "truth": "13047075898", "perturbation": "space", "split": "train"}
+{"id": "phone-0165", "field": "phone", "value": "13047075B98", "truth": "13047075898", "perturbation": "typo", "split": "train"}
+{"id": "phone-0165", "field": "phone", "value": "08613047075898", "truth": "13047075898", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0165", "field": "phone", "value": "130-4707-5898", "truth": "13047075898", "perturbation": "sep", "split": "train"}
+{"id": "phone-0165", "field": "phone", "value": "手机:13047075898", "truth": "13047075898", "perturbation": "noise", "split": "train"}
+{"id": "phone-0166", "field": "phone", "value": "1472486 0099", "truth": "14724860099", "perturbation": "space", "split": "train"}
+{"id": "phone-0166", "field": "phone", "value": "1472486O099", "truth": "14724860099", "perturbation": "typo", "split": "train"}
+{"id": "phone-0166", "field": "phone", "value": "+8614724860099", "truth": "14724860099", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0166", "field": "phone", "value": "147|2486|0099", "truth": "14724860099", "perturbation": "sep", "split": "train"}
+{"id": "phone-0166", "field": "phone", "value": "14724860099（本人）", "truth": "14724860099", "perturbation": "noise", "split": "train"}
+{"id": "phone-0167", "field": "phone", "value": "145　17907075", "truth": "14517907075", "perturbation": "space", "split": "train"}
+{"id": "phone-0167", "field": "phone", "value": "1451790707S", "truth": "14517907075", "perturbation": "typo", "split": "train"}
+{"id": "phone-0167", "field": "phone", "value": "08614517907075", "truth": "14517907075", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0167", "field": "phone", "value": "145／1790／7075", "truth": "14517907075", "perturbation": "sep", "split": "train"}
+{"id": "phone-0167", "field": "phone", "value": "14517907075（微信同号）", "truth": "14517907075", "perturbation": "noise", "split": "train"}
+{"id": "phone-0168", "field": "phone", "value": "1572 8562375", "truth": "15728562375", "perturbation": "space", "split": "train"}
+{"id": "phone-0168", "field": "phone", "value": "1S728562375", "truth": "15728562375", "perturbation": "typo", "split": "train"}
+{"id": "phone-0168", "field": "phone", "value": "08615728562375", "truth": "15728562375", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0168", "field": "phone", "value": "157，2856，2375", "truth": "15728562375", "perturbation": "sep", "split": "train"}
+{"id": "phone-0168", "field": "phone", "value": "15728562375。", "truth": "15728562375", "perturbation": "noise", "split": "train"}
+{"id": "phone-0169", "field": "phone", "value": "1786　7681764", "truth": "17867681764", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0169", "field": "phone", "value": "1786768l764", "truth": "17867681764", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0169", "field": "phone", "value": "+8617867681764", "truth": "17867681764", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0169", "field": "phone", "value": "178-6768-1764", "truth": "17867681764", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0169", "field": "phone", "value": "电话：17867681764", "truth": "17867681764", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0170", "field": "phone", "value": "17064183 711", "truth": "17064183711", "perturbation": "space", "split": "train"}
+{"id": "phone-0170", "field": "phone", "value": "l7064183711", "truth": "17064183711", "perturbation": "typo", "split": "train"}
+{"id": "phone-0170", "field": "phone", "value": "08617064183711", "truth": "17064183711", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0170", "field": "phone", "value": "170／6418／3711", "truth": "17064183711", "perturbation": "sep", "split": "train"}
+{"id": "phone-0170", "field": "phone", "value": "17064183711（微信同号）", "truth": "17064183711", "perturbation": "noise", "split": "train"}
+{"id": "phone-0171", "field": "phone", "value": "1368 0045568", "truth": "13680045568", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0171", "field": "phone", "value": "1368O045568", "truth": "13680045568", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0171", "field": "phone", "value": "8613680045568", "truth": "13680045568", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0171", "field": "phone", "value": "136，8004，5568", "truth": "13680045568", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0171", "field": "phone", "value": "手机:13680045568", "truth": "13680045568", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0172", "field": "phone", "value": "158 40957626", "truth": "15840957626", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0172", "field": "phone", "value": "15B40957626", "truth": "15840957626", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0172", "field": "phone", "value": "+8615840957626", "truth": "15840957626", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0172", "field": "phone", "value": "158，4095，7626", "truth": "15840957626", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0172", "field": "phone", "value": "15840957626。", "truth": "15840957626", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0173", "field": "phone", "value": "1673867　9902", "truth": "16738679902", "perturbation": "space", "split": "train"}
+{"id": "phone-0173", "field": "phone", "value": "1673B679902", "truth": "16738679902", "perturbation": "typo", "split": "train"}
+{"id": "phone-0173", "field": "phone", "value": "+8616738679902", "truth": "16738679902", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0173", "field": "phone", "value": "167，3867，9902", "truth": "16738679902", "perturbation": "sep", "split": "train"}
+{"id": "phone-0173", "field": "phone", "value": "16738679902（微信同号）", "truth": "16738679902", "perturbation": "noise", "split": "train"}
+{"id": "phone-0174", "field": "phone", "value": "13191442 214", "truth": "13191442214", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0174", "field": "phone", "value": "13191442Z14", "truth": "13191442214", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0174", "field": "phone", "value": "+8613191442214", "truth": "13191442214", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0174", "field": "phone", "value": "131|9144|2214", "truth": "13191442214", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0174", "field": "phone", "value": "13191442214。", "truth": "13191442214", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0175", "field": "phone", "value": "18380420　623", "truth": "18380420623", "perturbation": "space", "split": "train"}
+{"id": "phone-0175", "field": "phone", "value": "183B0420623", "truth": "18380420623", "perturbation": "typo", "split": "train"}
+{"id": "phone-0175", "field": "phone", "value": "08618380420623", "truth": "18380420623", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0175", "field": "phone", "value": "183／8042／0623", "truth": "18380420623", "perturbation": "sep", "split": "train"}
+{"id": "phone-0175", "field": "phone", "value": "手机:18380420623", "truth": "18380420623", "perturbation": "noise", "split": "train"}
+{"id": "phone-0176", "field": "phone", "value": "166　25118960", "truth": "16625118960", "perturbation": "space", "split": "train"}
+{"id": "phone-0176", "field": "phone", "value": "166251l8960", "truth": "16625118960", "perturbation": "typo", "split": "train"}
+{"id": "phone-0176", "field": "phone", "value": "+8616625118960", "truth": "16625118960", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0176", "field": "phone", "value": "166·2511·8960", "truth": "16625118960", "perturbation": "sep", "split": "train"}
+{"id": "phone-0176", "field": "phone", "value": "16625118960。", "truth": "16625118960", "perturbation": "noise", "split": "train"}
+{"id": "phone-0177", "field": "phone", "value": "1755490 6398", "truth": "17554906398", "perturbation": "space", "split": "train"}
+{"id": "phone-0177", "field": "phone", "value": "175549O6398", "truth": "17554906398", "perturbation": "typo", "split": "train"}
+{"id": "phone-0177", "field": "phone", "value": "08617554906398", "truth": "17554906398", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0177", "field": "phone", "value": "175／5490／6398", "truth": "17554906398", "perturbation": "sep", "split": "train"}
+{"id": "phone-0177", "field": "phone", "value": "手机:17554906398", "truth": "17554906398", "perturbation": "noise", "split": "train"}
+{"id": "phone-0178", "field": "phone", "value": "1886　2906153", "truth": "18862906153", "perturbation": "space", "split": "train"}
+{"id": "phone-0178", "field": "phone", "value": "18862906l53", "truth": "18862906153", "perturbation": "typo", "split": "train"}
+{"id": "phone-0178", "field": "phone", "value": "08618862906153", "truth": "18862906153", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0178", "field": "phone", "value": "188-6290-6153", "truth": "18862906153", "perturbation": "sep", "split": "train"}
+{"id": "phone-0178", "field": "phone", "value": "电话：18862906153", "truth": "18862906153", "perturbation": "noise", "split": "train"}
+{"id": "phone-0179", "field": "phone", "value": "186122　49031", "truth": "18612249031", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0179", "field": "phone", "value": "1B612249031", "truth": "18612249031", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0179", "field": "phone", "value": "08618612249031", "truth": "18612249031", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0179", "field": "phone", "value": "186·1224·9031", "truth": "18612249031", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0179", "field": "phone", "value": "18612249031（微信同号）", "truth": "18612249031", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0180", "field": "phone", "value": "13167 363464", "truth": "13167363464", "perturbation": "space", "split": "train"}
+{"id": "phone-0180", "field": "phone", "value": "13167E63464", "truth": "13167363464", "perturbation": "typo", "split": "train"}
+{"id": "phone-0180", "field": "phone", "value": "+8613167363464", "truth": "13167363464", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0180", "field": "phone", "value": "131|6736|3464", "truth": "13167363464", "perturbation": "sep", "split": "train"}
+{"id": "phone-0180", "field": "phone", "value": "13167363464（备用）", "truth": "13167363464", "perturbation": "noise", "split": "train"}
+{"id": "phone-0181", "field": "phone", "value": "1787241792　2", "truth": "17872417922", "perturbation": "space", "split": "train"}
+{"id": "phone-0181", "field": "phone", "value": "1787241792Z", "truth": "17872417922", "perturbation": "typo", "split": "train"}
+{"id": "phone-0181", "field": "phone", "value": "8617872417922", "truth": "17872417922", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0181", "field": "phone", "value": "178·7241·7922", "truth": "17872417922", "perturbation": "sep", "split": "train"}
+{"id": "phone-0181", "field": "phone", "value": "手机:17872417922", "truth": "17872417922", "perturbation": "noise", "split": "train"}
+{"id": "phone-0182", "field": "phone", "value": "19335　391372", "truth": "19335391372", "perturbation": "space", "split": "train"}
+{"id": "phone-0182", "field": "phone", "value": "19335391E72", "truth": "19335391372", "perturbation": "typo", "split": "train"}
+{"id": "phone-0182", "field": "phone", "value": "08619335391372", "truth": "19335391372", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0182", "field": "phone", "value": "193，3539，1372", "truth": "19335391372", "perturbation": "sep", "split": "train"}
+{"id": "phone-0182", "field": "phone", "value": "19335391372（微信同号）", "truth": "19335391372", "perturbation": "noise", "split": "train"}
+{"id": "phone-0183", "field": "phone", "value": "1517285 7724", "truth": "15172857724", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0183", "field": "phone", "value": "l5172857724", "truth": "15172857724", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0183", "field": "phone", "value": "8615172857724", "truth": "15172857724", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0183", "field": "phone", "value": "151|7285|7724", "truth": "15172857724", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0183", "field": "phone", "value": "电话：15172857724", "truth": "15172857724", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0184", "field": "phone", "value": "19619　418790", "truth": "19619418790", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0184", "field": "phone", "value": "196194l8790", "truth": "19619418790", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0184", "field": "phone", "value": "08619619418790", "truth": "19619418790", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0184", "field": "phone", "value": "196，1941，8790", "truth": "19619418790", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0184", "field": "phone", "value": "手机:19619418790", "truth": "19619418790", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0185", "field": "phone", "value": "1788567　8146", "truth": "17885678146", "perturbation": "space", "split": "train"}
+{"id": "phone-0185", "field": "phone", "value": "17885678l46", "truth": "17885678146", "perturbation": "typo", "split": "train"}
+{"id": "phone-0185", "field": "phone", "value": "+8617885678146", "truth": "17885678146", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0185", "field": "phone", "value": "178·8567·8146", "truth": "17885678146", "perturbation": "sep", "split": "train"}
+{"id": "phone-0185", "field": "phone", "value": "17885678146。", "truth": "17885678146", "perturbation": "noise", "split": "train"}
+{"id": "phone-0186", "field": "phone", "value": "1762　2417413", "truth": "17622417413", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0186", "field": "phone", "value": "1762241741E", "truth": "17622417413", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0186", "field": "phone", "value": "8617622417413", "truth": "17622417413", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0186", "field": "phone", "value": "176，2241，7413", "truth": "17622417413", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0186", "field": "phone", "value": "17622417413（本人）", "truth": "17622417413", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0187", "field": "phone", "value": "1670651 1337", "truth": "16706511337", "perturbation": "space", "split": "train"}
+{"id": "phone-0187", "field": "phone", "value": "1670651l337", "truth": "16706511337", "perturbation": "typo", "split": "train"}
+{"id": "phone-0187", "field": "phone", "value": "08616706511337", "truth": "16706511337", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0187", "field": "phone", "value": "167，0651，1337", "truth": "16706511337", "perturbation": "sep", "split": "train"}
+{"id": "phone-0187", "field": "phone", "value": "电话：16706511337", "truth": "16706511337", "perturbation": "noise", "split": "train"}
+{"id": "phone-0188", "field": "phone", "value": "18　971203607", "truth": "18971203607", "perturbation": "space", "split": "train"}
+{"id": "phone-0188", "field": "phone", "value": "l8971203607", "truth": "18971203607", "perturbation": "typo", "split": "train"}
+{"id": "phone-0188", "field": "phone", "value": "+8618971203607", "truth": "18971203607", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0188", "field": "phone", "value": "189／7120／3607", "truth": "18971203607", "perturbation": "sep", "split": "train"}
+{"id": "phone-0188", "field": "phone", "value": "电话：18971203607", "truth": "18971203607", "perturbation": "noise", "split": "train"}
+{"id": "phone-0189", "field": "phone", "value": "197　35770943", "truth": "19735770943", "perturbation": "space", "split": "train"}
+{"id": "phone-0189", "field": "phone", "value": "1973577O943", "truth": "19735770943", "perturbation": "typo", "split": "train"}
+{"id": "phone-0189", "field": "phone", "value": "08619735770943", "truth": "19735770943", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0189", "field": "phone", "value": "197，3577，0943", "truth": "19735770943", "perturbation": "sep", "split": "train"}
+{"id": "phone-0189", "field": "phone", "value": "19735770943（备用）", "truth": "19735770943", "perturbation": "noise", "split": "train"}
+{"id": "phone-0190", "field": "phone", "value": "153 68744986", "truth": "15368744986", "perturbation": "space", "split": "train"}
+{"id": "phone-0190", "field": "phone", "value": "153687449B6", "truth": "15368744986", "perturbation": "typo", "split": "train"}
+{"id": "phone-0190", "field": "phone", "value": "8615368744986", "truth": "15368744986", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0190", "field": "phone", "value": "153|6874|4986", "truth": "15368744986", "perturbation": "sep", "split": "train"}
+{"id": "phone-0190", "field": "phone", "value": "15368744986（备用）", "truth": "15368744986", "perturbation": "noise", "split": "train"}
+{"id": "phone-0191", "field": "phone", "value": "1873609715　6", "truth": "18736097156", "perturbation": "space", "split": "train"}
+{"id": "phone-0191", "field": "phone", "value": "1B736097156", "truth": "18736097156", "perturbation": "typo", "split": "train"}
+{"id": "phone-0191", "field": "phone", "value": "08618736097156", "truth": "18736097156", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0191", "field": "phone", "value": "187，3609，7156", "truth": "18736097156", "perturbation": "sep", "split": "train"}
+{"id": "phone-0191", "field": "phone", "value": "18736097156（备用）", "truth": "18736097156", "perturbation": "noise", "split": "train"}
+{"id": "phone-0192", "field": "phone", "value": "13264546　533", "truth": "13264546533", "perturbation": "space", "split": "train"}
+{"id": "phone-0192", "field": "phone", "value": "13264546S33", "truth": "13264546533", "perturbation": "typo", "split": "train"}
+{"id": "phone-0192", "field": "phone", "value": "8613264546533", "truth": "13264546533", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0192", "field": "phone", "value": "132|6454|6533", "truth": "13264546533", "perturbation": "sep", "split": "train"}
+{"id": "phone-0192", "field": "phone", "value": "13264546533（备用）", "truth": "13264546533", "perturbation": "noise", "split": "train"}
+{"id": "phone-0193", "field": "phone", "value": "1955744278 3", "truth": "19557442783", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0193", "field": "phone", "value": "195S7442783", "truth": "19557442783", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0193", "field": "phone", "value": "+8619557442783", "truth": "19557442783", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0193", "field": "phone", "value": "195，5744，2783", "truth": "19557442783", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0193", "field": "phone", "value": "手机:19557442783", "truth": "19557442783", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0194", "field": "phone", "value": "167806　09986", "truth": "16780609986", "perturbation": "space", "split": "train"}
+{"id": "phone-0194", "field": "phone", "value": "167B0609986", "truth": "16780609986", "perturbation": "typo", "split": "train"}
+{"id": "phone-0194", "field": "phone", "value": "08616780609986", "truth": "16780609986", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0194", "field": "phone", "value": "167，8060，9986", "truth": "16780609986", "perturbation": "sep", "split": "train"}
+{"id": "phone-0194", "field": "phone", "value": "16780609986（备用）", "truth": "16780609986", "perturbation": "noise", "split": "train"}
+{"id": "phone-0195", "field": "phone", "value": "1300　7445628", "truth": "13007445628", "perturbation": "space", "split": "train"}
+{"id": "phone-0195", "field": "phone", "value": "l3007445628", "truth": "13007445628", "perturbation": "typo", "split": "train"}
+{"id": "phone-0195", "field": "phone", "value": "+8613007445628", "truth": "13007445628", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0195", "field": "phone", "value": "130-0744-5628", "truth": "13007445628", "perturbation": "sep", "split": "train"}
+{"id": "phone-0195", "field": "phone", "value": "13007445628。", "truth": "13007445628", "perturbation": "noise", "split": "train"}
+{"id": "phone-0196", "field": "phone", "value": "16 602197349", "truth": "16602197349", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0196", "field": "phone", "value": "l6602197349", "truth": "16602197349", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0196", "field": "phone", "value": "8616602197349", "truth": "16602197349", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0196", "field": "phone", "value": "166，0219，7349", "truth": "16602197349", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0196", "field": "phone", "value": "16602197349（备用）", "truth": "16602197349", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0197", "field": "phone", "value": "17341728　674", "truth": "17341728674", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0197", "field": "phone", "value": "l7341728674", "truth": "17341728674", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0197", "field": "phone", "value": "+8617341728674", "truth": "17341728674", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0197", "field": "phone", "value": "173·4172·8674", "truth": "17341728674", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0197", "field": "phone", "value": "电话：17341728674", "truth": "17341728674", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0198", "field": "phone", "value": "1825 2984789", "truth": "18252984789", "perturbation": "space", "split": "train"}
+{"id": "phone-0198", "field": "phone", "value": "182529847B9", "truth": "18252984789", "perturbation": "typo", "split": "train"}
+{"id": "phone-0198", "field": "phone", "value": "8618252984789", "truth": "18252984789", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0198", "field": "phone", "value": "182／5298／4789", "truth": "18252984789", "perturbation": "sep", "split": "train"}
+{"id": "phone-0198", "field": "phone", "value": "18252984789（微信同号）", "truth": "18252984789", "perturbation": "noise", "split": "train"}
+{"id": "phone-0199", "field": "phone", "value": "171018　06532", "truth": "17101806532", "perturbation": "space", "split": "heldout"}
+{"id": "phone-0199", "field": "phone", "value": "17l01806532", "truth": "17101806532", "perturbation": "typo", "split": "heldout"}
+{"id": "phone-0199", "field": "phone", "value": "8617101806532", "truth": "17101806532", "perturbation": "abbrev", "split": "heldout"}
+{"id": "phone-0199", "field": "phone", "value": "171／0180／6532", "truth": "17101806532", "perturbation": "sep", "split": "heldout"}
+{"id": "phone-0199", "field": "phone", "value": "17101806532（微信同号）", "truth": "17101806532", "perturbation": "noise", "split": "heldout"}
+{"id": "phone-0200", "field": "phone", "value": "133　49434318", "truth": "13349434318", "perturbation": "space", "split": "train"}
+{"id": "phone-0200", "field": "phone", "value": "13E49434318", "truth": "13349434318", "perturbation": "typo", "split": "train"}
+{"id": "phone-0200", "field": "phone", "value": "08613349434318", "truth": "13349434318", "perturbation": "abbrev", "split": "train"}
+{"id": "phone-0200", "field": "phone", "value": "133·4943·4318", "truth": "13349434318", "perturbation": "sep", "split": "train"}
+{"id": "phone-0200", "field": "phone", "value": "13349434318（微信同号）", "truth": "13349434318", "perturbation": "noise", "split": "train"}

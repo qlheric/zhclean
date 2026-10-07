@@ -1,0 +1,1000 @@
+{"id": "company-0001", "field": "company", "value": "嘉兴数联贸易集 团有限公司", "truth": "嘉兴数联贸易集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0001", "field": "company", "value": "嘉兴数联贸易集团友限公司", "truth": "嘉兴数联贸易集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0001", "field": "company", "value": "数联贸易集团有限公司", "truth": "嘉兴数联贸易集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0001", "field": "company", "value": "嘉兴-数联-贸易-集团有限公司", "truth": "嘉兴数联贸易集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0001", "field": "company", "value": "公司名称:嘉兴数联贸易集团有限公司", "truth": "嘉兴数联贸易集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0002", "field": "company", "value": "宜春清源实业有 限公司", "truth": "宜春清源实业有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0002", "field": "company", "value": "宜春清源实业有线公司", "truth": "宜春清源实业有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0002", "field": "company", "value": "宜春清源实业", "truth": "宜春清源实业有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0002", "field": "company", "value": "宜春，清源，实业，有限公司", "truth": "宜春清源实业有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0002", "field": "company", "value": "宜春清源实业有限公司。", "truth": "宜春清源实业有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0003", "field": "company", "value": "锦州维信　数智股份有限公司", "truth": "锦州维信数智股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0003", "field": "company", "value": "锦州维信数智股份有限工司", "truth": "锦州维信数智股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0003", "field": "company", "value": "维信数智股份有限公司", "truth": "锦州维信数智股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0003", "field": "company", "value": "锦州／维信／数智／股份有限公司", "truth": "锦州维信数智股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0003", "field": "company", "value": "锦州维信数智股份有限公司（总部）", "truth": "锦州维信数智股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0004", "field": "company", "value": "焦 作嘉禾智能有限责任公司", "truth": "焦作嘉禾智能有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0004", "field": "company", "value": "焦作嘉禾志能有限责任公司", "truth": "焦作嘉禾智能有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0004", "field": "company", "value": "嘉禾智能有限责任公司", "truth": "焦作嘉禾智能有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0004", "field": "company", "value": "焦作／嘉禾／智能／有限责任公司", "truth": "焦作嘉禾智能有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0004", "field": "company", "value": "焦作嘉禾智能有限责任公司。", "truth": "焦作嘉禾智能有限责任公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0005", "field": "company", "value": "锦州泰和农业 集团有限公司", "truth": "锦州泰和农业集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0005", "field": "company", "value": "锦州泰和农业集团有线公司", "truth": "锦州泰和农业集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0005", "field": "company", "value": "泰和农业集团有限公司", "truth": "锦州泰和农业集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0005", "field": "company", "value": "锦州·泰和·农业·集团有限公司", "truth": "锦州泰和农业集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0005", "field": "company", "value": "单位：锦州泰和农业集团有限公司", "truth": "锦州泰和农业集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0006", "field": "company", "value": "襄阳华宇文化股 份有限公司", "truth": "襄阳华宇文化股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0006", "field": "company", "value": "襄阳华宇文化股份友限公司", "truth": "襄阳华宇文化股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0006", "field": "company", "value": "华宇文化股份有限公司", "truth": "襄阳华宇文化股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0006", "field": "company", "value": "襄阳-华宇-文化-股份有限公司", "truth": "襄阳华宇文化股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0006", "field": "company", "value": "襄阳华宇文化股份有限公司。", "truth": "襄阳华宇文化股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0007", "field": "company", "value": "海 东骏驰信息有限责任公司", "truth": "海东骏驰信息有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0007", "field": "company", "value": "海东骏驰信希有限责任公司", "truth": "海东骏驰信息有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0007", "field": "company", "value": "海东骏驰信息", "truth": "海东骏驰信息有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0007", "field": "company", "value": "海东-骏驰-信息-有限责任公司", "truth": "海东骏驰信息有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0007", "field": "company", "value": "海东骏驰信息有限责任公司。", "truth": "海东骏驰信息有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0008", "field": "company", "value": "鄂尔多 斯泰和数智股份有限公司", "truth": "鄂尔多斯泰和数智股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0008", "field": "company", "value": "鄂尔多斯泰和数智股份有限工司", "truth": "鄂尔多斯泰和数智股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0008", "field": "company", "value": "鄂尔多斯泰和数智股份公司", "truth": "鄂尔多斯泰和数智股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0008", "field": "company", "value": "鄂尔多斯-泰和-数智-股份有限公司", "truth": "鄂尔多斯泰和数智股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0008", "field": "company", "value": "鄂尔多斯泰和数智股份有限公司（分公司）", "truth": "鄂尔多斯泰和数智股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0009", "field": "company", "value": "邯郸云　栖新能源有限责任公司", "truth": "邯郸云栖新能源有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0009", "field": "company", "value": "邯郸云栖新能源有限责任工司", "truth": "邯郸云栖新能源有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0009", "field": "company", "value": "邯郸云栖新能源有限公司", "truth": "邯郸云栖新能源有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0009", "field": "company", "value": "邯郸，云栖，新能源，有限责任公司", "truth": "邯郸云栖新能源有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0009", "field": "company", "value": "邯郸云栖新能源有限责任公司（分公司）", "truth": "邯郸云栖新能源有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0010", "field": "company", "value": "哈尔滨蓝海网络有限公　司", "truth": "哈尔滨蓝海网络有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0010", "field": "company", "value": "哈尔滨蓝海网络有限公词", "truth": "哈尔滨蓝海网络有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0010", "field": "company", "value": "蓝海网络有限公司", "truth": "哈尔滨蓝海网络有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0010", "field": "company", "value": "哈尔滨／蓝海／网络／有限公司", "truth": "哈尔滨蓝海网络有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0010", "field": "company", "value": "哈尔滨蓝海网络有限公司（原单位）", "truth": "哈尔滨蓝海网络有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0011", "field": "company", "value": "伊宁卓越供应链股份有　限公司", "truth": "伊宁卓越供应链股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0011", "field": "company", "value": "伊宁卓越供应链股份有限工司", "truth": "伊宁卓越供应链股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0011", "field": "company", "value": "卓越供应链股份有限公司", "truth": "伊宁卓越供应链股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0011", "field": "company", "value": "伊宁·卓越·供应链·股份有限公司", "truth": "伊宁卓越供应链股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0011", "field": "company", "value": "伊宁卓越供应链股份有限公司（总部）", "truth": "伊宁卓越供应链股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0012", "field": "company", "value": "安阳拓普贸 易股份有限公司", "truth": "安阳拓普贸易股份有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0012", "field": "company", "value": "安阳拓普贸易股份有限工司", "truth": "安阳拓普贸易股份有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0012", "field": "company", "value": "安阳拓普贸易", "truth": "安阳拓普贸易股份有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0012", "field": "company", "value": "安阳／拓普／贸易／股份有限公司", "truth": "安阳拓普贸易股份有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0012", "field": "company", "value": "安阳拓普贸易股份有限公司（总部）", "truth": "安阳拓普贸易股份有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0013", "field": "company", "value": "上饶众诚 实业有限责任公司", "truth": "上饶众诚实业有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0013", "field": "company", "value": "上饶众诚实业友限责任公司", "truth": "上饶众诚实业有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0013", "field": "company", "value": "上饶众诚实业有限公司", "truth": "上饶众诚实业有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0013", "field": "company", "value": "上饶，众诚，实业，有限责任公司", "truth": "上饶众诚实业有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0013", "field": "company", "value": "公司名称:上饶众诚实业有限责任公司", "truth": "上饶众诚实业有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0014", "field": "company", "value": "柳州恒通信息　有限责任公司", "truth": "柳州恒通信息有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0014", "field": "company", "value": "柳州恒通信希有限责任公司", "truth": "柳州恒通信息有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0014", "field": "company", "value": "柳州恒通信息有限公司", "truth": "柳州恒通信息有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0014", "field": "company", "value": "柳州·恒通·信息·有限责任公司", "truth": "柳州恒通信息有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0014", "field": "company", "value": "单位：柳州恒通信息有限责任公司", "truth": "柳州恒通信息有限责任公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0015", "field": "company", "value": "洛阳清源 医药有限公司", "truth": "洛阳清源医药有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0015", "field": "company", "value": "洛阳清源医药有限工司", "truth": "洛阳清源医药有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0015", "field": "company", "value": "清源医药有限公司", "truth": "洛阳清源医药有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0015", "field": "company", "value": "洛阳|清源|医药|有限公司", "truth": "洛阳清源医药有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0015", "field": "company", "value": "洛阳清源医药有限公司。", "truth": "洛阳清源医药有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0016", "field": "company", "value": "宁波泰和教　育股份有限公司", "truth": "宁波泰和教育股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0016", "field": "company", "value": "宁波泰和教育股份有限工司", "truth": "宁波泰和教育股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0016", "field": "company", "value": "宁波泰和教育股份公司", "truth": "宁波泰和教育股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0016", "field": "company", "value": "宁波·泰和·教育·股份有限公司", "truth": "宁波泰和教育股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0016", "field": "company", "value": "宁波泰和教育股份有限公司。", "truth": "宁波泰和教育股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0017", "field": "company", "value": "常德广厦农 业有限公司", "truth": "常德广厦农业有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0017", "field": "company", "value": "常德广厦农业有限工司", "truth": "常德广厦农业有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0017", "field": "company", "value": "常德广厦农业", "truth": "常德广厦农业有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0017", "field": "company", "value": "常德|广厦|农业|有限公司", "truth": "常德广厦农业有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0017", "field": "company", "value": "常德广厦农业有限公司。", "truth": "常德广厦农业有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0018", "field": "company", "value": "安庆 立信咨询有限公司", "truth": "安庆立信咨询有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0018", "field": "company", "value": "安庆立信咨询有线公司", "truth": "安庆立信咨询有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0018", "field": "company", "value": "立信咨询有限公司", "truth": "安庆立信咨询有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0018", "field": "company", "value": "安庆／立信／咨询／有限公司", "truth": "安庆立信咨询有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0018", "field": "company", "value": "安庆立信咨询有限公司（分公司）", "truth": "安庆立信咨询有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0019", "field": "company", "value": "澳门众诚医药有 限公司", "truth": "澳门众诚医药有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0019", "field": "company", "value": "澳门众诚医药有限工司", "truth": "澳门众诚医药有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0019", "field": "company", "value": "众诚医药有限公司", "truth": "澳门众诚医药有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0019", "field": "company", "value": "澳门·众诚·医药·有限公司", "truth": "澳门众诚医药有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0019", "field": "company", "value": "澳门众诚医药有限公司。", "truth": "澳门众诚医药有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0020", "field": "company", "value": "青岛拓普食　品股份有限公司", "truth": "青岛拓普食品股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0020", "field": "company", "value": "青岛拓普食品股份友限公司", "truth": "青岛拓普食品股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0020", "field": "company", "value": "青岛拓普食品", "truth": "青岛拓普食品股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0020", "field": "company", "value": "青岛·拓普·食品·股份有限公司", "truth": "青岛拓普食品股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0020", "field": "company", "value": "青岛拓普食品股份有限公司。", "truth": "青岛拓普食品股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0021", "field": "company", "value": "乐山数联供应链集团有限 公司", "truth": "乐山数联供应链集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0021", "field": "company", "value": "乐山数联供应链集团有限公词", "truth": "乐山数联供应链集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0021", "field": "company", "value": "乐山数联供应链", "truth": "乐山数联供应链集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0021", "field": "company", "value": "乐山|数联|供应链|集团有限公司", "truth": "乐山数联供应链集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0021", "field": "company", "value": "公司名称:乐山数联供应链集团有限公司", "truth": "乐山数联供应链集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0022", "field": "company", "value": "株洲环　宇电子有限公司", "truth": "株洲环宇电子有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0022", "field": "company", "value": "株洲环宇电子友限公司", "truth": "株洲环宇电子有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0022", "field": "company", "value": "环宇电子有限公司", "truth": "株洲环宇电子有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0022", "field": "company", "value": "株洲·环宇·电子·有限公司", "truth": "株洲环宇电子有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0022", "field": "company", "value": "株洲环宇电子有限公司（分公司）", "truth": "株洲环宇电子有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0023", "field": "company", "value": "沧州金诚教育 有限公司", "truth": "沧州金诚教育有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0023", "field": "company", "value": "沧州金诚教育有线公司", "truth": "沧州金诚教育有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0023", "field": "company", "value": "金诚教育有限公司", "truth": "沧州金诚教育有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0023", "field": "company", "value": "沧州，金诚，教育，有限公司", "truth": "沧州金诚教育有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0023", "field": "company", "value": "沧州金诚教育有限公司（分公司）", "truth": "沧州金诚教育有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0024", "field": "company", "value": "锦州宏图教育有　限公司", "truth": "锦州宏图教育有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0024", "field": "company", "value": "锦州宏图教育有限工司", "truth": "锦州宏图教育有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0024", "field": "company", "value": "锦州宏图教育", "truth": "锦州宏图教育有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0024", "field": "company", "value": "锦州-宏图-教育-有限公司", "truth": "锦州宏图教育有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0024", "field": "company", "value": "锦州宏图教育有限公司（原单位）", "truth": "锦州宏图教育有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0025", "field": "company", "value": "喀什利丰实业股 份有限公司", "truth": "喀什利丰实业股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0025", "field": "company", "value": "喀什利丰实业股份有线公司", "truth": "喀什利丰实业股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0025", "field": "company", "value": "喀什利丰实业股份公司", "truth": "喀什利丰实业股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0025", "field": "company", "value": "喀什／利丰／实业／股份有限公司", "truth": "喀什利丰实业股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0025", "field": "company", "value": "喀什利丰实业股份有限公司（原单位）", "truth": "喀什利丰实业股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0026", "field": "company", "value": "泉州德胜生物集团有限 公司", "truth": "泉州德胜生物集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0026", "field": "company", "value": "泉州德胜生物集团有线公司", "truth": "泉州德胜生物集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0026", "field": "company", "value": "德胜生物集团有限公司", "truth": "泉州德胜生物集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0026", "field": "company", "value": "泉州|德胜|生物|集团有限公司", "truth": "泉州德胜生物集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0026", "field": "company", "value": "泉州德胜生物集团有限公司（分公司）", "truth": "泉州德胜生物集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0027", "field": "company", "value": "南通星辰软件集团有 限公司", "truth": "南通星辰软件集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0027", "field": "company", "value": "南通星辰软件积团有限公司", "truth": "南通星辰软件集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0027", "field": "company", "value": "南通星辰软件", "truth": "南通星辰软件集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0027", "field": "company", "value": "南通·星辰·软件·集团有限公司", "truth": "南通星辰软件集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0027", "field": "company", "value": "南通星辰软件集团有限公司（总部）", "truth": "南通星辰软件集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0028", "field": "company", "value": "六盘水盛世信息有限　公司", "truth": "六盘水盛世信息有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0028", "field": "company", "value": "六盘水盛世信息有线公司", "truth": "六盘水盛世信息有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0028", "field": "company", "value": "六盘水盛世信息", "truth": "六盘水盛世信息有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0028", "field": "company", "value": "六盘水／盛世／信息／有限公司", "truth": "六盘水盛世信息有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0028", "field": "company", "value": "六盘水盛世信息有限公司（原单位）", "truth": "六盘水盛世信息有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0029", "field": "company", "value": "金华汇通数智有 限责任公司", "truth": "金华汇通数智有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0029", "field": "company", "value": "金华汇通数智有限则任公司", "truth": "金华汇通数智有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0029", "field": "company", "value": "金华汇通数智", "truth": "金华汇通数智有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0029", "field": "company", "value": "金华／汇通／数智／有限责任公司", "truth": "金华汇通数智有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0029", "field": "company", "value": "金华汇通数智有限责任公司（分公司）", "truth": "金华汇通数智有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0030", "field": "company", "value": "苏州天工电子有　限责任公司", "truth": "苏州天工电子有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0030", "field": "company", "value": "苏州天工店子有限责任公司", "truth": "苏州天工电子有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0030", "field": "company", "value": "苏州天工电子有限公司", "truth": "苏州天工电子有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0030", "field": "company", "value": "苏州|天工|电子|有限责任公司", "truth": "苏州天工电子有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0030", "field": "company", "value": "公司名称:苏州天工电子有限责任公司", "truth": "苏州天工电子有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0031", "field": "company", "value": "九江恒　通农业集团有限公司", "truth": "九江恒通农业集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0031", "field": "company", "value": "九江恒通农业集团友限公司", "truth": "九江恒通农业集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0031", "field": "company", "value": "九江恒通农业", "truth": "九江恒通农业集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0031", "field": "company", "value": "九江／恒通／农业／集团有限公司", "truth": "九江恒通农业集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0031", "field": "company", "value": "九江恒通农业集团有限公司（原单位）", "truth": "九江恒通农业集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0032", "field": "company", "value": "拉萨鼎盛科技集 团有限公司", "truth": "拉萨鼎盛科技集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0032", "field": "company", "value": "拉萨鼎盛科记集团有限公司", "truth": "拉萨鼎盛科技集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0032", "field": "company", "value": "拉萨鼎盛科技", "truth": "拉萨鼎盛科技集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0032", "field": "company", "value": "拉萨，鼎盛，科技，集团有限公司", "truth": "拉萨鼎盛科技集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0032", "field": "company", "value": "公司名称:拉萨鼎盛科技集团有限公司", "truth": "拉萨鼎盛科技集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0033", "field": "company", "value": "湖州三江智能有　限公司", "truth": "湖州三江智能有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0033", "field": "company", "value": "湖州三江智能有限公词", "truth": "湖州三江智能有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0033", "field": "company", "value": "湖州三江智能", "truth": "湖州三江智能有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0033", "field": "company", "value": "湖州·三江·智能·有限公司", "truth": "湖州三江智能有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0033", "field": "company", "value": "湖州三江智能有限公司。", "truth": "湖州三江智能有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0034", "field": "company", "value": "佳木　斯德胜传媒有限公司", "truth": "佳木斯德胜传媒有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0034", "field": "company", "value": "佳木斯德胜传媒友限公司", "truth": "佳木斯德胜传媒有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0034", "field": "company", "value": "佳木斯德胜传媒", "truth": "佳木斯德胜传媒有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0034", "field": "company", "value": "佳木斯·德胜·传媒·有限公司", "truth": "佳木斯德胜传媒有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0034", "field": "company", "value": "佳木斯德胜传媒有限公司（原单位）", "truth": "佳木斯德胜传媒有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0035", "field": "company", "value": "淮安磐石贸　易有限责任公司", "truth": "淮安磐石贸易有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0035", "field": "company", "value": "淮安磐石贸意有限责任公司", "truth": "淮安磐石贸易有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0035", "field": "company", "value": "淮安磐石贸易有限公司", "truth": "淮安磐石贸易有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0035", "field": "company", "value": "淮安|磐石|贸易|有限责任公司", "truth": "淮安磐石贸易有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0035", "field": "company", "value": "淮安磐石贸易有限责任公司（总部）", "truth": "淮安磐石贸易有限责任公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0036", "field": "company", "value": "伊 宁环宇科技集团有限公司", "truth": "伊宁环宇科技集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0036", "field": "company", "value": "伊宁环宇科技集团有线公司", "truth": "伊宁环宇科技集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0036", "field": "company", "value": "伊宁环宇科技", "truth": "伊宁环宇科技集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0036", "field": "company", "value": "伊宁·环宇·科技·集团有限公司", "truth": "伊宁环宇科技集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0036", "field": "company", "value": "单位：伊宁环宇科技集团有限公司", "truth": "伊宁环宇科技集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0037", "field": "company", "value": "六盘水九鼎软件 股份有限公司", "truth": "六盘水九鼎软件股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0037", "field": "company", "value": "六盘水九鼎软件股份有限工司", "truth": "六盘水九鼎软件股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0037", "field": "company", "value": "六盘水九鼎软件股份公司", "truth": "六盘水九鼎软件股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0037", "field": "company", "value": "六盘水-九鼎-软件-股份有限公司", "truth": "六盘水九鼎软件股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0037", "field": "company", "value": "六盘水九鼎软件股份有限公司（总部）", "truth": "六盘水九鼎软件股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0038", "field": "company", "value": "苏州　盛世物流有限责任公司", "truth": "苏州盛世物流有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0038", "field": "company", "value": "苏州盛世物流友限责任公司", "truth": "苏州盛世物流有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0038", "field": "company", "value": "苏州盛世物流有限公司", "truth": "苏州盛世物流有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0038", "field": "company", "value": "苏州|盛世|物流|有限责任公司", "truth": "苏州盛世物流有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0038", "field": "company", "value": "公司名称:苏州盛世物流有限责任公司", "truth": "苏州盛世物流有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0039", "field": "company", "value": "信阳卓远 建筑集团有限公司", "truth": "信阳卓远建筑集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0039", "field": "company", "value": "信阳卓远建筑集团有线公司", "truth": "信阳卓远建筑集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0039", "field": "company", "value": "信阳卓远建筑", "truth": "信阳卓远建筑集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0039", "field": "company", "value": "信阳·卓远·建筑·集团有限公司", "truth": "信阳卓远建筑集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0039", "field": "company", "value": "信阳卓远建筑集团有限公司。", "truth": "信阳卓远建筑集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0040", "field": "company", "value": "运城明远机械有限责任公　司", "truth": "运城明远机械有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0040", "field": "company", "value": "运城明远机械有线责任公司", "truth": "运城明远机械有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0040", "field": "company", "value": "明远机械有限责任公司", "truth": "运城明远机械有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0040", "field": "company", "value": "运城·明远·机械·有限责任公司", "truth": "运城明远机械有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0040", "field": "company", "value": "运城明远机械有限责任公司（分公司）", "truth": "运城明远机械有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0041", "field": "company", "value": "连云港立信数智有限公　司", "truth": "连云港立信数智有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0041", "field": "company", "value": "连云港立信数智有限公词", "truth": "连云港立信数智有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0041", "field": "company", "value": "立信数智有限公司", "truth": "连云港立信数智有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0041", "field": "company", "value": "连云港·立信·数智·有限公司", "truth": "连云港立信数智有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0041", "field": "company", "value": "公司名称:连云港立信数智有限公司", "truth": "连云港立信数智有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0042", "field": "company", "value": "吉安环宇科技有限责任 公司", "truth": "吉安环宇科技有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0042", "field": "company", "value": "吉安环宇科技有限责任公词", "truth": "吉安环宇科技有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0042", "field": "company", "value": "环宇科技有限责任公司", "truth": "吉安环宇科技有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0042", "field": "company", "value": "吉安，环宇，科技，有限责任公司", "truth": "吉安环宇科技有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0042", "field": "company", "value": "吉安环宇科技有限责任公司。", "truth": "吉安环宇科技有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0043", "field": "company", "value": "许昌汇 通建筑有限公司", "truth": "许昌汇通建筑有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0043", "field": "company", "value": "许昌汇通建筑有限工司", "truth": "许昌汇通建筑有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0043", "field": "company", "value": "许昌汇通建筑", "truth": "许昌汇通建筑有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0043", "field": "company", "value": "许昌-汇通-建筑-有限公司", "truth": "许昌汇通建筑有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0043", "field": "company", "value": "许昌汇通建筑有限公司（分公司）", "truth": "许昌汇通建筑有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0044", "field": "company", "value": "丽江清源新能源股份　有限公司", "truth": "丽江清源新能源股份有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0044", "field": "company", "value": "丽江清源新能源股份友限公司", "truth": "丽江清源新能源股份有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0044", "field": "company", "value": "丽江清源新能源股份公司", "truth": "丽江清源新能源股份有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0044", "field": "company", "value": "丽江，清源，新能源，股份有限公司", "truth": "丽江清源新能源股份有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0044", "field": "company", "value": "丽江清源新能源股份有限公司（总部）", "truth": "丽江清源新能源股份有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0045", "field": "company", "value": "鄂尔多　斯瑞泰科技集团有限公司", "truth": "鄂尔多斯瑞泰科技集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0045", "field": "company", "value": "鄂尔多斯瑞泰科记集团有限公司", "truth": "鄂尔多斯瑞泰科技集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0045", "field": "company", "value": "瑞泰科技集团有限公司", "truth": "鄂尔多斯瑞泰科技集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0045", "field": "company", "value": "鄂尔多斯-瑞泰-科技-集团有限公司", "truth": "鄂尔多斯瑞泰科技集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0045", "field": "company", "value": "鄂尔多斯瑞泰科技集团有限公司。", "truth": "鄂尔多斯瑞泰科技集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0046", "field": "company", "value": "江门润泽农业　有限公司", "truth": "江门润泽农业有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0046", "field": "company", "value": "江门润泽农业有限工司", "truth": "江门润泽农业有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0046", "field": "company", "value": "江门润泽农业", "truth": "江门润泽农业有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0046", "field": "company", "value": "江门·润泽·农业·有限公司", "truth": "江门润泽农业有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0046", "field": "company", "value": "江门润泽农业有限公司。", "truth": "江门润泽农业有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0047", "field": "company", "value": "南通昌隆 机械有限公司", "truth": "南通昌隆机械有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0047", "field": "company", "value": "南通昌隆机械有限工司", "truth": "南通昌隆机械有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0047", "field": "company", "value": "昌隆机械有限公司", "truth": "南通昌隆机械有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0047", "field": "company", "value": "南通·昌隆·机械·有限公司", "truth": "南通昌隆机械有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0047", "field": "company", "value": "公司名称:南通昌隆机械有限公司", "truth": "南通昌隆机械有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0048", "field": "company", "value": "安庆联　创环保有限公司", "truth": "安庆联创环保有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0048", "field": "company", "value": "安庆联创环保有线公司", "truth": "安庆联创环保有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0048", "field": "company", "value": "联创环保有限公司", "truth": "安庆联创环保有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0048", "field": "company", "value": "安庆·联创·环保·有限公司", "truth": "安庆联创环保有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0048", "field": "company", "value": "公司名称:安庆联创环保有限公司", "truth": "安庆联创环保有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0049", "field": "company", "value": "德州骏驰科技有限责任公　司", "truth": "德州骏驰科技有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0049", "field": "company", "value": "德州骏驰科技有线责任公司", "truth": "德州骏驰科技有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0049", "field": "company", "value": "德州骏驰科技有限公司", "truth": "德州骏驰科技有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0049", "field": "company", "value": "德州／骏驰／科技／有限责任公司", "truth": "德州骏驰科技有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0049", "field": "company", "value": "德州骏驰科技有限责任公司（总部）", "truth": "德州骏驰科技有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0050", "field": "company", "value": "长沙数联电子集　团有限公司", "truth": "长沙数联电子集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0050", "field": "company", "value": "长沙数联店子集团有限公司", "truth": "长沙数联电子集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0050", "field": "company", "value": "数联电子集团有限公司", "truth": "长沙数联电子集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0050", "field": "company", "value": "长沙|数联|电子|集团有限公司", "truth": "长沙数联电子集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0050", "field": "company", "value": "长沙数联电子集团有限公司。", "truth": "长沙数联电子集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0051", "field": "company", "value": "湘潭启明电子有限 公司", "truth": "湘潭启明电子有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0051", "field": "company", "value": "湘潭启明电子友限公司", "truth": "湘潭启明电子有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0051", "field": "company", "value": "湘潭启明电子", "truth": "湘潭启明电子有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0051", "field": "company", "value": "湘潭，启明，电子，有限公司", "truth": "湘潭启明电子有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0051", "field": "company", "value": "公司名称:湘潭启明电子有限公司", "truth": "湘潭启明电子有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0052", "field": "company", "value": "唐山宏图科技有限责任公 司", "truth": "唐山宏图科技有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0052", "field": "company", "value": "唐山宏图科技有限责任工司", "truth": "唐山宏图科技有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0052", "field": "company", "value": "唐山宏图科技", "truth": "唐山宏图科技有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0052", "field": "company", "value": "唐山-宏图-科技-有限责任公司", "truth": "唐山宏图科技有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0052", "field": "company", "value": "唐山宏图科技有限责任公司（分公司）", "truth": "唐山宏图科技有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0053", "field": "company", "value": "宜春汇通医药集团　有限公司", "truth": "宜春汇通医药集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0053", "field": "company", "value": "宜春汇通医药集团有限公词", "truth": "宜春汇通医药集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0053", "field": "company", "value": "宜春汇通医药", "truth": "宜春汇通医药集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0053", "field": "company", "value": "宜春／汇通／医药／集团有限公司", "truth": "宜春汇通医药集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0053", "field": "company", "value": "宜春汇通医药集团有限公司。", "truth": "宜春汇通医药集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0054", "field": "company", "value": "邯郸星辰科 技股份有限公司", "truth": "邯郸星辰科技股份有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0054", "field": "company", "value": "邯郸星辰科技股分有限公司", "truth": "邯郸星辰科技股份有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0054", "field": "company", "value": "星辰科技股份有限公司", "truth": "邯郸星辰科技股份有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0054", "field": "company", "value": "邯郸／星辰／科技／股份有限公司", "truth": "邯郸星辰科技股份有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0054", "field": "company", "value": "邯郸星辰科技股份有限公司（总部）", "truth": "邯郸星辰科技股份有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0055", "field": "company", "value": "内江泰和咨询集团有限公　司", "truth": "内江泰和咨询集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0055", "field": "company", "value": "内江泰和咨询集团有限公词", "truth": "内江泰和咨询集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0055", "field": "company", "value": "泰和咨询集团有限公司", "truth": "内江泰和咨询集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0055", "field": "company", "value": "内江／泰和／咨询／集团有限公司", "truth": "内江泰和咨询集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0055", "field": "company", "value": "内江泰和咨询集团有限公司。", "truth": "内江泰和咨询集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0056", "field": "company", "value": "潍　坊九鼎食品股份有限公司", "truth": "潍坊九鼎食品股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0056", "field": "company", "value": "潍坊九鼎食品股份有限公词", "truth": "潍坊九鼎食品股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0056", "field": "company", "value": "潍坊九鼎食品股份公司", "truth": "潍坊九鼎食品股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0056", "field": "company", "value": "潍坊，九鼎，食品，股份有限公司", "truth": "潍坊九鼎食品股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0056", "field": "company", "value": "潍坊九鼎食品股份有限公司（原单位）", "truth": "潍坊九鼎食品股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0057", "field": "company", "value": "太原天工 农业有限公司", "truth": "太原天工农业有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0057", "field": "company", "value": "太原天工农业有线公司", "truth": "太原天工农业有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0057", "field": "company", "value": "天工农业有限公司", "truth": "太原天工农业有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0057", "field": "company", "value": "太原／天工／农业／有限公司", "truth": "太原天工农业有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0057", "field": "company", "value": "太原天工农业有限公司（原单位）", "truth": "太原天工农业有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0058", "field": "company", "value": "淄博磐石信 息有限责任公司", "truth": "淄博磐石信息有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0058", "field": "company", "value": "淄博磐石信息有限责任公词", "truth": "淄博磐石信息有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0058", "field": "company", "value": "磐石信息有限责任公司", "truth": "淄博磐石信息有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0058", "field": "company", "value": "淄博-磐石-信息-有限责任公司", "truth": "淄博磐石信息有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0058", "field": "company", "value": "公司名称:淄博磐石信息有限责任公司", "truth": "淄博磐石信息有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0059", "field": "company", "value": "舟山岩松传媒股份有限　公司", "truth": "舟山岩松传媒股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0059", "field": "company", "value": "舟山岩松传媒股分有限公司", "truth": "舟山岩松传媒股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0059", "field": "company", "value": "岩松传媒股份有限公司", "truth": "舟山岩松传媒股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0059", "field": "company", "value": "舟山／岩松／传媒／股份有限公司", "truth": "舟山岩松传媒股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0059", "field": "company", "value": "舟山岩松传媒股份有限公司（总部）", "truth": "舟山岩松传媒股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0060", "field": "company", "value": "西宁光谷新能源集团有限　公司", "truth": "西宁光谷新能源集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0060", "field": "company", "value": "西宁光谷新能源集团有限公词", "truth": "西宁光谷新能源集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0060", "field": "company", "value": "西宁光谷新能源", "truth": "西宁光谷新能源集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0060", "field": "company", "value": "西宁-光谷-新能源-集团有限公司", "truth": "西宁光谷新能源集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0060", "field": "company", "value": "西宁光谷新能源集团有限公司（分公司）", "truth": "西宁光谷新能源集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0061", "field": "company", "value": "丽江众和供应链股份有　限公司", "truth": "丽江众和供应链股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0061", "field": "company", "value": "丽江众和供应链股份有限工司", "truth": "丽江众和供应链股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0061", "field": "company", "value": "丽江众和供应链", "truth": "丽江众和供应链股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0061", "field": "company", "value": "丽江／众和／供应链／股份有限公司", "truth": "丽江众和供应链股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0061", "field": "company", "value": "丽江众和供应链股份有限公司（原单位）", "truth": "丽江众和供应链股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0062", "field": "company", "value": "大连众诚建筑集团有　限公司", "truth": "大连众诚建筑集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0062", "field": "company", "value": "大连众诚建筑积团有限公司", "truth": "大连众诚建筑集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0062", "field": "company", "value": "众诚建筑集团有限公司", "truth": "大连众诚建筑集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0062", "field": "company", "value": "大连|众诚|建筑|集团有限公司", "truth": "大连众诚建筑集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0062", "field": "company", "value": "大连众诚建筑集团有限公司（总部）", "truth": "大连众诚建筑集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0063", "field": "company", "value": "海口开元农业　集团有限公司", "truth": "海口开元农业集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0063", "field": "company", "value": "海口开元农业集困有限公司", "truth": "海口开元农业集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0063", "field": "company", "value": "开元农业集团有限公司", "truth": "海口开元农业集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0063", "field": "company", "value": "海口|开元|农业|集团有限公司", "truth": "海口开元农业集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0063", "field": "company", "value": "海口开元农业集团有限公司（分公司）", "truth": "海口开元农业集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0064", "field": "company", "value": "长治恒通传 媒有限责任公司", "truth": "长治恒通传媒有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0064", "field": "company", "value": "长治恒通传媒有线责任公司", "truth": "长治恒通传媒有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0064", "field": "company", "value": "长治恒通传媒", "truth": "长治恒通传媒有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0064", "field": "company", "value": "长治，恒通，传媒，有限责任公司", "truth": "长治恒通传媒有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0064", "field": "company", "value": "单位：长治恒通传媒有限责任公司", "truth": "长治恒通传媒有限责任公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0065", "field": "company", "value": "日照 鼎盛数智集团有限公司", "truth": "日照鼎盛数智集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0065", "field": "company", "value": "日照鼎盛数智集团有限公词", "truth": "日照鼎盛数智集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0065", "field": "company", "value": "日照鼎盛数智", "truth": "日照鼎盛数智集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0065", "field": "company", "value": "日照／鼎盛／数智／集团有限公司", "truth": "日照鼎盛数智集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0065", "field": "company", "value": "日照鼎盛数智集团有限公司（分公司）", "truth": "日照鼎盛数智集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0066", "field": "company", "value": "柳州拓普数据集团有 限公司", "truth": "柳州拓普数据集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0066", "field": "company", "value": "柳州拓普数据集团有限公词", "truth": "柳州拓普数据集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0066", "field": "company", "value": "拓普数据集团有限公司", "truth": "柳州拓普数据集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0066", "field": "company", "value": "柳州／拓普／数据／集团有限公司", "truth": "柳州拓普数据集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0066", "field": "company", "value": "柳州拓普数据集团有限公司（总部）", "truth": "柳州拓普数据集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0067", "field": "company", "value": "海东天 工教育集团有限公司", "truth": "海东天工教育集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0067", "field": "company", "value": "海东天工教育积团有限公司", "truth": "海东天工教育集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0067", "field": "company", "value": "天工教育集团有限公司", "truth": "海东天工教育集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0067", "field": "company", "value": "海东，天工，教育，集团有限公司", "truth": "海东天工教育集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0067", "field": "company", "value": "单位：海东天工教育集团有限公司", "truth": "海东天工教育集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0068", "field": "company", "value": "江门明远环 保集团有限公司", "truth": "江门明远环保集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0068", "field": "company", "value": "江门明远环保集困有限公司", "truth": "江门明远环保集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0068", "field": "company", "value": "江门明远环保", "truth": "江门明远环保集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0068", "field": "company", "value": "江门／明远／环保／集团有限公司", "truth": "江门明远环保集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0068", "field": "company", "value": "江门明远环保集团有限公司（分公司）", "truth": "江门明远环保集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0069", "field": "company", "value": "济南光谷　机械集团有限公司", "truth": "济南光谷机械集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0069", "field": "company", "value": "济南光谷机械集团有限工司", "truth": "济南光谷机械集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0069", "field": "company", "value": "光谷机械集团有限公司", "truth": "济南光谷机械集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0069", "field": "company", "value": "济南／光谷／机械／集团有限公司", "truth": "济南光谷机械集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0069", "field": "company", "value": "济南光谷机械集团有限公司（原单位）", "truth": "济南光谷机械集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0070", "field": "company", "value": "上海精诚数智集团有限　公司", "truth": "上海精诚数智集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0070", "field": "company", "value": "上海精诚数智积团有限公司", "truth": "上海精诚数智集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0070", "field": "company", "value": "精诚数智集团有限公司", "truth": "上海精诚数智集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0070", "field": "company", "value": "上海|精诚|数智|集团有限公司", "truth": "上海精诚数智集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0070", "field": "company", "value": "上海精诚数智集团有限公司。", "truth": "上海精诚数智集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0071", "field": "company", "value": "长沙博远食品集团有　限公司", "truth": "长沙博远食品集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0071", "field": "company", "value": "长沙博远食品积团有限公司", "truth": "长沙博远食品集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0071", "field": "company", "value": "长沙博远食品", "truth": "长沙博远食品集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0071", "field": "company", "value": "长沙|博远|食品|集团有限公司", "truth": "长沙博远食品集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0071", "field": "company", "value": "长沙博远食品集团有限公司（总部）", "truth": "长沙博远食品集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0072", "field": "company", "value": "烟台卓越医药　股份有限公司", "truth": "烟台卓越医药股份有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0072", "field": "company", "value": "烟台卓越医药股份有线公司", "truth": "烟台卓越医药股份有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0072", "field": "company", "value": "卓越医药股份有限公司", "truth": "烟台卓越医药股份有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0072", "field": "company", "value": "烟台|卓越|医药|股份有限公司", "truth": "烟台卓越医药股份有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0072", "field": "company", "value": "烟台卓越医药股份有限公司（原单位）", "truth": "烟台卓越医药股份有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0073", "field": "company", "value": "徐州东方医药 有限责任公司", "truth": "徐州东方医药有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0073", "field": "company", "value": "徐州东方医药有限责任公词", "truth": "徐州东方医药有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0073", "field": "company", "value": "徐州东方医药", "truth": "徐州东方医药有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0073", "field": "company", "value": "徐州·东方·医药·有限责任公司", "truth": "徐州东方医药有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0073", "field": "company", "value": "公司名称:徐州东方医药有限责任公司", "truth": "徐州东方医药有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0074", "field": "company", "value": "襄阳　昌隆数据有限责任公司", "truth": "襄阳昌隆数据有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0074", "field": "company", "value": "襄阳昌隆数据友限责任公司", "truth": "襄阳昌隆数据有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0074", "field": "company", "value": "昌隆数据有限责任公司", "truth": "襄阳昌隆数据有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0074", "field": "company", "value": "襄阳／昌隆／数据／有限责任公司", "truth": "襄阳昌隆数据有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0074", "field": "company", "value": "公司名称:襄阳昌隆数据有限责任公司", "truth": "襄阳昌隆数据有限责任公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0075", "field": "company", "value": "新乡启明教育有限责任公 司", "truth": "新乡启明教育有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0075", "field": "company", "value": "新乡启明教育友限责任公司", "truth": "新乡启明教育有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0075", "field": "company", "value": "启明教育有限责任公司", "truth": "新乡启明教育有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0075", "field": "company", "value": "新乡·启明·教育·有限责任公司", "truth": "新乡启明教育有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0075", "field": "company", "value": "新乡启明教育有限责任公司。", "truth": "新乡启明教育有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0076", "field": "company", "value": "锦　州润泽软件有限责任公司", "truth": "锦州润泽软件有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0076", "field": "company", "value": "锦州润泽软件有限则任公司", "truth": "锦州润泽软件有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0076", "field": "company", "value": "锦州润泽软件", "truth": "锦州润泽软件有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0076", "field": "company", "value": "锦州，润泽，软件，有限责任公司", "truth": "锦州润泽软件有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0076", "field": "company", "value": "锦州润泽软件有限责任公司（原单位）", "truth": "锦州润泽软件有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0077", "field": "company", "value": "香 港宏图教育有限责任公司", "truth": "香港宏图教育有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0077", "field": "company", "value": "香港宏图教育有限则任公司", "truth": "香港宏图教育有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0077", "field": "company", "value": "香港宏图教育", "truth": "香港宏图教育有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0077", "field": "company", "value": "香港，宏图，教育，有限责任公司", "truth": "香港宏图教育有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0077", "field": "company", "value": "香港宏图教育有限责任公司（总部）", "truth": "香港宏图教育有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0078", "field": "company", "value": "湖 州岩松贸易有限责任公司", "truth": "湖州岩松贸易有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0078", "field": "company", "value": "湖州岩松贸意有限责任公司", "truth": "湖州岩松贸易有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0078", "field": "company", "value": "岩松贸易有限责任公司", "truth": "湖州岩松贸易有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0078", "field": "company", "value": "湖州／岩松／贸易／有限责任公司", "truth": "湖州岩松贸易有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0078", "field": "company", "value": "单位：湖州岩松贸易有限责任公司", "truth": "湖州岩松贸易有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0079", "field": "company", "value": "重庆瑞泰医药有限 公司", "truth": "重庆瑞泰医药有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0079", "field": "company", "value": "重庆瑞泰医药有线公司", "truth": "重庆瑞泰医药有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0079", "field": "company", "value": "瑞泰医药有限公司", "truth": "重庆瑞泰医药有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0079", "field": "company", "value": "重庆，瑞泰，医药，有限公司", "truth": "重庆瑞泰医药有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0079", "field": "company", "value": "重庆瑞泰医药有限公司（原单位）", "truth": "重庆瑞泰医药有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0080", "field": "company", "value": "新乡 天工科技有限责任公司", "truth": "新乡天工科技有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0080", "field": "company", "value": "新乡天工科技有限则任公司", "truth": "新乡天工科技有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0080", "field": "company", "value": "新乡天工科技有限公司", "truth": "新乡天工科技有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0080", "field": "company", "value": "新乡-天工-科技-有限责任公司", "truth": "新乡天工科技有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0080", "field": "company", "value": "公司名称:新乡天工科技有限责任公司", "truth": "新乡天工科技有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0081", "field": "company", "value": "澳门天成网络有　限责任公司", "truth": "澳门天成网络有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0081", "field": "company", "value": "澳门天成网落有限责任公司", "truth": "澳门天成网络有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0081", "field": "company", "value": "澳门天成网络", "truth": "澳门天成网络有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0081", "field": "company", "value": "澳门／天成／网络／有限责任公司", "truth": "澳门天成网络有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0081", "field": "company", "value": "澳门天成网络有限责任公司（总部）", "truth": "澳门天成网络有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0082", "field": "company", "value": "石嘴山鑫源数据有限　责任公司", "truth": "石嘴山鑫源数据有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0082", "field": "company", "value": "石嘴山鑫源数据友限责任公司", "truth": "石嘴山鑫源数据有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0082", "field": "company", "value": "石嘴山鑫源数据有限公司", "truth": "石嘴山鑫源数据有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0082", "field": "company", "value": "石嘴山·鑫源·数据·有限责任公司", "truth": "石嘴山鑫源数据有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0082", "field": "company", "value": "公司名称:石嘴山鑫源数据有限责任公司", "truth": "石嘴山鑫源数据有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0083", "field": "company", "value": "日喀则环宇农业有限　公司", "truth": "日喀则环宇农业有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0083", "field": "company", "value": "日喀则环宇农业有限公词", "truth": "日喀则环宇农业有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0083", "field": "company", "value": "日喀则环宇农业", "truth": "日喀则环宇农业有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0083", "field": "company", "value": "日喀则|环宇|农业|有限公司", "truth": "日喀则环宇农业有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0083", "field": "company", "value": "日喀则环宇农业有限公司。", "truth": "日喀则环宇农业有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0084", "field": "company", "value": "三亚弘毅科技 集团有限公司", "truth": "三亚弘毅科技集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0084", "field": "company", "value": "三亚弘毅科技积团有限公司", "truth": "三亚弘毅科技集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0084", "field": "company", "value": "三亚弘毅科技", "truth": "三亚弘毅科技集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0084", "field": "company", "value": "三亚-弘毅-科技-集团有限公司", "truth": "三亚弘毅科技集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0084", "field": "company", "value": "三亚弘毅科技集团有限公司（原单位）", "truth": "三亚弘毅科技集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0085", "field": "company", "value": "柳　州清源教育股份有限公司", "truth": "柳州清源教育股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0085", "field": "company", "value": "柳州清源教育股分有限公司", "truth": "柳州清源教育股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0085", "field": "company", "value": "柳州清源教育股份公司", "truth": "柳州清源教育股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0085", "field": "company", "value": "柳州，清源，教育，股份有限公司", "truth": "柳州清源教育股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0085", "field": "company", "value": "单位：柳州清源教育股份有限公司", "truth": "柳州清源教育股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0086", "field": "company", "value": "赣州云栖智能有限　公司", "truth": "赣州云栖智能有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0086", "field": "company", "value": "赣州云栖志能有限公司", "truth": "赣州云栖智能有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0086", "field": "company", "value": "赣州云栖智能", "truth": "赣州云栖智能有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0086", "field": "company", "value": "赣州-云栖-智能-有限公司", "truth": "赣州云栖智能有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0086", "field": "company", "value": "赣州云栖智能有限公司。", "truth": "赣州云栖智能有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0087", "field": "company", "value": "天水维信教　育有限公司", "truth": "天水维信教育有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0087", "field": "company", "value": "天水维信教育有限公词", "truth": "天水维信教育有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0087", "field": "company", "value": "天水维信教育", "truth": "天水维信教育有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0087", "field": "company", "value": "天水，维信，教育，有限公司", "truth": "天水维信教育有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0087", "field": "company", "value": "单位：天水维信教育有限公司", "truth": "天水维信教育有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0088", "field": "company", "value": "通化润和智能集团有限　公司", "truth": "通化润和智能集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0088", "field": "company", "value": "通化润和智能集团有限工司", "truth": "通化润和智能集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0088", "field": "company", "value": "通化润和智能", "truth": "通化润和智能集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0088", "field": "company", "value": "通化-润和-智能-集团有限公司", "truth": "通化润和智能集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0088", "field": "company", "value": "单位：通化润和智能集团有限公司", "truth": "通化润和智能集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0089", "field": "company", "value": "信阳 宏图数据集团有限公司", "truth": "信阳宏图数据集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0089", "field": "company", "value": "信阳宏图数据集困有限公司", "truth": "信阳宏图数据集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0089", "field": "company", "value": "宏图数据集团有限公司", "truth": "信阳宏图数据集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0089", "field": "company", "value": "信阳|宏图|数据|集团有限公司", "truth": "信阳宏图数据集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0089", "field": "company", "value": "单位：信阳宏图数据集团有限公司", "truth": "信阳宏图数据集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0090", "field": "company", "value": "衢州卓远电子有限 公司", "truth": "衢州卓远电子有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0090", "field": "company", "value": "衢州卓远电宇有限公司", "truth": "衢州卓远电子有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0090", "field": "company", "value": "衢州卓远电子", "truth": "衢州卓远电子有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0090", "field": "company", "value": "衢州·卓远·电子·有限公司", "truth": "衢州卓远电子有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0090", "field": "company", "value": "衢州卓远电子有限公司。", "truth": "衢州卓远电子有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0091", "field": "company", "value": "南京拓普咨询　股份有限公司", "truth": "南京拓普咨询股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0091", "field": "company", "value": "南京拓普咨询股份有限工司", "truth": "南京拓普咨询股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0091", "field": "company", "value": "南京拓普咨询", "truth": "南京拓普咨询股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0091", "field": "company", "value": "南京|拓普|咨询|股份有限公司", "truth": "南京拓普咨询股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0091", "field": "company", "value": "南京拓普咨询股份有限公司（分公司）", "truth": "南京拓普咨询股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0092", "field": "company", "value": "安庆　宏图新能源有限公司", "truth": "安庆宏图新能源有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0092", "field": "company", "value": "安庆宏图新能源有限公词", "truth": "安庆宏图新能源有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0092", "field": "company", "value": "安庆宏图新能源", "truth": "安庆宏图新能源有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0092", "field": "company", "value": "安庆／宏图／新能源／有限公司", "truth": "安庆宏图新能源有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0092", "field": "company", "value": "安庆宏图新能源有限公司（原单位）", "truth": "安庆宏图新能源有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0093", "field": "company", "value": "北京新 元食品有限公司", "truth": "北京新元食品有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0093", "field": "company", "value": "北京新元食品有线公司", "truth": "北京新元食品有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0093", "field": "company", "value": "北京新元食品", "truth": "北京新元食品有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0093", "field": "company", "value": "北京|新元|食品|有限公司", "truth": "北京新元食品有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0093", "field": "company", "value": "单位：北京新元食品有限公司", "truth": "北京新元食品有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0094", "field": "company", "value": "太原 万邦智能有限公司", "truth": "太原万邦智能有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0094", "field": "company", "value": "太原万邦智能有限公词", "truth": "太原万邦智能有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0094", "field": "company", "value": "太原万邦智能", "truth": "太原万邦智能有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0094", "field": "company", "value": "太原／万邦／智能／有限公司", "truth": "太原万邦智能有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0094", "field": "company", "value": "太原万邦智能有限公司（原单位）", "truth": "太原万邦智能有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0095", "field": "company", "value": "绵阳 骏驰软件集团有限公司", "truth": "绵阳骏驰软件集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0095", "field": "company", "value": "绵阳骏驰软件集团有线公司", "truth": "绵阳骏驰软件集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0095", "field": "company", "value": "绵阳骏驰软件", "truth": "绵阳骏驰软件集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0095", "field": "company", "value": "绵阳／骏驰／软件／集团有限公司", "truth": "绵阳骏驰软件集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0095", "field": "company", "value": "公司名称:绵阳骏驰软件集团有限公司", "truth": "绵阳骏驰软件集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0096", "field": "company", "value": "莆田云图环保有限 责任公司", "truth": "莆田云图环保有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0096", "field": "company", "value": "莆田云图环保有限责任公词", "truth": "莆田云图环保有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0096", "field": "company", "value": "莆田云图环保", "truth": "莆田云图环保有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0096", "field": "company", "value": "莆田·云图·环保·有限责任公司", "truth": "莆田云图环保有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0096", "field": "company", "value": "公司名称:莆田云图环保有限责任公司", "truth": "莆田云图环保有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0097", "field": "company", "value": "漳州天工贸易集团有　限公司", "truth": "漳州天工贸易集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0097", "field": "company", "value": "漳州天工贸易集团友限公司", "truth": "漳州天工贸易集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0097", "field": "company", "value": "天工贸易集团有限公司", "truth": "漳州天工贸易集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0097", "field": "company", "value": "漳州，天工，贸易，集团有限公司", "truth": "漳州天工贸易集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0097", "field": "company", "value": "漳州天工贸易集团有限公司（原单位）", "truth": "漳州天工贸易集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0098", "field": "company", "value": "厦门利丰　传媒股份有限公司", "truth": "厦门利丰传媒股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0098", "field": "company", "value": "厦门利丰传媒股份友限公司", "truth": "厦门利丰传媒股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0098", "field": "company", "value": "厦门利丰传媒", "truth": "厦门利丰传媒股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0098", "field": "company", "value": "厦门-利丰-传媒-股份有限公司", "truth": "厦门利丰传媒股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0098", "field": "company", "value": "厦门利丰传媒股份有限公司。", "truth": "厦门利丰传媒股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0099", "field": "company", "value": "九江思 创咨询集团有限公司", "truth": "九江思创咨询集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0099", "field": "company", "value": "九江思创咨询集困有限公司", "truth": "九江思创咨询集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0099", "field": "company", "value": "九江思创咨询", "truth": "九江思创咨询集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0099", "field": "company", "value": "九江·思创·咨询·集团有限公司", "truth": "九江思创咨询集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0099", "field": "company", "value": "九江思创咨询集团有限公司。", "truth": "九江思创咨询集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0100", "field": "company", "value": "丽　水维信科技有限公司", "truth": "丽水维信科技有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0100", "field": "company", "value": "丽水维信科技有限工司", "truth": "丽水维信科技有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0100", "field": "company", "value": "维信科技有限公司", "truth": "丽水维信科技有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0100", "field": "company", "value": "丽水／维信／科技／有限公司", "truth": "丽水维信科技有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0100", "field": "company", "value": "丽水维信科技有限公司（总部）", "truth": "丽水维信科技有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0101", "field": "company", "value": "赤峰金诚贸易股 份有限公司", "truth": "赤峰金诚贸易股份有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0101", "field": "company", "value": "赤峰金诚贸易股份有限公词", "truth": "赤峰金诚贸易股份有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0101", "field": "company", "value": "赤峰金诚贸易股份公司", "truth": "赤峰金诚贸易股份有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0101", "field": "company", "value": "赤峰|金诚|贸易|股份有限公司", "truth": "赤峰金诚贸易股份有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0101", "field": "company", "value": "赤峰金诚贸易股份有限公司。", "truth": "赤峰金诚贸易股份有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0102", "field": "company", "value": "淮安德胜数　智有限公司", "truth": "淮安德胜数智有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0102", "field": "company", "value": "淮安德胜数智有限工司", "truth": "淮安德胜数智有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0102", "field": "company", "value": "德胜数智有限公司", "truth": "淮安德胜数智有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0102", "field": "company", "value": "淮安-德胜-数智-有限公司", "truth": "淮安德胜数智有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0102", "field": "company", "value": "公司名称:淮安德胜数智有限公司", "truth": "淮安德胜数智有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0103", "field": "company", "value": "银川岩松数智集团有限　公司", "truth": "银川岩松数智集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0103", "field": "company", "value": "银川岩松数智积团有限公司", "truth": "银川岩松数智集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0103", "field": "company", "value": "银川岩松数智", "truth": "银川岩松数智集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0103", "field": "company", "value": "银川|岩松|数智|集团有限公司", "truth": "银川岩松数智集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0103", "field": "company", "value": "银川岩松数智集团有限公司（总部）", "truth": "银川岩松数智集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0104", "field": "company", "value": "丽江瑞泰智能股份有限公　司", "truth": "丽江瑞泰智能股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0104", "field": "company", "value": "丽江瑞泰智能股份友限公司", "truth": "丽江瑞泰智能股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0104", "field": "company", "value": "丽江瑞泰智能股份公司", "truth": "丽江瑞泰智能股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0104", "field": "company", "value": "丽江|瑞泰|智能|股份有限公司", "truth": "丽江瑞泰智能股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0104", "field": "company", "value": "丽江瑞泰智能股份有限公司（分公司）", "truth": "丽江瑞泰智能股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0105", "field": "company", "value": "福州泰和农业股 份有限公司", "truth": "福州泰和农业股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0105", "field": "company", "value": "福州泰和农业股份有限公词", "truth": "福州泰和农业股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0105", "field": "company", "value": "福州泰和农业", "truth": "福州泰和农业股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0105", "field": "company", "value": "福州，泰和，农业，股份有限公司", "truth": "福州泰和农业股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0105", "field": "company", "value": "单位：福州泰和农业股份有限公司", "truth": "福州泰和农业股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0106", "field": "company", "value": "宜　昌利丰物流股份有限公司", "truth": "宜昌利丰物流股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0106", "field": "company", "value": "宜昌利丰物流股分有限公司", "truth": "宜昌利丰物流股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0106", "field": "company", "value": "利丰物流股份有限公司", "truth": "宜昌利丰物流股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0106", "field": "company", "value": "宜昌·利丰·物流·股份有限公司", "truth": "宜昌利丰物流股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0106", "field": "company", "value": "宜昌利丰物流股份有限公司（分公司）", "truth": "宜昌利丰物流股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0107", "field": "company", "value": "营口联创医药　集团有限公司", "truth": "营口联创医药集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0107", "field": "company", "value": "营口联创医药集团友限公司", "truth": "营口联创医药集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0107", "field": "company", "value": "营口联创医药", "truth": "营口联创医药集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0107", "field": "company", "value": "营口|联创|医药|集团有限公司", "truth": "营口联创医药集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0107", "field": "company", "value": "公司名称:营口联创医药集团有限公司", "truth": "营口联创医药集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0108", "field": "company", "value": "上饶众诚电子有限公　司", "truth": "上饶众诚电子有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0108", "field": "company", "value": "上饶众诚电子友限公司", "truth": "上饶众诚电子有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0108", "field": "company", "value": "众诚电子有限公司", "truth": "上饶众诚电子有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0108", "field": "company", "value": "上饶|众诚|电子|有限公司", "truth": "上饶众诚电子有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0108", "field": "company", "value": "上饶众诚电子有限公司（原单位）", "truth": "上饶众诚电子有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0109", "field": "company", "value": "邯 郸中天新能源集团有限公司", "truth": "邯郸中天新能源集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0109", "field": "company", "value": "邯郸中天新能源集团有限工司", "truth": "邯郸中天新能源集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0109", "field": "company", "value": "邯郸中天新能源", "truth": "邯郸中天新能源集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0109", "field": "company", "value": "邯郸·中天·新能源·集团有限公司", "truth": "邯郸中天新能源集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0109", "field": "company", "value": "邯郸中天新能源集团有限公司。", "truth": "邯郸中天新能源集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0110", "field": "company", "value": "龙岩未　来贸易有限责任公司", "truth": "龙岩未来贸易有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0110", "field": "company", "value": "龙岩未来贸易有限则任公司", "truth": "龙岩未来贸易有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0110", "field": "company", "value": "龙岩未来贸易", "truth": "龙岩未来贸易有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0110", "field": "company", "value": "龙岩·未来·贸易·有限责任公司", "truth": "龙岩未来贸易有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0110", "field": "company", "value": "单位：龙岩未来贸易有限责任公司", "truth": "龙岩未来贸易有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0111", "field": "company", "value": "安阳星辰物流股份有 限公司", "truth": "安阳星辰物流股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0111", "field": "company", "value": "安阳星辰物流股份友限公司", "truth": "安阳星辰物流股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0111", "field": "company", "value": "安阳星辰物流", "truth": "安阳星辰物流股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0111", "field": "company", "value": "安阳／星辰／物流／股份有限公司", "truth": "安阳星辰物流股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0111", "field": "company", "value": "安阳星辰物流股份有限公司（原单位）", "truth": "安阳星辰物流股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0112", "field": "company", "value": "聊城康泰智能　有限责任公司", "truth": "聊城康泰智能有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0112", "field": "company", "value": "聊城康泰志能有限责任公司", "truth": "聊城康泰智能有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0112", "field": "company", "value": "康泰智能有限责任公司", "truth": "聊城康泰智能有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0112", "field": "company", "value": "聊城／康泰／智能／有限责任公司", "truth": "聊城康泰智能有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0112", "field": "company", "value": "聊城康泰智能有限责任公司（分公司）", "truth": "聊城康泰智能有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0113", "field": "company", "value": "绵 阳清源供应链有限公司", "truth": "绵阳清源供应链有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0113", "field": "company", "value": "绵阳清源供应链有线公司", "truth": "绵阳清源供应链有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0113", "field": "company", "value": "清源供应链有限公司", "truth": "绵阳清源供应链有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0113", "field": "company", "value": "绵阳·清源·供应链·有限公司", "truth": "绵阳清源供应链有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0113", "field": "company", "value": "绵阳清源供应链有限公司（分公司）", "truth": "绵阳清源供应链有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0114", "field": "company", "value": "南充天成实业集团　有限公司", "truth": "南充天成实业集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0114", "field": "company", "value": "南充天成实业积团有限公司", "truth": "南充天成实业集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0114", "field": "company", "value": "天成实业集团有限公司", "truth": "南充天成实业集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0114", "field": "company", "value": "南充-天成-实业-集团有限公司", "truth": "南充天成实业集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0114", "field": "company", "value": "南充天成实业集团有限公司（原单位）", "truth": "南充天成实业集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0115", "field": "company", "value": "扬州环宇科 技有限责任公司", "truth": "扬州环宇科技有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0115", "field": "company", "value": "扬州环宇科记有限责任公司", "truth": "扬州环宇科技有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0115", "field": "company", "value": "扬州环宇科技", "truth": "扬州环宇科技有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0115", "field": "company", "value": "扬州·环宇·科技·有限责任公司", "truth": "扬州环宇科技有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0115", "field": "company", "value": "公司名称:扬州环宇科技有限责任公司", "truth": "扬州环宇科技有限责任公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0116", "field": "company", "value": "漳州远景贸易集团有　限公司", "truth": "漳州远景贸易集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0116", "field": "company", "value": "漳州远景贸易集团友限公司", "truth": "漳州远景贸易集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0116", "field": "company", "value": "漳州远景贸易", "truth": "漳州远景贸易集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0116", "field": "company", "value": "漳州，远景，贸易，集团有限公司", "truth": "漳州远景贸易集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0116", "field": "company", "value": "漳州远景贸易集团有限公司。", "truth": "漳州远景贸易集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0117", "field": "company", "value": "茂名拓维食品有限责任 公司", "truth": "茂名拓维食品有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0117", "field": "company", "value": "茂名拓维食品有线责任公司", "truth": "茂名拓维食品有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0117", "field": "company", "value": "茂名拓维食品", "truth": "茂名拓维食品有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0117", "field": "company", "value": "茂名-拓维-食品-有限责任公司", "truth": "茂名拓维食品有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0117", "field": "company", "value": "单位：茂名拓维食品有限责任公司", "truth": "茂名拓维食品有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0118", "field": "company", "value": "唐山博远咨询有限 责任公司", "truth": "唐山博远咨询有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0118", "field": "company", "value": "唐山博远资询有限责任公司", "truth": "唐山博远咨询有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0118", "field": "company", "value": "唐山博远咨询", "truth": "唐山博远咨询有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0118", "field": "company", "value": "唐山／博远／咨询／有限责任公司", "truth": "唐山博远咨询有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0118", "field": "company", "value": "唐山博远咨询有限责任公司。", "truth": "唐山博远咨询有限责任公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0119", "field": "company", "value": "郴州　明远贸易集团有限公司", "truth": "郴州明远贸易集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0119", "field": "company", "value": "郴州明远贸易集困有限公司", "truth": "郴州明远贸易集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0119", "field": "company", "value": "明远贸易集团有限公司", "truth": "郴州明远贸易集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0119", "field": "company", "value": "郴州，明远，贸易，集团有限公司", "truth": "郴州明远贸易集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0119", "field": "company", "value": "公司名称:郴州明远贸易集团有限公司", "truth": "郴州明远贸易集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0120", "field": "company", "value": "丽水木森软件股份 有限公司", "truth": "丽水木森软件股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0120", "field": "company", "value": "丽水木森软件股分有限公司", "truth": "丽水木森软件股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0120", "field": "company", "value": "丽水木森软件", "truth": "丽水木森软件股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0120", "field": "company", "value": "丽水·木森·软件·股份有限公司", "truth": "丽水木森软件股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0120", "field": "company", "value": "丽水木森软件股份有限公司。", "truth": "丽水木森软件股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0121", "field": "company", "value": "舟山德 胜食品有限责任公司", "truth": "舟山德胜食品有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0121", "field": "company", "value": "舟山德胜食品有限则任公司", "truth": "舟山德胜食品有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0121", "field": "company", "value": "德胜食品有限责任公司", "truth": "舟山德胜食品有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0121", "field": "company", "value": "舟山／德胜／食品／有限责任公司", "truth": "舟山德胜食品有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0121", "field": "company", "value": "舟山德胜食品有限责任公司（分公司）", "truth": "舟山德胜食品有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0122", "field": "company", "value": "六盘 水鹏程农业集团有限公司", "truth": "六盘水鹏程农业集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0122", "field": "company", "value": "六盘水鹏程农业集团有限公词", "truth": "六盘水鹏程农业集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0122", "field": "company", "value": "鹏程农业集团有限公司", "truth": "六盘水鹏程农业集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0122", "field": "company", "value": "六盘水／鹏程／农业／集团有限公司", "truth": "六盘水鹏程农业集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0122", "field": "company", "value": "六盘水鹏程农业集团有限公司（原单位）", "truth": "六盘水鹏程农业集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0123", "field": "company", "value": "阜阳　一诺科技集团有限公司", "truth": "阜阳一诺科技集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0123", "field": "company", "value": "阜阳一诺科技集团有限工司", "truth": "阜阳一诺科技集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0123", "field": "company", "value": "一诺科技集团有限公司", "truth": "阜阳一诺科技集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0123", "field": "company", "value": "阜阳-一诺-科技-集团有限公司", "truth": "阜阳一诺科技集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0123", "field": "company", "value": "公司名称:阜阳一诺科技集团有限公司", "truth": "阜阳一诺科技集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0124", "field": "company", "value": "岳阳　新元科技有限公司", "truth": "岳阳新元科技有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0124", "field": "company", "value": "岳阳新元科技友限公司", "truth": "岳阳新元科技有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0124", "field": "company", "value": "新元科技有限公司", "truth": "岳阳新元科技有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0124", "field": "company", "value": "岳阳·新元·科技·有限公司", "truth": "岳阳新元科技有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0124", "field": "company", "value": "公司名称:岳阳新元科技有限公司", "truth": "岳阳新元科技有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0125", "field": "company", "value": "乌鲁木齐思创网络有限 责任公司", "truth": "乌鲁木齐思创网络有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0125", "field": "company", "value": "乌鲁木齐思创网络有限责任工司", "truth": "乌鲁木齐思创网络有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0125", "field": "company", "value": "思创网络有限责任公司", "truth": "乌鲁木齐思创网络有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0125", "field": "company", "value": "乌鲁木齐／思创／网络／有限责任公司", "truth": "乌鲁木齐思创网络有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0125", "field": "company", "value": "单位：乌鲁木齐思创网络有限责任公司", "truth": "乌鲁木齐思创网络有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0126", "field": "company", "value": "十堰润和机 械集团有限公司", "truth": "十堰润和机械集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0126", "field": "company", "value": "十堰润和机械集团友限公司", "truth": "十堰润和机械集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0126", "field": "company", "value": "润和机械集团有限公司", "truth": "十堰润和机械集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0126", "field": "company", "value": "十堰／润和／机械／集团有限公司", "truth": "十堰润和机械集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0126", "field": "company", "value": "十堰润和机械集团有限公司（总部）", "truth": "十堰润和机械集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0127", "field": "company", "value": "漳州泰和软件　有限责任公司", "truth": "漳州泰和软件有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0127", "field": "company", "value": "漳州泰和软件有限则任公司", "truth": "漳州泰和软件有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0127", "field": "company", "value": "漳州泰和软件有限公司", "truth": "漳州泰和软件有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0127", "field": "company", "value": "漳州-泰和-软件-有限责任公司", "truth": "漳州泰和软件有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0127", "field": "company", "value": "漳州泰和软件有限责任公司。", "truth": "漳州泰和软件有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0128", "field": "company", "value": "哈尔滨木森网络有限责 任公司", "truth": "哈尔滨木森网络有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0128", "field": "company", "value": "哈尔滨木森网落有限责任公司", "truth": "哈尔滨木森网络有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0128", "field": "company", "value": "哈尔滨木森网络", "truth": "哈尔滨木森网络有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0128", "field": "company", "value": "哈尔滨，木森，网络，有限责任公司", "truth": "哈尔滨木森网络有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0128", "field": "company", "value": "哈尔滨木森网络有限责任公司（总部）", "truth": "哈尔滨木森网络有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0129", "field": "company", "value": "通辽华宇数智　股份有限公司", "truth": "通辽华宇数智股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0129", "field": "company", "value": "通辽华宇数智股分有限公司", "truth": "通辽华宇数智股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0129", "field": "company", "value": "通辽华宇数智", "truth": "通辽华宇数智股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0129", "field": "company", "value": "通辽|华宇|数智|股份有限公司", "truth": "通辽华宇数智股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0129", "field": "company", "value": "通辽华宇数智股份有限公司（总部）", "truth": "通辽华宇数智股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0130", "field": "company", "value": "吉安拓普传媒集团有限公 司", "truth": "吉安拓普传媒集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0130", "field": "company", "value": "吉安拓普传媒集团有线公司", "truth": "吉安拓普传媒集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0130", "field": "company", "value": "吉安拓普传媒", "truth": "吉安拓普传媒集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0130", "field": "company", "value": "吉安|拓普|传媒|集团有限公司", "truth": "吉安拓普传媒集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0130", "field": "company", "value": "吉安拓普传媒集团有限公司（原单位）", "truth": "吉安拓普传媒集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0131", "field": "company", "value": "潍坊启　明供应链有限公司", "truth": "潍坊启明供应链有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0131", "field": "company", "value": "潍坊启明供应链有线公司", "truth": "潍坊启明供应链有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0131", "field": "company", "value": "潍坊启明供应链", "truth": "潍坊启明供应链有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0131", "field": "company", "value": "潍坊·启明·供应链·有限公司", "truth": "潍坊启明供应链有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0131", "field": "company", "value": "潍坊启明供应链有限公司（总部）", "truth": "潍坊启明供应链有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0132", "field": "company", "value": "黄石华瑞机械有限　公司", "truth": "黄石华瑞机械有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0132", "field": "company", "value": "黄石华瑞机械友限公司", "truth": "黄石华瑞机械有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0132", "field": "company", "value": "黄石华瑞机械", "truth": "黄石华瑞机械有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0132", "field": "company", "value": "黄石|华瑞|机械|有限公司", "truth": "黄石华瑞机械有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0132", "field": "company", "value": "公司名称:黄石华瑞机械有限公司", "truth": "黄石华瑞机械有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0133", "field": "company", "value": "乌鲁木齐精诚科　技有限责任公司", "truth": "乌鲁木齐精诚科技有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0133", "field": "company", "value": "乌鲁木齐精诚科技有线责任公司", "truth": "乌鲁木齐精诚科技有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0133", "field": "company", "value": "精诚科技有限责任公司", "truth": "乌鲁木齐精诚科技有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0133", "field": "company", "value": "乌鲁木齐-精诚-科技-有限责任公司", "truth": "乌鲁木齐精诚科技有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0133", "field": "company", "value": "乌鲁木齐精诚科技有限责任公司（原单位）", "truth": "乌鲁木齐精诚科技有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0134", "field": "company", "value": "烟台开元新能源有限公 司", "truth": "烟台开元新能源有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0134", "field": "company", "value": "烟台开元新能源有限工司", "truth": "烟台开元新能源有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0134", "field": "company", "value": "烟台开元新能源", "truth": "烟台开元新能源有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0134", "field": "company", "value": "烟台／开元／新能源／有限公司", "truth": "烟台开元新能源有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0134", "field": "company", "value": "烟台开元新能源有限公司。", "truth": "烟台开元新能源有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0135", "field": "company", "value": "南京 盛世贸易集团有限公司", "truth": "南京盛世贸易集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0135", "field": "company", "value": "南京盛世贸易集团有限公词", "truth": "南京盛世贸易集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0135", "field": "company", "value": "南京盛世贸易", "truth": "南京盛世贸易集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0135", "field": "company", "value": "南京·盛世·贸易·集团有限公司", "truth": "南京盛世贸易集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0135", "field": "company", "value": "南京盛世贸易集团有限公司。", "truth": "南京盛世贸易集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0136", "field": "company", "value": "广州盛 世环保有限责任公司", "truth": "广州盛世环保有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0136", "field": "company", "value": "广州盛世环保有线责任公司", "truth": "广州盛世环保有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0136", "field": "company", "value": "广州盛世环保", "truth": "广州盛世环保有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0136", "field": "company", "value": "广州，盛世，环保，有限责任公司", "truth": "广州盛世环保有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0136", "field": "company", "value": "广州盛世环保有限责任公司。", "truth": "广州盛世环保有限责任公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0137", "field": "company", "value": "赣州博远建筑集 团有限公司", "truth": "赣州博远建筑集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0137", "field": "company", "value": "赣州博远建筑积团有限公司", "truth": "赣州博远建筑集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0137", "field": "company", "value": "博远建筑集团有限公司", "truth": "赣州博远建筑集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0137", "field": "company", "value": "赣州·博远·建筑·集团有限公司", "truth": "赣州博远建筑集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0137", "field": "company", "value": "赣州博远建筑集团有限公司（总部）", "truth": "赣州博远建筑集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0138", "field": "company", "value": "松 原广厦教育集团有限公司", "truth": "松原广厦教育集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0138", "field": "company", "value": "松原广厦教育集团有限工司", "truth": "松原广厦教育集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0138", "field": "company", "value": "广厦教育集团有限公司", "truth": "松原广厦教育集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0138", "field": "company", "value": "松原／广厦／教育／集团有限公司", "truth": "松原广厦教育集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0138", "field": "company", "value": "松原广厦教育集团有限公司（分公司）", "truth": "松原广厦教育集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0139", "field": "company", "value": "大理数联文化 集团有限公司", "truth": "大理数联文化集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0139", "field": "company", "value": "大理数联文化集团有限公词", "truth": "大理数联文化集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0139", "field": "company", "value": "数联文化集团有限公司", "truth": "大理数联文化集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0139", "field": "company", "value": "大理／数联／文化／集团有限公司", "truth": "大理数联文化集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0139", "field": "company", "value": "公司名称:大理数联文化集团有限公司", "truth": "大理数联文化集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0140", "field": "company", "value": "连云港新元咨询股份 有限公司", "truth": "连云港新元咨询股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0140", "field": "company", "value": "连云港新元咨询股份有限工司", "truth": "连云港新元咨询股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0140", "field": "company", "value": "连云港新元咨询股份公司", "truth": "连云港新元咨询股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0140", "field": "company", "value": "连云港，新元，咨询，股份有限公司", "truth": "连云港新元咨询股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0140", "field": "company", "value": "连云港新元咨询股份有限公司（原单位）", "truth": "连云港新元咨询股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0141", "field": "company", "value": "中山拓普机械　集团有限公司", "truth": "中山拓普机械集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0141", "field": "company", "value": "中山拓普机械积团有限公司", "truth": "中山拓普机械集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0141", "field": "company", "value": "中山拓普机械", "truth": "中山拓普机械集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0141", "field": "company", "value": "中山·拓普·机械·集团有限公司", "truth": "中山拓普机械集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0141", "field": "company", "value": "单位：中山拓普机械集团有限公司", "truth": "中山拓普机械集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0142", "field": "company", "value": "南京联创网络有限 公司", "truth": "南京联创网络有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0142", "field": "company", "value": "南京联创网络有限公词", "truth": "南京联创网络有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0142", "field": "company", "value": "南京联创网络", "truth": "南京联创网络有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0142", "field": "company", "value": "南京|联创|网络|有限公司", "truth": "南京联创网络有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0142", "field": "company", "value": "南京联创网络有限公司。", "truth": "南京联创网络有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0143", "field": "company", "value": "太原环宇　数智集团有限公司", "truth": "太原环宇数智集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0143", "field": "company", "value": "太原环宇数智积团有限公司", "truth": "太原环宇数智集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0143", "field": "company", "value": "环宇数智集团有限公司", "truth": "太原环宇数智集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0143", "field": "company", "value": "太原／环宇／数智／集团有限公司", "truth": "太原环宇数智集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0143", "field": "company", "value": "单位：太原环宇数智集团有限公司", "truth": "太原环宇数智集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0144", "field": "company", "value": "六盘水思创智能股　份有限公司", "truth": "六盘水思创智能股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0144", "field": "company", "value": "六盘水思创智能股份友限公司", "truth": "六盘水思创智能股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0144", "field": "company", "value": "六盘水思创智能股份公司", "truth": "六盘水思创智能股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0144", "field": "company", "value": "六盘水·思创·智能·股份有限公司", "truth": "六盘水思创智能股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0144", "field": "company", "value": "公司名称:六盘水思创智能股份有限公司", "truth": "六盘水思创智能股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0145", "field": "company", "value": "西　宁盛世食品有限公司", "truth": "西宁盛世食品有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0145", "field": "company", "value": "西宁盛世食品有限公词", "truth": "西宁盛世食品有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0145", "field": "company", "value": "盛世食品有限公司", "truth": "西宁盛世食品有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0145", "field": "company", "value": "西宁|盛世|食品|有限公司", "truth": "西宁盛世食品有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0145", "field": "company", "value": "单位：西宁盛世食品有限公司", "truth": "西宁盛世食品有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0146", "field": "company", "value": "太原众诚文化集团有 限公司", "truth": "太原众诚文化集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0146", "field": "company", "value": "太原众诚文化集团有线公司", "truth": "太原众诚文化集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0146", "field": "company", "value": "太原众诚文化", "truth": "太原众诚文化集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0146", "field": "company", "value": "太原／众诚／文化／集团有限公司", "truth": "太原众诚文化集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0146", "field": "company", "value": "太原众诚文化集团有限公司（分公司）", "truth": "太原众诚文化集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0147", "field": "company", "value": "大理天工文化股份有限公　司", "truth": "大理天工文化股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0147", "field": "company", "value": "大理天工文化股份有线公司", "truth": "大理天工文化股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0147", "field": "company", "value": "大理天工文化股份公司", "truth": "大理天工文化股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0147", "field": "company", "value": "大理|天工|文化|股份有限公司", "truth": "大理天工文化股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0147", "field": "company", "value": "大理天工文化股份有限公司（分公司）", "truth": "大理天工文化股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0148", "field": "company", "value": "济南一诺智能股份　有限公司", "truth": "济南一诺智能股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0148", "field": "company", "value": "济南一诺智能股份有限工司", "truth": "济南一诺智能股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0148", "field": "company", "value": "济南一诺智能股份公司", "truth": "济南一诺智能股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0148", "field": "company", "value": "济南-一诺-智能-股份有限公司", "truth": "济南一诺智能股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0148", "field": "company", "value": "单位：济南一诺智能股份有限公司", "truth": "济南一诺智能股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0149", "field": "company", "value": "哈尔滨启明供应链股份有限　公司", "truth": "哈尔滨启明供应链股份有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0149", "field": "company", "value": "哈尔滨启明供应链股份有限公词", "truth": "哈尔滨启明供应链股份有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0149", "field": "company", "value": "启明供应链股份有限公司", "truth": "哈尔滨启明供应链股份有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0149", "field": "company", "value": "哈尔滨／启明／供应链／股份有限公司", "truth": "哈尔滨启明供应链股份有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0149", "field": "company", "value": "单位：哈尔滨启明供应链股份有限公司", "truth": "哈尔滨启明供应链股份有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0150", "field": "company", "value": "武汉万邦传媒股份有限公 司", "truth": "武汉万邦传媒股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0150", "field": "company", "value": "武汉万邦传媒股份有限公词", "truth": "武汉万邦传媒股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0150", "field": "company", "value": "武汉万邦传媒股份公司", "truth": "武汉万邦传媒股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0150", "field": "company", "value": "武汉-万邦-传媒-股份有限公司", "truth": "武汉万邦传媒股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0150", "field": "company", "value": "武汉万邦传媒股份有限公司（分公司）", "truth": "武汉万邦传媒股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0151", "field": "company", "value": "天津星辰机　械有限责任公司", "truth": "天津星辰机械有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0151", "field": "company", "value": "天津星辰机械有限则任公司", "truth": "天津星辰机械有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0151", "field": "company", "value": "星辰机械有限责任公司", "truth": "天津星辰机械有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0151", "field": "company", "value": "天津／星辰／机械／有限责任公司", "truth": "天津星辰机械有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0151", "field": "company", "value": "天津星辰机械有限责任公司。", "truth": "天津星辰机械有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0152", "field": "company", "value": "吴忠立信软件集团有 限公司", "truth": "吴忠立信软件集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0152", "field": "company", "value": "吴忠立信软件积团有限公司", "truth": "吴忠立信软件集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0152", "field": "company", "value": "立信软件集团有限公司", "truth": "吴忠立信软件集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0152", "field": "company", "value": "吴忠，立信，软件，集团有限公司", "truth": "吴忠立信软件集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0152", "field": "company", "value": "单位：吴忠立信软件集团有限公司", "truth": "吴忠立信软件集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0153", "field": "company", "value": "郴州星辰农业股份有限 公司", "truth": "郴州星辰农业股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0153", "field": "company", "value": "郴州星辰农业股份有限工司", "truth": "郴州星辰农业股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0153", "field": "company", "value": "郴州星辰农业", "truth": "郴州星辰农业股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0153", "field": "company", "value": "郴州·星辰·农业·股份有限公司", "truth": "郴州星辰农业股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0153", "field": "company", "value": "单位：郴州星辰农业股份有限公司", "truth": "郴州星辰农业股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0154", "field": "company", "value": "杭州远景机械集　团有限公司", "truth": "杭州远景机械集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0154", "field": "company", "value": "杭州远景机械集团有线公司", "truth": "杭州远景机械集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0154", "field": "company", "value": "杭州远景机械", "truth": "杭州远景机械集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0154", "field": "company", "value": "杭州，远景，机械，集团有限公司", "truth": "杭州远景机械集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0154", "field": "company", "value": "杭州远景机械集团有限公司。", "truth": "杭州远景机械集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0155", "field": "company", "value": "香港卓远咨询股份 有限公司", "truth": "香港卓远咨询股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0155", "field": "company", "value": "香港卓远咨询股份有限公词", "truth": "香港卓远咨询股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0155", "field": "company", "value": "卓远咨询股份有限公司", "truth": "香港卓远咨询股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0155", "field": "company", "value": "香港-卓远-咨询-股份有限公司", "truth": "香港卓远咨询股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0155", "field": "company", "value": "公司名称:香港卓远咨询股份有限公司", "truth": "香港卓远咨询股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0156", "field": "company", "value": "红河宏　图环保集团有限公司", "truth": "红河宏图环保集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0156", "field": "company", "value": "红河宏图环保积团有限公司", "truth": "红河宏图环保集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0156", "field": "company", "value": "宏图环保集团有限公司", "truth": "红河宏图环保集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0156", "field": "company", "value": "红河-宏图-环保-集团有限公司", "truth": "红河宏图环保集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0156", "field": "company", "value": "红河宏图环保集团有限公司。", "truth": "红河宏图环保集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0157", "field": "company", "value": "重庆星辰科技集 团有限公司", "truth": "重庆星辰科技集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0157", "field": "company", "value": "重庆星辰科技集团有限工司", "truth": "重庆星辰科技集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0157", "field": "company", "value": "星辰科技集团有限公司", "truth": "重庆星辰科技集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0157", "field": "company", "value": "重庆，星辰，科技，集团有限公司", "truth": "重庆星辰科技集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0157", "field": "company", "value": "重庆星辰科技集团有限公司（分公司）", "truth": "重庆星辰科技集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0158", "field": "company", "value": "淮 安万邦实业有限公司", "truth": "淮安万邦实业有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0158", "field": "company", "value": "淮安万邦实业有限公词", "truth": "淮安万邦实业有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0158", "field": "company", "value": "淮安万邦实业", "truth": "淮安万邦实业有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0158", "field": "company", "value": "淮安-万邦-实业-有限公司", "truth": "淮安万邦实业有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0158", "field": "company", "value": "公司名称:淮安万邦实业有限公司", "truth": "淮安万邦实业有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0159", "field": "company", "value": "嘉兴嘉禾供应链有限责任公　司", "truth": "嘉兴嘉禾供应链有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0159", "field": "company", "value": "嘉兴嘉禾供应链有限责任工司", "truth": "嘉兴嘉禾供应链有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0159", "field": "company", "value": "嘉兴嘉禾供应链", "truth": "嘉兴嘉禾供应链有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0159", "field": "company", "value": "嘉兴·嘉禾·供应链·有限责任公司", "truth": "嘉兴嘉禾供应链有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0159", "field": "company", "value": "单位：嘉兴嘉禾供应链有限责任公司", "truth": "嘉兴嘉禾供应链有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0160", "field": "company", "value": "邯郸新元网络股份有　限公司", "truth": "邯郸新元网络股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0160", "field": "company", "value": "邯郸新元网络股份有线公司", "truth": "邯郸新元网络股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0160", "field": "company", "value": "邯郸新元网络", "truth": "邯郸新元网络股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0160", "field": "company", "value": "邯郸-新元-网络-股份有限公司", "truth": "邯郸新元网络股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0160", "field": "company", "value": "邯郸新元网络股份有限公司（分公司）", "truth": "邯郸新元网络股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0161", "field": "company", "value": "嘉兴　新元网络有限公司", "truth": "嘉兴新元网络有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0161", "field": "company", "value": "嘉兴新元网络有线公司", "truth": "嘉兴新元网络有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0161", "field": "company", "value": "嘉兴新元网络", "truth": "嘉兴新元网络有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0161", "field": "company", "value": "嘉兴-新元-网络-有限公司", "truth": "嘉兴新元网络有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0161", "field": "company", "value": "嘉兴新元网络有限公司（原单位）", "truth": "嘉兴新元网络有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0162", "field": "company", "value": "芜 湖磐石信息股份有限公司", "truth": "芜湖磐石信息股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0162", "field": "company", "value": "芜湖磐石信希股份有限公司", "truth": "芜湖磐石信息股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0162", "field": "company", "value": "磐石信息股份有限公司", "truth": "芜湖磐石信息股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0162", "field": "company", "value": "芜湖，磐石，信息，股份有限公司", "truth": "芜湖磐石信息股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0162", "field": "company", "value": "芜湖磐石信息股份有限公司。", "truth": "芜湖磐石信息股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0163", "field": "company", "value": "银川三 江医药股份有限公司", "truth": "银川三江医药股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0163", "field": "company", "value": "银川三江医药股分有限公司", "truth": "银川三江医药股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0163", "field": "company", "value": "银川三江医药", "truth": "银川三江医药股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0163", "field": "company", "value": "银川／三江／医药／股份有限公司", "truth": "银川三江医药股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0163", "field": "company", "value": "银川三江医药股份有限公司（总部）", "truth": "银川三江医药股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0164", "field": "company", "value": "沈阳卓越　物流股份有限公司", "truth": "沈阳卓越物流股份有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0164", "field": "company", "value": "沈阳卓越物流股分有限公司", "truth": "沈阳卓越物流股份有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0164", "field": "company", "value": "卓越物流股份有限公司", "truth": "沈阳卓越物流股份有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0164", "field": "company", "value": "沈阳，卓越，物流，股份有限公司", "truth": "沈阳卓越物流股份有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0164", "field": "company", "value": "公司名称:沈阳卓越物流股份有限公司", "truth": "沈阳卓越物流股份有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0165", "field": "company", "value": "鄂尔多斯卓远建 筑集团有限公司", "truth": "鄂尔多斯卓远建筑集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0165", "field": "company", "value": "鄂尔多斯卓远建筑集团有限公词", "truth": "鄂尔多斯卓远建筑集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0165", "field": "company", "value": "鄂尔多斯卓远建筑", "truth": "鄂尔多斯卓远建筑集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0165", "field": "company", "value": "鄂尔多斯，卓远，建筑，集团有限公司", "truth": "鄂尔多斯卓远建筑集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0165", "field": "company", "value": "鄂尔多斯卓远建筑集团有限公司（总部）", "truth": "鄂尔多斯卓远建筑集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0166", "field": "company", "value": "成都拓维 科技股份有限公司", "truth": "成都拓维科技股份有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0166", "field": "company", "value": "成都拓维科技股份有限公词", "truth": "成都拓维科技股份有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0166", "field": "company", "value": "拓维科技股份有限公司", "truth": "成都拓维科技股份有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0166", "field": "company", "value": "成都|拓维|科技|股份有限公司", "truth": "成都拓维科技股份有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0166", "field": "company", "value": "成都拓维科技股份有限公司（分公司）", "truth": "成都拓维科技股份有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0167", "field": "company", "value": "抚顺维信教育有　限责任公司", "truth": "抚顺维信教育有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0167", "field": "company", "value": "抚顺维信教育有限则任公司", "truth": "抚顺维信教育有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0167", "field": "company", "value": "维信教育有限责任公司", "truth": "抚顺维信教育有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0167", "field": "company", "value": "抚顺-维信-教育-有限责任公司", "truth": "抚顺维信教育有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0167", "field": "company", "value": "抚顺维信教育有限责任公司。", "truth": "抚顺维信教育有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0168", "field": "company", "value": "澳门未 来电子有限公司", "truth": "澳门未来电子有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0168", "field": "company", "value": "澳门未来电子有线公司", "truth": "澳门未来电子有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0168", "field": "company", "value": "澳门未来电子", "truth": "澳门未来电子有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0168", "field": "company", "value": "澳门|未来|电子|有限公司", "truth": "澳门未来电子有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0168", "field": "company", "value": "澳门未来电子有限公司。", "truth": "澳门未来电子有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0169", "field": "company", "value": "兰州东方新能源有限责任公 司", "truth": "兰州东方新能源有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0169", "field": "company", "value": "兰州东方新能源友限责任公司", "truth": "兰州东方新能源有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0169", "field": "company", "value": "兰州东方新能源", "truth": "兰州东方新能源有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0169", "field": "company", "value": "兰州·东方·新能源·有限责任公司", "truth": "兰州东方新能源有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0169", "field": "company", "value": "兰州东方新能源有限责任公司（原单位）", "truth": "兰州东方新能源有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0170", "field": "company", "value": "咸阳联创供应链有限责　任公司", "truth": "咸阳联创供应链有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0170", "field": "company", "value": "咸阳联创供应链有线责任公司", "truth": "咸阳联创供应链有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0170", "field": "company", "value": "咸阳联创供应链有限公司", "truth": "咸阳联创供应链有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0170", "field": "company", "value": "咸阳，联创，供应链，有限责任公司", "truth": "咸阳联创供应链有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0170", "field": "company", "value": "咸阳联创供应链有限责任公司（原单位）", "truth": "咸阳联创供应链有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0171", "field": "company", "value": "运城东方农业有限公　司", "truth": "运城东方农业有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0171", "field": "company", "value": "运城东方农业有限公词", "truth": "运城东方农业有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0171", "field": "company", "value": "运城东方农业", "truth": "运城东方农业有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0171", "field": "company", "value": "运城-东方-农业-有限公司", "truth": "运城东方农业有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0171", "field": "company", "value": "运城东方农业有限公司。", "truth": "运城东方农业有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0172", "field": "company", "value": "庆阳众　和物流有限责任公司", "truth": "庆阳众和物流有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0172", "field": "company", "value": "庆阳众和物流有线责任公司", "truth": "庆阳众和物流有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0172", "field": "company", "value": "庆阳众和物流有限公司", "truth": "庆阳众和物流有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0172", "field": "company", "value": "庆阳／众和／物流／有限责任公司", "truth": "庆阳众和物流有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0172", "field": "company", "value": "公司名称:庆阳众和物流有限责任公司", "truth": "庆阳众和物流有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0173", "field": "company", "value": "郴州金诚教育集团有限公　司", "truth": "郴州金诚教育集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0173", "field": "company", "value": "郴州金诚教育集团友限公司", "truth": "郴州金诚教育集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0173", "field": "company", "value": "郴州金诚教育", "truth": "郴州金诚教育集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0173", "field": "company", "value": "郴州／金诚／教育／集团有限公司", "truth": "郴州金诚教育集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0173", "field": "company", "value": "郴州金诚教育集团有限公司。", "truth": "郴州金诚教育集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0174", "field": "company", "value": "吉林　鑫源实业有限公司", "truth": "吉林鑫源实业有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0174", "field": "company", "value": "吉林鑫源实业有限公词", "truth": "吉林鑫源实业有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0174", "field": "company", "value": "吉林鑫源实业", "truth": "吉林鑫源实业有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0174", "field": "company", "value": "吉林，鑫源，实业，有限公司", "truth": "吉林鑫源实业有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0174", "field": "company", "value": "吉林鑫源实业有限公司（分公司）", "truth": "吉林鑫源实业有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0175", "field": "company", "value": "杭州一诺 物流集团有限公司", "truth": "杭州一诺物流集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0175", "field": "company", "value": "杭州一诺物流集困有限公司", "truth": "杭州一诺物流集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0175", "field": "company", "value": "杭州一诺物流", "truth": "杭州一诺物流集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0175", "field": "company", "value": "杭州／一诺／物流／集团有限公司", "truth": "杭州一诺物流集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0175", "field": "company", "value": "单位：杭州一诺物流集团有限公司", "truth": "杭州一诺物流集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0176", "field": "company", "value": "澳门蓝海新能源集团 有限公司", "truth": "澳门蓝海新能源集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0176", "field": "company", "value": "澳门蓝海新能源积团有限公司", "truth": "澳门蓝海新能源集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0176", "field": "company", "value": "澳门蓝海新能源", "truth": "澳门蓝海新能源集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0176", "field": "company", "value": "澳门-蓝海-新能源-集团有限公司", "truth": "澳门蓝海新能源集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0176", "field": "company", "value": "澳门蓝海新能源集团有限公司（原单位）", "truth": "澳门蓝海新能源集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0177", "field": "company", "value": "赤峰立信数据有限　责任公司", "truth": "赤峰立信数据有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0177", "field": "company", "value": "赤峰立信数据友限责任公司", "truth": "赤峰立信数据有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0177", "field": "company", "value": "赤峰立信数据有限公司", "truth": "赤峰立信数据有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0177", "field": "company", "value": "赤峰|立信|数据|有限责任公司", "truth": "赤峰立信数据有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0177", "field": "company", "value": "赤峰立信数据有限责任公司。", "truth": "赤峰立信数据有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0178", "field": "company", "value": "广州盛世农业集　团有限公司", "truth": "广州盛世农业集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0178", "field": "company", "value": "广州盛世农业积团有限公司", "truth": "广州盛世农业集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0178", "field": "company", "value": "盛世农业集团有限公司", "truth": "广州盛世农业集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0178", "field": "company", "value": "广州|盛世|农业|集团有限公司", "truth": "广州盛世农业集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0178", "field": "company", "value": "广州盛世农业集团有限公司（原单位）", "truth": "广州盛世农业集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0179", "field": "company", "value": "马鞍山恒信建筑集 团有限公司", "truth": "马鞍山恒信建筑集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0179", "field": "company", "value": "马鞍山恒信建筑集困有限公司", "truth": "马鞍山恒信建筑集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0179", "field": "company", "value": "马鞍山恒信建筑", "truth": "马鞍山恒信建筑集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0179", "field": "company", "value": "马鞍山|恒信|建筑|集团有限公司", "truth": "马鞍山恒信建筑集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0179", "field": "company", "value": "马鞍山恒信建筑集团有限公司（原单位）", "truth": "马鞍山恒信建筑集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0180", "field": "company", "value": "常 德骏驰环保集团有限公司", "truth": "常德骏驰环保集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0180", "field": "company", "value": "常德骏驰环保积团有限公司", "truth": "常德骏驰环保集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0180", "field": "company", "value": "骏驰环保集团有限公司", "truth": "常德骏驰环保集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0180", "field": "company", "value": "常德·骏驰·环保·集团有限公司", "truth": "常德骏驰环保集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0180", "field": "company", "value": "常德骏驰环保集团有限公司（分公司）", "truth": "常德骏驰环保集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0181", "field": "company", "value": "宜　昌瑞泰实业有限公司", "truth": "宜昌瑞泰实业有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0181", "field": "company", "value": "宜昌瑞泰实业有线公司", "truth": "宜昌瑞泰实业有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0181", "field": "company", "value": "宜昌瑞泰实业", "truth": "宜昌瑞泰实业有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0181", "field": "company", "value": "宜昌·瑞泰·实业·有限公司", "truth": "宜昌瑞泰实业有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0181", "field": "company", "value": "单位：宜昌瑞泰实业有限公司", "truth": "宜昌瑞泰实业有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0182", "field": "company", "value": "昆明卓　远新能源有限责任公司", "truth": "昆明卓远新能源有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0182", "field": "company", "value": "昆明卓远新能源有限责任公词", "truth": "昆明卓远新能源有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0182", "field": "company", "value": "昆明卓远新能源", "truth": "昆明卓远新能源有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0182", "field": "company", "value": "昆明-卓远-新能源-有限责任公司", "truth": "昆明卓远新能源有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0182", "field": "company", "value": "昆明卓远新能源有限责任公司（总部）", "truth": "昆明卓远新能源有限责任公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0183", "field": "company", "value": "泸州智联软件　有限责任公司", "truth": "泸州智联软件有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0183", "field": "company", "value": "泸州智联软件有限责任工司", "truth": "泸州智联软件有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0183", "field": "company", "value": "智联软件有限责任公司", "truth": "泸州智联软件有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0183", "field": "company", "value": "泸州，智联，软件，有限责任公司", "truth": "泸州智联软件有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0183", "field": "company", "value": "泸州智联软件有限责任公司（分公司）", "truth": "泸州智联软件有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0184", "field": "company", "value": "中山益丰电子集团 有限公司", "truth": "中山益丰电子集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0184", "field": "company", "value": "中山益丰电宇集团有限公司", "truth": "中山益丰电子集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0184", "field": "company", "value": "益丰电子集团有限公司", "truth": "中山益丰电子集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0184", "field": "company", "value": "中山／益丰／电子／集团有限公司", "truth": "中山益丰电子集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0184", "field": "company", "value": "中山益丰电子集团有限公司（原单位）", "truth": "中山益丰电子集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0185", "field": "company", "value": "滁州清源机械有限　公司", "truth": "滁州清源机械有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0185", "field": "company", "value": "滁州清源机械有线公司", "truth": "滁州清源机械有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0185", "field": "company", "value": "清源机械有限公司", "truth": "滁州清源机械有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0185", "field": "company", "value": "滁州·清源·机械·有限公司", "truth": "滁州清源机械有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0185", "field": "company", "value": "滁州清源机械有限公司（分公司）", "truth": "滁州清源机械有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0186", "field": "company", "value": "开封三江建 筑股份有限公司", "truth": "开封三江建筑股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0186", "field": "company", "value": "开封三江建筑股份友限公司", "truth": "开封三江建筑股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0186", "field": "company", "value": "三江建筑股份有限公司", "truth": "开封三江建筑股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0186", "field": "company", "value": "开封|三江|建筑|股份有限公司", "truth": "开封三江建筑股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0186", "field": "company", "value": "单位：开封三江建筑股份有限公司", "truth": "开封三江建筑股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0187", "field": "company", "value": "石嘴山明远文化有限责任 公司", "truth": "石嘴山明远文化有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0187", "field": "company", "value": "石嘴山明远文化有限则任公司", "truth": "石嘴山明远文化有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0187", "field": "company", "value": "石嘴山明远文化有限公司", "truth": "石嘴山明远文化有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0187", "field": "company", "value": "石嘴山-明远-文化-有限责任公司", "truth": "石嘴山明远文化有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0187", "field": "company", "value": "石嘴山明远文化有限责任公司。", "truth": "石嘴山明远文化有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0188", "field": "company", "value": "贵阳岩松电子有限责任公　司", "truth": "贵阳岩松电子有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0188", "field": "company", "value": "贵阳岩松电子友限责任公司", "truth": "贵阳岩松电子有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0188", "field": "company", "value": "岩松电子有限责任公司", "truth": "贵阳岩松电子有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0188", "field": "company", "value": "贵阳-岩松-电子-有限责任公司", "truth": "贵阳岩松电子有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0188", "field": "company", "value": "贵阳岩松电子有限责任公司（分公司）", "truth": "贵阳岩松电子有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0189", "field": "company", "value": "安庆泰和 软件有限责任公司", "truth": "安庆泰和软件有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0189", "field": "company", "value": "安庆泰和软件有限则任公司", "truth": "安庆泰和软件有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0189", "field": "company", "value": "安庆泰和软件有限公司", "truth": "安庆泰和软件有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0189", "field": "company", "value": "安庆-泰和-软件-有限责任公司", "truth": "安庆泰和软件有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0189", "field": "company", "value": "安庆泰和软件有限责任公司（原单位）", "truth": "安庆泰和软件有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0190", "field": "company", "value": "宜昌智远农 业有限责任公司", "truth": "宜昌智远农业有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0190", "field": "company", "value": "宜昌智远农业有线责任公司", "truth": "宜昌智远农业有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0190", "field": "company", "value": "宜昌智远农业", "truth": "宜昌智远农业有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0190", "field": "company", "value": "宜昌，智远，农业，有限责任公司", "truth": "宜昌智远农业有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0190", "field": "company", "value": "宜昌智远农业有限责任公司（分公司）", "truth": "宜昌智远农业有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0191", "field": "company", "value": "邯郸利丰咨　询集团有限公司", "truth": "邯郸利丰咨询集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0191", "field": "company", "value": "邯郸利丰咨询集团有限工司", "truth": "邯郸利丰咨询集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0191", "field": "company", "value": "利丰咨询集团有限公司", "truth": "邯郸利丰咨询集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0191", "field": "company", "value": "邯郸|利丰|咨询|集团有限公司", "truth": "邯郸利丰咨询集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0191", "field": "company", "value": "单位：邯郸利丰咨询集团有限公司", "truth": "邯郸利丰咨询集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0192", "field": "company", "value": "运城卓越传媒有限　责任公司", "truth": "运城卓越传媒有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0192", "field": "company", "value": "运城卓越传媒有限责任公词", "truth": "运城卓越传媒有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0192", "field": "company", "value": "运城卓越传媒有限公司", "truth": "运城卓越传媒有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0192", "field": "company", "value": "运城·卓越·传媒·有限责任公司", "truth": "运城卓越传媒有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0192", "field": "company", "value": "运城卓越传媒有限责任公司（总部）", "truth": "运城卓越传媒有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0193", "field": "company", "value": "蚌埠维信新　能源股份有限公司", "truth": "蚌埠维信新能源股份有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0193", "field": "company", "value": "蚌埠维信新能源股份友限公司", "truth": "蚌埠维信新能源股份有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0193", "field": "company", "value": "蚌埠维信新能源", "truth": "蚌埠维信新能源股份有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0193", "field": "company", "value": "蚌埠／维信／新能源／股份有限公司", "truth": "蚌埠维信新能源股份有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0193", "field": "company", "value": "公司名称:蚌埠维信新能源股份有限公司", "truth": "蚌埠维信新能源股份有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0194", "field": "company", "value": "营口卓远贸易股份有　限公司", "truth": "营口卓远贸易股份有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0194", "field": "company", "value": "营口卓远贸易股份有限工司", "truth": "营口卓远贸易股份有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0194", "field": "company", "value": "营口卓远贸易", "truth": "营口卓远贸易股份有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0194", "field": "company", "value": "营口|卓远|贸易|股份有限公司", "truth": "营口卓远贸易股份有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0194", "field": "company", "value": "营口卓远贸易股份有限公司（原单位）", "truth": "营口卓远贸易股份有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0195", "field": "company", "value": "连云港东方实业集团有 限公司", "truth": "连云港东方实业集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0195", "field": "company", "value": "连云港东方实业集团有限公词", "truth": "连云港东方实业集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0195", "field": "company", "value": "连云港东方实业", "truth": "连云港东方实业集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0195", "field": "company", "value": "连云港，东方，实业，集团有限公司", "truth": "连云港东方实业集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0195", "field": "company", "value": "公司名称:连云港东方实业集团有限公司", "truth": "连云港东方实业集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0196", "field": "company", "value": "赤峰数 联软件集团有限公司", "truth": "赤峰数联软件集团有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0196", "field": "company", "value": "赤峰数联软件集团有限公词", "truth": "赤峰数联软件集团有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0196", "field": "company", "value": "赤峰数联软件", "truth": "赤峰数联软件集团有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0196", "field": "company", "value": "赤峰／数联／软件／集团有限公司", "truth": "赤峰数联软件集团有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0196", "field": "company", "value": "单位：赤峰数联软件集团有限公司", "truth": "赤峰数联软件集团有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0197", "field": "company", "value": "呼和浩特清源传媒有限　责任公司", "truth": "呼和浩特清源传媒有限责任公司", "perturbation": "space", "split": "train"}
+{"id": "company-0197", "field": "company", "value": "呼和浩特清源传媒有限责任工司", "truth": "呼和浩特清源传媒有限责任公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0197", "field": "company", "value": "呼和浩特清源传媒有限公司", "truth": "呼和浩特清源传媒有限责任公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0197", "field": "company", "value": "呼和浩特-清源-传媒-有限责任公司", "truth": "呼和浩特清源传媒有限责任公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0197", "field": "company", "value": "呼和浩特清源传媒有限责任公司。", "truth": "呼和浩特清源传媒有限责任公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0198", "field": "company", "value": "鄂尔多斯星河机械集团有限　公司", "truth": "鄂尔多斯星河机械集团有限公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0198", "field": "company", "value": "鄂尔多斯星河机械集困有限公司", "truth": "鄂尔多斯星河机械集团有限公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0198", "field": "company", "value": "星河机械集团有限公司", "truth": "鄂尔多斯星河机械集团有限公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0198", "field": "company", "value": "鄂尔多斯，星河，机械，集团有限公司", "truth": "鄂尔多斯星河机械集团有限公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0198", "field": "company", "value": "鄂尔多斯星河机械集团有限公司。", "truth": "鄂尔多斯星河机械集团有限公司", "perturbation": "noise", "split": "heldout"}
+{"id": "company-0199", "field": "company", "value": "锦州东方　信息有限公司", "truth": "锦州东方信息有限公司", "perturbation": "space", "split": "train"}
+{"id": "company-0199", "field": "company", "value": "锦州东方信息有线公司", "truth": "锦州东方信息有限公司", "perturbation": "typo", "split": "train"}
+{"id": "company-0199", "field": "company", "value": "东方信息有限公司", "truth": "锦州东方信息有限公司", "perturbation": "abbrev", "split": "train"}
+{"id": "company-0199", "field": "company", "value": "锦州／东方／信息／有限公司", "truth": "锦州东方信息有限公司", "perturbation": "sep", "split": "train"}
+{"id": "company-0199", "field": "company", "value": "公司名称:锦州东方信息有限公司", "truth": "锦州东方信息有限公司", "perturbation": "noise", "split": "train"}
+{"id": "company-0200", "field": "company", "value": "南通精诚机械有限责任 公司", "truth": "南通精诚机械有限责任公司", "perturbation": "space", "split": "heldout"}
+{"id": "company-0200", "field": "company", "value": "南通精诚机械友限责任公司", "truth": "南通精诚机械有限责任公司", "perturbation": "typo", "split": "heldout"}
+{"id": "company-0200", "field": "company", "value": "精诚机械有限责任公司", "truth": "南通精诚机械有限责任公司", "perturbation": "abbrev", "split": "heldout"}
+{"id": "company-0200", "field": "company", "value": "南通，精诚，机械，有限责任公司", "truth": "南通精诚机械有限责任公司", "perturbation": "sep", "split": "heldout"}
+{"id": "company-0200", "field": "company", "value": "南通精诚机械有限责任公司（原单位）", "truth": "南通精诚机械有限责任公司", "perturbation": "noise", "split": "heldout"}
