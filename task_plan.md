@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-Phase 3（normalize 四类做透）→ TASK-005 已通过（`01f03d5`，company heldout 81%）；**TASK-006（地址，最后一类）已派**，手执行中
+**Phase 3 完成**（四类 normalize 收齐：person 72% / phone 100% / company 81% / address 90.5%，总盘 85.88%）；**TASK-007（维护单：common.py 合并 + 方位构词位置约束）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-006.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；通过后派维护单（错字表合并 common.py）。
+手交 `.handoff/outbox/RESULT-007.md` 后验收；之后进入 Phase 4（dedupe + audit）。
 
 ## Phases
 
@@ -60,8 +60,9 @@ Phase 3（normalize 四类做透）→ TASK-005 已通过（`01f03d5`，company 
 - [x] normalize(人名) 最小闭环（TASK-003 已通过 `e64f6ac`：规则打底 + 置信度接口 + `--impl rules` 接入；**person heldout 72%**——space/sep/noise 100%、typo 60%、abbrev 0% 属预期）
 - [x] 电话（TASK-004 已通过 `e44d3b0`：结构清洗 + 数字形近修复 + 校验闸门；**phone heldout 100%**）
 - [x] 公司名（TASK-005 已通过 `01f03d5`：软闸门+缩写补全+错字修复；**company heldout 81%**，改坏 0）
-- [ ] 地址（TASK-006 执行中：最复杂，abbrev 天花板思维 + 已知词组闸门）
-- **Status:** in_progress
+- [x] 地址（TASK-006 已通过 `ddedddc`：行政区划词典+标记补全+三条单字守卫；**address heldout 90.5%**，改坏 8 条全为市字歧义已知限制）
+- [x] 维护单（TASK-007 已派：抽 rules/common.py + 方位构词位置约束）
+- **Status:** complete（四类收齐；Phase 4 dedupe+audit 待 TASK-007 通过后启动）
 
 ### Phase 4: dedupe + audit
 
