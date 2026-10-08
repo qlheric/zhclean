@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-10-07T10:06:36Z",
-  "updated_at": "2026-10-07T21:09:19Z",
+  "updated_at": "2026-10-08T07:36:58Z",
   "files": {
     ".gitattributes": {
       "role": "index",
@@ -71,9 +71,15 @@
     },
     ".handoff/inbox/TASK-008.md": {
       "role": "index",
-      "sha256": "fca920500792054c1c23df7f79108a6f32e1563dd1eea2814ad98adcf67f6fee",
-      "size": 4509,
-      "normalized_sha256": "fca920500792054c1c23df7f79108a6f32e1563dd1eea2814ad98adcf67f6fee"
+      "sha256": "958232bbb9a07c49b8fca2336b695aa2e3baf7cb6e6f9199adc5e911cabe5d90",
+      "size": 5342,
+      "normalized_sha256": "958232bbb9a07c49b8fca2336b695aa2e3baf7cb6e6f9199adc5e911cabe5d90"
+    },
+    ".handoff/inbox/TASK-009.md": {
+      "role": "index",
+      "sha256": "504bc94ac1d4ee6e14ea9d89141ec974c12e677e84a56cbb217e0ce6d6bc9538",
+      "size": 4969,
+      "normalized_sha256": "504bc94ac1d4ee6e14ea9d89141ec974c12e677e84a56cbb217e0ce6d6bc9538"
     },
     ".handoff/outbox/RESULT-001.md": {
       "role": "index",
@@ -117,6 +123,12 @@
       "size": 16928,
       "normalized_sha256": "8f21016f0962844aedc711634187d74523e775c1ed27937012b6e73c886dcd17"
     },
+    ".handoff/outbox/RESULT-008.md": {
+      "role": "index",
+      "sha256": "20b11224849ca5e6b028a9e8c23996a737bd432ce678b9d6dbf77b6def84bff2",
+      "size": 10492,
+      "normalized_sha256": "20b11224849ca5e6b028a9e8c23996a737bd432ce678b9d6dbf77b6def84bff2"
+    },
     "AGENTS.md": {
       "role": "index",
       "sha256": "0cffbc699f674660a801ee15fa63d59da00e4122796b8b1e28f7c7eb83b4444e",
@@ -143,9 +155,9 @@
     },
     "aoci.code.txt": {
       "role": "index",
-      "sha256": "b127d0426634309091a8765967f7e78da098992c07e2ad5c54aebee78d25f4ce",
-      "size": 11236,
-      "normalized_sha256": "b127d0426634309091a8765967f7e78da098992c07e2ad5c54aebee78d25f4ce"
+      "sha256": "3ca6573e5f5c147dd89d4d6290694605f522b73a31531fa253030748cb923a03",
+      "size": 11587,
+      "normalized_sha256": "3ca6573e5f5c147dd89d4d6290694605f522b73a31531fa253030748cb923a03"
     },
     "aoci.meta.txt": {
       "role": "index",
@@ -256,9 +268,9 @@
     },
     "progress.md": {
       "role": "index",
-      "sha256": "187d3bc71754e55d2116de2e59c61c8ca154f2532b19eecc4bdab86024e0d422",
-      "size": 6349,
-      "normalized_sha256": "187d3bc71754e55d2116de2e59c61c8ca154f2532b19eecc4bdab86024e0d422"
+      "sha256": "baf1fc4b45c9663367c1a755fe4bd107de16e51329b6156be4fbaf80359d7ddb",
+      "size": 6873,
+      "normalized_sha256": "baf1fc4b45c9663367c1a755fe4bd107de16e51329b6156be4fbaf80359d7ddb"
     },
     "pyproject.toml": {
       "role": "index",
@@ -352,9 +364,9 @@
     },
     "src/zhclean/tools/dedupe.py": {
       "role": "index",
-      "sha256": "5cd0d6c39af728c9a03bd69947e53ea977d579d06123f1b8cb135a8adad4ed16",
-      "size": 279,
-      "normalized_sha256": "5cd0d6c39af728c9a03bd69947e53ea977d579d06123f1b8cb135a8adad4ed16"
+      "sha256": "8bba37c4523aaf07a28f814c98474220b52a30ae39b4020bb5cd4c8a18d07ef7",
+      "size": 8069,
+      "normalized_sha256": "8bba37c4523aaf07a28f814c98474220b52a30ae39b4020bb5cd4c8a18d07ef7"
     },
     "src/zhclean/tools/normalize.py": {
       "role": "index",
@@ -364,9 +376,9 @@
     },
     "task_plan.md": {
       "role": "index",
-      "sha256": "ab26d759e2dce1750202a153ec78967a56cae7b2a01dad93e8c3e8224d9b9456",
-      "size": 7753,
-      "normalized_sha256": "ab26d759e2dce1750202a153ec78967a56cae7b2a01dad93e8c3e8224d9b9456"
+      "sha256": "165e72e68935c4651004c707cb0f3b41028f1c5de84e4b933cb049e176f361ae",
+      "size": 7825,
+      "normalized_sha256": "165e72e68935c4651004c707cb0f3b41028f1c5de84e4b933cb049e176f361ae"
     },
     "tests/test_address.py": {
       "role": "index",

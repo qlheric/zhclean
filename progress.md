@@ -1,5 +1,12 @@
 # Progress: S2 zhclean 会话日志
 
+## 2026-10-08 · 脑侧验收会话⑧（DSH）
+
+- **TASK-008 验收通过**（`30e32eb`）：判据亲跑（261 passed / demo OK）；边界零越界；代码审查 2/2 **零发现**。
+- 裁决：两个契约空白点均采纳手口径（同 field 内比较；id 不作合并键防评测作弊）。
+- **TASK-009 已派**：dedupe 评测接入（pair recall + precision，阈值只在 train 选、heldout 只跑一次）。
+- 下一步：等 RESULT-009 → 亲跑 + 审查验收，真实 recall/precision 如实汇报。
+
 ## 2026-10-08 · 脑侧验收会话⑦（DSH）
 
 - **TASK-007 验收通过**（`234fe81`）：判据亲跑（229 passed / 评测逐位零漂移）；边界零越界；代码审查 7/7（0 阻塞，low 1）。

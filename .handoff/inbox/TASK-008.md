@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端，新会话） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/tools/dedupe.py`、`tests/test_dedupe.py` |
 | **_Capability:**（只许用） | 写 Python 代码（可用已声明的依赖 rapidfuzz）；跑 `uv run` / `pytest` 命令；读 `src/zhclean/**`（normalize 接口）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外任何文件（尤其 benchmarks/generate.py 及其词典常量——不可读，防留出集反推）** |
 | **_Depends:**（依赖） | TASK-007（已通过，`234fe81`）；rapidfuzz 已在 pyproject 依赖里 |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `30e32eb`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -62,3 +62,12 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀；Windows 终端中文输出加 `PYTHONIOENCODING=utf-8`。
 - dedupe 评测口径（下一单用）：同 id 的 clean + 5 条 dirty = 一个「应合并组」，recall = 应合并对被正确合并的比例；≥95% 是目标不是承诺。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-008.md`（判据/命令/输出/证据 + 第 7 节「下次接着做什么」），然后**停下**；**不动 TASK 状态字段**（状态归脑）。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 261 passed；②`uv run --project . python -m zhclean.tools.dedupe` → `dedupe._demo: OK` exit 0。
+- 边界检查：2 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- **结构化代码审查**（2/2 覆盖 100%）：critical/high/medium/low 全 0，零发现。
+- 两个契约点裁决（脑定，均采纳手口径）：①只在同一 field 内比较 ✓；②不按 id 强制合并 ✓（id 是评测金标准，实现用 id 合并=评测作弊；不需要 merge_by_id 参数）。
+- 采纳手建议：下一单评测同时算 precision；阈值只在 train 上选、heldout 只跑一次（已写进 TASK-009）。
+- `_Status: 已完成`；`_Commit: 30e32eb`。
