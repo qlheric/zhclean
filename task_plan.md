@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 6（M2）全部完成** → TASK-028 已通过（`0613911`，发布前文档收尾）；**M2 收官：八类字段 + 五子命令 + 文档三线 + 发布检查单就绪**
+**已发布 v0.1.0** → `https://github.com/qlheric/zhclean`（2026-10-09：main=d705410、tag v0.1.0 已推送并远程验证）
 
 ## Next Step
 
-发布动作（tag v0.1.0 / GitHub 建仓 / 推送 + CI 首跑 / 干净机器安装复核）由维护者（老大/脑）执行——待老大确认后启动。
+发布后跟进：CI 首跑确认（老大看 GitHub Actions）/ About 字段填写（文案在 docs/launch-copy.md）/ 放大器执行（V2EX·即刻·掘金，老大已批「做」）。
 
 ## Phases
 

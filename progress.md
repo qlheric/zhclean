@@ -1,5 +1,12 @@
 # Progress: S2 zhclean 会话日志
 
+## 2026-10-09 · 发布（DSH）
+
+- **GitHub 发布完成**：远程 `https://github.com/qlheric/zhclean` 已建（老大建的仓），`main`（d705410）与 tag `v0.1.0`（acabca5）均推送成功；`git ls-remote` 远程验证通过。
+- 发布物料 `docs/launch-copy.md` 已落库（About 文案 + qlheric 主页段 + 发布清单 + 放大器建议）。
+- 待办：CI 首跑状态确认（本机 HTTP 通道不通，由老大在 GitHub 页面看）；About 字段填写（文案已给）；干净机器安装复核。
+- 放大器（老大已批「做」）：V2EX 分享创造 / 即刻 X 短帖 / 掘金专栏——物料齐备。
+
 ## 2026-10-09 · 脑侧验收会话㉘（DSH）
 
 - **TASK-028 验收通过**（`0613911`）：判据亲跑（689 passed 零代码改动 / 快速上手 4 条 exit 0 / README「老六类」零残留 + 三处数字一致）；边界零越界。
