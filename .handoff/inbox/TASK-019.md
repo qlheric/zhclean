@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过（判据 1 的 4 红为脑侧 TASK 规格缺陷挂账，见验收结论） |
 | **_Boundary:**（只许动） | `src/zhclean/rules/amount.py`、`src/zhclean/rules/date.py`、`src/zhclean/rules/__init__.py`、`src/zhclean/rules/common.py`（如需公共机制）、`benchmarks/evaluate.py`（**仅 FIELDS 扩至 6 类**）、`tests/test_amount.py`、`tests/test_date.py`（或合并一个测试文件）、`benchmarks/results/**`（评测产物，不入库） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `benchmarks/clean|dirty/*.jsonl` 的 **train 部分**、`src/zhclean/rules/{person,phone,company,address}.py`（参考实现风格）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件。⚡ 特别禁止：读 `benchmarks/generate.py` 词典常量；heldout 只在定版后跑一次** |
 | **_Depends:**（依赖） | TASK-018（已通过，`714997a`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `938dd6a`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -77,3 +77,11 @@ git status --porcelain -uall
 - 建议实现顺序：先看 train 脏集样本（可读数据文件）→ 写测试代表用例 → 规则 → 注册 + evaluate FIELDS → 跑判据 2 看真实数。
 - 大写数字轴（壹/贰/叁）已裁定单开一单，本单不做。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-019.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过（含一处脑侧认账）**。判据 2 亲跑达标：train 六类总盘 78.54%（amount 40.88% / date 85.75%——abbrev 28.75% 已顶可回收天花板、其余四列 100%；**老四类逐位零回归**）。
+- **判据 1 的 4 红为脑侧 TASK 规格缺陷**：扩 evaluate.py FIELDS 必然打红硬编码 4 字段的 `tests/test_evaluate.py`，而该文件不在本单边界内——判据与边界数学上不可能同时满足，是我写 TASK 的错。手按老大裁定「守边界、留红、上报」处置**正确，不记失分**。
+- §5 裁决：A（amount 干净集双形态混装）采纳修纯数字口径；B（_wan :.4f 截断）采纳改 :.10g；C（test_evaluate 硬编码）采纳从 ev.FIELDS 派生（根治）——**A/B/C 全部排 TASK-020**。
+- date 已顶天花板不再调。amount 40.88% 是干净集口径锁死所致、非规则缺陷（§3.4 预测 89.75% 可复跑）。
+- `_Status: 已完成`；`_Commit: 938dd6a`。
