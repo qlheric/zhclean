@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/tools/audit.py`、`tests/test_audit.py` |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `src/zhclean/**`（normalize 接口）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外任何文件（尤其 benchmarks/generate.py 词典常量——不可读）** |
 | **_Depends:**（依赖） | TASK-009（已通过，`5229d99`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `c40fc9b`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -66,3 +66,12 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀；中文输出加 `PYTHONIOENCODING=utf-8`。
 - audit 是 M1 功能闭环的最后一块；cli.py 串接（normalize/dedupe/audit 三命令）是下一阶段的 TASK。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-010.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 315 passed；②`uv run --project . python -m zhclean.tools.audit` → `audit._demo: OK` exit 0。
+- 边界检查：2 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- **结构化代码审查**（2/2 覆盖 100%）：critical/high/medium 0、low 1（dry_run=False 时 normalize 跑两遍，cli 串接时优化），不阻塞。
+- §5-2 四处口径（dry_run=False 附结果不写文件 / checksum 双绑定 / reason 字段 / 非字符串 other）全采纳。
+- **里程碑：M1 三工具（normalize / dedupe / audit）本体齐。**
+- `_Status: 已完成`；`_Commit: c40fc9b`。

@@ -37,7 +37,7 @@ common.py[DB8S]: F:规则公共件：结构清洗+滑窗/单字错字修复+置�
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/src/zhclean/tools/===
 __init__.py[EG4T]: F:工具包导出三工具 | R:code:src/zhclean/tools/normalize.py | A:import zhclean.tools | S:三工具名固定（normalize/dedupe/audit）
-audit.py[DO7T]: F:audit 工具：清洗报告+dry-run 预览+可回滚 | R:code:src/zhclean/tools/dedupe.py | A:被 cli.py 调用 | S:报告数字必须可复现
+audit.py[DO8S]: F:audit 工具：清洗报告+dry-run+checksum 回滚（纯函数不落盘） | R:code:src/zhclean/tools/normalize.py | A:被 cli.py 调用 | S:报告数字必须可复现
 dedupe.py[KB8S]: F:dedupe 工具：hash 精确+rapidfuzz 语义（先规范化后去重） | R:code:src/zhclean/tools/normalize.py | A:被 cli.py 调用 | S:recall≥95%；阈值不得用测试集调参
 normalize.py[DB8T]: F:normalize 主接口+置信度接口+字段分发 | R:code:src/zhclean/rules/__init__.py | A:被 loop.py 调用 | S:未知 field 恒等不猜
 
@@ -55,7 +55,8 @@ TASK-006.md[SG8T]: F:派单：地址规则（已通过 ddedddc，四类收齐）
 TASK-007.md[SG8T]: F:派单：维护单（已通过 234fe81，重构零漂移） | R:code:src/zhclean/rules/common.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-008.md[SG8T]: F:派单：dedupe 工具（已通过 30e32eb） | R:code:src/zhclean/tools/dedupe.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-009.md[SG8T]: F:派单：dedupe 评测接入（已通过 5229d99，R85.42/P100） | R:code:benchmarks/evaluate_dedupe.py | A:手侧执行入口 | S:状态只有脑能改
-TASK-010.md[SG8T]: F:派单：audit 工具（报告+dry-run+回滚，M1 闭环最后一块） | R:code:src/zhclean/tools/audit.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-010.md[SG8T]: F:派单：audit 工具（已通过 c40fc9b，M1 三工具齐） | R:code:src/zhclean/tools/audit.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-011.md[SG8T]: F:派单：dedupe recall 攻坚（按字段相似度+阈值，precision 守卫） | R:code:src/zhclean/tools/dedupe.py | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -79,6 +80,7 @@ RESULT-006.md[SG7L]: F:回执：TASK-006 地址交付（已通过，含脑侧审
 RESULT-007.md[SG7S]: F:回执：TASK-007 维护单交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-007.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-008.md[SG7S]: F:回执：TASK-008 dedupe 交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-008.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-009.md[SG7S]: F:回执：TASK-009 dedupe 评测交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-009.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-010.md[SG7S]: F:回执：TASK-010 audit 交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-010.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改

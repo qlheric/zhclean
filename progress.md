@@ -1,5 +1,13 @@
 # Progress: S2 zhclean 会话日志
 
+## 2026-10-08 · 脑侧验收会话⑩（DSH）
+
+- **TASK-010 验收通过**（`c40fc9b`）：判据亲跑（315 passed / demo OK）；边界零越界；代码审查 2/2（0 阻塞，low 1）。
+- 四处契约空白口径（dry_run 附结果不写文件 / checksum 双绑定 / reason 字段 / 非字符串 other）全采纳。
+- **里程碑：M1 三工具（normalize / dedupe / audit）本体齐。**
+- **TASK-011 已派**：dedupe recall 攻坚（按字段相似度 + 按字段阈值，precision 守卫，目标 95/95 如实冲）。
+- 下一步：等 RESULT-011 → 亲跑 + 审查验收。
+
 ## 2026-10-08 · 脑侧验收会话⑨（DSH）
 
 - **TASK-009 验收通过**（`5229d99`）：判据亲跑（285 passed / heldout R85.42% P100% F1 92.13% 与回执逐行一致）；边界零越界；代码审查 2/2 零发现（heldout 隔离结构性 + 调用次数测试双保险）。
