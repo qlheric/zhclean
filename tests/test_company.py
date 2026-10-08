@@ -1,7 +1,7 @@
 """公司名规则的不变式测试。
 
 F: space/sep/noise 三类结构清洗代表用例；组织形式缩写补全（可猜的）；不可靠 abbrev 不猜；
-   通用错字修复；置信度 ∈ [0,1]；company 已注册且 person/phone 行为不受影响
+   通用错字修复；值已规范 0.95 档（TASK-015）；置信度 ∈ [0,1]；company 已注册且 person/phone 不受影响
 R: src/zhclean/rules/company.py、src/zhclean/rules/__init__.py
 A: uv run --project . pytest tests/ -q
 S: 只测规则与注册表，不测评测管线内部（那在 test_evaluate.py）
@@ -72,11 +72,18 @@ def test_ambiguous_free_abbrev_expanded():
 
 @pytest.mark.parametrize("dirty", [
     "嘉禾智能有限责任公司",    # 去城市（不可恢复：无从知道原城市）
-    "焦作嘉禾智能",            # 去组织形式整段（不可恢复）
     "焦作嘉禾智能有限公司",    # 有限责任 → 有限（本身合法，无从判断原本是不是有限责任）
 ])
 def test_unreliable_abbrev_not_guessed(dirty):
-    # 不猜：原样返回 + 低置信（对齐 person/abbrev 口径）
+    # 不猜：值原样返回（仍成立）；置信度 0.95 = 「像合法公司名」而非「处理不了」。
+    # ⚠ 已知语义阴影（TASK-015 契约的副作用，见 RESULT-015 §5）：这两条真值其实 ≠ 原值
+    #    （原值含城市 / 含「责任」），却因 _looks_like_company 只看「以组织形式全称结尾」而落 0.95。
+    assert zhclean.normalize_with_confidence(dirty, "company") == (dirty, 0.95)
+
+
+def test_unrecoverable_abbrev_without_org_form_stays_low():
+    # 去组织形式**整段** ⇒ 不像公司名 ⇒ 仍是 0.1 —— 这条与 0.95 分得干净
+    dirty = "焦作嘉禾智能"
     assert zhclean.normalize_with_confidence(dirty, "company") == (dirty, 0.1)
 
 
@@ -122,12 +129,12 @@ def test_cleaning_to_non_company_returns_original():
     assert zhclean.normalize_with_confidence("单位：你好", "company") == ("单位：你好", 0.1)
 
 
-# ---------- 已知限制：本就规范的值无任何改动 ⇒ 低置信（与 person/phone 同口径） ----------
+# ---------- 值已规范：本就规范的值无改动 ⇒ 0.95（TASK-015 拆档；TASK-004 台账里的待细化项） ----------
 
-def test_clean_value_untouched_and_low_confidence():
-    # 注：这是 TASK-004 验收记录的同一条行为（「已合法」语义上该高置信），
-    # 属置信度体系待细化项，不是本单引入的回归。
-    assert zhclean.normalize_with_confidence(VALID, "company") == (VALID, 0.1)
+def test_clean_value_untouched_and_high_confidence():
+    # TASK-015：已规范值不再报 0.1，改报 0.95「值已规范」。
+    for v in (VALID, VALID_GROUP, VALID_CORP, VALID_TECH):
+        assert zhclean.normalize_with_confidence(v, "company") == (v, 0.95)
 
 
 # ---------- 置信度必须落在 [0, 1] ----------

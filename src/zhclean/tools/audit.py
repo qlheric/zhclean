@@ -16,8 +16,9 @@ S: 报告数字必须可复现（同输入同输出）；任何函数都不改�
 
 口径说明（契约空白处我定的，已在 RESULT-010 申报）：
 1. 「改动」= 规范值 != 原值（逐字符）；非字符串 value 由 normalize 原样返回（置信度 0.0）⇒ 计 unchanged、档位 other。
-2. changes 明细在契约五字段外多一个 `reason`（structural / infer / none / other），由置信度档位推出 ——
-   这就是报告里的「为什么」。
+2. changes 明细在契约五字段外多一个 `reason`（clean / structural / infer / none / other），由置信度档位推出 ——
+   这就是报告里的「为什么」。TASK-015 加 `clean`（0.95，值已规范，与 none 互斥；changes 里不会出现它，
+   因为它必然 after == value ⇒ 不计入 changes）。
 3. dry_run=False 时，报告额外带 `cleaned_rows` 与 `backup`（即 apply 的结果）；计数部分与 dry_run=True 完全相同。
 4. checksum 同时绑定「原行」与「清洗后行」：sha256(规范 JSON {"rows": 原行, "cleaned": 清洗后行})。
    所以拿错备份、备份被篡改、清洗结果在回滚前被改过，都会被拒。
@@ -32,16 +33,19 @@ import math
 import sys
 from typing import Any
 
-from ..rules.common import CONF_INFER, CONF_NONE, CONF_STRUCTURAL
+from .._compat import utf8_stdio
+from ..rules.common import CONF_CLEAN, CONF_INFER, CONF_NONE, CONF_STRUCTURAL
 from .normalize import normalize_with_confidence
 
 DEFAULT_MAX_CHANGES = 1000
 
-# 置信度档位：键是报告里的字符串（JSON 友好），值是 (档位值, 原因说明)
+# 置信度档位：键是报告里的字符串（JSON 友好），值是 (档位值, 原因说明)。
+# 顺序即报告显示顺序（高 → 低）；TASK-015 加 "0.95" = 值已规范（与 "0.1" 语义互斥）。
 _BANDS: tuple[tuple[str, float, str], ...] = (
+    ("0.95", CONF_CLEAN, "clean"),           # 值已规范：结构干净 + 像合法值，无需改动
     ("0.9", CONF_STRUCTURAL, "structural"),  # 结构清洗命中（去空白/分隔符/噪声）
     ("0.7", CONF_INFER, "infer"),            # 推断层命中（错字修复/缩写补全）
-    ("0.1", CONF_NONE, "none"),              # 无证据，原样返回
+    ("0.1", CONF_NONE, "none"),              # 无证据 / 拿不准，原样返回
 )
 _OTHER = ("other", "other")
 
@@ -216,6 +220,7 @@ def _demo() -> None:
 
 
 if __name__ == "__main__":
+    utf8_stdio()  # 用法/报错含中文，Windows 控制台默认 cp936 会写坏（TASK-015）
     # `--demo` 与无参等价（TASK §2.5 写带参、§3 判据写无参，两种都支持）
     if len(sys.argv) > 1 and sys.argv[1] != "--demo":
         sys.exit(f"用法: python -m zhclean.tools.audit [--demo]，未知参数 {sys.argv[1:]}")

@@ -28,6 +28,7 @@ from typing import Any
 
 from rapidfuzz import fuzz
 
+from .._compat import utf8_stdio
 from .normalize import normalize
 
 DEFAULT_THRESHOLD = 0.85
@@ -326,6 +327,7 @@ def _demo() -> None:
 
 
 if __name__ == "__main__":
+    utf8_stdio()  # 用法/报错含中文，Windows 控制台默认 cp936 会写坏（TASK-015 §2 明列）
     # `--demo` 与无参等价（TASK §2.5 写带参、§3 判据写无参，两种都支持）
     if len(sys.argv) > 1 and sys.argv[1] not in ("--demo",):
         sys.exit(f"用法: python -m zhclean.tools.dedupe [--demo]，未知参数 {sys.argv[1:]}")

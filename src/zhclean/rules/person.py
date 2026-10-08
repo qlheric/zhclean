@@ -5,10 +5,11 @@ R: rules/__init__.py（注册表 DISPATCH）
 A: zhclean.normalize(value, "person")
 S: 词典取自通用知识，不得针对测试扰动模式调参（留出集纪律）
 
-置信度阶梯（本单「简单版」，loop/HITL 后续任务再细化）：
+置信度阶梯（TASK-015 拆档：0.95 与 0.1 语义互斥）：
+    0.95 值已规范（结构本就干净，且本身就像合法人名）⇒ 无需改动
     0.9  结构清洗命中（去空白 / 去分隔符 / 去前后缀标签）—— 无损、可验证
     0.7  同音/形近字纠正命中 —— 有依据，但本质仍是推断
-    0.1  什么都没做（无证据）→ 原样返回，交给上层（LLM / HITL）
+    0.1  无法处理 / 拿不准（含 abbrev 缺字、陌生用字）→ 原样返回，交给上层（LLM / HITL）
 
 设计取舍（两条铁律派生出来的）：
 1. 结构清洗一旦命中就不再叠加错别字纠正 —— 不做「两层推断」。这样
@@ -23,6 +24,7 @@ from __future__ import annotations
 import re
 
 from .common import (
+    CONF_CLEAN,
     CONF_INFER,
     CONF_NONE,
     CONF_STRUCTURAL,
@@ -114,6 +116,11 @@ def normalize_person(value: str) -> tuple[str, float]:
     fixed, typo_hit = apply_table(given, TYPO_TO_CORRECT)
     if typo_hit and _looks_like_name(surname + fixed):
         return surname + fixed, CONF_INFER
+
+    # 第 3 层：没改动，但值本身已像合法人名 ⇒ 「值已规范」（TASK-015）。
+    # 此处 core == value（前两层都没命中），判 value 与判 core 等价；返回 value 保证输出字节不变。
+    if _looks_like_name(value):
+        return value, CONF_CLEAN
 
     # 没证据（含 abbrev 缺字、名字用字不认识）：原样返回，交上层。
     return value, CONF_NONE

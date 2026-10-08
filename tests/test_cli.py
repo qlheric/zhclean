@@ -2,7 +2,7 @@
 
 F: tmp 文件进出（真实 train 脏数据子集）；默认 dedupe=adaptive 与 --plain 对照；audit dry-run 不写文件；
    --apply 写 cleaned + backup；rollback 往返恢复原值；checksum 破坏被拒；退出码 0/1/2；参数校验；
-   stdin/stdout 管道；真实子进程冒烟；console script 中文输出回归（不带 PYTHONIOENCODING）
+   stdin/stdout 管道；真实子进程冒烟；console script 与四个 `-m` 入口的中文输出回归（不带 PYTHONIOENCODING）
 R: src/zhclean/cli.py
 A: uv run --project . pytest tests/test_cli.py -q
 S: 真实数据只取 benchmarks/dirty/*.jsonl 的 train 行，且只保留 id/field/value（不带 truth）；不碰 heldout
@@ -326,3 +326,28 @@ def test_entry_point_normalize_pipe_is_utf8_jsonl():
                        capture_output=True, cwd=ROOT, env=_no_encoding_env())
     assert p.returncode == 0
     assert json.loads(p.stdout.decode("utf-8", errors="replace"))["normalized"] == "范童言"
+
+
+# ---- 乱码回归：四个 `python -m` 入口（TASK-015 §2.5-③ 把修复抽成 _compat） ------
+@pytest.mark.parametrize("module", ["zhclean.cli", "zhclean.loop",
+                                    "zhclean.tools.audit", "zhclean.tools.dedupe"])
+def test_m_entry_usage_message_is_utf8(module):
+    """四个入口的 `__main__` 都调 `_compat.utf8_stdio`：无 PYTHONIOENCODING 时中文必须是 utf-8。
+
+    修复前 loop / audit / dedupe 的 `__main__` 没设编码 ⇒ 用法提示是 cp936 字节，
+    这里 decode("utf-8") 解不出来 ⇒ 断言失败（回归生效）。
+    """
+    p = subprocess.run([sys.executable, "-m", module, "--bogus"],
+                       capture_output=True, cwd=ROOT, env=_no_encoding_env())
+    assert p.returncode != 0                                     # cli 走 argparse→2；三个 demo→1
+    assert "用法" in p.stderr.decode("utf-8", errors="replace")   # 中文提示：utf-8 而非 GBK
+
+
+@pytest.mark.parametrize("module, ok", [("zhclean.loop", "loop._demo: OK"),
+                                        ("zhclean.tools.audit", "audit._demo: OK"),
+                                        ("zhclean.tools.dedupe", "dedupe._demo: OK")])
+def test_m_entry_demo_runs_ok(module, ok):
+    """三个 demo 入口无参可跑且打印 OK（证明 utf8_stdio() 调用没把入口跑挂）。"""
+    p = subprocess.run([sys.executable, "-m", module], capture_output=True, cwd=ROOT,
+                       env=_no_encoding_env())
+    assert p.returncode == 0 and ok in p.stdout.decode("utf-8", errors="replace")

@@ -1,7 +1,7 @@
 """电话规则的不变式测试。
 
-F: space/sep/abbrev(国家码)/noise 四类代表性用例；数字形近修复；修坏不返回；置信度 ∈ [0,1]；
-   phone 已注册且 person 行为不受影响
+F: space/sep/abbrev(国家码)/noise 四类代表性用例；数字形近修复；修坏不返回；
+   值已规范 0.95 档（TASK-015）；置信度 ∈ [0,1]；phone 已注册且 person 行为不受影响
 R: src/zhclean/rules/phone.py、src/zhclean/rules/__init__.py
 A: uv run --project . pytest tests/ -q
 S: 只测规则与注册表，不测评测管线内部（那在 test_evaluate.py）
@@ -82,6 +82,13 @@ def test_repair_confidence_is_lower_than_structural():
     assert value == VALID and 0.0 < conf < 0.9
 
 
+# ---------- 值已规范：合法号码无改动 ⇒ 0.95（TASK-015 拆档） ----------
+
+@pytest.mark.parametrize("value", ["15745524079", "13812345678", "19900000000"])
+def test_clean_value_untouched_and_high_confidence(value):
+    assert zhclean.normalize_with_confidence(value, "phone") == (value, 0.95)
+
+
 # ---------- 修坏不返回：位数 / 开头校验挡在门外 ----------
 
 @pytest.mark.parametrize("dirty", [
@@ -124,4 +131,5 @@ def test_person_unaffected_by_phone():
     assert zhclean.normalize("王·小明", "person") == "王小明"
     assert zhclean.normalize("姓名：王小明", "person") == "王小明"
     # 反向：电话规则不会把人名当号码（person handler 仍归属 person 字段）
-    assert zhclean.normalize_with_confidence("王小明", "person") == ("王小明", 0.1)
+    # 置信度 0.95（TASK-015：「王小明」像合法人名 ⇒ 值已规范，不再是 0.1）
+    assert zhclean.normalize_with_confidence("王小明", "person") == ("王小明", 0.95)

@@ -5,10 +5,11 @@ R: rules/__init__.py（注册表 DISPATCH）
 A: zhclean.normalize(value, "address")
 S: 词典取自通用知识，不得针对测试扰动模式调参（留出集纪律）
 
-置信度阶梯（沿用 person/phone/company 档位）：
+置信度阶梯（TASK-015 拆档：0.95 与 0.1 语义互斥）：
+    0.95 值已规范（结构本就干净，且本身就像地址 —— 含数字 + 结构标记）
     0.9  结构清洗命中（去空白 / 分隔符 / 前后缀噪声）—— 无损、可验证
     0.7  推断层命中（行政区划标记补全 / 错字修复）—— 有依据，但本质仍是推断
-    0.1  什么都没做（无证据）→ 原样返回，交给上层（LLM / HITL）
+    0.1  无法处理 / 拿不准（含「整段省级单位被删」的不可恢复型）→ 原样返回，交上层
 
 设计取舍（与 person / phone / company 的差异，写清楚免得下一个人照抄错）：
 1. 地址**没有**电话那样的客观校验闸门（「11 位、1[3-9] 开头」），故沿用 person/company 的
@@ -50,6 +51,7 @@ from __future__ import annotations
 import re
 
 from .common import (
+    CONF_CLEAN,
     CONF_INFER,
     CONF_NONE,
     CONF_STRUCTURAL,
@@ -279,6 +281,12 @@ def normalize_address(value: str) -> tuple[str, float]:
     completed, adm_hit = _complete_admin(core)
     if adm_hit and _looks_like_address(completed):
         return completed, CONF_INFER
+
+    # 第 3 层：没改动，但值本身已像地址 ⇒ 「值已规范」（TASK-015）。
+    # 已知语义阴影：`_looks_like_address` 只看「有数字 + 有结构标记」，故「去省段」型脏值
+    # （如「贵阳市城关区建设路596号」，原值含省）也会落进 0.95 —— 量化见 RESULT-015 §5。
+    if _looks_like_address(value):
+        return value, CONF_CLEAN
 
     # 没证据（含「整段省级单位被删」的不可恢复型）：原样返回，交上层。
     return value, CONF_NONE

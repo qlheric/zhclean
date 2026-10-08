@@ -1,7 +1,8 @@
 """人名规则 + normalize 接口的不变式测试。
 
-F: space/sep/noise 三类代表性用例；typo 通用表（错→正）；abbrev 不猜（低置信）；
-   未知 field 恒等；confidence ∈ [0,1]；evaluate 的 rules 键存在且可跑
+F: space/sep/noise 三类代表性用例；typo 通用表（错→正）；abbrev 不猜（原值返回）；
+   值已规范 0.95 档（TASK-015）；未知 field 恒等；confidence ∈ [0,1]；
+   evaluate 的 rules 键存在且可跑
 R: src/zhclean/rules/person.py、src/zhclean/tools/normalize.py、benchmarks/evaluate.py
 A: uv run --project . pytest tests/ -q
 S: 只测规则与接口，不测评测管线内部（那在 test_evaluate.py）
@@ -72,11 +73,14 @@ def test_ambiguous_chars_left_alone(name):
     assert zhclean.normalize(name, "person") == name
 
 
-# ---------- abbrev：缺字无法可靠恢复 → 不猜，低置信返回原值 ----------
+# ---------- abbrev：缺字无法可靠恢复 → 不猜，原值返回 ----------
 
 @pytest.mark.parametrize("dirty", ["王明", "李华", "范童"])
 def test_abbrev_not_guessed(dirty):
-    assert zhclean.normalize_with_confidence(dirty, "person") == (dirty, 0.1)
+    # 不猜：值原样返回（仍成立）；置信度 0.95 = 「像合法人名」而非「处理不了」。
+    # ⚠ 已知语义阴影（TASK-015 契约的副作用，见 RESULT-015 §5）：abbrev 缺字后的串
+    #    （「王明」来自「王小明」）与真·两字名**无法区分**，故也落 0.95（过誉）。
+    assert zhclean.normalize_with_confidence(dirty, "person") == (dirty, 0.95)
 
 
 # ---------- 未知 field / 未注册 field：恒等 ----------

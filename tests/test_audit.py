@@ -21,13 +21,13 @@ def row(i, v, f="person"):
     return {"id": i, "field": f, "value": v}
 
 
-# 档位已亲测（RESULT-010 §3）：0.9 结构清洗 / 0.7 错字修复 / 0.1 原样
+# 档位已亲测（RESULT-010 §3）：0.95 已规范 / 0.9 结构清洗 / 0.7 错字修复 / 0.1 原样
 ROWS = [
-    row(1, "王 小明"),                  # → 王小明，0.9
-    row(2, "王小明"),                   # 不改，0.1
-    row(3, "范同言"),                   # → 范童言，0.7
+    row(1, "王 小明"),                  # → 王小明，0.9（结构清洗）
+    row(2, "王小明"),                   # 不改，0.95（值已规范，TASK-015）
+    row(3, "范同言"),                   # → 范童言，0.7（错字修复）
     row(4, "138-1234-5678", "phone"),   # → 13812345678，0.9
-    row(5, "13812345678", "phone"),     # 不改，0.1
+    row(5, "13812345678", "phone"),     # 不改，0.95（值已规范，TASK-015）
 ]
 
 
@@ -51,7 +51,8 @@ def test_report_by_field(rows):
 
 
 def test_report_by_confidence(rows):
-    assert audit(rows)["by_confidence"] == {"0.9": 2, "0.7": 1, "0.1": 2, "other": 0}
+    # TASK-015：新增 "0.95" 档（值已规范）；原来的 "0.1" 归零（这两条已规范值不再算「拿不准」）
+    assert audit(rows)["by_confidence"] == {"0.95": 2, "0.9": 2, "0.7": 1, "0.1": 0, "other": 0}
 
 
 def test_non_string_value_counts_as_other_unchanged():
@@ -191,7 +192,8 @@ def test_deterministic(rows):
 
 def test_format_report_contents(rows):
     text = format_report(audit(rows))
-    for s in ("dry-run", "总行数 5", "改动 3", "未改 2", "person", "phone", "0.9", "0.7", "0.1", "列出 3 条"):
+    for s in ("dry-run", "总行数 5", "改动 3", "未改 2", "person", "phone",
+              "0.95", "0.9", "0.7", "0.1", "列出 3 条"):
         assert s in text
     assert "已截断" in format_report(audit(rows, max_changes=1))
     assert "已应用" in format_report(audit(rows, dry_run=False))

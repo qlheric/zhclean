@@ -5,10 +5,11 @@ R: rules/__init__.py（注册表 DISPATCH）
 A: zhclean.normalize(value, "phone")
 S: 形近表取自通用 OCR 知识，不得针对测试扰动模式调参（留出集纪律）
 
-置信度阶梯（沿用 person 档位）：
+置信度阶梯（TASK-015 拆档：0.95 与 0.1 语义互斥）：
+    0.95 值已规范（结构本就干净，且本身已是合法号码）⇒ 无需改动
     0.9  结构清洗命中（去国家码 / 空白 / 分隔符 / 前后缀）—— 无损、可验证
     0.7  数字形近修复命中（O→0 之类）—— 有依据，但本质仍是推断
-    0.1  什么都没做（无证据）→ 原样返回，交给上层（LLM / HITL）
+    0.1  无法处理 / 拿不准（含缺位、位数不对）→ 原样返回，交给上层（LLM / HITL）
 
 设计取舍（与 person 的关键差异，写清楚免得下一个人照抄错）：
 person 是「结构层命中即返回、不叠加推断层」，因为人名洗出来没有客观判据。
@@ -22,6 +23,7 @@ from __future__ import annotations
 import re
 
 from .common import (
+    CONF_CLEAN,
     CONF_INFER,
     CONF_NONE,
     CONF_STRUCTURAL,
@@ -94,6 +96,10 @@ def normalize_phone(value: str) -> tuple[str, float]:
     fixed, typo_hit = apply_table(out, CONFUSABLE_TO_DIGIT)
     if typo_hit and _is_valid(fixed):
         return fixed, CONF_INFER
+
+    # 第 3 层：没改动，但值本身已是合法号码 ⇒ 「值已规范」（TASK-015）。输出仍是 value，字节不变。
+    if _is_valid(value):
+        return value, CONF_CLEAN
 
     # 没证据（含缺位、位数不对、修完仍不合法）：原样返回，交上层。
     return value, CONF_NONE

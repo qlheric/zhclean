@@ -27,12 +27,12 @@ I/O 约定：
 from __future__ import annotations
 
 import argparse
-import io
 import json
 import sys
 from pathlib import Path
 from typing import TextIO
 
+from ._compat import utf8_stdio
 from .tools.audit import apply, audit, format_report, rollback
 from .tools.dedupe import DEFAULT_THRESHOLD, dedupe, dedupe_adaptive
 from .tools.normalize import normalize_with_confidence
@@ -262,10 +262,10 @@ def main(argv: list[str] | None = None, stdin: TextIO | None = None,
     stdin = sys.stdin if stdin is None else stdin
     stdout = sys.stdout if stdout is None else stdout
     stderr = sys.stderr if stderr is None else stderr
-    # 乱码修复（TASK-014 §2.5-①）：真实进程（没注入流）才动真控制台编码。
+    # 乱码修复（TASK-014 §2.5-①，TASK-015 抽到 _compat）：真实进程（没注入流）才动真控制台编码。
     # 放在这里而不是 `__main__`，是因为 console script 直接调 main()、不走 `__main__`。
     if stdout is sys.stdout and stderr is sys.stderr:
-        _utf8_stdio()
+        utf8_stdio()
     parser = build_parser()
     try:
         args = parser.parse_args(argv)
@@ -283,16 +283,6 @@ def main(argv: list[str] | None = None, stdin: TextIO | None = None,
     except OSError as e:  # 写文件失败、权限等
         print(f"错误：文件读写失败：{e}", file=stderr)
         return EXIT_RUNTIME
-
-
-def _utf8_stdio() -> None:
-    """真实进程里把 stdout/stderr 设成 utf-8（Windows 控制台默认 cp936 会写坏部分汉字）。
-
-    注入的 StringIO（测试）不是 TextIOWrapper，isinstance 直接跳过，天然安全。
-    """
-    for s in (sys.stdout, sys.stderr):
-        if isinstance(s, io.TextIOWrapper):
-            s.reconfigure(encoding="utf-8")
 
 
 if __name__ == "__main__":

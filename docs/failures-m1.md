@@ -79,14 +79,18 @@ heldout 样本小，不作泛化承诺；train 上剩下的错误**全部在 per
 
 ```bash
 # 规范化（默认只评 heldout）
-PYTHONIOENCODING=utf-8 uv run --project . python -m benchmarks.evaluate --impl rules
+uv run --project . python -m benchmarks.evaluate --impl rules
 
 # 去重：train（真实水平基准）
-PYTHONIOENCODING=utf-8 uv run --project . python -m benchmarks.evaluate_dedupe --split train --threshold 0.85 --adaptive
+uv run --project . python -m benchmarks.evaluate_dedupe --split train --threshold 0.85 --adaptive
 
 # 去重：heldout
-PYTHONIOENCODING=utf-8 uv run --project . python -m benchmarks.evaluate_dedupe --split heldout --threshold 0.85 --adaptive
+uv run --project . python -m benchmarks.evaluate_dedupe --split heldout --threshold 0.85 --adaptive
 ```
+
+> 注：`benchmarks/*` 的输出是纯 ASCII（字段名 / 扰动名都是英文），本来就不涉及中文编码；
+> 原先的 `PYTHONIOENCODING=utf-8` 前缀是多余的，TASK-015 已清掉（四个 CLI/demo 入口的
+> 中文输出改由 `src/zhclean/_compat.py` 的 `utf8_stdio()` 负责）。
 
 失败明细分别在 `failures-rules-heldout.jsonl` 和 `dedupe-errors-{train,heldout}.jsonl`。⚠️ 失败案例里带真值，这是「失败案例公开」口径有意为之；脱敏开关留到发布前再定。
 

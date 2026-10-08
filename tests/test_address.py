@@ -2,7 +2,7 @@
 
 F: space/sep/noise 三类结构清洗代表用例；行政区划标记补全（可无歧义补的）；
    不可靠 abbrev 不猜；通用错字修复 + 三条单字守卫的**误伤回归**；
-   置信度 ∈ [0,1]；address 已注册且 person/phone/company 行为不受影响
+   置信度 ∈ [0,1]；「值已规范 0.95」档（TASK-015）；address 已注册且其余字段不受影响
 R: src/zhclean/rules/address.py、src/zhclean/rules/__init__.py
 A: uv run --project . pytest tests/ -q
 S: 只测规则与注册表，不测评测管线内部（那在 test_evaluate.py）
@@ -83,8 +83,23 @@ def test_ambiguous_free_abbrev_expanded(dirty, expected):
     "香港特别行政区中西区皇后大道1号",            # 已带后缀 ⇒ 不重复补
 ])
 def test_unreliable_abbrev_not_guessed(dirty):
-    # 不猜：原样返回 + 低置信（对齐 person/company abbrev 口径）
-    assert zhclean.normalize_with_confidence(dirty, "address") == (dirty, 0.1)
+    # 不猜：值原样返回（仍成立）；置信度 0.95 = 「像合法地址」而非「处理不了」。
+    # ⚠ 已知语义阴影（TASK-015 契约的副作用，见 RESULT-015 §5）：「去省段」型（前两条）
+    #    真值其实不等于原值，却因 _looks_like_address 只判「有数字 + 有标记字」而落 0.95。
+    assert zhclean.normalize_with_confidence(dirty, "address") == (dirty, 0.95)
+
+
+def test_looks_valid_but_truncated_reports_clean_shadow():
+    """把上面那条阴影**显式钉住**：值没被改（正确），但置信度 0.95 声称「已规范」（过誉）。
+
+    TASK-015 契约要求判据用「已有的 _looks_like_*」，故这是**照契约实现**的预期结果，
+    不是回归。若日后收严 `_looks_like_address`（如要求含省段 / 要求以号室结尾），
+    本用例应随之改；改前它是「已知阴影」的守卫，防止有人误以为 0.95 ⇒ 一定正确。
+    """
+    truncated = "贵阳市城关区建设路596号"          # 真值应为「贵州省」+ 此串
+    value, conf = zhclean.normalize_with_confidence(truncated, "address")
+    assert (value, conf) == (truncated, 0.95)     # 没猜（值不变），但报了「已规范」
+    assert value != "贵州省" + truncated          # 真值确实没被恢复 —— 阴影在此
 
 
 # ---------- typo：行政区划名 / 道路门牌结构字的通用错字修复 ----------
@@ -131,7 +146,8 @@ def test_district_word_repaired_only_before_district_suffix(dirty, expected):
     "北京市朝阳区城楠花园5号楼302室",            # 楠→南 会造出「城南」，但后跟「花」⇒ 不修
 ])
 def test_district_word_not_repaired_when_not_before_district_suffix(value):
-    assert zhclean.normalize_with_confidence(value, "address") == (value, 0.1)
+    # 不修（值不变）；置信度 0.95：这些是**合法小区名**，不修=正确 ⇒ 落「值已规范」
+    assert zhclean.normalize_with_confidence(value, "address") == (value, 0.95)
 
 
 def test_one_to_many_typo_disambiguated_by_position():
@@ -161,7 +177,8 @@ def test_typo_confidence_is_infer_level():
     "广东省深圳市南山区科技园2栋3单元401室",  # 无错字
 ])
 def test_single_char_guards_do_not_damage_real_names(value):
-    assert zhclean.normalize_with_confidence(value, "address") == (value, 0.1)
+    # 守卫按预期**没动**这些合法专名；置信度 0.95（没改 = 值已规范）
+    assert zhclean.normalize_with_confidence(value, "address") == (value, 0.95)
 
 
 def test_single_char_guards_still_fix_real_typos():
@@ -184,12 +201,12 @@ def test_address_shape_not_conflated_with_other_fields():
         assert zhclean.normalize_with_confidence(value, "address") == (value, 0.1)
 
 
-# ---------- 已知限制：本就规范的值无任何改动 ⇒ 低置信（与 person/phone/company 同口径） ----------
+# ---------- 值已规范：本就规范的值无改动 ⇒ 0.95（TASK-015 拆档；TASK-004 台账里的待细化项） ----------
 
-def test_clean_value_untouched_and_low_confidence():
-    # 注：这是 TASK-004 验收记录的同一条行为（「已合法」语义上该高置信），
-    # 属置信度体系待细化项，不是本单引入的回归。
-    assert zhclean.normalize_with_confidence(VALID, "address") == (VALID, 0.1)
+def test_clean_value_untouched_and_high_confidence():
+    # TASK-015：已规范值不再报 0.1（那是「处理不了」的档），改报 0.95「值已规范」。
+    assert zhclean.normalize_with_confidence(VALID, "address") == (VALID, 0.95)
+    assert zhclean.normalize_with_confidence(VALID_ROOM, "address") == (VALID_ROOM, 0.95)
 
 
 # ---------- 置信度必须落在 [0, 1] ----------

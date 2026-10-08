@@ -1,7 +1,8 @@
 """Agent Loop 骨架的不变式测试。
 
-F: observe→think→act 编排：有把握才落（`_before` 口径同 audit）/ 低置信进 hitl 且原值保留 /
-   坏行与单行异常都只记 errors 不中断 / max_steps 停止条件 / 空输入 / 确定性 / 入参不被修改
+F: observe→think→act 编排：有把握才落（`_before` 口径同 audit）/ 三桶语义（cleaned /
+   unchanged / hitl，TASK-015）/ 坏行与单行异常都只记 errors 不中断 / max_steps 停止条件 /
+   空输入 / 确定性 / 入参不被修改
 R: src/zhclean/loop.py、src/zhclean/tools/normalize.py
 A: uv run --project . pytest tests/test_loop.py -q
 S: 只用手写样例，不读 benchmarks 数据/词典；不联网
@@ -21,12 +22,12 @@ def row(i, v, f="person"):
     return {"id": i, "field": f, "value": v}
 
 
-# 档位已亲测（RESULT-010 §3）：0.9 结构清洗 / 0.7 错字修复 / 0.1 原样
+# 档位已亲测（RESULT-010 §3 + TASK-015）：0.95 已规范 / 0.9 结构清洗 / 0.7 错字修复 / 0.1 原样
 ROWS = [
     row(1, "王 小明"),                  # → 王小明，0.9 → cleaned，带 _before
     row(2, "李 四"),                    # → 李四，  0.9 → cleaned，带 _before
-    row(3, "王小明"),                   # 不改，0.1 → hitl
-    row(4, "138-1234-5678", "phone"),   # → 13812345678，0.9 → cleaned
+    row(3, "王小明"),                   # 不改，0.95 → cleaned（值已规范，TASK-015），无 _before
+    row(4, "138-1234-5678", "phone"),   # → 13812345678，0.9 → cleaned，带 _before
 ]
 
 
@@ -38,9 +39,9 @@ def rows():
 # ---- 正常清洗（observe→think→act 走通） --------------------------------------
 def test_cleaned_replaces_value_and_keeps_before(rows):
     out = run_loop(rows)
-    assert [r["id"] for r in out["cleaned"]] == [1, 2, 4]
+    assert [r["id"] for r in out["cleaned"]] == [1, 2, 3, 4]
     assert (out["cleaned"][0]["value"], out["cleaned"][0]["_before"]) == ("王小明", "王 小明")
-    assert out["cleaned"][2]["value"] == "13812345678" and out["cleaned"][2]["_before"] == "138-1234-5678"
+    assert out["cleaned"][3]["value"] == "13812345678" and out["cleaned"][3]["_before"] == "138-1234-5678"
     assert out["errors"] == [] and out["steps"] == 4
 
 
@@ -53,40 +54,49 @@ def test_before_only_added_when_value_really_changed(rows, monkeypatch):
 
 def test_return_shape_and_extra_keys_are_preserved(rows):
     out = run_loop(rows)
-    assert set(out) == {"cleaned", "hitl", "errors", "steps"}
+    assert set(out) == {"cleaned", "unchanged", "hitl", "errors", "steps"}  # TASK-015 加 unchanged
     assert out["cleaned"][0]["id"] == 1 and out["cleaned"][0]["field"] == "person"  # 原字段保留
 
 
-# ---- 低置信 HITL -------------------------------------------------------------
-def test_low_confidence_goes_to_hitl_with_original_value(rows):
+# ---- 三桶语义（TASK-015）：低置信再按「改没改」分 unchanged / hitl -------------
+def test_clean_value_is_cleaned_not_hitl(rows):
+    """TASK-014 §5-2 记录的「已规范值进 hitl」现象：TASK-015 拆档后消失。"""
     out = run_loop(rows)
-    assert [r["id"] for r in out["hitl"]] == [3]
-    assert out["hitl"][0]["value"] == "王小明" and out["hitl"][0]["confidence"] == 0.1
+    assert [r["id"] for r in out["cleaned"]] == [1, 2, 3, 4] and out["cleaned"][2]["value"] == "王小明"
+    assert out["hitl"] == [] and out["unchanged"] == []
 
 
-def test_unregistered_field_is_hitl_not_cleaned():
-    """未注册字段：normalize 原样返回 + 0.1 → 不猜，进 hitl。"""
+def test_low_confidence_unmodified_goes_to_unchanged():
+    """未注册字段：normalize 原样返回 + 0.1 ⇒ 没改 ⇒ unchanged（不是 hitl）。"""
     out = run_loop([row(1, "随便什么", "unknown")])
-    assert out["cleaned"] == [] and [r["id"] for r in out["hitl"]] == [1]
+    assert out["unchanged"] == [{"id": 1, "field": "unknown", "value": "随便什么", "confidence": 0.1}]
+    assert out["cleaned"] == [] and out["hitl"] == []
+
+
+def test_hitl_is_empty_for_rules_only_m1(rows):
+    """M1 只有 rules：低置信路径恒返回原值 ⇒ 全落 unchanged，hitl 恒空（这是对的，不是 bug）。"""
+    out = run_loop(rows + [row(5, "随便什么", "unknown")])
+    assert out["hitl"] == []
+    assert [r["id"] for r in out["unchanged"]] == [5]
+
+
+def test_low_confidence_but_changed_goes_to_hitl(monkeypatch):
+    """「改了但没把握」才进 hitl：原值保留 + confidence，不落 cleaned。"""
+    monkeypatch.setattr(loop_mod, "normalize_with_confidence", lambda v, f: ("改过的", 0.1))
+    out = run_loop([row(1, "原文")])
+    assert out["hitl"] == [{"id": 1, "field": "person", "value": "原文", "confidence": 0.1}]
+    assert out["unchanged"] == [] and out["cleaned"] == []
 
 
 def test_hitl_threshold_is_configurable(rows):
+    # 阈值抬到 0.95：改过的 0.9 行（1/2/4）落 hitl；已规范的 0.95 行（3）不满足 < ⇒ 仍 cleaned
     out = run_loop(rows, hitl_threshold=0.95)
-    assert out["cleaned"] == [] and [r["id"] for r in out["hitl"]] == [1, 2, 3, 4]
+    assert [r["id"] for r in out["hitl"]] == [1, 2, 4] and out["unchanged"] == []
+    assert [r["id"] for r in out["cleaned"]] == [3]
 
 
 def test_default_threshold_constant_matches_contract():
     assert HITL_THRESHOLD == 0.2
-
-
-def test_already_clean_value_is_hitl_known_artifact():
-    """已知现象（RESULT-014 §5-2）：已规范的值也报 0.1，因此会进 hitl。
-
-    记录当前行为，不是本模块的 bug —— 修在 rules 层（新增「已干净」档）或改 loop 口径，
-    都超出 TASK-014 边界；这里只是让它可见。
-    """
-    out = run_loop([row(1, "王小明")])
-    assert out["hitl"] == [{"id": 1, "field": "person", "value": "王小明", "confidence": 0.1}]
 
 
 # ---- 单条失败不中断 -----------------------------------------------------------
@@ -133,12 +143,12 @@ def test_max_steps_none_processes_everything(rows):
 @pytest.mark.parametrize("n", [0, -1])
 def test_max_steps_below_one_processes_nothing(rows, n):
     out = run_loop(rows, max_steps=n)
-    assert out == {"cleaned": [], "hitl": [], "errors": [], "steps": 0}
+    assert out == {"cleaned": [], "unchanged": [], "hitl": [], "errors": [], "steps": 0}
 
 
 # ---- 空输入 / 确定性 / 不改入参 -----------------------------------------------
 def test_empty_input():
-    assert run_loop([]) == {"cleaned": [], "hitl": [], "errors": [], "steps": 0}
+    assert run_loop([]) == {"cleaned": [], "unchanged": [], "hitl": [], "errors": [], "steps": 0}
 
 
 def test_deterministic_and_input_not_mutated(rows):

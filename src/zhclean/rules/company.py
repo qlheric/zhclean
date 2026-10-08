@@ -5,10 +5,11 @@ R: rules/__init__.py（注册表 DISPATCH）
 A: zhclean.normalize(value, "company")
 S: 词典取自通用知识，不得针对测试扰动模式调参（留出集纪律）
 
-置信度阶梯（沿用 person/phone 档位）：
+置信度阶梯（TASK-015 拆档：0.95 与 0.1 语义互斥）：
+    0.95 值已规范（结构本就干净，且本身就像合法公司名 —— 以组织形式全称结尾）
     0.9  结构清洗命中（去空白 / 分隔符 / 前后缀噪声）—— 无损、可验证
     0.7  推断层命中（组织形式缩写补全 / 错字修复）—— 有依据，但本质仍是推断
-    0.1  什么都没做（无证据）→ 原样返回，交给上层（LLM / HITL）
+    0.1  无法处理 / 拿不准（含不可恢复的缩写「去城市/去组织形式」）→ 原样返回，交上层
 
 设计取舍（与 person / phone 的差异，写清楚免得下一个人照抄错）：
 1. 公司名**没有**电话那样的客观校验闸门（「11 位、1[3-9] 开头」），故沿用 person 的
@@ -30,6 +31,7 @@ S: 词典取自通用知识，不得针对测试扰动模式调参（留出集�
 from __future__ import annotations
 
 from .common import (
+    CONF_CLEAN,
     CONF_INFER,
     CONF_NONE,
     CONF_STRUCTURAL,
@@ -124,6 +126,12 @@ def normalize_company(value: str) -> tuple[str, float]:
     repaired, rep_hit = repair_typos_by_known_words(core, TYPO_TO_CORRECT, _KNOWN_WORDS)
     if rep_hit and _looks_like_company(repaired):
         return repaired, CONF_INFER
+
+    # 第 3 层：没改动，但值本身已像合法公司名 ⇒ 「值已规范」（TASK-015）。
+    # 注意：这层会把「去城市/去组织形式」型缩写（如「焦作嘉禾智能」）判为 0.1（不像），
+    # 而把「本来就是全称」的（如「嘉禾智能有限责任公司」）判为 0.95 —— 后者是已知语义阴影，见 RESULT-015 §5。
+    if _looks_like_company(value):
+        return value, CONF_CLEAN
 
     # 没证据（含不可恢复的缩写、品牌/行业位置的错字）：原样返回，交上层。
     return value, CONF_NONE
