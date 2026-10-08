@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/cli.py`（乱码修复）、`src/zhclean/loop.py`、`tests/test_cli.py`（乱码回归用例）、`tests/test_loop.py`（新建）、`README.md`（删乱码提示行） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `src/zhclean/**`（normalize/dedupe/audit 接口）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件（尤其 benchmarks/generate.py 词典常量——不可读）** |
 | **_Depends:**（依赖） | TASK-013（已通过，`65be228`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `3c28a97`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -71,3 +71,14 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀（乱码回归测试的子进程除外——它要模拟真实用户环境）。
 - loop 是 #1 件功夫（Agent Loop）的核心练习；llm.py 兜底在下一单接进 think 扩展点。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-014.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 425 passed；②无 PYTHONIOENCODING 时 `zhclean --help` 中文正常 exit 0（乱码修复生效）+ `python -m zhclean.loop` → `loop._demo: OK`。
+- 边界检查：5 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- **结构化代码审查**（5/5 覆盖 100%）：critical/high/medium/low 全 0；回归用例经脑侧验证非摆设（旧码下必红）。
+- §5-2 六条空白口径全采纳。
+- **§5-1 口径缺陷裁决**：采纳修法 ①+②（rules 拆 CONF_CLEAN=0.95 + loop HITL 判据改为「低置信且 after != value」+ unchanged 桶），排 TASK-015 一单做完；手按契约字面实现+钉测试是正确的，缺陷在契约。
+- §5-6 三个 demo 入口同病：排 TASK-015 把 `_utf8_stdio` 抽公共模块统一。
+- **里程碑：乱码修复生效 + Agent Loop 骨架落地（#1 件功夫练习件就位）。**
+- `_Status: 已完成`；`_Commit: 3c28a97`。
