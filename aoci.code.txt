@@ -8,7 +8,7 @@ findings.md[SG6S]: F:环境与事实底账（aoci 口径/手脑方案/环境修�
 LICENSE[SG4T]: F:MIT 开源许可 | R:code:README.md | A:发布引用 | S:版权年与署名改前先问
 progress.md[SG5T]: F:会话日志（谁干了什么，按天追加） | R:code:task_plan.md | A:每轮收工登记 | S:只追加不覆盖历史
 pyproject.toml[FV6T]: F:打包与依赖声明（setuptools+src；dev 组含 pytest；zhclean 脚本入口） | R:code:src/zhclean/__init__.py | A:uv/pip install -e . | S:包名 zhclean 固定；加依赖须同步锁文件
-README.md[SG7S]: F:对外说明：一句话卖点+安装+快速上手+benchmark 真实数+失败案例+已知限制+License | R:code:pyproject.toml | A:对外交付件 | S:每次更新必须整理重构不许一味叠加（老大 2026-10-03 令）
+README.md[SG7S]: F:对外说明：六类定版表（M2）+安装+快速上手+失败案例+已知限制+License | R:code:pyproject.toml | A:对外交付件 | S:每次更新必须整理重构不许一味叠加（老大 2026-10-03 令）
 task_plan.md[SG7S]: F:流程规划唯一件：口径锁定/阶段/决策/错误台账 | R:code:README.md | A:开工前先读 | S:状态只有脑能改
 CLAUDE.md[SG9T]: F:手侧契约：手脑方案执行侧规则（机制生成） | R:code:AGENTS.md | A:被手侧会话每次必读 | S:契约块由机制生成勿手改
 uv.lock[FV5T]: F:依赖锁文件（uv 生成） | R:code:pyproject.toml | A:uv sync/run 读取 | S:机器生成勿手改；与 pyproject 同批变更
@@ -68,7 +68,8 @@ TASK-018.md[SG8T]: F:派单：M2 评测集扩展（已通过 714997a） | R:code
 TASK-019.md[SG8T]: F:派单：amount/date 规则（已通过 938dd6a，4 红挂账 TASK-020） | R:code:src/zhclean/rules/amount.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-020.md[SG8T]: F:派单：修复单（已通过 4eff077，amount 99%） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-021.md[SG8T]: F:派单：M2 定版单（已通过 ce36e97，heldout 87.92%） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
-TASK-022.md[SG8T]: F:派单：M2 文档更新（定版数落 README/台账） | R:code:README.md | A:手侧执行入口 | S:状态只有脑能改
+TASK-022.md[SG8T]: F:派单：M2 文档更新（已通过 16d02f4） | R:code:README.md | A:手侧执行入口 | S:状态只有脑能改
+TASK-023.md[SG8T]: F:派单：第三批字段评测集（idcard/email 生成器扩展） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -108,6 +109,7 @@ RESULT-018.md[SG7M]: F:回执：TASK-018 M2 评测集交付（已通过，含脑
 RESULT-019.md[SG7M]: F:回执：TASK-019 amount/date 交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-019.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-020.md[SG7M]: F:回执：TASK-020 修复单交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-020.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-021.md[SG7M]: F:回执：TASK-021 M2 定版交付（已通过，含脑侧审查§9） | R:code:.handoff/inbox/TASK-021.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-022.md[SG7S]: F:回执：TASK-022 M2 文档交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-022.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改
@@ -120,8 +122,9 @@ test_address.py[TQ6T]: F:地址规则测试（含约束②两向用例） | R:co
 test_evaluate.py[TQ7M]: F:评测管线测试：字段数从 ev.FIELDS 派生（增字段不红） | R:code:benchmarks/evaluate.py | A:被 pytest 运行 | S:不再硬编码字段数
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/docs/===
-failures-m1.md[SG7S]: F:M1 失败案例公开：分字段×扰动归因+去重对照+复现命令 | R:code:findings.md | A:对外交付件 | S:数字以台账为准；不许重跑 heldout 更新
+failures-m1.md[SG7S]: F:M1 四类失败归因（历史文档，数字仍有效） | R:code:findings.md | A:对外交付件 | S:只加指针不更新数字
 release-checklist.md[SG6T]: F:M1 发布检查单（测试/数字/失败案例/许可证/tag） | R:code:README.md | A:发布前逐项打勾 | S:heldout 发布时不重跑
+failures-m2.md[SG7S]: F:M2 六类定版失败归因（amount 口径两轮修正过程如实公开） | R:code:benchmarks/results/summary-rules-heldout.json | A:对外交付件 | S:数字以定版产物为准；heldout 不重跑
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/docs/examples/===
 sample.jsonl[SG5T]: F:8 行手写样例（README 快速上手用） | R:code:README.md | A:被快速上手命令引用 | S:手写样例非评测数据

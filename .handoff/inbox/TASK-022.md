@@ -6,11 +6,11 @@
 | 日期 | 2026-10-09 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `README.md`、`docs/failures-m1.md`、`docs/failures-m2.md`（可新建，仅归因不重跑评测）、`findings.md` |
 | **_Capability:**（只许用） | 写 Markdown 文档；跑 `uv run` / `pytest` 命令（代码零改动验证）；读 `findings.md`、`task_plan.md`、RESULT-021 定版表、`.handoff/**`。**禁止：联网、改代码、git commit、调用其他 agent、动范围外文件；⚡ heldout 不重跑（定版已锁）、不读 generate.py 词典常量** |
 | **_Depends:**（依赖） | TASK-021（已通过，`ce36e97`，M2 定版数字锁定） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `16d02f4`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -66,3 +66,11 @@ git status --porcelain -uall
 - README 纪律（老大 2026-10-03 令）：每次更新整理重构——先通读全文、删过时项、合并重复段、按读者视角重排，再落新内容。
 - M2 定版数字已锁定；后续任何规则/数据改动须重跑 heldout 重定版（新 TASK）。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-022.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过**。判据亲跑：①564 passed（代码零改动）；②数字核验（脑侧逐字通过：六类 + 总盘 + train 对照 + 145 失败分解）；③README 通读（一页读完、重构到位、无过时表述）。
+- 边界零越界（4 文档）。
+- §5-a 认账：TASK-022 的「20/40」是脑侧笔误（本意 20.00% = 8/40），手按实测写入**正确**；§5-b 措辞修正采纳。
+- **里程碑：M2 文档收官。**
+- `_Status: 已完成`；`_Commit: 16d02f4`。

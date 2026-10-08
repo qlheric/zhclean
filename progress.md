@@ -1,5 +1,13 @@
 # Progress: S2 zhclean 会话日志
 
+## 2026-10-09 · 脑侧验收会话㉒（DSH）
+
+- **TASK-022 验收通过**（`16d02f4`）：判据亲跑（564 passed 代码零改动）；**数字核验脑侧逐字通过**；README 通读（重构到位）。
+- §5-a 认账：TASK-022「20/40」是脑侧笔误（本意 20.00%），手按实测写正确。
+- **里程碑：M2 文档收官**（README 六类定版表 + failures-m2 + 台账）。
+- **TASK-023 已派**：第三批字段评测集（generate.py 加 idcard/email，老六类逐字节不变；idcard 校验码按 GB 11643 真算法）。
+- 下一步：等 RESULT-023 → 亲跑三判据；之后 TASK-024（idcard/email 规则）。
+
 ## 2026-10-09 · 脑侧验收会话㉑（DSH）
 
 - **TASK-021 验收通过**（`ce36e97`）：四判据亲跑（564 passed / 只有 amount 两文件 diff / train amount 100% / **heldout 定版 87.92%**）。
