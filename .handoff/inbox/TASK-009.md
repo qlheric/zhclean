@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `benchmarks/evaluate_dedupe.py`、`tests/test_evaluate_dedupe.py`、`benchmarks/results/**`（评测产物，不入库） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `benchmarks/clean|dirty/*.jsonl`（数据可读）、`src/zhclean/**`（dedupe/normalize 接口）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件。⚡ 特别禁止：读 `benchmarks/generate.py` 词典常量；禁止从 heldout 反推** |
 | **_Depends:**（依赖） | TASK-008（已通过，`30e32eb`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `5229d99`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -63,3 +63,12 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀；中文输出加 `PYTHONIOENCODING=utf-8`。
 - 坑提醒（RESULT-008 §7）：阈值是 [0,1]，rapidfuzz 分数 0~100，别把 85 直接传 dedupe；dedupe 不看 id（这正是本单用 id 当金标准的理由）；地址长串在 0.85 下可能误并，precision 会如实暴露。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-009.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 285 passed；②`--split heldout --select-threshold` → exit 0、summary 落盘，**heldout 实测 recall 85.42% / precision 100.00% / F1 92.13%**（与回执逐行一致）。
+- 边界检查：2 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- **结构化代码审查**（2/2 覆盖 100%）：critical/high/medium/low 全 0，零发现；heldout 隔离结构性 + 调用次数测试双重保证。
+- §5-3 三条小口径（default 留痕/不开放 all/F1 并列取低）全采纳。
+- **recall 85.42% 未达 95%——如实报数，正确姿势。** 归因（手只在 train 上做）在 normalize 已知短板；下一步：TASK-010 补 M1 功能闭环（audit），TASK-011 攻坚 recall（按字段相似度 + person typo 扩表，precision 守卫）。
+- `_Status: 已完成`；`_Commit: 5229d99`。

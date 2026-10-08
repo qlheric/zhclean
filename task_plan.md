@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-Phase 4（dedupe + audit）→ TASK-008 已通过（`30e32eb`，dedupe 工具）；**TASK-009（dedupe 评测接入：recall+precision+阈值只在 train 选）已派**，手执行中
+Phase 4（dedupe + audit）→ TASK-009 已通过（`5229d99`，dedupe 评测：**heldout recall 85.42% / precision 100%**，如实报数）；**TASK-010（audit 工具）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-009.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；真实 recall/precision 如实汇报。
+手交 `.handoff/outbox/RESULT-010.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；之后 TASK-011（recall 攻坚：按字段相似度 + person typo 扩表）。
 
 ## Phases
 
@@ -67,8 +67,8 @@ Phase 4（dedupe + audit）→ TASK-008 已通过（`30e32eb`，dedupe 工具）
 ### Phase 4: dedupe + audit
 
 - [x] dedupe 工具（TASK-008 已通过 `30e32eb`：hash 精确 + rapidfuzz 语义 + 先规范化；审查零发现）
-- [ ] dedupe 评测接入（TASK-009 执行中：pair recall + precision，阈值只在 train 选）
-- [ ] audit 工具（清洗报告 + dry-run 预览 + 可回滚）
+- [x] dedupe 评测接入（TASK-009 已通过 `5229d99`：pair P/R/F1 + train 选阈；**heldout R85.42% / P100%**——recall 未达 95% 如实报，攻坚排 TASK-011）
+- [ ] audit 工具（TASK-010 执行中：清洗报告 + dry-run 预览 + 可回滚）
 - **Status:** in_progress
 
 ### Phase 5: LLM 兜底 + M1 验收
