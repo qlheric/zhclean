@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 5（LLM 兜底 + M1 验收）** → TASK-014 已通过（`3c28a97`，乱码修复生效 + Agent Loop 骨架）；**TASK-015（置信度语义拆分 + loop 桶语义 + 编码统一）已派**，手执行中
+**Phase 5（LLM 兜底 + M1 验收）** → TASK-015 已通过（`47959c4`，CONF_CLEAN 四档 + loop 三桶 + 编码统一，评测零漂移）；**TASK-016（llm.py 兜底接 think，三级闭环）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-015.md` 后：亲跑三条判据（含评测数字零漂移对照）→ 边界检查 → 置状态 → 提交；之后 TASK-016（llm.py 兜底接 think）。
+手交 `.handoff/outbox/RESULT-016.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；之后 M1 收官盘点（CI/发布件）。
 
 ## Phases
 

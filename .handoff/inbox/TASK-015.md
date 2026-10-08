@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/rules/common.py`、`src/zhclean/rules/{person,phone,company,address}.py`、`src/zhclean/tools/audit.py`、`src/zhclean/loop.py`、`src/zhclean/cli.py`、`src/zhclean/_compat.py`（新建）、`tests/{test_normalize,test_phone,test_company,test_address,test_audit,test_loop,test_cli}.py`、`docs/failures-m1.md` |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `src/zhclean/**`、`task_plan.md`、`findings.md`、train 失败样本（可）。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件（尤其 benchmarks/generate.py 词典常量——不可读；heldout 不跑）** |
 | **_Depends:**（依赖） | TASK-014（已通过，`3c28a97`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `47959c4`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -65,3 +65,11 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀。
 - 本单是「口径修正」不是功能开发：改动后的 normalize **输出值**不许变（评测数字零漂移是判据 2），变的只是置信度语义与桶划分。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-015.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。三条判据均经脑亲跑：①437 passed；②train 复跑 2757/3200=86.16%（**新旧逐行对照 0 差异**——零漂移实据）；③四入口中文输出 UTF-8 字节（无环境变量）。
+- 边界：18 个改动文件唯一申报件 = dedupe __main__（脑裁定：界内、保留，根因是 TASK 写作自相矛盾，手按最窄读法正确）。
+- **结构化代码审查**（18/18 覆盖 100%）：critical/high/medium/low 全 0。
+- 三拍板裁决：①dedupe 边界界内不记失分（教训：TASK 写作自洽核对）；②0.95 阴影接受现状记 findings（评测集上≈漏、真实数据相反）；③台账笔误认账（85.88% 是 heldout，train 实为 86.16% 已补台账）。
+- `_Status: 已完成`；`_Commit: 47959c4`。
