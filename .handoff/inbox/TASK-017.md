@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `.github/workflows/ci.yml`（新建）、`README.md`（补 License 段）、`docs/release-checklist.md`（新建） |
 | **_Capability:**（只许用） | 写 YAML/Markdown 文档；跑 `uv run` / `pytest` 命令（本地等价验证 CI 步骤）；读 `pyproject.toml`、`README.md`、`LICENSE`、`task_plan.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外任何文件** |
 | **_Depends:**（依赖） | TASK-016（已通过，`5783929`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `1e3213b`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -64,3 +64,11 @@ git status --porcelain -uall
 - README 纪律（老大 2026-10-03 令）：只加 License 段，先通读全文确认不重复。
 - 本单是 M1 的收尾单；完成后 M1 全部收官，进入 M2（金额/日期/身份证/邮箱）。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-017.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。三条判据均经脑亲跑：①467 passed；②CI 本地等价四 demo 全 OK；③系统 python yaml.safe_load 解析通过。
+- 边界：3 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- §5 处置：YAML 用系统 python 合理；**CI 未真跑属诚实标注**——合并后盯首跑，红了按 §5-3 两条兜底；git tag 由维护者执行。
+- **里程碑：M1 全部收官。** 下一单进 M2。
+- `_Status: 已完成`；`_Commit: 1e3213b`。

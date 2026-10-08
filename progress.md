@@ -1,5 +1,13 @@
 # Progress: S2 zhclean 会话日志
 
+## 2026-10-08 · 脑侧验收会话⑰（DSH）
+
+- **TASK-017 验收通过**（`1e3213b`）：三判据亲跑（467 passed / CI 本地等价四 demo / YAML 解析）；边界零越界。
+- §5 处置：CI 未真跑属诚实标注（合并后盯首跑）；git tag 由维护者执行。
+- **里程碑：M1 全部收官。**
+- **Phase 6（M2）启动：TASK-018 已派**——generate.py 扩展 amount/date（老四类逐字节不变卡死）。
+- 下一步：等 RESULT-018 → 亲跑三判据；之后 TASK-019（amount/date 规则）。
+
 ## 2026-10-08 · 脑侧验收会话⑯（DSH）
 
 - **TASK-016 验收通过**（`5783929`）：判据亲跑（467 passed / llm demo OK mock 零网络）；边界零越界；代码审查 6/6 零发现（不给 llm_fn 3206 行×4 参数全等）。

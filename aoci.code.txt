@@ -63,7 +63,8 @@ TASK-013.md[SG8T]: F:派单：M1 验收汇总（已通过 65be228） | R:code:RE
 TASK-014.md[SG8T]: F:派单：乱码修复+Loop（已通过 3c28a97） | R:code:src/zhclean/loop.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-015.md[SG8T]: F:派单：置信度语义拆分（已通过 47959c4，评测零漂移） | R:code:src/zhclean/rules/common.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-016.md[SG8T]: F:派单：llm 兜底接入（已通过 5783929，两件功夫齐） | R:code:src/zhclean/llm.py | A:手侧执行入口 | S:状态只有脑能改
-TASK-017.md[SG8T]: F:派单：M1 收官（CI+License 段+发布检查单） | R:code:.github/workflows/ci.yml | A:手侧执行入口 | S:状态只有脑能改
+TASK-017.md[SG8T]: F:派单：M1 收官（已通过 1e3213b） | R:code:.github/workflows/ci.yml | A:手侧执行入口 | S:状态只有脑能改
+TASK-018.md[SG8T]: F:派单：M2 评测集扩展（generate.py 加 amount/date，老四类零 diff） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -94,6 +95,7 @@ RESULT-013.md[SG7S]: F:回执：TASK-013 M1 文档交付（已通过，含脑侧
 RESULT-014.md[SG7M]: F:回执：TASK-014 乱码修复+Loop 交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-014.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-015.md[SG7M]: F:回执：TASK-015 置信度拆分交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-015.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-016.md[SG7M]: F:回执：TASK-016 llm 兜底交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-016.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-017.md[SG7S]: F:回执：TASK-017 M1 收官交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-017.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改
@@ -106,6 +108,10 @@ test_address.py[TQ6T]: F:地址规则测试（含约束②两向用例） | R:co
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/docs/===
 failures-m1.md[SG7S]: F:M1 失败案例公开：分字段×扰动归因+去重对照+复现命令 | R:code:findings.md | A:对外交付件 | S:数字以台账为准；不许重跑 heldout 更新
+release-checklist.md[SG6T]: F:M1 发布检查单（测试/数字/失败案例/许可证/tag） | R:code:README.md | A:发布前逐项打勾 | S:heldout 发布时不重跑
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/docs/examples/===
 sample.jsonl[SG5T]: F:8 行手写样例（README 快速上手用） | R:code:README.md | A:被快速上手命令引用 | S:手写样例非评测数据
+
+===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.github/workflows/===
+ci.yml[OV6T]: F:CI：windows-latest，uv sync→pytest→四 demo | R:code:pyproject.toml | A:GitHub Actions push/PR 触发 | S:首跑若 uv not found 按 RESULT-017 §5-3 兜底

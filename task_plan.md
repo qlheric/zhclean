@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 5（LLM 兜底 + M1 验收）** → TASK-016 已通过（`5783929`，LLM 兜底三级流，**两件功夫练齐**）；**TASK-017（M1 收官：CI + License 段 + 发布检查单）已派**，手执行中
+**Phase 5 完成（M1 全部收官）** → TASK-017 已通过（`1e3213b`，CI + License 段 + 发布检查单）；**Phase 6（M2）启动：TASK-018（generate.py 扩展 amount/date，老四类逐字节不变）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-017.md` 后：亲跑三条判据 + 审查 → 边界 → 置状态 → 提交；M1 收官后进入 Phase 6（M2 扩展）。
+手交 `.handoff/outbox/RESULT-018.md` 后：亲跑三条判据（老四类零 diff 卡死）→ 边界 → 置状态 → 提交；之后 TASK-019（amount/date 规则）。
 
 ## Phases
 
@@ -78,16 +78,18 @@
 - [x] 乱码修复 + Agent Loop 骨架（TASK-014 已通过 `3c28a97`：zhclean 无环境变量中文正常 + loop observe→think→act + HITL）
 - [x] 置信度语义拆分 + loop 桶语义 + 编码统一（TASK-015 已通过 `47959c4`：CONF_CLEAN=0.95 / unchanged 桶 / _compat.py；评测零漂移）
 - [x] `llm.py` 可插拔 API 兜底（TASK-016 已通过 `5783929`：规则 → LLM → HITL 三级 + llm_max_calls 护栏；**两件功夫练齐**）
-- [ ] M1 收官（TASK-017 执行中：CI + License 段 + 发布检查单）
+- [x] M1 收官（TASK-017 已通过 `1e3213b`：CI + License 段 + 发布检查单）
 - [x] M1 留出集实测：规范化总盘 85.88%（heldout）/ 86.16%（train）；去重 recall heldout 100% / train 99.90%——**报真实数**；失败案例公开（docs/failures-m1.md）
-- **Status:** in_progress
+- **Status:** complete（M1 全部收官）
 
 ### Phase 6: M2 扩展（金额/日期/身份证/邮箱 → 整表清洗）
 
-- [ ] 金额/日期规则词典
+- [ ] M2 评测集扩展（TASK-018 执行中：generate.py 加 amount/date，老四类逐字节不变）
+- [ ] 金额/日期规则词典（TASK-019 排队）
+- [ ] 评测接入 + 真实数报数（TASK-020 排队）
 - [ ] 身份证/邮箱校验（格式级，不做真实性查询）
 - [ ] 整表清洗（CSV/XLSX 进出）
-- **Status:** pending
+- **Status:** in_progress
 
 ## Key Questions
 
