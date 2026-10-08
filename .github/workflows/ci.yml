@@ -1,0 +1,55 @@
+# zhclean · CI（M1 收官，TASK-017 建）
+#
+# 触发：推到 main / 任意 PR。
+# 跑什么：装依赖 → 全量 pytest → 四个 `python -m` demo 自检。
+#
+# 为什么用 windows-latest：本项目在 Windows 上开发，且有「控制台中文编码」的回归测试
+# （无 PYTHONIOENCODING 时四个入口的中文必须是 utf-8 字节，不是 GBK）；windows runner
+# 才会真正复现这套环境。若该 runner 跑不通，改 ubuntu-latest 即可（编码测试在 *nix 上
+# 天然通过，但也就少了那层保护）。
+#
+# 为什么 job 级 `shell: bash`：demo 那步是 `for ... do ... done` 循环，Windows runner 默认
+# 是 pwsh，跑不了 bash 语法。统一成 bash（runner 自带 Git Bash，且默认 `-eo pipefail`，
+# 任一步失败即整步失败）。
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+env:
+  # 部分断言/输出依赖中文；显式声明 utf-8 让子进程行为确定。
+  # 注意：编码回归测试会**主动剥掉**这个变量再 spawn 子进程（模拟真实用户环境），
+  # 所以设它不会削弱那层保护。
+  PYTHONIOENCODING: utf-8
+
+jobs:
+  test:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Sync dependencies (含 dev 组)
+        run: uv sync --project .
+
+      - name: Run tests
+        run: uv run --project . pytest tests/ -q
+
+      - name: Demo 自检（四个入口）
+        run: |
+          for m in zhclean.loop zhclean.tools.audit zhclean.tools.dedupe zhclean.llm; do
+            uv run --project . python -m "$m"
+          done

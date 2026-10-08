@@ -92,3 +92,7 @@ zhclean rollback --cleaned clean.jsonl --backup clean.backup.json --out restored
 - **M2**：金额 / 日期 / 身份证 / 邮箱，整表清洗；引入真实行政区划表。
 
 开发流程走 `.handoff/`（手脑方案），方案口径见 `task_plan.md`。
+
+## License
+
+[MIT](LICENSE) © 2026 qlheric
