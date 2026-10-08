@@ -1,8 +1,9 @@
-"""CLI 端到端测试：normalize / dedupe / audit / rollback 四个子命令。
+"""CLI 端到端测试：normalize / dedupe / audit / rollback / table 五个子命令。
 
 F: tmp 文件进出（真实 train 脏数据子集）；默认 dedupe=adaptive 与 --plain 对照；audit dry-run 不写文件；
-   --apply 写 cleaned + backup；rollback 往返恢复原值；checksum 破坏被拒；退出码 0/1/2；参数校验；
-   stdin/stdout 管道；真实子进程冒烟；console script 与四个 `-m` 入口的中文输出回归（不带 PYTHONIOENCODING）
+   --apply 写 cleaned + backup；rollback 往返恢复原值；checksum 破坏被拒；table 走 CSV（列映射/去重/汇总）；
+   退出码 0/1/2；参数校验；
+   stdin/stdout 管道；真实子进程冒烟；console script 与五个 `-m` 入口的中文输出回归（不带 PYTHONIOENCODING）
 R: src/zhclean/cli.py
 A: uv run --project . pytest tests/test_cli.py -q
 S: 真实数据只取 benchmarks/dirty/*.jsonl 的 train 行，且只保留 id/field/value（不带 truth）；不碰 heldout
@@ -10,6 +11,7 @@ S: 真实数据只取 benchmarks/dirty/*.jsonl 的 train 行，且只保留 id/f
 
 from __future__ import annotations
 
+import csv
 import io
 import json
 import os
@@ -64,15 +66,15 @@ def real_file(tmp_path, real_rows) -> Path:
 
 
 # ---- --help / 退出码 / 参数校验 ------------------------------------------------
-def test_help_lists_four_subcommands(capsys):
+def test_help_lists_all_five_subcommands(capsys):
     assert main(["--help"]) == 0
     text = capsys.readouterr().out
-    for cmd in ("normalize", "dedupe", "audit", "rollback"):
+    for cmd in ("normalize", "dedupe", "audit", "rollback", "table"):
         assert cmd in text
     assert "退出码" in text
 
 
-@pytest.mark.parametrize("cmd", ["normalize", "dedupe", "audit", "rollback"])
+@pytest.mark.parametrize("cmd", ["normalize", "dedupe", "audit", "rollback", "table"])
 def test_subcommand_help_exit_0(cmd, capsys):
     assert main([cmd, "--help"]) == 0
     assert "--" in capsys.readouterr().out
@@ -85,9 +87,13 @@ def test_subcommand_help_exit_0(cmd, capsys):
     ["dedupe", "--threshold", "abc"],                     # 阈值非数字
     ["dedupe", "--threshold", "nan"],                     # NaN
     ["dedupe", "--adaptive", "--plain"],                  # 互斥
-    ["normalize", "--field", "email"],                    # 字段不在四类内
+    ["normalize", "--field", "email"],                    # 字段不在四类内（normalize 只认 4 类）
     ["rollback", "--cleaned", "x.jsonl"],                 # 缺 --backup
     ["audit", "--bogus"],                                 # 未知参数
+    ["table", "--columns", "person"],                     # 列映射缺 `=`
+    ["table", "--columns", "person=bogus"],               # 映射到八类之外的字段
+    ["table", "--columns", ""],                           # 空映射
+    ["table", "--bogus"],                                 # 未知参数
 ])
 def test_usage_errors_exit_2(argv, capsys):
     assert main(argv) == 2
@@ -278,6 +284,81 @@ def test_rollback_bad_backup_exit_1(tmp_path, content, hint):
     assert code == 1 and hint in err
 
 
+# ---- table（整表清洗：CSV 进出） ------------------------------------------------
+TABLE_CSV = "person,phone,备注\n范 童言,+86 138-0013-8000,甲\n范童言,13800138000,乙\n"
+
+
+def read_csv(p: Path) -> list[list[str]]:
+    return list(csv.reader(p.read_text(encoding="utf-8").splitlines()))
+
+
+def test_table_end_to_end_tmp_file_roundtrip(tmp_path):
+    """CSV 文件进、CSV 文件出：列对齐、逐格原位替换、未映射列（备注）原样。"""
+    src, out = tmp_path / "in.csv", tmp_path / "out.csv"
+    src.write_text(TABLE_CSV, encoding="utf-8-sig")            # 带 BOM 也要照读
+    code, so, _ = run(["table", "--input", str(src), "--out", str(out)])
+    assert code == 0 and out.is_file() and not (tmp_path / "in.backup.json").exists()
+    assert read_csv(out) == [["person", "phone", "备注"],
+                             ["范童言", "13800138000", "甲"],
+                             ["范童言", "13800138000", "乙"]]
+    assert "共 2 行 × 3 列" in so and "改了 2 格" in so and "输出 2 行" in so
+
+
+def test_table_stdout_csv_info_to_stderr():
+    """无 --out ⇒ stdout 是纯 CSV（可接管道），汇总走 stderr。"""
+    code, out, err = run(["table"], TABLE_CSV)                 # CSV 从 stdin 喂
+    assert code == 0
+    rows = list(csv.reader(io.StringIO(out)))
+    assert rows[0] == ["person", "phone", "备注"] and rows[1] == ["范童言", "13800138000", "甲"]
+    assert "共 2 行" in err and "输出 2 行" in err
+
+
+def test_table_columns_flag_maps_chinese_headers():
+    code, out, _ = run(["table", "--columns", "姓名=person,手机=phone"],
+                       "姓名,手机,备注\n范 童言,+86 138-0013-8000,x\n")
+    assert code == 0
+    assert list(csv.reader(io.StringIO(out)))[1] == ["范童言", "13800138000", "x"]
+
+
+def test_table_dedupe_flag_removes_duplicate_rows():
+    code, out, err = run(["table", "--dedupe"], "person\n范 童言\n范童言\n")
+    assert code == 0 and list(csv.reader(io.StringIO(out))) == [["person"], ["范童言"]]
+    assert "输出 1 行" in err and "去掉 1 行" in err
+
+
+def test_table_determinism():
+    assert run(["table"], TABLE_CSV) == run(["table"], TABLE_CSV)
+    assert run(["table", "--dedupe"], TABLE_CSV) == run(["table", "--dedupe"], TABLE_CSV)
+
+
+def test_table_empty_input_ok():
+    code, out, err = run(["table"], "")
+    assert code == 0 and out == "" and "共 0 行" in err
+
+
+def test_table_missing_input_file_exit_1(tmp_path):
+    code, _, err = run(["table", "--input", str(tmp_path / "nope.csv")])
+    assert code == 1 and "输入文件不存在" in err
+
+
+def test_table_column_not_in_header_exit_1():
+    """列名打错（表头里没有）⇒ 运行错退出码 1，且不产出数据。"""
+    code, out, err = run(["table", "--columns", "不存在=person"], TABLE_CSV)
+    assert code == 1 and "整表清洗失败" in err and out == ""
+
+
+def test_table_sample_csv_is_legal(tmp_path):
+    """docs/examples/sample.csv 本身是一张合法 CSV（快速上手样例不能是坏的）。"""
+    rows = read_csv(ROOT / "docs" / "examples" / "sample.csv")
+    assert len(rows) == 4 and len({len(r) for r in rows}) == 1
+    code, out, _ = run(["table", "--input", str(ROOT / "docs" / "examples" / "sample.csv")])
+    assert code == 0 and len(list(csv.reader(io.StringIO(out)))) == 4
+    # --dedupe：第 1/2 行清洗后完全相同 ⇒ 并；第 3 行是另一个人（只共有手机/身份证/邮箱）⇒ 保留
+    code, out, err = run(["table", "--input", str(ROOT / "docs" / "examples" / "sample.csv"), "--dedupe"])
+    assert code == 0 and len(list(csv.reader(io.StringIO(out)))) == 3
+    assert "输出 2 行" in err and "去掉 1 行" in err
+
+
 # ---- 真实子进程冒烟（stdin 管道 + utf-8 输出 + 退出码） ---------------------------
 def test_subprocess_pipe_smoke():
     p = subprocess.run([sys.executable, "-m", "zhclean.cli", "normalize"],
@@ -328,26 +409,28 @@ def test_entry_point_normalize_pipe_is_utf8_jsonl():
     assert json.loads(p.stdout.decode("utf-8", errors="replace"))["normalized"] == "范童言"
 
 
-# ---- 乱码回归：四个 `python -m` 入口（TASK-015 §2.5-③ 把修复抽成 _compat） ------
+# ---- 乱码回归：五个 `python -m` 入口（TASK-015 §2.5-③ 把修复抽成 _compat） ------
 @pytest.mark.parametrize("module", ["zhclean.cli", "zhclean.loop",
-                                    "zhclean.tools.audit", "zhclean.tools.dedupe"])
+                                    "zhclean.tools.audit", "zhclean.tools.dedupe",
+                                    "zhclean.tools.table"])
 def test_m_entry_usage_message_is_utf8(module):
-    """四个入口的 `__main__` 都调 `_compat.utf8_stdio`：无 PYTHONIOENCODING 时中文必须是 utf-8。
+    """五个入口的 `__main__` 都调 `_compat.utf8_stdio`：无 PYTHONIOENCODING 时中文必须是 utf-8。
 
-    修复前 loop / audit / dedupe 的 `__main__` 没设编码 ⇒ 用法提示是 cp936 字节，
+    修复前 loop / audit / dedupe / table 的 `__main__` 没设编码 ⇒ 用法提示是 cp936 字节，
     这里 decode("utf-8") 解不出来 ⇒ 断言失败（回归生效）。
     """
     p = subprocess.run([sys.executable, "-m", module, "--bogus"],
                        capture_output=True, cwd=ROOT, env=_no_encoding_env())
-    assert p.returncode != 0                                     # cli 走 argparse→2；三个 demo→1
+    assert p.returncode != 0                                     # cli 走 argparse→2；四个 demo→1
     assert "用法" in p.stderr.decode("utf-8", errors="replace")   # 中文提示：utf-8 而非 GBK
 
 
 @pytest.mark.parametrize("module, ok", [("zhclean.loop", "loop._demo: OK"),
                                         ("zhclean.tools.audit", "audit._demo: OK"),
-                                        ("zhclean.tools.dedupe", "dedupe._demo: OK")])
+                                        ("zhclean.tools.dedupe", "dedupe._demo: OK"),
+                                        ("zhclean.tools.table", "table._demo: OK")])
 def test_m_entry_demo_runs_ok(module, ok):
-    """三个 demo 入口无参可跑且打印 OK（证明 utf8_stdio() 调用没把入口跑挂）。"""
+    """四个 demo 入口无参可跑且打印 OK（证明 utf8_stdio() 调用没把入口跑挂）。"""
     p = subprocess.run([sys.executable, "-m", module], capture_output=True, cwd=ROOT,
                        env=_no_encoding_env())
     assert p.returncode == 0 and ok in p.stdout.decode("utf-8", errors="replace")

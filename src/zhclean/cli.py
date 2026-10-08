@@ -1,7 +1,7 @@
-"""CLI 入口：子命令与参数解析，分发到三工具（normalize / dedupe / audit + rollback）。
+"""CLI 入口：子命令与参数解析，分发到各工具（normalize / dedupe / audit / rollback / table）。
 
-F: CLI 入口（normalize / dedupe / audit / rollback 子命令）；jsonl 进出（每行 id / field / value）
-R: tools/normalize.py、tools/dedupe.py、tools/audit.py（三工具，本模块不含清洗逻辑）
+F: CLI 入口（normalize / dedupe / audit / rollback 子命令走 jsonl；table 子命令走 CSV 整表）
+R: tools/normalize.py、tools/dedupe.py、tools/audit.py、tools/table.py（本模块不含清洗逻辑）
 A: python -m zhclean.cli <子命令> --help
 S: 落盘只在本层发生（工具本体保持纯函数）；退出码语义固定（见下）
 
@@ -22,11 +22,14 @@ I/O 约定：
   python -m zhclean.cli audit  --input rows.jsonl                              # dry-run 报告
   python -m zhclean.cli audit  --input rows.jsonl --apply --out clean.jsonl    # 写 clean.jsonl + clean.backup.json
   python -m zhclean.cli rollback --cleaned clean.jsonl --backup clean.backup.json --out restored.jsonl
+  python -m zhclean.cli table --input rows.csv --out clean.csv        # 整表清洗（CSV）
 """
 
 from __future__ import annotations
 
 import argparse
+import csv
+import io
 import json
 import sys
 from pathlib import Path
@@ -36,6 +39,8 @@ from ._compat import utf8_stdio
 from .tools.audit import apply, audit, format_report, rollback
 from .tools.dedupe import DEFAULT_THRESHOLD, dedupe, dedupe_adaptive
 from .tools.normalize import normalize_with_confidence
+from .tools.table import FIELDS as TABLE_FIELDS
+from .tools.table import clean_table
 
 FIELDS = ("person", "address", "phone", "company")
 EXIT_OK, EXIT_RUNTIME, EXIT_USAGE = 0, 1, 2
@@ -111,6 +116,21 @@ def _write_jsonl(rows: list[dict], out: str | None, stdout: TextIO) -> None:
 def _write_json(obj, path: Path) -> None:
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         f.write(json.dumps(obj, ensure_ascii=False, indent=2) + "\n")
+
+
+def _write_csv(header: list[str], rows: list[list[str]], out: str | None, stdout: TextIO) -> None:
+    """CSV 写到 out（utf-8 + LF，无 BOM），无 out 时写 stdout。用 StringIO 先渲染 ⇒ 逐字节确定。"""
+    buf = io.StringIO()
+    writer = csv.writer(buf, lineterminator="\n")
+    if header:  # 空表（连表头都没）：不写任何东西，别吐一个孤零零的换行
+        writer.writerow(header)
+    writer.writerows(rows)
+    text = buf.getvalue()
+    if out is None:
+        stdout.write(text)
+        return
+    with open(out, "w", encoding="utf-8", newline="") as f:
+        f.write(text)
 
 
 # ---------------------------------------------------------------------------
@@ -206,9 +226,45 @@ def _cmd_rollback(args, stdin, stdout, stderr) -> int:
     return EXIT_OK
 
 
+def _cmd_table(args, stdin, stdout, stderr) -> int:
+    """整表清洗：CSV 进出。清洗逻辑在 tools/table.clean_table（纯函数），本层只做读/写/汇总。"""
+    text = _read_text(args.input, stdin)
+    try:
+        result = clean_table(io.StringIO(text), columns=args.columns, dedupe=args.dedupe)
+    except ValueError as e:
+        raise CliError(f"整表清洗失败：{e}") from None
+    _write_csv(result["header"], result["rows"], args.out, stdout)
+    rep = result["report"]
+    dd = f"，去重后去掉 {rep['dedupe']['removed']} 行" if rep["dedupe"]["applied"] else ""
+    print(f"table：共 {rep['rows_in']} 行 × {rep['cols']} 列，改了 {result['changed_cells']} 格"
+          f"，输出 {result['rows_out']} 行{dd}", file=_info_stream(args, stdout, stderr))
+    return EXIT_OK
+
+
 # ---------------------------------------------------------------------------
 # 参数解析
 # ---------------------------------------------------------------------------
+def _columns_arg(s: str) -> dict[str, str]:
+    """解析 `列名=字段,列名=字段`（如 `姓名=person,手机=phone`）→ {列名: 字段}。"""
+    out: dict[str, str] = {}
+    for part in s.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        col, eq, field = part.partition("=")
+        col, field = col.strip(), field.strip()
+        if not eq or not col or not field:
+            raise argparse.ArgumentTypeError(f"列映射须写成 列名=字段，收到 {part!r}")
+        if field not in TABLE_FIELDS:
+            raise argparse.ArgumentTypeError(f"字段须是八类之一 {TABLE_FIELDS}，收到 {field!r}")
+        if col in out:
+            raise argparse.ArgumentTypeError(f"列名重复：{col}")
+        out[col] = field
+    if not out:
+        raise argparse.ArgumentTypeError("列映射不能为空")
+    return out
+
+
 def _threshold_arg(s: str) -> float:
     try:
         v = float(s)
@@ -253,6 +309,14 @@ def build_parser() -> argparse.ArgumentParser:
     r.add_argument("--backup", required=True, help="对应的 .backup.json")
     r.add_argument("--out", help="恢复结果 jsonl（缺省写 stdout）")
     r.set_defaults(func=_cmd_rollback)
+
+    t = sub.add_parser("table", help="整表清洗：CSV 逐格规范化（+ 可选整行去重）")
+    t.add_argument("--input", default="-", help="输入 CSV（缺省或 - 读 stdin）")
+    t.add_argument("--columns", type=_columns_arg,
+                   help="列名=字段 映射，逗号分隔（如 姓名=person,手机=phone）；缺省按列名==字段名自动匹配")
+    t.add_argument("--out", help="输出 CSV（缺省写 stdout）")
+    t.add_argument("--dedupe", action="store_true", help="清洗后整行去重（组保留首行）")
+    t.set_defaults(func=_cmd_table)
     return p
 
 
