@@ -1,0 +1,1000 @@
+{"id": "amount-0001", "field": "amount", "value": "321　0394.27元", "truth": "3210394.27元", "perturbation": "space", "split": "train"}
+{"id": "amount-0001", "field": "amount", "value": "321039A.27元", "truth": "3210394.27元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0001", "field": "amount", "value": "321.0394万元", "truth": "3210394.27元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0001", "field": "amount", "value": "3,210,394.27元", "truth": "3210394.27元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0001", "field": "amount", "value": "金额：3210394.27元", "truth": "3210394.27元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0002", "field": "amount", "value": "741,631.9　7元", "truth": "741,631.97元", "perturbation": "space", "split": "train"}
+{"id": "amount-0002", "field": "amount", "value": "741,6E1.97元", "truth": "741,631.97元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0002", "field": "amount", "value": "74.1632万元", "truth": "741,631.97元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0002", "field": "amount", "value": "741,631，.97元", "truth": "741,631.97元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0002", "field": "amount", "value": "费用：741,631.97元", "truth": "741,631.97元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0003", "field": "amount", "value": "3950098　.0元", "truth": "3950098.0元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0003", "field": "amount", "value": "39500q8.0元", "truth": "3950098.0元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0003", "field": "amount", "value": "395.0098万元", "truth": "3950098.0元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0003", "field": "amount", "value": "3,950,098.0元", "truth": "3950098.0元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0003", "field": "amount", "value": "3950098.0元（未税）", "truth": "3950098.0元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0004", "field": "amount", "value": "363　3930.88元", "truth": "3633930.88元", "perturbation": "space", "split": "train"}
+{"id": "amount-0004", "field": "amount", "value": "E633930.88元", "truth": "3633930.88元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0004", "field": "amount", "value": "363.3931万元", "truth": "3633930.88元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0004", "field": "amount", "value": "3633930.8，8元", "truth": "3633930.88元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0004", "field": "amount", "value": "3633930.88元（含税）", "truth": "3633930.88元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0005", "field": "amount", "value": "2,3　19,856.1元", "truth": "2,319,856.1元", "perturbation": "space", "split": "train"}
+{"id": "amount-0005", "field": "amount", "value": "2,319,85G.1元", "truth": "2,319,856.1元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0005", "field": "amount", "value": "231.9856万元", "truth": "2,319,856.1元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0005", "field": "amount", "value": "2319856.1元", "truth": "2,319,856.1元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0005", "field": "amount", "value": "金额：2,319,856.1元", "truth": "2,319,856.1元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0006", "field": "amount", "value": "9,244 ,361元", "truth": "9,244,361元", "perturbation": "space", "split": "train"}
+{"id": "amount-0006", "field": "amount", "value": "q,244,361元", "truth": "9,244,361元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0006", "field": "amount", "value": "924.4361万元", "truth": "9,244,361元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0006", "field": "amount", "value": "9244361元", "truth": "9,244,361元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0006", "field": "amount", "value": "9,244,361元。", "truth": "9,244,361元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0007", "field": "amount", "value": "4,092,850　.8元", "truth": "4,092,850.8元", "perturbation": "space", "split": "train"}
+{"id": "amount-0007", "field": "amount", "value": "4,O92,850.8元", "truth": "4,092,850.8元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0007", "field": "amount", "value": "409.2851万元", "truth": "4,092,850.8元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0007", "field": "amount", "value": "4,09，2,850.8元", "truth": "4,092,850.8元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0007", "field": "amount", "value": "金额:4,092,850.8元", "truth": "4,092,850.8元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0008", "field": "amount", "value": "8989946 .29元", "truth": "8989946.29元", "perturbation": "space", "split": "train"}
+{"id": "amount-0008", "field": "amount", "value": "898q946.29元", "truth": "8989946.29元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0008", "field": "amount", "value": "898.9946万元", "truth": "8989946.29元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0008", "field": "amount", "value": "89，89946.29元", "truth": "8989946.29元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0008", "field": "amount", "value": "8989946.29元（未税）", "truth": "8989946.29元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0009", "field": "amount", "value": "6,209　,471元", "truth": "6,209,471元", "perturbation": "space", "split": "train"}
+{"id": "amount-0009", "field": "amount", "value": "G,209,471元", "truth": "6,209,471元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0009", "field": "amount", "value": "620.9471万元", "truth": "6,209,471元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0009", "field": "amount", "value": "6,,209,471元", "truth": "6,209,471元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0009", "field": "amount", "value": "费用：6,209,471元", "truth": "6,209,471元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0010", "field": "amount", "value": "44　32503元", "truth": "4432503元", "perturbation": "space", "split": "train"}
+{"id": "amount-0010", "field": "amount", "value": "44E2503元", "truth": "4432503元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0010", "field": "amount", "value": "443.2503万元", "truth": "4432503元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0010", "field": "amount", "value": "443250，3元", "truth": "4432503元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0010", "field": "amount", "value": "4432503元（含税）", "truth": "4432503元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0011", "field": "amount", "value": "380710　3元", "truth": "3807103元", "perturbation": "space", "split": "train"}
+{"id": "amount-0011", "field": "amount", "value": "E807103元", "truth": "3807103元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0011", "field": "amount", "value": "380.7103万元", "truth": "3807103元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0011", "field": "amount", "value": "38,07103元", "truth": "3807103元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0011", "field": "amount", "value": "3807103元（含税）", "truth": "3807103元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0012", "field": "amount", "value": "23　72718元", "truth": "2372718元", "perturbation": "space", "split": "train"}
+{"id": "amount-0012", "field": "amount", "value": "23727l8元", "truth": "2372718元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0012", "field": "amount", "value": "237.2718万元", "truth": "2372718元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0012", "field": "amount", "value": "237，2718元", "truth": "2372718元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0012", "field": "amount", "value": "2372718元（含税）", "truth": "2372718元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0013", "field": "amount", "value": "8986828.　8元", "truth": "8986828.8元", "perturbation": "space", "split": "train"}
+{"id": "amount-0013", "field": "amount", "value": "89B6828.8元", "truth": "8986828.8元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0013", "field": "amount", "value": "898.6829万元", "truth": "8986828.8元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0013", "field": "amount", "value": "8,986,828.8元", "truth": "8986828.8元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0013", "field": "amount", "value": "8986828.8元（未税）", "truth": "8986828.8元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0014", "field": "amount", "value": "7,094,817　.3元", "truth": "7,094,817.3元", "perturbation": "space", "split": "train"}
+{"id": "amount-0014", "field": "amount", "value": "7,0q4,817.3元", "truth": "7,094,817.3元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0014", "field": "amount", "value": "709.4817万元", "truth": "7,094,817.3元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0014", "field": "amount", "value": "7094817.3元", "truth": "7,094,817.3元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0014", "field": "amount", "value": "7,094,817.3元（含税）", "truth": "7,094,817.3元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0015", "field": "amount", "value": "7288266 .65元", "truth": "7288266.65元", "perturbation": "space", "split": "train"}
+{"id": "amount-0015", "field": "amount", "value": "728B266.65元", "truth": "7288266.65元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0015", "field": "amount", "value": "728.8267万元", "truth": "7288266.65元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0015", "field": "amount", "value": "7,288,266.65元", "truth": "7288266.65元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0015", "field": "amount", "value": "费用：7288266.65元", "truth": "7288266.65元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0016", "field": "amount", "value": "6,903,59　1元", "truth": "6,903,591元", "perturbation": "space", "split": "train"}
+{"id": "amount-0016", "field": "amount", "value": "6,903,59l元", "truth": "6,903,591元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0016", "field": "amount", "value": "690.3591万元", "truth": "6,903,591元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0016", "field": "amount", "value": "6,903,5,91元", "truth": "6,903,591元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0016", "field": "amount", "value": "金额:6,903,591元", "truth": "6,903,591元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0017", "field": "amount", "value": "8871174　元", "truth": "8871174元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0017", "field": "amount", "value": "88T1174元", "truth": "8871174元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0017", "field": "amount", "value": "887.1174万元", "truth": "8871174元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0017", "field": "amount", "value": "8,871,174元", "truth": "8871174元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0017", "field": "amount", "value": "金额:8871174元", "truth": "8871174元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0018", "field": "amount", "value": "2,123,50　7元", "truth": "2,123,507元", "perturbation": "space", "split": "train"}
+{"id": "amount-0018", "field": "amount", "value": "2,123,5O7元", "truth": "2,123,507元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0018", "field": "amount", "value": "212.3507万元", "truth": "2,123,507元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0018", "field": "amount", "value": "2,12,3,507元", "truth": "2,123,507元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0018", "field": "amount", "value": "金额：2,123,507元", "truth": "2,123,507元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0019", "field": "amount", "value": "3　21,718元", "truth": "321,718元", "perturbation": "space", "split": "train"}
+{"id": "amount-0019", "field": "amount", "value": "321,71B元", "truth": "321,718元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0019", "field": "amount", "value": "32.1718万元", "truth": "321,718元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0019", "field": "amount", "value": "32,1,718元", "truth": "321,718元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0019", "field": "amount", "value": "费用：321,718元", "truth": "321,718元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0020", "field": "amount", "value": "8　,452,938.6元", "truth": "8,452,938.6元", "perturbation": "space", "split": "train"}
+{"id": "amount-0020", "field": "amount", "value": "B,452,938.6元", "truth": "8,452,938.6元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0020", "field": "amount", "value": "845.2939万元", "truth": "8,452,938.6元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0020", "field": "amount", "value": "8,452，,938.6元", "truth": "8,452,938.6元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0020", "field": "amount", "value": "金额：8,452,938.6元", "truth": "8,452,938.6元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0021", "field": "amount", "value": "8,866,882 元", "truth": "8,866,882元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0021", "field": "amount", "value": "B,866,882元", "truth": "8,866,882元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0021", "field": "amount", "value": "886.6882万元", "truth": "8,866,882元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0021", "field": "amount", "value": "8866882元", "truth": "8,866,882元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0021", "field": "amount", "value": "金额:8,866,882元", "truth": "8,866,882元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0022", "field": "amount", "value": "6, 341,533元", "truth": "6,341,533元", "perturbation": "space", "split": "train"}
+{"id": "amount-0022", "field": "amount", "value": "6,341,5E3元", "truth": "6,341,533元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0022", "field": "amount", "value": "634.1533万元", "truth": "6,341,533元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0022", "field": "amount", "value": "6341533元", "truth": "6,341,533元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0022", "field": "amount", "value": "6,341,533元（含税）", "truth": "6,341,533元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0023", "field": "amount", "value": "346334　6.01元", "truth": "3463346.01元", "perturbation": "space", "split": "train"}
+{"id": "amount-0023", "field": "amount", "value": "346334G.01元", "truth": "3463346.01元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0023", "field": "amount", "value": "346.3346万元", "truth": "3463346.01元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0023", "field": "amount", "value": "3,463,346.01元", "truth": "3463346.01元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0023", "field": "amount", "value": "3463346.01元（未税）", "truth": "3463346.01元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0024", "field": "amount", "value": "2,130,　015元", "truth": "2,130,015元", "perturbation": "space", "split": "train"}
+{"id": "amount-0024", "field": "amount", "value": "2,1E0,015元", "truth": "2,130,015元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0024", "field": "amount", "value": "213.0015万元", "truth": "2,130,015元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0024", "field": "amount", "value": "2130015元", "truth": "2,130,015元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0024", "field": "amount", "value": "2,130,015元（未税）", "truth": "2,130,015元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0025", "field": "amount", "value": "8723040 元", "truth": "8723040元", "perturbation": "space", "split": "train"}
+{"id": "amount-0025", "field": "amount", "value": "B723040元", "truth": "8723040元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0025", "field": "amount", "value": "872.304万元", "truth": "8723040元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0025", "field": "amount", "value": "8,723040元", "truth": "8723040元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0025", "field": "amount", "value": "8723040元（未税）", "truth": "8723040元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0026", "field": "amount", "value": "359475 6.6元", "truth": "3594756.6元", "perturbation": "space", "split": "train"}
+{"id": "amount-0026", "field": "amount", "value": "35q4756.6元", "truth": "3594756.6元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0026", "field": "amount", "value": "359.4757万元", "truth": "3594756.6元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0026", "field": "amount", "value": "359,4756.6元", "truth": "3594756.6元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0026", "field": "amount", "value": "3594756.6元。", "truth": "3594756.6元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0027", "field": "amount", "value": "1,9　63,536元", "truth": "1,963,536元", "perturbation": "space", "split": "train"}
+{"id": "amount-0027", "field": "amount", "value": "1,963,5E6元", "truth": "1,963,536元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0027", "field": "amount", "value": "196.3536万元", "truth": "1,963,536元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0027", "field": "amount", "value": "1963536元", "truth": "1,963,536元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0027", "field": "amount", "value": "1,963,536元。", "truth": "1,963,536元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0028", "field": "amount", "value": "9153777.　56元", "truth": "9153777.56元", "perturbation": "space", "split": "train"}
+{"id": "amount-0028", "field": "amount", "value": "915377T.56元", "truth": "9153777.56元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0028", "field": "amount", "value": "915.3778万元", "truth": "9153777.56元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0028", "field": "amount", "value": "9,153,777.56元", "truth": "9153777.56元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0028", "field": "amount", "value": "9153777.56元（未税）", "truth": "9153777.56元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0029", "field": "amount", "value": "9,878 ,494.8元", "truth": "9,878,494.8元", "perturbation": "space", "split": "train"}
+{"id": "amount-0029", "field": "amount", "value": "9,878,494.B元", "truth": "9,878,494.8元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0029", "field": "amount", "value": "987.8495万元", "truth": "9,878,494.8元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0029", "field": "amount", "value": "9878494.8元", "truth": "9,878,494.8元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0029", "field": "amount", "value": "金额:9,878,494.8元", "truth": "9,878,494.8元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0030", "field": "amount", "value": "5,795,69 1元", "truth": "5,795,691元", "perturbation": "space", "split": "train"}
+{"id": "amount-0030", "field": "amount", "value": "5,7q5,691元", "truth": "5,795,691元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0030", "field": "amount", "value": "579.5691万元", "truth": "5,795,691元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0030", "field": "amount", "value": "5,7,95,691元", "truth": "5,795,691元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0030", "field": "amount", "value": "金额:5,795,691元", "truth": "5,795,691元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0031", "field": "amount", "value": "2 823403元", "truth": "2823403元", "perturbation": "space", "split": "train"}
+{"id": "amount-0031", "field": "amount", "value": "2823A03元", "truth": "2823403元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0031", "field": "amount", "value": "282.3403万元", "truth": "2823403元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0031", "field": "amount", "value": "2,823,403元", "truth": "2823403元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0031", "field": "amount", "value": "2823403元（未税）", "truth": "2823403元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0032", "field": "amount", "value": "1,666,6 91元", "truth": "1,666,691元", "perturbation": "space", "split": "train"}
+{"id": "amount-0032", "field": "amount", "value": "1,666,69l元", "truth": "1,666,691元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0032", "field": "amount", "value": "166.6691万元", "truth": "1,666,691元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0032", "field": "amount", "value": "1666691元", "truth": "1,666,691元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0032", "field": "amount", "value": "1,666,691元（未税）", "truth": "1,666,691元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0033", "field": "amount", "value": "7,051,45 4元", "truth": "7,051,454元", "perturbation": "space", "split": "train"}
+{"id": "amount-0033", "field": "amount", "value": "7,051,A54元", "truth": "7,051,454元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0033", "field": "amount", "value": "705.1454万元", "truth": "7,051,454元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0033", "field": "amount", "value": "7,051，,454元", "truth": "7,051,454元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0033", "field": "amount", "value": "7,051,454元（含税）", "truth": "7,051,454元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0034", "field": "amount", "value": "5886 637元", "truth": "5886637元", "perturbation": "space", "split": "train"}
+{"id": "amount-0034", "field": "amount", "value": "58B6637元", "truth": "5886637元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0034", "field": "amount", "value": "588.6637万元", "truth": "5886637元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0034", "field": "amount", "value": "5,886,637元", "truth": "5886637元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0034", "field": "amount", "value": "费用：5886637元", "truth": "5886637元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0035", "field": "amount", "value": "1371041 元", "truth": "1371041元", "perturbation": "space", "split": "train"}
+{"id": "amount-0035", "field": "amount", "value": "1E71041元", "truth": "1371041元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0035", "field": "amount", "value": "137.1041万元", "truth": "1371041元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0035", "field": "amount", "value": "137,1041元", "truth": "1371041元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0035", "field": "amount", "value": "费用：1371041元", "truth": "1371041元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0036", "field": "amount", "value": "5,0 35,172.06元", "truth": "5,035,172.06元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0036", "field": "amount", "value": "5,0E5,172.06元", "truth": "5,035,172.06元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0036", "field": "amount", "value": "503.5172万元", "truth": "5,035,172.06元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0036", "field": "amount", "value": "5035172.06元", "truth": "5,035,172.06元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0036", "field": "amount", "value": "5,035,172.06元（含税）", "truth": "5,035,172.06元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0037", "field": "amount", "value": "1663　248元", "truth": "1663248元", "perturbation": "space", "split": "train"}
+{"id": "amount-0037", "field": "amount", "value": "16G3248元", "truth": "1663248元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0037", "field": "amount", "value": "166.3248万元", "truth": "1663248元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0037", "field": "amount", "value": "1663，248元", "truth": "1663248元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0037", "field": "amount", "value": "费用：1663248元", "truth": "1663248元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0038", "field": "amount", "value": "8,259,99 8.2元", "truth": "8,259,998.2元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0038", "field": "amount", "value": "B,259,998.2元", "truth": "8,259,998.2元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0038", "field": "amount", "value": "825.9998万元", "truth": "8,259,998.2元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0038", "field": "amount", "value": "8259998.2元", "truth": "8,259,998.2元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0038", "field": "amount", "value": "8,259,998.2元。", "truth": "8,259,998.2元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0039", "field": "amount", "value": "8,064,247 .8元", "truth": "8,064,247.8元", "perturbation": "space", "split": "train"}
+{"id": "amount-0039", "field": "amount", "value": "8,064,247.B元", "truth": "8,064,247.8元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0039", "field": "amount", "value": "806.4248万元", "truth": "8,064,247.8元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0039", "field": "amount", "value": "8064247.8元", "truth": "8,064,247.8元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0039", "field": "amount", "value": "金额：8,064,247.8元", "truth": "8,064,247.8元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0040", "field": "amount", "value": "5873215. 0元", "truth": "5873215.0元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0040", "field": "amount", "value": "587321S.0元", "truth": "5873215.0元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0040", "field": "amount", "value": "587.3215万元", "truth": "5873215.0元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0040", "field": "amount", "value": "58732,15.0元", "truth": "5873215.0元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0040", "field": "amount", "value": "5873215.0元（含税）", "truth": "5873215.0元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0041", "field": "amount", "value": "5 965974元", "truth": "5965974元", "perturbation": "space", "split": "train"}
+{"id": "amount-0041", "field": "amount", "value": "S965974元", "truth": "5965974元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0041", "field": "amount", "value": "596.5974万元", "truth": "5965974元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0041", "field": "amount", "value": "59659,74元", "truth": "5965974元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0041", "field": "amount", "value": "金额：5965974元", "truth": "5965974元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0042", "field": "amount", "value": "4,7　42,400.9元", "truth": "4,742,400.9元", "perturbation": "space", "split": "train"}
+{"id": "amount-0042", "field": "amount", "value": "4,742,A00.9元", "truth": "4,742,400.9元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0042", "field": "amount", "value": "474.2401万元", "truth": "4,742,400.9元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0042", "field": "amount", "value": "4,742,400，.9元", "truth": "4,742,400.9元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0042", "field": "amount", "value": "4,742,400.9元（含税）", "truth": "4,742,400.9元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0043", "field": "amount", "value": "8,439,108 元", "truth": "8,439,108元", "perturbation": "space", "split": "train"}
+{"id": "amount-0043", "field": "amount", "value": "8,4E9,108元", "truth": "8,439,108元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0043", "field": "amount", "value": "843.9108万元", "truth": "8,439,108元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0043", "field": "amount", "value": "8,439,10,8元", "truth": "8,439,108元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0043", "field": "amount", "value": "8,439,108元。", "truth": "8,439,108元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0044", "field": "amount", "value": "1,422,1　49元", "truth": "1,422,149元", "perturbation": "space", "split": "train"}
+{"id": "amount-0044", "field": "amount", "value": "1,A22,149元", "truth": "1,422,149元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0044", "field": "amount", "value": "142.2149万元", "truth": "1,422,149元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0044", "field": "amount", "value": "1,422,,149元", "truth": "1,422,149元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0044", "field": "amount", "value": "1,422,149元。", "truth": "1,422,149元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0045", "field": "amount", "value": "2,579,748 .3元", "truth": "2,579,748.3元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0045", "field": "amount", "value": "2,57q,748.3元", "truth": "2,579,748.3元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0045", "field": "amount", "value": "257.9748万元", "truth": "2,579,748.3元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0045", "field": "amount", "value": "2,,579,748.3元", "truth": "2,579,748.3元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0045", "field": "amount", "value": "2,579,748.3元（含税）", "truth": "2,579,748.3元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0046", "field": "amount", "value": "70064　6元", "truth": "700646元", "perturbation": "space", "split": "train"}
+{"id": "amount-0046", "field": "amount", "value": "70O646元", "truth": "700646元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0046", "field": "amount", "value": "70.0646万元", "truth": "700646元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0046", "field": "amount", "value": "700,646元", "truth": "700646元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0046", "field": "amount", "value": "金额：700646元", "truth": "700646元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0047", "field": "amount", "value": "5,　651,501元", "truth": "5,651,501元", "perturbation": "space", "split": "train"}
+{"id": "amount-0047", "field": "amount", "value": "S,651,501元", "truth": "5,651,501元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0047", "field": "amount", "value": "565.1501万元", "truth": "5,651,501元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0047", "field": "amount", "value": "5651501元", "truth": "5,651,501元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0047", "field": "amount", "value": "5,651,501元（含税）", "truth": "5,651,501元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0048", "field": "amount", "value": "1,832,051.　9元", "truth": "1,832,051.9元", "perturbation": "space", "split": "train"}
+{"id": "amount-0048", "field": "amount", "value": "1,832,O51.9元", "truth": "1,832,051.9元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0048", "field": "amount", "value": "183.2052万元", "truth": "1,832,051.9元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0048", "field": "amount", "value": "1,8,32,051.9元", "truth": "1,832,051.9元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0048", "field": "amount", "value": "1,832,051.9元（未税）", "truth": "1,832,051.9元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0049", "field": "amount", "value": "8　,807,839元", "truth": "8,807,839元", "perturbation": "space", "split": "train"}
+{"id": "amount-0049", "field": "amount", "value": "8,80T,839元", "truth": "8,807,839元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0049", "field": "amount", "value": "880.7839万元", "truth": "8,807,839元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0049", "field": "amount", "value": "8807839元", "truth": "8,807,839元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0049", "field": "amount", "value": "金额：8,807,839元", "truth": "8,807,839元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0050", "field": "amount", "value": "3 548604.7元", "truth": "3548604.7元", "perturbation": "space", "split": "train"}
+{"id": "amount-0050", "field": "amount", "value": "3S48604.7元", "truth": "3548604.7元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0050", "field": "amount", "value": "354.8605万元", "truth": "3548604.7元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0050", "field": "amount", "value": "3,548,604.7元", "truth": "3548604.7元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0050", "field": "amount", "value": "3548604.7元。", "truth": "3548604.7元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0051", "field": "amount", "value": "9　325588元", "truth": "9325588元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0051", "field": "amount", "value": "q325588元", "truth": "9325588元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0051", "field": "amount", "value": "932.5588万元", "truth": "9325588元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0051", "field": "amount", "value": "9，325588元", "truth": "9325588元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0051", "field": "amount", "value": "费用：9325588元", "truth": "9325588元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0052", "field": "amount", "value": "4,0 46,992.3元", "truth": "4,046,992.3元", "perturbation": "space", "split": "train"}
+{"id": "amount-0052", "field": "amount", "value": "4,046,q92.3元", "truth": "4,046,992.3元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0052", "field": "amount", "value": "404.6992万元", "truth": "4,046,992.3元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0052", "field": "amount", "value": "4,046,,992.3元", "truth": "4,046,992.3元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0052", "field": "amount", "value": "费用：4,046,992.3元", "truth": "4,046,992.3元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0053", "field": "amount", "value": "3280　545元", "truth": "3280545元", "perturbation": "space", "split": "train"}
+{"id": "amount-0053", "field": "amount", "value": "32805A5元", "truth": "3280545元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0053", "field": "amount", "value": "328.0545万元", "truth": "3280545元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0053", "field": "amount", "value": "3,280,545元", "truth": "3280545元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0053", "field": "amount", "value": "3280545元（未税）", "truth": "3280545元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0054", "field": "amount", "value": "1　925145元", "truth": "1925145元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0054", "field": "amount", "value": "l925145元", "truth": "1925145元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0054", "field": "amount", "value": "192.5145万元", "truth": "1925145元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0054", "field": "amount", "value": "19251,45元", "truth": "1925145元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0054", "field": "amount", "value": "1925145元。", "truth": "1925145元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0055", "field": "amount", "value": "4 ,681,299元", "truth": "4,681,299元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0055", "field": "amount", "value": "A,681,299元", "truth": "4,681,299元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0055", "field": "amount", "value": "468.1299万元", "truth": "4,681,299元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0055", "field": "amount", "value": "4,,681,299元", "truth": "4,681,299元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0055", "field": "amount", "value": "4,681,299元。", "truth": "4,681,299元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0056", "field": "amount", "value": "8099229.　01元", "truth": "8099229.01元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0056", "field": "amount", "value": "8099229.O1元", "truth": "8099229.01元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0056", "field": "amount", "value": "809.9229万元", "truth": "8099229.01元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0056", "field": "amount", "value": "8,099,229.01元", "truth": "8099229.01元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0056", "field": "amount", "value": "8099229.01元（未税）", "truth": "8099229.01元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0057", "field": "amount", "value": "3723782.　76元", "truth": "3723782.76元", "perturbation": "space", "split": "train"}
+{"id": "amount-0057", "field": "amount", "value": "3723782.T6元", "truth": "3723782.76元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0057", "field": "amount", "value": "372.3783万元", "truth": "3723782.76元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0057", "field": "amount", "value": "3,723,782.76元", "truth": "3723782.76元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0057", "field": "amount", "value": "金额：3723782.76元", "truth": "3723782.76元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0058", "field": "amount", "value": "3430597.46 元", "truth": "3430597.46元", "perturbation": "space", "split": "train"}
+{"id": "amount-0058", "field": "amount", "value": "E430597.46元", "truth": "3430597.46元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0058", "field": "amount", "value": "343.0597万元", "truth": "3430597.46元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0058", "field": "amount", "value": "3,430,597.46元", "truth": "3430597.46元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0058", "field": "amount", "value": "金额：3430597.46元", "truth": "3430597.46元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0059", "field": "amount", "value": "4,77　2,415元", "truth": "4,772,415元", "perturbation": "space", "split": "train"}
+{"id": "amount-0059", "field": "amount", "value": "A,772,415元", "truth": "4,772,415元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0059", "field": "amount", "value": "477.2415万元", "truth": "4,772,415元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0059", "field": "amount", "value": "4,77,2,415元", "truth": "4,772,415元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0059", "field": "amount", "value": "费用：4,772,415元", "truth": "4,772,415元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0060", "field": "amount", "value": "732 7843元", "truth": "7327843元", "perturbation": "space", "split": "train"}
+{"id": "amount-0060", "field": "amount", "value": "7327B43元", "truth": "7327843元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0060", "field": "amount", "value": "732.7843万元", "truth": "7327843元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0060", "field": "amount", "value": "7，327843元", "truth": "7327843元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0060", "field": "amount", "value": "金额：7327843元", "truth": "7327843元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0061", "field": "amount", "value": "7, 702,105元", "truth": "7,702,105元", "perturbation": "space", "split": "train"}
+{"id": "amount-0061", "field": "amount", "value": "7,T02,105元", "truth": "7,702,105元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0061", "field": "amount", "value": "770.2105万元", "truth": "7,702,105元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0061", "field": "amount", "value": "7,70,2,105元", "truth": "7,702,105元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0061", "field": "amount", "value": "7,702,105元。", "truth": "7,702,105元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0062", "field": "amount", "value": "65347 10.33元", "truth": "6534710.33元", "perturbation": "space", "split": "train"}
+{"id": "amount-0062", "field": "amount", "value": "6534710.E3元", "truth": "6534710.33元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0062", "field": "amount", "value": "653.471万元", "truth": "6534710.33元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0062", "field": "amount", "value": "6,534,710.33元", "truth": "6534710.33元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0062", "field": "amount", "value": "金额:6534710.33元", "truth": "6534710.33元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0063", "field": "amount", "value": "6203778.2 元", "truth": "6203778.2元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0063", "field": "amount", "value": "6Z03778.2元", "truth": "6203778.2元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0063", "field": "amount", "value": "620.3778万元", "truth": "6203778.2元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0063", "field": "amount", "value": "620377,8.2元", "truth": "6203778.2元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0063", "field": "amount", "value": "费用：6203778.2元", "truth": "6203778.2元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0064", "field": "amount", "value": "6,379　,768.13元", "truth": "6,379,768.13元", "perturbation": "space", "split": "train"}
+{"id": "amount-0064", "field": "amount", "value": "G,379,768.13元", "truth": "6,379,768.13元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0064", "field": "amount", "value": "637.9768万元", "truth": "6,379,768.13元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0064", "field": "amount", "value": "6,379,768,.13元", "truth": "6,379,768.13元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0064", "field": "amount", "value": "6,379,768.13元（未税）", "truth": "6,379,768.13元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0065", "field": "amount", "value": "6,489,10　7.51元", "truth": "6,489,107.51元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0065", "field": "amount", "value": "G,489,107.51元", "truth": "6,489,107.51元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0065", "field": "amount", "value": "648.9108万元", "truth": "6,489,107.51元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0065", "field": "amount", "value": "6,489,,107.51元", "truth": "6,489,107.51元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0065", "field": "amount", "value": "金额:6,489,107.51元", "truth": "6,489,107.51元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0066", "field": "amount", "value": "831 0871元", "truth": "8310871元", "perturbation": "space", "split": "train"}
+{"id": "amount-0066", "field": "amount", "value": "831O871元", "truth": "8310871元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0066", "field": "amount", "value": "831.0871万元", "truth": "8310871元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0066", "field": "amount", "value": "831,0871元", "truth": "8310871元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0066", "field": "amount", "value": "金额:8310871元", "truth": "8310871元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0067", "field": "amount", "value": "7 ,519,793元", "truth": "7,519,793元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0067", "field": "amount", "value": "7,S19,793元", "truth": "7,519,793元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0067", "field": "amount", "value": "751.9793万元", "truth": "7,519,793元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0067", "field": "amount", "value": "7,519,7，93元", "truth": "7,519,793元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0067", "field": "amount", "value": "费用：7,519,793元", "truth": "7,519,793元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0068", "field": "amount", "value": "61 5,760元", "truth": "615,760元", "perturbation": "space", "split": "train"}
+{"id": "amount-0068", "field": "amount", "value": "61S,760元", "truth": "615,760元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0068", "field": "amount", "value": "61.576万元", "truth": "615,760元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0068", "field": "amount", "value": "615760元", "truth": "615,760元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0068", "field": "amount", "value": "615,760元（未税）", "truth": "615,760元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0069", "field": "amount", "value": "4 395736元", "truth": "4395736元", "perturbation": "space", "split": "train"}
+{"id": "amount-0069", "field": "amount", "value": "439S736元", "truth": "4395736元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0069", "field": "amount", "value": "439.5736万元", "truth": "4395736元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0069", "field": "amount", "value": "439573，6元", "truth": "4395736元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0069", "field": "amount", "value": "金额：4395736元", "truth": "4395736元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0070", "field": "amount", "value": "4,990 ,416元", "truth": "4,990,416元", "perturbation": "space", "split": "train"}
+{"id": "amount-0070", "field": "amount", "value": "4,990,4l6元", "truth": "4,990,416元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0070", "field": "amount", "value": "499.0416万元", "truth": "4,990,416元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0070", "field": "amount", "value": "4990416元", "truth": "4,990,416元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0070", "field": "amount", "value": "4,990,416元（未税）", "truth": "4,990,416元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0071", "field": "amount", "value": "7,84 1,818.5元", "truth": "7,841,818.5元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0071", "field": "amount", "value": "7,841,8l8.5元", "truth": "7,841,818.5元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0071", "field": "amount", "value": "784.1819万元", "truth": "7,841,818.5元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0071", "field": "amount", "value": "7,84,1,818.5元", "truth": "7,841,818.5元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0071", "field": "amount", "value": "7,841,818.5元（含税）", "truth": "7,841,818.5元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0072", "field": "amount", "value": "223,21　9.9元", "truth": "223,219.9元", "perturbation": "space", "split": "train"}
+{"id": "amount-0072", "field": "amount", "value": "223,219.q元", "truth": "223,219.9元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0072", "field": "amount", "value": "22.322万元", "truth": "223,219.9元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0072", "field": "amount", "value": "223,219.，9元", "truth": "223,219.9元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0072", "field": "amount", "value": "费用：223,219.9元", "truth": "223,219.9元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0073", "field": "amount", "value": "1744785.31　元", "truth": "1744785.31元", "perturbation": "space", "split": "train"}
+{"id": "amount-0073", "field": "amount", "value": "1744785.E1元", "truth": "1744785.31元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0073", "field": "amount", "value": "174.4785万元", "truth": "1744785.31元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0073", "field": "amount", "value": "1，744785.31元", "truth": "1744785.31元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0073", "field": "amount", "value": "1744785.31元（含税）", "truth": "1744785.31元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0074", "field": "amount", "value": "8,558,369 .6元", "truth": "8,558,369.6元", "perturbation": "space", "split": "train"}
+{"id": "amount-0074", "field": "amount", "value": "8,558,E69.6元", "truth": "8,558,369.6元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0074", "field": "amount", "value": "855.837万元", "truth": "8,558,369.6元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0074", "field": "amount", "value": "8558369.6元", "truth": "8,558,369.6元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0074", "field": "amount", "value": "8,558,369.6元（含税）", "truth": "8,558,369.6元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0075", "field": "amount", "value": "98　76271元", "truth": "9876271元", "perturbation": "space", "split": "train"}
+{"id": "amount-0075", "field": "amount", "value": "98762T1元", "truth": "9876271元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0075", "field": "amount", "value": "987.6271万元", "truth": "9876271元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0075", "field": "amount", "value": "9,876,271元", "truth": "9876271元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0075", "field": "amount", "value": "费用：9876271元", "truth": "9876271元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0076", "field": "amount", "value": "6,96 2,250.68元", "truth": "6,962,250.68元", "perturbation": "space", "split": "train"}
+{"id": "amount-0076", "field": "amount", "value": "6,962,250.G8元", "truth": "6,962,250.68元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0076", "field": "amount", "value": "696.2251万元", "truth": "6,962,250.68元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0076", "field": "amount", "value": "6,962,2,50.68元", "truth": "6,962,250.68元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0076", "field": "amount", "value": "金额:6,962,250.68元", "truth": "6,962,250.68元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0077", "field": "amount", "value": "5499124.6　1元", "truth": "5499124.61元", "perturbation": "space", "split": "train"}
+{"id": "amount-0077", "field": "amount", "value": "549912A.61元", "truth": "5499124.61元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0077", "field": "amount", "value": "549.9125万元", "truth": "5499124.61元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0077", "field": "amount", "value": "5,499124.61元", "truth": "5499124.61元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0077", "field": "amount", "value": "5499124.61元（未税）", "truth": "5499124.61元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0078", "field": "amount", "value": "9,919,93 5.68元", "truth": "9,919,935.68元", "perturbation": "space", "split": "train"}
+{"id": "amount-0078", "field": "amount", "value": "9,919,9E5.68元", "truth": "9,919,935.68元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0078", "field": "amount", "value": "991.9936万元", "truth": "9,919,935.68元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0078", "field": "amount", "value": "9,,919,935.68元", "truth": "9,919,935.68元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0078", "field": "amount", "value": "9,919,935.68元。", "truth": "9,919,935.68元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0079", "field": "amount", "value": "79112　92元", "truth": "7911292元", "perturbation": "space", "split": "train"}
+{"id": "amount-0079", "field": "amount", "value": "7q11292元", "truth": "7911292元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0079", "field": "amount", "value": "791.1292万元", "truth": "7911292元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0079", "field": "amount", "value": "791，1292元", "truth": "7911292元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0079", "field": "amount", "value": "费用：7911292元", "truth": "7911292元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0080", "field": "amount", "value": "427342 9元", "truth": "4273429元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0080", "field": "amount", "value": "42T3429元", "truth": "4273429元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0080", "field": "amount", "value": "427.3429万元", "truth": "4273429元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0080", "field": "amount", "value": "4,273,429元", "truth": "4273429元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0080", "field": "amount", "value": "4273429元。", "truth": "4273429元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0081", "field": "amount", "value": "2624　792元", "truth": "2624792元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0081", "field": "amount", "value": "2624T92元", "truth": "2624792元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0081", "field": "amount", "value": "262.4792万元", "truth": "2624792元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0081", "field": "amount", "value": "26247,92元", "truth": "2624792元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0081", "field": "amount", "value": "金额：2624792元", "truth": "2624792元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0082", "field": "amount", "value": "3,369,176　元", "truth": "3,369,176元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0082", "field": "amount", "value": "3,3G9,176元", "truth": "3,369,176元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0082", "field": "amount", "value": "336.9176万元", "truth": "3,369,176元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0082", "field": "amount", "value": "3,369,17,6元", "truth": "3,369,176元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0082", "field": "amount", "value": "3,369,176元（含税）", "truth": "3,369,176元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0083", "field": "amount", "value": "4　,039,544.29元", "truth": "4,039,544.29元", "perturbation": "space", "split": "train"}
+{"id": "amount-0083", "field": "amount", "value": "4,039,54A.29元", "truth": "4,039,544.29元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0083", "field": "amount", "value": "403.9544万元", "truth": "4,039,544.29元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0083", "field": "amount", "value": "4,039,544.2，9元", "truth": "4,039,544.29元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0083", "field": "amount", "value": "费用：4,039,544.29元", "truth": "4,039,544.29元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0084", "field": "amount", "value": "63,931.　7元", "truth": "63,931.7元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0084", "field": "amount", "value": "G3,931.7元", "truth": "63,931.7元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0084", "field": "amount", "value": "6.3932万元", "truth": "63,931.7元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0084", "field": "amount", "value": "63931.7元", "truth": "63,931.7元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0084", "field": "amount", "value": "63,931.7元（含税）", "truth": "63,931.7元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0085", "field": "amount", "value": "3079266　元", "truth": "3079266元", "perturbation": "space", "split": "train"}
+{"id": "amount-0085", "field": "amount", "value": "307926G元", "truth": "3079266元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0085", "field": "amount", "value": "307.9266万元", "truth": "3079266元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0085", "field": "amount", "value": "30792,66元", "truth": "3079266元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0085", "field": "amount", "value": "费用：3079266元", "truth": "3079266元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0086", "field": "amount", "value": "6,917,3　64.70元", "truth": "6,917,364.70元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0086", "field": "amount", "value": "G,917,364.70元", "truth": "6,917,364.70元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0086", "field": "amount", "value": "691.7365万元", "truth": "6,917,364.70元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0086", "field": "amount", "value": "6,917,，364.70元", "truth": "6,917,364.70元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0086", "field": "amount", "value": "6,917,364.70元（未税）", "truth": "6,917,364.70元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0087", "field": "amount", "value": "1,867　,889元", "truth": "1,867,889元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0087", "field": "amount", "value": "1,B67,889元", "truth": "1,867,889元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0087", "field": "amount", "value": "186.7889万元", "truth": "1,867,889元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0087", "field": "amount", "value": "1,，867,889元", "truth": "1,867,889元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0087", "field": "amount", "value": "费用：1,867,889元", "truth": "1,867,889元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0088", "field": "amount", "value": "2,　103,367元", "truth": "2,103,367元", "perturbation": "space", "split": "train"}
+{"id": "amount-0088", "field": "amount", "value": "2,10E,367元", "truth": "2,103,367元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0088", "field": "amount", "value": "210.3367万元", "truth": "2,103,367元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0088", "field": "amount", "value": "2,10,3,367元", "truth": "2,103,367元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0088", "field": "amount", "value": "金额:2,103,367元", "truth": "2,103,367元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0089", "field": "amount", "value": "3,341,　146.7元", "truth": "3,341,146.7元", "perturbation": "space", "split": "train"}
+{"id": "amount-0089", "field": "amount", "value": "3,E41,146.7元", "truth": "3,341,146.7元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0089", "field": "amount", "value": "334.1147万元", "truth": "3,341,146.7元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0089", "field": "amount", "value": "3,341，,146.7元", "truth": "3,341,146.7元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0089", "field": "amount", "value": "费用：3,341,146.7元", "truth": "3,341,146.7元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0090", "field": "amount", "value": "790 4855.16元", "truth": "7904855.16元", "perturbation": "space", "split": "train"}
+{"id": "amount-0090", "field": "amount", "value": "T904855.16元", "truth": "7904855.16元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0090", "field": "amount", "value": "790.4855万元", "truth": "7904855.16元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0090", "field": "amount", "value": "7,904,855.16元", "truth": "7904855.16元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0090", "field": "amount", "value": "费用：7904855.16元", "truth": "7904855.16元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0091", "field": "amount", "value": "4　,879,305元", "truth": "4,879,305元", "perturbation": "space", "split": "train"}
+{"id": "amount-0091", "field": "amount", "value": "4,879,E05元", "truth": "4,879,305元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0091", "field": "amount", "value": "487.9305万元", "truth": "4,879,305元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0091", "field": "amount", "value": "4879305元", "truth": "4,879,305元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0091", "field": "amount", "value": "费用：4,879,305元", "truth": "4,879,305元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0092", "field": "amount", "value": "103　6395元", "truth": "1036395元", "perturbation": "space", "split": "train"}
+{"id": "amount-0092", "field": "amount", "value": "103639S元", "truth": "1036395元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0092", "field": "amount", "value": "103.6395万元", "truth": "1036395元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0092", "field": "amount", "value": "103639，5元", "truth": "1036395元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0092", "field": "amount", "value": "金额:1036395元", "truth": "1036395元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0093", "field": "amount", "value": "6　,982,189元", "truth": "6,982,189元", "perturbation": "space", "split": "train"}
+{"id": "amount-0093", "field": "amount", "value": "6,98Z,189元", "truth": "6,982,189元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0093", "field": "amount", "value": "698.2189万元", "truth": "6,982,189元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0093", "field": "amount", "value": "6,,982,189元", "truth": "6,982,189元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0093", "field": "amount", "value": "6,982,189元（未税）", "truth": "6,982,189元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0094", "field": "amount", "value": "49121 26元", "truth": "4912126元", "perturbation": "space", "split": "train"}
+{"id": "amount-0094", "field": "amount", "value": "491212G元", "truth": "4912126元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0094", "field": "amount", "value": "491.2126万元", "truth": "4912126元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0094", "field": "amount", "value": "4,912,126元", "truth": "4912126元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0094", "field": "amount", "value": "金额：4912126元", "truth": "4912126元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0095", "field": "amount", "value": "2,　684,509.2元", "truth": "2,684,509.2元", "perturbation": "space", "split": "train"}
+{"id": "amount-0095", "field": "amount", "value": "2,684,5O9.2元", "truth": "2,684,509.2元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0095", "field": "amount", "value": "268.4509万元", "truth": "2,684,509.2元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0095", "field": "amount", "value": "2,684,,509.2元", "truth": "2,684,509.2元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0095", "field": "amount", "value": "费用：2,684,509.2元", "truth": "2,684,509.2元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0096", "field": "amount", "value": "1987420　元", "truth": "1987420元", "perturbation": "space", "split": "train"}
+{"id": "amount-0096", "field": "amount", "value": "198742O元", "truth": "1987420元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0096", "field": "amount", "value": "198.742万元", "truth": "1987420元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0096", "field": "amount", "value": "1,987,420元", "truth": "1987420元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0096", "field": "amount", "value": "费用：1987420元", "truth": "1987420元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0097", "field": "amount", "value": "88,98　2.0元", "truth": "88,982.0元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0097", "field": "amount", "value": "8B,982.0元", "truth": "88,982.0元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0097", "field": "amount", "value": "8.8982万元", "truth": "88,982.0元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0097", "field": "amount", "value": "88,982.，0元", "truth": "88,982.0元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0097", "field": "amount", "value": "费用：88,982.0元", "truth": "88,982.0元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0098", "field": "amount", "value": "889　7997.5元", "truth": "8897997.5元", "perturbation": "space", "split": "train"}
+{"id": "amount-0098", "field": "amount", "value": "889799T.5元", "truth": "8897997.5元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0098", "field": "amount", "value": "889.7998万元", "truth": "8897997.5元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0098", "field": "amount", "value": "8,897,997.5元", "truth": "8897997.5元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0098", "field": "amount", "value": "金额：8897997.5元", "truth": "8897997.5元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0099", "field": "amount", "value": "7,411,492.　4元", "truth": "7,411,492.4元", "perturbation": "space", "split": "train"}
+{"id": "amount-0099", "field": "amount", "value": "7,41l,492.4元", "truth": "7,411,492.4元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0099", "field": "amount", "value": "741.1492万元", "truth": "7,411,492.4元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0099", "field": "amount", "value": "7,，411,492.4元", "truth": "7,411,492.4元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0099", "field": "amount", "value": "7,411,492.4元（含税）", "truth": "7,411,492.4元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0100", "field": "amount", "value": "289,141 元", "truth": "289,141元", "perturbation": "space", "split": "train"}
+{"id": "amount-0100", "field": "amount", "value": "28q,141元", "truth": "289,141元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0100", "field": "amount", "value": "28.9141万元", "truth": "289,141元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0100", "field": "amount", "value": "289141元", "truth": "289,141元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0100", "field": "amount", "value": "289,141元（含税）", "truth": "289,141元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0101", "field": "amount", "value": "1,46　9,625.59元", "truth": "1,469,625.59元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0101", "field": "amount", "value": "1,469,625.S9元", "truth": "1,469,625.59元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0101", "field": "amount", "value": "146.9626万元", "truth": "1,469,625.59元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0101", "field": "amount", "value": "1,469,625,.59元", "truth": "1,469,625.59元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0101", "field": "amount", "value": "1,469,625.59元。", "truth": "1,469,625.59元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0102", "field": "amount", "value": "6 499141元", "truth": "6499141元", "perturbation": "space", "split": "train"}
+{"id": "amount-0102", "field": "amount", "value": "G499141元", "truth": "6499141元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0102", "field": "amount", "value": "649.9141万元", "truth": "6499141元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0102", "field": "amount", "value": "6,499,141元", "truth": "6499141元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0102", "field": "amount", "value": "6499141元（含税）", "truth": "6499141元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0103", "field": "amount", "value": "4463　395.5元", "truth": "4463395.5元", "perturbation": "space", "split": "train"}
+{"id": "amount-0103", "field": "amount", "value": "4A63395.5元", "truth": "4463395.5元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0103", "field": "amount", "value": "446.3395万元", "truth": "4463395.5元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0103", "field": "amount", "value": "4,463,395.5元", "truth": "4463395.5元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0103", "field": "amount", "value": "金额:4463395.5元", "truth": "4463395.5元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0104", "field": "amount", "value": "8,22　9,339元", "truth": "8,229,339元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0104", "field": "amount", "value": "8,Z29,339元", "truth": "8,229,339元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0104", "field": "amount", "value": "822.9339万元", "truth": "8,229,339元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0104", "field": "amount", "value": "8,2，29,339元", "truth": "8,229,339元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0104", "field": "amount", "value": "金额:8,229,339元", "truth": "8,229,339元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0105", "field": "amount", "value": "4 049540元", "truth": "4049540元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0105", "field": "amount", "value": "A049540元", "truth": "4049540元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0105", "field": "amount", "value": "404.954万元", "truth": "4049540元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0105", "field": "amount", "value": "4,049540元", "truth": "4049540元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0105", "field": "amount", "value": "金额：4049540元", "truth": "4049540元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0106", "field": "amount", "value": "92 00572元", "truth": "9200572元", "perturbation": "space", "split": "train"}
+{"id": "amount-0106", "field": "amount", "value": "9200S72元", "truth": "9200572元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0106", "field": "amount", "value": "920.0572万元", "truth": "9200572元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0106", "field": "amount", "value": "9,200,572元", "truth": "9200572元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0106", "field": "amount", "value": "金额:9200572元", "truth": "9200572元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0107", "field": "amount", "value": "940298　.56元", "truth": "940298.56元", "perturbation": "space", "split": "train"}
+{"id": "amount-0107", "field": "amount", "value": "9402q8.56元", "truth": "940298.56元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0107", "field": "amount", "value": "94.0299万元", "truth": "940298.56元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0107", "field": "amount", "value": "9402，98.56元", "truth": "940298.56元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0107", "field": "amount", "value": "940298.56元（含税）", "truth": "940298.56元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0108", "field": "amount", "value": "5,5　28,802元", "truth": "5,528,802元", "perturbation": "space", "split": "train"}
+{"id": "amount-0108", "field": "amount", "value": "S,528,802元", "truth": "5,528,802元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0108", "field": "amount", "value": "552.8802万元", "truth": "5,528,802元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0108", "field": "amount", "value": "5528802元", "truth": "5,528,802元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0108", "field": "amount", "value": "费用：5,528,802元", "truth": "5,528,802元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0109", "field": "amount", "value": "125 30元", "truth": "12530元", "perturbation": "space", "split": "train"}
+{"id": "amount-0109", "field": "amount", "value": "12S30元", "truth": "12530元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0109", "field": "amount", "value": "1.253万元", "truth": "12530元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0109", "field": "amount", "value": "12,530元", "truth": "12530元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0109", "field": "amount", "value": "费用：12530元", "truth": "12530元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0110", "field": "amount", "value": "1,2　74,959.3元", "truth": "1,274,959.3元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0110", "field": "amount", "value": "1,274,959.E元", "truth": "1,274,959.3元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0110", "field": "amount", "value": "127.4959万元", "truth": "1,274,959.3元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0110", "field": "amount", "value": "1,,274,959.3元", "truth": "1,274,959.3元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0110", "field": "amount", "value": "金额:1,274,959.3元", "truth": "1,274,959.3元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0111", "field": "amount", "value": "252　0832元", "truth": "2520832元", "perturbation": "space", "split": "train"}
+{"id": "amount-0111", "field": "amount", "value": "2S20832元", "truth": "2520832元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0111", "field": "amount", "value": "252.0832万元", "truth": "2520832元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0111", "field": "amount", "value": "25208，32元", "truth": "2520832元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0111", "field": "amount", "value": "费用：2520832元", "truth": "2520832元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0112", "field": "amount", "value": "34　9992.6元", "truth": "349992.6元", "perturbation": "space", "split": "train"}
+{"id": "amount-0112", "field": "amount", "value": "349992.G元", "truth": "349992.6元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0112", "field": "amount", "value": "34.9993万元", "truth": "349992.6元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0112", "field": "amount", "value": "349,992.6元", "truth": "349992.6元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0112", "field": "amount", "value": "349992.6元（含税）", "truth": "349992.6元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0113", "field": "amount", "value": "9,639,87　9.2元", "truth": "9,639,879.2元", "perturbation": "space", "split": "train"}
+{"id": "amount-0113", "field": "amount", "value": "9,639,87q.2元", "truth": "9,639,879.2元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0113", "field": "amount", "value": "963.9879万元", "truth": "9,639,879.2元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0113", "field": "amount", "value": "9，,639,879.2元", "truth": "9,639,879.2元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0113", "field": "amount", "value": "9,639,879.2元（未税）", "truth": "9,639,879.2元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0114", "field": "amount", "value": "8,7 02,273元", "truth": "8,702,273元", "perturbation": "space", "split": "train"}
+{"id": "amount-0114", "field": "amount", "value": "B,702,273元", "truth": "8,702,273元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0114", "field": "amount", "value": "870.2273万元", "truth": "8,702,273元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0114", "field": "amount", "value": "8702273元", "truth": "8,702,273元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0114", "field": "amount", "value": "8,702,273元（含税）", "truth": "8,702,273元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0115", "field": "amount", "value": "2,052,04 4元", "truth": "2,052,044元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0115", "field": "amount", "value": "2,052,O44元", "truth": "2,052,044元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0115", "field": "amount", "value": "205.2044万元", "truth": "2,052,044元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0115", "field": "amount", "value": "2052044元", "truth": "2,052,044元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0115", "field": "amount", "value": "金额：2,052,044元", "truth": "2,052,044元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0116", "field": "amount", "value": "9,194,144.92　元", "truth": "9,194,144.92元", "perturbation": "space", "split": "train"}
+{"id": "amount-0116", "field": "amount", "value": "9,19A,144.92元", "truth": "9,194,144.92元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0116", "field": "amount", "value": "919.4145万元", "truth": "9,194,144.92元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0116", "field": "amount", "value": "9194144.92元", "truth": "9,194,144.92元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0116", "field": "amount", "value": "金额：9,194,144.92元", "truth": "9,194,144.92元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0117", "field": "amount", "value": "7,28 6,631元", "truth": "7,286,631元", "perturbation": "space", "split": "train"}
+{"id": "amount-0117", "field": "amount", "value": "7,2B6,631元", "truth": "7,286,631元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0117", "field": "amount", "value": "728.6631万元", "truth": "7,286,631元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0117", "field": "amount", "value": "7286631元", "truth": "7,286,631元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0117", "field": "amount", "value": "金额:7,286,631元", "truth": "7,286,631元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0118", "field": "amount", "value": "5,4　08,048元", "truth": "5,408,048元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0118", "field": "amount", "value": "5,4O8,048元", "truth": "5,408,048元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0118", "field": "amount", "value": "540.8048万元", "truth": "5,408,048元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0118", "field": "amount", "value": "5408048元", "truth": "5,408,048元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0118", "field": "amount", "value": "5,408,048元（含税）", "truth": "5,408,048元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0119", "field": "amount", "value": "394,112. 03元", "truth": "394,112.03元", "perturbation": "space", "split": "train"}
+{"id": "amount-0119", "field": "amount", "value": "394,11Z.03元", "truth": "394,112.03元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0119", "field": "amount", "value": "39.4112万元", "truth": "394,112.03元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0119", "field": "amount", "value": "394112.03元", "truth": "394,112.03元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0119", "field": "amount", "value": "394,112.03元（含税）", "truth": "394,112.03元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0120", "field": "amount", "value": "7,785,0　80.96元", "truth": "7,785,080.96元", "perturbation": "space", "split": "train"}
+{"id": "amount-0120", "field": "amount", "value": "7,785,O80.96元", "truth": "7,785,080.96元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0120", "field": "amount", "value": "778.5081万元", "truth": "7,785,080.96元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0120", "field": "amount", "value": "7,785,0,80.96元", "truth": "7,785,080.96元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0120", "field": "amount", "value": "金额:7,785,080.96元", "truth": "7,785,080.96元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0121", "field": "amount", "value": "6034346 元", "truth": "6034346元", "perturbation": "space", "split": "train"}
+{"id": "amount-0121", "field": "amount", "value": "6034E46元", "truth": "6034346元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0121", "field": "amount", "value": "603.4346万元", "truth": "6034346元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0121", "field": "amount", "value": "6,034346元", "truth": "6034346元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0121", "field": "amount", "value": "金额：6034346元", "truth": "6034346元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0122", "field": "amount", "value": "57560 02元", "truth": "5756002元", "perturbation": "space", "split": "train"}
+{"id": "amount-0122", "field": "amount", "value": "575G002元", "truth": "5756002元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0122", "field": "amount", "value": "575.6002万元", "truth": "5756002元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0122", "field": "amount", "value": "5,756,002元", "truth": "5756002元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0122", "field": "amount", "value": "5756002元（含税）", "truth": "5756002元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0123", "field": "amount", "value": "2,535,172　元", "truth": "2,535,172元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0123", "field": "amount", "value": "2,535,1T2元", "truth": "2,535,172元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0123", "field": "amount", "value": "253.5172万元", "truth": "2,535,172元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0123", "field": "amount", "value": "2535172元", "truth": "2,535,172元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0123", "field": "amount", "value": "2,535,172元（未税）", "truth": "2,535,172元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0124", "field": "amount", "value": "2,　193,604.6元", "truth": "2,193,604.6元", "perturbation": "space", "split": "train"}
+{"id": "amount-0124", "field": "amount", "value": "2,1q3,604.6元", "truth": "2,193,604.6元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0124", "field": "amount", "value": "219.3605万元", "truth": "2,193,604.6元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0124", "field": "amount", "value": "2193604.6元", "truth": "2,193,604.6元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0124", "field": "amount", "value": "费用：2,193,604.6元", "truth": "2,193,604.6元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0125", "field": "amount", "value": "36 0,747元", "truth": "360,747元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0125", "field": "amount", "value": "360,T47元", "truth": "360,747元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0125", "field": "amount", "value": "36.0747万元", "truth": "360,747元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0125", "field": "amount", "value": "360,,747元", "truth": "360,747元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0125", "field": "amount", "value": "金额：360,747元", "truth": "360,747元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0126", "field": "amount", "value": "4,374,　916.7元", "truth": "4,374,916.7元", "perturbation": "space", "split": "train"}
+{"id": "amount-0126", "field": "amount", "value": "4,374,916.T元", "truth": "4,374,916.7元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0126", "field": "amount", "value": "437.4917万元", "truth": "4,374,916.7元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0126", "field": "amount", "value": "4374916.7元", "truth": "4,374,916.7元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0126", "field": "amount", "value": "金额：4,374,916.7元", "truth": "4,374,916.7元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0127", "field": "amount", "value": "270904　6.23元", "truth": "2709046.23元", "perturbation": "space", "split": "train"}
+{"id": "amount-0127", "field": "amount", "value": "27090A6.23元", "truth": "2709046.23元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0127", "field": "amount", "value": "270.9046万元", "truth": "2709046.23元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0127", "field": "amount", "value": "2,709,046.23元", "truth": "2709046.23元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0127", "field": "amount", "value": "金额：2709046.23元", "truth": "2709046.23元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0128", "field": "amount", "value": "6,016,592. 34元", "truth": "6,016,592.34元", "perturbation": "space", "split": "train"}
+{"id": "amount-0128", "field": "amount", "value": "G,016,592.34元", "truth": "6,016,592.34元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0128", "field": "amount", "value": "601.6592万元", "truth": "6,016,592.34元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0128", "field": "amount", "value": "6,，016,592.34元", "truth": "6,016,592.34元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0128", "field": "amount", "value": "6,016,592.34元（含税）", "truth": "6,016,592.34元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0129", "field": "amount", "value": "3,70 6,325元", "truth": "3,706,325元", "perturbation": "space", "split": "train"}
+{"id": "amount-0129", "field": "amount", "value": "3,T06,325元", "truth": "3,706,325元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0129", "field": "amount", "value": "370.6325万元", "truth": "3,706,325元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0129", "field": "amount", "value": "3,706,3,25元", "truth": "3,706,325元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0129", "field": "amount", "value": "费用：3,706,325元", "truth": "3,706,325元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0130", "field": "amount", "value": "57676 44.8元", "truth": "5767644.8元", "perturbation": "space", "split": "train"}
+{"id": "amount-0130", "field": "amount", "value": "5T67644.8元", "truth": "5767644.8元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0130", "field": "amount", "value": "576.7645万元", "truth": "5767644.8元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0130", "field": "amount", "value": "5,767,644.8元", "truth": "5767644.8元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0130", "field": "amount", "value": "5767644.8元。", "truth": "5767644.8元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0131", "field": "amount", "value": "4　484105元", "truth": "4484105元", "perturbation": "space", "split": "train"}
+{"id": "amount-0131", "field": "amount", "value": "44B4105元", "truth": "4484105元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0131", "field": "amount", "value": "448.4105万元", "truth": "4484105元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0131", "field": "amount", "value": "44841,05元", "truth": "4484105元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0131", "field": "amount", "value": "金额：4484105元", "truth": "4484105元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0132", "field": "amount", "value": "7,520,718.25 元", "truth": "7,520,718.25元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0132", "field": "amount", "value": "T,520,718.25元", "truth": "7,520,718.25元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0132", "field": "amount", "value": "752.0718万元", "truth": "7,520,718.25元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0132", "field": "amount", "value": "7,520,718，.25元", "truth": "7,520,718.25元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0132", "field": "amount", "value": "金额：7,520,718.25元", "truth": "7,520,718.25元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0133", "field": "amount", "value": "4,043,5 37.17元", "truth": "4,043,537.17元", "perturbation": "space", "split": "train"}
+{"id": "amount-0133", "field": "amount", "value": "4,043,S37.17元", "truth": "4,043,537.17元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0133", "field": "amount", "value": "404.3537万元", "truth": "4,043,537.17元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0133", "field": "amount", "value": "4,043，,537.17元", "truth": "4,043,537.17元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0133", "field": "amount", "value": "4,043,537.17元（未税）", "truth": "4,043,537.17元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0134", "field": "amount", "value": "3063908.3　元", "truth": "3063908.3元", "perturbation": "space", "split": "train"}
+{"id": "amount-0134", "field": "amount", "value": "3063q08.3元", "truth": "3063908.3元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0134", "field": "amount", "value": "306.3908万元", "truth": "3063908.3元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0134", "field": "amount", "value": "3,063,908.3元", "truth": "3063908.3元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0134", "field": "amount", "value": "费用：3063908.3元", "truth": "3063908.3元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0135", "field": "amount", "value": "9,679 ,616元", "truth": "9,679,616元", "perturbation": "space", "split": "train"}
+{"id": "amount-0135", "field": "amount", "value": "9,679,G16元", "truth": "9,679,616元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0135", "field": "amount", "value": "967.9616万元", "truth": "9,679,616元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0135", "field": "amount", "value": "9679616元", "truth": "9,679,616元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0135", "field": "amount", "value": "金额：9,679,616元", "truth": "9,679,616元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0136", "field": "amount", "value": "2,317,30　4元", "truth": "2,317,304元", "perturbation": "space", "split": "train"}
+{"id": "amount-0136", "field": "amount", "value": "Z,317,304元", "truth": "2,317,304元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0136", "field": "amount", "value": "231.7304万元", "truth": "2,317,304元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0136", "field": "amount", "value": "2，,317,304元", "truth": "2,317,304元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0136", "field": "amount", "value": "2,317,304元。", "truth": "2,317,304元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0137", "field": "amount", "value": "7 534368.61元", "truth": "7534368.61元", "perturbation": "space", "split": "train"}
+{"id": "amount-0137", "field": "amount", "value": "7534E68.61元", "truth": "7534368.61元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0137", "field": "amount", "value": "753.4369万元", "truth": "7534368.61元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0137", "field": "amount", "value": "75，34368.61元", "truth": "7534368.61元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0137", "field": "amount", "value": "金额：7534368.61元", "truth": "7534368.61元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0138", "field": "amount", "value": "1823775 元", "truth": "1823775元", "perturbation": "space", "split": "train"}
+{"id": "amount-0138", "field": "amount", "value": "1823T75元", "truth": "1823775元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0138", "field": "amount", "value": "182.3775万元", "truth": "1823775元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0138", "field": "amount", "value": "182，3775元", "truth": "1823775元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0138", "field": "amount", "value": "金额：1823775元", "truth": "1823775元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0139", "field": "amount", "value": "94220　29.26元", "truth": "9422029.26元", "perturbation": "space", "split": "train"}
+{"id": "amount-0139", "field": "amount", "value": "94Z2029.26元", "truth": "9422029.26元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0139", "field": "amount", "value": "942.2029万元", "truth": "9422029.26元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0139", "field": "amount", "value": "94,22029.26元", "truth": "9422029.26元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0139", "field": "amount", "value": "金额：9422029.26元", "truth": "9422029.26元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0140", "field": "amount", "value": "4,466,4　92元", "truth": "4,466,492元", "perturbation": "space", "split": "train"}
+{"id": "amount-0140", "field": "amount", "value": "4,A66,492元", "truth": "4,466,492元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0140", "field": "amount", "value": "446.6492万元", "truth": "4,466,492元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0140", "field": "amount", "value": "4466492元", "truth": "4,466,492元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0140", "field": "amount", "value": "金额:4,466,492元", "truth": "4,466,492元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0141", "field": "amount", "value": "71　66594元", "truth": "7166594元", "perturbation": "space", "split": "train"}
+{"id": "amount-0141", "field": "amount", "value": "7l66594元", "truth": "7166594元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0141", "field": "amount", "value": "716.6594万元", "truth": "7166594元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0141", "field": "amount", "value": "7166,594元", "truth": "7166594元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0141", "field": "amount", "value": "7166594元（未税）", "truth": "7166594元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0142", "field": "amount", "value": "2,551,8 00元", "truth": "2,551,800元", "perturbation": "space", "split": "train"}
+{"id": "amount-0142", "field": "amount", "value": "2,S51,800元", "truth": "2,551,800元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0142", "field": "amount", "value": "255.18万元", "truth": "2,551,800元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0142", "field": "amount", "value": "2551800元", "truth": "2,551,800元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0142", "field": "amount", "value": "金额：2,551,800元", "truth": "2,551,800元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0143", "field": "amount", "value": "2,472 ,467元", "truth": "2,472,467元", "perturbation": "space", "split": "train"}
+{"id": "amount-0143", "field": "amount", "value": "2,47Z,467元", "truth": "2,472,467元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0143", "field": "amount", "value": "247.2467万元", "truth": "2,472,467元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0143", "field": "amount", "value": "2,472,，467元", "truth": "2,472,467元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0143", "field": "amount", "value": "金额：2,472,467元", "truth": "2,472,467元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0144", "field": "amount", "value": "162112 3元", "truth": "1621123元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0144", "field": "amount", "value": "16Z1123元", "truth": "1621123元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0144", "field": "amount", "value": "162.1123万元", "truth": "1621123元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0144", "field": "amount", "value": "16211，23元", "truth": "1621123元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0144", "field": "amount", "value": "金额:1621123元", "truth": "1621123元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0145", "field": "amount", "value": "926343.　7元", "truth": "926343.7元", "perturbation": "space", "split": "train"}
+{"id": "amount-0145", "field": "amount", "value": "92G343.7元", "truth": "926343.7元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0145", "field": "amount", "value": "92.6344万元", "truth": "926343.7元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0145", "field": "amount", "value": "926343.，7元", "truth": "926343.7元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0145", "field": "amount", "value": "费用：926343.7元", "truth": "926343.7元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0146", "field": "amount", "value": "5,64　9,355.6元", "truth": "5,649,355.6元", "perturbation": "space", "split": "train"}
+{"id": "amount-0146", "field": "amount", "value": "5,6A9,355.6元", "truth": "5,649,355.6元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0146", "field": "amount", "value": "564.9356万元", "truth": "5,649,355.6元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0146", "field": "amount", "value": "5649355.6元", "truth": "5,649,355.6元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0146", "field": "amount", "value": "金额:5,649,355.6元", "truth": "5,649,355.6元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0147", "field": "amount", "value": "4,550,623 元", "truth": "4,550,623元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0147", "field": "amount", "value": "A,550,623元", "truth": "4,550,623元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0147", "field": "amount", "value": "455.0623万元", "truth": "4,550,623元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0147", "field": "amount", "value": "4550623元", "truth": "4,550,623元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0147", "field": "amount", "value": "4,550,623元（含税）", "truth": "4,550,623元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0148", "field": "amount", "value": "7 646083.56元", "truth": "7646083.56元", "perturbation": "space", "split": "train"}
+{"id": "amount-0148", "field": "amount", "value": "764608E.56元", "truth": "7646083.56元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0148", "field": "amount", "value": "764.6084万元", "truth": "7646083.56元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0148", "field": "amount", "value": "7,646,083.56元", "truth": "7646083.56元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0148", "field": "amount", "value": "7646083.56元（未税）", "truth": "7646083.56元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0149", "field": "amount", "value": "5500393.　6元", "truth": "5500393.6元", "perturbation": "space", "split": "train"}
+{"id": "amount-0149", "field": "amount", "value": "5500E93.6元", "truth": "5500393.6元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0149", "field": "amount", "value": "550.0394万元", "truth": "5500393.6元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0149", "field": "amount", "value": "5500393，.6元", "truth": "5500393.6元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0149", "field": "amount", "value": "5500393.6元。", "truth": "5500393.6元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0150", "field": "amount", "value": "2,601,08 6元", "truth": "2,601,086元", "perturbation": "space", "split": "train"}
+{"id": "amount-0150", "field": "amount", "value": "2,G01,086元", "truth": "2,601,086元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0150", "field": "amount", "value": "260.1086万元", "truth": "2,601,086元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0150", "field": "amount", "value": "2601086元", "truth": "2,601,086元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0150", "field": "amount", "value": "金额：2,601,086元", "truth": "2,601,086元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0151", "field": "amount", "value": "9,182,23 8元", "truth": "9,182,238元", "perturbation": "space", "split": "train"}
+{"id": "amount-0151", "field": "amount", "value": "9,182,23B元", "truth": "9,182,238元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0151", "field": "amount", "value": "918.2238万元", "truth": "9,182,238元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0151", "field": "amount", "value": "9,182,23,8元", "truth": "9,182,238元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0151", "field": "amount", "value": "9,182,238元（含税）", "truth": "9,182,238元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0152", "field": "amount", "value": "6,　040,768.51元", "truth": "6,040,768.51元", "perturbation": "space", "split": "train"}
+{"id": "amount-0152", "field": "amount", "value": "6,040,T68.51元", "truth": "6,040,768.51元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0152", "field": "amount", "value": "604.0769万元", "truth": "6,040,768.51元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0152", "field": "amount", "value": "6040768.51元", "truth": "6,040,768.51元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0152", "field": "amount", "value": "6,040,768.51元（未税）", "truth": "6,040,768.51元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0153", "field": "amount", "value": "2128821. 0元", "truth": "2128821.0元", "perturbation": "space", "split": "train"}
+{"id": "amount-0153", "field": "amount", "value": "21Z8821.0元", "truth": "2128821.0元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0153", "field": "amount", "value": "212.8821万元", "truth": "2128821.0元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0153", "field": "amount", "value": "21，28821.0元", "truth": "2128821.0元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0153", "field": "amount", "value": "2128821.0元。", "truth": "2128821.0元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0154", "field": "amount", "value": "87　14195元", "truth": "8714195元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0154", "field": "amount", "value": "871419S元", "truth": "8714195元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0154", "field": "amount", "value": "871.4195万元", "truth": "8714195元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0154", "field": "amount", "value": "871419，5元", "truth": "8714195元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0154", "field": "amount", "value": "金额:8714195元", "truth": "8714195元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0155", "field": "amount", "value": "8431009 .99元", "truth": "8431009.99元", "perturbation": "space", "split": "train"}
+{"id": "amount-0155", "field": "amount", "value": "8431O09.99元", "truth": "8431009.99元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0155", "field": "amount", "value": "843.101万元", "truth": "8431009.99元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0155", "field": "amount", "value": "8,431,009.99元", "truth": "8431009.99元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0155", "field": "amount", "value": "8431009.99元。", "truth": "8431009.99元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0156", "field": "amount", "value": "36　90870.2元", "truth": "3690870.2元", "perturbation": "space", "split": "train"}
+{"id": "amount-0156", "field": "amount", "value": "36908T0.2元", "truth": "3690870.2元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0156", "field": "amount", "value": "369.087万元", "truth": "3690870.2元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0156", "field": "amount", "value": "3,690,870.2元", "truth": "3690870.2元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0156", "field": "amount", "value": "费用：3690870.2元", "truth": "3690870.2元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0157", "field": "amount", "value": "6,402,21　9.1元", "truth": "6,402,219.1元", "perturbation": "space", "split": "train"}
+{"id": "amount-0157", "field": "amount", "value": "6,402,219.l元", "truth": "6,402,219.1元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0157", "field": "amount", "value": "640.2219万元", "truth": "6,402,219.1元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0157", "field": "amount", "value": "6402219.1元", "truth": "6,402,219.1元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0157", "field": "amount", "value": "金额:6,402,219.1元", "truth": "6,402,219.1元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0158", "field": "amount", "value": "5,538,452　元", "truth": "5,538,452元", "perturbation": "space", "split": "train"}
+{"id": "amount-0158", "field": "amount", "value": "5,S38,452元", "truth": "5,538,452元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0158", "field": "amount", "value": "553.8452万元", "truth": "5,538,452元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0158", "field": "amount", "value": "5,53，8,452元", "truth": "5,538,452元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0158", "field": "amount", "value": "5,538,452元。", "truth": "5,538,452元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0159", "field": "amount", "value": "9,15　3,231元", "truth": "9,153,231元", "perturbation": "space", "split": "train"}
+{"id": "amount-0159", "field": "amount", "value": "9,15E,231元", "truth": "9,153,231元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0159", "field": "amount", "value": "915.3231万元", "truth": "9,153,231元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0159", "field": "amount", "value": "9153231元", "truth": "9,153,231元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0159", "field": "amount", "value": "金额：9,153,231元", "truth": "9,153,231元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0160", "field": "amount", "value": "1,737,938.53 元", "truth": "1,737,938.53元", "perturbation": "space", "split": "train"}
+{"id": "amount-0160", "field": "amount", "value": "1,73T,938.53元", "truth": "1,737,938.53元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0160", "field": "amount", "value": "173.7939万元", "truth": "1,737,938.53元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0160", "field": "amount", "value": "1,7,37,938.53元", "truth": "1,737,938.53元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0160", "field": "amount", "value": "费用：1,737,938.53元", "truth": "1,737,938.53元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0161", "field": "amount", "value": "350118　8.1元", "truth": "3501188.1元", "perturbation": "space", "split": "train"}
+{"id": "amount-0161", "field": "amount", "value": "350l188.1元", "truth": "3501188.1元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0161", "field": "amount", "value": "350.1188万元", "truth": "3501188.1元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0161", "field": "amount", "value": "35011,88.1元", "truth": "3501188.1元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0161", "field": "amount", "value": "3501188.1元（未税）", "truth": "3501188.1元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0162", "field": "amount", "value": "6,353,　517元", "truth": "6,353,517元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0162", "field": "amount", "value": "6,35E,517元", "truth": "6,353,517元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0162", "field": "amount", "value": "635.3517万元", "truth": "6,353,517元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0162", "field": "amount", "value": "6,353,，517元", "truth": "6,353,517元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0162", "field": "amount", "value": "6,353,517元。", "truth": "6,353,517元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0163", "field": "amount", "value": "381332 3元", "truth": "3813323元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0163", "field": "amount", "value": "3813E23元", "truth": "3813323元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0163", "field": "amount", "value": "381.3323万元", "truth": "3813323元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0163", "field": "amount", "value": "3,813,323元", "truth": "3813323元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0163", "field": "amount", "value": "金额:3813323元", "truth": "3813323元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0164", "field": "amount", "value": "1　62,461元", "truth": "162,461元", "perturbation": "space", "split": "train"}
+{"id": "amount-0164", "field": "amount", "value": "162,A61元", "truth": "162,461元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0164", "field": "amount", "value": "16.2461万元", "truth": "162,461元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0164", "field": "amount", "value": "162461元", "truth": "162,461元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0164", "field": "amount", "value": "162,461元。", "truth": "162,461元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0165", "field": "amount", "value": "7,435,061 .77元", "truth": "7,435,061.77元", "perturbation": "space", "split": "train"}
+{"id": "amount-0165", "field": "amount", "value": "T,435,061.77元", "truth": "7,435,061.77元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0165", "field": "amount", "value": "743.5062万元", "truth": "7,435,061.77元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0165", "field": "amount", "value": "7435061.77元", "truth": "7,435,061.77元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0165", "field": "amount", "value": "费用：7,435,061.77元", "truth": "7,435,061.77元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0166", "field": "amount", "value": "8　,173,689.7元", "truth": "8,173,689.7元", "perturbation": "space", "split": "train"}
+{"id": "amount-0166", "field": "amount", "value": "8,173,6B9.7元", "truth": "8,173,689.7元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0166", "field": "amount", "value": "817.369万元", "truth": "8,173,689.7元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0166", "field": "amount", "value": "8,173,6，89.7元", "truth": "8,173,689.7元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0166", "field": "amount", "value": "金额：8,173,689.7元", "truth": "8,173,689.7元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0167", "field": "amount", "value": "4,　486,354元", "truth": "4,486,354元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0167", "field": "amount", "value": "4,486,3S4元", "truth": "4,486,354元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0167", "field": "amount", "value": "448.6354万元", "truth": "4,486,354元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0167", "field": "amount", "value": "4486354元", "truth": "4,486,354元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0167", "field": "amount", "value": "金额：4,486,354元", "truth": "4,486,354元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0168", "field": "amount", "value": "367 0746元", "truth": "3670746元", "perturbation": "space", "split": "train"}
+{"id": "amount-0168", "field": "amount", "value": "36T0746元", "truth": "3670746元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0168", "field": "amount", "value": "367.0746万元", "truth": "3670746元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0168", "field": "amount", "value": "3,670,746元", "truth": "3670746元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0168", "field": "amount", "value": "金额：3670746元", "truth": "3670746元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0169", "field": "amount", "value": "1058294　元", "truth": "1058294元", "perturbation": "space", "split": "train"}
+{"id": "amount-0169", "field": "amount", "value": "105829A元", "truth": "1058294元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0169", "field": "amount", "value": "105.8294万元", "truth": "1058294元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0169", "field": "amount", "value": "1,058,294元", "truth": "1058294元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0169", "field": "amount", "value": "费用：1058294元", "truth": "1058294元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0170", "field": "amount", "value": "5,914,743.63　元", "truth": "5,914,743.63元", "perturbation": "space", "split": "train"}
+{"id": "amount-0170", "field": "amount", "value": "5,91A,743.63元", "truth": "5,914,743.63元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0170", "field": "amount", "value": "591.4744万元", "truth": "5,914,743.63元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0170", "field": "amount", "value": "5914743.63元", "truth": "5,914,743.63元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0170", "field": "amount", "value": "费用：5,914,743.63元", "truth": "5,914,743.63元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0171", "field": "amount", "value": "73　78869元", "truth": "7378869元", "perturbation": "space", "split": "train"}
+{"id": "amount-0171", "field": "amount", "value": "7378B69元", "truth": "7378869元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0171", "field": "amount", "value": "737.8869万元", "truth": "7378869元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0171", "field": "amount", "value": "737886，9元", "truth": "7378869元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0171", "field": "amount", "value": "7378869元（含税）", "truth": "7378869元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0172", "field": "amount", "value": "9,680, 981元", "truth": "9,680,981元", "perturbation": "space", "split": "train"}
+{"id": "amount-0172", "field": "amount", "value": "9,6B0,981元", "truth": "9,680,981元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0172", "field": "amount", "value": "968.0981万元", "truth": "9,680,981元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0172", "field": "amount", "value": "9,,680,981元", "truth": "9,680,981元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0172", "field": "amount", "value": "9,680,981元（含税）", "truth": "9,680,981元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0173", "field": "amount", "value": "2933200 .42元", "truth": "2933200.42元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0173", "field": "amount", "value": "293E200.42元", "truth": "2933200.42元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0173", "field": "amount", "value": "293.32万元", "truth": "2933200.42元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0173", "field": "amount", "value": "2933,200.42元", "truth": "2933200.42元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0173", "field": "amount", "value": "2933200.42元（含税）", "truth": "2933200.42元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0174", "field": "amount", "value": "1,51 1,612元", "truth": "1,511,612元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0174", "field": "amount", "value": "1,511,G12元", "truth": "1,511,612元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0174", "field": "amount", "value": "151.1612万元", "truth": "1,511,612元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0174", "field": "amount", "value": "1511612元", "truth": "1,511,612元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0174", "field": "amount", "value": "1,511,612元（未税）", "truth": "1,511,612元", "perturbation": "noise", "split": "heldout"}
+{"id": "amount-0175", "field": "amount", "value": "7,682,6 80.7元", "truth": "7,682,680.7元", "perturbation": "space", "split": "train"}
+{"id": "amount-0175", "field": "amount", "value": "7,682,G80.7元", "truth": "7,682,680.7元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0175", "field": "amount", "value": "768.2681万元", "truth": "7,682,680.7元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0175", "field": "amount", "value": "7682680.7元", "truth": "7,682,680.7元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0175", "field": "amount", "value": "7,682,680.7元。", "truth": "7,682,680.7元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0176", "field": "amount", "value": "1,430,305.0 7元", "truth": "1,430,305.07元", "perturbation": "space", "split": "train"}
+{"id": "amount-0176", "field": "amount", "value": "1,430,305.0T元", "truth": "1,430,305.07元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0176", "field": "amount", "value": "143.0305万元", "truth": "1,430,305.07元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0176", "field": "amount", "value": "1,430,305.0,7元", "truth": "1,430,305.07元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0176", "field": "amount", "value": "1,430,305.07元。", "truth": "1,430,305.07元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0177", "field": "amount", "value": "24724　42.8元", "truth": "2472442.8元", "perturbation": "space", "split": "train"}
+{"id": "amount-0177", "field": "amount", "value": "247Z442.8元", "truth": "2472442.8元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0177", "field": "amount", "value": "247.2443万元", "truth": "2472442.8元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0177", "field": "amount", "value": "2472442.，8元", "truth": "2472442.8元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0177", "field": "amount", "value": "费用：2472442.8元", "truth": "2472442.8元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0178", "field": "amount", "value": "2,594,5　91.7元", "truth": "2,594,591.7元", "perturbation": "space", "split": "train"}
+{"id": "amount-0178", "field": "amount", "value": "2,594,59l.7元", "truth": "2,594,591.7元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0178", "field": "amount", "value": "259.4592万元", "truth": "2,594,591.7元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0178", "field": "amount", "value": "2,5,94,591.7元", "truth": "2,594,591.7元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0178", "field": "amount", "value": "金额:2,594,591.7元", "truth": "2,594,591.7元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0179", "field": "amount", "value": "769151 2元", "truth": "7691512元", "perturbation": "space", "split": "train"}
+{"id": "amount-0179", "field": "amount", "value": "7G91512元", "truth": "7691512元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0179", "field": "amount", "value": "769.1512万元", "truth": "7691512元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0179", "field": "amount", "value": "7,691,512元", "truth": "7691512元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0179", "field": "amount", "value": "金额：7691512元", "truth": "7691512元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0180", "field": "amount", "value": "6,386,32 7元", "truth": "6,386,327元", "perturbation": "space", "split": "train"}
+{"id": "amount-0180", "field": "amount", "value": "6,386,32T元", "truth": "6,386,327元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0180", "field": "amount", "value": "638.6327万元", "truth": "6,386,327元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0180", "field": "amount", "value": "6,，386,327元", "truth": "6,386,327元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0180", "field": "amount", "value": "金额：6,386,327元", "truth": "6,386,327元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0181", "field": "amount", "value": "2,0 71,150.31元", "truth": "2,071,150.31元", "perturbation": "space", "split": "train"}
+{"id": "amount-0181", "field": "amount", "value": "2,071,150.E1元", "truth": "2,071,150.31元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0181", "field": "amount", "value": "207.115万元", "truth": "2,071,150.31元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0181", "field": "amount", "value": "2071150.31元", "truth": "2,071,150.31元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0181", "field": "amount", "value": "费用：2,071,150.31元", "truth": "2,071,150.31元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0182", "field": "amount", "value": "5926 697.6元", "truth": "5926697.6元", "perturbation": "space", "split": "train"}
+{"id": "amount-0182", "field": "amount", "value": "59266q7.6元", "truth": "5926697.6元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0182", "field": "amount", "value": "592.6698万元", "truth": "5926697.6元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0182", "field": "amount", "value": "5,926,697.6元", "truth": "5926697.6元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0182", "field": "amount", "value": "5926697.6元。", "truth": "5926697.6元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0183", "field": "amount", "value": "2　35,059.7元", "truth": "235,059.7元", "perturbation": "space", "split": "train"}
+{"id": "amount-0183", "field": "amount", "value": "Z35,059.7元", "truth": "235,059.7元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0183", "field": "amount", "value": "23.506万元", "truth": "235,059.7元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0183", "field": "amount", "value": "2，35,059.7元", "truth": "235,059.7元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0183", "field": "amount", "value": "金额:235,059.7元", "truth": "235,059.7元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0184", "field": "amount", "value": "8,　922,105元", "truth": "8,922,105元", "perturbation": "space", "split": "train"}
+{"id": "amount-0184", "field": "amount", "value": "B,922,105元", "truth": "8,922,105元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0184", "field": "amount", "value": "892.2105万元", "truth": "8,922,105元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0184", "field": "amount", "value": "8922105元", "truth": "8,922,105元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0184", "field": "amount", "value": "费用：8,922,105元", "truth": "8,922,105元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0185", "field": "amount", "value": "4,5　06,340.31元", "truth": "4,506,340.31元", "perturbation": "space", "split": "train"}
+{"id": "amount-0185", "field": "amount", "value": "4,506,E40.31元", "truth": "4,506,340.31元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0185", "field": "amount", "value": "450.634万元", "truth": "4,506,340.31元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0185", "field": "amount", "value": "4506340.31元", "truth": "4,506,340.31元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0185", "field": "amount", "value": "金额:4,506,340.31元", "truth": "4,506,340.31元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0186", "field": "amount", "value": "4 ,638,493元", "truth": "4,638,493元", "perturbation": "space", "split": "train"}
+{"id": "amount-0186", "field": "amount", "value": "4,6E8,493元", "truth": "4,638,493元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0186", "field": "amount", "value": "463.8493万元", "truth": "4,638,493元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0186", "field": "amount", "value": "4638493元", "truth": "4,638,493元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0186", "field": "amount", "value": "4,638,493元（未税）", "truth": "4,638,493元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0187", "field": "amount", "value": "5,649,434 .2元", "truth": "5,649,434.2元", "perturbation": "space", "split": "train"}
+{"id": "amount-0187", "field": "amount", "value": "5,G49,434.2元", "truth": "5,649,434.2元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0187", "field": "amount", "value": "564.9434万元", "truth": "5,649,434.2元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0187", "field": "amount", "value": "5649434.2元", "truth": "5,649,434.2元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0187", "field": "amount", "value": "5,649,434.2元（含税）", "truth": "5,649,434.2元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0188", "field": "amount", "value": "1,209,891.9 元", "truth": "1,209,891.9元", "perturbation": "space", "split": "train"}
+{"id": "amount-0188", "field": "amount", "value": "l,209,891.9元", "truth": "1,209,891.9元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0188", "field": "amount", "value": "120.9892万元", "truth": "1,209,891.9元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0188", "field": "amount", "value": "1209891.9元", "truth": "1,209,891.9元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0188", "field": "amount", "value": "金额：1,209,891.9元", "truth": "1,209,891.9元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0189", "field": "amount", "value": "25649 97.9元", "truth": "2564997.9元", "perturbation": "space", "split": "train"}
+{"id": "amount-0189", "field": "amount", "value": "2564q97.9元", "truth": "2564997.9元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0189", "field": "amount", "value": "256.4998万元", "truth": "2564997.9元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0189", "field": "amount", "value": "2,564,997.9元", "truth": "2564997.9元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0189", "field": "amount", "value": "金额：2564997.9元", "truth": "2564997.9元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0190", "field": "amount", "value": "97　15898.78元", "truth": "9715898.78元", "perturbation": "space", "split": "train"}
+{"id": "amount-0190", "field": "amount", "value": "97l5898.78元", "truth": "9715898.78元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0190", "field": "amount", "value": "971.5899万元", "truth": "9715898.78元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0190", "field": "amount", "value": "971，5898.78元", "truth": "9715898.78元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0190", "field": "amount", "value": "9715898.78元。", "truth": "9715898.78元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0191", "field": "amount", "value": "3614798. 3元", "truth": "3614798.3元", "perturbation": "space", "split": "train"}
+{"id": "amount-0191", "field": "amount", "value": "3G14798.3元", "truth": "3614798.3元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0191", "field": "amount", "value": "361.4798万元", "truth": "3614798.3元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0191", "field": "amount", "value": "3,614,798.3元", "truth": "3614798.3元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0191", "field": "amount", "value": "金额：3614798.3元", "truth": "3614798.3元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0192", "field": "amount", "value": "8,406,25 6元", "truth": "8,406,256元", "perturbation": "space", "split": "train"}
+{"id": "amount-0192", "field": "amount", "value": "8,406,Z56元", "truth": "8,406,256元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0192", "field": "amount", "value": "840.6256万元", "truth": "8,406,256元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0192", "field": "amount", "value": "8406256元", "truth": "8,406,256元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0192", "field": "amount", "value": "8,406,256元（含税）", "truth": "8,406,256元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0193", "field": "amount", "value": "7,456,01 3元", "truth": "7,456,013元", "perturbation": "space", "split": "train"}
+{"id": "amount-0193", "field": "amount", "value": "T,456,013元", "truth": "7,456,013元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0193", "field": "amount", "value": "745.6013万元", "truth": "7,456,013元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0193", "field": "amount", "value": "7,4,56,013元", "truth": "7,456,013元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0193", "field": "amount", "value": "7,456,013元（未税）", "truth": "7,456,013元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0194", "field": "amount", "value": "8　467987元", "truth": "8467987元", "perturbation": "space", "split": "train"}
+{"id": "amount-0194", "field": "amount", "value": "8467q87元", "truth": "8467987元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0194", "field": "amount", "value": "846.7987万元", "truth": "8467987元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0194", "field": "amount", "value": "8,467,987元", "truth": "8467987元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0194", "field": "amount", "value": "8467987元（未税）", "truth": "8467987元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0195", "field": "amount", "value": "37　69667.8元", "truth": "3769667.8元", "perturbation": "space", "split": "train"}
+{"id": "amount-0195", "field": "amount", "value": "376q667.8元", "truth": "3769667.8元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0195", "field": "amount", "value": "376.9668万元", "truth": "3769667.8元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0195", "field": "amount", "value": "37,69667.8元", "truth": "3769667.8元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0195", "field": "amount", "value": "3769667.8元（含税）", "truth": "3769667.8元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0196", "field": "amount", "value": "8, 193,398.7元", "truth": "8,193,398.7元", "perturbation": "space", "split": "train"}
+{"id": "amount-0196", "field": "amount", "value": "8,19E,398.7元", "truth": "8,193,398.7元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0196", "field": "amount", "value": "819.3399万元", "truth": "8,193,398.7元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0196", "field": "amount", "value": "8193398.7元", "truth": "8,193,398.7元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0196", "field": "amount", "value": "8,193,398.7元。", "truth": "8,193,398.7元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0197", "field": "amount", "value": "3671481.2 元", "truth": "3671481.2元", "perturbation": "space", "split": "train"}
+{"id": "amount-0197", "field": "amount", "value": "3671481.Z元", "truth": "3671481.2元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0197", "field": "amount", "value": "367.1481万元", "truth": "3671481.2元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0197", "field": "amount", "value": "3671,481.2元", "truth": "3671481.2元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0197", "field": "amount", "value": "金额：3671481.2元", "truth": "3671481.2元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0198", "field": "amount", "value": "894 7914元", "truth": "8947914元", "perturbation": "space", "split": "train"}
+{"id": "amount-0198", "field": "amount", "value": "894T914元", "truth": "8947914元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0198", "field": "amount", "value": "894.7914万元", "truth": "8947914元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0198", "field": "amount", "value": "89，47914元", "truth": "8947914元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0198", "field": "amount", "value": "8947914元（含税）", "truth": "8947914元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0199", "field": "amount", "value": "1,640,24　8.6元", "truth": "1,640,248.6元", "perturbation": "space", "split": "train"}
+{"id": "amount-0199", "field": "amount", "value": "1,6A0,248.6元", "truth": "1,640,248.6元", "perturbation": "typo", "split": "train"}
+{"id": "amount-0199", "field": "amount", "value": "164.0249万元", "truth": "1,640,248.6元", "perturbation": "abbrev", "split": "train"}
+{"id": "amount-0199", "field": "amount", "value": "1640248.6元", "truth": "1,640,248.6元", "perturbation": "sep", "split": "train"}
+{"id": "amount-0199", "field": "amount", "value": "费用：1,640,248.6元", "truth": "1,640,248.6元", "perturbation": "noise", "split": "train"}
+{"id": "amount-0200", "field": "amount", "value": "525　5239元", "truth": "5255239元", "perturbation": "space", "split": "heldout"}
+{"id": "amount-0200", "field": "amount", "value": "52S5239元", "truth": "5255239元", "perturbation": "typo", "split": "heldout"}
+{"id": "amount-0200", "field": "amount", "value": "525.5239万元", "truth": "5255239元", "perturbation": "abbrev", "split": "heldout"}
+{"id": "amount-0200", "field": "amount", "value": "5,255,239元", "truth": "5255239元", "perturbation": "sep", "split": "heldout"}
+{"id": "amount-0200", "field": "amount", "value": "5255239元（未税）", "truth": "5255239元", "perturbation": "noise", "split": "heldout"}

@@ -9,8 +9,8 @@ S: 留出集独立划分；规则库不得针对测试扰动模式调参
 - clean 行：{"id": "person-0001", "field": "person", "value": "王小明"}
 - dirty 行：{"id": "person-0001", "field": "person", "value": "王 小明",
              "truth": "王小明", "perturbation": "space", "split": "train"}
-- 扰动五类（四个字段都覆盖）：
-    space  加空格（半角/全角）
+- 扰动五类（每个字段都覆盖）：
+    space  加空格（半角/全角；金额在数字间、日期同理）
     typo   常见错别字（同音/形近字替换；电话号码用数字→形近字母）
     abbrev 简称·后缀变异（漏字 / 去省去市 / 加国家码 / 组织形式后缀简化）
     sep    结构边界插分隔符（- · | ／ ，）
@@ -161,6 +161,10 @@ COMPANY_TYPOS = {
 # 电话：数字 → 形近字母（首位必为 1，保证可造）
 PHONE_TYPOS = {"0": "O", "1": "l", "2": "Z", "3": "E", "5": "S", "8": "B"}
 
+# 金额 / 日期：0–9 全量数字 → 形近字母（OCR 常见；保证任意数值串都能造 typo）
+DIGIT_TYPOS = {"0": "O", "1": "l", "2": "Z", "3": "E", "4": "A",
+               "5": "S", "6": "G", "7": "T", "8": "B", "9": "q"}
+
 SEPARATORS = ["-", "·", "|", "／", "，"]
 SPACES = [" ", "　"]  # 半角 / 全角
 
@@ -174,9 +178,13 @@ NOISE_AFFIXES: dict[str, list[tuple[str, str]]] = {
               ("（本人）", "suffix"), ("（备用）", "suffix"), ("。", "suffix")],
     "company": [("单位：", "prefix"), ("公司名称:", "prefix"), ("（总部）", "suffix"),
                 ("（原单位）", "suffix"), ("（分公司）", "suffix"), ("。", "suffix")],
+    "amount": [("金额：", "prefix"), ("金额:", "prefix"), ("费用：", "prefix"),
+               ("（含税）", "suffix"), ("（未税）", "suffix"), ("。", "suffix")],
+    "date": [("日期：", "prefix"), ("日期:", "prefix"), ("（录入日期）", "suffix"),
+             ("（生效日）", "suffix"), ("。", "suffix")],
 }
 
-FIELDS = ("person", "address", "phone", "company")
+FIELDS = ("person", "address", "phone", "company", "amount", "date")
 PERTURBATIONS = ("space", "typo", "abbrev", "sep", "noise")
 
 # ============================================================ 干净值生成
@@ -223,8 +231,34 @@ def gen_company(rng: random.Random) -> tuple[str, list[str]]:
     return f"{city}{brand}{industry}{suffix}", [city, brand, industry, suffix]
 
 
-GENERATORS = {"person": gen_person, "address": gen_address,
-              "phone": gen_phone, "company": gen_company}
+def _group(numeral: str) -> str:
+    """给数字串的整数部分加千分位（半角逗号）；传入已带逗号的串也能用。"""
+    intpart, dot, frac = numeral.partition(".")
+    return f"{int(intpart.replace(',', '')):,}" + dot + frac
+
+
+def gen_amount(rng: random.Random) -> tuple[str, list[str]]:
+    """生成金额：数值 + 「元」；形态含整数 / 小数(1–2 位) / 千分位。返回 (值, 结构段)。"""
+    intpart = rng.randint(1, 9_999_999)
+    numeral = str(intpart)
+    ndigits = rng.choice([0, 0, 1, 2])  # 多数整数，少数带小数
+    if ndigits:
+        numeral += "." + "".join(str(rng.randint(0, 9)) for _ in range(ndigits))
+    if rng.random() < 0.5:
+        numeral = _group(numeral)       # 一半带千分位（干净值基准形态之一）
+    return numeral + "元", [numeral, "元"]
+
+
+def gen_date(rng: random.Random) -> tuple[str, list[str]]:
+    """生成 ISO 日期 YYYY-MM-DD（1970–2026，日取 1–28 避开月长问题）。返回 (值, 结构段)。"""
+    y = rng.randint(1970, 2026)
+    m = rng.randint(1, 12)
+    d = rng.randint(1, 28)
+    return f"{y}-{m:02d}-{d:02d}", [str(y), f"{m:02d}", f"{d:02d}"]
+
+
+GENERATORS = {"person": gen_person, "address": gen_address, "phone": gen_phone,
+              "company": gen_company, "amount": gen_amount, "date": gen_date}
 
 # ============================================================ 扰动
 
@@ -318,8 +352,51 @@ def perturb_company(rng: random.Random, value: str, parts: list[str]) -> dict[st
     }
 
 
+def _wan(numeral: str) -> str:
+    """把数值改写成「万元」记法（如 12800 → 1.28万元）。"""
+    n = float(numeral.replace(",", ""))
+    return f"{n / 10000:.4f}".rstrip("0").rstrip(".") + "万元"
+
+
+def _insert_sep(rng: random.Random, s: str) -> str:
+    """在数字串里乱插一个千分位分隔符（半角/全角逗号）。"""
+    i = rng.randint(1, max(1, len(s) - 1))
+    return s[:i] + rng.choice([",", "，"]) + s[i:]
+
+
+def perturb_amount(rng: random.Random, value: str, parts: list[str]) -> dict[str, str]:
+    numeral = parts[0]
+    return {
+        "space": _space(rng, value),
+        "typo": _typo_at(rng, value, DIGIT_TYPOS),   # 数字→形近字母（OCR 常见）
+        # 单位缩写：元 → 万元（如 12800 元 → 1.28 万元）
+        "abbrev": _choose(rng, [_wan(numeral)], value),
+        # 千分位分隔符乱：正确分组 / 去分组 / 乱插分隔符（候选必有一个 ≠ 干净值）
+        "sep": _choose(rng, [_group(numeral) + "元", numeral.replace(",", "") + "元",
+                             _insert_sep(rng, numeral) + "元"], value),
+        "noise": _noise(rng, value, NOISE_AFFIXES["amount"]),
+    }
+
+
+def perturb_date(rng: random.Random, value: str, parts: list[str]) -> dict[str, str]:
+    y, m, d = parts
+    return {
+        "space": _space(rng, value),
+        "typo": _typo_at(rng, value, DIGIT_TYPOS),   # 数字→形近字母
+        # 缩写：缺零（2026-1-5）/ 缺年（1-5）/ 年月（2026-10）
+        "abbrev": _choose(rng, [f"{int(y)}-{int(m)}-{int(d)}",
+                                f"{int(m)}-{int(d)}",
+                                f"{int(y)}-{int(m)}"], value),
+        # 分隔符变体：/ . ／
+        "sep": _choose(rng, [value.replace("-", "/"), value.replace("-", "."),
+                             value.replace("-", "／")], value),
+        "noise": _noise(rng, value, NOISE_AFFIXES["date"]),
+    }
+
+
 PERTURBERS = {"person": perturb_person, "address": perturb_address,
-              "phone": perturb_phone, "company": perturb_company}
+              "phone": perturb_phone, "company": perturb_company,
+              "amount": perturb_amount, "date": perturb_date}
 
 # ============================================================ 组装与落盘
 
@@ -335,7 +412,7 @@ def _unique_value(rng: random.Random, field: str, used: set[str]) -> tuple[str, 
 
 
 def build(seed: int, per_field: int, split_ratio: float) -> dict[str, dict[str, list[dict]]]:
-    """生成四类干净集 + 脏集，并按 id 确定性划分 train / heldout。"""
+    """生成各字段干净集 + 脏集，并按 id 确定性划分 train / heldout。"""
     out: dict[str, dict[str, list[dict]]] = {}
     for field in FIELDS:
         rng = random.Random(f"{seed}:{field}")  # 每字段独立流：字段间互不影响顺序

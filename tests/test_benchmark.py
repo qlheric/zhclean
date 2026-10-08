@@ -1,8 +1,8 @@
 """benchmark 生成器的不变式测试（数据契约的可核证据）。
 
-F: 守住 TASK-001 数据契约——四类各 200 干净值 / 每条 ≥3 脏变体且 truth 一致 /
+F: 守住 TASK-001 数据契约——六类各 200 干净值 / 每条 ≥3 脏变体且 truth 一致 /
    划分无重叠且比例≈0.2 / 同 seed 逐字节可复现 / 五类扰动覆盖 / 脏值≠干净值 /
-   heldout 覆盖全部扰动类型
+   heldout 覆盖全部扰动类型；并守住 amount/date（TASK-018）的形态与 truth 正确
 R: benchmarks/generate.py
 A: uv run --project . pytest tests/ -q
 S: 只测生成器与产物，不测清洗逻辑
@@ -11,6 +11,7 @@ S: 只测生成器与产物，不测清洗逻辑
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 from collections import Counter, defaultdict
@@ -19,7 +20,7 @@ from pathlib import Path
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
-FIELDS = ("person", "address", "phone", "company")
+FIELDS = ("person", "address", "phone", "company", "amount", "date")
 PERTURBATIONS = ("space", "typo", "abbrev", "sep", "noise")
 PER_FIELD = 200
 SPLIT_RATIO = 0.2
@@ -50,7 +51,7 @@ def artifacts(tmp_path_factory) -> Path:
 
 @pytest.fixture(scope="module")
 def data(artifacts) -> dict[str, dict[str, list[dict]]]:
-    """四类 clean / dirty 装载。"""
+    """六类 clean / dirty 装载。"""
     return {
         field: {
             "clean": read_jsonl(artifacts / "clean" / f"{field}.jsonl"),
@@ -147,6 +148,20 @@ def test_different_seed_differs(tmp_path):
     _generate(a, seed=42)
     _generate(b, seed=43)
     assert (a / "clean" / "person.jsonl").read_bytes() != (b / "clean" / "person.jsonl").read_bytes()
+
+
+# ---------- 不变式 8：amount / date 干净值形态与 truth 正确（TASK-018） ----------
+
+def test_new_field_shapes(data):
+    # amount：干净值 = 数值 + 「元」（可能带千分位 / 小数），去掉分隔符后须能解析为数字
+    for r in data["amount"]["clean"]:
+        assert r["value"].endswith("元"), f"amount 干净值不以「元」结尾：{r['value']!r}"
+        float(r["value"][:-1].replace(",", ""))  # 解析失败会抛 ValueError
+    # date：干净值 = ISO 日期，年份落在 1970–2026
+    for r in data["date"]["clean"]:
+        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", r["value"]), f"date 干净值非 ISO：{r['value']!r}"
+        y, m, d = (int(x) for x in r["value"].split("-"))
+        assert 1970 <= y <= 2026 and 1 <= m <= 12 and 1 <= d <= 28
 
 
 # ---------- 不变式 7：仓库内已落盘的产物 == 当前生成器 seed 42 的产物（防陈旧） ----------

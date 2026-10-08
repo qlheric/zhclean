@@ -1,0 +1,1000 @@
+{"id": "date-0001", "field": "date", "value": "1996-11　-07", "truth": "1996-11-07", "perturbation": "space", "split": "train"}
+{"id": "date-0001", "field": "date", "value": "1996-11-0T", "truth": "1996-11-07", "perturbation": "typo", "split": "train"}
+{"id": "date-0001", "field": "date", "value": "1996-11", "truth": "1996-11-07", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0001", "field": "date", "value": "1996.11.07", "truth": "1996-11-07", "perturbation": "sep", "split": "train"}
+{"id": "date-0001", "field": "date", "value": "1996-11-07。", "truth": "1996-11-07", "perturbation": "noise", "split": "train"}
+{"id": "date-0002", "field": "date", "value": "1995- 11-03", "truth": "1995-11-03", "perturbation": "space", "split": "heldout"}
+{"id": "date-0002", "field": "date", "value": "1995-11-0E", "truth": "1995-11-03", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0002", "field": "date", "value": "1995-11-3", "truth": "1995-11-03", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0002", "field": "date", "value": "1995／11／03", "truth": "1995-11-03", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0002", "field": "date", "value": "1995-11-03（录入日期）", "truth": "1995-11-03", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0003", "field": "date", "value": "2013-03-1 6", "truth": "2013-03-16", "perturbation": "space", "split": "train"}
+{"id": "date-0003", "field": "date", "value": "2013-O3-16", "truth": "2013-03-16", "perturbation": "typo", "split": "train"}
+{"id": "date-0003", "field": "date", "value": "2013-3-16", "truth": "2013-03-16", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0003", "field": "date", "value": "2013/03/16", "truth": "2013-03-16", "perturbation": "sep", "split": "train"}
+{"id": "date-0003", "field": "date", "value": "2013-03-16（生效日）", "truth": "2013-03-16", "perturbation": "noise", "split": "train"}
+{"id": "date-0004", "field": "date", "value": "2024-10-1 8", "truth": "2024-10-18", "perturbation": "space", "split": "train"}
+{"id": "date-0004", "field": "date", "value": "2024-10-l8", "truth": "2024-10-18", "perturbation": "typo", "split": "train"}
+{"id": "date-0004", "field": "date", "value": "2024-10", "truth": "2024-10-18", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0004", "field": "date", "value": "2024.10.18", "truth": "2024-10-18", "perturbation": "sep", "split": "train"}
+{"id": "date-0004", "field": "date", "value": "2024-10-18。", "truth": "2024-10-18", "perturbation": "noise", "split": "train"}
+{"id": "date-0005", "field": "date", "value": "2　011-09-03", "truth": "2011-09-03", "perturbation": "space", "split": "train"}
+{"id": "date-0005", "field": "date", "value": "2011-09-O3", "truth": "2011-09-03", "perturbation": "typo", "split": "train"}
+{"id": "date-0005", "field": "date", "value": "2011-9", "truth": "2011-09-03", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0005", "field": "date", "value": "2011／09／03", "truth": "2011-09-03", "perturbation": "sep", "split": "train"}
+{"id": "date-0005", "field": "date", "value": "日期：2011-09-03", "truth": "2011-09-03", "perturbation": "noise", "split": "train"}
+{"id": "date-0006", "field": "date", "value": "2　018-12-23", "truth": "2018-12-23", "perturbation": "space", "split": "train"}
+{"id": "date-0006", "field": "date", "value": "2018-12-Z3", "truth": "2018-12-23", "perturbation": "typo", "split": "train"}
+{"id": "date-0006", "field": "date", "value": "12-23", "truth": "2018-12-23", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0006", "field": "date", "value": "2018/12/23", "truth": "2018-12-23", "perturbation": "sep", "split": "train"}
+{"id": "date-0006", "field": "date", "value": "2018-12-23。", "truth": "2018-12-23", "perturbation": "noise", "split": "train"}
+{"id": "date-0007", "field": "date", "value": "2023-1 1-24", "truth": "2023-11-24", "perturbation": "space", "split": "heldout"}
+{"id": "date-0007", "field": "date", "value": "2023-1l-24", "truth": "2023-11-24", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0007", "field": "date", "value": "2023-11", "truth": "2023-11-24", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0007", "field": "date", "value": "2023/11/24", "truth": "2023-11-24", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0007", "field": "date", "value": "2023-11-24（生效日）", "truth": "2023-11-24", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0008", "field": "date", "value": "1999-10 -08", "truth": "1999-10-08", "perturbation": "space", "split": "heldout"}
+{"id": "date-0008", "field": "date", "value": "19q9-10-08", "truth": "1999-10-08", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0008", "field": "date", "value": "1999-10", "truth": "1999-10-08", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0008", "field": "date", "value": "1999/10/08", "truth": "1999-10-08", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0008", "field": "date", "value": "日期:1999-10-08", "truth": "1999-10-08", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0009", "field": "date", "value": "2 016-02-13", "truth": "2016-02-13", "perturbation": "space", "split": "train"}
+{"id": "date-0009", "field": "date", "value": "2016-O2-13", "truth": "2016-02-13", "perturbation": "typo", "split": "train"}
+{"id": "date-0009", "field": "date", "value": "2016-2-13", "truth": "2016-02-13", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0009", "field": "date", "value": "2016/02/13", "truth": "2016-02-13", "perturbation": "sep", "split": "train"}
+{"id": "date-0009", "field": "date", "value": "2016-02-13（生效日）", "truth": "2016-02-13", "perturbation": "noise", "split": "train"}
+{"id": "date-0010", "field": "date", "value": "1981 -05-18", "truth": "1981-05-18", "perturbation": "space", "split": "train"}
+{"id": "date-0010", "field": "date", "value": "1981-0S-18", "truth": "1981-05-18", "perturbation": "typo", "split": "train"}
+{"id": "date-0010", "field": "date", "value": "5-18", "truth": "1981-05-18", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0010", "field": "date", "value": "1981／05／18", "truth": "1981-05-18", "perturbation": "sep", "split": "train"}
+{"id": "date-0010", "field": "date", "value": "1981-05-18（生效日）", "truth": "1981-05-18", "perturbation": "noise", "split": "train"}
+{"id": "date-0011", "field": "date", "value": "20　10-03-26", "truth": "2010-03-26", "perturbation": "space", "split": "heldout"}
+{"id": "date-0011", "field": "date", "value": "Z010-03-26", "truth": "2010-03-26", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0011", "field": "date", "value": "3-26", "truth": "2010-03-26", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0011", "field": "date", "value": "2010／03／26", "truth": "2010-03-26", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0011", "field": "date", "value": "2010-03-26。", "truth": "2010-03-26", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0012", "field": "date", "value": "1998-04　-11", "truth": "1998-04-11", "perturbation": "space", "split": "train"}
+{"id": "date-0012", "field": "date", "value": "1998-04-1l", "truth": "1998-04-11", "perturbation": "typo", "split": "train"}
+{"id": "date-0012", "field": "date", "value": "1998-4", "truth": "1998-04-11", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0012", "field": "date", "value": "1998／04／11", "truth": "1998-04-11", "perturbation": "sep", "split": "train"}
+{"id": "date-0012", "field": "date", "value": "日期：1998-04-11", "truth": "1998-04-11", "perturbation": "noise", "split": "train"}
+{"id": "date-0013", "field": "date", "value": "1980-0 9-07", "truth": "1980-09-07", "perturbation": "space", "split": "train"}
+{"id": "date-0013", "field": "date", "value": "1980-0q-07", "truth": "1980-09-07", "perturbation": "typo", "split": "train"}
+{"id": "date-0013", "field": "date", "value": "1980-9-7", "truth": "1980-09-07", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0013", "field": "date", "value": "1980／09／07", "truth": "1980-09-07", "perturbation": "sep", "split": "train"}
+{"id": "date-0013", "field": "date", "value": "1980-09-07（录入日期）", "truth": "1980-09-07", "perturbation": "noise", "split": "train"}
+{"id": "date-0014", "field": "date", "value": "1970-08-0 9", "truth": "1970-08-09", "perturbation": "space", "split": "train"}
+{"id": "date-0014", "field": "date", "value": "l970-08-09", "truth": "1970-08-09", "perturbation": "typo", "split": "train"}
+{"id": "date-0014", "field": "date", "value": "8-9", "truth": "1970-08-09", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0014", "field": "date", "value": "1970/08/09", "truth": "1970-08-09", "perturbation": "sep", "split": "train"}
+{"id": "date-0014", "field": "date", "value": "1970-08-09（录入日期）", "truth": "1970-08-09", "perturbation": "noise", "split": "train"}
+{"id": "date-0015", "field": "date", "value": "1972-06　-13", "truth": "1972-06-13", "perturbation": "space", "split": "train"}
+{"id": "date-0015", "field": "date", "value": "1972-06-1E", "truth": "1972-06-13", "perturbation": "typo", "split": "train"}
+{"id": "date-0015", "field": "date", "value": "1972-6-13", "truth": "1972-06-13", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0015", "field": "date", "value": "1972/06/13", "truth": "1972-06-13", "perturbation": "sep", "split": "train"}
+{"id": "date-0015", "field": "date", "value": "日期:1972-06-13", "truth": "1972-06-13", "perturbation": "noise", "split": "train"}
+{"id": "date-0016", "field": "date", "value": "2007　-12-07", "truth": "2007-12-07", "perturbation": "space", "split": "train"}
+{"id": "date-0016", "field": "date", "value": "2007-12-O7", "truth": "2007-12-07", "perturbation": "typo", "split": "train"}
+{"id": "date-0016", "field": "date", "value": "12-7", "truth": "2007-12-07", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0016", "field": "date", "value": "2007/12/07", "truth": "2007-12-07", "perturbation": "sep", "split": "train"}
+{"id": "date-0016", "field": "date", "value": "2007-12-07（录入日期）", "truth": "2007-12-07", "perturbation": "noise", "split": "train"}
+{"id": "date-0017", "field": "date", "value": "2　004-11-02", "truth": "2004-11-02", "perturbation": "space", "split": "train"}
+{"id": "date-0017", "field": "date", "value": "Z004-11-02", "truth": "2004-11-02", "perturbation": "typo", "split": "train"}
+{"id": "date-0017", "field": "date", "value": "2004-11-2", "truth": "2004-11-02", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0017", "field": "date", "value": "2004/11/02", "truth": "2004-11-02", "perturbation": "sep", "split": "train"}
+{"id": "date-0017", "field": "date", "value": "2004-11-02（录入日期）", "truth": "2004-11-02", "perturbation": "noise", "split": "train"}
+{"id": "date-0018", "field": "date", "value": "2 002-06-09", "truth": "2002-06-09", "perturbation": "space", "split": "train"}
+{"id": "date-0018", "field": "date", "value": "200Z-06-09", "truth": "2002-06-09", "perturbation": "typo", "split": "train"}
+{"id": "date-0018", "field": "date", "value": "6-9", "truth": "2002-06-09", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0018", "field": "date", "value": "2002.06.09", "truth": "2002-06-09", "perturbation": "sep", "split": "train"}
+{"id": "date-0018", "field": "date", "value": "2002-06-09（生效日）", "truth": "2002-06-09", "perturbation": "noise", "split": "train"}
+{"id": "date-0019", "field": "date", "value": "1979-11- 19", "truth": "1979-11-19", "perturbation": "space", "split": "train"}
+{"id": "date-0019", "field": "date", "value": "1q79-11-19", "truth": "1979-11-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0019", "field": "date", "value": "11-19", "truth": "1979-11-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0019", "field": "date", "value": "1979／11／19", "truth": "1979-11-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0019", "field": "date", "value": "1979-11-19（录入日期）", "truth": "1979-11-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0020", "field": "date", "value": "2005-0 2-17", "truth": "2005-02-17", "perturbation": "space", "split": "train"}
+{"id": "date-0020", "field": "date", "value": "2005-O2-17", "truth": "2005-02-17", "perturbation": "typo", "split": "train"}
+{"id": "date-0020", "field": "date", "value": "2005-2-17", "truth": "2005-02-17", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0020", "field": "date", "value": "2005.02.17", "truth": "2005-02-17", "perturbation": "sep", "split": "train"}
+{"id": "date-0020", "field": "date", "value": "2005-02-17（生效日）", "truth": "2005-02-17", "perturbation": "noise", "split": "train"}
+{"id": "date-0021", "field": "date", "value": "2026-06-2　2", "truth": "2026-06-22", "perturbation": "space", "split": "train"}
+{"id": "date-0021", "field": "date", "value": "2O26-06-22", "truth": "2026-06-22", "perturbation": "typo", "split": "train"}
+{"id": "date-0021", "field": "date", "value": "2026-6", "truth": "2026-06-22", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0021", "field": "date", "value": "2026／06／22", "truth": "2026-06-22", "perturbation": "sep", "split": "train"}
+{"id": "date-0021", "field": "date", "value": "日期：2026-06-22", "truth": "2026-06-22", "perturbation": "noise", "split": "train"}
+{"id": "date-0022", "field": "date", "value": "1982-09-0　3", "truth": "1982-09-03", "perturbation": "space", "split": "heldout"}
+{"id": "date-0022", "field": "date", "value": "198Z-09-03", "truth": "1982-09-03", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0022", "field": "date", "value": "9-3", "truth": "1982-09-03", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0022", "field": "date", "value": "1982.09.03", "truth": "1982-09-03", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0022", "field": "date", "value": "1982-09-03（录入日期）", "truth": "1982-09-03", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0023", "field": "date", "value": "1971-04-1 6", "truth": "1971-04-16", "perturbation": "space", "split": "train"}
+{"id": "date-0023", "field": "date", "value": "1971-0A-16", "truth": "1971-04-16", "perturbation": "typo", "split": "train"}
+{"id": "date-0023", "field": "date", "value": "1971-4-16", "truth": "1971-04-16", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0023", "field": "date", "value": "1971/04/16", "truth": "1971-04-16", "perturbation": "sep", "split": "train"}
+{"id": "date-0023", "field": "date", "value": "1971-04-16（生效日）", "truth": "1971-04-16", "perturbation": "noise", "split": "train"}
+{"id": "date-0024", "field": "date", "value": "1 992-04-23", "truth": "1992-04-23", "perturbation": "space", "split": "train"}
+{"id": "date-0024", "field": "date", "value": "199Z-04-23", "truth": "1992-04-23", "perturbation": "typo", "split": "train"}
+{"id": "date-0024", "field": "date", "value": "1992-4-23", "truth": "1992-04-23", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0024", "field": "date", "value": "1992.04.23", "truth": "1992-04-23", "perturbation": "sep", "split": "train"}
+{"id": "date-0024", "field": "date", "value": "1992-04-23。", "truth": "1992-04-23", "perturbation": "noise", "split": "train"}
+{"id": "date-0025", "field": "date", "value": "1989-01-　11", "truth": "1989-01-11", "perturbation": "space", "split": "train"}
+{"id": "date-0025", "field": "date", "value": "19B9-01-11", "truth": "1989-01-11", "perturbation": "typo", "split": "train"}
+{"id": "date-0025", "field": "date", "value": "1989-1", "truth": "1989-01-11", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0025", "field": "date", "value": "1989／01／11", "truth": "1989-01-11", "perturbation": "sep", "split": "train"}
+{"id": "date-0025", "field": "date", "value": "1989-01-11（生效日）", "truth": "1989-01-11", "perturbation": "noise", "split": "train"}
+{"id": "date-0026", "field": "date", "value": "2　017-10-28", "truth": "2017-10-28", "perturbation": "space", "split": "train"}
+{"id": "date-0026", "field": "date", "value": "2017-10-Z8", "truth": "2017-10-28", "perturbation": "typo", "split": "train"}
+{"id": "date-0026", "field": "date", "value": "10-28", "truth": "2017-10-28", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0026", "field": "date", "value": "2017/10/28", "truth": "2017-10-28", "perturbation": "sep", "split": "train"}
+{"id": "date-0026", "field": "date", "value": "2017-10-28。", "truth": "2017-10-28", "perturbation": "noise", "split": "train"}
+{"id": "date-0027", "field": "date", "value": "2010- 03-21", "truth": "2010-03-21", "perturbation": "space", "split": "train"}
+{"id": "date-0027", "field": "date", "value": "2010-03-Z1", "truth": "2010-03-21", "perturbation": "typo", "split": "train"}
+{"id": "date-0027", "field": "date", "value": "3-21", "truth": "2010-03-21", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0027", "field": "date", "value": "2010／03／21", "truth": "2010-03-21", "perturbation": "sep", "split": "train"}
+{"id": "date-0027", "field": "date", "value": "2010-03-21（生效日）", "truth": "2010-03-21", "perturbation": "noise", "split": "train"}
+{"id": "date-0028", "field": "date", "value": "1988-0　3-11", "truth": "1988-03-11", "perturbation": "space", "split": "train"}
+{"id": "date-0028", "field": "date", "value": "1988-0E-11", "truth": "1988-03-11", "perturbation": "typo", "split": "train"}
+{"id": "date-0028", "field": "date", "value": "3-11", "truth": "1988-03-11", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0028", "field": "date", "value": "1988／03／11", "truth": "1988-03-11", "perturbation": "sep", "split": "train"}
+{"id": "date-0028", "field": "date", "value": "1988-03-11（生效日）", "truth": "1988-03-11", "perturbation": "noise", "split": "train"}
+{"id": "date-0029", "field": "date", "value": "1972-1　0-21", "truth": "1972-10-21", "perturbation": "space", "split": "train"}
+{"id": "date-0029", "field": "date", "value": "l972-10-21", "truth": "1972-10-21", "perturbation": "typo", "split": "train"}
+{"id": "date-0029", "field": "date", "value": "1972-10", "truth": "1972-10-21", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0029", "field": "date", "value": "1972／10／21", "truth": "1972-10-21", "perturbation": "sep", "split": "train"}
+{"id": "date-0029", "field": "date", "value": "日期：1972-10-21", "truth": "1972-10-21", "perturbation": "noise", "split": "train"}
+{"id": "date-0030", "field": "date", "value": "1984　-10-28", "truth": "1984-10-28", "perturbation": "space", "split": "train"}
+{"id": "date-0030", "field": "date", "value": "198A-10-28", "truth": "1984-10-28", "perturbation": "typo", "split": "train"}
+{"id": "date-0030", "field": "date", "value": "1984-10", "truth": "1984-10-28", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0030", "field": "date", "value": "1984／10／28", "truth": "1984-10-28", "perturbation": "sep", "split": "train"}
+{"id": "date-0030", "field": "date", "value": "日期:1984-10-28", "truth": "1984-10-28", "perturbation": "noise", "split": "train"}
+{"id": "date-0031", "field": "date", "value": "1992-06-2　3", "truth": "1992-06-23", "perturbation": "space", "split": "train"}
+{"id": "date-0031", "field": "date", "value": "1992-O6-23", "truth": "1992-06-23", "perturbation": "typo", "split": "train"}
+{"id": "date-0031", "field": "date", "value": "1992-6", "truth": "1992-06-23", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0031", "field": "date", "value": "1992.06.23", "truth": "1992-06-23", "perturbation": "sep", "split": "train"}
+{"id": "date-0031", "field": "date", "value": "日期:1992-06-23", "truth": "1992-06-23", "perturbation": "noise", "split": "train"}
+{"id": "date-0032", "field": "date", "value": "1973-07-　17", "truth": "1973-07-17", "perturbation": "space", "split": "train"}
+{"id": "date-0032", "field": "date", "value": "l973-07-17", "truth": "1973-07-17", "perturbation": "typo", "split": "train"}
+{"id": "date-0032", "field": "date", "value": "1973-7", "truth": "1973-07-17", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0032", "field": "date", "value": "1973／07／17", "truth": "1973-07-17", "perturbation": "sep", "split": "train"}
+{"id": "date-0032", "field": "date", "value": "1973-07-17（录入日期）", "truth": "1973-07-17", "perturbation": "noise", "split": "train"}
+{"id": "date-0033", "field": "date", "value": "2011-03-　08", "truth": "2011-03-08", "perturbation": "space", "split": "train"}
+{"id": "date-0033", "field": "date", "value": "2011-0E-08", "truth": "2011-03-08", "perturbation": "typo", "split": "train"}
+{"id": "date-0033", "field": "date", "value": "3-8", "truth": "2011-03-08", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0033", "field": "date", "value": "2011/03/08", "truth": "2011-03-08", "perturbation": "sep", "split": "train"}
+{"id": "date-0033", "field": "date", "value": "日期:2011-03-08", "truth": "2011-03-08", "perturbation": "noise", "split": "train"}
+{"id": "date-0034", "field": "date", "value": "19　72-11-06", "truth": "1972-11-06", "perturbation": "space", "split": "train"}
+{"id": "date-0034", "field": "date", "value": "1972-1l-06", "truth": "1972-11-06", "perturbation": "typo", "split": "train"}
+{"id": "date-0034", "field": "date", "value": "1972-11-6", "truth": "1972-11-06", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0034", "field": "date", "value": "1972/11/06", "truth": "1972-11-06", "perturbation": "sep", "split": "train"}
+{"id": "date-0034", "field": "date", "value": "1972-11-06。", "truth": "1972-11-06", "perturbation": "noise", "split": "train"}
+{"id": "date-0035", "field": "date", "value": "1982- 09-17", "truth": "1982-09-17", "perturbation": "space", "split": "train"}
+{"id": "date-0035", "field": "date", "value": "198Z-09-17", "truth": "1982-09-17", "perturbation": "typo", "split": "train"}
+{"id": "date-0035", "field": "date", "value": "1982-9", "truth": "1982-09-17", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0035", "field": "date", "value": "1982／09／17", "truth": "1982-09-17", "perturbation": "sep", "split": "train"}
+{"id": "date-0035", "field": "date", "value": "1982-09-17。", "truth": "1982-09-17", "perturbation": "noise", "split": "train"}
+{"id": "date-0036", "field": "date", "value": "1971-　04-13", "truth": "1971-04-13", "perturbation": "space", "split": "train"}
+{"id": "date-0036", "field": "date", "value": "19T1-04-13", "truth": "1971-04-13", "perturbation": "typo", "split": "train"}
+{"id": "date-0036", "field": "date", "value": "4-13", "truth": "1971-04-13", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0036", "field": "date", "value": "1971/04/13", "truth": "1971-04-13", "perturbation": "sep", "split": "train"}
+{"id": "date-0036", "field": "date", "value": "1971-04-13（录入日期）", "truth": "1971-04-13", "perturbation": "noise", "split": "train"}
+{"id": "date-0037", "field": "date", "value": "2021- 05-14", "truth": "2021-05-14", "perturbation": "space", "split": "train"}
+{"id": "date-0037", "field": "date", "value": "20Z1-05-14", "truth": "2021-05-14", "perturbation": "typo", "split": "train"}
+{"id": "date-0037", "field": "date", "value": "5-14", "truth": "2021-05-14", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0037", "field": "date", "value": "2021.05.14", "truth": "2021-05-14", "perturbation": "sep", "split": "train"}
+{"id": "date-0037", "field": "date", "value": "2021-05-14（录入日期）", "truth": "2021-05-14", "perturbation": "noise", "split": "train"}
+{"id": "date-0038", "field": "date", "value": "1984-03 -14", "truth": "1984-03-14", "perturbation": "space", "split": "train"}
+{"id": "date-0038", "field": "date", "value": "1984-03-l4", "truth": "1984-03-14", "perturbation": "typo", "split": "train"}
+{"id": "date-0038", "field": "date", "value": "3-14", "truth": "1984-03-14", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0038", "field": "date", "value": "1984／03／14", "truth": "1984-03-14", "perturbation": "sep", "split": "train"}
+{"id": "date-0038", "field": "date", "value": "1984-03-14（生效日）", "truth": "1984-03-14", "perturbation": "noise", "split": "train"}
+{"id": "date-0039", "field": "date", "value": "1983　-04-03", "truth": "1983-04-03", "perturbation": "space", "split": "train"}
+{"id": "date-0039", "field": "date", "value": "1983-O4-03", "truth": "1983-04-03", "perturbation": "typo", "split": "train"}
+{"id": "date-0039", "field": "date", "value": "1983-4-3", "truth": "1983-04-03", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0039", "field": "date", "value": "1983／04／03", "truth": "1983-04-03", "perturbation": "sep", "split": "train"}
+{"id": "date-0039", "field": "date", "value": "1983-04-03（录入日期）", "truth": "1983-04-03", "perturbation": "noise", "split": "train"}
+{"id": "date-0040", "field": "date", "value": "1975-12-1 4", "truth": "1975-12-14", "perturbation": "space", "split": "heldout"}
+{"id": "date-0040", "field": "date", "value": "1q75-12-14", "truth": "1975-12-14", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0040", "field": "date", "value": "1975-12", "truth": "1975-12-14", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0040", "field": "date", "value": "1975/12/14", "truth": "1975-12-14", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0040", "field": "date", "value": "1975-12-14。", "truth": "1975-12-14", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0041", "field": "date", "value": "2021　-09-28", "truth": "2021-09-28", "perturbation": "space", "split": "train"}
+{"id": "date-0041", "field": "date", "value": "202l-09-28", "truth": "2021-09-28", "perturbation": "typo", "split": "train"}
+{"id": "date-0041", "field": "date", "value": "2021-9-28", "truth": "2021-09-28", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0041", "field": "date", "value": "2021/09/28", "truth": "2021-09-28", "perturbation": "sep", "split": "train"}
+{"id": "date-0041", "field": "date", "value": "日期：2021-09-28", "truth": "2021-09-28", "perturbation": "noise", "split": "train"}
+{"id": "date-0042", "field": "date", "value": "2018-03-1　2", "truth": "2018-03-12", "perturbation": "space", "split": "train"}
+{"id": "date-0042", "field": "date", "value": "201B-03-12", "truth": "2018-03-12", "perturbation": "typo", "split": "train"}
+{"id": "date-0042", "field": "date", "value": "2018-3-12", "truth": "2018-03-12", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0042", "field": "date", "value": "2018／03／12", "truth": "2018-03-12", "perturbation": "sep", "split": "train"}
+{"id": "date-0042", "field": "date", "value": "日期：2018-03-12", "truth": "2018-03-12", "perturbation": "noise", "split": "train"}
+{"id": "date-0043", "field": "date", "value": "1 976-11-11", "truth": "1976-11-11", "perturbation": "space", "split": "heldout"}
+{"id": "date-0043", "field": "date", "value": "1976-11-1l", "truth": "1976-11-11", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0043", "field": "date", "value": "11-11", "truth": "1976-11-11", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0043", "field": "date", "value": "1976／11／11", "truth": "1976-11-11", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0043", "field": "date", "value": "日期：1976-11-11", "truth": "1976-11-11", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0044", "field": "date", "value": "19　75-02-08", "truth": "1975-02-08", "perturbation": "space", "split": "train"}
+{"id": "date-0044", "field": "date", "value": "1q75-02-08", "truth": "1975-02-08", "perturbation": "typo", "split": "train"}
+{"id": "date-0044", "field": "date", "value": "1975-2", "truth": "1975-02-08", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0044", "field": "date", "value": "1975.02.08", "truth": "1975-02-08", "perturbation": "sep", "split": "train"}
+{"id": "date-0044", "field": "date", "value": "1975-02-08。", "truth": "1975-02-08", "perturbation": "noise", "split": "train"}
+{"id": "date-0045", "field": "date", "value": "2　009-02-12", "truth": "2009-02-12", "perturbation": "space", "split": "train"}
+{"id": "date-0045", "field": "date", "value": "2O09-02-12", "truth": "2009-02-12", "perturbation": "typo", "split": "train"}
+{"id": "date-0045", "field": "date", "value": "2009-2-12", "truth": "2009-02-12", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0045", "field": "date", "value": "2009／02／12", "truth": "2009-02-12", "perturbation": "sep", "split": "train"}
+{"id": "date-0045", "field": "date", "value": "2009-02-12（生效日）", "truth": "2009-02-12", "perturbation": "noise", "split": "train"}
+{"id": "date-0046", "field": "date", "value": "1978-07-1 9", "truth": "1978-07-19", "perturbation": "space", "split": "heldout"}
+{"id": "date-0046", "field": "date", "value": "1978-0T-19", "truth": "1978-07-19", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0046", "field": "date", "value": "1978-7", "truth": "1978-07-19", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0046", "field": "date", "value": "1978/07/19", "truth": "1978-07-19", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0046", "field": "date", "value": "1978-07-19（录入日期）", "truth": "1978-07-19", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0047", "field": "date", "value": "1 997-05-19", "truth": "1997-05-19", "perturbation": "space", "split": "train"}
+{"id": "date-0047", "field": "date", "value": "1997-O5-19", "truth": "1997-05-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0047", "field": "date", "value": "1997-5-19", "truth": "1997-05-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0047", "field": "date", "value": "1997/05/19", "truth": "1997-05-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0047", "field": "date", "value": "1997-05-19（生效日）", "truth": "1997-05-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0048", "field": "date", "value": "1972-03- 20", "truth": "1972-03-20", "perturbation": "space", "split": "train"}
+{"id": "date-0048", "field": "date", "value": "197Z-03-20", "truth": "1972-03-20", "perturbation": "typo", "split": "train"}
+{"id": "date-0048", "field": "date", "value": "1972-3-20", "truth": "1972-03-20", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0048", "field": "date", "value": "1972.03.20", "truth": "1972-03-20", "perturbation": "sep", "split": "train"}
+{"id": "date-0048", "field": "date", "value": "1972-03-20（生效日）", "truth": "1972-03-20", "perturbation": "noise", "split": "train"}
+{"id": "date-0049", "field": "date", "value": "1 978-02-14", "truth": "1978-02-14", "perturbation": "space", "split": "heldout"}
+{"id": "date-0049", "field": "date", "value": "1978-02-1A", "truth": "1978-02-14", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0049", "field": "date", "value": "2-14", "truth": "1978-02-14", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0049", "field": "date", "value": "1978/02/14", "truth": "1978-02-14", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0049", "field": "date", "value": "日期：1978-02-14", "truth": "1978-02-14", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0050", "field": "date", "value": "2　003-01-27", "truth": "2003-01-27", "perturbation": "space", "split": "heldout"}
+{"id": "date-0050", "field": "date", "value": "2003-01-2T", "truth": "2003-01-27", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0050", "field": "date", "value": "2003-1", "truth": "2003-01-27", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0050", "field": "date", "value": "2003.01.27", "truth": "2003-01-27", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0050", "field": "date", "value": "2003-01-27。", "truth": "2003-01-27", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0051", "field": "date", "value": "20　12-11-06", "truth": "2012-11-06", "perturbation": "space", "split": "train"}
+{"id": "date-0051", "field": "date", "value": "20l2-11-06", "truth": "2012-11-06", "perturbation": "typo", "split": "train"}
+{"id": "date-0051", "field": "date", "value": "11-6", "truth": "2012-11-06", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0051", "field": "date", "value": "2012.11.06", "truth": "2012-11-06", "perturbation": "sep", "split": "train"}
+{"id": "date-0051", "field": "date", "value": "日期：2012-11-06", "truth": "2012-11-06", "perturbation": "noise", "split": "train"}
+{"id": "date-0052", "field": "date", "value": "2007-05-　09", "truth": "2007-05-09", "perturbation": "space", "split": "heldout"}
+{"id": "date-0052", "field": "date", "value": "2O07-05-09", "truth": "2007-05-09", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0052", "field": "date", "value": "5-9", "truth": "2007-05-09", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0052", "field": "date", "value": "2007.05.09", "truth": "2007-05-09", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0052", "field": "date", "value": "日期：2007-05-09", "truth": "2007-05-09", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0053", "field": "date", "value": "2015-01- 02", "truth": "2015-01-02", "perturbation": "space", "split": "train"}
+{"id": "date-0053", "field": "date", "value": "2015-01-O2", "truth": "2015-01-02", "perturbation": "typo", "split": "train"}
+{"id": "date-0053", "field": "date", "value": "1-2", "truth": "2015-01-02", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0053", "field": "date", "value": "2015／01／02", "truth": "2015-01-02", "perturbation": "sep", "split": "train"}
+{"id": "date-0053", "field": "date", "value": "日期：2015-01-02", "truth": "2015-01-02", "perturbation": "noise", "split": "train"}
+{"id": "date-0054", "field": "date", "value": "2013　-08-22", "truth": "2013-08-22", "perturbation": "space", "split": "train"}
+{"id": "date-0054", "field": "date", "value": "Z013-08-22", "truth": "2013-08-22", "perturbation": "typo", "split": "train"}
+{"id": "date-0054", "field": "date", "value": "2013-8", "truth": "2013-08-22", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0054", "field": "date", "value": "2013／08／22", "truth": "2013-08-22", "perturbation": "sep", "split": "train"}
+{"id": "date-0054", "field": "date", "value": "2013-08-22（录入日期）", "truth": "2013-08-22", "perturbation": "noise", "split": "train"}
+{"id": "date-0055", "field": "date", "value": "2019-04-1 8", "truth": "2019-04-18", "perturbation": "space", "split": "train"}
+{"id": "date-0055", "field": "date", "value": "2O19-04-18", "truth": "2019-04-18", "perturbation": "typo", "split": "train"}
+{"id": "date-0055", "field": "date", "value": "2019-4", "truth": "2019-04-18", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0055", "field": "date", "value": "2019/04/18", "truth": "2019-04-18", "perturbation": "sep", "split": "train"}
+{"id": "date-0055", "field": "date", "value": "日期:2019-04-18", "truth": "2019-04-18", "perturbation": "noise", "split": "train"}
+{"id": "date-0056", "field": "date", "value": "2005-03-2 2", "truth": "2005-03-22", "perturbation": "space", "split": "train"}
+{"id": "date-0056", "field": "date", "value": "2O05-03-22", "truth": "2005-03-22", "perturbation": "typo", "split": "train"}
+{"id": "date-0056", "field": "date", "value": "3-22", "truth": "2005-03-22", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0056", "field": "date", "value": "2005／03／22", "truth": "2005-03-22", "perturbation": "sep", "split": "train"}
+{"id": "date-0056", "field": "date", "value": "2005-03-22（录入日期）", "truth": "2005-03-22", "perturbation": "noise", "split": "train"}
+{"id": "date-0057", "field": "date", "value": "1　979-02-13", "truth": "1979-02-13", "perturbation": "space", "split": "heldout"}
+{"id": "date-0057", "field": "date", "value": "1979-02-l3", "truth": "1979-02-13", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0057", "field": "date", "value": "1979-2-13", "truth": "1979-02-13", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0057", "field": "date", "value": "1979.02.13", "truth": "1979-02-13", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0057", "field": "date", "value": "日期：1979-02-13", "truth": "1979-02-13", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0058", "field": "date", "value": "2000-0 8-02", "truth": "2000-08-02", "perturbation": "space", "split": "train"}
+{"id": "date-0058", "field": "date", "value": "200O-08-02", "truth": "2000-08-02", "perturbation": "typo", "split": "train"}
+{"id": "date-0058", "field": "date", "value": "8-2", "truth": "2000-08-02", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0058", "field": "date", "value": "2000／08／02", "truth": "2000-08-02", "perturbation": "sep", "split": "train"}
+{"id": "date-0058", "field": "date", "value": "2000-08-02（生效日）", "truth": "2000-08-02", "perturbation": "noise", "split": "train"}
+{"id": "date-0059", "field": "date", "value": "1992-0 1-02", "truth": "1992-01-02", "perturbation": "space", "split": "train"}
+{"id": "date-0059", "field": "date", "value": "1q92-01-02", "truth": "1992-01-02", "perturbation": "typo", "split": "train"}
+{"id": "date-0059", "field": "date", "value": "1992-1-2", "truth": "1992-01-02", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0059", "field": "date", "value": "1992.01.02", "truth": "1992-01-02", "perturbation": "sep", "split": "train"}
+{"id": "date-0059", "field": "date", "value": "1992-01-02。", "truth": "1992-01-02", "perturbation": "noise", "split": "train"}
+{"id": "date-0060", "field": "date", "value": "2002- 07-02", "truth": "2002-07-02", "perturbation": "space", "split": "train"}
+{"id": "date-0060", "field": "date", "value": "2002-07-0Z", "truth": "2002-07-02", "perturbation": "typo", "split": "train"}
+{"id": "date-0060", "field": "date", "value": "2002-7", "truth": "2002-07-02", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0060", "field": "date", "value": "2002/07/02", "truth": "2002-07-02", "perturbation": "sep", "split": "train"}
+{"id": "date-0060", "field": "date", "value": "2002-07-02。", "truth": "2002-07-02", "perturbation": "noise", "split": "train"}
+{"id": "date-0061", "field": "date", "value": "2016-07-0　9", "truth": "2016-07-09", "perturbation": "space", "split": "train"}
+{"id": "date-0061", "field": "date", "value": "2016-07-O9", "truth": "2016-07-09", "perturbation": "typo", "split": "train"}
+{"id": "date-0061", "field": "date", "value": "2016-7-9", "truth": "2016-07-09", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0061", "field": "date", "value": "2016/07/09", "truth": "2016-07-09", "perturbation": "sep", "split": "train"}
+{"id": "date-0061", "field": "date", "value": "日期：2016-07-09", "truth": "2016-07-09", "perturbation": "noise", "split": "train"}
+{"id": "date-0062", "field": "date", "value": "2000-0 6-01", "truth": "2000-06-01", "perturbation": "space", "split": "train"}
+{"id": "date-0062", "field": "date", "value": "Z000-06-01", "truth": "2000-06-01", "perturbation": "typo", "split": "train"}
+{"id": "date-0062", "field": "date", "value": "2000-6", "truth": "2000-06-01", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0062", "field": "date", "value": "2000.06.01", "truth": "2000-06-01", "perturbation": "sep", "split": "train"}
+{"id": "date-0062", "field": "date", "value": "日期:2000-06-01", "truth": "2000-06-01", "perturbation": "noise", "split": "train"}
+{"id": "date-0063", "field": "date", "value": "2000-12 -17", "truth": "2000-12-17", "perturbation": "space", "split": "train"}
+{"id": "date-0063", "field": "date", "value": "200O-12-17", "truth": "2000-12-17", "perturbation": "typo", "split": "train"}
+{"id": "date-0063", "field": "date", "value": "12-17", "truth": "2000-12-17", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0063", "field": "date", "value": "2000.12.17", "truth": "2000-12-17", "perturbation": "sep", "split": "train"}
+{"id": "date-0063", "field": "date", "value": "日期:2000-12-17", "truth": "2000-12-17", "perturbation": "noise", "split": "train"}
+{"id": "date-0064", "field": "date", "value": "1985-09- 22", "truth": "1985-09-22", "perturbation": "space", "split": "train"}
+{"id": "date-0064", "field": "date", "value": "1985-0q-22", "truth": "1985-09-22", "perturbation": "typo", "split": "train"}
+{"id": "date-0064", "field": "date", "value": "9-22", "truth": "1985-09-22", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0064", "field": "date", "value": "1985.09.22", "truth": "1985-09-22", "perturbation": "sep", "split": "train"}
+{"id": "date-0064", "field": "date", "value": "日期：1985-09-22", "truth": "1985-09-22", "perturbation": "noise", "split": "train"}
+{"id": "date-0065", "field": "date", "value": "2010-12-2 2", "truth": "2010-12-22", "perturbation": "space", "split": "train"}
+{"id": "date-0065", "field": "date", "value": "2010-l2-22", "truth": "2010-12-22", "perturbation": "typo", "split": "train"}
+{"id": "date-0065", "field": "date", "value": "12-22", "truth": "2010-12-22", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0065", "field": "date", "value": "2010/12/22", "truth": "2010-12-22", "perturbation": "sep", "split": "train"}
+{"id": "date-0065", "field": "date", "value": "2010-12-22。", "truth": "2010-12-22", "perturbation": "noise", "split": "train"}
+{"id": "date-0066", "field": "date", "value": "1　991-03-03", "truth": "1991-03-03", "perturbation": "space", "split": "train"}
+{"id": "date-0066", "field": "date", "value": "l991-03-03", "truth": "1991-03-03", "perturbation": "typo", "split": "train"}
+{"id": "date-0066", "field": "date", "value": "1991-3", "truth": "1991-03-03", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0066", "field": "date", "value": "1991／03／03", "truth": "1991-03-03", "perturbation": "sep", "split": "train"}
+{"id": "date-0066", "field": "date", "value": "1991-03-03（生效日）", "truth": "1991-03-03", "perturbation": "noise", "split": "train"}
+{"id": "date-0067", "field": "date", "value": "2025-12-　23", "truth": "2025-12-23", "perturbation": "space", "split": "train"}
+{"id": "date-0067", "field": "date", "value": "2025-1Z-23", "truth": "2025-12-23", "perturbation": "typo", "split": "train"}
+{"id": "date-0067", "field": "date", "value": "2025-12", "truth": "2025-12-23", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0067", "field": "date", "value": "2025／12／23", "truth": "2025-12-23", "perturbation": "sep", "split": "train"}
+{"id": "date-0067", "field": "date", "value": "日期：2025-12-23", "truth": "2025-12-23", "perturbation": "noise", "split": "train"}
+{"id": "date-0068", "field": "date", "value": "20　18-01-21", "truth": "2018-01-21", "perturbation": "space", "split": "train"}
+{"id": "date-0068", "field": "date", "value": "20l8-01-21", "truth": "2018-01-21", "perturbation": "typo", "split": "train"}
+{"id": "date-0068", "field": "date", "value": "2018-1", "truth": "2018-01-21", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0068", "field": "date", "value": "2018.01.21", "truth": "2018-01-21", "perturbation": "sep", "split": "train"}
+{"id": "date-0068", "field": "date", "value": "2018-01-21（生效日）", "truth": "2018-01-21", "perturbation": "noise", "split": "train"}
+{"id": "date-0069", "field": "date", "value": "2006-03-2　7", "truth": "2006-03-27", "perturbation": "space", "split": "heldout"}
+{"id": "date-0069", "field": "date", "value": "2O06-03-27", "truth": "2006-03-27", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0069", "field": "date", "value": "3-27", "truth": "2006-03-27", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0069", "field": "date", "value": "2006/03/27", "truth": "2006-03-27", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0069", "field": "date", "value": "2006-03-27（生效日）", "truth": "2006-03-27", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0070", "field": "date", "value": "2　026-07-27", "truth": "2026-07-27", "perturbation": "space", "split": "heldout"}
+{"id": "date-0070", "field": "date", "value": "2026-O7-27", "truth": "2026-07-27", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0070", "field": "date", "value": "2026-7", "truth": "2026-07-27", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0070", "field": "date", "value": "2026／07／27", "truth": "2026-07-27", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0070", "field": "date", "value": "日期:2026-07-27", "truth": "2026-07-27", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0071", "field": "date", "value": "2000-10- 11", "truth": "2000-10-11", "perturbation": "space", "split": "train"}
+{"id": "date-0071", "field": "date", "value": "200O-10-11", "truth": "2000-10-11", "perturbation": "typo", "split": "train"}
+{"id": "date-0071", "field": "date", "value": "2000-10", "truth": "2000-10-11", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0071", "field": "date", "value": "2000/10/11", "truth": "2000-10-11", "perturbation": "sep", "split": "train"}
+{"id": "date-0071", "field": "date", "value": "日期:2000-10-11", "truth": "2000-10-11", "perturbation": "noise", "split": "train"}
+{"id": "date-0072", "field": "date", "value": "2016-11-0　8", "truth": "2016-11-08", "perturbation": "space", "split": "train"}
+{"id": "date-0072", "field": "date", "value": "2016-11-0B", "truth": "2016-11-08", "perturbation": "typo", "split": "train"}
+{"id": "date-0072", "field": "date", "value": "2016-11-8", "truth": "2016-11-08", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0072", "field": "date", "value": "2016／11／08", "truth": "2016-11-08", "perturbation": "sep", "split": "train"}
+{"id": "date-0072", "field": "date", "value": "日期：2016-11-08", "truth": "2016-11-08", "perturbation": "noise", "split": "train"}
+{"id": "date-0073", "field": "date", "value": "202 0-11-18", "truth": "2020-11-18", "perturbation": "space", "split": "train"}
+{"id": "date-0073", "field": "date", "value": "20Z0-11-18", "truth": "2020-11-18", "perturbation": "typo", "split": "train"}
+{"id": "date-0073", "field": "date", "value": "11-18", "truth": "2020-11-18", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0073", "field": "date", "value": "2020/11/18", "truth": "2020-11-18", "perturbation": "sep", "split": "train"}
+{"id": "date-0073", "field": "date", "value": "2020-11-18（录入日期）", "truth": "2020-11-18", "perturbation": "noise", "split": "train"}
+{"id": "date-0074", "field": "date", "value": "200 8-04-28", "truth": "2008-04-28", "perturbation": "space", "split": "train"}
+{"id": "date-0074", "field": "date", "value": "2008-04-2B", "truth": "2008-04-28", "perturbation": "typo", "split": "train"}
+{"id": "date-0074", "field": "date", "value": "2008-4", "truth": "2008-04-28", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0074", "field": "date", "value": "2008.04.28", "truth": "2008-04-28", "perturbation": "sep", "split": "train"}
+{"id": "date-0074", "field": "date", "value": "日期：2008-04-28", "truth": "2008-04-28", "perturbation": "noise", "split": "train"}
+{"id": "date-0075", "field": "date", "value": "2019-10 -13", "truth": "2019-10-13", "perturbation": "space", "split": "train"}
+{"id": "date-0075", "field": "date", "value": "201q-10-13", "truth": "2019-10-13", "perturbation": "typo", "split": "train"}
+{"id": "date-0075", "field": "date", "value": "2019-10", "truth": "2019-10-13", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0075", "field": "date", "value": "2019.10.13", "truth": "2019-10-13", "perturbation": "sep", "split": "train"}
+{"id": "date-0075", "field": "date", "value": "2019-10-13（录入日期）", "truth": "2019-10-13", "perturbation": "noise", "split": "train"}
+{"id": "date-0076", "field": "date", "value": "200　8-06-24", "truth": "2008-06-24", "perturbation": "space", "split": "train"}
+{"id": "date-0076", "field": "date", "value": "2008-O6-24", "truth": "2008-06-24", "perturbation": "typo", "split": "train"}
+{"id": "date-0076", "field": "date", "value": "2008-6-24", "truth": "2008-06-24", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0076", "field": "date", "value": "2008/06/24", "truth": "2008-06-24", "perturbation": "sep", "split": "train"}
+{"id": "date-0076", "field": "date", "value": "2008-06-24（生效日）", "truth": "2008-06-24", "perturbation": "noise", "split": "train"}
+{"id": "date-0077", "field": "date", "value": "2 008-12-04", "truth": "2008-12-04", "perturbation": "space", "split": "heldout"}
+{"id": "date-0077", "field": "date", "value": "20O8-12-04", "truth": "2008-12-04", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0077", "field": "date", "value": "2008-12-4", "truth": "2008-12-04", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0077", "field": "date", "value": "2008/12/04", "truth": "2008-12-04", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0077", "field": "date", "value": "2008-12-04（录入日期）", "truth": "2008-12-04", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0078", "field": "date", "value": "2015-0　4-19", "truth": "2015-04-19", "perturbation": "space", "split": "train"}
+{"id": "date-0078", "field": "date", "value": "20l5-04-19", "truth": "2015-04-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0078", "field": "date", "value": "4-19", "truth": "2015-04-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0078", "field": "date", "value": "2015/04/19", "truth": "2015-04-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0078", "field": "date", "value": "日期：2015-04-19", "truth": "2015-04-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0079", "field": "date", "value": "1989-　05-06", "truth": "1989-05-06", "perturbation": "space", "split": "train"}
+{"id": "date-0079", "field": "date", "value": "l989-05-06", "truth": "1989-05-06", "perturbation": "typo", "split": "train"}
+{"id": "date-0079", "field": "date", "value": "1989-5-6", "truth": "1989-05-06", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0079", "field": "date", "value": "1989／05／06", "truth": "1989-05-06", "perturbation": "sep", "split": "train"}
+{"id": "date-0079", "field": "date", "value": "1989-05-06（生效日）", "truth": "1989-05-06", "perturbation": "noise", "split": "train"}
+{"id": "date-0080", "field": "date", "value": "20 23-02-19", "truth": "2023-02-19", "perturbation": "space", "split": "train"}
+{"id": "date-0080", "field": "date", "value": "20Z3-02-19", "truth": "2023-02-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0080", "field": "date", "value": "2-19", "truth": "2023-02-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0080", "field": "date", "value": "2023/02/19", "truth": "2023-02-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0080", "field": "date", "value": "2023-02-19。", "truth": "2023-02-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0081", "field": "date", "value": "1988-10 -02", "truth": "1988-10-02", "perturbation": "space", "split": "train"}
+{"id": "date-0081", "field": "date", "value": "1988-1O-02", "truth": "1988-10-02", "perturbation": "typo", "split": "train"}
+{"id": "date-0081", "field": "date", "value": "10-2", "truth": "1988-10-02", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0081", "field": "date", "value": "1988／10／02", "truth": "1988-10-02", "perturbation": "sep", "split": "train"}
+{"id": "date-0081", "field": "date", "value": "1988-10-02（录入日期）", "truth": "1988-10-02", "perturbation": "noise", "split": "train"}
+{"id": "date-0082", "field": "date", "value": "1982-　09-25", "truth": "1982-09-25", "perturbation": "space", "split": "train"}
+{"id": "date-0082", "field": "date", "value": "1982-09-2S", "truth": "1982-09-25", "perturbation": "typo", "split": "train"}
+{"id": "date-0082", "field": "date", "value": "1982-9-25", "truth": "1982-09-25", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0082", "field": "date", "value": "1982／09／25", "truth": "1982-09-25", "perturbation": "sep", "split": "train"}
+{"id": "date-0082", "field": "date", "value": "1982-09-25（生效日）", "truth": "1982-09-25", "perturbation": "noise", "split": "train"}
+{"id": "date-0083", "field": "date", "value": "1 978-06-28", "truth": "1978-06-28", "perturbation": "space", "split": "heldout"}
+{"id": "date-0083", "field": "date", "value": "1q78-06-28", "truth": "1978-06-28", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0083", "field": "date", "value": "6-28", "truth": "1978-06-28", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0083", "field": "date", "value": "1978.06.28", "truth": "1978-06-28", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0083", "field": "date", "value": "1978-06-28（生效日）", "truth": "1978-06-28", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0084", "field": "date", "value": "1　986-02-08", "truth": "1986-02-08", "perturbation": "space", "split": "train"}
+{"id": "date-0084", "field": "date", "value": "1986-O2-08", "truth": "1986-02-08", "perturbation": "typo", "split": "train"}
+{"id": "date-0084", "field": "date", "value": "1986-2-8", "truth": "1986-02-08", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0084", "field": "date", "value": "1986／02／08", "truth": "1986-02-08", "perturbation": "sep", "split": "train"}
+{"id": "date-0084", "field": "date", "value": "1986-02-08（生效日）", "truth": "1986-02-08", "perturbation": "noise", "split": "train"}
+{"id": "date-0085", "field": "date", "value": "2 006-09-04", "truth": "2006-09-04", "perturbation": "space", "split": "train"}
+{"id": "date-0085", "field": "date", "value": "2006-O9-04", "truth": "2006-09-04", "perturbation": "typo", "split": "train"}
+{"id": "date-0085", "field": "date", "value": "2006-9-4", "truth": "2006-09-04", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0085", "field": "date", "value": "2006／09／04", "truth": "2006-09-04", "perturbation": "sep", "split": "train"}
+{"id": "date-0085", "field": "date", "value": "2006-09-04（录入日期）", "truth": "2006-09-04", "perturbation": "noise", "split": "train"}
+{"id": "date-0086", "field": "date", "value": "1991-11-　13", "truth": "1991-11-13", "perturbation": "space", "split": "train"}
+{"id": "date-0086", "field": "date", "value": "1q91-11-13", "truth": "1991-11-13", "perturbation": "typo", "split": "train"}
+{"id": "date-0086", "field": "date", "value": "1991-11", "truth": "1991-11-13", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0086", "field": "date", "value": "1991.11.13", "truth": "1991-11-13", "perturbation": "sep", "split": "train"}
+{"id": "date-0086", "field": "date", "value": "日期:1991-11-13", "truth": "1991-11-13", "perturbation": "noise", "split": "train"}
+{"id": "date-0087", "field": "date", "value": "2　005-04-02", "truth": "2005-04-02", "perturbation": "space", "split": "heldout"}
+{"id": "date-0087", "field": "date", "value": "200S-04-02", "truth": "2005-04-02", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0087", "field": "date", "value": "2005-4", "truth": "2005-04-02", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0087", "field": "date", "value": "2005.04.02", "truth": "2005-04-02", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0087", "field": "date", "value": "2005-04-02（录入日期）", "truth": "2005-04-02", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0088", "field": "date", "value": "1984 -03-06", "truth": "1984-03-06", "perturbation": "space", "split": "train"}
+{"id": "date-0088", "field": "date", "value": "1q84-03-06", "truth": "1984-03-06", "perturbation": "typo", "split": "train"}
+{"id": "date-0088", "field": "date", "value": "3-6", "truth": "1984-03-06", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0088", "field": "date", "value": "1984.03.06", "truth": "1984-03-06", "perturbation": "sep", "split": "train"}
+{"id": "date-0088", "field": "date", "value": "日期：1984-03-06", "truth": "1984-03-06", "perturbation": "noise", "split": "train"}
+{"id": "date-0089", "field": "date", "value": "19　72-10-20", "truth": "1972-10-20", "perturbation": "space", "split": "train"}
+{"id": "date-0089", "field": "date", "value": "1972-10-2O", "truth": "1972-10-20", "perturbation": "typo", "split": "train"}
+{"id": "date-0089", "field": "date", "value": "1972-10", "truth": "1972-10-20", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0089", "field": "date", "value": "1972.10.20", "truth": "1972-10-20", "perturbation": "sep", "split": "train"}
+{"id": "date-0089", "field": "date", "value": "日期:1972-10-20", "truth": "1972-10-20", "perturbation": "noise", "split": "train"}
+{"id": "date-0090", "field": "date", "value": "197 1-01-17", "truth": "1971-01-17", "perturbation": "space", "split": "train"}
+{"id": "date-0090", "field": "date", "value": "l971-01-17", "truth": "1971-01-17", "perturbation": "typo", "split": "train"}
+{"id": "date-0090", "field": "date", "value": "1971-1-17", "truth": "1971-01-17", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0090", "field": "date", "value": "1971.01.17", "truth": "1971-01-17", "perturbation": "sep", "split": "train"}
+{"id": "date-0090", "field": "date", "value": "1971-01-17（生效日）", "truth": "1971-01-17", "perturbation": "noise", "split": "train"}
+{"id": "date-0091", "field": "date", "value": "1971-　06-14", "truth": "1971-06-14", "perturbation": "space", "split": "train"}
+{"id": "date-0091", "field": "date", "value": "1971-O6-14", "truth": "1971-06-14", "perturbation": "typo", "split": "train"}
+{"id": "date-0091", "field": "date", "value": "6-14", "truth": "1971-06-14", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0091", "field": "date", "value": "1971/06/14", "truth": "1971-06-14", "perturbation": "sep", "split": "train"}
+{"id": "date-0091", "field": "date", "value": "日期:1971-06-14", "truth": "1971-06-14", "perturbation": "noise", "split": "train"}
+{"id": "date-0092", "field": "date", "value": "20 14-03-20", "truth": "2014-03-20", "perturbation": "space", "split": "train"}
+{"id": "date-0092", "field": "date", "value": "2014-0E-20", "truth": "2014-03-20", "perturbation": "typo", "split": "train"}
+{"id": "date-0092", "field": "date", "value": "2014-3", "truth": "2014-03-20", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0092", "field": "date", "value": "2014／03／20", "truth": "2014-03-20", "perturbation": "sep", "split": "train"}
+{"id": "date-0092", "field": "date", "value": "日期:2014-03-20", "truth": "2014-03-20", "perturbation": "noise", "split": "train"}
+{"id": "date-0093", "field": "date", "value": "1972-02-　23", "truth": "1972-02-23", "perturbation": "space", "split": "train"}
+{"id": "date-0093", "field": "date", "value": "19T2-02-23", "truth": "1972-02-23", "perturbation": "typo", "split": "train"}
+{"id": "date-0093", "field": "date", "value": "1972-2-23", "truth": "1972-02-23", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0093", "field": "date", "value": "1972／02／23", "truth": "1972-02-23", "perturbation": "sep", "split": "train"}
+{"id": "date-0093", "field": "date", "value": "日期:1972-02-23", "truth": "1972-02-23", "perturbation": "noise", "split": "train"}
+{"id": "date-0094", "field": "date", "value": "1987　-05-12", "truth": "1987-05-12", "perturbation": "space", "split": "heldout"}
+{"id": "date-0094", "field": "date", "value": "1987-05-1Z", "truth": "1987-05-12", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0094", "field": "date", "value": "5-12", "truth": "1987-05-12", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0094", "field": "date", "value": "1987／05／12", "truth": "1987-05-12", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0094", "field": "date", "value": "1987-05-12（录入日期）", "truth": "1987-05-12", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0095", "field": "date", "value": "1971-0　3-27", "truth": "1971-03-27", "perturbation": "space", "split": "train"}
+{"id": "date-0095", "field": "date", "value": "19T1-03-27", "truth": "1971-03-27", "perturbation": "typo", "split": "train"}
+{"id": "date-0095", "field": "date", "value": "1971-3-27", "truth": "1971-03-27", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0095", "field": "date", "value": "1971／03／27", "truth": "1971-03-27", "perturbation": "sep", "split": "train"}
+{"id": "date-0095", "field": "date", "value": "日期:1971-03-27", "truth": "1971-03-27", "perturbation": "noise", "split": "train"}
+{"id": "date-0096", "field": "date", "value": "2007-05-　07", "truth": "2007-05-07", "perturbation": "space", "split": "train"}
+{"id": "date-0096", "field": "date", "value": "2O07-05-07", "truth": "2007-05-07", "perturbation": "typo", "split": "train"}
+{"id": "date-0096", "field": "date", "value": "5-7", "truth": "2007-05-07", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0096", "field": "date", "value": "2007／05／07", "truth": "2007-05-07", "perturbation": "sep", "split": "train"}
+{"id": "date-0096", "field": "date", "value": "2007-05-07（录入日期）", "truth": "2007-05-07", "perturbation": "noise", "split": "train"}
+{"id": "date-0097", "field": "date", "value": "1 973-01-07", "truth": "1973-01-07", "perturbation": "space", "split": "heldout"}
+{"id": "date-0097", "field": "date", "value": "1q73-01-07", "truth": "1973-01-07", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0097", "field": "date", "value": "1973-1-7", "truth": "1973-01-07", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0097", "field": "date", "value": "1973/01/07", "truth": "1973-01-07", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0097", "field": "date", "value": "日期:1973-01-07", "truth": "1973-01-07", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0098", "field": "date", "value": "1991-06- 05", "truth": "1991-06-05", "perturbation": "space", "split": "train"}
+{"id": "date-0098", "field": "date", "value": "1991-06-0S", "truth": "1991-06-05", "perturbation": "typo", "split": "train"}
+{"id": "date-0098", "field": "date", "value": "1991-6", "truth": "1991-06-05", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0098", "field": "date", "value": "1991／06／05", "truth": "1991-06-05", "perturbation": "sep", "split": "train"}
+{"id": "date-0098", "field": "date", "value": "日期:1991-06-05", "truth": "1991-06-05", "perturbation": "noise", "split": "train"}
+{"id": "date-0099", "field": "date", "value": "1995- 09-19", "truth": "1995-09-19", "perturbation": "space", "split": "train"}
+{"id": "date-0099", "field": "date", "value": "1995-09-1q", "truth": "1995-09-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0099", "field": "date", "value": "1995-9", "truth": "1995-09-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0099", "field": "date", "value": "1995.09.19", "truth": "1995-09-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0099", "field": "date", "value": "日期:1995-09-19", "truth": "1995-09-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0100", "field": "date", "value": "1998-10-1　9", "truth": "1998-10-19", "perturbation": "space", "split": "heldout"}
+{"id": "date-0100", "field": "date", "value": "1998-10-l9", "truth": "1998-10-19", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0100", "field": "date", "value": "1998-10", "truth": "1998-10-19", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0100", "field": "date", "value": "1998.10.19", "truth": "1998-10-19", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0100", "field": "date", "value": "1998-10-19。", "truth": "1998-10-19", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0101", "field": "date", "value": "2022-01-2　3", "truth": "2022-01-23", "perturbation": "space", "split": "train"}
+{"id": "date-0101", "field": "date", "value": "Z022-01-23", "truth": "2022-01-23", "perturbation": "typo", "split": "train"}
+{"id": "date-0101", "field": "date", "value": "1-23", "truth": "2022-01-23", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0101", "field": "date", "value": "2022.01.23", "truth": "2022-01-23", "perturbation": "sep", "split": "train"}
+{"id": "date-0101", "field": "date", "value": "日期：2022-01-23", "truth": "2022-01-23", "perturbation": "noise", "split": "train"}
+{"id": "date-0102", "field": "date", "value": "2023-0　3-14", "truth": "2023-03-14", "perturbation": "space", "split": "train"}
+{"id": "date-0102", "field": "date", "value": "20Z3-03-14", "truth": "2023-03-14", "perturbation": "typo", "split": "train"}
+{"id": "date-0102", "field": "date", "value": "3-14", "truth": "2023-03-14", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0102", "field": "date", "value": "2023/03/14", "truth": "2023-03-14", "perturbation": "sep", "split": "train"}
+{"id": "date-0102", "field": "date", "value": "2023-03-14（生效日）", "truth": "2023-03-14", "perturbation": "noise", "split": "train"}
+{"id": "date-0103", "field": "date", "value": "2003- 03-20", "truth": "2003-03-20", "perturbation": "space", "split": "train"}
+{"id": "date-0103", "field": "date", "value": "2003-03-Z0", "truth": "2003-03-20", "perturbation": "typo", "split": "train"}
+{"id": "date-0103", "field": "date", "value": "3-20", "truth": "2003-03-20", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0103", "field": "date", "value": "2003／03／20", "truth": "2003-03-20", "perturbation": "sep", "split": "train"}
+{"id": "date-0103", "field": "date", "value": "日期：2003-03-20", "truth": "2003-03-20", "perturbation": "noise", "split": "train"}
+{"id": "date-0104", "field": "date", "value": "1986-03- 27", "truth": "1986-03-27", "perturbation": "space", "split": "train"}
+{"id": "date-0104", "field": "date", "value": "1986-O3-27", "truth": "1986-03-27", "perturbation": "typo", "split": "train"}
+{"id": "date-0104", "field": "date", "value": "1986-3-27", "truth": "1986-03-27", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0104", "field": "date", "value": "1986／03／27", "truth": "1986-03-27", "perturbation": "sep", "split": "train"}
+{"id": "date-0104", "field": "date", "value": "1986-03-27（录入日期）", "truth": "1986-03-27", "perturbation": "noise", "split": "train"}
+{"id": "date-0105", "field": "date", "value": "1　985-02-24", "truth": "1985-02-24", "perturbation": "space", "split": "train"}
+{"id": "date-0105", "field": "date", "value": "19B5-02-24", "truth": "1985-02-24", "perturbation": "typo", "split": "train"}
+{"id": "date-0105", "field": "date", "value": "1985-2-24", "truth": "1985-02-24", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0105", "field": "date", "value": "1985/02/24", "truth": "1985-02-24", "perturbation": "sep", "split": "train"}
+{"id": "date-0105", "field": "date", "value": "日期:1985-02-24", "truth": "1985-02-24", "perturbation": "noise", "split": "train"}
+{"id": "date-0106", "field": "date", "value": "1977- 06-13", "truth": "1977-06-13", "perturbation": "space", "split": "heldout"}
+{"id": "date-0106", "field": "date", "value": "l977-06-13", "truth": "1977-06-13", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0106", "field": "date", "value": "6-13", "truth": "1977-06-13", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0106", "field": "date", "value": "1977／06／13", "truth": "1977-06-13", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0106", "field": "date", "value": "日期：1977-06-13", "truth": "1977-06-13", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0107", "field": "date", "value": "19　99-03-15", "truth": "1999-03-15", "perturbation": "space", "split": "train"}
+{"id": "date-0107", "field": "date", "value": "l999-03-15", "truth": "1999-03-15", "perturbation": "typo", "split": "train"}
+{"id": "date-0107", "field": "date", "value": "3-15", "truth": "1999-03-15", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0107", "field": "date", "value": "1999／03／15", "truth": "1999-03-15", "perturbation": "sep", "split": "train"}
+{"id": "date-0107", "field": "date", "value": "1999-03-15。", "truth": "1999-03-15", "perturbation": "noise", "split": "train"}
+{"id": "date-0108", "field": "date", "value": "2010-01- 28", "truth": "2010-01-28", "perturbation": "space", "split": "train"}
+{"id": "date-0108", "field": "date", "value": "Z010-01-28", "truth": "2010-01-28", "perturbation": "typo", "split": "train"}
+{"id": "date-0108", "field": "date", "value": "1-28", "truth": "2010-01-28", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0108", "field": "date", "value": "2010／01／28", "truth": "2010-01-28", "perturbation": "sep", "split": "train"}
+{"id": "date-0108", "field": "date", "value": "日期:2010-01-28", "truth": "2010-01-28", "perturbation": "noise", "split": "train"}
+{"id": "date-0109", "field": "date", "value": "1994-0　8-12", "truth": "1994-08-12", "perturbation": "space", "split": "train"}
+{"id": "date-0109", "field": "date", "value": "199A-08-12", "truth": "1994-08-12", "perturbation": "typo", "split": "train"}
+{"id": "date-0109", "field": "date", "value": "1994-8-12", "truth": "1994-08-12", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0109", "field": "date", "value": "1994／08／12", "truth": "1994-08-12", "perturbation": "sep", "split": "train"}
+{"id": "date-0109", "field": "date", "value": "1994-08-12（生效日）", "truth": "1994-08-12", "perturbation": "noise", "split": "train"}
+{"id": "date-0110", "field": "date", "value": "1　989-10-13", "truth": "1989-10-13", "perturbation": "space", "split": "train"}
+{"id": "date-0110", "field": "date", "value": "198q-10-13", "truth": "1989-10-13", "perturbation": "typo", "split": "train"}
+{"id": "date-0110", "field": "date", "value": "1989-10", "truth": "1989-10-13", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0110", "field": "date", "value": "1989.10.13", "truth": "1989-10-13", "perturbation": "sep", "split": "train"}
+{"id": "date-0110", "field": "date", "value": "1989-10-13（录入日期）", "truth": "1989-10-13", "perturbation": "noise", "split": "train"}
+{"id": "date-0111", "field": "date", "value": "2000-　04-06", "truth": "2000-04-06", "perturbation": "space", "split": "train"}
+{"id": "date-0111", "field": "date", "value": "200O-04-06", "truth": "2000-04-06", "perturbation": "typo", "split": "train"}
+{"id": "date-0111", "field": "date", "value": "4-6", "truth": "2000-04-06", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0111", "field": "date", "value": "2000/04/06", "truth": "2000-04-06", "perturbation": "sep", "split": "train"}
+{"id": "date-0111", "field": "date", "value": "日期:2000-04-06", "truth": "2000-04-06", "perturbation": "noise", "split": "train"}
+{"id": "date-0112", "field": "date", "value": "1990-04 -02", "truth": "1990-04-02", "perturbation": "space", "split": "train"}
+{"id": "date-0112", "field": "date", "value": "199O-04-02", "truth": "1990-04-02", "perturbation": "typo", "split": "train"}
+{"id": "date-0112", "field": "date", "value": "1990-4-2", "truth": "1990-04-02", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0112", "field": "date", "value": "1990.04.02", "truth": "1990-04-02", "perturbation": "sep", "split": "train"}
+{"id": "date-0112", "field": "date", "value": "日期：1990-04-02", "truth": "1990-04-02", "perturbation": "noise", "split": "train"}
+{"id": "date-0113", "field": "date", "value": "1991-09-　22", "truth": "1991-09-22", "perturbation": "space", "split": "train"}
+{"id": "date-0113", "field": "date", "value": "1991-0q-22", "truth": "1991-09-22", "perturbation": "typo", "split": "train"}
+{"id": "date-0113", "field": "date", "value": "1991-9", "truth": "1991-09-22", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0113", "field": "date", "value": "1991.09.22", "truth": "1991-09-22", "perturbation": "sep", "split": "train"}
+{"id": "date-0113", "field": "date", "value": "1991-09-22（生效日）", "truth": "1991-09-22", "perturbation": "noise", "split": "train"}
+{"id": "date-0114", "field": "date", "value": "20 09-05-12", "truth": "2009-05-12", "perturbation": "space", "split": "train"}
+{"id": "date-0114", "field": "date", "value": "2009-05-l2", "truth": "2009-05-12", "perturbation": "typo", "split": "train"}
+{"id": "date-0114", "field": "date", "value": "2009-5-12", "truth": "2009-05-12", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0114", "field": "date", "value": "2009／05／12", "truth": "2009-05-12", "perturbation": "sep", "split": "train"}
+{"id": "date-0114", "field": "date", "value": "2009-05-12（生效日）", "truth": "2009-05-12", "perturbation": "noise", "split": "train"}
+{"id": "date-0115", "field": "date", "value": "1970-03-2 4", "truth": "1970-03-24", "perturbation": "space", "split": "train"}
+{"id": "date-0115", "field": "date", "value": "1970-03-2A", "truth": "1970-03-24", "perturbation": "typo", "split": "train"}
+{"id": "date-0115", "field": "date", "value": "3-24", "truth": "1970-03-24", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0115", "field": "date", "value": "1970.03.24", "truth": "1970-03-24", "perturbation": "sep", "split": "train"}
+{"id": "date-0115", "field": "date", "value": "1970-03-24（生效日）", "truth": "1970-03-24", "perturbation": "noise", "split": "train"}
+{"id": "date-0116", "field": "date", "value": "1986-09-　20", "truth": "1986-09-20", "perturbation": "space", "split": "train"}
+{"id": "date-0116", "field": "date", "value": "19B6-09-20", "truth": "1986-09-20", "perturbation": "typo", "split": "train"}
+{"id": "date-0116", "field": "date", "value": "9-20", "truth": "1986-09-20", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0116", "field": "date", "value": "1986／09／20", "truth": "1986-09-20", "perturbation": "sep", "split": "train"}
+{"id": "date-0116", "field": "date", "value": "日期：1986-09-20", "truth": "1986-09-20", "perturbation": "noise", "split": "train"}
+{"id": "date-0117", "field": "date", "value": "2　026-05-27", "truth": "2026-05-27", "perturbation": "space", "split": "train"}
+{"id": "date-0117", "field": "date", "value": "2026-05-Z7", "truth": "2026-05-27", "perturbation": "typo", "split": "train"}
+{"id": "date-0117", "field": "date", "value": "2026-5", "truth": "2026-05-27", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0117", "field": "date", "value": "2026／05／27", "truth": "2026-05-27", "perturbation": "sep", "split": "train"}
+{"id": "date-0117", "field": "date", "value": "日期：2026-05-27", "truth": "2026-05-27", "perturbation": "noise", "split": "train"}
+{"id": "date-0118", "field": "date", "value": "2015-01- 26", "truth": "2015-01-26", "perturbation": "space", "split": "train"}
+{"id": "date-0118", "field": "date", "value": "2015-O1-26", "truth": "2015-01-26", "perturbation": "typo", "split": "train"}
+{"id": "date-0118", "field": "date", "value": "1-26", "truth": "2015-01-26", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0118", "field": "date", "value": "2015／01／26", "truth": "2015-01-26", "perturbation": "sep", "split": "train"}
+{"id": "date-0118", "field": "date", "value": "2015-01-26（生效日）", "truth": "2015-01-26", "perturbation": "noise", "split": "train"}
+{"id": "date-0119", "field": "date", "value": "1976 -04-21", "truth": "1976-04-21", "perturbation": "space", "split": "heldout"}
+{"id": "date-0119", "field": "date", "value": "1976-0A-21", "truth": "1976-04-21", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0119", "field": "date", "value": "4-21", "truth": "1976-04-21", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0119", "field": "date", "value": "1976/04/21", "truth": "1976-04-21", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0119", "field": "date", "value": "1976-04-21。", "truth": "1976-04-21", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0120", "field": "date", "value": "1994-　02-07", "truth": "1994-02-07", "perturbation": "space", "split": "train"}
+{"id": "date-0120", "field": "date", "value": "1994-0Z-07", "truth": "1994-02-07", "perturbation": "typo", "split": "train"}
+{"id": "date-0120", "field": "date", "value": "2-7", "truth": "1994-02-07", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0120", "field": "date", "value": "1994/02/07", "truth": "1994-02-07", "perturbation": "sep", "split": "train"}
+{"id": "date-0120", "field": "date", "value": "日期:1994-02-07", "truth": "1994-02-07", "perturbation": "noise", "split": "train"}
+{"id": "date-0121", "field": "date", "value": "1　998-08-12", "truth": "1998-08-12", "perturbation": "space", "split": "train"}
+{"id": "date-0121", "field": "date", "value": "199B-08-12", "truth": "1998-08-12", "perturbation": "typo", "split": "train"}
+{"id": "date-0121", "field": "date", "value": "1998-8-12", "truth": "1998-08-12", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0121", "field": "date", "value": "1998／08／12", "truth": "1998-08-12", "perturbation": "sep", "split": "train"}
+{"id": "date-0121", "field": "date", "value": "日期：1998-08-12", "truth": "1998-08-12", "perturbation": "noise", "split": "train"}
+{"id": "date-0122", "field": "date", "value": "1988- 06-06", "truth": "1988-06-06", "perturbation": "space", "split": "train"}
+{"id": "date-0122", "field": "date", "value": "1988-O6-06", "truth": "1988-06-06", "perturbation": "typo", "split": "train"}
+{"id": "date-0122", "field": "date", "value": "1988-6-6", "truth": "1988-06-06", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0122", "field": "date", "value": "1988／06／06", "truth": "1988-06-06", "perturbation": "sep", "split": "train"}
+{"id": "date-0122", "field": "date", "value": "1988-06-06（生效日）", "truth": "1988-06-06", "perturbation": "noise", "split": "train"}
+{"id": "date-0123", "field": "date", "value": "2006-03- 17", "truth": "2006-03-17", "perturbation": "space", "split": "train"}
+{"id": "date-0123", "field": "date", "value": "2006-O3-17", "truth": "2006-03-17", "perturbation": "typo", "split": "train"}
+{"id": "date-0123", "field": "date", "value": "2006-3-17", "truth": "2006-03-17", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0123", "field": "date", "value": "2006.03.17", "truth": "2006-03-17", "perturbation": "sep", "split": "train"}
+{"id": "date-0123", "field": "date", "value": "日期:2006-03-17", "truth": "2006-03-17", "perturbation": "noise", "split": "train"}
+{"id": "date-0124", "field": "date", "value": "1　995-12-16", "truth": "1995-12-16", "perturbation": "space", "split": "heldout"}
+{"id": "date-0124", "field": "date", "value": "19q5-12-16", "truth": "1995-12-16", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0124", "field": "date", "value": "12-16", "truth": "1995-12-16", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0124", "field": "date", "value": "1995/12/16", "truth": "1995-12-16", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0124", "field": "date", "value": "1995-12-16。", "truth": "1995-12-16", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0125", "field": "date", "value": "2020-　02-18", "truth": "2020-02-18", "perturbation": "space", "split": "heldout"}
+{"id": "date-0125", "field": "date", "value": "2020-O2-18", "truth": "2020-02-18", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0125", "field": "date", "value": "2020-2-18", "truth": "2020-02-18", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0125", "field": "date", "value": "2020／02／18", "truth": "2020-02-18", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0125", "field": "date", "value": "2020-02-18。", "truth": "2020-02-18", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0126", "field": "date", "value": "2 001-03-16", "truth": "2001-03-16", "perturbation": "space", "split": "heldout"}
+{"id": "date-0126", "field": "date", "value": "2001-0E-16", "truth": "2001-03-16", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0126", "field": "date", "value": "2001-3", "truth": "2001-03-16", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0126", "field": "date", "value": "2001/03/16", "truth": "2001-03-16", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0126", "field": "date", "value": "日期：2001-03-16", "truth": "2001-03-16", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0127", "field": "date", "value": "1984-　06-14", "truth": "1984-06-14", "perturbation": "space", "split": "train"}
+{"id": "date-0127", "field": "date", "value": "1q84-06-14", "truth": "1984-06-14", "perturbation": "typo", "split": "train"}
+{"id": "date-0127", "field": "date", "value": "6-14", "truth": "1984-06-14", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0127", "field": "date", "value": "1984.06.14", "truth": "1984-06-14", "perturbation": "sep", "split": "train"}
+{"id": "date-0127", "field": "date", "value": "日期：1984-06-14", "truth": "1984-06-14", "perturbation": "noise", "split": "train"}
+{"id": "date-0128", "field": "date", "value": "1978-0　1-14", "truth": "1978-01-14", "perturbation": "space", "split": "train"}
+{"id": "date-0128", "field": "date", "value": "1978-01-l4", "truth": "1978-01-14", "perturbation": "typo", "split": "train"}
+{"id": "date-0128", "field": "date", "value": "1978-1", "truth": "1978-01-14", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0128", "field": "date", "value": "1978/01/14", "truth": "1978-01-14", "perturbation": "sep", "split": "train"}
+{"id": "date-0128", "field": "date", "value": "日期:1978-01-14", "truth": "1978-01-14", "perturbation": "noise", "split": "train"}
+{"id": "date-0129", "field": "date", "value": "2000- 09-21", "truth": "2000-09-21", "perturbation": "space", "split": "train"}
+{"id": "date-0129", "field": "date", "value": "20O0-09-21", "truth": "2000-09-21", "perturbation": "typo", "split": "train"}
+{"id": "date-0129", "field": "date", "value": "2000-9", "truth": "2000-09-21", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0129", "field": "date", "value": "2000／09／21", "truth": "2000-09-21", "perturbation": "sep", "split": "train"}
+{"id": "date-0129", "field": "date", "value": "2000-09-21。", "truth": "2000-09-21", "perturbation": "noise", "split": "train"}
+{"id": "date-0130", "field": "date", "value": "2009 -12-19", "truth": "2009-12-19", "perturbation": "space", "split": "train"}
+{"id": "date-0130", "field": "date", "value": "2O09-12-19", "truth": "2009-12-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0130", "field": "date", "value": "2009-12", "truth": "2009-12-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0130", "field": "date", "value": "2009.12.19", "truth": "2009-12-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0130", "field": "date", "value": "2009-12-19（生效日）", "truth": "2009-12-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0131", "field": "date", "value": "1990-　12-14", "truth": "1990-12-14", "perturbation": "space", "split": "train"}
+{"id": "date-0131", "field": "date", "value": "199O-12-14", "truth": "1990-12-14", "perturbation": "typo", "split": "train"}
+{"id": "date-0131", "field": "date", "value": "12-14", "truth": "1990-12-14", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0131", "field": "date", "value": "1990.12.14", "truth": "1990-12-14", "perturbation": "sep", "split": "train"}
+{"id": "date-0131", "field": "date", "value": "1990-12-14（生效日）", "truth": "1990-12-14", "perturbation": "noise", "split": "train"}
+{"id": "date-0132", "field": "date", "value": "2016-0　3-01", "truth": "2016-03-01", "perturbation": "space", "split": "train"}
+{"id": "date-0132", "field": "date", "value": "20l6-03-01", "truth": "2016-03-01", "perturbation": "typo", "split": "train"}
+{"id": "date-0132", "field": "date", "value": "2016-3", "truth": "2016-03-01", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0132", "field": "date", "value": "2016/03/01", "truth": "2016-03-01", "perturbation": "sep", "split": "train"}
+{"id": "date-0132", "field": "date", "value": "日期:2016-03-01", "truth": "2016-03-01", "perturbation": "noise", "split": "train"}
+{"id": "date-0133", "field": "date", "value": "1976 -12-25", "truth": "1976-12-25", "perturbation": "space", "split": "train"}
+{"id": "date-0133", "field": "date", "value": "l976-12-25", "truth": "1976-12-25", "perturbation": "typo", "split": "train"}
+{"id": "date-0133", "field": "date", "value": "1976-12", "truth": "1976-12-25", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0133", "field": "date", "value": "1976.12.25", "truth": "1976-12-25", "perturbation": "sep", "split": "train"}
+{"id": "date-0133", "field": "date", "value": "日期:1976-12-25", "truth": "1976-12-25", "perturbation": "noise", "split": "train"}
+{"id": "date-0134", "field": "date", "value": "1987- 04-06", "truth": "1987-04-06", "perturbation": "space", "split": "train"}
+{"id": "date-0134", "field": "date", "value": "198T-04-06", "truth": "1987-04-06", "perturbation": "typo", "split": "train"}
+{"id": "date-0134", "field": "date", "value": "4-6", "truth": "1987-04-06", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0134", "field": "date", "value": "1987／04／06", "truth": "1987-04-06", "perturbation": "sep", "split": "train"}
+{"id": "date-0134", "field": "date", "value": "1987-04-06（录入日期）", "truth": "1987-04-06", "perturbation": "noise", "split": "train"}
+{"id": "date-0135", "field": "date", "value": "2020 -03-28", "truth": "2020-03-28", "perturbation": "space", "split": "train"}
+{"id": "date-0135", "field": "date", "value": "Z020-03-28", "truth": "2020-03-28", "perturbation": "typo", "split": "train"}
+{"id": "date-0135", "field": "date", "value": "2020-3", "truth": "2020-03-28", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0135", "field": "date", "value": "2020／03／28", "truth": "2020-03-28", "perturbation": "sep", "split": "train"}
+{"id": "date-0135", "field": "date", "value": "日期:2020-03-28", "truth": "2020-03-28", "perturbation": "noise", "split": "train"}
+{"id": "date-0136", "field": "date", "value": "1985-01-1　5", "truth": "1985-01-15", "perturbation": "space", "split": "heldout"}
+{"id": "date-0136", "field": "date", "value": "198S-01-15", "truth": "1985-01-15", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0136", "field": "date", "value": "1985-1-15", "truth": "1985-01-15", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0136", "field": "date", "value": "1985.01.15", "truth": "1985-01-15", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0136", "field": "date", "value": "日期:1985-01-15", "truth": "1985-01-15", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0137", "field": "date", "value": "2001-0 5-07", "truth": "2001-05-07", "perturbation": "space", "split": "train"}
+{"id": "date-0137", "field": "date", "value": "200l-05-07", "truth": "2001-05-07", "perturbation": "typo", "split": "train"}
+{"id": "date-0137", "field": "date", "value": "5-7", "truth": "2001-05-07", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0137", "field": "date", "value": "2001／05／07", "truth": "2001-05-07", "perturbation": "sep", "split": "train"}
+{"id": "date-0137", "field": "date", "value": "2001-05-07（录入日期）", "truth": "2001-05-07", "perturbation": "noise", "split": "train"}
+{"id": "date-0138", "field": "date", "value": "1　999-09-23", "truth": "1999-09-23", "perturbation": "space", "split": "train"}
+{"id": "date-0138", "field": "date", "value": "1999-09-Z3", "truth": "1999-09-23", "perturbation": "typo", "split": "train"}
+{"id": "date-0138", "field": "date", "value": "9-23", "truth": "1999-09-23", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0138", "field": "date", "value": "1999.09.23", "truth": "1999-09-23", "perturbation": "sep", "split": "train"}
+{"id": "date-0138", "field": "date", "value": "1999-09-23。", "truth": "1999-09-23", "perturbation": "noise", "split": "train"}
+{"id": "date-0139", "field": "date", "value": "1978　-07-08", "truth": "1978-07-08", "perturbation": "space", "split": "train"}
+{"id": "date-0139", "field": "date", "value": "197B-07-08", "truth": "1978-07-08", "perturbation": "typo", "split": "train"}
+{"id": "date-0139", "field": "date", "value": "1978-7-8", "truth": "1978-07-08", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0139", "field": "date", "value": "1978.07.08", "truth": "1978-07-08", "perturbation": "sep", "split": "train"}
+{"id": "date-0139", "field": "date", "value": "日期:1978-07-08", "truth": "1978-07-08", "perturbation": "noise", "split": "train"}
+{"id": "date-0140", "field": "date", "value": "1　989-12-11", "truth": "1989-12-11", "perturbation": "space", "split": "train"}
+{"id": "date-0140", "field": "date", "value": "19B9-12-11", "truth": "1989-12-11", "perturbation": "typo", "split": "train"}
+{"id": "date-0140", "field": "date", "value": "1989-12", "truth": "1989-12-11", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0140", "field": "date", "value": "1989/12/11", "truth": "1989-12-11", "perturbation": "sep", "split": "train"}
+{"id": "date-0140", "field": "date", "value": "日期：1989-12-11", "truth": "1989-12-11", "perturbation": "noise", "split": "train"}
+{"id": "date-0141", "field": "date", "value": "1981-0 7-01", "truth": "1981-07-01", "perturbation": "space", "split": "train"}
+{"id": "date-0141", "field": "date", "value": "1981-07-0l", "truth": "1981-07-01", "perturbation": "typo", "split": "train"}
+{"id": "date-0141", "field": "date", "value": "7-1", "truth": "1981-07-01", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0141", "field": "date", "value": "1981/07/01", "truth": "1981-07-01", "perturbation": "sep", "split": "train"}
+{"id": "date-0141", "field": "date", "value": "日期：1981-07-01", "truth": "1981-07-01", "perturbation": "noise", "split": "train"}
+{"id": "date-0142", "field": "date", "value": "19　99-01-21", "truth": "1999-01-21", "perturbation": "space", "split": "train"}
+{"id": "date-0142", "field": "date", "value": "l999-01-21", "truth": "1999-01-21", "perturbation": "typo", "split": "train"}
+{"id": "date-0142", "field": "date", "value": "1999-1-21", "truth": "1999-01-21", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0142", "field": "date", "value": "1999.01.21", "truth": "1999-01-21", "perturbation": "sep", "split": "train"}
+{"id": "date-0142", "field": "date", "value": "1999-01-21（录入日期）", "truth": "1999-01-21", "perturbation": "noise", "split": "train"}
+{"id": "date-0143", "field": "date", "value": "1972-06　-27", "truth": "1972-06-27", "perturbation": "space", "split": "heldout"}
+{"id": "date-0143", "field": "date", "value": "1972-06-2T", "truth": "1972-06-27", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0143", "field": "date", "value": "6-27", "truth": "1972-06-27", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0143", "field": "date", "value": "1972／06／27", "truth": "1972-06-27", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0143", "field": "date", "value": "日期：1972-06-27", "truth": "1972-06-27", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0144", "field": "date", "value": "20 07-11-23", "truth": "2007-11-23", "perturbation": "space", "split": "train"}
+{"id": "date-0144", "field": "date", "value": "Z007-11-23", "truth": "2007-11-23", "perturbation": "typo", "split": "train"}
+{"id": "date-0144", "field": "date", "value": "2007-11", "truth": "2007-11-23", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0144", "field": "date", "value": "2007.11.23", "truth": "2007-11-23", "perturbation": "sep", "split": "train"}
+{"id": "date-0144", "field": "date", "value": "2007-11-23（生效日）", "truth": "2007-11-23", "perturbation": "noise", "split": "train"}
+{"id": "date-0145", "field": "date", "value": "1　999-03-27", "truth": "1999-03-27", "perturbation": "space", "split": "heldout"}
+{"id": "date-0145", "field": "date", "value": "l999-03-27", "truth": "1999-03-27", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0145", "field": "date", "value": "1999-3", "truth": "1999-03-27", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0145", "field": "date", "value": "1999/03/27", "truth": "1999-03-27", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0145", "field": "date", "value": "1999-03-27。", "truth": "1999-03-27", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0146", "field": "date", "value": "198 4-08-05", "truth": "1984-08-05", "perturbation": "space", "split": "heldout"}
+{"id": "date-0146", "field": "date", "value": "l984-08-05", "truth": "1984-08-05", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0146", "field": "date", "value": "8-5", "truth": "1984-08-05", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0146", "field": "date", "value": "1984.08.05", "truth": "1984-08-05", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0146", "field": "date", "value": "1984-08-05（录入日期）", "truth": "1984-08-05", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0147", "field": "date", "value": "2018　-09-13", "truth": "2018-09-13", "perturbation": "space", "split": "train"}
+{"id": "date-0147", "field": "date", "value": "2018-O9-13", "truth": "2018-09-13", "perturbation": "typo", "split": "train"}
+{"id": "date-0147", "field": "date", "value": "2018-9", "truth": "2018-09-13", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0147", "field": "date", "value": "2018／09／13", "truth": "2018-09-13", "perturbation": "sep", "split": "train"}
+{"id": "date-0147", "field": "date", "value": "日期：2018-09-13", "truth": "2018-09-13", "perturbation": "noise", "split": "train"}
+{"id": "date-0148", "field": "date", "value": "2008-0　3-14", "truth": "2008-03-14", "perturbation": "space", "split": "train"}
+{"id": "date-0148", "field": "date", "value": "Z008-03-14", "truth": "2008-03-14", "perturbation": "typo", "split": "train"}
+{"id": "date-0148", "field": "date", "value": "3-14", "truth": "2008-03-14", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0148", "field": "date", "value": "2008/03/14", "truth": "2008-03-14", "perturbation": "sep", "split": "train"}
+{"id": "date-0148", "field": "date", "value": "2008-03-14。", "truth": "2008-03-14", "perturbation": "noise", "split": "train"}
+{"id": "date-0149", "field": "date", "value": "2000-07-　07", "truth": "2000-07-07", "perturbation": "space", "split": "train"}
+{"id": "date-0149", "field": "date", "value": "2000-O7-07", "truth": "2000-07-07", "perturbation": "typo", "split": "train"}
+{"id": "date-0149", "field": "date", "value": "2000-7-7", "truth": "2000-07-07", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0149", "field": "date", "value": "2000／07／07", "truth": "2000-07-07", "perturbation": "sep", "split": "train"}
+{"id": "date-0149", "field": "date", "value": "2000-07-07（录入日期）", "truth": "2000-07-07", "perturbation": "noise", "split": "train"}
+{"id": "date-0150", "field": "date", "value": "2001-06　-15", "truth": "2001-06-15", "perturbation": "space", "split": "train"}
+{"id": "date-0150", "field": "date", "value": "2001-06-l5", "truth": "2001-06-15", "perturbation": "typo", "split": "train"}
+{"id": "date-0150", "field": "date", "value": "2001-6-15", "truth": "2001-06-15", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0150", "field": "date", "value": "2001／06／15", "truth": "2001-06-15", "perturbation": "sep", "split": "train"}
+{"id": "date-0150", "field": "date", "value": "日期:2001-06-15", "truth": "2001-06-15", "perturbation": "noise", "split": "train"}
+{"id": "date-0151", "field": "date", "value": "1976 -10-25", "truth": "1976-10-25", "perturbation": "space", "split": "train"}
+{"id": "date-0151", "field": "date", "value": "1976-10-Z5", "truth": "1976-10-25", "perturbation": "typo", "split": "train"}
+{"id": "date-0151", "field": "date", "value": "1976-10", "truth": "1976-10-25", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0151", "field": "date", "value": "1976／10／25", "truth": "1976-10-25", "perturbation": "sep", "split": "train"}
+{"id": "date-0151", "field": "date", "value": "1976-10-25（生效日）", "truth": "1976-10-25", "perturbation": "noise", "split": "train"}
+{"id": "date-0152", "field": "date", "value": "1973-1 0-01", "truth": "1973-10-01", "perturbation": "space", "split": "train"}
+{"id": "date-0152", "field": "date", "value": "19T3-10-01", "truth": "1973-10-01", "perturbation": "typo", "split": "train"}
+{"id": "date-0152", "field": "date", "value": "10-1", "truth": "1973-10-01", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0152", "field": "date", "value": "1973／10／01", "truth": "1973-10-01", "perturbation": "sep", "split": "train"}
+{"id": "date-0152", "field": "date", "value": "1973-10-01。", "truth": "1973-10-01", "perturbation": "noise", "split": "train"}
+{"id": "date-0153", "field": "date", "value": "1978-　11-12", "truth": "1978-11-12", "perturbation": "space", "split": "train"}
+{"id": "date-0153", "field": "date", "value": "l978-11-12", "truth": "1978-11-12", "perturbation": "typo", "split": "train"}
+{"id": "date-0153", "field": "date", "value": "1978-11", "truth": "1978-11-12", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0153", "field": "date", "value": "1978.11.12", "truth": "1978-11-12", "perturbation": "sep", "split": "train"}
+{"id": "date-0153", "field": "date", "value": "1978-11-12（生效日）", "truth": "1978-11-12", "perturbation": "noise", "split": "train"}
+{"id": "date-0154", "field": "date", "value": "1988-12-　03", "truth": "1988-12-03", "perturbation": "space", "split": "heldout"}
+{"id": "date-0154", "field": "date", "value": "1988-12-O3", "truth": "1988-12-03", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0154", "field": "date", "value": "1988-12", "truth": "1988-12-03", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0154", "field": "date", "value": "1988／12／03", "truth": "1988-12-03", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0154", "field": "date", "value": "1988-12-03（录入日期）", "truth": "1988-12-03", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0155", "field": "date", "value": "2003　-01-19", "truth": "2003-01-19", "perturbation": "space", "split": "heldout"}
+{"id": "date-0155", "field": "date", "value": "2003-O1-19", "truth": "2003-01-19", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0155", "field": "date", "value": "1-19", "truth": "2003-01-19", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0155", "field": "date", "value": "2003／01／19", "truth": "2003-01-19", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0155", "field": "date", "value": "日期：2003-01-19", "truth": "2003-01-19", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0156", "field": "date", "value": "1976 -01-09", "truth": "1976-01-09", "perturbation": "space", "split": "train"}
+{"id": "date-0156", "field": "date", "value": "1976-O1-09", "truth": "1976-01-09", "perturbation": "typo", "split": "train"}
+{"id": "date-0156", "field": "date", "value": "1-9", "truth": "1976-01-09", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0156", "field": "date", "value": "1976.01.09", "truth": "1976-01-09", "perturbation": "sep", "split": "train"}
+{"id": "date-0156", "field": "date", "value": "日期：1976-01-09", "truth": "1976-01-09", "perturbation": "noise", "split": "train"}
+{"id": "date-0157", "field": "date", "value": "2020-07 -18", "truth": "2020-07-18", "perturbation": "space", "split": "heldout"}
+{"id": "date-0157", "field": "date", "value": "20Z0-07-18", "truth": "2020-07-18", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0157", "field": "date", "value": "2020-7", "truth": "2020-07-18", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0157", "field": "date", "value": "2020.07.18", "truth": "2020-07-18", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0157", "field": "date", "value": "日期:2020-07-18", "truth": "2020-07-18", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0158", "field": "date", "value": "2011-1 2-06", "truth": "2011-12-06", "perturbation": "space", "split": "train"}
+{"id": "date-0158", "field": "date", "value": "2011-12-0G", "truth": "2011-12-06", "perturbation": "typo", "split": "train"}
+{"id": "date-0158", "field": "date", "value": "12-6", "truth": "2011-12-06", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0158", "field": "date", "value": "2011.12.06", "truth": "2011-12-06", "perturbation": "sep", "split": "train"}
+{"id": "date-0158", "field": "date", "value": "2011-12-06。", "truth": "2011-12-06", "perturbation": "noise", "split": "train"}
+{"id": "date-0159", "field": "date", "value": "2018-　08-09", "truth": "2018-08-09", "perturbation": "space", "split": "heldout"}
+{"id": "date-0159", "field": "date", "value": "2018-08-0q", "truth": "2018-08-09", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0159", "field": "date", "value": "2018-8", "truth": "2018-08-09", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0159", "field": "date", "value": "2018／08／09", "truth": "2018-08-09", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0159", "field": "date", "value": "2018-08-09（生效日）", "truth": "2018-08-09", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0160", "field": "date", "value": "197 0-10-17", "truth": "1970-10-17", "perturbation": "space", "split": "heldout"}
+{"id": "date-0160", "field": "date", "value": "1970-10-l7", "truth": "1970-10-17", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0160", "field": "date", "value": "10-17", "truth": "1970-10-17", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0160", "field": "date", "value": "1970／10／17", "truth": "1970-10-17", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0160", "field": "date", "value": "日期:1970-10-17", "truth": "1970-10-17", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0161", "field": "date", "value": "1986　-09-05", "truth": "1986-09-05", "perturbation": "space", "split": "train"}
+{"id": "date-0161", "field": "date", "value": "1986-09-O5", "truth": "1986-09-05", "perturbation": "typo", "split": "train"}
+{"id": "date-0161", "field": "date", "value": "9-5", "truth": "1986-09-05", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0161", "field": "date", "value": "1986.09.05", "truth": "1986-09-05", "perturbation": "sep", "split": "train"}
+{"id": "date-0161", "field": "date", "value": "日期:1986-09-05", "truth": "1986-09-05", "perturbation": "noise", "split": "train"}
+{"id": "date-0162", "field": "date", "value": "20　15-02-03", "truth": "2015-02-03", "perturbation": "space", "split": "train"}
+{"id": "date-0162", "field": "date", "value": "2015-0Z-03", "truth": "2015-02-03", "perturbation": "typo", "split": "train"}
+{"id": "date-0162", "field": "date", "value": "2-3", "truth": "2015-02-03", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0162", "field": "date", "value": "2015.02.03", "truth": "2015-02-03", "perturbation": "sep", "split": "train"}
+{"id": "date-0162", "field": "date", "value": "2015-02-03。", "truth": "2015-02-03", "perturbation": "noise", "split": "train"}
+{"id": "date-0163", "field": "date", "value": "2019-09-1　6", "truth": "2019-09-16", "perturbation": "space", "split": "train"}
+{"id": "date-0163", "field": "date", "value": "20l9-09-16", "truth": "2019-09-16", "perturbation": "typo", "split": "train"}
+{"id": "date-0163", "field": "date", "value": "2019-9", "truth": "2019-09-16", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0163", "field": "date", "value": "2019／09／16", "truth": "2019-09-16", "perturbation": "sep", "split": "train"}
+{"id": "date-0163", "field": "date", "value": "日期：2019-09-16", "truth": "2019-09-16", "perturbation": "noise", "split": "train"}
+{"id": "date-0164", "field": "date", "value": "2000-09-　22", "truth": "2000-09-22", "perturbation": "space", "split": "train"}
+{"id": "date-0164", "field": "date", "value": "Z000-09-22", "truth": "2000-09-22", "perturbation": "typo", "split": "train"}
+{"id": "date-0164", "field": "date", "value": "9-22", "truth": "2000-09-22", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0164", "field": "date", "value": "2000／09／22", "truth": "2000-09-22", "perturbation": "sep", "split": "train"}
+{"id": "date-0164", "field": "date", "value": "2000-09-22。", "truth": "2000-09-22", "perturbation": "noise", "split": "train"}
+{"id": "date-0165", "field": "date", "value": "1975　-11-18", "truth": "1975-11-18", "perturbation": "space", "split": "train"}
+{"id": "date-0165", "field": "date", "value": "l975-11-18", "truth": "1975-11-18", "perturbation": "typo", "split": "train"}
+{"id": "date-0165", "field": "date", "value": "1975-11", "truth": "1975-11-18", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0165", "field": "date", "value": "1975.11.18", "truth": "1975-11-18", "perturbation": "sep", "split": "train"}
+{"id": "date-0165", "field": "date", "value": "1975-11-18（录入日期）", "truth": "1975-11-18", "perturbation": "noise", "split": "train"}
+{"id": "date-0166", "field": "date", "value": "20　09-05-20", "truth": "2009-05-20", "perturbation": "space", "split": "train"}
+{"id": "date-0166", "field": "date", "value": "2009-O5-20", "truth": "2009-05-20", "perturbation": "typo", "split": "train"}
+{"id": "date-0166", "field": "date", "value": "2009-5", "truth": "2009-05-20", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0166", "field": "date", "value": "2009／05／20", "truth": "2009-05-20", "perturbation": "sep", "split": "train"}
+{"id": "date-0166", "field": "date", "value": "2009-05-20（录入日期）", "truth": "2009-05-20", "perturbation": "noise", "split": "train"}
+{"id": "date-0167", "field": "date", "value": "2010　-11-21", "truth": "2010-11-21", "perturbation": "space", "split": "train"}
+{"id": "date-0167", "field": "date", "value": "20l0-11-21", "truth": "2010-11-21", "perturbation": "typo", "split": "train"}
+{"id": "date-0167", "field": "date", "value": "11-21", "truth": "2010-11-21", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0167", "field": "date", "value": "2010/11/21", "truth": "2010-11-21", "perturbation": "sep", "split": "train"}
+{"id": "date-0167", "field": "date", "value": "2010-11-21（生效日）", "truth": "2010-11-21", "perturbation": "noise", "split": "train"}
+{"id": "date-0168", "field": "date", "value": "1984-04　-06", "truth": "1984-04-06", "perturbation": "space", "split": "train"}
+{"id": "date-0168", "field": "date", "value": "19B4-04-06", "truth": "1984-04-06", "perturbation": "typo", "split": "train"}
+{"id": "date-0168", "field": "date", "value": "1984-4-6", "truth": "1984-04-06", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0168", "field": "date", "value": "1984.04.06", "truth": "1984-04-06", "perturbation": "sep", "split": "train"}
+{"id": "date-0168", "field": "date", "value": "日期:1984-04-06", "truth": "1984-04-06", "perturbation": "noise", "split": "train"}
+{"id": "date-0169", "field": "date", "value": "1972-04 -08", "truth": "1972-04-08", "perturbation": "space", "split": "train"}
+{"id": "date-0169", "field": "date", "value": "197Z-04-08", "truth": "1972-04-08", "perturbation": "typo", "split": "train"}
+{"id": "date-0169", "field": "date", "value": "4-8", "truth": "1972-04-08", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0169", "field": "date", "value": "1972.04.08", "truth": "1972-04-08", "perturbation": "sep", "split": "train"}
+{"id": "date-0169", "field": "date", "value": "日期:1972-04-08", "truth": "1972-04-08", "perturbation": "noise", "split": "train"}
+{"id": "date-0170", "field": "date", "value": "2　000-06-13", "truth": "2000-06-13", "perturbation": "space", "split": "train"}
+{"id": "date-0170", "field": "date", "value": "200O-06-13", "truth": "2000-06-13", "perturbation": "typo", "split": "train"}
+{"id": "date-0170", "field": "date", "value": "6-13", "truth": "2000-06-13", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0170", "field": "date", "value": "2000.06.13", "truth": "2000-06-13", "perturbation": "sep", "split": "train"}
+{"id": "date-0170", "field": "date", "value": "日期：2000-06-13", "truth": "2000-06-13", "perturbation": "noise", "split": "train"}
+{"id": "date-0171", "field": "date", "value": "1984-01　-04", "truth": "1984-01-04", "perturbation": "space", "split": "heldout"}
+{"id": "date-0171", "field": "date", "value": "19B4-01-04", "truth": "1984-01-04", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0171", "field": "date", "value": "1-4", "truth": "1984-01-04", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0171", "field": "date", "value": "1984.01.04", "truth": "1984-01-04", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0171", "field": "date", "value": "1984-01-04（生效日）", "truth": "1984-01-04", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0172", "field": "date", "value": "20　19-03-08", "truth": "2019-03-08", "perturbation": "space", "split": "train"}
+{"id": "date-0172", "field": "date", "value": "2019-O3-08", "truth": "2019-03-08", "perturbation": "typo", "split": "train"}
+{"id": "date-0172", "field": "date", "value": "2019-3", "truth": "2019-03-08", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0172", "field": "date", "value": "2019／03／08", "truth": "2019-03-08", "perturbation": "sep", "split": "train"}
+{"id": "date-0172", "field": "date", "value": "日期：2019-03-08", "truth": "2019-03-08", "perturbation": "noise", "split": "train"}
+{"id": "date-0173", "field": "date", "value": "1991-10　-09", "truth": "1991-10-09", "perturbation": "space", "split": "train"}
+{"id": "date-0173", "field": "date", "value": "1991-10-0q", "truth": "1991-10-09", "perturbation": "typo", "split": "train"}
+{"id": "date-0173", "field": "date", "value": "1991-10", "truth": "1991-10-09", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0173", "field": "date", "value": "1991/10/09", "truth": "1991-10-09", "perturbation": "sep", "split": "train"}
+{"id": "date-0173", "field": "date", "value": "1991-10-09（录入日期）", "truth": "1991-10-09", "perturbation": "noise", "split": "train"}
+{"id": "date-0174", "field": "date", "value": "2025-11-　16", "truth": "2025-11-16", "perturbation": "space", "split": "train"}
+{"id": "date-0174", "field": "date", "value": "Z025-11-16", "truth": "2025-11-16", "perturbation": "typo", "split": "train"}
+{"id": "date-0174", "field": "date", "value": "2025-11", "truth": "2025-11-16", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0174", "field": "date", "value": "2025／11／16", "truth": "2025-11-16", "perturbation": "sep", "split": "train"}
+{"id": "date-0174", "field": "date", "value": "2025-11-16（录入日期）", "truth": "2025-11-16", "perturbation": "noise", "split": "train"}
+{"id": "date-0175", "field": "date", "value": "2014-06 -27", "truth": "2014-06-27", "perturbation": "space", "split": "train"}
+{"id": "date-0175", "field": "date", "value": "2014-O6-27", "truth": "2014-06-27", "perturbation": "typo", "split": "train"}
+{"id": "date-0175", "field": "date", "value": "2014-6", "truth": "2014-06-27", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0175", "field": "date", "value": "2014/06/27", "truth": "2014-06-27", "perturbation": "sep", "split": "train"}
+{"id": "date-0175", "field": "date", "value": "2014-06-27（录入日期）", "truth": "2014-06-27", "perturbation": "noise", "split": "train"}
+{"id": "date-0176", "field": "date", "value": "2014　-09-21", "truth": "2014-09-21", "perturbation": "space", "split": "train"}
+{"id": "date-0176", "field": "date", "value": "2014-09-2l", "truth": "2014-09-21", "perturbation": "typo", "split": "train"}
+{"id": "date-0176", "field": "date", "value": "2014-9-21", "truth": "2014-09-21", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0176", "field": "date", "value": "2014.09.21", "truth": "2014-09-21", "perturbation": "sep", "split": "train"}
+{"id": "date-0176", "field": "date", "value": "日期:2014-09-21", "truth": "2014-09-21", "perturbation": "noise", "split": "train"}
+{"id": "date-0177", "field": "date", "value": "19 92-04-03", "truth": "1992-04-03", "perturbation": "space", "split": "train"}
+{"id": "date-0177", "field": "date", "value": "l992-04-03", "truth": "1992-04-03", "perturbation": "typo", "split": "train"}
+{"id": "date-0177", "field": "date", "value": "1992-4", "truth": "1992-04-03", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0177", "field": "date", "value": "1992.04.03", "truth": "1992-04-03", "perturbation": "sep", "split": "train"}
+{"id": "date-0177", "field": "date", "value": "日期:1992-04-03", "truth": "1992-04-03", "perturbation": "noise", "split": "train"}
+{"id": "date-0178", "field": "date", "value": "1991-03- 18", "truth": "1991-03-18", "perturbation": "space", "split": "train"}
+{"id": "date-0178", "field": "date", "value": "1991-O3-18", "truth": "1991-03-18", "perturbation": "typo", "split": "train"}
+{"id": "date-0178", "field": "date", "value": "1991-3", "truth": "1991-03-18", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0178", "field": "date", "value": "1991.03.18", "truth": "1991-03-18", "perturbation": "sep", "split": "train"}
+{"id": "date-0178", "field": "date", "value": "日期:1991-03-18", "truth": "1991-03-18", "perturbation": "noise", "split": "train"}
+{"id": "date-0179", "field": "date", "value": "2005-11-1　6", "truth": "2005-11-16", "perturbation": "space", "split": "heldout"}
+{"id": "date-0179", "field": "date", "value": "2005-1l-16", "truth": "2005-11-16", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0179", "field": "date", "value": "2005-11", "truth": "2005-11-16", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0179", "field": "date", "value": "2005／11／16", "truth": "2005-11-16", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0179", "field": "date", "value": "2005-11-16（生效日）", "truth": "2005-11-16", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0180", "field": "date", "value": "197 9-10-09", "truth": "1979-10-09", "perturbation": "space", "split": "heldout"}
+{"id": "date-0180", "field": "date", "value": "1979-1O-09", "truth": "1979-10-09", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0180", "field": "date", "value": "10-9", "truth": "1979-10-09", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0180", "field": "date", "value": "1979／10／09", "truth": "1979-10-09", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0180", "field": "date", "value": "1979-10-09（生效日）", "truth": "1979-10-09", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0181", "field": "date", "value": "1989-10　-27", "truth": "1989-10-27", "perturbation": "space", "split": "train"}
+{"id": "date-0181", "field": "date", "value": "1989-10-2T", "truth": "1989-10-27", "perturbation": "typo", "split": "train"}
+{"id": "date-0181", "field": "date", "value": "10-27", "truth": "1989-10-27", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0181", "field": "date", "value": "1989.10.27", "truth": "1989-10-27", "perturbation": "sep", "split": "train"}
+{"id": "date-0181", "field": "date", "value": "1989-10-27。", "truth": "1989-10-27", "perturbation": "noise", "split": "train"}
+{"id": "date-0182", "field": "date", "value": "2016-08　-12", "truth": "2016-08-12", "perturbation": "space", "split": "heldout"}
+{"id": "date-0182", "field": "date", "value": "Z016-08-12", "truth": "2016-08-12", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0182", "field": "date", "value": "2016-8-12", "truth": "2016-08-12", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0182", "field": "date", "value": "2016／08／12", "truth": "2016-08-12", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0182", "field": "date", "value": "2016-08-12。", "truth": "2016-08-12", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0183", "field": "date", "value": "198 4-03-11", "truth": "1984-03-11", "perturbation": "space", "split": "train"}
+{"id": "date-0183", "field": "date", "value": "1984-O3-11", "truth": "1984-03-11", "perturbation": "typo", "split": "train"}
+{"id": "date-0183", "field": "date", "value": "3-11", "truth": "1984-03-11", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0183", "field": "date", "value": "1984/03/11", "truth": "1984-03-11", "perturbation": "sep", "split": "train"}
+{"id": "date-0183", "field": "date", "value": "1984-03-11（生效日）", "truth": "1984-03-11", "perturbation": "noise", "split": "train"}
+{"id": "date-0184", "field": "date", "value": "1982-08-2 2", "truth": "1982-08-22", "perturbation": "space", "split": "train"}
+{"id": "date-0184", "field": "date", "value": "1982-0B-22", "truth": "1982-08-22", "perturbation": "typo", "split": "train"}
+{"id": "date-0184", "field": "date", "value": "1982-8-22", "truth": "1982-08-22", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0184", "field": "date", "value": "1982/08/22", "truth": "1982-08-22", "perturbation": "sep", "split": "train"}
+{"id": "date-0184", "field": "date", "value": "日期：1982-08-22", "truth": "1982-08-22", "perturbation": "noise", "split": "train"}
+{"id": "date-0185", "field": "date", "value": "1986-02 -19", "truth": "1986-02-19", "perturbation": "space", "split": "train"}
+{"id": "date-0185", "field": "date", "value": "19B6-02-19", "truth": "1986-02-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0185", "field": "date", "value": "1986-2-19", "truth": "1986-02-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0185", "field": "date", "value": "1986／02／19", "truth": "1986-02-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0185", "field": "date", "value": "1986-02-19。", "truth": "1986-02-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0186", "field": "date", "value": "1990-07　-11", "truth": "1990-07-11", "perturbation": "space", "split": "train"}
+{"id": "date-0186", "field": "date", "value": "1990-07-1l", "truth": "1990-07-11", "perturbation": "typo", "split": "train"}
+{"id": "date-0186", "field": "date", "value": "1990-7", "truth": "1990-07-11", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0186", "field": "date", "value": "1990.07.11", "truth": "1990-07-11", "perturbation": "sep", "split": "train"}
+{"id": "date-0186", "field": "date", "value": "1990-07-11（生效日）", "truth": "1990-07-11", "perturbation": "noise", "split": "train"}
+{"id": "date-0187", "field": "date", "value": "19　90-01-11", "truth": "1990-01-11", "perturbation": "space", "split": "train"}
+{"id": "date-0187", "field": "date", "value": "l990-01-11", "truth": "1990-01-11", "perturbation": "typo", "split": "train"}
+{"id": "date-0187", "field": "date", "value": "1990-1-11", "truth": "1990-01-11", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0187", "field": "date", "value": "1990.01.11", "truth": "1990-01-11", "perturbation": "sep", "split": "train"}
+{"id": "date-0187", "field": "date", "value": "1990-01-11（生效日）", "truth": "1990-01-11", "perturbation": "noise", "split": "train"}
+{"id": "date-0188", "field": "date", "value": "1999-07- 19", "truth": "1999-07-19", "perturbation": "space", "split": "train"}
+{"id": "date-0188", "field": "date", "value": "1999-07-1q", "truth": "1999-07-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0188", "field": "date", "value": "1999-7-19", "truth": "1999-07-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0188", "field": "date", "value": "1999/07/19", "truth": "1999-07-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0188", "field": "date", "value": "日期：1999-07-19", "truth": "1999-07-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0189", "field": "date", "value": "1977-01-2 4", "truth": "1977-01-24", "perturbation": "space", "split": "train"}
+{"id": "date-0189", "field": "date", "value": "1977-0l-24", "truth": "1977-01-24", "perturbation": "typo", "split": "train"}
+{"id": "date-0189", "field": "date", "value": "1-24", "truth": "1977-01-24", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0189", "field": "date", "value": "1977/01/24", "truth": "1977-01-24", "perturbation": "sep", "split": "train"}
+{"id": "date-0189", "field": "date", "value": "1977-01-24。", "truth": "1977-01-24", "perturbation": "noise", "split": "train"}
+{"id": "date-0190", "field": "date", "value": "2 005-04-19", "truth": "2005-04-19", "perturbation": "space", "split": "train"}
+{"id": "date-0190", "field": "date", "value": "200S-04-19", "truth": "2005-04-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0190", "field": "date", "value": "2005-4-19", "truth": "2005-04-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0190", "field": "date", "value": "2005.04.19", "truth": "2005-04-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0190", "field": "date", "value": "2005-04-19。", "truth": "2005-04-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0191", "field": "date", "value": "2001-09　-19", "truth": "2001-09-19", "perturbation": "space", "split": "train"}
+{"id": "date-0191", "field": "date", "value": "2O01-09-19", "truth": "2001-09-19", "perturbation": "typo", "split": "train"}
+{"id": "date-0191", "field": "date", "value": "2001-9", "truth": "2001-09-19", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0191", "field": "date", "value": "2001/09/19", "truth": "2001-09-19", "perturbation": "sep", "split": "train"}
+{"id": "date-0191", "field": "date", "value": "2001-09-19（生效日）", "truth": "2001-09-19", "perturbation": "noise", "split": "train"}
+{"id": "date-0192", "field": "date", "value": "2 024-03-24", "truth": "2024-03-24", "perturbation": "space", "split": "heldout"}
+{"id": "date-0192", "field": "date", "value": "2024-03-Z4", "truth": "2024-03-24", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0192", "field": "date", "value": "2024-3-24", "truth": "2024-03-24", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0192", "field": "date", "value": "2024.03.24", "truth": "2024-03-24", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0192", "field": "date", "value": "日期:2024-03-24", "truth": "2024-03-24", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0193", "field": "date", "value": "200　0-07-01", "truth": "2000-07-01", "perturbation": "space", "split": "train"}
+{"id": "date-0193", "field": "date", "value": "2O00-07-01", "truth": "2000-07-01", "perturbation": "typo", "split": "train"}
+{"id": "date-0193", "field": "date", "value": "2000-7", "truth": "2000-07-01", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0193", "field": "date", "value": "2000／07／01", "truth": "2000-07-01", "perturbation": "sep", "split": "train"}
+{"id": "date-0193", "field": "date", "value": "2000-07-01。", "truth": "2000-07-01", "perturbation": "noise", "split": "train"}
+{"id": "date-0194", "field": "date", "value": "1974　-10-02", "truth": "1974-10-02", "perturbation": "space", "split": "train"}
+{"id": "date-0194", "field": "date", "value": "19T4-10-02", "truth": "1974-10-02", "perturbation": "typo", "split": "train"}
+{"id": "date-0194", "field": "date", "value": "1974-10", "truth": "1974-10-02", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0194", "field": "date", "value": "1974／10／02", "truth": "1974-10-02", "perturbation": "sep", "split": "train"}
+{"id": "date-0194", "field": "date", "value": "日期：1974-10-02", "truth": "1974-10-02", "perturbation": "noise", "split": "train"}
+{"id": "date-0195", "field": "date", "value": "1　983-08-15", "truth": "1983-08-15", "perturbation": "space", "split": "train"}
+{"id": "date-0195", "field": "date", "value": "l983-08-15", "truth": "1983-08-15", "perturbation": "typo", "split": "train"}
+{"id": "date-0195", "field": "date", "value": "1983-8", "truth": "1983-08-15", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0195", "field": "date", "value": "1983／08／15", "truth": "1983-08-15", "perturbation": "sep", "split": "train"}
+{"id": "date-0195", "field": "date", "value": "日期:1983-08-15", "truth": "1983-08-15", "perturbation": "noise", "split": "train"}
+{"id": "date-0196", "field": "date", "value": "2018-0　4-08", "truth": "2018-04-08", "perturbation": "space", "split": "train"}
+{"id": "date-0196", "field": "date", "value": "20l8-04-08", "truth": "2018-04-08", "perturbation": "typo", "split": "train"}
+{"id": "date-0196", "field": "date", "value": "2018-4", "truth": "2018-04-08", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0196", "field": "date", "value": "2018.04.08", "truth": "2018-04-08", "perturbation": "sep", "split": "train"}
+{"id": "date-0196", "field": "date", "value": "日期：2018-04-08", "truth": "2018-04-08", "perturbation": "noise", "split": "train"}
+{"id": "date-0197", "field": "date", "value": "1970-06-1 3", "truth": "1970-06-13", "perturbation": "space", "split": "train"}
+{"id": "date-0197", "field": "date", "value": "l970-06-13", "truth": "1970-06-13", "perturbation": "typo", "split": "train"}
+{"id": "date-0197", "field": "date", "value": "1970-6", "truth": "1970-06-13", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0197", "field": "date", "value": "1970/06/13", "truth": "1970-06-13", "perturbation": "sep", "split": "train"}
+{"id": "date-0197", "field": "date", "value": "1970-06-13（生效日）", "truth": "1970-06-13", "perturbation": "noise", "split": "train"}
+{"id": "date-0198", "field": "date", "value": "1　995-12-03", "truth": "1995-12-03", "perturbation": "space", "split": "train"}
+{"id": "date-0198", "field": "date", "value": "19q5-12-03", "truth": "1995-12-03", "perturbation": "typo", "split": "train"}
+{"id": "date-0198", "field": "date", "value": "1995-12-3", "truth": "1995-12-03", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0198", "field": "date", "value": "1995/12/03", "truth": "1995-12-03", "perturbation": "sep", "split": "train"}
+{"id": "date-0198", "field": "date", "value": "1995-12-03（生效日）", "truth": "1995-12-03", "perturbation": "noise", "split": "train"}
+{"id": "date-0199", "field": "date", "value": "197 3-02-09", "truth": "1973-02-09", "perturbation": "space", "split": "heldout"}
+{"id": "date-0199", "field": "date", "value": "197E-02-09", "truth": "1973-02-09", "perturbation": "typo", "split": "heldout"}
+{"id": "date-0199", "field": "date", "value": "1973-2", "truth": "1973-02-09", "perturbation": "abbrev", "split": "heldout"}
+{"id": "date-0199", "field": "date", "value": "1973.02.09", "truth": "1973-02-09", "perturbation": "sep", "split": "heldout"}
+{"id": "date-0199", "field": "date", "value": "1973-02-09（生效日）", "truth": "1973-02-09", "perturbation": "noise", "split": "heldout"}
+{"id": "date-0200", "field": "date", "value": "2001-12-　21", "truth": "2001-12-21", "perturbation": "space", "split": "train"}
+{"id": "date-0200", "field": "date", "value": "2001-12-2l", "truth": "2001-12-21", "perturbation": "typo", "split": "train"}
+{"id": "date-0200", "field": "date", "value": "2001-12", "truth": "2001-12-21", "perturbation": "abbrev", "split": "train"}
+{"id": "date-0200", "field": "date", "value": "2001/12/21", "truth": "2001-12-21", "perturbation": "sep", "split": "train"}
+{"id": "date-0200", "field": "date", "value": "2001-12-21。", "truth": "2001-12-21", "perturbation": "noise", "split": "train"}
