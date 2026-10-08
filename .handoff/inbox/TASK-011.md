@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/tools/dedupe.py`、`tests/test_dedupe.py`、`benchmarks/evaluate_dedupe.py`（加 `--adaptive` 透传）、`tests/test_evaluate_dedupe.py`、`benchmarks/results/**`（评测产物，不入库） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `benchmarks/clean|dirty/*.jsonl` 的 **train 部分**（可，用于实验选配置）、`src/zhclean/**`、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件。⚡ 特别禁止：读 `benchmarks/generate.py` 词典常量；heldout 只在定版时跑一次** |
 | **_Depends:**（依赖） | TASK-010（已通过，`c40fc9b`）；TASK-009 评测管线（`5229d99`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `8ef8adc`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -69,3 +69,12 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀；中文输出加 `PYTHONIOENCODING=utf-8`。
 - 基线数字（TASK-009 实绩）：heldout recall 85.42% / precision 100%（R85.42 是 adaptive 前的对照）。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-011.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 364 passed；②heldout 定版 **R100.00 / P100.00**（与回执逐行一致）；train 复核 **R99.90 / P99.25**（脑亲跑一致）。
+- 边界检查：4 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- **结构化代码审查**（4/4 覆盖 100%）：critical/high/medium/low 全 0，零发现；向后兼容路径保留原剪枝、有逐组对照测试。
+- **拍板：接受 `link` 键**（all|best，缺省 all）——precision 达标的必要守卫（不加它 person P 最好 94.17%），契约升级记 findings。
+- 已知局限记账：hub 桥接（train 72 误并对全为此型）测试锁定现状；**100/100 不作泛化承诺，更可信数字是 train 99.90/99.25**。
+- `_Status: 已完成`；`_Commit: 8ef8adc`。

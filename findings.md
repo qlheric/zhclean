@@ -35,6 +35,7 @@
 ## 5. 本项目技术要点备忘
 
 - dedupe 依赖 rapidfuzz（pyproject 已声明 ≥3.0）；语义去重阈值需按留出集校准（不得用测试集调参）。
+- **dedupe 自适应配置（TASK-011 定稿，`8ef8adc`）**：`field_overrides` 三键 = scorer / threshold / **link（all|best，缺省 all=原语义）**；`DEFAULT_ADAPTIVE` = person(same_initial@0.60/best)、company(ratio_or_partial@0.90/best)、address(同 company 配置)、phone 不覆盖。**实绩：heldout R100/P100（样本小不作泛化承诺）、train R99.90/P99.25（真实水平基准）**。已知局限：hub 桥接（两人各自唯一最佳都指向同一条缩写 → 三合一；train 72 误并对全为此型），测试已锁定现状，改进方向 = 入边去重（排后续 TASK）。
 - 整表清洗（M2）如需 XLSX 支持再引入 openpyxl（当前未加依赖）。
 - 评测口径：规范化率按「规范值 == ground truth」计；去重 recall 按「应合并对是否被合并」计；失败案例落 `benchmarks/results/` 并公开。
 - **benchmark 数据契约（TASK-001 定稿，`32311d4`）**：clean 行三字段（id/field/value）；dirty 行六字段（id/field/value/truth/perturbation/split）；每类 200 干净值 × 5 类扰动 = 1000 脏行；划分 = seed 洗牌后前 20% heldout；同 seed 逐字节一致；`tests/test_benchmark.py` 的 `test_repo_artifacts_fresh` 守着「生成器改动必须重生成产物」。

@@ -1,5 +1,13 @@
 # Progress: S2 zhclean 会话日志
 
+## 2026-10-08 · 脑侧验收会话⑪（DSH）
+
+- **TASK-011 验收通过**（`8ef8adc`）：判据亲跑（364 passed / heldout R100 P100 / train R99.90 P99.25 全对上）；边界零越界；代码审查 4/4 零发现。
+- 拍板：**接受 link 键**（precision 守卫，不加 person P 最好 94.17%）；契约升级记 findings。
+- **dedupe 达标**：heldout 100/100（不作泛化承诺）、train 99.90/99.25（真实水平基准）。hub 桥接局限记账。
+- **TASK-012 已派**：cli.py 串接三命令（M1「一键」最后一块）。
+- 下一步：等 RESULT-012 → 亲跑 + 审查验收；之后 M1 验收汇总（README + 失败案例公开）。
+
 ## 2026-10-08 · 脑侧验收会话⑩（DSH）
 
 - **TASK-010 验收通过**（`c40fc9b`）：判据亲跑（315 passed / demo OK）；边界零越界；代码审查 2/2（0 阻塞，low 1）。

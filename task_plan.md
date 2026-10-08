@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-Phase 4（dedupe + audit）→ TASK-010 已通过（`c40fc9b`，audit 工具，**M1 三工具齐**）；**TASK-011（recall 攻坚：按字段相似度+阈值，precision 守卫）已派**，手执行中
+Phase 4（dedupe + audit）→ TASK-011 已通过（`8ef8adc`，**dedupe 达标：heldout R100/P100，train R99.90/P99.25**）；**TASK-012（cli.py 串接三命令）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-011.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；recall/precision 新实绩如实汇报。
+手交 `.handoff/outbox/RESULT-012.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；之后 M1 验收汇总（README + 失败案例公开）。
 
 ## Phases
 
@@ -69,7 +69,8 @@ Phase 4（dedupe + audit）→ TASK-010 已通过（`c40fc9b`，audit 工具，*
 - [x] dedupe 工具（TASK-008 已通过 `30e32eb`：hash 精确 + rapidfuzz 语义 + 先规范化；审查零发现）
 - [x] dedupe 评测接入（TASK-009 已通过 `5229d99`：pair P/R/F1 + train 选阈；**heldout R85.42% / P100%**——recall 未达 95% 如实报，攻坚排 TASK-011）
 - [x] audit 工具（TASK-010 已通过 `c40fc9b`：清洗报告 + dry-run 预览 + checksum 回滚；**M1 三工具齐**）
-- [ ] recall 攻坚（TASK-011 执行中：按字段相似度 + 按字段阈值，precision 守卫）
+- [x] recall 攻坚（TASK-011 已通过 `8ef8adc`：按字段相似度 + link 守卫；**heldout R100/P100，train R99.90/P99.25**——达标，100/100 不作泛化承诺）
+- [ ] cli.py 串接（TASK-012 执行中：normalize/dedupe/audit 三命令，一键卖点落地）
 - **Status:** in_progress
 
 ### Phase 5: LLM 兜底 + M1 验收
