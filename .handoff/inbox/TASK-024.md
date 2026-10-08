@@ -6,11 +6,11 @@
 | 日期 | 2026-10-09 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/rules/idcard.py`、`src/zhclean/rules/email.py`、`src/zhclean/rules/__init__.py`（DISPATCH 注册两字段）、`src/zhclean/rules/common.py`（如需公共机制）、`tests/test_idcard.py`、`tests/test_email.py` |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `benchmarks/clean|dirty/{idcard,email}.jsonl` 的 **train 部分**、`src/zhclean/rules/{phone,date}.py`（参考有闸门规则）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件。⚡ 特别禁止：读 benchmarks/generate.py 词典常量；heldout 不跑（定版在 TASK-025）** |
 | **_Depends:**（依赖） | TASK-023（已通过，`597b8b8`；RESULT-023 §5-a 生日 1970–1999 已裁决） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `6f8d2db`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -77,3 +77,11 @@ git status --porcelain -uall
 - 规则是 TASK-024、评测接入 + heldout 重定版是 TASK-025（老六类逐位复现 M2 定版是硬判据）、文档是 TASK-026。
 - email 的 sep/abbrev 按「不猜」是**正确口径**——train 回环数字会因此有天花板，如实报即可。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-024.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过**。判据亲跑：①650 passed（565 原全绿 + 85 新增）；②train 回环 idcard 800/800 = 100.00%、email 412/800 = 51.50%，**双字段改坏 0**（失败行全部逐字原样返回）。
+- 边界零越界。**结构化代码审查**（5/5 覆盖 100%）：critical/high/medium/low 全 0。
+- §5 三裁决：a **采纳收窄 (A)**（弱闸门下盲修必改坏，位置判据是正确工程决策；教训记 findings——修复激进程度须匹配闸门强度）；c 接受现状（0.95 已知阴影实例）；6-3 采纳（新定版分列口径）。
+- **里程碑：八类字段规则全部就位。**
+- `_Status: 已完成`；`_Commit: 6f8d2db`。

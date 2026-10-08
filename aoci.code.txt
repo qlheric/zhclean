@@ -27,7 +27,7 @@ loop.py[AW9S]: F:手写 Agent Loop：三桶+llm_fn 扩展点+llm_max_calls 护�
 _compat.py[EG4T]: F:utf8_stdio 公共件（四入口统一控制台编码） | R:code:src/zhclean/cli.py | A:被四个模块 __main__ 调用 | S:仅 TextIOWrapper 才 reconfigure
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/src/zhclean/rules/===
-__init__.py[DG5T]: F:规则库注册与分发（六类字段全注册） | R:code:src/zhclean/rules/person.py | A:被 tools/normalize.py 导入 | S:词典加载失败必须显式报错
+__init__.py[DG5T]: F:规则库注册与分发（八类字段全注册） | R:code:src/zhclean/rules/person.py | A:被 tools/normalize.py 导入 | S:词典加载失败必须显式报错
 address.py[DL8L]: F:地址规则：区划词典+标记补全+一对多消歧，机制走 common | R:code:src/zhclean/rules/common.py | A:被 normalize.py 调用 | S:结构字后须跟门牌数字才修
 amount.py[DL8S]: F:金额规则：千分位归一+万元展开+形近修复（数字+元闸门） | R:code:src/zhclean/rules/__init__.py | A:被 normalize.py 调用 | S:闸门 ^\d+(\.\d+)?元$；修完必须过闸门
 company.py[DL8S]: F:公司名规则：缩写补全+软闸门，机制走 common | R:code:src/zhclean/rules/common.py | A:被 normalize.py 调用 | S:推断层产物必须恰是已知词组才采纳
@@ -35,6 +35,8 @@ date.py[DL8S]: F:日期规则：分隔符归一+缺零补全+形近修复（范�
 person.py[DL8S]: F:人名规则：词典+敬称表，机制走 common | R:code:src/zhclean/rules/common.py | A:被 normalize.py 调用 | S:词典不得针对测试扰动模式调参
 phone.py[DL8M]: F:电话规则：校验闸门+国家码剥离，机制走 common | R:code:src/zhclean/rules/common.py | A:被 normalize.py 调用 | S:修完必须过 11 位校验才返回
 common.py[DB8S]: F:规则公共件：四档置信度（0.95 已规范/0.9 结构/0.7 推断/0.1 无证据）+滑窗/单字修复 | R:code:src/zhclean/rules/address.py | A:经各 normalize_<field> 暴露 | S:只放与字段无关的机制；词典经参数传入
+idcard.py[DL8S]: F:身份证规则：GB 11643 校验码强闸门+15→18 补全+形近修复 | R:code:src/zhclean/rules/__init__.py | A:被 normalize.py 调用 | S:修完必须过校验码闸门；世纪位补 19（1970-1999 口径）
+email.py[DL8S]: F:邮箱规则：宽松形态闸门+位置判定形近修复 | R:code:src/zhclean/rules/__init__.py | A:被 normalize.py 调用 | S:盲修必改坏——只修位置可判定字符；sep/abbrev 不猜
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/src/zhclean/tools/===
 __init__.py[EG4T]: F:工具包导出三工具 | R:code:src/zhclean/tools/normalize.py | A:import zhclean.tools | S:三工具名固定（normalize/dedupe/audit）
@@ -70,7 +72,8 @@ TASK-020.md[SG8T]: F:派单：修复单（已通过 4eff077，amount 99%） | R:
 TASK-021.md[SG8T]: F:派单：M2 定版单（已通过 ce36e97，heldout 87.92%） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-022.md[SG8T]: F:派单：M2 文档更新（已通过 16d02f4） | R:code:README.md | A:手侧执行入口 | S:状态只有脑能改
 TASK-023.md[SG8T]: F:派单：第三批评测集（已通过 597b8b8） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
-TASK-024.md[SG8T]: F:派单：idcard/email 规则（15→18 展开+校验闸门） | R:code:src/zhclean/rules/idcard.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-024.md[SG8T]: F:派单：idcard/email 规则（已通过 6f8d2db） | R:code:src/zhclean/rules/idcard.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-025.md[SG8T]: F:派单：评测接入+heldout 重定版（老六类复现硬判据） | R:code:benchmarks/evaluate.py | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -116,6 +119,7 @@ RESULT-020.md[SG7M]: F:回执：TASK-020 修复单交付（已通过，含脑侧
 RESULT-021.md[SG7M]: F:回执：TASK-021 M2 定版交付（已通过，含脑侧审查§9） | R:code:.handoff/inbox/TASK-021.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-022.md[SG7S]: F:回执：TASK-022 M2 文档交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-022.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-023.md[SG7M]: F:回执：TASK-023 第三批评测集交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-023.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-024.md[SG7M]: F:回执：TASK-024 idcard/email 规则交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-024.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改

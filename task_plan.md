@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 6（M2）** → TASK-023 已通过（`597b8b8`，idcard/email 评测集，GB 11643 校验码，老六类逐字节不变）；**TASK-024（idcard/email 规则：15→18 展开 + 校验闸门）已派**，手执行中
+**Phase 6（M2）** → TASK-024 已通过（`6f8d2db`，idcard/email 规则，**八类规则全就位**：idcard 100% / email 51.5% 顶口径天花板、双零改坏）；**TASK-025（评测接入 + heldout 重定版，老六类逐位复现是硬判据）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-024.md` 后：亲跑两条判据 + 结构化代码审查 → 边界 → 置状态 → 提交；之后 TASK-025（评测接入 + heldout 重定版）。
+手交 `.handoff/outbox/RESULT-025.md` 后：亲跑三条判据（含 heldout 重定版对照）→ 边界 → 置状态 → 提交；之后 TASK-026（八类定版文档）。
 
 ## Phases
 
@@ -90,8 +90,9 @@
 - [x] 定版单（TASK-021 已通过 `ce36e97`：amount 尾零修复 + **M2 heldout 定版**——总 87.92%、六类 72.00/90.50/100.00/81.00/100.00/84.00）
 - [x] M2 文档更新（TASK-022 已通过 `16d02f4`：README 六类定版表 + failures-m2 + 台账）
 - [x] 第三批字段评测集（TASK-023 已通过 `597b8b8`：generate.py 加 idcard/email，老六类逐字节不变；生日范围裁定 1970–1999）
-- [ ] 身份证/邮箱规则（TASK-024 执行中：15→18 展开 + 校验闸门；格式级，不做真实性查询）
-- [ ] 评测接入 + heldout 重定版（TASK-025 排队：老六类逐位复现 M2 定版是硬判据）
+- [x] 身份证/邮箱规则（TASK-024 已通过 `6f8d2db`：15→18 展开 + GB 11643 闸门 + email 位置判定修复；idcard 100% / email 51.5%、双零改坏；§5-a 收窄采纳 (A)）
+- [ ] 评测接入 + heldout 重定版（TASK-025 执行中：老六类逐位复现 M2 定版是硬判据；新定版分列口径）
+- [ ] 八类定版文档（TASK-026 排队）
 - [ ] 大写数字轴（壹/贰/叁）单独一单（已裁定，排队）
 - [ ] 整表清洗（CSV/XLSX 进出）
 - **Status:** in_progress
