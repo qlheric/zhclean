@@ -10,6 +10,8 @@ S: 评测口径 recall≥95%；阈值不得用测试集调参；同输入同输�
 - dedupe_exact(rows)            -> 组列表：规范值相同即合并
 - dedupe_fuzzy(rows, threshold) -> 组列表：精确键之外，规范值 ratio/100 >= threshold 再合并
 - dedupe(rows, threshold=0.85)  -> 两级综合入口（= dedupe_fuzzy）
+- dedupe_fuzzy(rows, threshold, field_overrides) -> 按字段换 scorer / 阈值 / link（TASK-011）
+- dedupe_adaptive(rows, threshold) -> 内置 DEFAULT_ADAPTIVE（train 实验选定）
 - 返回：组内行保持输入顺序；组间按各组首行在输入中的位置排序。
 
 口径说明（实现时定下的两条，已在 RESULT-008 申报）：
@@ -100,14 +102,85 @@ def dedupe_exact(rows: list[dict]) -> list[list[dict]]:
     return _groups(rows, uf)
 
 
-def dedupe_fuzzy(rows: list[dict], threshold: float = DEFAULT_THRESHOLD) -> list[list[dict]]:
+_LINKS = ("all", "best")
+_OVERRIDE_KEYS = {"scorer", "threshold", "link"}
+
+
+def _check_overrides(field_overrides: dict | None) -> dict:
+    """field_overrides 校验：每项须含 scorer（可调用）+ threshold（[0,1]），link 可选（all|best）。"""
+    if field_overrides is None:
+        return {}
+    if not isinstance(field_overrides, dict):
+        raise TypeError(f"field_overrides 必须是 dict 或 None，收到 {type(field_overrides).__name__}")
+    out = {}
+    for field, cfg in field_overrides.items():
+        if not isinstance(cfg, dict) or not {"scorer", "threshold"} <= cfg.keys():
+            raise ValueError(f"field_overrides[{field!r}] 须含 scorer 与 threshold 两键")
+        if cfg.keys() - _OVERRIDE_KEYS:  # 拼错键名（如 thresh）不静默忽略
+            raise ValueError(f"field_overrides[{field!r}] 有未知键 {sorted(cfg.keys() - _OVERRIDE_KEYS)}")
+        if not callable(cfg["scorer"]):
+            raise TypeError(f"field_overrides[{field!r}]['scorer'] 必须可调用")
+        link = cfg.get("link", "all")
+        if link not in _LINKS:
+            raise ValueError(f"field_overrides[{field!r}]['link'] 须为 {_LINKS} 之一，收到 {link!r}")
+        out[field] = (cfg["scorer"], _check_threshold(cfg["threshold"]), link)
+    return out
+
+
+def _link_all(uf: _UnionFind, items: list[tuple[str, int]], scorer, threshold: float) -> None:
+    """link=all：任意一对 score >= threshold 即合并（原 TASK-008 语义，传递闭包）。"""
+    for a in range(len(items)):
+        va, ia = items[a]
+        for b in range(a + 1, len(items)):
+            vb, ib = items[b]
+            if uf.find(ia) != uf.find(ib) and scorer(va, vb) >= threshold:
+                uf.union(ia, ib)
+
+
+def _link_best(uf: _UnionFind, items: list[tuple[str, int]], scorer, threshold: float) -> None:
+    """link=best（precision 守卫）：每个值只连向它**严格唯一**的最高分候选（且 >= threshold）。
+
+    并列最高 ⇒ 该值一条边都不连。动机（train 实验，见 DEFAULT_ADAPTIVE 注释）：
+    低阈值下「范童」同时贴近「范童言」「范童宇」⇒ 歧义，宁可漏并也不把两个人桥接成一组。
+    先打完全部分数再连边 ⇒ 结果与比较顺序无关（确定）。复杂度 O(u²) 次打分。
+    """
+    n = len(items)
+    best: list[tuple[float, list[int]]] = [(-1.0, []) for _ in range(n)]  # (最高分, 取到最高分的下标们)
+    for a in range(n):
+        for b in range(a + 1, n):
+            s = scorer(items[a][0], items[b][0])
+            if s < threshold:
+                continue
+            for x, y in ((a, b), (b, a)):
+                top, who = best[x]
+                if s > top:
+                    best[x] = (s, [y])
+                elif s == top:
+                    who.append(y)
+    for a, (_, who) in enumerate(best):
+        if len(who) == 1:
+            uf.union(items[a][1], items[who[0]][1])
+
+
+def _ratio(a: str, b: str) -> float:
+    """默认 scorer：fuzz.ratio 归一到 [0,1]。"""
+    return fuzz.ratio(a, b) / 100
+
+
+def dedupe_fuzzy(rows: list[dict], threshold: float = DEFAULT_THRESHOLD,
+                 field_overrides: dict | None = None) -> list[list[dict]]:
     """精确 + 语义两级去重。
 
     语义级只在「不同的规范值」之间比（同值已由精确级合并），且只比同一 field 的字符串值。
-    相似度 = rapidfuzz.fuzz.ratio / 100，>= threshold 即合并（并查集传递闭包）。
+    默认相似度 = rapidfuzz.fuzz.ratio / 100，>= threshold 即合并（并查集传递闭包）。
+
+    field_overrides（TASK-011 §2.5）：{field: {"scorer": (a, b) -> [0,1], "threshold": float,
+    "link": "all" | "best"}}。未覆盖的字段仍用全局 threshold + fuzz.ratio + link=all；
+    不传时行为与 TASK-008 逐字相同。link 缺省 "all"；"best" 见 _link_best。
     复杂度：每个 field 内 O(u²)，u = 去重后的不同规范值个数。
     """
     threshold = _check_threshold(threshold)
+    overrides = _check_overrides(field_overrides)
     uf = _UnionFind(len(rows))
     keys = _keys(rows)
     first = _union_exact(uf, keys)
@@ -119,7 +192,12 @@ def dedupe_fuzzy(rows: list[dict], threshold: float = DEFAULT_THRESHOLD) -> list
             by_field.setdefault(field, []).append((val, idx))
 
     cutoff = threshold * 100  # rapidfuzz 分数是 0~100
-    for items in by_field.values():
+    for field, items in by_field.items():
+        if field in overrides:
+            scorer, t, link = overrides[field]
+            (_link_best if link == "best" else _link_all)(uf, items, scorer, t)
+            continue
+        # 未覆盖字段：原路径，保留 score_cutoff 剪枝（与 TASK-008 逐字等价）
         for a in range(len(items)):
             va, ia = items[a]
             for b in range(a + 1, len(items)):
@@ -130,6 +208,65 @@ def dedupe_fuzzy(rows: list[dict], threshold: float = DEFAULT_THRESHOLD) -> list
                 if fuzz.ratio(va, vb, score_cutoff=cutoff) >= cutoff:
                     uf.union(ia, ib)
     return _groups(rows, uf)
+
+
+# ---------------------------------------------------------------------------
+# 自适应配置（TASK-011）：按字段 scorer + 阈值 + link，全部依据 train 实验选定
+# ---------------------------------------------------------------------------
+def same_initial_ratio(a: str, b: str) -> float:
+    """person scorer：首字（姓）不同直接 0；同姓再算 fuzz.ratio/100。
+
+    挡「王小明 / 李小明」这类异姓误并；代价是姓本身打错的那一类会漏（保守取舍）。
+    """
+    return fuzz.ratio(a, b) / 100 if a[:1] == b[:1] else 0.0
+
+
+def ratio_or_partial(a: str, b: str) -> float:
+    """company / address scorer：max(ratio, partial_ratio)/100。
+
+    partial_ratio 抓「简称 ⊂ 全称」（「数联贸易集团有限公司」⊂「嘉兴数联贸易集团有限公司」、
+    「贵阳市…」⊂「贵州省贵阳市…」）；ratio 兜「有限公司 / 有限责任公司」这类非子串改写。
+    """
+    return max(fuzz.ratio(a, b), fuzz.partial_ratio(a, b)) / 100
+
+
+# train 实验（只读 train：每字段 160 id × 6 行；heldout 未参与）。各字段单独评，P/R 为该字段 pair 口径。
+# link=all 即 TASK-008 原语义；link=best 为唯一最佳候选守卫。完整候选表见 RESULT-011 §2。
+#
+# person（基线 ratio@0.85/all：R59.08 P99.86 F1 74.24）
+#   ratio@0.70/all            R92.92 P94.17 F1 93.54
+#   ratio@0.60/all            R100   P83.68 F1 91.12   ← recall 全拿但 precision 大掉，拒
+#   ratio_or_partial@0.70/all R96.67 P85.61 F1 90.80
+#   ratio@0.60/best           R99.38 P97.07 F1 98.21
+#   same_initial@0.60/best    R99.58 P97.08 F1 98.31   ← 选（0.50~0.65 结果相同，取中）
+#   same_initial@0.60/互为唯一最佳 R80.63 P99.90（recall 掉太多，拒）
+# company（基线 ratio@0.85/all：R83.96 P100 F1 91.28）
+#   partial@0.90/all          R97.92 P93.29 F1 95.55
+#   ratio_or_partial@0.90/all R100   P93.02 F1 96.39
+#   ratio_or_partial@0.85/best R100  P94.34 F1 97.09
+#   ratio_or_partial@0.90/best R100  P100   F1 100     ← 选（0.95：R96.88 P100）
+# address（基线 ratio@0.85/all：R98.54 P100 F1 99.27）
+#   ratio@0.80/all            R99.17 P100   F1 99.58
+#   ratio_or_partial@0.85/best R100  P100   F1 100
+#   ratio_or_partial@0.90/best R100  P100   F1 100     ← 选（0.85~0.95 全 100，取中；与 company 同配）
+# phone：基线已 R100 P100，不覆盖（走全局 threshold + ratio）。
+DEFAULT_ADAPTIVE: dict[str, dict] = {
+    "person": {"scorer": same_initial_ratio, "threshold": 0.60, "link": "best"},
+    "company": {"scorer": ratio_or_partial, "threshold": 0.90, "link": "best"},
+    "address": {"scorer": ratio_or_partial, "threshold": 0.90, "link": "best"},
+}
+
+
+def dedupe_adaptive(rows: list[dict], threshold: float = DEFAULT_THRESHOLD) -> list[list[dict]]:
+    """自适应入口：DEFAULT_ADAPTIVE 覆盖 person/company/address，其余字段用全局 threshold。"""
+    return dedupe_fuzzy(rows, threshold, field_overrides=DEFAULT_ADAPTIVE)
+
+
+def describe_adaptive(cfg: dict | None = None) -> dict:
+    """把配置转成可 JSON 落盘的描述（scorer 记函数名）。"""
+    cfg = DEFAULT_ADAPTIVE if cfg is None else cfg
+    return {f: {"scorer": getattr(c["scorer"], "__name__", repr(c["scorer"])),
+                "threshold": c["threshold"], "link": c.get("link", "all")} for f, c in cfg.items()}
 
 
 def dedupe(rows: list[dict], threshold: float = DEFAULT_THRESHOLD) -> list[list[dict]]:
@@ -170,7 +307,13 @@ def _demo() -> None:
     rows = [row(i, v, "address") for i, v in enumerate([a, "上海市浦东新区", b, a])]
     assert _ids(dedupe(rows)) == _ids(dedupe(rows)) == [[0, 2, 3], [1]]
 
-    # 7) 阈值越界被拒
+    # 7) 自适应：缩写 / 简称合并；异姓不并
+    assert _ids(dedupe_adaptive([row(1, "范童言"), row(2, "范童")])) == [[1, 2]]
+    assert _ids(dedupe_adaptive([row(1, "王小明"), row(2, "李小明")])) == [[1], [2]]
+    assert _ids(dedupe_adaptive([row(1, "嘉兴数联贸易集团有限公司", "company"),
+                                 row(2, "数联贸易集团有限公司", "company")])) == [[1, 2]]
+
+    # 8) 阈值越界被拒
     for bad in (-0.1, 1.1, float("nan")):
         try:
             dedupe([], bad)

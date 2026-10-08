@@ -2,7 +2,7 @@
 
 F: 真组按 id 聚合；pair 口径算 recall + precision（同看，防只追 recall 调低阈值）；落 summary / errors
 R: benchmarks/clean|dirty/*.jsonl、src/zhclean/tools/dedupe.py
-A: python -m benchmarks.evaluate_dedupe [--split heldout] [--threshold 0.85 | --select-threshold]
+A: python -m benchmarks.evaluate_dedupe [--split heldout] [--threshold 0.85 | --select-threshold] [--adaptive]
 S: 阈值只在 train 上扫选；heldout 只用给定/选定阈值跑一次；同输入同输出
 
 口径（TASK-009 §2.5）：
@@ -29,7 +29,7 @@ from collections.abc import Callable
 from itertools import islice
 from pathlib import Path
 
-from zhclean.tools.dedupe import DEFAULT_THRESHOLD, dedupe
+from zhclean.tools.dedupe import DEFAULT_THRESHOLD, dedupe, dedupe_adaptive, describe_adaptive
 
 HERE = Path(__file__).resolve().parent
 FIELDS = ("person", "address", "phone", "company")
@@ -214,7 +214,9 @@ def _threshold_arg(s: str) -> float:
     return v
 
 
-def main(argv: list[str] | None = None, dedupe_fn: DedupeFn = dedupe) -> int:
+def main(argv: list[str] | None = None, dedupe_fn: DedupeFn = dedupe,
+         adaptive_fn: DedupeFn = dedupe_adaptive) -> int:
+    """dedupe_fn / adaptive_fn 可注入（测试用）；--adaptive 时选择与评测都走 adaptive_fn。"""
     parser = argparse.ArgumentParser(description="dedupe 评测（pair recall / precision；默认 heldout）")
     parser.add_argument("--split", choices=SPLITS, default="heldout", help="评测集（默认 heldout）")
     mode = parser.add_mutually_exclusive_group()
@@ -222,11 +224,15 @@ def main(argv: list[str] | None = None, dedupe_fn: DedupeFn = dedupe) -> int:
                       help=f"显式阈值 [0,1]（缺省 {DEFAULT_THRESHOLD}）")
     mode.add_argument("--select-threshold", action="store_true",
                       help=f"在 train 上扫 {list(THRESHOLD_GRID)} 按 F1 选阈值，再跑 --split 一次")
+    parser.add_argument("--adaptive", action="store_true",
+                        help="按字段自适应配置（DEFAULT_ADAPTIVE）；未覆盖字段仍用 --threshold")
     parser.add_argument("--clean-dir", default=str(HERE / "clean"), help="clean 集目录")
     parser.add_argument("--dirty-dir", default=str(HERE / "dirty"), help="脏集目录")
     parser.add_argument("--out", default=str(HERE / "results"), help="产物目录")
     args = parser.parse_args(argv)
     clean_dir, dirty_dir = Path(args.clean_dir), Path(args.dirty_dir)
+    if args.adaptive:
+        dedupe_fn = adaptive_fn
 
     selection = None
     if args.select_threshold:
@@ -243,10 +249,11 @@ def main(argv: list[str] | None = None, dedupe_fn: DedupeFn = dedupe) -> int:
     summary, errors = evaluate(rows, threshold, dedupe_fn)
     summary = {"split": args.split, "threshold": threshold, "threshold_source":
                "select@train" if selection else ("default" if args.threshold is None else "explicit"),
-               "selection": selection, **summary}
+               "selection": selection, "adaptive": args.adaptive,
+               "adaptive_config": describe_adaptive() if args.adaptive else None, **summary}
     s_path, e_path = write_results(Path(args.out), args.split, summary, errors)
 
-    print(f"split={args.split} threshold={threshold} rows={summary['rows']} "
+    print(f"split={args.split} threshold={threshold} adaptive={args.adaptive} rows={summary['rows']} "
           f"true_groups={summary['true_groups']} pred_groups={summary['pred_groups']} "
           f"missed_pairs={summary['missed_pairs']} wrong_merge_pairs={summary['wrong_merge_pairs']}")
     print(format_table(summary))

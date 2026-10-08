@@ -197,3 +197,62 @@ def test_outputs_byte_identical_across_runs(tmp_path):
         assert (a / name).read_bytes() == (b / name).read_bytes()
     s = json.loads((a / "dedupe-summary-train.json").read_text(encoding="utf-8"))
     assert s["threshold"] == 0.95 and s["threshold_source"] == "explicit" and s["true_groups"] == 640
+
+
+# ---- --adaptive 透传（TASK-011）——全用注入的假 dedupe，不跑 heldout 打分 ---------------
+def _recorder():
+    calls: list[tuple[float, set]] = []
+
+    def fake(rows, t):
+        calls.append((t, {x["split"] for x in rows}))
+        return [[x] for x in rows]
+    return calls, fake
+
+
+def test_cli_adaptive_routes_to_adaptive_fn(tmp_path):
+    plain_calls, plain = _recorder()
+    ad_calls, ad = _recorder()
+    argv = ["--split", "train", "--threshold", "0.9", "--adaptive", "--out", str(tmp_path)]
+    assert ev.main(argv, dedupe_fn=plain, adaptive_fn=ad) == 0
+    assert plain_calls == [] and ad_calls == [(0.9, {"train"})]  # 全局阈值照样透传
+
+    s = json.loads((tmp_path / "dedupe-summary-train.json").read_text(encoding="utf-8"))
+    assert s["adaptive"] is True
+    assert set(s["adaptive_config"]) == {"person", "company", "address"}
+    assert s["adaptive_config"]["person"]["link"] == "best"
+
+
+def test_cli_without_adaptive_unchanged(tmp_path):
+    plain_calls, plain = _recorder()
+    ad_calls, ad = _recorder()
+    assert ev.main(["--split", "train", "--out", str(tmp_path)], dedupe_fn=plain, adaptive_fn=ad) == 0
+    assert ad_calls == [] and plain_calls == [(0.85, {"train"})]
+    s = json.loads((tmp_path / "dedupe-summary-train.json").read_text(encoding="utf-8"))
+    assert s["adaptive"] is False and s["adaptive_config"] is None
+
+
+def test_cli_adaptive_with_select_threshold_only_train(tmp_path):
+    """--adaptive + --select-threshold：扫网格只见 train，heldout 只跑一次，全程走 adaptive_fn。"""
+    plain_calls, plain = _recorder()
+    ad_calls, ad = _recorder()
+    argv = ["--split", "heldout", "--select-threshold", "--adaptive", "--out", str(tmp_path)]
+    assert ev.main(argv, dedupe_fn=plain, adaptive_fn=ad) == 0
+    assert plain_calls == []
+    assert ad_calls[:-1] == [(t, {"train"}) for t in ev.THRESHOLD_GRID]
+    assert sum(1 for _, sp in ad_calls if "heldout" in sp) == 1
+
+
+def test_cli_default_adaptive_fn_is_dedupe_adaptive():
+    import inspect
+    from zhclean.tools.dedupe import dedupe_adaptive
+    assert inspect.signature(ev.main).parameters["adaptive_fn"].default is dedupe_adaptive
+
+
+def test_real_adaptive_on_train_beats_baseline(train_rows):
+    """真实 dedupe_adaptive 只在 train 上跑：recall、F1 均高于基线，precision ≥ 95%。"""
+    from zhclean.tools.dedupe import dedupe_adaptive
+    base, _ = ev.evaluate(train_rows, 0.85)
+    ad, _ = ev.evaluate(train_rows, 0.85, dedupe_adaptive)
+    assert ad["total"]["recall"] > base["total"]["recall"]
+    assert ad["total"]["f1"] > base["total"]["f1"]
+    assert ad["total"]["precision"] >= 0.95
