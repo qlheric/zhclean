@@ -23,11 +23,11 @@ M1 / M2 字段的详细归因见 [failures-m1.md](failures-m1.md) 与 [failures-
 
 | 组 | 合计 |
 |---|---|
-| 老六类（对照 M2 定版，逐位复现） | 1055/1200 = **87.92%** |
+| M1+M2 六类（对照 M2 定版，逐位复现） | 1055/1200 = **87.92%** |
 | 新两类（首次定版） | 305/400 = **76.25%** |
 | 八类总平均（仅参考，不与 87.92% 比） | 1360/1600 = **85.00%** |
 
-失败共 **240 行**（1600 − 1360）：老六类 145（见 [failures-m2.md](failures-m2.md)）+ **email 95**（sep 40 / abbrev 40 / typo 15）；**idcard 0 失败**。
+失败共 **240 行**（1600 − 1360）：M1+M2 六类 145（见 [failures-m2.md](failures-m2.md)）+ **email 95**（sep 40 / abbrev 40 / typo 15）；**idcard 0 失败**。
 
 三类「机械型」扰动中，**noise / space 在全部八个字段上都是 100%**；**sep 在七个字段上 100%，唯 email 为 0%**（见下）。
 
@@ -66,7 +66,7 @@ M1 / M2 字段的详细归因见 [failures-m1.md](failures-m1.md) 与 [failures-
 - **改坏 0 条**：95 条失败全是「原样返回」的漏改，没有一条把合法邮箱改错；干净值未被误伤。
 - **修复激进程度必须匹配闸门强度**（本项目定式）：idcard / phone 有强闸门（校验和 / 形态正则）⇒ 敢在任意位置盲修；email 只有宽松形态门 ⇒ 只修「位置本身可判定」的字符。这是 email 分数低于 idcard 的根本原因。
 
-## 老六类字段的归因（M2 老账，数字与 M2 定版逐位一致）
+## M1+M2 六类字段的归因（M2 老账，数字与 M2 定版逐位一致）
 
 person / address / phone / company / amount / date 六个数字**逐位复现 M2 定版**，归因与代表案例见 [failures-m2.md](failures-m2.md)，此处不重复。要点：
 
@@ -76,7 +76,7 @@ person / address / phone / company / amount / date 六个数字**逐位复现 M2
 - **date 84.00%**：abbrev 8/40（只有「缺零」型可无损还原）。
 - **amount 100.00% / phone 100.00%**：五类全对。
 
-**新增 idcard / email 对老六类零影响**：八类接入后老六类产物逐位不变，heldout 数字逐位复现 M2 定版。
+**新增 idcard / email 对 M1+M2 六类零影响**：八类接入后 M1+M2 六类产物逐位不变，heldout 数字逐位复现 M2 定版。
 
 ## 合成数据的局限
 
