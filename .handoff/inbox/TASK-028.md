@@ -6,11 +6,11 @@
 | 日期 | 2026-10-09 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `README.md`、`docs/release-checklist.md`（发布前逐项打勾状态更新，可加条目） |
 | **_Capability:**（只许用） | 写 Markdown 文档；跑 `uv run` / `pytest` 命令（零代码改动验证）；读 `README.md`、`docs/examples/sample.csv`、`src/zhclean/cli.py`（table 用法）、`task_plan.md`、`findings.md`。**禁止：联网、改代码、git commit、调用其他 agent、动范围外文件** |
 | **_Depends:**（依赖） | TASK-027（已通过，`edca08f`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `0613911`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -60,3 +60,11 @@ git status --porcelain -uall
 - README 纪律：每次更新整理重构。
 - 本单是发布前最后一单文档；完成后按老大口径「全部完成一起发布」——发布动作（建仓/tag/推送）由维护者（老大/脑）执行。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-028.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过**。判据亲跑：①689 passed（零代码改动）；②快速上手 4 条逐条实跑 exit 0；③脑侧核验——README「老六类」零残留、三处数字逐格一致、README 一页读完。
+- 边界零越界（2 文档）。
+- §5-1 裁决：TASK 自相矛盾（契约要求改 failures-m3、边界未列）——手守边界正确；**授权补改已由脑侧执行**（failures-m3 的 4 处「老六类」→「M1+M2 六类」）。历史台账不改。
+- **里程碑：M2 全部完成——八类字段 + 五子命令 + 文档三线 + 发布检查单就绪。**
+- `_Status: 已完成`；`_Commit: 0613911`。
