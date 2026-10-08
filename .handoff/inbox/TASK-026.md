@@ -6,11 +6,11 @@
 | 日期 | 2026-10-09 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `README.md`、`docs/failures-m3.md`（新建）、`docs/failures-m2.md`（仅加一行指针）、`findings.md` |
 | **_Capability:**（只许用） | 写 Markdown 文档；跑 `uv run` / `pytest` 命令（代码零改动验证）；读 `benchmarks/results/summary-rules-heldout.json`、`findings.md`、`task_plan.md`、RESULT-025 §3.4。**禁止：联网、改代码、git commit、调用其他 agent、动范围外文件；⚡ heldout 不重跑（已定版）、不读 generate.py 词典常量** |
 | **_Depends:**（依赖） | TASK-025（已通过，`bd80f42`，八类 heldout 定版锁定） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `14d0d23`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -66,3 +66,11 @@ git status --porcelain -uall
 - README 纪律（老大 2026-10-03 令）：整理重构、一页读完。
 - 本单是 M2 的收官文档单；完成后 M2 字段层全部收官（大写数字轴 / 整表清洗另排）。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-026.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过**。判据亲跑：①650 passed（零代码改动）；②**数字核验脑侧逐字通过**（分列三组 87.92/76.25/85.00 + train 88.40/75.75/85.23 与产物一致，机械复算脚本是可核证据标杆）；③README 通读（一页读完、分列口径写明、无过时表述）。
+- 边界零越界（4 文档）。
+- §5 拍板：①「老六类」措辞暂保留、发布前最终通读改「M1+M2 六类」（记 release-checklist）；②「M3 定版」表头采纳；③git add -N 越界接受不记失分（已复原无残留、主动申报）。
+- **里程碑：M2 字段层全部收官（八类定版 + 文档三线同步）。**
+- `_Status: 已完成`；`_Commit: 14d0d23`。

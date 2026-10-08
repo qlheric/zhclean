@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 6（M2）** → TASK-025 已通过（`bd80f42`，八类评测接入 + **heldout 重定版**：老六类 87.92% 逐位复现、idcard 100% / email 52.5% 首次定版）；**TASK-026（M2 收官文档：八类定版表分列口径 + failures-m3）已派**，手执行中
+**Phase 6（M2）** → TASK-026 已通过（`14d0d23`，**M2 字段层全部收官**：八类定版文档三线同步）；**TASK-027（整表清洗：table.py CSV + cli table 子命令，发布前最后一块功能）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-026.md` 后：数字对照 RESULT-025 §3.4 核验 + README 通读；之后排大写数字轴 / 整表清洗。
+手交 `.handoff/outbox/RESULT-027.md` 后：亲跑三条判据 + 结构化代码审查 → 边界 → 置状态 → 提交；之后发布准备（release-checklist 逐项 + 大写数字轴可选）。
 
 ## Phases
 
@@ -92,7 +92,8 @@
 - [x] 第三批字段评测集（TASK-023 已通过 `597b8b8`：generate.py 加 idcard/email，老六类逐字节不变；生日范围裁定 1970–1999）
 - [x] 身份证/邮箱规则（TASK-024 已通过 `6f8d2db`：15→18 展开 + GB 11643 闸门 + email 位置判定修复；idcard 100% / email 51.5%、双零改坏；§5-a 收窄采纳 (A)）
 - [x] 评测接入 + heldout 重定版（TASK-025 已通过 `bd80f42`：老六类 87.92% 逐位复现；idcard 100% / email 52.5% 首次定版；分列口径锁定）
-- [ ] 八类定版文档（TASK-026 执行中：README 分列表 + failures-m3 + 台账）
+- [x] 八类定版文档（TASK-026 已通过 `14d0d23`：README 分列表 + failures-m3 + 台账；**M2 字段层全部收官**）
+- [ ] 整表清洗（TASK-027 执行中：table.py CSV + cli table 子命令；XLSX 待加依赖另单）
 - [ ] 大写数字轴（壹/贰/叁）单独一单（已裁定，排队）
 - [ ] 整表清洗（CSV/XLSX 进出）
 - **Status:** in_progress
