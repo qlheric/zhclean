@@ -81,9 +81,9 @@
       `--dedupe` 语义、流向与退出码、XLSX 待支持（TASK-028）
 - [x] README 快速上手有**第 4 条命令**（`zhclean table --input docs/examples/sample.csv`），四件工具说明与子命令数一致
 - [x] **措辞统一**：`README.md` 中「老六类」**零残留**（已全部改为「M1+M2 六类」）
-- [ ] **`docs/failures-m3.md` 仍有 4 处「老六类」**（第 26 / 30 / 69 / 79 行）—— **待办：需脑授权**。
-      TASK-028 的 `_Boundary:_` 只含 `README.md` 与 `docs/release-checklist.md`（§2.5 的「failures-m3 一并改」未进边界表），
-      **本次未改**，见 `RESULT-028 §5`。
+- [x] **`docs/failures-m3.md` 措辞已统一**：4 处「老六类」已改「M1+M2 六类」（第 26 / 30 / 69 / 79 行）。
+      现状核验（TASK-028 收工）：`grep -n "老六类" docs/failures-m3.md` 无输出（0 处）。
+      TASK-028 时因 `_Boundary:_` 只含 `README.md` 与 `docs/release-checklist.md` 未改，**由脑随交付提交 `0613911` 一并处理**（见 `RESULT-028 §5-1`）。
 
 ---
 
