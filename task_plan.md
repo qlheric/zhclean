@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 5（LLM 兜底 + M1 验收）** → TASK-012 已通过（`9220c53`，cli 四子命令 + `zhclean` 一键，**M1 功能全齐**）；**TASK-013（M1 验收汇总：README 重构 + 失败案例公开）已派**，手执行中
+**Phase 5（LLM 兜底 + M1 验收）** → TASK-013 已通过（`65be228`，README 重构 + 失败案例公开，**M1 文档交付完成**）；**TASK-014（乱码修复 + Agent Loop 骨架）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-013.md` 后：数字对照 findings 台账核验 + 验收；之后排 Agent Loop（Phase 2）与 LLM 兜底。
+手交 `.handoff/outbox/RESULT-014.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；之后 TASK-015（llm.py 兜底接入 think 扩展点）。
 
 ## Phases
 
@@ -75,11 +75,11 @@
 
 ### Phase 5: LLM 兜底 + M1 验收
 
-- [ ] M1 验收汇总（TASK-013 执行中：README 重构 + 失败案例公开；数字台账已锁）
+- [x] M1 验收汇总（TASK-013 已通过 `65be228`：README 重构 + 失败案例公开，数字对照台账逐项核验通过）
+- [ ] 乱码修复 + Agent Loop 骨架（TASK-014 执行中：_utf8_stdio 入 main + loop observe→think→act + HITL）
 - [ ] `llm.py` 可插拔 API 兜底（规则低置信 → LLM → 仍低置信 → HITL）
 - [ ] M1 留出集实测：每类规范化 ≥95%、去重 recall ≥95%，**报真实数**；失败案例公开
-- [ ] Agent Loop（Phase 2 补做：observe→think→act + HITL，练 #1 功夫）
-- **Status:** pending
+- **Status:** in_progress
 
 ### Phase 6: M2 扩展（金额/日期/身份证/邮箱 → 整表清洗）
 
