@@ -153,10 +153,10 @@ def test_different_seed_differs(tmp_path):
 # ---------- 不变式 8：amount / date 干净值形态与 truth 正确（TASK-018） ----------
 
 def test_new_field_shapes(data):
-    # amount：干净值 = 数值 + 「元」（可能带千分位 / 小数），去掉分隔符后须能解析为数字
+    # amount：干净值 = 纯数字 + 「元」（TASK-020 起**不带千分位**，千分位只留在 sep 扰动里）
     for r in data["amount"]["clean"]:
-        assert r["value"].endswith("元"), f"amount 干净值不以「元」结尾：{r['value']!r}"
-        float(r["value"][:-1].replace(",", ""))  # 解析失败会抛 ValueError
+        assert re.fullmatch(r"\d+(\.\d+)?元", r["value"]), \
+            f"amount 干净值非「纯数字+元」：{r['value']!r}"
     # date：干净值 = ISO 日期，年份落在 1970–2026
     for r in data["date"]["clean"]:
         assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", r["value"]), f"date 干净值非 ISO：{r['value']!r}"

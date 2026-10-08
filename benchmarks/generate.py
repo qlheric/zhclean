@@ -238,14 +238,16 @@ def _group(numeral: str) -> str:
 
 
 def gen_amount(rng: random.Random) -> tuple[str, list[str]]:
-    """生成金额：数值 + 「元」；形态含整数 / 小数(1–2 位) / 千分位。返回 (值, 结构段)。"""
+    """生成金额：数值 + 「元」；形态含整数 / 小数(1–2 位)。返回 (值, 结构段)。
+
+    干净值**一律纯数字、不带千分位**（TASK-020 §2.5-A）：千分位只作为 `sep` 扰动出现，
+    与规则侧闸门 `^\\d+(\\.\\d+)?元$` 自洽 —— 否则两种干净形态会把单值 normalize 锁死。
+    """
     intpart = rng.randint(1, 9_999_999)
     numeral = str(intpart)
     ndigits = rng.choice([0, 0, 1, 2])  # 多数整数，少数带小数
     if ndigits:
         numeral += "." + "".join(str(rng.randint(0, 9)) for _ in range(ndigits))
-    if rng.random() < 0.5:
-        numeral = _group(numeral)       # 一半带千分位（干净值基准形态之一）
     return numeral + "元", [numeral, "元"]
 
 
@@ -353,9 +355,14 @@ def perturb_company(rng: random.Random, value: str, parts: list[str]) -> dict[st
 
 
 def _wan(numeral: str) -> str:
-    """把数值改写成「万元」记法（如 12800 → 1.28万元）。"""
+    """把数值改写成「万元」记法（如 12800 → 1.28万元）。
+
+    用 `:.10g` 保留足够有效位（旧版 `:.4f` 会截断，带小数金额 ×10000 后还原不回去，
+    见 RESULT-019 §5-B）；`%g` 自带去尾零。数值 ≥ 1 元 ⇒ 结果 ≥ 0.0001，不会走科学计数法。
+    TASK-020 §2.5-B：本单只改生成器，规则侧 `_expand_wan` 不动。
+    """
     n = float(numeral.replace(",", ""))
-    return f"{n / 10000:.4f}".rstrip("0").rstrip(".") + "万元"
+    return f"{n / 10000:.10g}" + "万元"
 
 
 def _insert_sep(rng: random.Random, s: str) -> str:

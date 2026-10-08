@@ -21,9 +21,12 @@ sys.path.insert(0, str(ROOT))  # 让 `import benchmarks` 不依赖 pytest 的启
 
 from benchmarks import evaluate as ev  # noqa: E402
 
-FIELDS = ("person", "address", "phone", "company")
+# 字段集从评测管线**派生**（TASK-020 §2.5-C）：以后 evaluate.FIELDS 增字段，本文件自动适配，
+# 不再因硬编码的 4 被打红。
+FIELDS = ev.FIELDS
+N_FIELDS = len(FIELDS)
 PERTURBATIONS = ("abbrev", "noise", "sep", "space", "typo")
-HELDOUT_ROWS = 40 * 5 * 4  # 每类 40 个 heldout id × 5 扰动 × 4 类
+HELDOUT_ROWS = 40 * 5 * N_FIELDS  # 每类 40 个 heldout id × 5 扰动 × N 类
 
 
 def _run(impl: str, out: Path, *extra: str) -> subprocess.CompletedProcess:
@@ -76,7 +79,7 @@ def test_grouping_shape_on_real_heldout(tmp_path):
     assert sorted(s["by_field"]) == sorted(FIELDS)
     assert sorted(s["by_perturbation"]) == list(PERTURBATIONS)
     assert all(v["total"] == 40 * 5 for v in s["by_field"].values())
-    assert all(v["total"] == 40 * 4 for v in s["by_perturbation"].values())
+    assert all(v["total"] == 40 * N_FIELDS for v in s["by_perturbation"].values())
     for field in FIELDS:
         cells = s["by_field_perturbation"][field]
         assert sorted(cells) == list(PERTURBATIONS)
@@ -132,8 +135,8 @@ def test_results_byte_identical(tmp_path, impl):
 def test_split_filter(tmp_path):
     _run("stub", tmp_path, "--split", "train")
     _run("stub", tmp_path, "--split", "all")
-    assert _summary(tmp_path, "stub", "train")["total"]["total"] == 160 * 5 * 4
-    assert _summary(tmp_path, "stub", "all")["total"]["total"] == 200 * 5 * 4
+    assert _summary(tmp_path, "stub", "train")["total"]["total"] == 160 * 5 * N_FIELDS
+    assert _summary(tmp_path, "stub", "all")["total"]["total"] == 200 * 5 * N_FIELDS
     ids_heldout = {r["id"] for r in ev.load_dirty(ROOT / "benchmarks" / "dirty", "heldout")}
     ids_train = {r["id"] for r in ev.load_dirty(ROOT / "benchmarks" / "dirty", "train")}
     assert ids_heldout and not (ids_heldout & ids_train)
