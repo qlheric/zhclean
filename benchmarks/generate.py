@@ -164,6 +164,18 @@ PHONE_TYPOS = {"0": "O", "1": "l", "2": "Z", "3": "E", "5": "S", "8": "B"}
 # 金额 / 日期：0–9 全量数字 → 形近字母（OCR 常见；保证任意数值串都能造 typo）
 DIGIT_TYPOS = {"0": "O", "1": "l", "2": "Z", "3": "E", "4": "A",
                "5": "S", "6": "G", "7": "T", "8": "B", "9": "q"}
+# 身份证：只用数字表（校验码可能是 X，不在表内 ⇒ 天然不被 typo 命中）
+IDCARD_TYPOS = DIGIT_TYPOS
+
+# 邮箱：user = 小写字母 + 数字；domain = 固定常见域（com/cn/net/org/edu 都在）
+EMAIL_LOCAL_CHARS = "abcdefghijklmnopqrstuvwxyz0123456789"
+EMAIL_DOMAINS = ["gmail.com", "qq.com", "163.com", "126.com", "sina.com", "sohu.com",
+                 "foxmail.com", "outlook.com", "hotmail.com", "yahoo.com", "aliyun.com",
+                 "139.com", "189.cn", "example.com", "company.net", "school.edu",
+                 "test.org", "mail.cn"]
+# 邮箱：数字 ↔ 形近字母（双向；任意域名里都有可替换字，保证「至少 1 处」恒成立）
+EMAIL_TYPOS = {"0": "o", "1": "l", "2": "z", "5": "s", "6": "g", "8": "b",
+               "o": "0", "l": "1", "z": "2", "s": "5", "g": "6", "b": "8"}
 
 SEPARATORS = ["-", "·", "|", "／", "，"]
 SPACES = [" ", "　"]  # 半角 / 全角
@@ -182,9 +194,13 @@ NOISE_AFFIXES: dict[str, list[tuple[str, str]]] = {
                ("（含税）", "suffix"), ("（未税）", "suffix"), ("。", "suffix")],
     "date": [("日期：", "prefix"), ("日期:", "prefix"), ("（录入日期）", "suffix"),
              ("（生效日）", "suffix"), ("。", "suffix")],
+    "idcard": [("身份证号：", "prefix"), ("身份证:", "prefix"), ("证件号：", "prefix"),
+               ("（复印件）", "suffix"), ("（本人）", "suffix"), ("。", "suffix")],
+    "email": [("邮箱：", "prefix"), ("邮箱:", "prefix"), ("Email:", "prefix"),
+              ("（工作邮箱）", "suffix"), ("（常用）", "suffix"), ("。", "suffix")],
 }
 
-FIELDS = ("person", "address", "phone", "company", "amount", "date")
+FIELDS = ("person", "address", "phone", "company", "amount", "date", "idcard", "email")
 PERTURBATIONS = ("space", "typo", "abbrev", "sep", "noise")
 
 # ============================================================ 干净值生成
@@ -263,8 +279,50 @@ def gen_date(rng: random.Random) -> tuple[str, list[str]]:
     return f"{y}-{m:02d}-{d:02d}", [str(y), f"{m:02d}", f"{d:02d}"]
 
 
+# GB 11643-1999 校验码：前 17 位加权求和 mod 11 → 查表（'10X98765432'）
+_ID_WEIGHTS = (7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2)
+_ID_CHECK_CODES = "10X98765432"
+
+
+def _id_check_digit(first17: str) -> str:
+    """算第 18 位校验码（GB 11643-1999 加权因子 + mod 11 查表）。"""
+    total = sum(int(ch) * w for ch, w in zip(first17, _ID_WEIGHTS))
+    return _ID_CHECK_CODES[total % 11]
+
+
+def gen_idcard(rng: random.Random) -> tuple[str, list[str]]:
+    """生成 18 位身份证号（GB 11643 形态，组合合成）：6 地区码 + 8 生日 + 3 顺序码 + 1 校验码。
+
+    - 地区码以「11」打头（北京，合法结构即可，不做真实性查询）；
+    - **生日取 1970–1999**：TASK-023 §2.5 既写「生日同 date 范围」又写 abbrev「19xx 年补『19』」，
+      取两者交集（同 date 的月/日范围 + 19xx 世纪）才能让 18↔15 缩写无损可逆（见 RESULT-023 §5）；
+    - 校验码按 GB 11643 真实算法算，让规则侧的格式闸门有的放矢。
+    """
+    region = f"11{rng.randint(0, 9999):04d}"
+    y = rng.randint(1970, 1999)
+    birthday = f"{y:04d}{rng.randint(1, 12):02d}{rng.randint(1, 28):02d}"
+    seq = f"{rng.randint(0, 999):03d}"
+    first17 = region + birthday + seq
+    check = _id_check_digit(first17)
+    return first17 + check, [region, birthday, seq, check]
+
+
+def gen_email(rng: random.Random) -> tuple[str, list[str]]:
+    """生成邮箱 user@domain——user 为 3–12 位字母数字混合（字母开头且含数字），domain 取固定常见域。"""
+    n = rng.randint(3, 12)
+    for _ in range(1000):
+        user = "".join(rng.choice(EMAIL_LOCAL_CHARS) for _ in range(n))
+        if user[0].isalpha() and any(c.isdigit() for c in user):
+            break
+    else:
+        raise RuntimeError("造不出「字母开头且含数字」的邮箱用户名")
+    domain = rng.choice(EMAIL_DOMAINS)
+    return f"{user}@{domain}", [user, domain]
+
+
 GENERATORS = {"person": gen_person, "address": gen_address, "phone": gen_phone,
-              "company": gen_company, "amount": gen_amount, "date": gen_date}
+              "company": gen_company, "amount": gen_amount, "date": gen_date,
+              "idcard": gen_idcard, "email": gen_email}
 
 # ============================================================ 扰动
 
@@ -405,9 +463,43 @@ def perturb_date(rng: random.Random, value: str, parts: list[str]) -> dict[str, 
     }
 
 
+def perturb_idcard(rng: random.Random, value: str, parts: list[str]) -> dict[str, str]:
+    region, birthday, seq, check = parts
+    return {
+        "space": _space(rng, value),                 # 段间 / 数字间空格
+        "typo": _typo_at(rng, value, IDCARD_TYPOS),  # 数字→形近字母（校验位 X 不在表内，不受影响）
+        # 缩写：18 位 → 15 位老证（丢掉世纪「19」与校验码）：RRRRRR + YYMMDD + SSS
+        "abbrev": region + birthday[2:] + seq,
+        # 分隔：只给生日段加分隔（19900315 → 1990-03-15）
+        "sep": region + f"{birthday[:4]}-{birthday[4:6]}-{birthday[6:]}" + seq + check,
+        "noise": _noise(rng, value, NOISE_AFFIXES["idcard"]),
+    }
+
+
+def _insert_local_sep(rng: random.Random, user: str) -> str:
+    """在邮箱用户名里插一个多余的点 / 下划线。"""
+    i = rng.randint(1, max(1, len(user) - 1))
+    return user[:i] + rng.choice([".", "_"]) + user[i:]
+
+
+def perturb_email(rng: random.Random, value: str, parts: list[str]) -> dict[str, str]:
+    user, domain = parts
+    head, tld = domain.rsplit(".", 1)
+    return {
+        "space": user + rng.choice([" @", "@ "]) + domain,   # @ 前后空格
+        "typo": _typo_at(rng, value, EMAIL_TYPOS),           # 数字↔形近字母（至少 1 处）
+        # 缩写：去 TLD 末位（.com → .co）/ 去整个 TLD（@gmail.com → @gmail）；不可恢复靠不猜
+        "abbrev": _choose(rng, [f"{user}@{head}.{tld[:-1]}", f"{user}@{head}"], value),
+        # 分隔：user 里插多余的点 / 下划线
+        "sep": f"{_insert_local_sep(rng, user)}@{domain}",
+        "noise": _noise(rng, value, NOISE_AFFIXES["email"]),
+    }
+
+
 PERTURBERS = {"person": perturb_person, "address": perturb_address,
               "phone": perturb_phone, "company": perturb_company,
-              "amount": perturb_amount, "date": perturb_date}
+              "amount": perturb_amount, "date": perturb_date,
+              "idcard": perturb_idcard, "email": perturb_email}
 
 # ============================================================ 组装与落盘
 

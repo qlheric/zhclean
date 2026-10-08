@@ -1,8 +1,8 @@
 """benchmark 生成器的不变式测试（数据契约的可核证据）。
 
-F: 守住 TASK-001 数据契约——六类各 200 干净值 / 每条 ≥3 脏变体且 truth 一致 /
+F: 守住 TASK-001 数据契约——八类各 200 干净值 / 每条 ≥3 脏变体且 truth 一致 /
    划分无重叠且比例≈0.2 / 同 seed 逐字节可复现 / 五类扰动覆盖 / 脏值≠干净值 /
-   heldout 覆盖全部扰动类型；并守住 amount/date（TASK-018）的形态与 truth 正确
+   heldout 覆盖全部扰动类型；并守住 amount/date（TASK-018）、idcard/email（TASK-023）的形态与 truth 正确
 R: benchmarks/generate.py
 A: uv run --project . pytest tests/ -q
 S: 只测生成器与产物，不测清洗逻辑
@@ -20,7 +20,7 @@ from pathlib import Path
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
-FIELDS = ("person", "address", "phone", "company", "amount", "date")
+FIELDS = ("person", "address", "phone", "company", "amount", "date", "idcard", "email")
 PERTURBATIONS = ("space", "typo", "abbrev", "sep", "noise")
 PER_FIELD = 200
 SPLIT_RATIO = 0.2
@@ -148,6 +148,32 @@ def test_different_seed_differs(tmp_path):
     _generate(a, seed=42)
     _generate(b, seed=43)
     assert (a / "clean" / "person.jsonl").read_bytes() != (b / "clean" / "person.jsonl").read_bytes()
+
+
+# ---------- 不变式 8：amount / date 干净值形态与 truth 正确（TASK-018） ----------
+
+# ---------- 不变式 8b：idcard / email 干净值形态（TASK-023） ----------
+# 校验码在测试里独立重算（不复用生成器的实现），才是「按 GB 11643 可验证」的实据。
+_ID_W = (7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2)
+_ID_C = "10X98765432"
+
+
+def test_idcard_email_shapes(data):
+    # idcard：18 位；首 6 位以 11 打头；生日 1970–1999；第 18 位 == GB 11643 校验码
+    for r in data["idcard"]["clean"]:
+        v = r["value"]
+        assert re.fullmatch(r"11\d{4}\d{8}\d{3}[\dX]", v), f"idcard 非 18 位 GB 形态：{v!r}"
+        y, m, d = int(v[6:10]), int(v[10:12]), int(v[12:14])
+        assert 1970 <= y <= 1999 and 1 <= m <= 12 and 1 <= d <= 28, f"idcard 生日越界：{v!r}"
+        expect = _ID_C[sum(int(c) * w for c, w in zip(v[:17], _ID_W)) % 11]
+        assert v[17] == expect, f"idcard 校验码不符 GB 11643：{v!r}"
+    # email：user@domain；user 3–12 位、字母开头且含数字；TLD ∈ {com,cn,net,org,edu}
+    for r in data["email"]["clean"]:
+        v = r["value"]
+        assert re.fullmatch(r"[a-z][a-z0-9]{2,11}@[a-z0-9]+\.(com|cn|net|org|edu)", v), \
+            f"email 形态不对：{v!r}"
+        user = v.split("@")[0]
+        assert any(c.isdigit() for c in user), f"email user 未含数字：{v!r}"
 
 
 # ---------- 不变式 8：amount / date 干净值形态与 truth 正确（TASK-018） ----------

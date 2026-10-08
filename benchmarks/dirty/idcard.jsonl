@@ -1,0 +1,1000 @@
+{"id": "idcard-0001", "field": "idcard", "value": "11041219760513 1500", "truth": "110412197605131500", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0001", "field": "idcard", "value": "11041219760513150O", "truth": "110412197605131500", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0001", "field": "idcard", "value": "110412760513150", "truth": "110412197605131500", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0001", "field": "idcard", "value": "1104121976-05-131500", "truth": "110412197605131500", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0001", "field": "idcard", "value": "110412197605131500（本人）", "truth": "110412197605131500", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0002", "field": "idcard", "value": "116 047198805081999", "truth": "116047198805081999", "perturbation": "space", "split": "train"}
+{"id": "idcard-0002", "field": "idcard", "value": "1l6047198805081999", "truth": "116047198805081999", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0002", "field": "idcard", "value": "116047880508199", "truth": "116047198805081999", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0002", "field": "idcard", "value": "1160471988-05-081999", "truth": "116047198805081999", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0002", "field": "idcard", "value": "116047198805081999（复印件）", "truth": "116047198805081999", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0003", "field": "idcard", "value": "11739519860　4076294", "truth": "117395198604076294", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0003", "field": "idcard", "value": "11739S198604076294", "truth": "117395198604076294", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0003", "field": "idcard", "value": "117395860407629", "truth": "117395198604076294", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0003", "field": "idcard", "value": "1173951986-04-076294", "truth": "117395198604076294", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0003", "field": "idcard", "value": "117395198604076294（复印件）", "truth": "117395198604076294", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0004", "field": "idcard", "value": "1197561978 0220698X", "truth": "11975619780220698X", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0004", "field": "idcard", "value": "119756197B0220698X", "truth": "11975619780220698X", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0004", "field": "idcard", "value": "119756780220698", "truth": "11975619780220698X", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0004", "field": "idcard", "value": "1197561978-02-20698X", "truth": "11975619780220698X", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0004", "field": "idcard", "value": "11975619780220698X（复印件）", "truth": "11975619780220698X", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0005", "field": "idcard", "value": "1135301978090 77869", "truth": "113530197809077869", "perturbation": "space", "split": "train"}
+{"id": "idcard-0005", "field": "idcard", "value": "11353019780907T869", "truth": "113530197809077869", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0005", "field": "idcard", "value": "113530780907786", "truth": "113530197809077869", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0005", "field": "idcard", "value": "1135301978-09-077869", "truth": "113530197809077869", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0005", "field": "idcard", "value": "身份证:113530197809077869", "truth": "113530197809077869", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0006", "field": "idcard", "value": "11592919891106　9542", "truth": "115929198911069542", "perturbation": "space", "split": "train"}
+{"id": "idcard-0006", "field": "idcard", "value": "11592919891l069542", "truth": "115929198911069542", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0006", "field": "idcard", "value": "115929891106954", "truth": "115929198911069542", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0006", "field": "idcard", "value": "1159291989-11-069542", "truth": "115929198911069542", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0006", "field": "idcard", "value": "证件号：115929198911069542", "truth": "115929198911069542", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0007", "field": "idcard", "value": "1 17921198911271282", "truth": "117921198911271282", "perturbation": "space", "split": "train"}
+{"id": "idcard-0007", "field": "idcard", "value": "117q21198911271282", "truth": "117921198911271282", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0007", "field": "idcard", "value": "117921891127128", "truth": "117921198911271282", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0007", "field": "idcard", "value": "1179211989-11-271282", "truth": "117921198911271282", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0007", "field": "idcard", "value": "身份证号：117921198911271282", "truth": "117921198911271282", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0008", "field": "idcard", "value": "112434199306264　150", "truth": "112434199306264150", "perturbation": "space", "split": "train"}
+{"id": "idcard-0008", "field": "idcard", "value": "112434199E06264150", "truth": "112434199306264150", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0008", "field": "idcard", "value": "112434930626415", "truth": "112434199306264150", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0008", "field": "idcard", "value": "1124341993-06-264150", "truth": "112434199306264150", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0008", "field": "idcard", "value": "身份证号：112434199306264150", "truth": "112434199306264150", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0009", "field": "idcard", "value": "1172111991092 78456", "truth": "117211199109278456", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0009", "field": "idcard", "value": "117211199109Z78456", "truth": "117211199109278456", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0009", "field": "idcard", "value": "117211910927845", "truth": "117211199109278456", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0009", "field": "idcard", "value": "1172111991-09-278456", "truth": "117211199109278456", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0009", "field": "idcard", "value": "117211199109278456（复印件）", "truth": "117211199109278456", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0010", "field": "idcard", "value": "11782219　9401229119", "truth": "117822199401229119", "perturbation": "space", "split": "train"}
+{"id": "idcard-0010", "field": "idcard", "value": "1178221994012Z9119", "truth": "117822199401229119", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0010", "field": "idcard", "value": "117822940122911", "truth": "117822199401229119", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0010", "field": "idcard", "value": "1178221994-01-229119", "truth": "117822199401229119", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0010", "field": "idcard", "value": "117822199401229119。", "truth": "117822199401229119", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0011", "field": "idcard", "value": "1152201970　12119614", "truth": "115220197012119614", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0011", "field": "idcard", "value": "115220197012l19614", "truth": "115220197012119614", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0011", "field": "idcard", "value": "115220701211961", "truth": "115220197012119614", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0011", "field": "idcard", "value": "1152201970-12-119614", "truth": "115220197012119614", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0011", "field": "idcard", "value": "证件号：115220197012119614", "truth": "115220197012119614", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0012", "field": "idcard", "value": "11878619　9107095532", "truth": "118786199107095532", "perturbation": "space", "split": "train"}
+{"id": "idcard-0012", "field": "idcard", "value": "11878G199107095532", "truth": "118786199107095532", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0012", "field": "idcard", "value": "118786910709553", "truth": "118786199107095532", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0012", "field": "idcard", "value": "1187861991-07-095532", "truth": "118786199107095532", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0012", "field": "idcard", "value": "118786199107095532。", "truth": "118786199107095532", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0013", "field": "idcard", "value": "1157311　99102140893", "truth": "115731199102140893", "perturbation": "space", "split": "train"}
+{"id": "idcard-0013", "field": "idcard", "value": "115T31199102140893", "truth": "115731199102140893", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0013", "field": "idcard", "value": "115731910214089", "truth": "115731199102140893", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0013", "field": "idcard", "value": "1157311991-02-140893", "truth": "115731199102140893", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0013", "field": "idcard", "value": "115731199102140893。", "truth": "115731199102140893", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0014", "field": "idcard", "value": "1151381991121　07036", "truth": "115138199112107036", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0014", "field": "idcard", "value": "11513819q112107036", "truth": "115138199112107036", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0014", "field": "idcard", "value": "115138911210703", "truth": "115138199112107036", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0014", "field": "idcard", "value": "1151381991-12-107036", "truth": "115138199112107036", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0014", "field": "idcard", "value": "身份证号：115138199112107036", "truth": "115138199112107036", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0015", "field": "idcard", "value": "1162481985　0408531X", "truth": "11624819850408531X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0015", "field": "idcard", "value": "1162481985040853lX", "truth": "11624819850408531X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0015", "field": "idcard", "value": "116248850408531", "truth": "11624819850408531X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0015", "field": "idcard", "value": "1162481985-04-08531X", "truth": "11624819850408531X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0015", "field": "idcard", "value": "11624819850408531X（复印件）", "truth": "11624819850408531X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0016", "field": "idcard", "value": "11884219　9610127713", "truth": "118842199610127713", "perturbation": "space", "split": "train"}
+{"id": "idcard-0016", "field": "idcard", "value": "1188421996101277l3", "truth": "118842199610127713", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0016", "field": "idcard", "value": "118842961012771", "truth": "118842199610127713", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0016", "field": "idcard", "value": "1188421996-10-127713", "truth": "118842199610127713", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0016", "field": "idcard", "value": "118842199610127713（本人）", "truth": "118842199610127713", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0017", "field": "idcard", "value": "11571219760　6204450", "truth": "115712197606204450", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0017", "field": "idcard", "value": "115712197606204A50", "truth": "115712197606204450", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0017", "field": "idcard", "value": "115712760620445", "truth": "115712197606204450", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0017", "field": "idcard", "value": "1157121976-06-204450", "truth": "115712197606204450", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0017", "field": "idcard", "value": "证件号：115712197606204450", "truth": "115712197606204450", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0018", "field": "idcard", "value": "11538 4199605040350", "truth": "115384199605040350", "perturbation": "space", "split": "train"}
+{"id": "idcard-0018", "field": "idcard", "value": "115384199605040E50", "truth": "115384199605040350", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0018", "field": "idcard", "value": "115384960504035", "truth": "115384199605040350", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0018", "field": "idcard", "value": "1153841996-05-040350", "truth": "115384199605040350", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0018", "field": "idcard", "value": "身份证:115384199605040350", "truth": "115384199605040350", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0019", "field": "idcard", "value": "1166741997030　62136", "truth": "116674199703062136", "perturbation": "space", "split": "train"}
+{"id": "idcard-0019", "field": "idcard", "value": "116G74199703062136", "truth": "116674199703062136", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0019", "field": "idcard", "value": "116674970306213", "truth": "116674199703062136", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0019", "field": "idcard", "value": "1166741997-03-062136", "truth": "116674199703062136", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0019", "field": "idcard", "value": "116674199703062136（本人）", "truth": "116674199703062136", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0020", "field": "idcard", "value": "119209197510188 028", "truth": "119209197510188028", "perturbation": "space", "split": "train"}
+{"id": "idcard-0020", "field": "idcard", "value": "1192091975101880Z8", "truth": "119209197510188028", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0020", "field": "idcard", "value": "119209751018802", "truth": "119209197510188028", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0020", "field": "idcard", "value": "1192091975-10-188028", "truth": "119209197510188028", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0020", "field": "idcard", "value": "119209197510188028（本人）", "truth": "119209197510188028", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0021", "field": "idcard", "value": "1134781999081381 24", "truth": "113478199908138124", "perturbation": "space", "split": "train"}
+{"id": "idcard-0021", "field": "idcard", "value": "11347819990813B124", "truth": "113478199908138124", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0021", "field": "idcard", "value": "113478990813812", "truth": "113478199908138124", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0021", "field": "idcard", "value": "1134781999-08-138124", "truth": "113478199908138124", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0021", "field": "idcard", "value": "113478199908138124（复印件）", "truth": "113478199908138124", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0022", "field": "idcard", "value": "112058198104 08608X", "truth": "11205819810408608X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0022", "field": "idcard", "value": "112O5819810408608X", "truth": "11205819810408608X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0022", "field": "idcard", "value": "112058810408608", "truth": "11205819810408608X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0022", "field": "idcard", "value": "1120581981-04-08608X", "truth": "11205819810408608X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0022", "field": "idcard", "value": "身份证号：11205819810408608X", "truth": "11205819810408608X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0023", "field": "idcard", "value": "1193641986 1102086X", "truth": "11936419861102086X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0023", "field": "idcard", "value": "l1936419861102086X", "truth": "11936419861102086X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0023", "field": "idcard", "value": "119364861102086", "truth": "11936419861102086X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0023", "field": "idcard", "value": "1193641986-11-02086X", "truth": "11936419861102086X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0023", "field": "idcard", "value": "11936419861102086X（复印件）", "truth": "11936419861102086X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0024", "field": "idcard", "value": "118532 199601177584", "truth": "118532199601177584", "perturbation": "space", "split": "train"}
+{"id": "idcard-0024", "field": "idcard", "value": "11B532199601177584", "truth": "118532199601177584", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0024", "field": "idcard", "value": "118532960117758", "truth": "118532199601177584", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0024", "field": "idcard", "value": "1185321996-01-177584", "truth": "118532199601177584", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0024", "field": "idcard", "value": "118532199601177584。", "truth": "118532199601177584", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0025", "field": "idcard", "value": "11343019720622　1926", "truth": "113430197206221926", "perturbation": "space", "split": "train"}
+{"id": "idcard-0025", "field": "idcard", "value": "113A30197206221926", "truth": "113430197206221926", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0025", "field": "idcard", "value": "113430720622192", "truth": "113430197206221926", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0025", "field": "idcard", "value": "1134301972-06-221926", "truth": "113430197206221926", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0025", "field": "idcard", "value": "身份证:113430197206221926", "truth": "113430197206221926", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0026", "field": "idcard", "value": "119602197205117　247", "truth": "119602197205117247", "perturbation": "space", "split": "train"}
+{"id": "idcard-0026", "field": "idcard", "value": "11960219T205117247", "truth": "119602197205117247", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0026", "field": "idcard", "value": "119602720511724", "truth": "119602197205117247", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0026", "field": "idcard", "value": "1196021972-05-117247", "truth": "119602197205117247", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0026", "field": "idcard", "value": "119602197205117247（复印件）", "truth": "119602197205117247", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0027", "field": "idcard", "value": "116639197408265 004", "truth": "116639197408265004", "perturbation": "space", "split": "train"}
+{"id": "idcard-0027", "field": "idcard", "value": "1166391974082650O4", "truth": "116639197408265004", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0027", "field": "idcard", "value": "116639740826500", "truth": "116639197408265004", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0027", "field": "idcard", "value": "1166391974-08-265004", "truth": "116639197408265004", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0027", "field": "idcard", "value": "116639197408265004（本人）", "truth": "116639197408265004", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0028", "field": "idcard", "value": "1109221987 08110790", "truth": "110922198708110790", "perturbation": "space", "split": "train"}
+{"id": "idcard-0028", "field": "idcard", "value": "11092219870811079O", "truth": "110922198708110790", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0028", "field": "idcard", "value": "110922870811079", "truth": "110922198708110790", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0028", "field": "idcard", "value": "1109221987-08-110790", "truth": "110922198708110790", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0028", "field": "idcard", "value": "身份证号：110922198708110790", "truth": "110922198708110790", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0029", "field": "idcard", "value": "11665319730415017 0", "truth": "116653197304150170", "perturbation": "space", "split": "train"}
+{"id": "idcard-0029", "field": "idcard", "value": "1166S3197304150170", "truth": "116653197304150170", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0029", "field": "idcard", "value": "116653730415017", "truth": "116653197304150170", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0029", "field": "idcard", "value": "1166531973-04-150170", "truth": "116653197304150170", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0029", "field": "idcard", "value": "身份证号：116653197304150170", "truth": "116653197304150170", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0030", "field": "idcard", "value": "1180861989　08104379", "truth": "118086198908104379", "perturbation": "space", "split": "train"}
+{"id": "idcard-0030", "field": "idcard", "value": "1l8086198908104379", "truth": "118086198908104379", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0030", "field": "idcard", "value": "118086890810437", "truth": "118086198908104379", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0030", "field": "idcard", "value": "1180861989-08-104379", "truth": "118086198908104379", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0030", "field": "idcard", "value": "118086198908104379（本人）", "truth": "118086198908104379", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0031", "field": "idcard", "value": "1128441976　07099553", "truth": "112844197607099553", "perturbation": "space", "split": "train"}
+{"id": "idcard-0031", "field": "idcard", "value": "112844197607099S53", "truth": "112844197607099553", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0031", "field": "idcard", "value": "112844760709955", "truth": "112844197607099553", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0031", "field": "idcard", "value": "1128441976-07-099553", "truth": "112844197607099553", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0031", "field": "idcard", "value": "112844197607099553（本人）", "truth": "112844197607099553", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0032", "field": "idcard", "value": "11525319720906247 9", "truth": "115253197209062479", "perturbation": "space", "split": "train"}
+{"id": "idcard-0032", "field": "idcard", "value": "115Z53197209062479", "truth": "115253197209062479", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0032", "field": "idcard", "value": "115253720906247", "truth": "115253197209062479", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0032", "field": "idcard", "value": "1152531972-09-062479", "truth": "115253197209062479", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0032", "field": "idcard", "value": "115253197209062479。", "truth": "115253197209062479", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0033", "field": "idcard", "value": "111460197602235　250", "truth": "111460197602235250", "perturbation": "space", "split": "train"}
+{"id": "idcard-0033", "field": "idcard", "value": "111460l97602235250", "truth": "111460197602235250", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0033", "field": "idcard", "value": "111460760223525", "truth": "111460197602235250", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0033", "field": "idcard", "value": "1114601976-02-235250", "truth": "111460197602235250", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0033", "field": "idcard", "value": "111460197602235250（本人）", "truth": "111460197602235250", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0034", "field": "idcard", "value": "11524319970812273　5", "truth": "115243199708122735", "perturbation": "space", "split": "train"}
+{"id": "idcard-0034", "field": "idcard", "value": "115Z43199708122735", "truth": "115243199708122735", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0034", "field": "idcard", "value": "115243970812273", "truth": "115243199708122735", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0034", "field": "idcard", "value": "1152431997-08-122735", "truth": "115243199708122735", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0034", "field": "idcard", "value": "身份证号：115243199708122735", "truth": "115243199708122735", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0035", "field": "idcard", "value": "113053198805 264407", "truth": "113053198805264407", "perturbation": "space", "split": "train"}
+{"id": "idcard-0035", "field": "idcard", "value": "11305319880526A407", "truth": "113053198805264407", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0035", "field": "idcard", "value": "113053880526440", "truth": "113053198805264407", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0035", "field": "idcard", "value": "1130531988-05-264407", "truth": "113053198805264407", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0035", "field": "idcard", "value": "身份证:113053198805264407", "truth": "113053198805264407", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0036", "field": "idcard", "value": "1 15980198810037081", "truth": "115980198810037081", "perturbation": "space", "split": "train"}
+{"id": "idcard-0036", "field": "idcard", "value": "11598019B810037081", "truth": "115980198810037081", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0036", "field": "idcard", "value": "115980881003708", "truth": "115980198810037081", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0036", "field": "idcard", "value": "1159801988-10-037081", "truth": "115980198810037081", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0036", "field": "idcard", "value": "证件号：115980198810037081", "truth": "115980198810037081", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0037", "field": "idcard", "value": "119016197111097　260", "truth": "119016197111097260", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0037", "field": "idcard", "value": "1l9016197111097260", "truth": "119016197111097260", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0037", "field": "idcard", "value": "119016711109726", "truth": "119016197111097260", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0037", "field": "idcard", "value": "1190161971-11-097260", "truth": "119016197111097260", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0037", "field": "idcard", "value": "证件号：119016197111097260", "truth": "119016197111097260", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0038", "field": "idcard", "value": "11585719990 6162958", "truth": "115857199906162958", "perturbation": "space", "split": "train"}
+{"id": "idcard-0038", "field": "idcard", "value": "1158571999061G2958", "truth": "115857199906162958", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0038", "field": "idcard", "value": "115857990616295", "truth": "115857199906162958", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0038", "field": "idcard", "value": "1158571999-06-162958", "truth": "115857199906162958", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0038", "field": "idcard", "value": "身份证:115857199906162958", "truth": "115857199906162958", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0039", "field": "idcard", "value": "11494719 7308020776", "truth": "114947197308020776", "perturbation": "space", "split": "train"}
+{"id": "idcard-0039", "field": "idcard", "value": "114q47197308020776", "truth": "114947197308020776", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0039", "field": "idcard", "value": "114947730802077", "truth": "114947197308020776", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0039", "field": "idcard", "value": "1149471973-08-020776", "truth": "114947197308020776", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0039", "field": "idcard", "value": "114947197308020776（本人）", "truth": "114947197308020776", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0040", "field": "idcard", "value": "113650199　508261590", "truth": "113650199508261590", "perturbation": "space", "split": "train"}
+{"id": "idcard-0040", "field": "idcard", "value": "11365019950826159O", "truth": "113650199508261590", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0040", "field": "idcard", "value": "113650950826159", "truth": "113650199508261590", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0040", "field": "idcard", "value": "1136501995-08-261590", "truth": "113650199508261590", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0040", "field": "idcard", "value": "113650199508261590。", "truth": "113650199508261590", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0041", "field": "idcard", "value": "1186761　98409021720", "truth": "118676198409021720", "perturbation": "space", "split": "train"}
+{"id": "idcard-0041", "field": "idcard", "value": "l18676198409021720", "truth": "118676198409021720", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0041", "field": "idcard", "value": "118676840902172", "truth": "118676198409021720", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0041", "field": "idcard", "value": "1186761984-09-021720", "truth": "118676198409021720", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0041", "field": "idcard", "value": "身份证号：118676198409021720", "truth": "118676198409021720", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0042", "field": "idcard", "value": "113563199506077　753", "truth": "113563199506077753", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0042", "field": "idcard", "value": "113563199506O77753", "truth": "113563199506077753", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0042", "field": "idcard", "value": "113563950607775", "truth": "113563199506077753", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0042", "field": "idcard", "value": "1135631995-06-077753", "truth": "113563199506077753", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0042", "field": "idcard", "value": "113563199506077753（本人）", "truth": "113563199506077753", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0043", "field": "idcard", "value": "1130901 99408269745", "truth": "113090199408269745", "perturbation": "space", "split": "train"}
+{"id": "idcard-0043", "field": "idcard", "value": "1130901q9408269745", "truth": "113090199408269745", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0043", "field": "idcard", "value": "113090940826974", "truth": "113090199408269745", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0043", "field": "idcard", "value": "1130901994-08-269745", "truth": "113090199408269745", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0043", "field": "idcard", "value": "113090199408269745（复印件）", "truth": "113090199408269745", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0044", "field": "idcard", "value": "118225198903 225460", "truth": "118225198903225460", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0044", "field": "idcard", "value": "118225198903Z25460", "truth": "118225198903225460", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0044", "field": "idcard", "value": "118225890322546", "truth": "118225198903225460", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0044", "field": "idcard", "value": "1182251989-03-225460", "truth": "118225198903225460", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0044", "field": "idcard", "value": "证件号：118225198903225460", "truth": "118225198903225460", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0045", "field": "idcard", "value": "11　0382197305220716", "truth": "110382197305220716", "perturbation": "space", "split": "train"}
+{"id": "idcard-0045", "field": "idcard", "value": "11038219T305220716", "truth": "110382197305220716", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0045", "field": "idcard", "value": "110382730522071", "truth": "110382197305220716", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0045", "field": "idcard", "value": "1103821973-05-220716", "truth": "110382197305220716", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0045", "field": "idcard", "value": "身份证号：110382197305220716", "truth": "110382197305220716", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0046", "field": "idcard", "value": "115291198107271 205", "truth": "115291198107271205", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0046", "field": "idcard", "value": "1152911q8107271205", "truth": "115291198107271205", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0046", "field": "idcard", "value": "115291810727120", "truth": "115291198107271205", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0046", "field": "idcard", "value": "1152911981-07-271205", "truth": "115291198107271205", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0046", "field": "idcard", "value": "115291198107271205（本人）", "truth": "115291198107271205", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0047", "field": "idcard", "value": "11215　1197403244291", "truth": "112151197403244291", "perturbation": "space", "split": "train"}
+{"id": "idcard-0047", "field": "idcard", "value": "1121511974032442q1", "truth": "112151197403244291", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0047", "field": "idcard", "value": "112151740324429", "truth": "112151197403244291", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0047", "field": "idcard", "value": "1121511974-03-244291", "truth": "112151197403244291", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0047", "field": "idcard", "value": "112151197403244291（本人）", "truth": "112151197403244291", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0048", "field": "idcard", "value": "1142151987 08160829", "truth": "114215198708160829", "perturbation": "space", "split": "train"}
+{"id": "idcard-0048", "field": "idcard", "value": "11421S198708160829", "truth": "114215198708160829", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0048", "field": "idcard", "value": "114215870816082", "truth": "114215198708160829", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0048", "field": "idcard", "value": "1142151987-08-160829", "truth": "114215198708160829", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0048", "field": "idcard", "value": "114215198708160829（本人）", "truth": "114215198708160829", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0049", "field": "idcard", "value": "1140951982020　20109", "truth": "114095198202020109", "perturbation": "space", "split": "train"}
+{"id": "idcard-0049", "field": "idcard", "value": "114095l98202020109", "truth": "114095198202020109", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0049", "field": "idcard", "value": "114095820202010", "truth": "114095198202020109", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0049", "field": "idcard", "value": "1140951982-02-020109", "truth": "114095198202020109", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0049", "field": "idcard", "value": "114095198202020109（复印件）", "truth": "114095198202020109", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0050", "field": "idcard", "value": "11277319980 9200192", "truth": "112773199809200192", "perturbation": "space", "split": "train"}
+{"id": "idcard-0050", "field": "idcard", "value": "11277319980q200192", "truth": "112773199809200192", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0050", "field": "idcard", "value": "112773980920019", "truth": "112773199809200192", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0050", "field": "idcard", "value": "1127731998-09-200192", "truth": "112773199809200192", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0050", "field": "idcard", "value": "112773199809200192（复印件）", "truth": "112773199809200192", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0051", "field": "idcard", "value": "115387198403231 241", "truth": "115387198403231241", "perturbation": "space", "split": "train"}
+{"id": "idcard-0051", "field": "idcard", "value": "115387198403231Z41", "truth": "115387198403231241", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0051", "field": "idcard", "value": "115387840323124", "truth": "115387198403231241", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0051", "field": "idcard", "value": "1153871984-03-231241", "truth": "115387198403231241", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0051", "field": "idcard", "value": "115387198403231241。", "truth": "115387198403231241", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0052", "field": "idcard", "value": "1 15511197809053325", "truth": "115511197809053325", "perturbation": "space", "split": "train"}
+{"id": "idcard-0052", "field": "idcard", "value": "115511197B09053325", "truth": "115511197809053325", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0052", "field": "idcard", "value": "115511780905332", "truth": "115511197809053325", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0052", "field": "idcard", "value": "1155111978-09-053325", "truth": "115511197809053325", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0052", "field": "idcard", "value": "115511197809053325（本人）", "truth": "115511197809053325", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0053", "field": "idcard", "value": "1185381989050400　54", "truth": "118538198905040054", "perturbation": "space", "split": "train"}
+{"id": "idcard-0053", "field": "idcard", "value": "11853819B905040054", "truth": "118538198905040054", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0053", "field": "idcard", "value": "118538890504005", "truth": "118538198905040054", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0053", "field": "idcard", "value": "1185381989-05-040054", "truth": "118538198905040054", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0053", "field": "idcard", "value": "118538198905040054（本人）", "truth": "118538198905040054", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0054", "field": "idcard", "value": "1151641984072　35404", "truth": "115164198407235404", "perturbation": "space", "split": "train"}
+{"id": "idcard-0054", "field": "idcard", "value": "11516419840723540A", "truth": "115164198407235404", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0054", "field": "idcard", "value": "115164840723540", "truth": "115164198407235404", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0054", "field": "idcard", "value": "1151641984-07-235404", "truth": "115164198407235404", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0054", "field": "idcard", "value": "115164198407235404（复印件）", "truth": "115164198407235404", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0055", "field": "idcard", "value": "1148041990　06150704", "truth": "114804199006150704", "perturbation": "space", "split": "train"}
+{"id": "idcard-0055", "field": "idcard", "value": "114804199006150T04", "truth": "114804199006150704", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0055", "field": "idcard", "value": "114804900615070", "truth": "114804199006150704", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0055", "field": "idcard", "value": "1148041990-06-150704", "truth": "114804199006150704", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0055", "field": "idcard", "value": "114804199006150704。", "truth": "114804199006150704", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0056", "field": "idcard", "value": "11075119970924232 8", "truth": "110751199709242328", "perturbation": "space", "split": "train"}
+{"id": "idcard-0056", "field": "idcard", "value": "11075119970q242328", "truth": "110751199709242328", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0056", "field": "idcard", "value": "110751970924232", "truth": "110751199709242328", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0056", "field": "idcard", "value": "1107511997-09-242328", "truth": "110751199709242328", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0056", "field": "idcard", "value": "110751199709242328（复印件）", "truth": "110751199709242328", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0057", "field": "idcard", "value": "1182　18199503191637", "truth": "118218199503191637", "perturbation": "space", "split": "train"}
+{"id": "idcard-0057", "field": "idcard", "value": "1182l8199503191637", "truth": "118218199503191637", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0057", "field": "idcard", "value": "118218950319163", "truth": "118218199503191637", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0057", "field": "idcard", "value": "1182181995-03-191637", "truth": "118218199503191637", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0057", "field": "idcard", "value": "118218199503191637。", "truth": "118218199503191637", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0058", "field": "idcard", "value": "1105431991081238 67", "truth": "110543199108123867", "perturbation": "space", "split": "train"}
+{"id": "idcard-0058", "field": "idcard", "value": "11O543199108123867", "truth": "110543199108123867", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0058", "field": "idcard", "value": "110543910812386", "truth": "110543199108123867", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0058", "field": "idcard", "value": "1105431991-08-123867", "truth": "110543199108123867", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0058", "field": "idcard", "value": "110543199108123867。", "truth": "110543199108123867", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0059", "field": "idcard", "value": "119791197009 112485", "truth": "119791197009112485", "perturbation": "space", "split": "train"}
+{"id": "idcard-0059", "field": "idcard", "value": "11979119700q112485", "truth": "119791197009112485", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0059", "field": "idcard", "value": "119791700911248", "truth": "119791197009112485", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0059", "field": "idcard", "value": "1197911970-09-112485", "truth": "119791197009112485", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0059", "field": "idcard", "value": "身份证号：119791197009112485", "truth": "119791197009112485", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0060", "field": "idcard", "value": "11371619940908 021X", "truth": "11371619940908021X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0060", "field": "idcard", "value": "113716199409080Z1X", "truth": "11371619940908021X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0060", "field": "idcard", "value": "113716940908021", "truth": "11371619940908021X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0060", "field": "idcard", "value": "1137161994-09-08021X", "truth": "11371619940908021X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0060", "field": "idcard", "value": "11371619940908021X（本人）", "truth": "11371619940908021X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0061", "field": "idcard", "value": "1101621 97608090924", "truth": "110162197608090924", "perturbation": "space", "split": "train"}
+{"id": "idcard-0061", "field": "idcard", "value": "110162197G08090924", "truth": "110162197608090924", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0061", "field": "idcard", "value": "110162760809092", "truth": "110162197608090924", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0061", "field": "idcard", "value": "1101621976-08-090924", "truth": "110162197608090924", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0061", "field": "idcard", "value": "身份证:110162197608090924", "truth": "110162197608090924", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0062", "field": "idcard", "value": "110415198112 072278", "truth": "110415198112072278", "perturbation": "space", "split": "train"}
+{"id": "idcard-0062", "field": "idcard", "value": "110415198l12072278", "truth": "110415198112072278", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0062", "field": "idcard", "value": "110415811207227", "truth": "110415198112072278", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0062", "field": "idcard", "value": "1104151981-12-072278", "truth": "110415198112072278", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0062", "field": "idcard", "value": "证件号：110415198112072278", "truth": "110415198112072278", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0063", "field": "idcard", "value": "119 568199908109284", "truth": "119568199908109284", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0063", "field": "idcard", "value": "1195681999O8109284", "truth": "119568199908109284", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0063", "field": "idcard", "value": "119568990810928", "truth": "119568199908109284", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0063", "field": "idcard", "value": "1195681999-08-109284", "truth": "119568199908109284", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0063", "field": "idcard", "value": "119568199908109284（复印件）", "truth": "119568199908109284", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0064", "field": "idcard", "value": "1178961973052510　39", "truth": "117896197305251039", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0064", "field": "idcard", "value": "1178961973052510E9", "truth": "117896197305251039", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0064", "field": "idcard", "value": "117896730525103", "truth": "117896197305251039", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0064", "field": "idcard", "value": "1178961973-05-251039", "truth": "117896197305251039", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0064", "field": "idcard", "value": "证件号：117896197305251039", "truth": "117896197305251039", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0065", "field": "idcard", "value": "1138251　9750213430X", "truth": "11382519750213430X", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0065", "field": "idcard", "value": "113825197S0213430X", "truth": "11382519750213430X", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0065", "field": "idcard", "value": "113825750213430", "truth": "11382519750213430X", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0065", "field": "idcard", "value": "1138251975-02-13430X", "truth": "11382519750213430X", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0065", "field": "idcard", "value": "11382519750213430X（复印件）", "truth": "11382519750213430X", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0066", "field": "idcard", "value": "119478199507046　89X", "truth": "11947819950704689X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0066", "field": "idcard", "value": "1194T819950704689X", "truth": "11947819950704689X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0066", "field": "idcard", "value": "119478950704689", "truth": "11947819950704689X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0066", "field": "idcard", "value": "1194781995-07-04689X", "truth": "11947819950704689X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0066", "field": "idcard", "value": "身份证号：11947819950704689X", "truth": "11947819950704689X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0067", "field": "idcard", "value": "119092199607145 102", "truth": "119092199607145102", "perturbation": "space", "split": "train"}
+{"id": "idcard-0067", "field": "idcard", "value": "119092199607l45102", "truth": "119092199607145102", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0067", "field": "idcard", "value": "119092960714510", "truth": "119092199607145102", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0067", "field": "idcard", "value": "1190921996-07-145102", "truth": "119092199607145102", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0067", "field": "idcard", "value": "证件号：119092199607145102", "truth": "119092199607145102", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0068", "field": "idcard", "value": "1138121975070 83503", "truth": "113812197507083503", "perturbation": "space", "split": "train"}
+{"id": "idcard-0068", "field": "idcard", "value": "113812l97507083503", "truth": "113812197507083503", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0068", "field": "idcard", "value": "113812750708350", "truth": "113812197507083503", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0068", "field": "idcard", "value": "1138121975-07-083503", "truth": "113812197507083503", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0068", "field": "idcard", "value": "身份证号：113812197507083503", "truth": "113812197507083503", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0069", "field": "idcard", "value": "119280197206　159761", "truth": "119280197206159761", "perturbation": "space", "split": "train"}
+{"id": "idcard-0069", "field": "idcard", "value": "1192801972061597G1", "truth": "119280197206159761", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0069", "field": "idcard", "value": "119280720615976", "truth": "119280197206159761", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0069", "field": "idcard", "value": "1192801972-06-159761", "truth": "119280197206159761", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0069", "field": "idcard", "value": "证件号：119280197206159761", "truth": "119280197206159761", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0070", "field": "idcard", "value": "11282119740 3147926", "truth": "112821197403147926", "perturbation": "space", "split": "train"}
+{"id": "idcard-0070", "field": "idcard", "value": "1128Z1197403147926", "truth": "112821197403147926", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0070", "field": "idcard", "value": "112821740314792", "truth": "112821197403147926", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0070", "field": "idcard", "value": "1128211974-03-147926", "truth": "112821197403147926", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0070", "field": "idcard", "value": "112821197403147926。", "truth": "112821197403147926", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0071", "field": "idcard", "value": "11243419820316 0215", "truth": "112434198203160215", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0071", "field": "idcard", "value": "l12434198203160215", "truth": "112434198203160215", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0071", "field": "idcard", "value": "112434820316021", "truth": "112434198203160215", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0071", "field": "idcard", "value": "1124341982-03-160215", "truth": "112434198203160215", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0071", "field": "idcard", "value": "证件号：112434198203160215", "truth": "112434198203160215", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0072", "field": "idcard", "value": "11261019781121　3785", "truth": "112610197811213785", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0072", "field": "idcard", "value": "11Z610197811213785", "truth": "112610197811213785", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0072", "field": "idcard", "value": "112610781121378", "truth": "112610197811213785", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0072", "field": "idcard", "value": "1126101978-11-213785", "truth": "112610197811213785", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0072", "field": "idcard", "value": "身份证:112610197811213785", "truth": "112610197811213785", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0073", "field": "idcard", "value": "11775019920409　7727", "truth": "117750199204097727", "perturbation": "space", "split": "train"}
+{"id": "idcard-0073", "field": "idcard", "value": "1177501992O4097727", "truth": "117750199204097727", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0073", "field": "idcard", "value": "117750920409772", "truth": "117750199204097727", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0073", "field": "idcard", "value": "1177501992-04-097727", "truth": "117750199204097727", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0073", "field": "idcard", "value": "证件号：117750199204097727", "truth": "117750199204097727", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0074", "field": "idcard", "value": "110 133199312032378", "truth": "110133199312032378", "perturbation": "space", "split": "train"}
+{"id": "idcard-0074", "field": "idcard", "value": "11013319q312032378", "truth": "110133199312032378", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0074", "field": "idcard", "value": "110133931203237", "truth": "110133199312032378", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0074", "field": "idcard", "value": "1101331993-12-032378", "truth": "110133199312032378", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0074", "field": "idcard", "value": "110133199312032378（复印件）", "truth": "110133199312032378", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0075", "field": "idcard", "value": "11　520719720617301X", "truth": "11520719720617301X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0075", "field": "idcard", "value": "11520T19720617301X", "truth": "11520719720617301X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0075", "field": "idcard", "value": "115207720617301", "truth": "11520719720617301X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0075", "field": "idcard", "value": "1152071972-06-17301X", "truth": "11520719720617301X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0075", "field": "idcard", "value": "11520719720617301X（复印件）", "truth": "11520719720617301X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0076", "field": "idcard", "value": "11429 7197007231380", "truth": "114297197007231380", "perturbation": "space", "split": "train"}
+{"id": "idcard-0076", "field": "idcard", "value": "1142971970072313B0", "truth": "114297197007231380", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0076", "field": "idcard", "value": "114297700723138", "truth": "114297197007231380", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0076", "field": "idcard", "value": "1142971970-07-231380", "truth": "114297197007231380", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0076", "field": "idcard", "value": "114297197007231380。", "truth": "114297197007231380", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0077", "field": "idcard", "value": "118　122198102242952", "truth": "118122198102242952", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0077", "field": "idcard", "value": "1181221981O2242952", "truth": "118122198102242952", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0077", "field": "idcard", "value": "118122810224295", "truth": "118122198102242952", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0077", "field": "idcard", "value": "1181221981-02-242952", "truth": "118122198102242952", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0077", "field": "idcard", "value": "118122198102242952（本人）", "truth": "118122198102242952", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0078", "field": "idcard", "value": "1198861974　0414561X", "truth": "11988619740414561X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0078", "field": "idcard", "value": "119886197A0414561X", "truth": "11988619740414561X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0078", "field": "idcard", "value": "119886740414561", "truth": "11988619740414561X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0078", "field": "idcard", "value": "1198861974-04-14561X", "truth": "11988619740414561X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0078", "field": "idcard", "value": "11988619740414561X（复印件）", "truth": "11988619740414561X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0079", "field": "idcard", "value": "1172441 9770423726X", "truth": "11724419770423726X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0079", "field": "idcard", "value": "1172441977042372GX", "truth": "11724419770423726X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0079", "field": "idcard", "value": "117244770423726", "truth": "11724419770423726X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0079", "field": "idcard", "value": "1172441977-04-23726X", "truth": "11724419770423726X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0079", "field": "idcard", "value": "11724419770423726X。", "truth": "11724419770423726X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0080", "field": "idcard", "value": "119178 199010067015", "truth": "119178199010067015", "perturbation": "space", "split": "train"}
+{"id": "idcard-0080", "field": "idcard", "value": "11917819q010067015", "truth": "119178199010067015", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0080", "field": "idcard", "value": "119178901006701", "truth": "119178199010067015", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0080", "field": "idcard", "value": "1191781990-10-067015", "truth": "119178199010067015", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0080", "field": "idcard", "value": "119178199010067015（复印件）", "truth": "119178199010067015", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0081", "field": "idcard", "value": "1122021973 07083465", "truth": "112202197307083465", "perturbation": "space", "split": "train"}
+{"id": "idcard-0081", "field": "idcard", "value": "112202l97307083465", "truth": "112202197307083465", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0081", "field": "idcard", "value": "112202730708346", "truth": "112202197307083465", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0081", "field": "idcard", "value": "1122021973-07-083465", "truth": "112202197307083465", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0081", "field": "idcard", "value": "身份证号：112202197307083465", "truth": "112202197307083465", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0082", "field": "idcard", "value": "1192411999112　60368", "truth": "119241199911260368", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0082", "field": "idcard", "value": "11924119q911260368", "truth": "119241199911260368", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0082", "field": "idcard", "value": "119241991126036", "truth": "119241199911260368", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0082", "field": "idcard", "value": "1192411999-11-260368", "truth": "119241199911260368", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0082", "field": "idcard", "value": "119241199911260368。", "truth": "119241199911260368", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0083", "field": "idcard", "value": "11004 8198306086999", "truth": "110048198306086999", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0083", "field": "idcard", "value": "1100481983O6086999", "truth": "110048198306086999", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0083", "field": "idcard", "value": "110048830608699", "truth": "110048198306086999", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0083", "field": "idcard", "value": "1100481983-06-086999", "truth": "110048198306086999", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0083", "field": "idcard", "value": "110048198306086999（复印件）", "truth": "110048198306086999", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0084", "field": "idcard", "value": "116 528198902253674", "truth": "116528198902253674", "perturbation": "space", "split": "train"}
+{"id": "idcard-0084", "field": "idcard", "value": "1165281989O2253674", "truth": "116528198902253674", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0084", "field": "idcard", "value": "116528890225367", "truth": "116528198902253674", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0084", "field": "idcard", "value": "1165281989-02-253674", "truth": "116528198902253674", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0084", "field": "idcard", "value": "身份证:116528198902253674", "truth": "116528198902253674", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0085", "field": "idcard", "value": "11244 4198110148463", "truth": "112444198110148463", "perturbation": "space", "split": "train"}
+{"id": "idcard-0085", "field": "idcard", "value": "11244419811014846E", "truth": "112444198110148463", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0085", "field": "idcard", "value": "112444811014846", "truth": "112444198110148463", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0085", "field": "idcard", "value": "1124441981-10-148463", "truth": "112444198110148463", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0085", "field": "idcard", "value": "身份证号：112444198110148463", "truth": "112444198110148463", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0086", "field": "idcard", "value": "11144119991　2189376", "truth": "111441199912189376", "perturbation": "space", "split": "train"}
+{"id": "idcard-0086", "field": "idcard", "value": "11l441199912189376", "truth": "111441199912189376", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0086", "field": "idcard", "value": "111441991218937", "truth": "111441199912189376", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0086", "field": "idcard", "value": "1114411999-12-189376", "truth": "111441199912189376", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0086", "field": "idcard", "value": "111441199912189376（本人）", "truth": "111441199912189376", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0087", "field": "idcard", "value": "1121421985021 05885", "truth": "112142198502105885", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0087", "field": "idcard", "value": "1121421985O2105885", "truth": "112142198502105885", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0087", "field": "idcard", "value": "112142850210588", "truth": "112142198502105885", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0087", "field": "idcard", "value": "1121421985-02-105885", "truth": "112142198502105885", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0087", "field": "idcard", "value": "112142198502105885（复印件）", "truth": "112142198502105885", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0088", "field": "idcard", "value": "11394019880205601　X", "truth": "11394019880205601X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0088", "field": "idcard", "value": "113940198802056O1X", "truth": "11394019880205601X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0088", "field": "idcard", "value": "113940880205601", "truth": "11394019880205601X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0088", "field": "idcard", "value": "1139401988-02-05601X", "truth": "11394019880205601X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0088", "field": "idcard", "value": "11394019880205601X（本人）", "truth": "11394019880205601X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0089", "field": "idcard", "value": "11725319860422 7671", "truth": "117253198604227671", "perturbation": "space", "split": "train"}
+{"id": "idcard-0089", "field": "idcard", "value": "117253l98604227671", "truth": "117253198604227671", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0089", "field": "idcard", "value": "117253860422767", "truth": "117253198604227671", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0089", "field": "idcard", "value": "1172531986-04-227671", "truth": "117253198604227671", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0089", "field": "idcard", "value": "117253198604227671。", "truth": "117253198604227671", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0090", "field": "idcard", "value": "119300199003055 834", "truth": "119300199003055834", "perturbation": "space", "split": "train"}
+{"id": "idcard-0090", "field": "idcard", "value": "11930019900305583A", "truth": "119300199003055834", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0090", "field": "idcard", "value": "119300900305583", "truth": "119300199003055834", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0090", "field": "idcard", "value": "1193001990-03-055834", "truth": "119300199003055834", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0090", "field": "idcard", "value": "119300199003055834。", "truth": "119300199003055834", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0091", "field": "idcard", "value": "1150661978060181 78", "truth": "115066197806018178", "perturbation": "space", "split": "train"}
+{"id": "idcard-0091", "field": "idcard", "value": "l15066197806018178", "truth": "115066197806018178", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0091", "field": "idcard", "value": "115066780601817", "truth": "115066197806018178", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0091", "field": "idcard", "value": "1150661978-06-018178", "truth": "115066197806018178", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0091", "field": "idcard", "value": "115066197806018178（复印件）", "truth": "115066197806018178", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0092", "field": "idcard", "value": "11948119921　0147153", "truth": "119481199210147153", "perturbation": "space", "split": "train"}
+{"id": "idcard-0092", "field": "idcard", "value": "119481l99210147153", "truth": "119481199210147153", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0092", "field": "idcard", "value": "119481921014715", "truth": "119481199210147153", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0092", "field": "idcard", "value": "1194811992-10-147153", "truth": "119481199210147153", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0092", "field": "idcard", "value": "身份证:119481199210147153", "truth": "119481199210147153", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0093", "field": "idcard", "value": "116　828197110281396", "truth": "116828197110281396", "perturbation": "space", "split": "train"}
+{"id": "idcard-0093", "field": "idcard", "value": "1168281971l0281396", "truth": "116828197110281396", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0093", "field": "idcard", "value": "116828711028139", "truth": "116828197110281396", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0093", "field": "idcard", "value": "1168281971-10-281396", "truth": "116828197110281396", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0093", "field": "idcard", "value": "身份证号：116828197110281396", "truth": "116828197110281396", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0094", "field": "idcard", "value": "1172471983　08064604", "truth": "117247198308064604", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0094", "field": "idcard", "value": "l17247198308064604", "truth": "117247198308064604", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0094", "field": "idcard", "value": "117247830806460", "truth": "117247198308064604", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0094", "field": "idcard", "value": "1172471983-08-064604", "truth": "117247198308064604", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0094", "field": "idcard", "value": "117247198308064604（本人）", "truth": "117247198308064604", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0095", "field": "idcard", "value": "11　4705198006225506", "truth": "114705198006225506", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0095", "field": "idcard", "value": "1147051q8006225506", "truth": "114705198006225506", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0095", "field": "idcard", "value": "114705800622550", "truth": "114705198006225506", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0095", "field": "idcard", "value": "1147051980-06-225506", "truth": "114705198006225506", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0095", "field": "idcard", "value": "114705198006225506。", "truth": "114705198006225506", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0096", "field": "idcard", "value": "1 12751198505289180", "truth": "112751198505289180", "perturbation": "space", "split": "train"}
+{"id": "idcard-0096", "field": "idcard", "value": "11275119850528q180", "truth": "112751198505289180", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0096", "field": "idcard", "value": "112751850528918", "truth": "112751198505289180", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0096", "field": "idcard", "value": "1127511985-05-289180", "truth": "112751198505289180", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0096", "field": "idcard", "value": "112751198505289180（复印件）", "truth": "112751198505289180", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0097", "field": "idcard", "value": "11 4316198701044763", "truth": "114316198701044763", "perturbation": "space", "split": "train"}
+{"id": "idcard-0097", "field": "idcard", "value": "1l4316198701044763", "truth": "114316198701044763", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0097", "field": "idcard", "value": "114316870104476", "truth": "114316198701044763", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0097", "field": "idcard", "value": "1143161987-01-044763", "truth": "114316198701044763", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0097", "field": "idcard", "value": "114316198701044763（复印件）", "truth": "114316198701044763", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0098", "field": "idcard", "value": "1166341994 04091382", "truth": "116634199404091382", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0098", "field": "idcard", "value": "11663A199404091382", "truth": "116634199404091382", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0098", "field": "idcard", "value": "116634940409138", "truth": "116634199404091382", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0098", "field": "idcard", "value": "1166341994-04-091382", "truth": "116634199404091382", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0098", "field": "idcard", "value": "身份证:116634199404091382", "truth": "116634199404091382", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0099", "field": "idcard", "value": "11153119950　7229998", "truth": "111531199507229998", "perturbation": "space", "split": "train"}
+{"id": "idcard-0099", "field": "idcard", "value": "11l531199507229998", "truth": "111531199507229998", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0099", "field": "idcard", "value": "111531950722999", "truth": "111531199507229998", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0099", "field": "idcard", "value": "1115311995-07-229998", "truth": "111531199507229998", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0099", "field": "idcard", "value": "身份证号：111531199507229998", "truth": "111531199507229998", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0100", "field": "idcard", "value": "111　708199009082476", "truth": "111708199009082476", "perturbation": "space", "split": "train"}
+{"id": "idcard-0100", "field": "idcard", "value": "11l708199009082476", "truth": "111708199009082476", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0100", "field": "idcard", "value": "111708900908247", "truth": "111708199009082476", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0100", "field": "idcard", "value": "1117081990-09-082476", "truth": "111708199009082476", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0100", "field": "idcard", "value": "身份证号：111708199009082476", "truth": "111708199009082476", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0101", "field": "idcard", "value": "11851019880711020　0", "truth": "118510198807110200", "perturbation": "space", "split": "train"}
+{"id": "idcard-0101", "field": "idcard", "value": "1l8510198807110200", "truth": "118510198807110200", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0101", "field": "idcard", "value": "118510880711020", "truth": "118510198807110200", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0101", "field": "idcard", "value": "1185101988-07-110200", "truth": "118510198807110200", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0101", "field": "idcard", "value": "118510198807110200（复印件）", "truth": "118510198807110200", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0102", "field": "idcard", "value": "1176611　98601212994", "truth": "117661198601212994", "perturbation": "space", "split": "train"}
+{"id": "idcard-0102", "field": "idcard", "value": "1176G1198601212994", "truth": "117661198601212994", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0102", "field": "idcard", "value": "117661860121299", "truth": "117661198601212994", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0102", "field": "idcard", "value": "1176611986-01-212994", "truth": "117661198601212994", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0102", "field": "idcard", "value": "证件号：117661198601212994", "truth": "117661198601212994", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0103", "field": "idcard", "value": "1103901997062754 50", "truth": "110390199706275450", "perturbation": "space", "split": "train"}
+{"id": "idcard-0103", "field": "idcard", "value": "110E90199706275450", "truth": "110390199706275450", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0103", "field": "idcard", "value": "110390970627545", "truth": "110390199706275450", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0103", "field": "idcard", "value": "1103901997-06-275450", "truth": "110390199706275450", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0103", "field": "idcard", "value": "身份证号：110390199706275450", "truth": "110390199706275450", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0104", "field": "idcard", "value": "1189791　98402276830", "truth": "118979198402276830", "perturbation": "space", "split": "train"}
+{"id": "idcard-0104", "field": "idcard", "value": "11897919840227683O", "truth": "118979198402276830", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0104", "field": "idcard", "value": "118979840227683", "truth": "118979198402276830", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0104", "field": "idcard", "value": "1189791984-02-276830", "truth": "118979198402276830", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0104", "field": "idcard", "value": "证件号：118979198402276830", "truth": "118979198402276830", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0105", "field": "idcard", "value": "1196831　98408241611", "truth": "119683198408241611", "perturbation": "space", "split": "train"}
+{"id": "idcard-0105", "field": "idcard", "value": "119683198408241G11", "truth": "119683198408241611", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0105", "field": "idcard", "value": "119683840824161", "truth": "119683198408241611", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0105", "field": "idcard", "value": "1196831984-08-241611", "truth": "119683198408241611", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0105", "field": "idcard", "value": "119683198408241611（复印件）", "truth": "119683198408241611", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0106", "field": "idcard", "value": "1130 99199005159354", "truth": "113099199005159354", "perturbation": "space", "split": "train"}
+{"id": "idcard-0106", "field": "idcard", "value": "113099199005l59354", "truth": "113099199005159354", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0106", "field": "idcard", "value": "113099900515935", "truth": "113099199005159354", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0106", "field": "idcard", "value": "1130991990-05-159354", "truth": "113099199005159354", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0106", "field": "idcard", "value": "113099199005159354。", "truth": "113099199005159354", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0107", "field": "idcard", "value": "11655419　8505116556", "truth": "116554198505116556", "perturbation": "space", "split": "train"}
+{"id": "idcard-0107", "field": "idcard", "value": "116554198505116S56", "truth": "116554198505116556", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0107", "field": "idcard", "value": "116554850511655", "truth": "116554198505116556", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0107", "field": "idcard", "value": "1165541985-05-116556", "truth": "116554198505116556", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0107", "field": "idcard", "value": "证件号：116554198505116556", "truth": "116554198505116556", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0108", "field": "idcard", "value": "110 057198607267108", "truth": "110057198607267108", "perturbation": "space", "split": "train"}
+{"id": "idcard-0108", "field": "idcard", "value": "11005719B607267108", "truth": "110057198607267108", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0108", "field": "idcard", "value": "110057860726710", "truth": "110057198607267108", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0108", "field": "idcard", "value": "1100571986-07-267108", "truth": "110057198607267108", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0108", "field": "idcard", "value": "身份证:110057198607267108", "truth": "110057198607267108", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0109", "field": "idcard", "value": "1151151996080395　89", "truth": "115115199608039589", "perturbation": "space", "split": "train"}
+{"id": "idcard-0109", "field": "idcard", "value": "115115199608039S89", "truth": "115115199608039589", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0109", "field": "idcard", "value": "115115960803958", "truth": "115115199608039589", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0109", "field": "idcard", "value": "1151151996-08-039589", "truth": "115115199608039589", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0109", "field": "idcard", "value": "115115199608039589（本人）", "truth": "115115199608039589", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0110", "field": "idcard", "value": "110 877199107148616", "truth": "110877199107148616", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0110", "field": "idcard", "value": "110877199l07148616", "truth": "110877199107148616", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0110", "field": "idcard", "value": "110877910714861", "truth": "110877199107148616", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0110", "field": "idcard", "value": "1108771991-07-148616", "truth": "110877199107148616", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0110", "field": "idcard", "value": "身份证号：110877199107148616", "truth": "110877199107148616", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0111", "field": "idcard", "value": "11293819780 2080514", "truth": "112938197802080514", "perturbation": "space", "split": "train"}
+{"id": "idcard-0111", "field": "idcard", "value": "1129381q7802080514", "truth": "112938197802080514", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0111", "field": "idcard", "value": "112938780208051", "truth": "112938197802080514", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0111", "field": "idcard", "value": "1129381978-02-080514", "truth": "112938197802080514", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0111", "field": "idcard", "value": "身份证:112938197802080514", "truth": "112938197802080514", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0112", "field": "idcard", "value": "114667199　81025658X", "truth": "11466719981025658X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0112", "field": "idcard", "value": "1146671998102S658X", "truth": "11466719981025658X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0112", "field": "idcard", "value": "114667981025658", "truth": "11466719981025658X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0112", "field": "idcard", "value": "1146671998-10-25658X", "truth": "11466719981025658X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0112", "field": "idcard", "value": "11466719981025658X（复印件）", "truth": "11466719981025658X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0113", "field": "idcard", "value": "11706919961123　1155", "truth": "117069199611231155", "perturbation": "space", "split": "train"}
+{"id": "idcard-0113", "field": "idcard", "value": "1170691996l1231155", "truth": "117069199611231155", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0113", "field": "idcard", "value": "117069961123115", "truth": "117069199611231155", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0113", "field": "idcard", "value": "1170691996-11-231155", "truth": "117069199611231155", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0113", "field": "idcard", "value": "117069199611231155（复印件）", "truth": "117069199611231155", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0114", "field": "idcard", "value": "1101651　99010256430", "truth": "110165199010256430", "perturbation": "space", "split": "train"}
+{"id": "idcard-0114", "field": "idcard", "value": "1101651990102S6430", "truth": "110165199010256430", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0114", "field": "idcard", "value": "110165901025643", "truth": "110165199010256430", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0114", "field": "idcard", "value": "1101651990-10-256430", "truth": "110165199010256430", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0114", "field": "idcard", "value": "身份证:110165199010256430", "truth": "110165199010256430", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0115", "field": "idcard", "value": "1144531980　0302261X", "truth": "11445319800302261X", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0115", "field": "idcard", "value": "114453198003O2261X", "truth": "11445319800302261X", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0115", "field": "idcard", "value": "114453800302261", "truth": "11445319800302261X", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0115", "field": "idcard", "value": "1144531980-03-02261X", "truth": "11445319800302261X", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0115", "field": "idcard", "value": "身份证号：11445319800302261X", "truth": "11445319800302261X", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0116", "field": "idcard", "value": "1179581　97006123747", "truth": "117958197006123747", "perturbation": "space", "split": "train"}
+{"id": "idcard-0116", "field": "idcard", "value": "1179581q7006123747", "truth": "117958197006123747", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0116", "field": "idcard", "value": "117958700612374", "truth": "117958197006123747", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0116", "field": "idcard", "value": "1179581970-06-123747", "truth": "117958197006123747", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0116", "field": "idcard", "value": "身份证:117958197006123747", "truth": "117958197006123747", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0117", "field": "idcard", "value": "11495419770728 1598", "truth": "114954197707281598", "perturbation": "space", "split": "train"}
+{"id": "idcard-0117", "field": "idcard", "value": "11495419T707281598", "truth": "114954197707281598", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0117", "field": "idcard", "value": "114954770728159", "truth": "114954197707281598", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0117", "field": "idcard", "value": "1149541977-07-281598", "truth": "114954197707281598", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0117", "field": "idcard", "value": "114954197707281598（本人）", "truth": "114954197707281598", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0118", "field": "idcard", "value": "115　876199411145477", "truth": "115876199411145477", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0118", "field": "idcard", "value": "1158T6199411145477", "truth": "115876199411145477", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0118", "field": "idcard", "value": "115876941114547", "truth": "115876199411145477", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0118", "field": "idcard", "value": "1158761994-11-145477", "truth": "115876199411145477", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0118", "field": "idcard", "value": "115876199411145477（本人）", "truth": "115876199411145477", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0119", "field": "idcard", "value": "11295119 8710070269", "truth": "112951198710070269", "perturbation": "space", "split": "train"}
+{"id": "idcard-0119", "field": "idcard", "value": "11295119871007O269", "truth": "112951198710070269", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0119", "field": "idcard", "value": "112951871007026", "truth": "112951198710070269", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0119", "field": "idcard", "value": "1129511987-10-070269", "truth": "112951198710070269", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0119", "field": "idcard", "value": "112951198710070269。", "truth": "112951198710070269", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0120", "field": "idcard", "value": "116566198107059 766", "truth": "116566198107059766", "perturbation": "space", "split": "train"}
+{"id": "idcard-0120", "field": "idcard", "value": "11G566198107059766", "truth": "116566198107059766", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0120", "field": "idcard", "value": "116566810705976", "truth": "116566198107059766", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0120", "field": "idcard", "value": "1165661981-07-059766", "truth": "116566198107059766", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0120", "field": "idcard", "value": "证件号：116566198107059766", "truth": "116566198107059766", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0121", "field": "idcard", "value": "110701198112266　732", "truth": "110701198112266732", "perturbation": "space", "split": "train"}
+{"id": "idcard-0121", "field": "idcard", "value": "11070119811226G732", "truth": "110701198112266732", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0121", "field": "idcard", "value": "110701811226673", "truth": "110701198112266732", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0121", "field": "idcard", "value": "1107011981-12-266732", "truth": "110701198112266732", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0121", "field": "idcard", "value": "证件号：110701198112266732", "truth": "110701198112266732", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0122", "field": "idcard", "value": "1120　61198110190156", "truth": "112061198110190156", "perturbation": "space", "split": "train"}
+{"id": "idcard-0122", "field": "idcard", "value": "112O61198110190156", "truth": "112061198110190156", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0122", "field": "idcard", "value": "112061811019015", "truth": "112061198110190156", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0122", "field": "idcard", "value": "1120611981-10-190156", "truth": "112061198110190156", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0122", "field": "idcard", "value": "112061198110190156（复印件）", "truth": "112061198110190156", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0123", "field": "idcard", "value": "114373199103289 13X", "truth": "11437319910328913X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0123", "field": "idcard", "value": "1143T319910328913X", "truth": "11437319910328913X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0123", "field": "idcard", "value": "114373910328913", "truth": "11437319910328913X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0123", "field": "idcard", "value": "1143731991-03-28913X", "truth": "11437319910328913X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0123", "field": "idcard", "value": "证件号：11437319910328913X", "truth": "11437319910328913X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0124", "field": "idcard", "value": "11810819　7704060628", "truth": "118108197704060628", "perturbation": "space", "split": "train"}
+{"id": "idcard-0124", "field": "idcard", "value": "11810819770406062B", "truth": "118108197704060628", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0124", "field": "idcard", "value": "118108770406062", "truth": "118108197704060628", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0124", "field": "idcard", "value": "1181081977-04-060628", "truth": "118108197704060628", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0124", "field": "idcard", "value": "118108197704060628（本人）", "truth": "118108197704060628", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0125", "field": "idcard", "value": "11352819720 8170038", "truth": "113528197208170038", "perturbation": "space", "split": "train"}
+{"id": "idcard-0125", "field": "idcard", "value": "1135281q7208170038", "truth": "113528197208170038", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0125", "field": "idcard", "value": "113528720817003", "truth": "113528197208170038", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0125", "field": "idcard", "value": "1135281972-08-170038", "truth": "113528197208170038", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0125", "field": "idcard", "value": "113528197208170038。", "truth": "113528197208170038", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0126", "field": "idcard", "value": "112641197705248　444", "truth": "112641197705248444", "perturbation": "space", "split": "train"}
+{"id": "idcard-0126", "field": "idcard", "value": "11Z641197705248444", "truth": "112641197705248444", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0126", "field": "idcard", "value": "112641770524844", "truth": "112641197705248444", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0126", "field": "idcard", "value": "1126411977-05-248444", "truth": "112641197705248444", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0126", "field": "idcard", "value": "身份证号：112641197705248444", "truth": "112641197705248444", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0127", "field": "idcard", "value": "1 18616199811281262", "truth": "118616199811281262", "perturbation": "space", "split": "train"}
+{"id": "idcard-0127", "field": "idcard", "value": "118616199811Z81262", "truth": "118616199811281262", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0127", "field": "idcard", "value": "118616981128126", "truth": "118616199811281262", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0127", "field": "idcard", "value": "1186161998-11-281262", "truth": "118616199811281262", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0127", "field": "idcard", "value": "118616199811281262。", "truth": "118616199811281262", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0128", "field": "idcard", "value": "112826197712011　338", "truth": "112826197712011338", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0128", "field": "idcard", "value": "1128261977120l1338", "truth": "112826197712011338", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0128", "field": "idcard", "value": "112826771201133", "truth": "112826197712011338", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0128", "field": "idcard", "value": "1128261977-12-011338", "truth": "112826197712011338", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0128", "field": "idcard", "value": "112826197712011338（本人）", "truth": "112826197712011338", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0129", "field": "idcard", "value": "1113 30197809063341", "truth": "111330197809063341", "perturbation": "space", "split": "train"}
+{"id": "idcard-0129", "field": "idcard", "value": "111330197809O63341", "truth": "111330197809063341", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0129", "field": "idcard", "value": "111330780906334", "truth": "111330197809063341", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0129", "field": "idcard", "value": "1113301978-09-063341", "truth": "111330197809063341", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0129", "field": "idcard", "value": "身份证号：111330197809063341", "truth": "111330197809063341", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0130", "field": "idcard", "value": "1 11233199606276032", "truth": "111233199606276032", "perturbation": "space", "split": "train"}
+{"id": "idcard-0130", "field": "idcard", "value": "111233l99606276032", "truth": "111233199606276032", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0130", "field": "idcard", "value": "111233960627603", "truth": "111233199606276032", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0130", "field": "idcard", "value": "1112331996-06-276032", "truth": "111233199606276032", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0130", "field": "idcard", "value": "111233199606276032。", "truth": "111233199606276032", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0131", "field": "idcard", "value": "1160561983112293　39", "truth": "116056198311229339", "perturbation": "space", "split": "train"}
+{"id": "idcard-0131", "field": "idcard", "value": "116056198311Z29339", "truth": "116056198311229339", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0131", "field": "idcard", "value": "116056831122933", "truth": "116056198311229339", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0131", "field": "idcard", "value": "1160561983-11-229339", "truth": "116056198311229339", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0131", "field": "idcard", "value": "116056198311229339（复印件）", "truth": "116056198311229339", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0132", "field": "idcard", "value": "1136551 98810285937", "truth": "113655198810285937", "perturbation": "space", "split": "train"}
+{"id": "idcard-0132", "field": "idcard", "value": "11365S198810285937", "truth": "113655198810285937", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0132", "field": "idcard", "value": "113655881028593", "truth": "113655198810285937", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0132", "field": "idcard", "value": "1136551988-10-285937", "truth": "113655198810285937", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0132", "field": "idcard", "value": "身份证号：113655198810285937", "truth": "113655198810285937", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0133", "field": "idcard", "value": "1179　63197505035195", "truth": "117963197505035195", "perturbation": "space", "split": "train"}
+{"id": "idcard-0133", "field": "idcard", "value": "1179631975O5035195", "truth": "117963197505035195", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0133", "field": "idcard", "value": "117963750503519", "truth": "117963197505035195", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0133", "field": "idcard", "value": "1179631975-05-035195", "truth": "117963197505035195", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0133", "field": "idcard", "value": "117963197505035195（复印件）", "truth": "117963197505035195", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0134", "field": "idcard", "value": "1117491983　02273290", "truth": "111749198302273290", "perturbation": "space", "split": "train"}
+{"id": "idcard-0134", "field": "idcard", "value": "11174q198302273290", "truth": "111749198302273290", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0134", "field": "idcard", "value": "111749830227329", "truth": "111749198302273290", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0134", "field": "idcard", "value": "1117491983-02-273290", "truth": "111749198302273290", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0134", "field": "idcard", "value": "111749198302273290。", "truth": "111749198302273290", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0135", "field": "idcard", "value": "111 522198706122666", "truth": "111522198706122666", "perturbation": "space", "split": "train"}
+{"id": "idcard-0135", "field": "idcard", "value": "111522198706l22666", "truth": "111522198706122666", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0135", "field": "idcard", "value": "111522870612266", "truth": "111522198706122666", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0135", "field": "idcard", "value": "1115221987-06-122666", "truth": "111522198706122666", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0135", "field": "idcard", "value": "证件号：111522198706122666", "truth": "111522198706122666", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0136", "field": "idcard", "value": "1135501976012　78085", "truth": "113550197601278085", "perturbation": "space", "split": "train"}
+{"id": "idcard-0136", "field": "idcard", "value": "113550197G01278085", "truth": "113550197601278085", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0136", "field": "idcard", "value": "113550760127808", "truth": "113550197601278085", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0136", "field": "idcard", "value": "1135501976-01-278085", "truth": "113550197601278085", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0136", "field": "idcard", "value": "身份证号：113550197601278085", "truth": "113550197601278085", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0137", "field": "idcard", "value": "1196941996022228 99", "truth": "119694199602222899", "perturbation": "space", "split": "train"}
+{"id": "idcard-0137", "field": "idcard", "value": "11969A199602222899", "truth": "119694199602222899", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0137", "field": "idcard", "value": "119694960222289", "truth": "119694199602222899", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0137", "field": "idcard", "value": "1196941996-02-222899", "truth": "119694199602222899", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0137", "field": "idcard", "value": "身份证:119694199602222899", "truth": "119694199602222899", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0138", "field": "idcard", "value": "117919199 411198763", "truth": "117919199411198763", "perturbation": "space", "split": "train"}
+{"id": "idcard-0138", "field": "idcard", "value": "11791919941119876E", "truth": "117919199411198763", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0138", "field": "idcard", "value": "117919941119876", "truth": "117919199411198763", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0138", "field": "idcard", "value": "1179191994-11-198763", "truth": "117919199411198763", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0138", "field": "idcard", "value": "身份证号：117919199411198763", "truth": "117919199411198763", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0139", "field": "idcard", "value": "1115091989062287　12", "truth": "111509198906228712", "perturbation": "space", "split": "train"}
+{"id": "idcard-0139", "field": "idcard", "value": "1115O9198906228712", "truth": "111509198906228712", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0139", "field": "idcard", "value": "111509890622871", "truth": "111509198906228712", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0139", "field": "idcard", "value": "1115091989-06-228712", "truth": "111509198906228712", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0139", "field": "idcard", "value": "身份证号：111509198906228712", "truth": "111509198906228712", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0140", "field": "idcard", "value": "11 4393198004031441", "truth": "114393198004031441", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0140", "field": "idcard", "value": "11439E198004031441", "truth": "114393198004031441", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0140", "field": "idcard", "value": "114393800403144", "truth": "114393198004031441", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0140", "field": "idcard", "value": "1143931980-04-031441", "truth": "114393198004031441", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0140", "field": "idcard", "value": "114393198004031441（本人）", "truth": "114393198004031441", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0141", "field": "idcard", "value": "11934219871115　0380", "truth": "119342198711150380", "perturbation": "space", "split": "train"}
+{"id": "idcard-0141", "field": "idcard", "value": "11934219871115O380", "truth": "119342198711150380", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0141", "field": "idcard", "value": "119342871115038", "truth": "119342198711150380", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0141", "field": "idcard", "value": "1193421987-11-150380", "truth": "119342198711150380", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0141", "field": "idcard", "value": "119342198711150380（本人）", "truth": "119342198711150380", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0142", "field": "idcard", "value": "1145511970090　48325", "truth": "114551197009048325", "perturbation": "space", "split": "train"}
+{"id": "idcard-0142", "field": "idcard", "value": "1l4551197009048325", "truth": "114551197009048325", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0142", "field": "idcard", "value": "114551700904832", "truth": "114551197009048325", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0142", "field": "idcard", "value": "1145511970-09-048325", "truth": "114551197009048325", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0142", "field": "idcard", "value": "114551197009048325（本人）", "truth": "114551197009048325", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0143", "field": "idcard", "value": "114692197702 243033", "truth": "114692197702243033", "perturbation": "space", "split": "train"}
+{"id": "idcard-0143", "field": "idcard", "value": "1146q2197702243033", "truth": "114692197702243033", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0143", "field": "idcard", "value": "114692770224303", "truth": "114692197702243033", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0143", "field": "idcard", "value": "1146921977-02-243033", "truth": "114692197702243033", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0143", "field": "idcard", "value": "114692197702243033。", "truth": "114692197702243033", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0144", "field": "idcard", "value": "11 8755198210276607", "truth": "118755198210276607", "perturbation": "space", "split": "train"}
+{"id": "idcard-0144", "field": "idcard", "value": "118755198210Z76607", "truth": "118755198210276607", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0144", "field": "idcard", "value": "118755821027660", "truth": "118755198210276607", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0144", "field": "idcard", "value": "1187551982-10-276607", "truth": "118755198210276607", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0144", "field": "idcard", "value": "118755198210276607。", "truth": "118755198210276607", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0145", "field": "idcard", "value": "1145921994 09183186", "truth": "114592199409183186", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0145", "field": "idcard", "value": "1145921q9409183186", "truth": "114592199409183186", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0145", "field": "idcard", "value": "114592940918318", "truth": "114592199409183186", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0145", "field": "idcard", "value": "1145921994-09-183186", "truth": "114592199409183186", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0145", "field": "idcard", "value": "114592199409183186。", "truth": "114592199409183186", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0146", "field": "idcard", "value": "11050119860107700　X", "truth": "11050119860107700X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0146", "field": "idcard", "value": "11050119860l07700X", "truth": "11050119860107700X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0146", "field": "idcard", "value": "110501860107700", "truth": "11050119860107700X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0146", "field": "idcard", "value": "1105011986-01-07700X", "truth": "11050119860107700X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0146", "field": "idcard", "value": "身份证:11050119860107700X", "truth": "11050119860107700X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0147", "field": "idcard", "value": "11292419 8501077350", "truth": "112924198501077350", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0147", "field": "idcard", "value": "1129241q8501077350", "truth": "112924198501077350", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0147", "field": "idcard", "value": "112924850107735", "truth": "112924198501077350", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0147", "field": "idcard", "value": "1129241985-01-077350", "truth": "112924198501077350", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0147", "field": "idcard", "value": "身份证:112924198501077350", "truth": "112924198501077350", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0148", "field": "idcard", "value": "1144831 97912036721", "truth": "114483197912036721", "perturbation": "space", "split": "train"}
+{"id": "idcard-0148", "field": "idcard", "value": "114483197912O36721", "truth": "114483197912036721", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0148", "field": "idcard", "value": "114483791203672", "truth": "114483197912036721", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0148", "field": "idcard", "value": "1144831979-12-036721", "truth": "114483197912036721", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0148", "field": "idcard", "value": "证件号：114483197912036721", "truth": "114483197912036721", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0149", "field": "idcard", "value": "11989919 7109052471", "truth": "119899197109052471", "perturbation": "space", "split": "train"}
+{"id": "idcard-0149", "field": "idcard", "value": "1l9899197109052471", "truth": "119899197109052471", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0149", "field": "idcard", "value": "119899710905247", "truth": "119899197109052471", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0149", "field": "idcard", "value": "1198991971-09-052471", "truth": "119899197109052471", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0149", "field": "idcard", "value": "119899197109052471。", "truth": "119899197109052471", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0150", "field": "idcard", "value": "112 168198210078401", "truth": "112168198210078401", "perturbation": "space", "split": "train"}
+{"id": "idcard-0150", "field": "idcard", "value": "112l68198210078401", "truth": "112168198210078401", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0150", "field": "idcard", "value": "112168821007840", "truth": "112168198210078401", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0150", "field": "idcard", "value": "1121681982-10-078401", "truth": "112168198210078401", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0150", "field": "idcard", "value": "112168198210078401（本人）", "truth": "112168198210078401", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0151", "field": "idcard", "value": "11004919810725　9574", "truth": "110049198107259574", "perturbation": "space", "split": "train"}
+{"id": "idcard-0151", "field": "idcard", "value": "1100A9198107259574", "truth": "110049198107259574", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0151", "field": "idcard", "value": "110049810725957", "truth": "110049198107259574", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0151", "field": "idcard", "value": "1100491981-07-259574", "truth": "110049198107259574", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0151", "field": "idcard", "value": "身份证:110049198107259574", "truth": "110049198107259574", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0152", "field": "idcard", "value": "1192061984100　71602", "truth": "119206198410071602", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0152", "field": "idcard", "value": "119Z06198410071602", "truth": "119206198410071602", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0152", "field": "idcard", "value": "119206841007160", "truth": "119206198410071602", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0152", "field": "idcard", "value": "1192061984-10-071602", "truth": "119206198410071602", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0152", "field": "idcard", "value": "证件号：119206198410071602", "truth": "119206198410071602", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0153", "field": "idcard", "value": "11352819 890717274X", "truth": "11352819890717274X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0153", "field": "idcard", "value": "113528198q0717274X", "truth": "11352819890717274X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0153", "field": "idcard", "value": "113528890717274", "truth": "11352819890717274X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0153", "field": "idcard", "value": "1135281989-07-17274X", "truth": "11352819890717274X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0153", "field": "idcard", "value": "身份证号：11352819890717274X", "truth": "11352819890717274X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0154", "field": "idcard", "value": "11570219 9110232382", "truth": "115702199110232382", "perturbation": "space", "split": "train"}
+{"id": "idcard-0154", "field": "idcard", "value": "1157021991l0232382", "truth": "115702199110232382", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0154", "field": "idcard", "value": "115702911023238", "truth": "115702199110232382", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0154", "field": "idcard", "value": "1157021991-10-232382", "truth": "115702199110232382", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0154", "field": "idcard", "value": "证件号：115702199110232382", "truth": "115702199110232382", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0155", "field": "idcard", "value": "11822019 9606217141", "truth": "118220199606217141", "perturbation": "space", "split": "train"}
+{"id": "idcard-0155", "field": "idcard", "value": "11822019q606217141", "truth": "118220199606217141", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0155", "field": "idcard", "value": "118220960621714", "truth": "118220199606217141", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0155", "field": "idcard", "value": "1182201996-06-217141", "truth": "118220199606217141", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0155", "field": "idcard", "value": "证件号：118220199606217141", "truth": "118220199606217141", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0156", "field": "idcard", "value": "11904819890126　4700", "truth": "119048198901264700", "perturbation": "space", "split": "train"}
+{"id": "idcard-0156", "field": "idcard", "value": "1190481989O1264700", "truth": "119048198901264700", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0156", "field": "idcard", "value": "119048890126470", "truth": "119048198901264700", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0156", "field": "idcard", "value": "1190481989-01-264700", "truth": "119048198901264700", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0156", "field": "idcard", "value": "身份证号：119048198901264700", "truth": "119048198901264700", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0157", "field": "idcard", "value": "1188071999010482　07", "truth": "118807199901048207", "perturbation": "space", "split": "train"}
+{"id": "idcard-0157", "field": "idcard", "value": "l18807199901048207", "truth": "118807199901048207", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0157", "field": "idcard", "value": "118807990104820", "truth": "118807199901048207", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0157", "field": "idcard", "value": "1188071999-01-048207", "truth": "118807199901048207", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0157", "field": "idcard", "value": "身份证:118807199901048207", "truth": "118807199901048207", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0158", "field": "idcard", "value": "110460197 405026133", "truth": "110460197405026133", "perturbation": "space", "split": "train"}
+{"id": "idcard-0158", "field": "idcard", "value": "1104601974050Z6133", "truth": "110460197405026133", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0158", "field": "idcard", "value": "110460740502613", "truth": "110460197405026133", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0158", "field": "idcard", "value": "1104601974-05-026133", "truth": "110460197405026133", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0158", "field": "idcard", "value": "证件号：110460197405026133", "truth": "110460197405026133", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0159", "field": "idcard", "value": "1165051 97810248596", "truth": "116505197810248596", "perturbation": "space", "split": "train"}
+{"id": "idcard-0159", "field": "idcard", "value": "11G505197810248596", "truth": "116505197810248596", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0159", "field": "idcard", "value": "116505781024859", "truth": "116505197810248596", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0159", "field": "idcard", "value": "1165051978-10-248596", "truth": "116505197810248596", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0159", "field": "idcard", "value": "身份证号：116505197810248596", "truth": "116505197810248596", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0160", "field": "idcard", "value": "11560819911201977　2", "truth": "115608199112019772", "perturbation": "space", "split": "train"}
+{"id": "idcard-0160", "field": "idcard", "value": "115608199l12019772", "truth": "115608199112019772", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0160", "field": "idcard", "value": "115608911201977", "truth": "115608199112019772", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0160", "field": "idcard", "value": "1156081991-12-019772", "truth": "115608199112019772", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0160", "field": "idcard", "value": "115608199112019772（复印件）", "truth": "115608199112019772", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0161", "field": "idcard", "value": "119601198101053　873", "truth": "119601198101053873", "perturbation": "space", "split": "train"}
+{"id": "idcard-0161", "field": "idcard", "value": "119601l98101053873", "truth": "119601198101053873", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0161", "field": "idcard", "value": "119601810105387", "truth": "119601198101053873", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0161", "field": "idcard", "value": "1196011981-01-053873", "truth": "119601198101053873", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0161", "field": "idcard", "value": "身份证号：119601198101053873", "truth": "119601198101053873", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0162", "field": "idcard", "value": "11164319920　9081586", "truth": "111643199209081586", "perturbation": "space", "split": "train"}
+{"id": "idcard-0162", "field": "idcard", "value": "11164319q209081586", "truth": "111643199209081586", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0162", "field": "idcard", "value": "111643920908158", "truth": "111643199209081586", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0162", "field": "idcard", "value": "1116431992-09-081586", "truth": "111643199209081586", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0162", "field": "idcard", "value": "111643199209081586。", "truth": "111643199209081586", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0163", "field": "idcard", "value": "112178197603162 960", "truth": "112178197603162960", "perturbation": "space", "split": "train"}
+{"id": "idcard-0163", "field": "idcard", "value": "11217819760316296O", "truth": "112178197603162960", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0163", "field": "idcard", "value": "112178760316296", "truth": "112178197603162960", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0163", "field": "idcard", "value": "1121781976-03-162960", "truth": "112178197603162960", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0163", "field": "idcard", "value": "身份证:112178197603162960", "truth": "112178197603162960", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0164", "field": "idcard", "value": "11885919 8501150802", "truth": "118859198501150802", "perturbation": "space", "split": "train"}
+{"id": "idcard-0164", "field": "idcard", "value": "l18859198501150802", "truth": "118859198501150802", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0164", "field": "idcard", "value": "118859850115080", "truth": "118859198501150802", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0164", "field": "idcard", "value": "1188591985-01-150802", "truth": "118859198501150802", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0164", "field": "idcard", "value": "118859198501150802。", "truth": "118859198501150802", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0165", "field": "idcard", "value": "1 14360197312268668", "truth": "114360197312268668", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0165", "field": "idcard", "value": "11436O197312268668", "truth": "114360197312268668", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0165", "field": "idcard", "value": "114360731226866", "truth": "114360197312268668", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0165", "field": "idcard", "value": "1143601973-12-268668", "truth": "114360197312268668", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0165", "field": "idcard", "value": "114360197312268668。", "truth": "114360197312268668", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0166", "field": "idcard", "value": "112161199410184 399", "truth": "112161199410184399", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0166", "field": "idcard", "value": "l12161199410184399", "truth": "112161199410184399", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0166", "field": "idcard", "value": "112161941018439", "truth": "112161199410184399", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0166", "field": "idcard", "value": "1121611994-10-184399", "truth": "112161199410184399", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0166", "field": "idcard", "value": "证件号：112161199410184399", "truth": "112161199410184399", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0167", "field": "idcard", "value": "118645 199210107447", "truth": "118645199210107447", "perturbation": "space", "split": "train"}
+{"id": "idcard-0167", "field": "idcard", "value": "11864519921O107447", "truth": "118645199210107447", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0167", "field": "idcard", "value": "118645921010744", "truth": "118645199210107447", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0167", "field": "idcard", "value": "1186451992-10-107447", "truth": "118645199210107447", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0167", "field": "idcard", "value": "118645199210107447（复印件）", "truth": "118645199210107447", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0168", "field": "idcard", "value": "11363019790519940　7", "truth": "113630197905199407", "perturbation": "space", "split": "train"}
+{"id": "idcard-0168", "field": "idcard", "value": "11363019T905199407", "truth": "113630197905199407", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0168", "field": "idcard", "value": "113630790519940", "truth": "113630197905199407", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0168", "field": "idcard", "value": "1136301979-05-199407", "truth": "113630197905199407", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0168", "field": "idcard", "value": "证件号：113630197905199407", "truth": "113630197905199407", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0169", "field": "idcard", "value": "11217219840715132 0", "truth": "112172198407151320", "perturbation": "space", "split": "train"}
+{"id": "idcard-0169", "field": "idcard", "value": "l12172198407151320", "truth": "112172198407151320", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0169", "field": "idcard", "value": "112172840715132", "truth": "112172198407151320", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0169", "field": "idcard", "value": "1121721984-07-151320", "truth": "112172198407151320", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0169", "field": "idcard", "value": "身份证:112172198407151320", "truth": "112172198407151320", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0170", "field": "idcard", "value": "1133501974070233　79", "truth": "113350197407023379", "perturbation": "space", "split": "train"}
+{"id": "idcard-0170", "field": "idcard", "value": "11335O197407023379", "truth": "113350197407023379", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0170", "field": "idcard", "value": "113350740702337", "truth": "113350197407023379", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0170", "field": "idcard", "value": "1133501974-07-023379", "truth": "113350197407023379", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0170", "field": "idcard", "value": "证件号：113350197407023379", "truth": "113350197407023379", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0171", "field": "idcard", "value": "1164 94197903258374", "truth": "116494197903258374", "perturbation": "space", "split": "train"}
+{"id": "idcard-0171", "field": "idcard", "value": "11649A197903258374", "truth": "116494197903258374", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0171", "field": "idcard", "value": "116494790325837", "truth": "116494197903258374", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0171", "field": "idcard", "value": "1164941979-03-258374", "truth": "116494197903258374", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0171", "field": "idcard", "value": "身份证:116494197903258374", "truth": "116494197903258374", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0172", "field": "idcard", "value": "119308199203　027978", "truth": "119308199203027978", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0172", "field": "idcard", "value": "1193081992O3027978", "truth": "119308199203027978", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0172", "field": "idcard", "value": "119308920302797", "truth": "119308199203027978", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0172", "field": "idcard", "value": "1193081992-03-027978", "truth": "119308199203027978", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0172", "field": "idcard", "value": "119308199203027978（本人）", "truth": "119308199203027978", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0173", "field": "idcard", "value": "11481419910226 8860", "truth": "114814199102268860", "perturbation": "space", "split": "train"}
+{"id": "idcard-0173", "field": "idcard", "value": "1148141q9102268860", "truth": "114814199102268860", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0173", "field": "idcard", "value": "114814910226886", "truth": "114814199102268860", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0173", "field": "idcard", "value": "1148141991-02-268860", "truth": "114814199102268860", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0173", "field": "idcard", "value": "114814199102268860。", "truth": "114814199102268860", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0174", "field": "idcard", "value": "1125　83199103118359", "truth": "112583199103118359", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0174", "field": "idcard", "value": "11Z583199103118359", "truth": "112583199103118359", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0174", "field": "idcard", "value": "112583910311835", "truth": "112583199103118359", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0174", "field": "idcard", "value": "1125831991-03-118359", "truth": "112583199103118359", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0174", "field": "idcard", "value": "证件号：112583199103118359", "truth": "112583199103118359", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0175", "field": "idcard", "value": "11716419740106113　X", "truth": "11716419740106113X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0175", "field": "idcard", "value": "11716419740106l13X", "truth": "11716419740106113X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0175", "field": "idcard", "value": "117164740106113", "truth": "11716419740106113X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0175", "field": "idcard", "value": "1171641974-01-06113X", "truth": "11716419740106113X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0175", "field": "idcard", "value": "身份证号：11716419740106113X", "truth": "11716419740106113X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0176", "field": "idcard", "value": "111067199　807242077", "truth": "111067199807242077", "perturbation": "space", "split": "train"}
+{"id": "idcard-0176", "field": "idcard", "value": "111067l99807242077", "truth": "111067199807242077", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0176", "field": "idcard", "value": "111067980724207", "truth": "111067199807242077", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0176", "field": "idcard", "value": "1110671998-07-242077", "truth": "111067199807242077", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0176", "field": "idcard", "value": "111067199807242077。", "truth": "111067199807242077", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0177", "field": "idcard", "value": "1154　33197301230493", "truth": "115433197301230493", "perturbation": "space", "split": "train"}
+{"id": "idcard-0177", "field": "idcard", "value": "115433197301Z30493", "truth": "115433197301230493", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0177", "field": "idcard", "value": "115433730123049", "truth": "115433197301230493", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0177", "field": "idcard", "value": "1154331973-01-230493", "truth": "115433197301230493", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0177", "field": "idcard", "value": "证件号：115433197301230493", "truth": "115433197301230493", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0178", "field": "idcard", "value": "1165061997 0513180X", "truth": "11650619970513180X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0178", "field": "idcard", "value": "1165061997051E180X", "truth": "11650619970513180X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0178", "field": "idcard", "value": "116506970513180", "truth": "11650619970513180X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0178", "field": "idcard", "value": "1165061997-05-13180X", "truth": "11650619970513180X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0178", "field": "idcard", "value": "11650619970513180X。", "truth": "11650619970513180X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0179", "field": "idcard", "value": "1153641989101　12293", "truth": "115364198910112293", "perturbation": "space", "split": "train"}
+{"id": "idcard-0179", "field": "idcard", "value": "1153641q8910112293", "truth": "115364198910112293", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0179", "field": "idcard", "value": "115364891011229", "truth": "115364198910112293", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0179", "field": "idcard", "value": "1153641989-10-112293", "truth": "115364198910112293", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0179", "field": "idcard", "value": "115364198910112293（复印件）", "truth": "115364198910112293", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0180", "field": "idcard", "value": "116　066198811093987", "truth": "116066198811093987", "perturbation": "space", "split": "train"}
+{"id": "idcard-0180", "field": "idcard", "value": "116O66198811093987", "truth": "116066198811093987", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0180", "field": "idcard", "value": "116066881109398", "truth": "116066198811093987", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0180", "field": "idcard", "value": "1160661988-11-093987", "truth": "116066198811093987", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0180", "field": "idcard", "value": "116066198811093987。", "truth": "116066198811093987", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0181", "field": "idcard", "value": "11825319960513510 9", "truth": "118253199605135109", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0181", "field": "idcard", "value": "1182531996051E5109", "truth": "118253199605135109", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0181", "field": "idcard", "value": "118253960513510", "truth": "118253199605135109", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0181", "field": "idcard", "value": "1182531996-05-135109", "truth": "118253199605135109", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0181", "field": "idcard", "value": "118253199605135109。", "truth": "118253199605135109", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0182", "field": "idcard", "value": "1 13435199008212624", "truth": "113435199008212624", "perturbation": "space", "split": "train"}
+{"id": "idcard-0182", "field": "idcard", "value": "113435199008Z12624", "truth": "113435199008212624", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0182", "field": "idcard", "value": "113435900821262", "truth": "113435199008212624", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0182", "field": "idcard", "value": "1134351990-08-212624", "truth": "113435199008212624", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0182", "field": "idcard", "value": "身份证:113435199008212624", "truth": "113435199008212624", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0183", "field": "idcard", "value": "1100111991010　88538", "truth": "110011199101088538", "perturbation": "space", "split": "train"}
+{"id": "idcard-0183", "field": "idcard", "value": "1100l1199101088538", "truth": "110011199101088538", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0183", "field": "idcard", "value": "110011910108853", "truth": "110011199101088538", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0183", "field": "idcard", "value": "1100111991-01-088538", "truth": "110011199101088538", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0183", "field": "idcard", "value": "证件号：110011199101088538", "truth": "110011199101088538", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0184", "field": "idcard", "value": "1156161980101317 0X", "truth": "11561619801013170X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0184", "field": "idcard", "value": "11561619801013l70X", "truth": "11561619801013170X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0184", "field": "idcard", "value": "115616801013170", "truth": "11561619801013170X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0184", "field": "idcard", "value": "1156161980-10-13170X", "truth": "11561619801013170X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0184", "field": "idcard", "value": "11561619801013170X（复印件）", "truth": "11561619801013170X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0185", "field": "idcard", "value": "110769 197501136192", "truth": "110769197501136192", "perturbation": "space", "split": "train"}
+{"id": "idcard-0185", "field": "idcard", "value": "110769197S01136192", "truth": "110769197501136192", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0185", "field": "idcard", "value": "110769750113619", "truth": "110769197501136192", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0185", "field": "idcard", "value": "1107691975-01-136192", "truth": "110769197501136192", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0185", "field": "idcard", "value": "110769197501136192。", "truth": "110769197501136192", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0186", "field": "idcard", "value": "11　5083198509124573", "truth": "115083198509124573", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0186", "field": "idcard", "value": "1150B3198509124573", "truth": "115083198509124573", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0186", "field": "idcard", "value": "115083850912457", "truth": "115083198509124573", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0186", "field": "idcard", "value": "1150831985-09-124573", "truth": "115083198509124573", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0186", "field": "idcard", "value": "115083198509124573（本人）", "truth": "115083198509124573", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0187", "field": "idcard", "value": "111　938198010136392", "truth": "111938198010136392", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0187", "field": "idcard", "value": "111938198010136E92", "truth": "111938198010136392", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0187", "field": "idcard", "value": "111938801013639", "truth": "111938198010136392", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0187", "field": "idcard", "value": "1119381980-10-136392", "truth": "111938198010136392", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0187", "field": "idcard", "value": "身份证:111938198010136392", "truth": "111938198010136392", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0188", "field": "idcard", "value": "11931919　8502165822", "truth": "119319198502165822", "perturbation": "space", "split": "train"}
+{"id": "idcard-0188", "field": "idcard", "value": "119319l98502165822", "truth": "119319198502165822", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0188", "field": "idcard", "value": "119319850216582", "truth": "119319198502165822", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0188", "field": "idcard", "value": "1193191985-02-165822", "truth": "119319198502165822", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0188", "field": "idcard", "value": "证件号：119319198502165822", "truth": "119319198502165822", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0189", "field": "idcard", "value": "114411 197112184556", "truth": "114411197112184556", "perturbation": "space", "split": "train"}
+{"id": "idcard-0189", "field": "idcard", "value": "114411l97112184556", "truth": "114411197112184556", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0189", "field": "idcard", "value": "114411711218455", "truth": "114411197112184556", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0189", "field": "idcard", "value": "1144111971-12-184556", "truth": "114411197112184556", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0189", "field": "idcard", "value": "证件号：114411197112184556", "truth": "114411197112184556", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0190", "field": "idcard", "value": "114957198311　109736", "truth": "114957198311109736", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0190", "field": "idcard", "value": "l14957198311109736", "truth": "114957198311109736", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0190", "field": "idcard", "value": "114957831110973", "truth": "114957198311109736", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0190", "field": "idcard", "value": "1149571983-11-109736", "truth": "114957198311109736", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0190", "field": "idcard", "value": "身份证:114957198311109736", "truth": "114957198311109736", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0191", "field": "idcard", "value": "11　216219850907372X", "truth": "11216219850907372X", "perturbation": "space", "split": "train"}
+{"id": "idcard-0191", "field": "idcard", "value": "112162198S0907372X", "truth": "11216219850907372X", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0191", "field": "idcard", "value": "112162850907372", "truth": "11216219850907372X", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0191", "field": "idcard", "value": "1121621985-09-07372X", "truth": "11216219850907372X", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0191", "field": "idcard", "value": "11216219850907372X。", "truth": "11216219850907372X", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0192", "field": "idcard", "value": "1175591992072631　25", "truth": "117559199207263125", "perturbation": "space", "split": "train"}
+{"id": "idcard-0192", "field": "idcard", "value": "11755919920726E125", "truth": "117559199207263125", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0192", "field": "idcard", "value": "117559920726312", "truth": "117559199207263125", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0192", "field": "idcard", "value": "1175591992-07-263125", "truth": "117559199207263125", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0192", "field": "idcard", "value": "身份证号：117559199207263125", "truth": "117559199207263125", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0193", "field": "idcard", "value": "1166181973082827 88", "truth": "116618197308282788", "perturbation": "space", "split": "train"}
+{"id": "idcard-0193", "field": "idcard", "value": "116618197E08282788", "truth": "116618197308282788", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0193", "field": "idcard", "value": "116618730828278", "truth": "116618197308282788", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0193", "field": "idcard", "value": "1166181973-08-282788", "truth": "116618197308282788", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0193", "field": "idcard", "value": "身份证:116618197308282788", "truth": "116618197308282788", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0194", "field": "idcard", "value": "11105719 9009274258", "truth": "111057199009274258", "perturbation": "space", "split": "train"}
+{"id": "idcard-0194", "field": "idcard", "value": "1110571990092T4258", "truth": "111057199009274258", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0194", "field": "idcard", "value": "111057900927425", "truth": "111057199009274258", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0194", "field": "idcard", "value": "1110571990-09-274258", "truth": "111057199009274258", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0194", "field": "idcard", "value": "身份证:111057199009274258", "truth": "111057199009274258", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0195", "field": "idcard", "value": "11548719840105689 5", "truth": "115487198401056895", "perturbation": "space", "split": "heldout"}
+{"id": "idcard-0195", "field": "idcard", "value": "11548719B401056895", "truth": "115487198401056895", "perturbation": "typo", "split": "heldout"}
+{"id": "idcard-0195", "field": "idcard", "value": "115487840105689", "truth": "115487198401056895", "perturbation": "abbrev", "split": "heldout"}
+{"id": "idcard-0195", "field": "idcard", "value": "1154871984-01-056895", "truth": "115487198401056895", "perturbation": "sep", "split": "heldout"}
+{"id": "idcard-0195", "field": "idcard", "value": "115487198401056895。", "truth": "115487198401056895", "perturbation": "noise", "split": "heldout"}
+{"id": "idcard-0196", "field": "idcard", "value": "11678019990525396 1", "truth": "116780199905253961", "perturbation": "space", "split": "train"}
+{"id": "idcard-0196", "field": "idcard", "value": "116780199905Z53961", "truth": "116780199905253961", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0196", "field": "idcard", "value": "116780990525396", "truth": "116780199905253961", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0196", "field": "idcard", "value": "1167801999-05-253961", "truth": "116780199905253961", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0196", "field": "idcard", "value": "116780199905253961。", "truth": "116780199905253961", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0197", "field": "idcard", "value": "11796419831 2280638", "truth": "117964198312280638", "perturbation": "space", "split": "train"}
+{"id": "idcard-0197", "field": "idcard", "value": "11796A198312280638", "truth": "117964198312280638", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0197", "field": "idcard", "value": "117964831228063", "truth": "117964198312280638", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0197", "field": "idcard", "value": "1179641983-12-280638", "truth": "117964198312280638", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0197", "field": "idcard", "value": "身份证号：117964198312280638", "truth": "117964198312280638", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0198", "field": "idcard", "value": "116381197107224 184", "truth": "116381197107224184", "perturbation": "space", "split": "train"}
+{"id": "idcard-0198", "field": "idcard", "value": "1163811971O7224184", "truth": "116381197107224184", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0198", "field": "idcard", "value": "116381710722418", "truth": "116381197107224184", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0198", "field": "idcard", "value": "1163811971-07-224184", "truth": "116381197107224184", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0198", "field": "idcard", "value": "身份证号：116381197107224184", "truth": "116381197107224184", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0199", "field": "idcard", "value": "11　2209197311241889", "truth": "112209197311241889", "perturbation": "space", "split": "train"}
+{"id": "idcard-0199", "field": "idcard", "value": "11220919731l241889", "truth": "112209197311241889", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0199", "field": "idcard", "value": "112209731124188", "truth": "112209197311241889", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0199", "field": "idcard", "value": "1122091973-11-241889", "truth": "112209197311241889", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0199", "field": "idcard", "value": "证件号：112209197311241889", "truth": "112209197311241889", "perturbation": "noise", "split": "train"}
+{"id": "idcard-0200", "field": "idcard", "value": "11805419770514389　0", "truth": "118054197705143890", "perturbation": "space", "split": "train"}
+{"id": "idcard-0200", "field": "idcard", "value": "1180541977O5143890", "truth": "118054197705143890", "perturbation": "typo", "split": "train"}
+{"id": "idcard-0200", "field": "idcard", "value": "118054770514389", "truth": "118054197705143890", "perturbation": "abbrev", "split": "train"}
+{"id": "idcard-0200", "field": "idcard", "value": "1180541977-05-143890", "truth": "118054197705143890", "perturbation": "sep", "split": "train"}
+{"id": "idcard-0200", "field": "idcard", "value": "118054197705143890。", "truth": "118054197705143890", "perturbation": "noise", "split": "train"}

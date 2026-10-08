@@ -1,0 +1,1000 @@
+{"id": "email-0001", "field": "email", "value": "a232zxb3s@ 139.com", "truth": "a232zxb3s@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0001", "field": "email", "value": "a232zx83s@139.com", "truth": "a232zxb3s@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0001", "field": "email", "value": "a232zxb3s@139.co", "truth": "a232zxb3s@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0001", "field": "email", "value": "a232zx_b3s@139.com", "truth": "a232zxb3s@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0001", "field": "email", "value": "Email:a232zxb3s@139.com", "truth": "a232zxb3s@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0002", "field": "email", "value": "um7dy@ hotmail.com", "truth": "um7dy@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0002", "field": "email", "value": "um7dy@h0tmail.com", "truth": "um7dy@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0002", "field": "email", "value": "um7dy@hotmail.co", "truth": "um7dy@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0002", "field": "email", "value": "um7d.y@hotmail.com", "truth": "um7dy@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0002", "field": "email", "value": "邮箱:um7dy@hotmail.com", "truth": "um7dy@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0003", "field": "email", "value": "w0avx@ 126.com", "truth": "w0avx@126.com", "perturbation": "space", "split": "train"}
+{"id": "email-0003", "field": "email", "value": "w0avx@l26.com", "truth": "w0avx@126.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0003", "field": "email", "value": "w0avx@126.co", "truth": "w0avx@126.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0003", "field": "email", "value": "w_0avx@126.com", "truth": "w0avx@126.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0003", "field": "email", "value": "邮箱：w0avx@126.com", "truth": "w0avx@126.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0004", "field": "email", "value": "mtj7pg@ 163.com", "truth": "mtj7pg@163.com", "perturbation": "space", "split": "train"}
+{"id": "email-0004", "field": "email", "value": "mtj7pg@l63.com", "truth": "mtj7pg@163.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0004", "field": "email", "value": "mtj7pg@163", "truth": "mtj7pg@163.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0004", "field": "email", "value": "m_tj7pg@163.com", "truth": "mtj7pg@163.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0004", "field": "email", "value": "mtj7pg@163.com（常用）", "truth": "mtj7pg@163.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0005", "field": "email", "value": "sbe1hdy@ hotmail.com", "truth": "sbe1hdy@hotmail.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0005", "field": "email", "value": "sbe1hdy@hotmai1.com", "truth": "sbe1hdy@hotmail.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0005", "field": "email", "value": "sbe1hdy@hotmail", "truth": "sbe1hdy@hotmail.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0005", "field": "email", "value": "sbe1hd_y@hotmail.com", "truth": "sbe1hdy@hotmail.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0005", "field": "email", "value": "sbe1hdy@hotmail.com。", "truth": "sbe1hdy@hotmail.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0006", "field": "email", "value": "gd2fbw@ gmail.com", "truth": "gd2fbw@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0006", "field": "email", "value": "gd2fbw@6mail.com", "truth": "gd2fbw@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0006", "field": "email", "value": "gd2fbw@gmail", "truth": "gd2fbw@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0006", "field": "email", "value": "gd2fb.w@gmail.com", "truth": "gd2fbw@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0006", "field": "email", "value": "Email:gd2fbw@gmail.com", "truth": "gd2fbw@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0007", "field": "email", "value": "uizazbkr4y@ outlook.com", "truth": "uizazbkr4y@outlook.com", "perturbation": "space", "split": "train"}
+{"id": "email-0007", "field": "email", "value": "uizaz8kr4y@outlook.com", "truth": "uizazbkr4y@outlook.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0007", "field": "email", "value": "uizazbkr4y@outlook", "truth": "uizazbkr4y@outlook.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0007", "field": "email", "value": "uiz_azbkr4y@outlook.com", "truth": "uizazbkr4y@outlook.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0007", "field": "email", "value": "邮箱：uizazbkr4y@outlook.com", "truth": "uizazbkr4y@outlook.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0008", "field": "email", "value": "ge0d2qn @company.net", "truth": "ge0d2qn@company.net", "perturbation": "space", "split": "train"}
+{"id": "email-0008", "field": "email", "value": "6e0d2qn@company.net", "truth": "ge0d2qn@company.net", "perturbation": "typo", "split": "train"}
+{"id": "email-0008", "field": "email", "value": "ge0d2qn@company", "truth": "ge0d2qn@company.net", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0008", "field": "email", "value": "ge0d2.qn@company.net", "truth": "ge0d2qn@company.net", "perturbation": "sep", "split": "train"}
+{"id": "email-0008", "field": "email", "value": "ge0d2qn@company.net（常用）", "truth": "ge0d2qn@company.net", "perturbation": "noise", "split": "train"}
+{"id": "email-0009", "field": "email", "value": "szuof0178g @126.com", "truth": "szuof0178g@126.com", "perturbation": "space", "split": "train"}
+{"id": "email-0009", "field": "email", "value": "szuof01786@126.com", "truth": "szuof0178g@126.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0009", "field": "email", "value": "szuof0178g@126", "truth": "szuof0178g@126.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0009", "field": "email", "value": "szuof01_78g@126.com", "truth": "szuof0178g@126.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0009", "field": "email", "value": "szuof0178g@126.com（工作邮箱）", "truth": "szuof0178g@126.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0010", "field": "email", "value": "qg2qq85w2ny@ school.edu", "truth": "qg2qq85w2ny@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0010", "field": "email", "value": "qg2qq85w2ny@scho0l.edu", "truth": "qg2qq85w2ny@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0010", "field": "email", "value": "qg2qq85w2ny@school.ed", "truth": "qg2qq85w2ny@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0010", "field": "email", "value": "qg2qq85w2n_y@school.edu", "truth": "qg2qq85w2ny@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0010", "field": "email", "value": "qg2qq85w2ny@school.edu。", "truth": "qg2qq85w2ny@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0011", "field": "email", "value": "ghacj8gi7l @foxmail.com", "truth": "ghacj8gi7l@foxmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0011", "field": "email", "value": "ghacj8gi7l@f0xmail.com", "truth": "ghacj8gi7l@foxmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0011", "field": "email", "value": "ghacj8gi7l@foxmail.co", "truth": "ghacj8gi7l@foxmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0011", "field": "email", "value": "ghacj8gi7.l@foxmail.com", "truth": "ghacj8gi7l@foxmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0011", "field": "email", "value": "邮箱：ghacj8gi7l@foxmail.com", "truth": "ghacj8gi7l@foxmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0012", "field": "email", "value": "cg9r @189.cn", "truth": "cg9r@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0012", "field": "email", "value": "cg9r@1b9.cn", "truth": "cg9r@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0012", "field": "email", "value": "cg9r@189", "truth": "cg9r@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0012", "field": "email", "value": "cg9_r@189.cn", "truth": "cg9r@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0012", "field": "email", "value": "cg9r@189.cn（工作邮箱）", "truth": "cg9r@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0013", "field": "email", "value": "b40st @mail.cn", "truth": "b40st@mail.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0013", "field": "email", "value": "b40st@mai1.cn", "truth": "b40st@mail.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0013", "field": "email", "value": "b40st@mail", "truth": "b40st@mail.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0013", "field": "email", "value": "b40s.t@mail.cn", "truth": "b40st@mail.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0013", "field": "email", "value": "Email:b40st@mail.cn", "truth": "b40st@mail.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0014", "field": "email", "value": "i1hgffldz2e @163.com", "truth": "i1hgffldz2e@163.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0014", "field": "email", "value": "i1hgffldzze@163.com", "truth": "i1hgffldz2e@163.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0014", "field": "email", "value": "i1hgffldz2e@163", "truth": "i1hgffldz2e@163.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0014", "field": "email", "value": "i1hgffld_z2e@163.com", "truth": "i1hgffldz2e@163.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0014", "field": "email", "value": "邮箱：i1hgffldz2e@163.com", "truth": "i1hgffldz2e@163.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0015", "field": "email", "value": "qn6 @company.net", "truth": "qn6@company.net", "perturbation": "space", "split": "train"}
+{"id": "email-0015", "field": "email", "value": "qn6@c0mpany.net", "truth": "qn6@company.net", "perturbation": "typo", "split": "train"}
+{"id": "email-0015", "field": "email", "value": "qn6@company.ne", "truth": "qn6@company.net", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0015", "field": "email", "value": "q_n6@company.net", "truth": "qn6@company.net", "perturbation": "sep", "split": "train"}
+{"id": "email-0015", "field": "email", "value": "qn6@company.net。", "truth": "qn6@company.net", "perturbation": "noise", "split": "train"}
+{"id": "email-0016", "field": "email", "value": "ouko0hwm @test.org", "truth": "ouko0hwm@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0016", "field": "email", "value": "ouk00hwm@test.org", "truth": "ouko0hwm@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0016", "field": "email", "value": "ouko0hwm@test.or", "truth": "ouko0hwm@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0016", "field": "email", "value": "ou.ko0hwm@test.org", "truth": "ouko0hwm@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0016", "field": "email", "value": "ouko0hwm@test.org。", "truth": "ouko0hwm@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0017", "field": "email", "value": "fogyb3jodhr@ school.edu", "truth": "fogyb3jodhr@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0017", "field": "email", "value": "fo6yb3jodhr@school.edu", "truth": "fogyb3jodhr@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0017", "field": "email", "value": "fogyb3jodhr@school.ed", "truth": "fogyb3jodhr@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0017", "field": "email", "value": "fogyb3jo_dhr@school.edu", "truth": "fogyb3jodhr@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0017", "field": "email", "value": "邮箱：fogyb3jodhr@school.edu", "truth": "fogyb3jodhr@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0018", "field": "email", "value": "zmef6n@ 139.com", "truth": "zmef6n@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0018", "field": "email", "value": "zmef6n@l39.com", "truth": "zmef6n@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0018", "field": "email", "value": "zmef6n@139", "truth": "zmef6n@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0018", "field": "email", "value": "z_mef6n@139.com", "truth": "zmef6n@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0018", "field": "email", "value": "邮箱:zmef6n@139.com", "truth": "zmef6n@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0019", "field": "email", "value": "nutx0@ 126.com", "truth": "nutx0@126.com", "perturbation": "space", "split": "train"}
+{"id": "email-0019", "field": "email", "value": "nutx0@l26.com", "truth": "nutx0@126.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0019", "field": "email", "value": "nutx0@126", "truth": "nutx0@126.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0019", "field": "email", "value": "nut.x0@126.com", "truth": "nutx0@126.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0019", "field": "email", "value": "nutx0@126.com。", "truth": "nutx0@126.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0020", "field": "email", "value": "wdkuzc4 @163.com", "truth": "wdkuzc4@163.com", "perturbation": "space", "split": "train"}
+{"id": "email-0020", "field": "email", "value": "wdku2c4@163.com", "truth": "wdkuzc4@163.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0020", "field": "email", "value": "wdkuzc4@163", "truth": "wdkuzc4@163.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0020", "field": "email", "value": "wdkuz.c4@163.com", "truth": "wdkuzc4@163.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0020", "field": "email", "value": "wdkuzc4@163.com（工作邮箱）", "truth": "wdkuzc4@163.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0021", "field": "email", "value": "sjeybm36a@ aliyun.com", "truth": "sjeybm36a@aliyun.com", "perturbation": "space", "split": "train"}
+{"id": "email-0021", "field": "email", "value": "sjey8m36a@aliyun.com", "truth": "sjeybm36a@aliyun.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0021", "field": "email", "value": "sjeybm36a@aliyun", "truth": "sjeybm36a@aliyun.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0021", "field": "email", "value": "sjey.bm36a@aliyun.com", "truth": "sjeybm36a@aliyun.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0021", "field": "email", "value": "sjeybm36a@aliyun.com（常用）", "truth": "sjeybm36a@aliyun.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0022", "field": "email", "value": "z5cl @yahoo.com", "truth": "z5cl@yahoo.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0022", "field": "email", "value": "z5cl@yaho0.com", "truth": "z5cl@yahoo.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0022", "field": "email", "value": "z5cl@yahoo", "truth": "z5cl@yahoo.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0022", "field": "email", "value": "z_5cl@yahoo.com", "truth": "z5cl@yahoo.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0022", "field": "email", "value": "z5cl@yahoo.com（常用）", "truth": "z5cl@yahoo.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0023", "field": "email", "value": "xkgo72b0d@ hotmail.com", "truth": "xkgo72b0d@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0023", "field": "email", "value": "xkgo7280d@hotmail.com", "truth": "xkgo72b0d@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0023", "field": "email", "value": "xkgo72b0d@hotmail.co", "truth": "xkgo72b0d@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0023", "field": "email", "value": "xkg_o72b0d@hotmail.com", "truth": "xkgo72b0d@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0023", "field": "email", "value": "邮箱：xkgo72b0d@hotmail.com", "truth": "xkgo72b0d@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0024", "field": "email", "value": "olx7tkb@ school.edu", "truth": "olx7tkb@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0024", "field": "email", "value": "o1x7tkb@school.edu", "truth": "olx7tkb@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0024", "field": "email", "value": "olx7tkb@school", "truth": "olx7tkb@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0024", "field": "email", "value": "olx7t_kb@school.edu", "truth": "olx7tkb@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0024", "field": "email", "value": "olx7tkb@school.edu（常用）", "truth": "olx7tkb@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0025", "field": "email", "value": "xv0t2@ 163.com", "truth": "xv0t2@163.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0025", "field": "email", "value": "xv0tz@163.com", "truth": "xv0t2@163.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0025", "field": "email", "value": "xv0t2@163", "truth": "xv0t2@163.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0025", "field": "email", "value": "xv0_t2@163.com", "truth": "xv0t2@163.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0025", "field": "email", "value": "xv0t2@163.com（常用）", "truth": "xv0t2@163.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0026", "field": "email", "value": "a30kqcc4@ qq.com", "truth": "a30kqcc4@qq.com", "perturbation": "space", "split": "train"}
+{"id": "email-0026", "field": "email", "value": "a30kqcc4@qq.c0m", "truth": "a30kqcc4@qq.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0026", "field": "email", "value": "a30kqcc4@qq", "truth": "a30kqcc4@qq.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0026", "field": "email", "value": "a30k_qcc4@qq.com", "truth": "a30kqcc4@qq.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0026", "field": "email", "value": "Email:a30kqcc4@qq.com", "truth": "a30kqcc4@qq.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0027", "field": "email", "value": "cy173oj@ hotmail.com", "truth": "cy173oj@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0027", "field": "email", "value": "cy1730j@hotmail.com", "truth": "cy173oj@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0027", "field": "email", "value": "cy173oj@hotmail", "truth": "cy173oj@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0027", "field": "email", "value": "cy.173oj@hotmail.com", "truth": "cy173oj@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0027", "field": "email", "value": "邮箱：cy173oj@hotmail.com", "truth": "cy173oj@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0028", "field": "email", "value": "tv8s6@ yahoo.com", "truth": "tv8s6@yahoo.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0028", "field": "email", "value": "tvbs6@yahoo.com", "truth": "tv8s6@yahoo.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0028", "field": "email", "value": "tv8s6@yahoo", "truth": "tv8s6@yahoo.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0028", "field": "email", "value": "tv_8s6@yahoo.com", "truth": "tv8s6@yahoo.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0028", "field": "email", "value": "tv8s6@yahoo.com（工作邮箱）", "truth": "tv8s6@yahoo.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0029", "field": "email", "value": "ag0zinkc@ 139.com", "truth": "ag0zinkc@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0029", "field": "email", "value": "a60zinkc@139.com", "truth": "ag0zinkc@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0029", "field": "email", "value": "ag0zinkc@139", "truth": "ag0zinkc@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0029", "field": "email", "value": "ag0z.inkc@139.com", "truth": "ag0zinkc@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0029", "field": "email", "value": "Email:ag0zinkc@139.com", "truth": "ag0zinkc@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0030", "field": "email", "value": "kff5x @school.edu", "truth": "kff5x@school.edu", "perturbation": "space", "split": "heldout"}
+{"id": "email-0030", "field": "email", "value": "kffsx@school.edu", "truth": "kff5x@school.edu", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0030", "field": "email", "value": "kff5x@school", "truth": "kff5x@school.edu", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0030", "field": "email", "value": "kf_f5x@school.edu", "truth": "kff5x@school.edu", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0030", "field": "email", "value": "邮箱:kff5x@school.edu", "truth": "kff5x@school.edu", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0031", "field": "email", "value": "umz2bwe4p0c@ outlook.com", "truth": "umz2bwe4p0c@outlook.com", "perturbation": "space", "split": "train"}
+{"id": "email-0031", "field": "email", "value": "umzzbwe4p0c@outlook.com", "truth": "umz2bwe4p0c@outlook.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0031", "field": "email", "value": "umz2bwe4p0c@outlook", "truth": "umz2bwe4p0c@outlook.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0031", "field": "email", "value": "umz2bwe_4p0c@outlook.com", "truth": "umz2bwe4p0c@outlook.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0031", "field": "email", "value": "umz2bwe4p0c@outlook.com。", "truth": "umz2bwe4p0c@outlook.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0032", "field": "email", "value": "pagsb0kdad @foxmail.com", "truth": "pagsb0kdad@foxmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0032", "field": "email", "value": "pagsb0kdad@foxmail.c0m", "truth": "pagsb0kdad@foxmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0032", "field": "email", "value": "pagsb0kdad@foxmail.co", "truth": "pagsb0kdad@foxmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0032", "field": "email", "value": "pagsb0kd.ad@foxmail.com", "truth": "pagsb0kdad@foxmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0032", "field": "email", "value": "邮箱:pagsb0kdad@foxmail.com", "truth": "pagsb0kdad@foxmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0033", "field": "email", "value": "kg8e@ example.com", "truth": "kg8e@example.com", "perturbation": "space", "split": "train"}
+{"id": "email-0033", "field": "email", "value": "kgbe@example.com", "truth": "kg8e@example.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0033", "field": "email", "value": "kg8e@example", "truth": "kg8e@example.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0033", "field": "email", "value": "kg.8e@example.com", "truth": "kg8e@example.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0033", "field": "email", "value": "kg8e@example.com。", "truth": "kg8e@example.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0034", "field": "email", "value": "bmefvo939o @mail.cn", "truth": "bmefvo939o@mail.cn", "perturbation": "space", "split": "heldout"}
+{"id": "email-0034", "field": "email", "value": "bmefvo939o@mai1.cn", "truth": "bmefvo939o@mail.cn", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0034", "field": "email", "value": "bmefvo939o@mail", "truth": "bmefvo939o@mail.cn", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0034", "field": "email", "value": "bmefvo_939o@mail.cn", "truth": "bmefvo939o@mail.cn", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0034", "field": "email", "value": "邮箱：bmefvo939o@mail.cn", "truth": "bmefvo939o@mail.cn", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0035", "field": "email", "value": "et3k0oi3@ sohu.com", "truth": "et3k0oi3@sohu.com", "perturbation": "space", "split": "train"}
+{"id": "email-0035", "field": "email", "value": "et3k0oi3@5ohu.com", "truth": "et3k0oi3@sohu.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0035", "field": "email", "value": "et3k0oi3@sohu", "truth": "et3k0oi3@sohu.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0035", "field": "email", "value": "et3k0oi_3@sohu.com", "truth": "et3k0oi3@sohu.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0035", "field": "email", "value": "et3k0oi3@sohu.com（工作邮箱）", "truth": "et3k0oi3@sohu.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0036", "field": "email", "value": "t6kh477n22e7 @outlook.com", "truth": "t6kh477n22e7@outlook.com", "perturbation": "space", "split": "train"}
+{"id": "email-0036", "field": "email", "value": "tgkh477n22e7@outlook.com", "truth": "t6kh477n22e7@outlook.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0036", "field": "email", "value": "t6kh477n22e7@outlook.co", "truth": "t6kh477n22e7@outlook.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0036", "field": "email", "value": "t6kh477n22.e7@outlook.com", "truth": "t6kh477n22e7@outlook.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0036", "field": "email", "value": "邮箱:t6kh477n22e7@outlook.com", "truth": "t6kh477n22e7@outlook.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0037", "field": "email", "value": "zvlw126@ yahoo.com", "truth": "zvlw126@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0037", "field": "email", "value": "2vlw126@yahoo.com", "truth": "zvlw126@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0037", "field": "email", "value": "zvlw126@yahoo", "truth": "zvlw126@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0037", "field": "email", "value": "zvl_w126@yahoo.com", "truth": "zvlw126@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0037", "field": "email", "value": "zvlw126@yahoo.com（工作邮箱）", "truth": "zvlw126@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0038", "field": "email", "value": "hoxp9q1i @sina.com", "truth": "hoxp9q1i@sina.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0038", "field": "email", "value": "hoxp9qli@sina.com", "truth": "hoxp9q1i@sina.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0038", "field": "email", "value": "hoxp9q1i@sina.co", "truth": "hoxp9q1i@sina.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0038", "field": "email", "value": "hoxp9q.1i@sina.com", "truth": "hoxp9q1i@sina.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0038", "field": "email", "value": "Email:hoxp9q1i@sina.com", "truth": "hoxp9q1i@sina.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0039", "field": "email", "value": "kxh9b@ sohu.com", "truth": "kxh9b@sohu.com", "perturbation": "space", "split": "train"}
+{"id": "email-0039", "field": "email", "value": "kxh9b@s0hu.com", "truth": "kxh9b@sohu.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0039", "field": "email", "value": "kxh9b@sohu.co", "truth": "kxh9b@sohu.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0039", "field": "email", "value": "kxh9_b@sohu.com", "truth": "kxh9b@sohu.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0039", "field": "email", "value": "kxh9b@sohu.com。", "truth": "kxh9b@sohu.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0040", "field": "email", "value": "kslq1xxxgjd8@ school.edu", "truth": "kslq1xxxgjd8@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0040", "field": "email", "value": "kslq1xxxgjd8@sch0ol.edu", "truth": "kslq1xxxgjd8@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0040", "field": "email", "value": "kslq1xxxgjd8@school", "truth": "kslq1xxxgjd8@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0040", "field": "email", "value": "k_slq1xxxgjd8@school.edu", "truth": "kslq1xxxgjd8@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0040", "field": "email", "value": "邮箱：kslq1xxxgjd8@school.edu", "truth": "kslq1xxxgjd8@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0041", "field": "email", "value": "bsgh6hwbmr8e@ yahoo.com", "truth": "bsgh6hwbmr8e@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0041", "field": "email", "value": "bsgh6hwbmr8e@yah0o.com", "truth": "bsgh6hwbmr8e@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0041", "field": "email", "value": "bsgh6hwbmr8e@yahoo", "truth": "bsgh6hwbmr8e@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0041", "field": "email", "value": "bsgh6_hwbmr8e@yahoo.com", "truth": "bsgh6hwbmr8e@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0041", "field": "email", "value": "bsgh6hwbmr8e@yahoo.com（常用）", "truth": "bsgh6hwbmr8e@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0042", "field": "email", "value": "rga8t8o@ test.org", "truth": "rga8t8o@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0042", "field": "email", "value": "rga8t8o@te5t.org", "truth": "rga8t8o@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0042", "field": "email", "value": "rga8t8o@test.or", "truth": "rga8t8o@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0042", "field": "email", "value": "rga8t_8o@test.org", "truth": "rga8t8o@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0042", "field": "email", "value": "rga8t8o@test.org。", "truth": "rga8t8o@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0043", "field": "email", "value": "z839y @example.com", "truth": "z839y@example.com", "perturbation": "space", "split": "train"}
+{"id": "email-0043", "field": "email", "value": "z839y@example.c0m", "truth": "z839y@example.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0043", "field": "email", "value": "z839y@example.co", "truth": "z839y@example.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0043", "field": "email", "value": "z839.y@example.com", "truth": "z839y@example.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0043", "field": "email", "value": "z839y@example.com（常用）", "truth": "z839y@example.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0044", "field": "email", "value": "el8 @139.com", "truth": "el8@139.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0044", "field": "email", "value": "e18@139.com", "truth": "el8@139.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0044", "field": "email", "value": "el8@139.co", "truth": "el8@139.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0044", "field": "email", "value": "el_8@139.com", "truth": "el8@139.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0044", "field": "email", "value": "el8@139.com。", "truth": "el8@139.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0045", "field": "email", "value": "olkx5n4ig @foxmail.com", "truth": "olkx5n4ig@foxmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0045", "field": "email", "value": "olkx5n4ig@foxmail.c0m", "truth": "olkx5n4ig@foxmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0045", "field": "email", "value": "olkx5n4ig@foxmail", "truth": "olkx5n4ig@foxmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0045", "field": "email", "value": "olkx5n4i_g@foxmail.com", "truth": "olkx5n4ig@foxmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0045", "field": "email", "value": "邮箱：olkx5n4ig@foxmail.com", "truth": "olkx5n4ig@foxmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0046", "field": "email", "value": "l59qisetlmce @139.com", "truth": "l59qisetlmce@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0046", "field": "email", "value": "l59qisetlmce@l39.com", "truth": "l59qisetlmce@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0046", "field": "email", "value": "l59qisetlmce@139", "truth": "l59qisetlmce@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0046", "field": "email", "value": "l_59qisetlmce@139.com", "truth": "l59qisetlmce@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0046", "field": "email", "value": "l59qisetlmce@139.com（工作邮箱）", "truth": "l59qisetlmce@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0047", "field": "email", "value": "grn1ru5xg @139.com", "truth": "grn1ru5xg@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0047", "field": "email", "value": "grnlru5xg@139.com", "truth": "grn1ru5xg@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0047", "field": "email", "value": "grn1ru5xg@139", "truth": "grn1ru5xg@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0047", "field": "email", "value": "grn.1ru5xg@139.com", "truth": "grn1ru5xg@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0047", "field": "email", "value": "grn1ru5xg@139.com（工作邮箱）", "truth": "grn1ru5xg@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0048", "field": "email", "value": "nz6ty81 @sina.com", "truth": "nz6ty81@sina.com", "perturbation": "space", "split": "train"}
+{"id": "email-0048", "field": "email", "value": "nz6ty8l@sina.com", "truth": "nz6ty81@sina.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0048", "field": "email", "value": "nz6ty81@sina", "truth": "nz6ty81@sina.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0048", "field": "email", "value": "nz6ty.81@sina.com", "truth": "nz6ty81@sina.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0048", "field": "email", "value": "邮箱：nz6ty81@sina.com", "truth": "nz6ty81@sina.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0049", "field": "email", "value": "vo4 @outlook.com", "truth": "vo4@outlook.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0049", "field": "email", "value": "v04@outlook.com", "truth": "vo4@outlook.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0049", "field": "email", "value": "vo4@outlook.co", "truth": "vo4@outlook.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0049", "field": "email", "value": "vo_4@outlook.com", "truth": "vo4@outlook.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0049", "field": "email", "value": "邮箱：vo4@outlook.com", "truth": "vo4@outlook.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0050", "field": "email", "value": "rwwgkxzrv9 @189.cn", "truth": "rwwgkxzrv9@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0050", "field": "email", "value": "rww6kxzrv9@189.cn", "truth": "rwwgkxzrv9@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0050", "field": "email", "value": "rwwgkxzrv9@189", "truth": "rwwgkxzrv9@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0050", "field": "email", "value": "rwwgkxzr.v9@189.cn", "truth": "rwwgkxzrv9@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0050", "field": "email", "value": "邮箱：rwwgkxzrv9@189.cn", "truth": "rwwgkxzrv9@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0051", "field": "email", "value": "l47yej @gmail.com", "truth": "l47yej@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0051", "field": "email", "value": "l47yej@gmail.c0m", "truth": "l47yej@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0051", "field": "email", "value": "l47yej@gmail.co", "truth": "l47yej@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0051", "field": "email", "value": "l47ye.j@gmail.com", "truth": "l47yej@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0051", "field": "email", "value": "邮箱:l47yej@gmail.com", "truth": "l47yej@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0052", "field": "email", "value": "iknfahq1jo@ 163.com", "truth": "iknfahq1jo@163.com", "perturbation": "space", "split": "train"}
+{"id": "email-0052", "field": "email", "value": "iknfahq1jo@l63.com", "truth": "iknfahq1jo@163.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0052", "field": "email", "value": "iknfahq1jo@163", "truth": "iknfahq1jo@163.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0052", "field": "email", "value": "iknfahq.1jo@163.com", "truth": "iknfahq1jo@163.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0052", "field": "email", "value": "邮箱:iknfahq1jo@163.com", "truth": "iknfahq1jo@163.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0053", "field": "email", "value": "psux8fmi6j@ sina.com", "truth": "psux8fmi6j@sina.com", "perturbation": "space", "split": "train"}
+{"id": "email-0053", "field": "email", "value": "psux8fmi6j@sina.c0m", "truth": "psux8fmi6j@sina.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0053", "field": "email", "value": "psux8fmi6j@sina.co", "truth": "psux8fmi6j@sina.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0053", "field": "email", "value": "psux8f_mi6j@sina.com", "truth": "psux8fmi6j@sina.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0053", "field": "email", "value": "邮箱：psux8fmi6j@sina.com", "truth": "psux8fmi6j@sina.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0054", "field": "email", "value": "cr0cbcpmq@ hotmail.com", "truth": "cr0cbcpmq@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0054", "field": "email", "value": "crocbcpmq@hotmail.com", "truth": "cr0cbcpmq@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0054", "field": "email", "value": "cr0cbcpmq@hotmail", "truth": "cr0cbcpmq@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0054", "field": "email", "value": "cr0cb_cpmq@hotmail.com", "truth": "cr0cbcpmq@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0054", "field": "email", "value": "cr0cbcpmq@hotmail.com（常用）", "truth": "cr0cbcpmq@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0055", "field": "email", "value": "upw3wv@ outlook.com", "truth": "upw3wv@outlook.com", "perturbation": "space", "split": "train"}
+{"id": "email-0055", "field": "email", "value": "upw3wv@outl0ok.com", "truth": "upw3wv@outlook.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0055", "field": "email", "value": "upw3wv@outlook.co", "truth": "upw3wv@outlook.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0055", "field": "email", "value": "upw3w.v@outlook.com", "truth": "upw3wv@outlook.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0055", "field": "email", "value": "Email:upw3wv@outlook.com", "truth": "upw3wv@outlook.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0056", "field": "email", "value": "le2bwfyv39z1@ gmail.com", "truth": "le2bwfyv39z1@gmail.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0056", "field": "email", "value": "le2bwfyv39z1@6mail.com", "truth": "le2bwfyv39z1@gmail.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0056", "field": "email", "value": "le2bwfyv39z1@gmail.co", "truth": "le2bwfyv39z1@gmail.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0056", "field": "email", "value": "l.e2bwfyv39z1@gmail.com", "truth": "le2bwfyv39z1@gmail.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0056", "field": "email", "value": "邮箱:le2bwfyv39z1@gmail.com", "truth": "le2bwfyv39z1@gmail.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0057", "field": "email", "value": "g0de53cl7ub @qq.com", "truth": "g0de53cl7ub@qq.com", "perturbation": "space", "split": "train"}
+{"id": "email-0057", "field": "email", "value": "g0des3cl7ub@qq.com", "truth": "g0de53cl7ub@qq.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0057", "field": "email", "value": "g0de53cl7ub@qq", "truth": "g0de53cl7ub@qq.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0057", "field": "email", "value": "g0de53.cl7ub@qq.com", "truth": "g0de53cl7ub@qq.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0057", "field": "email", "value": "邮箱:g0de53cl7ub@qq.com", "truth": "g0de53cl7ub@qq.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0058", "field": "email", "value": "lwrn5bkm0ni9 @yahoo.com", "truth": "lwrn5bkm0ni9@yahoo.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0058", "field": "email", "value": "1wrn5bkm0ni9@yahoo.com", "truth": "lwrn5bkm0ni9@yahoo.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0058", "field": "email", "value": "lwrn5bkm0ni9@yahoo", "truth": "lwrn5bkm0ni9@yahoo.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0058", "field": "email", "value": "lwrn5bkm0n_i9@yahoo.com", "truth": "lwrn5bkm0ni9@yahoo.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0058", "field": "email", "value": "邮箱:lwrn5bkm0ni9@yahoo.com", "truth": "lwrn5bkm0ni9@yahoo.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0059", "field": "email", "value": "gnusbtqk06mk @yahoo.com", "truth": "gnusbtqk06mk@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0059", "field": "email", "value": "gnusbtqk06mk@yaho0.com", "truth": "gnusbtqk06mk@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0059", "field": "email", "value": "gnusbtqk06mk@yahoo.co", "truth": "gnusbtqk06mk@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0059", "field": "email", "value": "gnus.btqk06mk@yahoo.com", "truth": "gnusbtqk06mk@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0059", "field": "email", "value": "gnusbtqk06mk@yahoo.com（工作邮箱）", "truth": "gnusbtqk06mk@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0060", "field": "email", "value": "z9cpyz @school.edu", "truth": "z9cpyz@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0060", "field": "email", "value": "29cpyz@school.edu", "truth": "z9cpyz@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0060", "field": "email", "value": "z9cpyz@school", "truth": "z9cpyz@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0060", "field": "email", "value": "z.9cpyz@school.edu", "truth": "z9cpyz@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0060", "field": "email", "value": "z9cpyz@school.edu。", "truth": "z9cpyz@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0061", "field": "email", "value": "yhuw30wfssit @school.edu", "truth": "yhuw30wfssit@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0061", "field": "email", "value": "yhuw30wfs5it@school.edu", "truth": "yhuw30wfssit@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0061", "field": "email", "value": "yhuw30wfssit@school.ed", "truth": "yhuw30wfssit@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0061", "field": "email", "value": "yhuw_30wfssit@school.edu", "truth": "yhuw30wfssit@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0061", "field": "email", "value": "邮箱:yhuw30wfssit@school.edu", "truth": "yhuw30wfssit@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0062", "field": "email", "value": "g4cy0 @126.com", "truth": "g4cy0@126.com", "perturbation": "space", "split": "train"}
+{"id": "email-0062", "field": "email", "value": "g4cy0@l26.com", "truth": "g4cy0@126.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0062", "field": "email", "value": "g4cy0@126.co", "truth": "g4cy0@126.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0062", "field": "email", "value": "g4.cy0@126.com", "truth": "g4cy0@126.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0062", "field": "email", "value": "Email:g4cy0@126.com", "truth": "g4cy0@126.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0063", "field": "email", "value": "gd0ubeqpp0ss @school.edu", "truth": "gd0ubeqpp0ss@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0063", "field": "email", "value": "gd0ubeqpposs@school.edu", "truth": "gd0ubeqpp0ss@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0063", "field": "email", "value": "gd0ubeqpp0ss@school", "truth": "gd0ubeqpp0ss@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0063", "field": "email", "value": "gd0ubeqpp.0ss@school.edu", "truth": "gd0ubeqpp0ss@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0063", "field": "email", "value": "Email:gd0ubeqpp0ss@school.edu", "truth": "gd0ubeqpp0ss@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0064", "field": "email", "value": "zds9s3xqoo@ mail.cn", "truth": "zds9s3xqoo@mail.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0064", "field": "email", "value": "zds953xqoo@mail.cn", "truth": "zds9s3xqoo@mail.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0064", "field": "email", "value": "zds9s3xqoo@mail", "truth": "zds9s3xqoo@mail.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0064", "field": "email", "value": "zds9s3x_qoo@mail.cn", "truth": "zds9s3xqoo@mail.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0064", "field": "email", "value": "zds9s3xqoo@mail.cn（工作邮箱）", "truth": "zds9s3xqoo@mail.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0065", "field": "email", "value": "gd7r@ aliyun.com", "truth": "gd7r@aliyun.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0065", "field": "email", "value": "gd7r@aliyun.c0m", "truth": "gd7r@aliyun.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0065", "field": "email", "value": "gd7r@aliyun.co", "truth": "gd7r@aliyun.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0065", "field": "email", "value": "gd7.r@aliyun.com", "truth": "gd7r@aliyun.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0065", "field": "email", "value": "gd7r@aliyun.com。", "truth": "gd7r@aliyun.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0066", "field": "email", "value": "pp3w87ij7m8w @163.com", "truth": "pp3w87ij7m8w@163.com", "perturbation": "space", "split": "train"}
+{"id": "email-0066", "field": "email", "value": "pp3w87ij7mbw@163.com", "truth": "pp3w87ij7m8w@163.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0066", "field": "email", "value": "pp3w87ij7m8w@163.co", "truth": "pp3w87ij7m8w@163.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0066", "field": "email", "value": "pp3w87ij_7m8w@163.com", "truth": "pp3w87ij7m8w@163.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0066", "field": "email", "value": "pp3w87ij7m8w@163.com（工作邮箱）", "truth": "pp3w87ij7m8w@163.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0067", "field": "email", "value": "bu7sg@ qq.com", "truth": "bu7sg@qq.com", "perturbation": "space", "split": "train"}
+{"id": "email-0067", "field": "email", "value": "bu7sg@qq.c0m", "truth": "bu7sg@qq.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0067", "field": "email", "value": "bu7sg@qq", "truth": "bu7sg@qq.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0067", "field": "email", "value": "bu.7sg@qq.com", "truth": "bu7sg@qq.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0067", "field": "email", "value": "邮箱:bu7sg@qq.com", "truth": "bu7sg@qq.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0068", "field": "email", "value": "vrpq02l @school.edu", "truth": "vrpq02l@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0068", "field": "email", "value": "vrpq021@school.edu", "truth": "vrpq02l@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0068", "field": "email", "value": "vrpq02l@school", "truth": "vrpq02l@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0068", "field": "email", "value": "vrpq0_2l@school.edu", "truth": "vrpq02l@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0068", "field": "email", "value": "vrpq02l@school.edu（工作邮箱）", "truth": "vrpq02l@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0069", "field": "email", "value": "ta1 @gmail.com", "truth": "ta1@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0069", "field": "email", "value": "ta1@gmai1.com", "truth": "ta1@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0069", "field": "email", "value": "ta1@gmail", "truth": "ta1@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0069", "field": "email", "value": "ta_1@gmail.com", "truth": "ta1@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0069", "field": "email", "value": "Email:ta1@gmail.com", "truth": "ta1@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0070", "field": "email", "value": "i4pntu @189.cn", "truth": "i4pntu@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0070", "field": "email", "value": "i4pntu@l89.cn", "truth": "i4pntu@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0070", "field": "email", "value": "i4pntu@189", "truth": "i4pntu@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0070", "field": "email", "value": "i_4pntu@189.cn", "truth": "i4pntu@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0070", "field": "email", "value": "i4pntu@189.cn（工作邮箱）", "truth": "i4pntu@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0071", "field": "email", "value": "mf6hb1h7xrn@ mail.cn", "truth": "mf6hb1h7xrn@mail.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0071", "field": "email", "value": "mf6hb1h7xrn@mai1.cn", "truth": "mf6hb1h7xrn@mail.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0071", "field": "email", "value": "mf6hb1h7xrn@mail", "truth": "mf6hb1h7xrn@mail.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0071", "field": "email", "value": "mf.6hb1h7xrn@mail.cn", "truth": "mf6hb1h7xrn@mail.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0071", "field": "email", "value": "mf6hb1h7xrn@mail.cn（常用）", "truth": "mf6hb1h7xrn@mail.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0072", "field": "email", "value": "xcwikhjcsp5b @foxmail.com", "truth": "xcwikhjcsp5b@foxmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0072", "field": "email", "value": "xcwikhjc5p5b@foxmail.com", "truth": "xcwikhjcsp5b@foxmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0072", "field": "email", "value": "xcwikhjcsp5b@foxmail.co", "truth": "xcwikhjcsp5b@foxmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0072", "field": "email", "value": "xcwi.khjcsp5b@foxmail.com", "truth": "xcwikhjcsp5b@foxmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0072", "field": "email", "value": "邮箱：xcwikhjcsp5b@foxmail.com", "truth": "xcwikhjcsp5b@foxmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0073", "field": "email", "value": "zpc9vby @example.com", "truth": "zpc9vby@example.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0073", "field": "email", "value": "zpc9v8y@example.com", "truth": "zpc9vby@example.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0073", "field": "email", "value": "zpc9vby@example.co", "truth": "zpc9vby@example.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0073", "field": "email", "value": "zp_c9vby@example.com", "truth": "zpc9vby@example.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0073", "field": "email", "value": "zpc9vby@example.com（常用）", "truth": "zpc9vby@example.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0074", "field": "email", "value": "y1cd @sohu.com", "truth": "y1cd@sohu.com", "perturbation": "space", "split": "train"}
+{"id": "email-0074", "field": "email", "value": "y1cd@5ohu.com", "truth": "y1cd@sohu.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0074", "field": "email", "value": "y1cd@sohu", "truth": "y1cd@sohu.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0074", "field": "email", "value": "y1c.d@sohu.com", "truth": "y1cd@sohu.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0074", "field": "email", "value": "y1cd@sohu.com。", "truth": "y1cd@sohu.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0075", "field": "email", "value": "pj5uis@ hotmail.com", "truth": "pj5uis@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0075", "field": "email", "value": "pj5uis@hotmai1.com", "truth": "pj5uis@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0075", "field": "email", "value": "pj5uis@hotmail.co", "truth": "pj5uis@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0075", "field": "email", "value": "pj_5uis@hotmail.com", "truth": "pj5uis@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0075", "field": "email", "value": "邮箱:pj5uis@hotmail.com", "truth": "pj5uis@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0076", "field": "email", "value": "lfxzkveb7h @gmail.com", "truth": "lfxzkveb7h@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0076", "field": "email", "value": "lfxzkveb7h@6mail.com", "truth": "lfxzkveb7h@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0076", "field": "email", "value": "lfxzkveb7h@gmail", "truth": "lfxzkveb7h@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0076", "field": "email", "value": "lfx_zkveb7h@gmail.com", "truth": "lfxzkveb7h@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0076", "field": "email", "value": "lfxzkveb7h@gmail.com（工作邮箱）", "truth": "lfxzkveb7h@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0077", "field": "email", "value": "f7cjshi @outlook.com", "truth": "f7cjshi@outlook.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0077", "field": "email", "value": "f7cj5hi@outlook.com", "truth": "f7cjshi@outlook.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0077", "field": "email", "value": "f7cjshi@outlook", "truth": "f7cjshi@outlook.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0077", "field": "email", "value": "f7cjsh.i@outlook.com", "truth": "f7cjshi@outlook.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0077", "field": "email", "value": "Email:f7cjshi@outlook.com", "truth": "f7cjshi@outlook.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0078", "field": "email", "value": "vkutaw6rk27w@ 189.cn", "truth": "vkutaw6rk27w@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0078", "field": "email", "value": "vkutaw6rk27w@l89.cn", "truth": "vkutaw6rk27w@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0078", "field": "email", "value": "vkutaw6rk27w@189.c", "truth": "vkutaw6rk27w@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0078", "field": "email", "value": "vkutaw6rk2.7w@189.cn", "truth": "vkutaw6rk27w@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0078", "field": "email", "value": "邮箱：vkutaw6rk27w@189.cn", "truth": "vkutaw6rk27w@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0079", "field": "email", "value": "yf71g9rutg@ test.org", "truth": "yf71g9rutg@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0079", "field": "email", "value": "yf71g9rutg@test.or6", "truth": "yf71g9rutg@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0079", "field": "email", "value": "yf71g9rutg@test", "truth": "yf71g9rutg@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0079", "field": "email", "value": "yf71g9r.utg@test.org", "truth": "yf71g9rutg@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0079", "field": "email", "value": "yf71g9rutg@test.org。", "truth": "yf71g9rutg@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0080", "field": "email", "value": "ea4mzv @mail.cn", "truth": "ea4mzv@mail.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0080", "field": "email", "value": "ea4mzv@mai1.cn", "truth": "ea4mzv@mail.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0080", "field": "email", "value": "ea4mzv@mail", "truth": "ea4mzv@mail.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0080", "field": "email", "value": "ea.4mzv@mail.cn", "truth": "ea4mzv@mail.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0080", "field": "email", "value": "ea4mzv@mail.cn（工作邮箱）", "truth": "ea4mzv@mail.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0081", "field": "email", "value": "foyt2 @163.com", "truth": "foyt2@163.com", "perturbation": "space", "split": "train"}
+{"id": "email-0081", "field": "email", "value": "foyt2@l63.com", "truth": "foyt2@163.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0081", "field": "email", "value": "foyt2@163", "truth": "foyt2@163.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0081", "field": "email", "value": "f.oyt2@163.com", "truth": "foyt2@163.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0081", "field": "email", "value": "Email:foyt2@163.com", "truth": "foyt2@163.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0082", "field": "email", "value": "zezloxcxo4g@ yahoo.com", "truth": "zezloxcxo4g@yahoo.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0082", "field": "email", "value": "zezloxcxo4g@yah0o.com", "truth": "zezloxcxo4g@yahoo.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0082", "field": "email", "value": "zezloxcxo4g@yahoo.co", "truth": "zezloxcxo4g@yahoo.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0082", "field": "email", "value": "zezlo.xcxo4g@yahoo.com", "truth": "zezloxcxo4g@yahoo.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0082", "field": "email", "value": "Email:zezloxcxo4g@yahoo.com", "truth": "zezloxcxo4g@yahoo.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0083", "field": "email", "value": "uhbv5uw4@ test.org", "truth": "uhbv5uw4@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0083", "field": "email", "value": "uhbvsuw4@test.org", "truth": "uhbv5uw4@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0083", "field": "email", "value": "uhbv5uw4@test.or", "truth": "uhbv5uw4@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0083", "field": "email", "value": "uhb.v5uw4@test.org", "truth": "uhbv5uw4@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0083", "field": "email", "value": "uhbv5uw4@test.org。", "truth": "uhbv5uw4@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0084", "field": "email", "value": "asythl962wp@ 139.com", "truth": "asythl962wp@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0084", "field": "email", "value": "asythl962wp@139.c0m", "truth": "asythl962wp@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0084", "field": "email", "value": "asythl962wp@139.co", "truth": "asythl962wp@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0084", "field": "email", "value": "a_sythl962wp@139.com", "truth": "asythl962wp@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0084", "field": "email", "value": "asythl962wp@139.com（工作邮箱）", "truth": "asythl962wp@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0085", "field": "email", "value": "h7t3 @163.com", "truth": "h7t3@163.com", "perturbation": "space", "split": "train"}
+{"id": "email-0085", "field": "email", "value": "h7t3@l63.com", "truth": "h7t3@163.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0085", "field": "email", "value": "h7t3@163", "truth": "h7t3@163.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0085", "field": "email", "value": "h7_t3@163.com", "truth": "h7t3@163.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0085", "field": "email", "value": "h7t3@163.com（常用）", "truth": "h7t3@163.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0086", "field": "email", "value": "nod56@ gmail.com", "truth": "nod56@gmail.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0086", "field": "email", "value": "nod5g@gmail.com", "truth": "nod56@gmail.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0086", "field": "email", "value": "nod56@gmail", "truth": "nod56@gmail.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0086", "field": "email", "value": "nod_56@gmail.com", "truth": "nod56@gmail.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0086", "field": "email", "value": "Email:nod56@gmail.com", "truth": "nod56@gmail.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0087", "field": "email", "value": "ke2n @189.cn", "truth": "ke2n@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0087", "field": "email", "value": "ke2n@1b9.cn", "truth": "ke2n@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0087", "field": "email", "value": "ke2n@189.c", "truth": "ke2n@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0087", "field": "email", "value": "ke_2n@189.cn", "truth": "ke2n@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0087", "field": "email", "value": "ke2n@189.cn（常用）", "truth": "ke2n@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0088", "field": "email", "value": "jl0 @hotmail.com", "truth": "jl0@hotmail.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0088", "field": "email", "value": "jlo@hotmail.com", "truth": "jl0@hotmail.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0088", "field": "email", "value": "jl0@hotmail", "truth": "jl0@hotmail.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0088", "field": "email", "value": "j_l0@hotmail.com", "truth": "jl0@hotmail.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0088", "field": "email", "value": "jl0@hotmail.com。", "truth": "jl0@hotmail.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0089", "field": "email", "value": "hy5 @qq.com", "truth": "hy5@qq.com", "perturbation": "space", "split": "train"}
+{"id": "email-0089", "field": "email", "value": "hy5@qq.c0m", "truth": "hy5@qq.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0089", "field": "email", "value": "hy5@qq.co", "truth": "hy5@qq.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0089", "field": "email", "value": "h.y5@qq.com", "truth": "hy5@qq.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0089", "field": "email", "value": "邮箱:hy5@qq.com", "truth": "hy5@qq.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0090", "field": "email", "value": "exg5i0b6pm @test.org", "truth": "exg5i0b6pm@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0090", "field": "email", "value": "exg5i0b6pm@test.or6", "truth": "exg5i0b6pm@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0090", "field": "email", "value": "exg5i0b6pm@test.or", "truth": "exg5i0b6pm@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0090", "field": "email", "value": "exg5i0b_6pm@test.org", "truth": "exg5i0b6pm@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0090", "field": "email", "value": "邮箱:exg5i0b6pm@test.org", "truth": "exg5i0b6pm@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0091", "field": "email", "value": "ot3l0h8d@ school.edu", "truth": "ot3l0h8d@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0091", "field": "email", "value": "ot3l0h8d@schoo1.edu", "truth": "ot3l0h8d@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0091", "field": "email", "value": "ot3l0h8d@school.ed", "truth": "ot3l0h8d@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0091", "field": "email", "value": "ot3l0.h8d@school.edu", "truth": "ot3l0h8d@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0091", "field": "email", "value": "邮箱：ot3l0h8d@school.edu", "truth": "ot3l0h8d@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0092", "field": "email", "value": "lq5@ 126.com", "truth": "lq5@126.com", "perturbation": "space", "split": "train"}
+{"id": "email-0092", "field": "email", "value": "1q5@126.com", "truth": "lq5@126.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0092", "field": "email", "value": "lq5@126.co", "truth": "lq5@126.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0092", "field": "email", "value": "l.q5@126.com", "truth": "lq5@126.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0092", "field": "email", "value": "lq5@126.com。", "truth": "lq5@126.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0093", "field": "email", "value": "a79u5 @school.edu", "truth": "a79u5@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0093", "field": "email", "value": "a79u5@5chool.edu", "truth": "a79u5@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0093", "field": "email", "value": "a79u5@school", "truth": "a79u5@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0093", "field": "email", "value": "a7.9u5@school.edu", "truth": "a79u5@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0093", "field": "email", "value": "a79u5@school.edu（常用）", "truth": "a79u5@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0094", "field": "email", "value": "f0sp7sl@ company.net", "truth": "f0sp7sl@company.net", "perturbation": "space", "split": "heldout"}
+{"id": "email-0094", "field": "email", "value": "f0sp7s1@company.net", "truth": "f0sp7sl@company.net", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0094", "field": "email", "value": "f0sp7sl@company", "truth": "f0sp7sl@company.net", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0094", "field": "email", "value": "f0.sp7sl@company.net", "truth": "f0sp7sl@company.net", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0094", "field": "email", "value": "f0sp7sl@company.net。", "truth": "f0sp7sl@company.net", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0095", "field": "email", "value": "lhyuk34xlnz @126.com", "truth": "lhyuk34xlnz@126.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0095", "field": "email", "value": "lhyuk34xln2@126.com", "truth": "lhyuk34xlnz@126.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0095", "field": "email", "value": "lhyuk34xlnz@126.co", "truth": "lhyuk34xlnz@126.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0095", "field": "email", "value": "lhy.uk34xlnz@126.com", "truth": "lhyuk34xlnz@126.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0095", "field": "email", "value": "lhyuk34xlnz@126.com（常用）", "truth": "lhyuk34xlnz@126.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0096", "field": "email", "value": "d1r @sohu.com", "truth": "d1r@sohu.com", "perturbation": "space", "split": "train"}
+{"id": "email-0096", "field": "email", "value": "d1r@5ohu.com", "truth": "d1r@sohu.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0096", "field": "email", "value": "d1r@sohu", "truth": "d1r@sohu.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0096", "field": "email", "value": "d_1r@sohu.com", "truth": "d1r@sohu.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0096", "field": "email", "value": "d1r@sohu.com（工作邮箱）", "truth": "d1r@sohu.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0097", "field": "email", "value": "yuqcp7dhylp @outlook.com", "truth": "yuqcp7dhylp@outlook.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0097", "field": "email", "value": "yuqcp7dhylp@out1ook.com", "truth": "yuqcp7dhylp@outlook.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0097", "field": "email", "value": "yuqcp7dhylp@outlook.co", "truth": "yuqcp7dhylp@outlook.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0097", "field": "email", "value": "yuqcp7dh.ylp@outlook.com", "truth": "yuqcp7dhylp@outlook.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0097", "field": "email", "value": "邮箱:yuqcp7dhylp@outlook.com", "truth": "yuqcp7dhylp@outlook.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0098", "field": "email", "value": "tac2@ mail.cn", "truth": "tac2@mail.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0098", "field": "email", "value": "tacz@mail.cn", "truth": "tac2@mail.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0098", "field": "email", "value": "tac2@mail", "truth": "tac2@mail.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0098", "field": "email", "value": "tac_2@mail.cn", "truth": "tac2@mail.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0098", "field": "email", "value": "tac2@mail.cn。", "truth": "tac2@mail.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0099", "field": "email", "value": "ya1u6g @gmail.com", "truth": "ya1u6g@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0099", "field": "email", "value": "ya1u6g@gmail.c0m", "truth": "ya1u6g@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0099", "field": "email", "value": "ya1u6g@gmail", "truth": "ya1u6g@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0099", "field": "email", "value": "ya_1u6g@gmail.com", "truth": "ya1u6g@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0099", "field": "email", "value": "Email:ya1u6g@gmail.com", "truth": "ya1u6g@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0100", "field": "email", "value": "u10fy68s80 @company.net", "truth": "u10fy68s80@company.net", "perturbation": "space", "split": "train"}
+{"id": "email-0100", "field": "email", "value": "ul0fy68s80@company.net", "truth": "u10fy68s80@company.net", "perturbation": "typo", "split": "train"}
+{"id": "email-0100", "field": "email", "value": "u10fy68s80@company", "truth": "u10fy68s80@company.net", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0100", "field": "email", "value": "u1.0fy68s80@company.net", "truth": "u10fy68s80@company.net", "perturbation": "sep", "split": "train"}
+{"id": "email-0100", "field": "email", "value": "u10fy68s80@company.net。", "truth": "u10fy68s80@company.net", "perturbation": "noise", "split": "train"}
+{"id": "email-0101", "field": "email", "value": "srmw0cty @sohu.com", "truth": "srmw0cty@sohu.com", "perturbation": "space", "split": "train"}
+{"id": "email-0101", "field": "email", "value": "srmwocty@sohu.com", "truth": "srmw0cty@sohu.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0101", "field": "email", "value": "srmw0cty@sohu.co", "truth": "srmw0cty@sohu.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0101", "field": "email", "value": "sr.mw0cty@sohu.com", "truth": "srmw0cty@sohu.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0101", "field": "email", "value": "Email:srmw0cty@sohu.com", "truth": "srmw0cty@sohu.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0102", "field": "email", "value": "wpv9zlh7t@ 126.com", "truth": "wpv9zlh7t@126.com", "perturbation": "space", "split": "train"}
+{"id": "email-0102", "field": "email", "value": "wpv9zlh7t@12g.com", "truth": "wpv9zlh7t@126.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0102", "field": "email", "value": "wpv9zlh7t@126.co", "truth": "wpv9zlh7t@126.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0102", "field": "email", "value": "wpv9zlh.7t@126.com", "truth": "wpv9zlh7t@126.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0102", "field": "email", "value": "邮箱：wpv9zlh7t@126.com", "truth": "wpv9zlh7t@126.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0103", "field": "email", "value": "fbrt2 @yahoo.com", "truth": "fbrt2@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0103", "field": "email", "value": "fbrt2@yahoo.c0m", "truth": "fbrt2@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0103", "field": "email", "value": "fbrt2@yahoo", "truth": "fbrt2@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0103", "field": "email", "value": "fb_rt2@yahoo.com", "truth": "fbrt2@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0103", "field": "email", "value": "fbrt2@yahoo.com。", "truth": "fbrt2@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0104", "field": "email", "value": "v3ys@ 126.com", "truth": "v3ys@126.com", "perturbation": "space", "split": "train"}
+{"id": "email-0104", "field": "email", "value": "v3ys@12g.com", "truth": "v3ys@126.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0104", "field": "email", "value": "v3ys@126", "truth": "v3ys@126.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0104", "field": "email", "value": "v.3ys@126.com", "truth": "v3ys@126.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0104", "field": "email", "value": "v3ys@126.com。", "truth": "v3ys@126.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0105", "field": "email", "value": "ixk538bpgoi @foxmail.com", "truth": "ixk538bpgoi@foxmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0105", "field": "email", "value": "ixk538bpg0i@foxmail.com", "truth": "ixk538bpgoi@foxmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0105", "field": "email", "value": "ixk538bpgoi@foxmail.co", "truth": "ixk538bpgoi@foxmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0105", "field": "email", "value": "ixk538.bpgoi@foxmail.com", "truth": "ixk538bpgoi@foxmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0105", "field": "email", "value": "邮箱：ixk538bpgoi@foxmail.com", "truth": "ixk538bpgoi@foxmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0106", "field": "email", "value": "jrtp6@ sina.com", "truth": "jrtp6@sina.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0106", "field": "email", "value": "jrtp6@sina.c0m", "truth": "jrtp6@sina.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0106", "field": "email", "value": "jrtp6@sina", "truth": "jrtp6@sina.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0106", "field": "email", "value": "jrtp_6@sina.com", "truth": "jrtp6@sina.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0106", "field": "email", "value": "邮箱：jrtp6@sina.com", "truth": "jrtp6@sina.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0107", "field": "email", "value": "tfx1ep @foxmail.com", "truth": "tfx1ep@foxmail.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0107", "field": "email", "value": "tfx1ep@foxmai1.com", "truth": "tfx1ep@foxmail.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0107", "field": "email", "value": "tfx1ep@foxmail", "truth": "tfx1ep@foxmail.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0107", "field": "email", "value": "tf_x1ep@foxmail.com", "truth": "tfx1ep@foxmail.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0107", "field": "email", "value": "邮箱：tfx1ep@foxmail.com", "truth": "tfx1ep@foxmail.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0108", "field": "email", "value": "t14r491x @hotmail.com", "truth": "t14r491x@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0108", "field": "email", "value": "t14r491x@hotmai1.com", "truth": "t14r491x@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0108", "field": "email", "value": "t14r491x@hotmail.co", "truth": "t14r491x@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0108", "field": "email", "value": "t.14r491x@hotmail.com", "truth": "t14r491x@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0108", "field": "email", "value": "邮箱：t14r491x@hotmail.com", "truth": "t14r491x@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0109", "field": "email", "value": "n62dzqqchbs @yahoo.com", "truth": "n62dzqqchbs@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0109", "field": "email", "value": "n62dzqqchbs@yah0o.com", "truth": "n62dzqqchbs@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0109", "field": "email", "value": "n62dzqqchbs@yahoo", "truth": "n62dzqqchbs@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0109", "field": "email", "value": "n62dzqqch.bs@yahoo.com", "truth": "n62dzqqchbs@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0109", "field": "email", "value": "n62dzqqchbs@yahoo.com。", "truth": "n62dzqqchbs@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0110", "field": "email", "value": "xrfx46axb5ne @sohu.com", "truth": "xrfx46axb5ne@sohu.com", "perturbation": "space", "split": "train"}
+{"id": "email-0110", "field": "email", "value": "xrfx4gaxb5ne@sohu.com", "truth": "xrfx46axb5ne@sohu.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0110", "field": "email", "value": "xrfx46axb5ne@sohu.co", "truth": "xrfx46axb5ne@sohu.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0110", "field": "email", "value": "xrfx46axb.5ne@sohu.com", "truth": "xrfx46axb5ne@sohu.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0110", "field": "email", "value": "xrfx46axb5ne@sohu.com。", "truth": "xrfx46axb5ne@sohu.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0111", "field": "email", "value": "yeocka7q@ 163.com", "truth": "yeocka7q@163.com", "perturbation": "space", "split": "train"}
+{"id": "email-0111", "field": "email", "value": "ye0cka7q@163.com", "truth": "yeocka7q@163.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0111", "field": "email", "value": "yeocka7q@163.co", "truth": "yeocka7q@163.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0111", "field": "email", "value": "y_eocka7q@163.com", "truth": "yeocka7q@163.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0111", "field": "email", "value": "Email:yeocka7q@163.com", "truth": "yeocka7q@163.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0112", "field": "email", "value": "dzudnr6rsh @189.cn", "truth": "dzudnr6rsh@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0112", "field": "email", "value": "dzudnr6rsh@1b9.cn", "truth": "dzudnr6rsh@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0112", "field": "email", "value": "dzudnr6rsh@189", "truth": "dzudnr6rsh@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0112", "field": "email", "value": "dzudnr6.rsh@189.cn", "truth": "dzudnr6rsh@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0112", "field": "email", "value": "dzudnr6rsh@189.cn（常用）", "truth": "dzudnr6rsh@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0113", "field": "email", "value": "ccc7l @126.com", "truth": "ccc7l@126.com", "perturbation": "space", "split": "train"}
+{"id": "email-0113", "field": "email", "value": "ccc7l@l26.com", "truth": "ccc7l@126.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0113", "field": "email", "value": "ccc7l@126", "truth": "ccc7l@126.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0113", "field": "email", "value": "cc.c7l@126.com", "truth": "ccc7l@126.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0113", "field": "email", "value": "ccc7l@126.com（常用）", "truth": "ccc7l@126.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0114", "field": "email", "value": "mwroj92i4v @test.org", "truth": "mwroj92i4v@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0114", "field": "email", "value": "mwroj9zi4v@test.org", "truth": "mwroj92i4v@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0114", "field": "email", "value": "mwroj92i4v@test.or", "truth": "mwroj92i4v@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0114", "field": "email", "value": "mwro_j92i4v@test.org", "truth": "mwroj92i4v@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0114", "field": "email", "value": "邮箱:mwroj92i4v@test.org", "truth": "mwroj92i4v@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0115", "field": "email", "value": "n9v @aliyun.com", "truth": "n9v@aliyun.com", "perturbation": "space", "split": "train"}
+{"id": "email-0115", "field": "email", "value": "n9v@a1iyun.com", "truth": "n9v@aliyun.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0115", "field": "email", "value": "n9v@aliyun.co", "truth": "n9v@aliyun.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0115", "field": "email", "value": "n_9v@aliyun.com", "truth": "n9v@aliyun.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0115", "field": "email", "value": "Email:n9v@aliyun.com", "truth": "n9v@aliyun.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0116", "field": "email", "value": "s0h42 @189.cn", "truth": "s0h42@189.cn", "perturbation": "space", "split": "heldout"}
+{"id": "email-0116", "field": "email", "value": "s0h42@l89.cn", "truth": "s0h42@189.cn", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0116", "field": "email", "value": "s0h42@189", "truth": "s0h42@189.cn", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0116", "field": "email", "value": "s0h.42@189.cn", "truth": "s0h42@189.cn", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0116", "field": "email", "value": "邮箱：s0h42@189.cn", "truth": "s0h42@189.cn", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0117", "field": "email", "value": "iux99z@ school.edu", "truth": "iux99z@school.edu", "perturbation": "space", "split": "heldout"}
+{"id": "email-0117", "field": "email", "value": "iux99z@5chool.edu", "truth": "iux99z@school.edu", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0117", "field": "email", "value": "iux99z@school", "truth": "iux99z@school.edu", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0117", "field": "email", "value": "iu_x99z@school.edu", "truth": "iux99z@school.edu", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0117", "field": "email", "value": "iux99z@school.edu（常用）", "truth": "iux99z@school.edu", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0118", "field": "email", "value": "aa4 @gmail.com", "truth": "aa4@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0118", "field": "email", "value": "aa4@gmai1.com", "truth": "aa4@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0118", "field": "email", "value": "aa4@gmail", "truth": "aa4@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0118", "field": "email", "value": "a_a4@gmail.com", "truth": "aa4@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0118", "field": "email", "value": "邮箱:aa4@gmail.com", "truth": "aa4@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0119", "field": "email", "value": "wq4lgh@ company.net", "truth": "wq4lgh@company.net", "perturbation": "space", "split": "train"}
+{"id": "email-0119", "field": "email", "value": "wq4l6h@company.net", "truth": "wq4lgh@company.net", "perturbation": "typo", "split": "train"}
+{"id": "email-0119", "field": "email", "value": "wq4lgh@company", "truth": "wq4lgh@company.net", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0119", "field": "email", "value": "wq4_lgh@company.net", "truth": "wq4lgh@company.net", "perturbation": "sep", "split": "train"}
+{"id": "email-0119", "field": "email", "value": "邮箱：wq4lgh@company.net", "truth": "wq4lgh@company.net", "perturbation": "noise", "split": "train"}
+{"id": "email-0120", "field": "email", "value": "p3gu64g4c @gmail.com", "truth": "p3gu64g4c@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0120", "field": "email", "value": "p3gu64g4c@gmail.c0m", "truth": "p3gu64g4c@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0120", "field": "email", "value": "p3gu64g4c@gmail", "truth": "p3gu64g4c@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0120", "field": "email", "value": "p3_gu64g4c@gmail.com", "truth": "p3gu64g4c@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0120", "field": "email", "value": "Email:p3gu64g4c@gmail.com", "truth": "p3gu64g4c@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0121", "field": "email", "value": "oc78jjp@ hotmail.com", "truth": "oc78jjp@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0121", "field": "email", "value": "oc78jjp@hotmai1.com", "truth": "oc78jjp@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0121", "field": "email", "value": "oc78jjp@hotmail", "truth": "oc78jjp@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0121", "field": "email", "value": "oc_78jjp@hotmail.com", "truth": "oc78jjp@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0121", "field": "email", "value": "oc78jjp@hotmail.com（常用）", "truth": "oc78jjp@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0122", "field": "email", "value": "l791gshjgwr @example.com", "truth": "l791gshjgwr@example.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0122", "field": "email", "value": "l791g5hjgwr@example.com", "truth": "l791gshjgwr@example.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0122", "field": "email", "value": "l791gshjgwr@example", "truth": "l791gshjgwr@example.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0122", "field": "email", "value": "l.791gshjgwr@example.com", "truth": "l791gshjgwr@example.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0122", "field": "email", "value": "l791gshjgwr@example.com（工作邮箱）", "truth": "l791gshjgwr@example.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0123", "field": "email", "value": "lg4xn75dot9k@ foxmail.com", "truth": "lg4xn75dot9k@foxmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0123", "field": "email", "value": "lg4xn75dot9k@foxmai1.com", "truth": "lg4xn75dot9k@foxmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0123", "field": "email", "value": "lg4xn75dot9k@foxmail", "truth": "lg4xn75dot9k@foxmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0123", "field": "email", "value": "lg.4xn75dot9k@foxmail.com", "truth": "lg4xn75dot9k@foxmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0123", "field": "email", "value": "邮箱:lg4xn75dot9k@foxmail.com", "truth": "lg4xn75dot9k@foxmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0124", "field": "email", "value": "wtc064jh28 @189.cn", "truth": "wtc064jh28@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0124", "field": "email", "value": "wtc0g4jh28@189.cn", "truth": "wtc064jh28@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0124", "field": "email", "value": "wtc064jh28@189.c", "truth": "wtc064jh28@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0124", "field": "email", "value": "wtc0.64jh28@189.cn", "truth": "wtc064jh28@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0124", "field": "email", "value": "wtc064jh28@189.cn（工作邮箱）", "truth": "wtc064jh28@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0125", "field": "email", "value": "t3mher9nvlxw @school.edu", "truth": "t3mher9nvlxw@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0125", "field": "email", "value": "t3mher9nvlxw@scho0l.edu", "truth": "t3mher9nvlxw@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0125", "field": "email", "value": "t3mher9nvlxw@school", "truth": "t3mher9nvlxw@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0125", "field": "email", "value": "t3mh_er9nvlxw@school.edu", "truth": "t3mher9nvlxw@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0125", "field": "email", "value": "t3mher9nvlxw@school.edu（常用）", "truth": "t3mher9nvlxw@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0126", "field": "email", "value": "xppks7o2jhrw @gmail.com", "truth": "xppks7o2jhrw@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0126", "field": "email", "value": "xppks7o2jhrw@gmail.c0m", "truth": "xppks7o2jhrw@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0126", "field": "email", "value": "xppks7o2jhrw@gmail.co", "truth": "xppks7o2jhrw@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0126", "field": "email", "value": "xppks7o2jh.rw@gmail.com", "truth": "xppks7o2jhrw@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0126", "field": "email", "value": "xppks7o2jhrw@gmail.com。", "truth": "xppks7o2jhrw@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0127", "field": "email", "value": "zh5savmbejks @139.com", "truth": "zh5savmbejks@139.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0127", "field": "email", "value": "zh5savmbejks@139.c0m", "truth": "zh5savmbejks@139.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0127", "field": "email", "value": "zh5savmbejks@139.co", "truth": "zh5savmbejks@139.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0127", "field": "email", "value": "zh5sa_vmbejks@139.com", "truth": "zh5savmbejks@139.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0127", "field": "email", "value": "邮箱:zh5savmbejks@139.com", "truth": "zh5savmbejks@139.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0128", "field": "email", "value": "n7cen@ outlook.com", "truth": "n7cen@outlook.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0128", "field": "email", "value": "n7cen@outl0ok.com", "truth": "n7cen@outlook.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0128", "field": "email", "value": "n7cen@outlook.co", "truth": "n7cen@outlook.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0128", "field": "email", "value": "n7_cen@outlook.com", "truth": "n7cen@outlook.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0128", "field": "email", "value": "邮箱:n7cen@outlook.com", "truth": "n7cen@outlook.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0129", "field": "email", "value": "uu7b@ sina.com", "truth": "uu7b@sina.com", "perturbation": "space", "split": "train"}
+{"id": "email-0129", "field": "email", "value": "uu78@sina.com", "truth": "uu7b@sina.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0129", "field": "email", "value": "uu7b@sina", "truth": "uu7b@sina.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0129", "field": "email", "value": "uu_7b@sina.com", "truth": "uu7b@sina.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0129", "field": "email", "value": "uu7b@sina.com。", "truth": "uu7b@sina.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0130", "field": "email", "value": "xk2k8mwvxvob @example.com", "truth": "xk2k8mwvxvob@example.com", "perturbation": "space", "split": "train"}
+{"id": "email-0130", "field": "email", "value": "xk2k8mwvxv0b@example.com", "truth": "xk2k8mwvxvob@example.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0130", "field": "email", "value": "xk2k8mwvxvob@example", "truth": "xk2k8mwvxvob@example.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0130", "field": "email", "value": "xk2k8mwvxvo_b@example.com", "truth": "xk2k8mwvxvob@example.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0130", "field": "email", "value": "xk2k8mwvxvob@example.com（常用）", "truth": "xk2k8mwvxvob@example.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0131", "field": "email", "value": "ptn908tn2lpj @gmail.com", "truth": "ptn908tn2lpj@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0131", "field": "email", "value": "ptn908tnzlpj@gmail.com", "truth": "ptn908tn2lpj@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0131", "field": "email", "value": "ptn908tn2lpj@gmail", "truth": "ptn908tn2lpj@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0131", "field": "email", "value": "ptn_908tn2lpj@gmail.com", "truth": "ptn908tn2lpj@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0131", "field": "email", "value": "ptn908tn2lpj@gmail.com（工作邮箱）", "truth": "ptn908tn2lpj@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0132", "field": "email", "value": "xc30mnzq@ example.com", "truth": "xc30mnzq@example.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0132", "field": "email", "value": "xc30mnzq@example.c0m", "truth": "xc30mnzq@example.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0132", "field": "email", "value": "xc30mnzq@example.co", "truth": "xc30mnzq@example.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0132", "field": "email", "value": "xc30_mnzq@example.com", "truth": "xc30mnzq@example.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0132", "field": "email", "value": "邮箱：xc30mnzq@example.com", "truth": "xc30mnzq@example.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0133", "field": "email", "value": "aot0i@ gmail.com", "truth": "aot0i@gmail.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0133", "field": "email", "value": "aot0i@gmai1.com", "truth": "aot0i@gmail.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0133", "field": "email", "value": "aot0i@gmail", "truth": "aot0i@gmail.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0133", "field": "email", "value": "aot_0i@gmail.com", "truth": "aot0i@gmail.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0133", "field": "email", "value": "aot0i@gmail.com（常用）", "truth": "aot0i@gmail.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0134", "field": "email", "value": "zw2axk@ school.edu", "truth": "zw2axk@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0134", "field": "email", "value": "zw2axk@5chool.edu", "truth": "zw2axk@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0134", "field": "email", "value": "zw2axk@school", "truth": "zw2axk@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0134", "field": "email", "value": "zw2ax_k@school.edu", "truth": "zw2axk@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0134", "field": "email", "value": "邮箱：zw2axk@school.edu", "truth": "zw2axk@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0135", "field": "email", "value": "lmztwq0jv45w @189.cn", "truth": "lmztwq0jv45w@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0135", "field": "email", "value": "lmztwqojv45w@189.cn", "truth": "lmztwq0jv45w@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0135", "field": "email", "value": "lmztwq0jv45w@189", "truth": "lmztwq0jv45w@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0135", "field": "email", "value": "lmztw.q0jv45w@189.cn", "truth": "lmztwq0jv45w@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0135", "field": "email", "value": "lmztwq0jv45w@189.cn（常用）", "truth": "lmztwq0jv45w@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0136", "field": "email", "value": "rdr1u4a@ yahoo.com", "truth": "rdr1u4a@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0136", "field": "email", "value": "rdrlu4a@yahoo.com", "truth": "rdr1u4a@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0136", "field": "email", "value": "rdr1u4a@yahoo", "truth": "rdr1u4a@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0136", "field": "email", "value": "rd.r1u4a@yahoo.com", "truth": "rdr1u4a@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0136", "field": "email", "value": "rdr1u4a@yahoo.com（常用）", "truth": "rdr1u4a@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0137", "field": "email", "value": "t38kibv4696@ 139.com", "truth": "t38kibv4696@139.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0137", "field": "email", "value": "t38kibv4696@l39.com", "truth": "t38kibv4696@139.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0137", "field": "email", "value": "t38kibv4696@139", "truth": "t38kibv4696@139.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0137", "field": "email", "value": "t38kib_v4696@139.com", "truth": "t38kibv4696@139.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0137", "field": "email", "value": "t38kibv4696@139.com（常用）", "truth": "t38kibv4696@139.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0138", "field": "email", "value": "ic99 @sina.com", "truth": "ic99@sina.com", "perturbation": "space", "split": "train"}
+{"id": "email-0138", "field": "email", "value": "ic99@sina.c0m", "truth": "ic99@sina.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0138", "field": "email", "value": "ic99@sina", "truth": "ic99@sina.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0138", "field": "email", "value": "ic.99@sina.com", "truth": "ic99@sina.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0138", "field": "email", "value": "ic99@sina.com（工作邮箱）", "truth": "ic99@sina.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0139", "field": "email", "value": "jfblfh2nr674@ 163.com", "truth": "jfblfh2nr674@163.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0139", "field": "email", "value": "jfblfh2nr674@163.c0m", "truth": "jfblfh2nr674@163.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0139", "field": "email", "value": "jfblfh2nr674@163", "truth": "jfblfh2nr674@163.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0139", "field": "email", "value": "jfblfh2nr67_4@163.com", "truth": "jfblfh2nr674@163.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0139", "field": "email", "value": "邮箱：jfblfh2nr674@163.com", "truth": "jfblfh2nr674@163.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0140", "field": "email", "value": "n50b1rw@ 139.com", "truth": "n50b1rw@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0140", "field": "email", "value": "n5081rw@139.com", "truth": "n50b1rw@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0140", "field": "email", "value": "n50b1rw@139.co", "truth": "n50b1rw@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0140", "field": "email", "value": "n50b_1rw@139.com", "truth": "n50b1rw@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0140", "field": "email", "value": "邮箱:n50b1rw@139.com", "truth": "n50b1rw@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0141", "field": "email", "value": "o28g7bad88q@ sina.com", "truth": "o28g7bad88q@sina.com", "perturbation": "space", "split": "train"}
+{"id": "email-0141", "field": "email", "value": "o2867bad88q@sina.com", "truth": "o28g7bad88q@sina.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0141", "field": "email", "value": "o28g7bad88q@sina.co", "truth": "o28g7bad88q@sina.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0141", "field": "email", "value": "o28g7bad88_q@sina.com", "truth": "o28g7bad88q@sina.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0141", "field": "email", "value": "o28g7bad88q@sina.com（工作邮箱）", "truth": "o28g7bad88q@sina.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0142", "field": "email", "value": "od7 @126.com", "truth": "od7@126.com", "perturbation": "space", "split": "train"}
+{"id": "email-0142", "field": "email", "value": "od7@l26.com", "truth": "od7@126.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0142", "field": "email", "value": "od7@126.co", "truth": "od7@126.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0142", "field": "email", "value": "o_d7@126.com", "truth": "od7@126.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0142", "field": "email", "value": "od7@126.com（常用）", "truth": "od7@126.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0143", "field": "email", "value": "b5sse2qi @163.com", "truth": "b5sse2qi@163.com", "perturbation": "space", "split": "train"}
+{"id": "email-0143", "field": "email", "value": "bssse2qi@163.com", "truth": "b5sse2qi@163.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0143", "field": "email", "value": "b5sse2qi@163.co", "truth": "b5sse2qi@163.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0143", "field": "email", "value": "b5sse2_qi@163.com", "truth": "b5sse2qi@163.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0143", "field": "email", "value": "邮箱：b5sse2qi@163.com", "truth": "b5sse2qi@163.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0144", "field": "email", "value": "uzflozvig9th @189.cn", "truth": "uzflozvig9th@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0144", "field": "email", "value": "uzf1ozvig9th@189.cn", "truth": "uzflozvig9th@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0144", "field": "email", "value": "uzflozvig9th@189.c", "truth": "uzflozvig9th@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0144", "field": "email", "value": "uzfl.ozvig9th@189.cn", "truth": "uzflozvig9th@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0144", "field": "email", "value": "Email:uzflozvig9th@189.cn", "truth": "uzflozvig9th@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0145", "field": "email", "value": "r29v @sina.com", "truth": "r29v@sina.com", "perturbation": "space", "split": "train"}
+{"id": "email-0145", "field": "email", "value": "r29v@5ina.com", "truth": "r29v@sina.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0145", "field": "email", "value": "r29v@sina", "truth": "r29v@sina.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0145", "field": "email", "value": "r29_v@sina.com", "truth": "r29v@sina.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0145", "field": "email", "value": "r29v@sina.com。", "truth": "r29v@sina.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0146", "field": "email", "value": "chc2cnv9@ sohu.com", "truth": "chc2cnv9@sohu.com", "perturbation": "space", "split": "train"}
+{"id": "email-0146", "field": "email", "value": "chczcnv9@sohu.com", "truth": "chc2cnv9@sohu.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0146", "field": "email", "value": "chc2cnv9@sohu", "truth": "chc2cnv9@sohu.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0146", "field": "email", "value": "chc_2cnv9@sohu.com", "truth": "chc2cnv9@sohu.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0146", "field": "email", "value": "邮箱：chc2cnv9@sohu.com", "truth": "chc2cnv9@sohu.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0147", "field": "email", "value": "l8mhdf3xx@ sohu.com", "truth": "l8mhdf3xx@sohu.com", "perturbation": "space", "split": "train"}
+{"id": "email-0147", "field": "email", "value": "lbmhdf3xx@sohu.com", "truth": "l8mhdf3xx@sohu.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0147", "field": "email", "value": "l8mhdf3xx@sohu", "truth": "l8mhdf3xx@sohu.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0147", "field": "email", "value": "l_8mhdf3xx@sohu.com", "truth": "l8mhdf3xx@sohu.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0147", "field": "email", "value": "邮箱:l8mhdf3xx@sohu.com", "truth": "l8mhdf3xx@sohu.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0148", "field": "email", "value": "qvwo1r @aliyun.com", "truth": "qvwo1r@aliyun.com", "perturbation": "space", "split": "train"}
+{"id": "email-0148", "field": "email", "value": "qvwo1r@aliyun.c0m", "truth": "qvwo1r@aliyun.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0148", "field": "email", "value": "qvwo1r@aliyun.co", "truth": "qvwo1r@aliyun.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0148", "field": "email", "value": "qvwo1_r@aliyun.com", "truth": "qvwo1r@aliyun.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0148", "field": "email", "value": "邮箱：qvwo1r@aliyun.com", "truth": "qvwo1r@aliyun.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0149", "field": "email", "value": "mj18p @qq.com", "truth": "mj18p@qq.com", "perturbation": "space", "split": "train"}
+{"id": "email-0149", "field": "email", "value": "mjl8p@qq.com", "truth": "mj18p@qq.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0149", "field": "email", "value": "mj18p@qq.co", "truth": "mj18p@qq.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0149", "field": "email", "value": "mj1.8p@qq.com", "truth": "mj18p@qq.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0149", "field": "email", "value": "mj18p@qq.com（常用）", "truth": "mj18p@qq.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0150", "field": "email", "value": "h1uropy91h0@ sina.com", "truth": "h1uropy91h0@sina.com", "perturbation": "space", "split": "train"}
+{"id": "email-0150", "field": "email", "value": "h1uropy91h0@sina.c0m", "truth": "h1uropy91h0@sina.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0150", "field": "email", "value": "h1uropy91h0@sina", "truth": "h1uropy91h0@sina.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0150", "field": "email", "value": "h.1uropy91h0@sina.com", "truth": "h1uropy91h0@sina.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0150", "field": "email", "value": "Email:h1uropy91h0@sina.com", "truth": "h1uropy91h0@sina.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0151", "field": "email", "value": "fl39cp @outlook.com", "truth": "fl39cp@outlook.com", "perturbation": "space", "split": "train"}
+{"id": "email-0151", "field": "email", "value": "fl39cp@out1ook.com", "truth": "fl39cp@outlook.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0151", "field": "email", "value": "fl39cp@outlook.co", "truth": "fl39cp@outlook.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0151", "field": "email", "value": "fl39.cp@outlook.com", "truth": "fl39cp@outlook.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0151", "field": "email", "value": "fl39cp@outlook.com（工作邮箱）", "truth": "fl39cp@outlook.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0152", "field": "email", "value": "vl4p9jedfbzq@ school.edu", "truth": "vl4p9jedfbzq@school.edu", "perturbation": "space", "split": "heldout"}
+{"id": "email-0152", "field": "email", "value": "vl4p9jedfbzq@schoo1.edu", "truth": "vl4p9jedfbzq@school.edu", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0152", "field": "email", "value": "vl4p9jedfbzq@school.ed", "truth": "vl4p9jedfbzq@school.edu", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0152", "field": "email", "value": "vl4p9jedfb.zq@school.edu", "truth": "vl4p9jedfbzq@school.edu", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0152", "field": "email", "value": "vl4p9jedfbzq@school.edu（常用）", "truth": "vl4p9jedfbzq@school.edu", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0153", "field": "email", "value": "dqxiw0wcpi6 @189.cn", "truth": "dqxiw0wcpi6@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0153", "field": "email", "value": "dqxiw0wcpi6@1b9.cn", "truth": "dqxiw0wcpi6@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0153", "field": "email", "value": "dqxiw0wcpi6@189", "truth": "dqxiw0wcpi6@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0153", "field": "email", "value": "dqx_iw0wcpi6@189.cn", "truth": "dqxiw0wcpi6@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0153", "field": "email", "value": "dqxiw0wcpi6@189.cn。", "truth": "dqxiw0wcpi6@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0154", "field": "email", "value": "mcux0e@ company.net", "truth": "mcux0e@company.net", "perturbation": "space", "split": "train"}
+{"id": "email-0154", "field": "email", "value": "mcux0e@c0mpany.net", "truth": "mcux0e@company.net", "perturbation": "typo", "split": "train"}
+{"id": "email-0154", "field": "email", "value": "mcux0e@company.ne", "truth": "mcux0e@company.net", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0154", "field": "email", "value": "mc.ux0e@company.net", "truth": "mcux0e@company.net", "perturbation": "sep", "split": "train"}
+{"id": "email-0154", "field": "email", "value": "mcux0e@company.net（常用）", "truth": "mcux0e@company.net", "perturbation": "noise", "split": "train"}
+{"id": "email-0155", "field": "email", "value": "xm2jc2it@ aliyun.com", "truth": "xm2jc2it@aliyun.com", "perturbation": "space", "split": "train"}
+{"id": "email-0155", "field": "email", "value": "xmzjc2it@aliyun.com", "truth": "xm2jc2it@aliyun.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0155", "field": "email", "value": "xm2jc2it@aliyun", "truth": "xm2jc2it@aliyun.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0155", "field": "email", "value": "xm2jc2_it@aliyun.com", "truth": "xm2jc2it@aliyun.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0155", "field": "email", "value": "邮箱:xm2jc2it@aliyun.com", "truth": "xm2jc2it@aliyun.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0156", "field": "email", "value": "i0kwfe63x9@ yahoo.com", "truth": "i0kwfe63x9@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0156", "field": "email", "value": "i0kwfe63x9@yahoo.c0m", "truth": "i0kwfe63x9@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0156", "field": "email", "value": "i0kwfe63x9@yahoo.co", "truth": "i0kwfe63x9@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0156", "field": "email", "value": "i0kwf_e63x9@yahoo.com", "truth": "i0kwfe63x9@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0156", "field": "email", "value": "i0kwfe63x9@yahoo.com（工作邮箱）", "truth": "i0kwfe63x9@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0157", "field": "email", "value": "t6e @mail.cn", "truth": "t6e@mail.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0157", "field": "email", "value": "tge@mail.cn", "truth": "t6e@mail.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0157", "field": "email", "value": "t6e@mail.c", "truth": "t6e@mail.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0157", "field": "email", "value": "t6.e@mail.cn", "truth": "t6e@mail.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0157", "field": "email", "value": "t6e@mail.cn。", "truth": "t6e@mail.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0158", "field": "email", "value": "ak4z5n@ yahoo.com", "truth": "ak4z5n@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0158", "field": "email", "value": "ak4z5n@yah0o.com", "truth": "ak4z5n@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0158", "field": "email", "value": "ak4z5n@yahoo.co", "truth": "ak4z5n@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0158", "field": "email", "value": "ak4z5_n@yahoo.com", "truth": "ak4z5n@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0158", "field": "email", "value": "ak4z5n@yahoo.com。", "truth": "ak4z5n@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0159", "field": "email", "value": "uddv877v003 @school.edu", "truth": "uddv877v003@school.edu", "perturbation": "space", "split": "train"}
+{"id": "email-0159", "field": "email", "value": "uddv877vo03@school.edu", "truth": "uddv877v003@school.edu", "perturbation": "typo", "split": "train"}
+{"id": "email-0159", "field": "email", "value": "uddv877v003@school.ed", "truth": "uddv877v003@school.edu", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0159", "field": "email", "value": "uddv877v00.3@school.edu", "truth": "uddv877v003@school.edu", "perturbation": "sep", "split": "train"}
+{"id": "email-0159", "field": "email", "value": "uddv877v003@school.edu。", "truth": "uddv877v003@school.edu", "perturbation": "noise", "split": "train"}
+{"id": "email-0160", "field": "email", "value": "pk2@ yahoo.com", "truth": "pk2@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0160", "field": "email", "value": "pk2@yaho0.com", "truth": "pk2@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0160", "field": "email", "value": "pk2@yahoo.co", "truth": "pk2@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0160", "field": "email", "value": "p.k2@yahoo.com", "truth": "pk2@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0160", "field": "email", "value": "pk2@yahoo.com。", "truth": "pk2@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0161", "field": "email", "value": "b7p4ekwl49@ yahoo.com", "truth": "b7p4ekwl49@yahoo.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0161", "field": "email", "value": "b7p4ekwl49@yahoo.c0m", "truth": "b7p4ekwl49@yahoo.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0161", "field": "email", "value": "b7p4ekwl49@yahoo.co", "truth": "b7p4ekwl49@yahoo.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0161", "field": "email", "value": "b.7p4ekwl49@yahoo.com", "truth": "b7p4ekwl49@yahoo.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0161", "field": "email", "value": "Email:b7p4ekwl49@yahoo.com", "truth": "b7p4ekwl49@yahoo.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0162", "field": "email", "value": "g7oeuid2jci@ hotmail.com", "truth": "g7oeuid2jci@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0162", "field": "email", "value": "g7oeuid2jci@hotmail.c0m", "truth": "g7oeuid2jci@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0162", "field": "email", "value": "g7oeuid2jci@hotmail.co", "truth": "g7oeuid2jci@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0162", "field": "email", "value": "g7oeuid2j.ci@hotmail.com", "truth": "g7oeuid2jci@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0162", "field": "email", "value": "g7oeuid2jci@hotmail.com（工作邮箱）", "truth": "g7oeuid2jci@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0163", "field": "email", "value": "y5e877518tve @189.cn", "truth": "y5e877518tve@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0163", "field": "email", "value": "y5e877518tve@l89.cn", "truth": "y5e877518tve@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0163", "field": "email", "value": "y5e877518tve@189.c", "truth": "y5e877518tve@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0163", "field": "email", "value": "y.5e877518tve@189.cn", "truth": "y5e877518tve@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0163", "field": "email", "value": "y5e877518tve@189.cn。", "truth": "y5e877518tve@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0164", "field": "email", "value": "tv1k4jsh@ test.org", "truth": "tv1k4jsh@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0164", "field": "email", "value": "tv1k4j5h@test.org", "truth": "tv1k4jsh@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0164", "field": "email", "value": "tv1k4jsh@test.or", "truth": "tv1k4jsh@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0164", "field": "email", "value": "tv1k4js_h@test.org", "truth": "tv1k4jsh@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0164", "field": "email", "value": "tv1k4jsh@test.org。", "truth": "tv1k4jsh@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0165", "field": "email", "value": "yop6yibr3y8 @aliyun.com", "truth": "yop6yibr3y8@aliyun.com", "perturbation": "space", "split": "train"}
+{"id": "email-0165", "field": "email", "value": "yop6yibr3y8@a1iyun.com", "truth": "yop6yibr3y8@aliyun.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0165", "field": "email", "value": "yop6yibr3y8@aliyun", "truth": "yop6yibr3y8@aliyun.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0165", "field": "email", "value": "yo.p6yibr3y8@aliyun.com", "truth": "yop6yibr3y8@aliyun.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0165", "field": "email", "value": "yop6yibr3y8@aliyun.com（工作邮箱）", "truth": "yop6yibr3y8@aliyun.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0166", "field": "email", "value": "kv0toochyd1@ company.net", "truth": "kv0toochyd1@company.net", "perturbation": "space", "split": "train"}
+{"id": "email-0166", "field": "email", "value": "kv0to0chyd1@company.net", "truth": "kv0toochyd1@company.net", "perturbation": "typo", "split": "train"}
+{"id": "email-0166", "field": "email", "value": "kv0toochyd1@company.ne", "truth": "kv0toochyd1@company.net", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0166", "field": "email", "value": "kv0toochy.d1@company.net", "truth": "kv0toochyd1@company.net", "perturbation": "sep", "split": "train"}
+{"id": "email-0166", "field": "email", "value": "邮箱:kv0toochyd1@company.net", "truth": "kv0toochyd1@company.net", "perturbation": "noise", "split": "train"}
+{"id": "email-0167", "field": "email", "value": "dcyf8aw168 @hotmail.com", "truth": "dcyf8aw168@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0167", "field": "email", "value": "dcyf8awl68@hotmail.com", "truth": "dcyf8aw168@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0167", "field": "email", "value": "dcyf8aw168@hotmail.co", "truth": "dcyf8aw168@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0167", "field": "email", "value": "dcyf8aw16.8@hotmail.com", "truth": "dcyf8aw168@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0167", "field": "email", "value": "dcyf8aw168@hotmail.com。", "truth": "dcyf8aw168@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0168", "field": "email", "value": "sy6bi @test.org", "truth": "sy6bi@test.org", "perturbation": "space", "split": "heldout"}
+{"id": "email-0168", "field": "email", "value": "sy6bi@te5t.org", "truth": "sy6bi@test.org", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0168", "field": "email", "value": "sy6bi@test.or", "truth": "sy6bi@test.org", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0168", "field": "email", "value": "sy_6bi@test.org", "truth": "sy6bi@test.org", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0168", "field": "email", "value": "sy6bi@test.org（工作邮箱）", "truth": "sy6bi@test.org", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0169", "field": "email", "value": "lgthq0tmf @139.com", "truth": "lgthq0tmf@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0169", "field": "email", "value": "l6thq0tmf@139.com", "truth": "lgthq0tmf@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0169", "field": "email", "value": "lgthq0tmf@139.co", "truth": "lgthq0tmf@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0169", "field": "email", "value": "lgthq0tm_f@139.com", "truth": "lgthq0tmf@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0169", "field": "email", "value": "邮箱：lgthq0tmf@139.com", "truth": "lgthq0tmf@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0170", "field": "email", "value": "kcb293 @company.net", "truth": "kcb293@company.net", "perturbation": "space", "split": "train"}
+{"id": "email-0170", "field": "email", "value": "kcbz93@company.net", "truth": "kcb293@company.net", "perturbation": "typo", "split": "train"}
+{"id": "email-0170", "field": "email", "value": "kcb293@company", "truth": "kcb293@company.net", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0170", "field": "email", "value": "k_cb293@company.net", "truth": "kcb293@company.net", "perturbation": "sep", "split": "train"}
+{"id": "email-0170", "field": "email", "value": "kcb293@company.net（常用）", "truth": "kcb293@company.net", "perturbation": "noise", "split": "train"}
+{"id": "email-0171", "field": "email", "value": "qbv3ji9uh@ yahoo.com", "truth": "qbv3ji9uh@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0171", "field": "email", "value": "qbv3ji9uh@yah0o.com", "truth": "qbv3ji9uh@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0171", "field": "email", "value": "qbv3ji9uh@yahoo", "truth": "qbv3ji9uh@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0171", "field": "email", "value": "qbv3ji.9uh@yahoo.com", "truth": "qbv3ji9uh@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0171", "field": "email", "value": "qbv3ji9uh@yahoo.com（工作邮箱）", "truth": "qbv3ji9uh@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0172", "field": "email", "value": "ull3u1ncl @139.com", "truth": "ull3u1ncl@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0172", "field": "email", "value": "u1l3u1ncl@139.com", "truth": "ull3u1ncl@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0172", "field": "email", "value": "ull3u1ncl@139", "truth": "ull3u1ncl@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0172", "field": "email", "value": "ull3u1n_cl@139.com", "truth": "ull3u1ncl@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0172", "field": "email", "value": "邮箱:ull3u1ncl@139.com", "truth": "ull3u1ncl@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0173", "field": "email", "value": "wc6 @139.com", "truth": "wc6@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0173", "field": "email", "value": "wcg@139.com", "truth": "wc6@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0173", "field": "email", "value": "wc6@139", "truth": "wc6@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0173", "field": "email", "value": "wc_6@139.com", "truth": "wc6@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0173", "field": "email", "value": "Email:wc6@139.com", "truth": "wc6@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0174", "field": "email", "value": "tz3@ aliyun.com", "truth": "tz3@aliyun.com", "perturbation": "space", "split": "train"}
+{"id": "email-0174", "field": "email", "value": "tz3@aliyun.c0m", "truth": "tz3@aliyun.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0174", "field": "email", "value": "tz3@aliyun", "truth": "tz3@aliyun.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0174", "field": "email", "value": "t.z3@aliyun.com", "truth": "tz3@aliyun.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0174", "field": "email", "value": "邮箱:tz3@aliyun.com", "truth": "tz3@aliyun.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0175", "field": "email", "value": "r6xk7@ yahoo.com", "truth": "r6xk7@yahoo.com", "perturbation": "space", "split": "train"}
+{"id": "email-0175", "field": "email", "value": "r6xk7@yaho0.com", "truth": "r6xk7@yahoo.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0175", "field": "email", "value": "r6xk7@yahoo", "truth": "r6xk7@yahoo.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0175", "field": "email", "value": "r6x.k7@yahoo.com", "truth": "r6xk7@yahoo.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0175", "field": "email", "value": "Email:r6xk7@yahoo.com", "truth": "r6xk7@yahoo.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0176", "field": "email", "value": "dm6qdi@ company.net", "truth": "dm6qdi@company.net", "perturbation": "space", "split": "train"}
+{"id": "email-0176", "field": "email", "value": "dm6qdi@c0mpany.net", "truth": "dm6qdi@company.net", "perturbation": "typo", "split": "train"}
+{"id": "email-0176", "field": "email", "value": "dm6qdi@company", "truth": "dm6qdi@company.net", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0176", "field": "email", "value": "dm6qd_i@company.net", "truth": "dm6qdi@company.net", "perturbation": "sep", "split": "train"}
+{"id": "email-0176", "field": "email", "value": "dm6qdi@company.net（常用）", "truth": "dm6qdi@company.net", "perturbation": "noise", "split": "train"}
+{"id": "email-0177", "field": "email", "value": "vs7mm81z4h@ 189.cn", "truth": "vs7mm81z4h@189.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0177", "field": "email", "value": "vs7mm8124h@189.cn", "truth": "vs7mm81z4h@189.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0177", "field": "email", "value": "vs7mm81z4h@189", "truth": "vs7mm81z4h@189.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0177", "field": "email", "value": "vs7mm.81z4h@189.cn", "truth": "vs7mm81z4h@189.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0177", "field": "email", "value": "vs7mm81z4h@189.cn（常用）", "truth": "vs7mm81z4h@189.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0178", "field": "email", "value": "c0zbxlzp @mail.cn", "truth": "c0zbxlzp@mail.cn", "perturbation": "space", "split": "train"}
+{"id": "email-0178", "field": "email", "value": "c02bxlzp@mail.cn", "truth": "c0zbxlzp@mail.cn", "perturbation": "typo", "split": "train"}
+{"id": "email-0178", "field": "email", "value": "c0zbxlzp@mail", "truth": "c0zbxlzp@mail.cn", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0178", "field": "email", "value": "c_0zbxlzp@mail.cn", "truth": "c0zbxlzp@mail.cn", "perturbation": "sep", "split": "train"}
+{"id": "email-0178", "field": "email", "value": "c0zbxlzp@mail.cn（常用）", "truth": "c0zbxlzp@mail.cn", "perturbation": "noise", "split": "train"}
+{"id": "email-0179", "field": "email", "value": "xyuje6lxbwei @sina.com", "truth": "xyuje6lxbwei@sina.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0179", "field": "email", "value": "xyuje6lxbwei@sina.c0m", "truth": "xyuje6lxbwei@sina.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0179", "field": "email", "value": "xyuje6lxbwei@sina.co", "truth": "xyuje6lxbwei@sina.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0179", "field": "email", "value": "xyu_je6lxbwei@sina.com", "truth": "xyuje6lxbwei@sina.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0179", "field": "email", "value": "xyuje6lxbwei@sina.com。", "truth": "xyuje6lxbwei@sina.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0180", "field": "email", "value": "i8acqyo6v @aliyun.com", "truth": "i8acqyo6v@aliyun.com", "perturbation": "space", "split": "train"}
+{"id": "email-0180", "field": "email", "value": "i8acqy06v@aliyun.com", "truth": "i8acqyo6v@aliyun.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0180", "field": "email", "value": "i8acqyo6v@aliyun.co", "truth": "i8acqyo6v@aliyun.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0180", "field": "email", "value": "i8ac_qyo6v@aliyun.com", "truth": "i8acqyo6v@aliyun.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0180", "field": "email", "value": "邮箱:i8acqyo6v@aliyun.com", "truth": "i8acqyo6v@aliyun.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0181", "field": "email", "value": "q34vmsrd@ company.net", "truth": "q34vmsrd@company.net", "perturbation": "space", "split": "train"}
+{"id": "email-0181", "field": "email", "value": "q34vm5rd@company.net", "truth": "q34vmsrd@company.net", "perturbation": "typo", "split": "train"}
+{"id": "email-0181", "field": "email", "value": "q34vmsrd@company", "truth": "q34vmsrd@company.net", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0181", "field": "email", "value": "q34vmsr.d@company.net", "truth": "q34vmsrd@company.net", "perturbation": "sep", "split": "train"}
+{"id": "email-0181", "field": "email", "value": "q34vmsrd@company.net（常用）", "truth": "q34vmsrd@company.net", "perturbation": "noise", "split": "train"}
+{"id": "email-0182", "field": "email", "value": "eey77n4h97h@ test.org", "truth": "eey77n4h97h@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0182", "field": "email", "value": "eey77n4h97h@te5t.org", "truth": "eey77n4h97h@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0182", "field": "email", "value": "eey77n4h97h@test.or", "truth": "eey77n4h97h@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0182", "field": "email", "value": "eey77_n4h97h@test.org", "truth": "eey77n4h97h@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0182", "field": "email", "value": "eey77n4h97h@test.org（常用）", "truth": "eey77n4h97h@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0183", "field": "email", "value": "i5006t@ 126.com", "truth": "i5006t@126.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0183", "field": "email", "value": "i5006t@l26.com", "truth": "i5006t@126.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0183", "field": "email", "value": "i5006t@126.co", "truth": "i5006t@126.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0183", "field": "email", "value": "i5_006t@126.com", "truth": "i5006t@126.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0183", "field": "email", "value": "邮箱:i5006t@126.com", "truth": "i5006t@126.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0184", "field": "email", "value": "pevmjy6ysqya @example.com", "truth": "pevmjy6ysqya@example.com", "perturbation": "space", "split": "train"}
+{"id": "email-0184", "field": "email", "value": "pevmjy6ysqya@example.c0m", "truth": "pevmjy6ysqya@example.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0184", "field": "email", "value": "pevmjy6ysqya@example", "truth": "pevmjy6ysqya@example.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0184", "field": "email", "value": "pevmjy6ysqy_a@example.com", "truth": "pevmjy6ysqya@example.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0184", "field": "email", "value": "邮箱：pevmjy6ysqya@example.com", "truth": "pevmjy6ysqya@example.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0185", "field": "email", "value": "ugl6zc4d@ sina.com", "truth": "ugl6zc4d@sina.com", "perturbation": "space", "split": "train"}
+{"id": "email-0185", "field": "email", "value": "u6l6zc4d@sina.com", "truth": "ugl6zc4d@sina.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0185", "field": "email", "value": "ugl6zc4d@sina", "truth": "ugl6zc4d@sina.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0185", "field": "email", "value": "ugl6zc.4d@sina.com", "truth": "ugl6zc4d@sina.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0185", "field": "email", "value": "ugl6zc4d@sina.com（工作邮箱）", "truth": "ugl6zc4d@sina.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0186", "field": "email", "value": "txme9g @hotmail.com", "truth": "txme9g@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0186", "field": "email", "value": "txme9g@hotmail.c0m", "truth": "txme9g@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0186", "field": "email", "value": "txme9g@hotmail", "truth": "txme9g@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0186", "field": "email", "value": "txme9.g@hotmail.com", "truth": "txme9g@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0186", "field": "email", "value": "txme9g@hotmail.com。", "truth": "txme9g@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0187", "field": "email", "value": "mcjyl7kneb @company.net", "truth": "mcjyl7kneb@company.net", "perturbation": "space", "split": "heldout"}
+{"id": "email-0187", "field": "email", "value": "mcjy17kneb@company.net", "truth": "mcjyl7kneb@company.net", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0187", "field": "email", "value": "mcjyl7kneb@company.ne", "truth": "mcjyl7kneb@company.net", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0187", "field": "email", "value": "mcjyl7k_neb@company.net", "truth": "mcjyl7kneb@company.net", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0187", "field": "email", "value": "mcjyl7kneb@company.net（工作邮箱）", "truth": "mcjyl7kneb@company.net", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0188", "field": "email", "value": "vv5lwv8qgzb@ test.org", "truth": "vv5lwv8qgzb@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0188", "field": "email", "value": "vv5lwvbqgzb@test.org", "truth": "vv5lwv8qgzb@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0188", "field": "email", "value": "vv5lwv8qgzb@test.or", "truth": "vv5lwv8qgzb@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0188", "field": "email", "value": "vv.5lwv8qgzb@test.org", "truth": "vv5lwv8qgzb@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0188", "field": "email", "value": "vv5lwv8qgzb@test.org。", "truth": "vv5lwv8qgzb@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0189", "field": "email", "value": "koiwm1 @139.com", "truth": "koiwm1@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0189", "field": "email", "value": "k0iwm1@139.com", "truth": "koiwm1@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0189", "field": "email", "value": "koiwm1@139.co", "truth": "koiwm1@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0189", "field": "email", "value": "ko.iwm1@139.com", "truth": "koiwm1@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0189", "field": "email", "value": "Email:koiwm1@139.com", "truth": "koiwm1@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0190", "field": "email", "value": "zja21yc @gmail.com", "truth": "zja21yc@gmail.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0190", "field": "email", "value": "zja21yc@6mail.com", "truth": "zja21yc@gmail.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0190", "field": "email", "value": "zja21yc@gmail", "truth": "zja21yc@gmail.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0190", "field": "email", "value": "z_ja21yc@gmail.com", "truth": "zja21yc@gmail.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0190", "field": "email", "value": "Email:zja21yc@gmail.com", "truth": "zja21yc@gmail.com", "perturbation": "noise", "split": "heldout"}
+{"id": "email-0191", "field": "email", "value": "f0mn@ sohu.com", "truth": "f0mn@sohu.com", "perturbation": "space", "split": "train"}
+{"id": "email-0191", "field": "email", "value": "f0mn@5ohu.com", "truth": "f0mn@sohu.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0191", "field": "email", "value": "f0mn@sohu", "truth": "f0mn@sohu.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0191", "field": "email", "value": "f0m.n@sohu.com", "truth": "f0mn@sohu.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0191", "field": "email", "value": "邮箱：f0mn@sohu.com", "truth": "f0mn@sohu.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0192", "field": "email", "value": "fwifn1thoj23@ foxmail.com", "truth": "fwifn1thoj23@foxmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0192", "field": "email", "value": "fwifnlthoj23@foxmail.com", "truth": "fwifn1thoj23@foxmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0192", "field": "email", "value": "fwifn1thoj23@foxmail.co", "truth": "fwifn1thoj23@foxmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0192", "field": "email", "value": "fwifn.1thoj23@foxmail.com", "truth": "fwifn1thoj23@foxmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0192", "field": "email", "value": "邮箱：fwifn1thoj23@foxmail.com", "truth": "fwifn1thoj23@foxmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0193", "field": "email", "value": "hw29h6 @139.com", "truth": "hw29h6@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0193", "field": "email", "value": "hw29h6@139.c0m", "truth": "hw29h6@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0193", "field": "email", "value": "hw29h6@139", "truth": "hw29h6@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0193", "field": "email", "value": "h.w29h6@139.com", "truth": "hw29h6@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0193", "field": "email", "value": "邮箱:hw29h6@139.com", "truth": "hw29h6@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0194", "field": "email", "value": "k1boujyiv @foxmail.com", "truth": "k1boujyiv@foxmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0194", "field": "email", "value": "k1b0ujyiv@foxmail.com", "truth": "k1boujyiv@foxmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0194", "field": "email", "value": "k1boujyiv@foxmail", "truth": "k1boujyiv@foxmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0194", "field": "email", "value": "k1boujy.iv@foxmail.com", "truth": "k1boujyiv@foxmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0194", "field": "email", "value": "Email:k1boujyiv@foxmail.com", "truth": "k1boujyiv@foxmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0195", "field": "email", "value": "y1i627mb@ 163.com", "truth": "y1i627mb@163.com", "perturbation": "space", "split": "train"}
+{"id": "email-0195", "field": "email", "value": "y1i627mb@1g3.com", "truth": "y1i627mb@163.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0195", "field": "email", "value": "y1i627mb@163.co", "truth": "y1i627mb@163.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0195", "field": "email", "value": "y1i627.mb@163.com", "truth": "y1i627mb@163.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0195", "field": "email", "value": "y1i627mb@163.com（工作邮箱）", "truth": "y1i627mb@163.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0196", "field": "email", "value": "qfn4cf@ hotmail.com", "truth": "qfn4cf@hotmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0196", "field": "email", "value": "qfn4cf@hotmai1.com", "truth": "qfn4cf@hotmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0196", "field": "email", "value": "qfn4cf@hotmail", "truth": "qfn4cf@hotmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0196", "field": "email", "value": "q.fn4cf@hotmail.com", "truth": "qfn4cf@hotmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0196", "field": "email", "value": "qfn4cf@hotmail.com。", "truth": "qfn4cf@hotmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0197", "field": "email", "value": "k2ja7835ke @gmail.com", "truth": "k2ja7835ke@gmail.com", "perturbation": "space", "split": "train"}
+{"id": "email-0197", "field": "email", "value": "k2ja783ske@gmail.com", "truth": "k2ja7835ke@gmail.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0197", "field": "email", "value": "k2ja7835ke@gmail.co", "truth": "k2ja7835ke@gmail.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0197", "field": "email", "value": "k2ja7_835ke@gmail.com", "truth": "k2ja7835ke@gmail.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0197", "field": "email", "value": "k2ja7835ke@gmail.com（常用）", "truth": "k2ja7835ke@gmail.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0198", "field": "email", "value": "bq7ilo2@ 139.com", "truth": "bq7ilo2@139.com", "perturbation": "space", "split": "train"}
+{"id": "email-0198", "field": "email", "value": "bq7iloz@139.com", "truth": "bq7ilo2@139.com", "perturbation": "typo", "split": "train"}
+{"id": "email-0198", "field": "email", "value": "bq7ilo2@139", "truth": "bq7ilo2@139.com", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0198", "field": "email", "value": "bq7i_lo2@139.com", "truth": "bq7ilo2@139.com", "perturbation": "sep", "split": "train"}
+{"id": "email-0198", "field": "email", "value": "bq7ilo2@139.com（常用）", "truth": "bq7ilo2@139.com", "perturbation": "noise", "split": "train"}
+{"id": "email-0199", "field": "email", "value": "yk4xzw @test.org", "truth": "yk4xzw@test.org", "perturbation": "space", "split": "train"}
+{"id": "email-0199", "field": "email", "value": "yk4xzw@te5t.org", "truth": "yk4xzw@test.org", "perturbation": "typo", "split": "train"}
+{"id": "email-0199", "field": "email", "value": "yk4xzw@test", "truth": "yk4xzw@test.org", "perturbation": "abbrev", "split": "train"}
+{"id": "email-0199", "field": "email", "value": "yk4x_zw@test.org", "truth": "yk4xzw@test.org", "perturbation": "sep", "split": "train"}
+{"id": "email-0199", "field": "email", "value": "Email:yk4xzw@test.org", "truth": "yk4xzw@test.org", "perturbation": "noise", "split": "train"}
+{"id": "email-0200", "field": "email", "value": "qg7@ qq.com", "truth": "qg7@qq.com", "perturbation": "space", "split": "heldout"}
+{"id": "email-0200", "field": "email", "value": "qg7@qq.c0m", "truth": "qg7@qq.com", "perturbation": "typo", "split": "heldout"}
+{"id": "email-0200", "field": "email", "value": "qg7@qq", "truth": "qg7@qq.com", "perturbation": "abbrev", "split": "heldout"}
+{"id": "email-0200", "field": "email", "value": "q.g7@qq.com", "truth": "qg7@qq.com", "perturbation": "sep", "split": "heldout"}
+{"id": "email-0200", "field": "email", "value": "Email:qg7@qq.com", "truth": "qg7@qq.com", "perturbation": "noise", "split": "heldout"}
