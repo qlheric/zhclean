@@ -2,7 +2,7 @@
 
 F: tmp 文件进出（真实 train 脏数据子集）；默认 dedupe=adaptive 与 --plain 对照；audit dry-run 不写文件；
    --apply 写 cleaned + backup；rollback 往返恢复原值；checksum 破坏被拒；退出码 0/1/2；参数校验；
-   stdin/stdout 管道；真实子进程冒烟
+   stdin/stdout 管道；真实子进程冒烟；console script 中文输出回归（不带 PYTHONIOENCODING）
 R: src/zhclean/cli.py
 A: uv run --project . pytest tests/test_cli.py -q
 S: 真实数据只取 benchmarks/dirty/*.jsonl 的 train 行，且只保留 id/field/value（不带 truth）；不碰 heldout
@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import io
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -290,3 +291,38 @@ def test_subprocess_usage_error_exit_2():
     p = subprocess.run([sys.executable, "-m", "zhclean.cli", "dedupe", "--threshold", "85"],
                        capture_output=True, cwd=ROOT)
     assert p.returncode == 2 and "参数错误" in p.stderr.decode("utf-8")
+
+
+# ---- 乱码回归：console script 入口（TASK-014 §2.5-①） --------------------------
+def _entry_cmd() -> list[str]:
+    """真实 console script 命令（它直接调 main()，不走 `__main__`）。
+
+    pyproject 里 `zhclean = "zhclean.cli:main"`，装出来的正是这个脚本；
+    脚本不在（没装成脚本）时退回等价的 `-c` 调用，一样绕开 `__main__`。
+    """
+    script = Path(sys.executable).with_name("zhclean.exe" if os.name == "nt" else "zhclean")
+    if script.exists():
+        return [str(script)]
+    return [sys.executable, "-c", "import zhclean.cli as c; raise SystemExit(c.main())"]
+
+
+def _no_encoding_env() -> dict[str, str]:
+    """模拟真实用户环境：不带 PYTHONIOENCODING / PYTHONUTF8（否则测试等于没测）。"""
+    return {k: v for k, v in os.environ.items() if k not in ("PYTHONIOENCODING", "PYTHONUTF8")}
+
+
+def test_entry_point_chinese_help_is_utf8():
+    """修复前：console script 走 cp936，中文是乱码字节；修复后必须是 utf-8。"""
+    p = subprocess.run([*_entry_cmd(), "--help"], capture_output=True, cwd=ROOT, env=_no_encoding_env())
+    assert p.returncode == 0
+    text = p.stdout.decode("utf-8", errors="replace")  # cp936 字节到这里就解不出来
+    assert "中文脏数据净化器" in text and "子命令" in text
+
+
+def test_entry_point_normalize_pipe_is_utf8_jsonl():
+    """console script 经 stdin 管道跑 normalize：stdout 是纯 jsonl，中文正常。"""
+    p = subprocess.run([*_entry_cmd(), "normalize"],
+                       input='{"id":"1","field":"person","value":"范 童言"}\n'.encode("utf-8"),
+                       capture_output=True, cwd=ROOT, env=_no_encoding_env())
+    assert p.returncode == 0
+    assert json.loads(p.stdout.decode("utf-8", errors="replace"))["normalized"] == "范童言"

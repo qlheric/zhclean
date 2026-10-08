@@ -22,7 +22,6 @@ zhclean --help
 ```
 
 > 不想安装也行：仓库里用 `uv run --project . zhclean --help`。
-> **Windows 控制台中文乱码**时，先设 `PYTHONIOENCODING=utf-8`（bash：`export PYTHONIOENCODING=utf-8`；PowerShell：`$env:PYTHONIOENCODING="utf-8"`），或改用 `python -m zhclean.cli`（该入口自带 utf-8 输出）。
 
 ## 快速上手
 
