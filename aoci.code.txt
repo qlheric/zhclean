@@ -21,7 +21,7 @@ evaluate_dedupe.py[TQ8M]: F:dedupe 评测：pair P/R/F1 + train 选阈 + --adapt
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/src/zhclean/===
 __init__.py[EG5T]: F:包入口：导出 normalize/normalize_with_confidence 与版本 | R:code:src/zhclean/tools/normalize.py | A:import zhclean | S:不写业务逻辑只做导出
-cli.py[EU8M]: F:CLI 入口：四子命令 jsonl 进出；utf8_stdio 在 main 顶部 | R:code:src/zhclean/tools/audit.py | A:zhclean <子命令> | S:落盘只在本层发生；退出码 0/1/2
+cli.py[EU8M]: F:CLI 入口：五子命令（normalize/dedupe/audit/rollback/table） | R:code:src/zhclean/tools/table.py | A:zhclean <子命令> | S:落盘只在本层发生；退出码 0/1/2
 llm.py[IN8M]: F:LLM 兜底客户端：OpenAI 兼容+llm_normalize+client_from_env（三级流第二级） | R:code:src/zhclean/loop.py | A:被 loop.py think 段调用 | S:GPT-6 用 max_completion_tokens；key 只读环境变量
 loop.py[AW9S]: F:手写 Agent Loop：三桶+llm_fn 扩展点+llm_max_calls 护栏 | R:code:src/zhclean/llm.py | A:自检 python -m zhclean.loop | S:单条失败不中断；无 llm_fn 时行为不变
 _compat.py[EG4T]: F:utf8_stdio 公共件（四入口统一控制台编码） | R:code:src/zhclean/cli.py | A:被四个模块 __main__ 调用 | S:仅 TextIOWrapper 才 reconfigure
@@ -43,6 +43,7 @@ __init__.py[EG4T]: F:工具包导出三工具 | R:code:src/zhclean/tools/normali
 audit.py[DO8S]: F:audit 工具：清洗报告+dry-run+checksum 回滚（纯函数不落盘） | R:code:src/zhclean/tools/normalize.py | A:被 cli.py 调用 | S:报告数字必须可复现
 dedupe.py[KB8M]: F:dedupe：hash 精确+rapidfuzz 语义；field_overrides+adaptive | R:code:src/zhclean/tools/normalize.py | A:被 cli.py 调用 | S:link=best 并列不连；阈值不得用测试集调参
 normalize.py[DB8T]: F:normalize 主接口+置信度接口+字段分发 | R:code:src/zhclean/rules/__init__.py | A:被 loop.py 调用 | S:未知 field 恒等不猜
+table.py[DO8M]: F:整表清洗：CSV 列映射+逐格 normalize+可选整行去重（纯函数） | R:code:src/zhclean/rules/__init__.py | A:被 cli.py table 子命令调用 | S:字段真相源取 DISPATCH；dedupe 每列都同组才并
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.handoff/===
 TASK模板.md[SG7T]: F:派单模板（七项必填+禁区含留出集纪律） | R:code:.handoff/RESULT模板.md | A:脑派单时照填 | S:七项必填缺一不可；状态一律写待执行
@@ -75,7 +76,8 @@ TASK-023.md[SG8T]: F:派单：第三批评测集（已通过 597b8b8） | R:code
 TASK-024.md[SG8T]: F:派单：idcard/email 规则（已通过 6f8d2db） | R:code:src/zhclean/rules/idcard.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-025.md[SG8T]: F:派单：评测接入+重定版（已通过 bd80f42） | R:code:benchmarks/evaluate.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-026.md[SG8T]: F:派单：M2 收官文档（已通过 14d0d23） | R:code:README.md | A:手侧执行入口 | S:状态只有脑能改
-TASK-027.md[SG8T]: F:派单：整表清洗（table.py CSV + cli table 子命令） | R:code:src/zhclean/tools/table.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-027.md[SG8T]: F:派单：整表清洗（已通过 edca08f） | R:code:src/zhclean/tools/table.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-028.md[SG8T]: F:派单：发布前文档收尾（README table 节+措辞统一+检查单） | R:code:README.md | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -124,6 +126,7 @@ RESULT-023.md[SG7M]: F:回执：TASK-023 第三批评测集交付（已通过，
 RESULT-024.md[SG7M]: F:回执：TASK-024 idcard/email 规则交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-024.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-025.md[SG7M]: F:回执：TASK-025 八类定版交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-025.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-026.md[SG7S]: F:回执：TASK-026 M2 收官文档交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-026.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-027.md[SG7M]: F:回执：TASK-027 整表清洗交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-027.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改
@@ -143,6 +146,7 @@ failures-m3.md[SG7S]: F:M3 八类定版失败归因（分列口径+idcard/email 
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/docs/examples/===
 sample.jsonl[SG5T]: F:8 行手写样例（README 快速上手用） | R:code:README.md | A:被快速上手命令引用 | S:手写样例非评测数据
+sample.csv[SG5T]: F:8 列×3 行整表样例（README table 快速上手用） | R:code:README.md | A:被快速上手命令引用 | S:手写样例非评测数据
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.github/workflows/===
 ci.yml[OV6T]: F:CI：windows-latest，uv sync→pytest→四 demo | R:code:pyproject.toml | A:GitHub Actions push/PR 触发 | S:首跑若 uv not found 按 RESULT-017 §5-3 兜底

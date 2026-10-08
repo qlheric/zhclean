@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 6（M2）** → TASK-026 已通过（`14d0d23`，**M2 字段层全部收官**：八类定版文档三线同步）；**TASK-027（整表清洗：table.py CSV + cli table 子命令，发布前最后一块功能）已派**，手执行中
+**Phase 6（M2）** → TASK-027 已通过（`edca08f`，**整表清洗落地**，zhclean 五子命令齐全——发布前最后一块功能完成）；**TASK-028（发布前文档收尾：README 补 table 节 + 措辞统一 + 检查单更新）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-027.md` 后：亲跑三条判据 + 结构化代码审查 → 边界 → 置状态 → 提交；之后发布准备（release-checklist 逐项 + 大写数字轴可选）。
+手交 `.handoff/outbox/RESULT-028.md` 后：亲跑三条判据 + README 通读 → 边界 → 置状态 → 提交；之后发布动作（建仓/tag/推送，由老大/脑执行）。
 
 ## Phases
 
@@ -93,7 +93,8 @@
 - [x] 身份证/邮箱规则（TASK-024 已通过 `6f8d2db`：15→18 展开 + GB 11643 闸门 + email 位置判定修复；idcard 100% / email 51.5%、双零改坏；§5-a 收窄采纳 (A)）
 - [x] 评测接入 + heldout 重定版（TASK-025 已通过 `bd80f42`：老六类 87.92% 逐位复现；idcard 100% / email 52.5% 首次定版；分列口径锁定）
 - [x] 八类定版文档（TASK-026 已通过 `14d0d23`：README 分列表 + failures-m3 + 台账；**M2 字段层全部收官**）
-- [ ] 整表清洗（TASK-027 执行中：table.py CSV + cli table 子命令；XLSX 待加依赖另单）
+- [x] 整表清洗（TASK-027 已通过 `edca08f`：table.py CSV + cli table 子命令；**五子命令齐全**；XLSX 待加依赖另单）
+- [ ] 发布前文档收尾（TASK-028 执行中：README table 节 + 「老六类」→「M1+M2 六类」+ 检查单更新）
 - [ ] 大写数字轴（壹/贰/叁）单独一单（已裁定，排队）
 - [ ] 整表清洗（CSV/XLSX 进出）
 - **Status:** in_progress

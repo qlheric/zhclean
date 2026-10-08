@@ -6,11 +6,11 @@
 | 日期 | 2026-10-09 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/tools/table.py`（新建）、`src/zhclean/cli.py`（加 table 子命令）、`tests/test_table.py`（新建）、`tests/test_cli.py`（table 用例）、`docs/examples/sample.csv`（新建样例） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `src/zhclean/**`（normalize/dedupe/audit 接口、cli 现有子命令模式）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件（尤其 benchmarks/generate.py 词典常量——不可读）** |
 | **_Depends:**（依赖） | TASK-026（已通过，`14d0d23`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `edca08f`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -66,3 +66,11 @@ git status --porcelain -uall
 - CSV 是本单全部范围（stdlib 零依赖）；XLSX 待脑侧加 openpyxl 依赖后另单。
 - 本单是发布前最后一块功能；完成后 = 大写数字轴（可选）+ 发布（按老大口径：全部完成一起发布）。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-027.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过**。三判据亲跑：①689 passed；②`table._demo: OK`（8 组断言）；③cli 端到端 exit 0、8 格对账一致、stdout 合法 CSV。
+- 边界零越界。**结构化代码审查**（5/5 覆盖 100%）：critical/high/medium/low 全 0。
+- §5 三裁决：①dst 保留不写采纳（纯函数分层，契约自相矛盾是脑侧疏漏）；②**dedupe「每一列都同组」采纳**（跨字段合取唯一正确；「任一列」会误并共手机号的不同人，手的实证过程有说服力）；③基线命令后跑接受不记失分（如实申报）。
+- **里程碑：整表清洗落地（zhclean 五子命令齐全）——发布前最后一块功能完成。**
+- `_Status: 已完成`；`_Commit: edca08f`。
