@@ -1,5 +1,12 @@
 # Progress: S2 zhclean 会话日志
 
+## 2026-10-09 · 脑侧验收会话㉑（DSH）
+
+- **TASK-021 验收通过**（`ce36e97`）：四判据亲跑（564 passed / 只有 amount 两文件 diff / train amount 100% / **heldout 定版 87.92%**）。
+- **里程碑：M2 定版完成**——heldout 六类：person 72.00 / address 90.50 / phone 100.00 / company 81.00 / **amount 100.00** / **date 84.00**，老四类逐位复现 M1；数字锁定。
+- **TASK-022 已派**：文档更新（README 定版表 + findings 台账 + failures-m2）。
+- 下一步：等 RESULT-022 → 数字核验 + README 通读。
+
 ## 2026-10-09 · 脑侧验收会话⑳（DSH）
 
 - **TASK-020 验收通过**（`4eff077`）：三判据亲跑（564 passed 零失败（4 红消除）/ train 88.23%——**amount 99.00%**、date 85.75% 不变、老四类零回归 / 只有 amount 两文件有 diff）。

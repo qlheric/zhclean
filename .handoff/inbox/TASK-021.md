@@ -6,11 +6,11 @@
 | 日期 | 2026-10-09 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `benchmarks/generate.py`（仅 `gen_amount` 小数尾零）、`benchmarks/clean|dirty/amount.jsonl`（重生成）、`tests/test_benchmark.py`（amount 不变式若涉尾零）、`benchmarks/results/**`（heldout 定版产物，不入库） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `benchmarks/generate.py`（**本单允许：修 amount 生成器本身**）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件。⚡ heldout 本单只跑一次（定版）** |
 | **_Depends:**（依赖） | TASK-020（已通过，`4eff077`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `ce36e97`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -63,3 +63,10 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀。
 - 本单是 M2 定版单：跑完 heldout 后六类数字锁定，随后 TASK-022 更新 README/findings 台账与 failures 文档。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-021.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过**。四判据亲跑：①564 passed 零失败；②只有 amount 两文件有 diff（老五类 cmp 10/10）；③train：**amount 100.00%**、date 85.75% 与老四类逐位不变（总盘 88.40%）；④**heldout 首次定版**：总 87.92%（1055/1200）——person 72.00 / address 90.50 / phone 100.00 / company 81.00 / **amount 100.00** / **date 84.00**，老四类逐位复现 M1 定版。
+- 边界零越界（规则层冻结）。§6 三提示（副产品/abbrev 老账/定版锁定）均如实记录。
+- **里程碑：M2 定版完成（六类 heldout 数字锁定）。**
+- `_Status: 已完成`；`_Commit: ce36e97`。
