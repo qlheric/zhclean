@@ -14,7 +14,7 @@ CLAUDE.md[SG9T]: F:手侧契约：手脑方案执行侧规则（机制生成） 
 uv.lock[FV5T]: F:依赖锁文件（uv 生成） | R:code:pyproject.toml | A:uv sync/run 读取 | S:机器生成勿手改；与 pyproject 同批变更
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/===
-generate.py[TQ8M]: F:benchmark 数据生成器：六类字段+五类扰动+留出集 | R:code:tests/test_benchmark.py | A:python -m benchmarks.generate --seed 42 | S:每字段独立 RNG；amount 干净值纯数字无尾零
+generate.py[TQ8M]: F:benchmark 数据生成器：八类字段+五类扰动+留出集 | R:code:tests/test_benchmark.py | A:python -m benchmarks.generate --seed 42 | S:每字段独立 RNG；idcard 校验码 GB 11643
 __init__.py[EG4T]: F:benchmarks 包入口（支持 python -m 调用） | R:code:benchmarks/generate.py | A:import benchmarks | S:只做包声明
 evaluate.py[TQ8M]: F:评测管线：规范化率分组统计+失败案例（六类 FIELDS） | R:code:benchmarks/dirty/person.jsonl | A:python -m benchmarks.evaluate --impl rules | S:默认只评 heldout；逐字符相等无宽容
 evaluate_dedupe.py[TQ8M]: F:dedupe 评测：pair P/R/F1 + train 选阈 + --adaptive 透传 | R:code:src/zhclean/tools/dedupe.py | A:python -m benchmarks.evaluate_dedupe --adaptive | S:阈值只在 train 扫选；heldout 只跑一次
@@ -69,7 +69,8 @@ TASK-019.md[SG8T]: F:派单：amount/date 规则（已通过 938dd6a，4 红挂�
 TASK-020.md[SG8T]: F:派单：修复单（已通过 4eff077，amount 99%） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-021.md[SG8T]: F:派单：M2 定版单（已通过 ce36e97，heldout 87.92%） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-022.md[SG8T]: F:派单：M2 文档更新（已通过 16d02f4） | R:code:README.md | A:手侧执行入口 | S:状态只有脑能改
-TASK-023.md[SG8T]: F:派单：第三批字段评测集（idcard/email 生成器扩展） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-023.md[SG8T]: F:派单：第三批评测集（已通过 597b8b8） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-024.md[SG8T]: F:派单：idcard/email 规则（15→18 展开+校验闸门） | R:code:src/zhclean/rules/idcard.py | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -78,6 +79,8 @@ phone.jsonl[TQ5S]: F:电话干净集 200 条（ground truth） | R:code:benchmar
 company.jsonl[TQ5S]: F:公司名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 amount.jsonl[TQ5S]: F:金额干净集 200 条（纯数字+元，无尾零） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 date.jsonl[TQ5S]: F:日期干净集 200 条（ISO） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+idcard.jsonl[TQ5S]: F:身份证干净集 200 条（18 位 GB 11643 合法校验码） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+email.jsonl[TQ5S]: F:邮箱干净集 200 条（user@domain） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/dirty/===
 person.jsonl[TQ5L]: F:人名脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -86,6 +89,8 @@ phone.jsonl[TQ5L]: F:电话脏集 1000 行（5 类扰动+truth+split） | R:code
 company.jsonl[TQ5L]: F:公司名脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 amount.jsonl[TQ5L]: F:金额脏集 1000 行（五类扰动） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 date.jsonl[TQ5L]: F:日期脏集 1000 行（五类扰动） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+idcard.jsonl[TQ5L]: F:身份证脏集 1000 行（五类扰动） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+email.jsonl[TQ5L]: F:邮箱脏集 1000 行（五类扰动） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.handoff/outbox/===
 RESULT-001.md[SG7T]: F:回执：TASK-001 benchmark 先行交付（已通过） | R:code:.handoff/inbox/TASK-001.md | A:脑验收读取 | S:状态只有脑能改
@@ -110,6 +115,7 @@ RESULT-019.md[SG7M]: F:回执：TASK-019 amount/date 交付（已通过，含脑
 RESULT-020.md[SG7M]: F:回执：TASK-020 修复单交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-020.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-021.md[SG7M]: F:回执：TASK-021 M2 定版交付（已通过，含脑侧审查§9） | R:code:.handoff/inbox/TASK-021.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-022.md[SG7S]: F:回执：TASK-022 M2 文档交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-022.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-023.md[SG7M]: F:回执：TASK-023 第三批评测集交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-023.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改

@@ -6,11 +6,11 @@
 | 日期 | 2026-10-09 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `benchmarks/generate.py`（扩展 idcard/email 生成）、`benchmarks/clean|dirty/{idcard,email}.jsonl`（新产物）、`tests/test_benchmark.py`（扩展用例） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib only）；跑 `uv run` / `pytest` 命令；读 `benchmarks/generate.py`（**本单允许：扩展生成器本身**）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件。⚡ 本单写生成器、不写规则；不读词典调规则（规则是后续 TASK）** |
 | **_Depends:**（依赖） | TASK-022（已通过，`16d02f4`）；沿用 TASK-001 schema 契约（`32311d4`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `597b8b8`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -65,3 +65,11 @@ git status --porcelain -uall
 - 流程照 M2 前两批：benchmark 先行 → 规则（TASK-024）→ 评测接入 + 定版（TASK-025）→ 文档（TASK-026）。
 - 身份证只做**格式级**校验（位数/生日/校验码），不做真实性查询——生成器据此设计：结构合法但组合合成。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-023.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过**。三判据亲跑：①565 passed 零失败；②老六类 `git diff --exit-code` = 0（12/12 cmp SAME）；③抽查 schema 正确、idcard 200 条校验码独立重算 0 非法。
+- 边界零越界（src 零改动）。
+- §5 裁决：a 生日范围**采纳交集 1970–1999**（18↔15 无损可逆优先；脑侧 §2.5 互斥是写作缺陷，不记失分，教训再记）；b email `.c` 形态**接受现状**（不可恢复缩写属天花板，不做特殊化）。
+- 手自曝假红（正则位数错）并重验——诚实披露正确。
+- `_Status: 已完成`；`_Commit: 597b8b8`。
