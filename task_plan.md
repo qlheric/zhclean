@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 5 完成（M1 全部收官）** → TASK-017 已通过（`1e3213b`，CI + License 段 + 发布检查单）；**Phase 6（M2）启动：TASK-018（generate.py 扩展 amount/date，老四类逐字节不变）已派**，手执行中
+**Phase 6（M2）** → TASK-018 已通过（`714997a`，评测集扩展 amount/date，老四类逐字节不变）；**TASK-019（amount/date 规则 + evaluate 扩 6 类，train 实测报数）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-018.md` 后：亲跑三条判据（老四类零 diff 卡死）→ 边界 → 置状态 → 提交；之后 TASK-019（amount/date 规则）。
+手交 `.handoff/outbox/RESULT-019.md` 后：亲跑两条判据 + 结构化代码审查 → 边界 → 置状态 → 提交；真实数如实汇报。
 
 ## Phases
 
@@ -84,9 +84,9 @@
 
 ### Phase 6: M2 扩展（金额/日期/身份证/邮箱 → 整表清洗）
 
-- [ ] M2 评测集扩展（TASK-018 执行中：generate.py 加 amount/date，老四类逐字节不变）
-- [ ] 金额/日期规则词典（TASK-019 排队）
-- [ ] 评测接入 + 真实数报数（TASK-020 排队）
+- [x] M2 评测集扩展（TASK-018 已通过 `714997a`：generate.py 加 amount/date，老四类逐字节不变）
+- [ ] 金额/日期规则 + 评测接入（TASK-019 执行中：万元展开/缺零补全 + 校验闸门，train 实测报数）
+- [ ] 大写数字轴（壹/贰/叁）单独一单（已裁定，排队）
 - [ ] 身份证/邮箱校验（格式级，不做真实性查询）
 - [ ] 整表清洗（CSV/XLSX 进出）
 - **Status:** in_progress

@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `benchmarks/generate.py`（扩展 amount/date 字段生成）、`benchmarks/clean|dirty/{amount,date}.jsonl`（新产物）、`tests/test_benchmark.py`（扩展用例） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib only）；跑 `uv run` / `pytest` 命令；读 `benchmarks/generate.py`（**本单允许：目的是扩展生成器本身**）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件。⚡ 留出集纪律不变：本单写生成器、不写规则；禁止拿任何词典常量调规则（M2 规则是后续 TASK）** |
 | **_Depends:**（依赖） | TASK-017（已通过，`1e3213b`）；沿用 TASK-001 的 schema 契约（`32311d4`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `714997a`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -64,3 +64,11 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀。
 - 本单是 M2 起步：先有可核评测集，再写 amount/date 规则（TASK-019），最后评测接入（TASK-020）——照 M1 的「benchmark 先行」纪律。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-018.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。三条判据均经脑亲跑：①468 passed；②老四类 `git diff --exit-code` = 0（逐字节不变）+ amount/date 4 个新 jsonl；③抽查 schema/truth 正确（2400 行全量核验实据在回执 §3.7）。
+- 边界零越界。三个拍板点裁决：①金额干净值无空格（采纳手实现，契约示例改口）；②abbrev 方向元→万元（采纳，TASK-019 规则做万元展开）；③大写数字轴单开一单（不阻塞）。
+- §5-4 CRLF warning：脑侧已在 .gitattributes 补 `*.jsonl text eol=lf`。
+- **里程碑：M2 评测集就位（六类字段）。**
+- `_Status: 已完成`；`_Commit: 714997a`。

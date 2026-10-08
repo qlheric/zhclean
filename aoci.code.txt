@@ -2,7 +2,7 @@
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/===
 AGENTS.md[SG9S]: F:仓库级规则入口：手脑方案契约+aoci 索引纪律+口径指针 | R:code:task_plan.md | A:被本仓所有会话首先读取 | S:唯一规则入口；改它须当轮同步下游件
-.gitattributes[FG5T]: F:行尾与文本属性规范（入库统一 LF） | R:code:.gitignore | A:被 git 检出与提交使用 | S:行尾规范影响全量 diff，改前先量
+.gitattributes[FG5T]: F:行尾规范（*.jsonl 与 *.py/md/toml 统一 LF） | R:code:.gitignore | A:被 git 检出与提交使用 | S:行尾规范影响全量 diff，改前先量
 .gitignore[FG6T]: F:忽略规则：缓存/虚拟环境/编辑器/评测产物 | R:code:pyproject.toml | A:被 git 与所有提交使用 | S:索引件与.handoff 绝不可被忽略
 findings.md[SG6S]: F:环境与事实底账（aoci 口径/手脑方案/环境修复台账） | R:code:task_plan.md | A:开工与复现前先读 | S:只装事实不装计划
 LICENSE[SG4T]: F:MIT 开源许可 | R:code:README.md | A:发布引用 | S:版权年与署名改前先问
@@ -14,7 +14,7 @@ CLAUDE.md[SG9T]: F:手侧契约：手脑方案执行侧规则（机制生成） 
 uv.lock[FV5T]: F:依赖锁文件（uv 生成） | R:code:pyproject.toml | A:uv sync/run 读取 | S:机器生成勿手改；与 pyproject 同批变更
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/===
-generate.py[TQ8M]: F:benchmark 数据生成器：4 类干净值+5 类扰动+留出集划分（stdlib） | R:code:tests/test_benchmark.py | A:python -m benchmarks.generate --seed 42 | S:生成器改动必须重生成产物（fresh 测试守卫）
+generate.py[TQ8M]: F:benchmark 数据生成器：六类字段（含 amount/date）+五类扰动+留出集 | R:code:tests/test_benchmark.py | A:python -m benchmarks.generate --seed 42 | S:每字段独立 RNG 流；老四类 seed42 逐字节不变
 __init__.py[EG4T]: F:benchmarks 包入口（支持 python -m 调用） | R:code:benchmarks/generate.py | A:import benchmarks | S:只做包声明
 evaluate.py[TQ8S]: F:评测管线：规范化率分组统计+失败案例落盘（stub/perfect/rules 注入） | R:code:benchmarks/dirty/person.jsonl | A:python -m benchmarks.evaluate --impl rules | S:默认只评 heldout；逐字符相等无宽容
 evaluate_dedupe.py[TQ8M]: F:dedupe 评测：pair P/R/F1 + train 选阈 + --adaptive 透传 | R:code:src/zhclean/tools/dedupe.py | A:python -m benchmarks.evaluate_dedupe --adaptive | S:阈值只在 train 扫选；heldout 只跑一次
@@ -64,19 +64,24 @@ TASK-014.md[SG8T]: F:派单：乱码修复+Loop（已通过 3c28a97） | R:code:
 TASK-015.md[SG8T]: F:派单：置信度语义拆分（已通过 47959c4，评测零漂移） | R:code:src/zhclean/rules/common.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-016.md[SG8T]: F:派单：llm 兜底接入（已通过 5783929，两件功夫齐） | R:code:src/zhclean/llm.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-017.md[SG8T]: F:派单：M1 收官（已通过 1e3213b） | R:code:.github/workflows/ci.yml | A:手侧执行入口 | S:状态只有脑能改
-TASK-018.md[SG8T]: F:派单：M2 评测集扩展（generate.py 加 amount/date，老四类零 diff） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-018.md[SG8T]: F:派单：M2 评测集扩展（已通过 714997a） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-019.md[SG8T]: F:派单：amount/date 规则+评测接入（train 实测报数） | R:code:src/zhclean/rules/amount.py | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 address.jsonl[TQ5S]: F:地址干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 phone.jsonl[TQ5S]: F:电话干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 company.jsonl[TQ5S]: F:公司名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+amount.jsonl[TQ5S]: F:金额干净集 200 条（数值+元） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+date.jsonl[TQ5S]: F:日期干净集 200 条（ISO） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/dirty/===
 person.jsonl[TQ5L]: F:人名脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 address.jsonl[TQ5L]: F:地址脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 phone.jsonl[TQ5L]: F:电话脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 company.jsonl[TQ5L]: F:公司名脏集 1000 行（5 类扰动+truth+split） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+amount.jsonl[TQ5L]: F:金额脏集 1000 行（五类扰动） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
+date.jsonl[TQ5L]: F:日期脏集 1000 行（五类扰动） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/.handoff/outbox/===
 RESULT-001.md[SG7T]: F:回执：TASK-001 benchmark 先行交付（已通过） | R:code:.handoff/inbox/TASK-001.md | A:脑验收读取 | S:状态只有脑能改
@@ -96,6 +101,7 @@ RESULT-014.md[SG7M]: F:回执：TASK-014 乱码修复+Loop 交付（已通过，
 RESULT-015.md[SG7M]: F:回执：TASK-015 置信度拆分交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-015.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-016.md[SG7M]: F:回执：TASK-016 llm 兜底交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-016.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-017.md[SG7S]: F:回执：TASK-017 M1 收官交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-017.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-018.md[SG7M]: F:回执：TASK-018 M2 评测集交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-018.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改
