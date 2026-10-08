@@ -1,7 +1,7 @@
 """规则库包入口：按字段类型分发到各字段的规则（核心资产）。
 
 F: 规则库注册与按字段类型分发（未注册字段恒等处理）
-R: rules/person.py、rules/phone.py、rules/company.py、rules/address.py（四类字段已全部注册）
+R: rules/{person,address,phone,company,amount,date}.py（六类字段已全部注册）
 A: 被 tools/normalize.py 导入
 S: 词典加载失败必须显式报错，不得静默降级为空库
 """
@@ -11,8 +11,10 @@ from __future__ import annotations
 from typing import Callable
 
 from .address import normalize_address
+from .amount import normalize_amount
 from .common import CONF_NONE
 from .company import normalize_company
+from .date import normalize_date
 from .person import normalize_person
 from .phone import normalize_phone
 
@@ -22,6 +24,8 @@ DISPATCH: dict[str, Callable[[str], tuple[str, float]]] = {
     "address": normalize_address,
     "phone": normalize_phone,
     "company": normalize_company,
+    "amount": normalize_amount,
+    "date": normalize_date,
 }
 
 

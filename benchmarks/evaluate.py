@@ -27,7 +27,7 @@ from typing import Callable
 import zhclean  # rules 实现需要（TASK-003 接入）
 
 HERE = Path(__file__).resolve().parent
-FIELDS = ("person", "address", "phone", "company")
+FIELDS = ("person", "address", "phone", "company", "amount", "date")
 SPLITS = ("heldout", "train", "all")
 
 IMPLS: dict[str, Callable[[dict], str]] = {
