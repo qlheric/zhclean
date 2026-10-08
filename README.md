@@ -4,7 +4,7 @@
 
 - **输入输出**：jsonl，每行 `{"id", "field", "value"}`，`field` ∈ `person / address / phone / company`
 - **三件工具**：`normalize`（规范化 + 置信度）、`dedupe`（分组去重）、`audit`（清洗报告 + 可回滚的应用），外加 `rollback`
-- **口径**：宁可漏改，绝不改坏——没把握的值原样返回、置信度 0.1
+- **口径**：宁可漏改，绝不改坏——已规范的值原样返回、置信度 **0.95**；**没把握**的原样返回、置信度 **0.1**
 
 ## 安装
 
@@ -28,7 +28,7 @@ zhclean --help
 仓库自带 8 行样例 `docs/examples/sample.jsonl`，以下命令在仓库根目录可直接复制运行：
 
 ```bash
-# 1. 规范化：每行追加 normalized 与 confidence（0.9 结构 / 0.7 推断 / 0.1 无把握原样）
+# 1. 规范化：每行追加 normalized 与 confidence（0.95 已规范 / 0.9 结构 / 0.7 推断 / 0.1 无把握原样）
 zhclean normalize --input docs/examples/sample.jsonl
 
 # 2. 去重：每行追加 _group 组序号（默认 adaptive 按字段相似度；--plain 为单一 ratio 对照）

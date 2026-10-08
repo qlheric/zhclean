@@ -91,7 +91,7 @@ def test_unknown_field_identity():
 
 
 def test_unregistered_known_field_identity():
-    # 本单只注册了 person；phone/address/company 仍是恒等
+    # 四个字段都已注册（TASK-004/005/006）；这里用「本来就合法」的值，走恒等路径（值不变）
     assert zhclean.normalize("13800000000", "phone") == "13800000000"
     assert zhclean.normalize("广东省深圳市南山区", "address") == "广东省深圳市南山区"
 

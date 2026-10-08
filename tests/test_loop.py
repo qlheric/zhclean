@@ -1,11 +1,11 @@
 """Agent Loop 骨架的不变式测试。
 
 F: observe→think→act 编排：有把握才落（`_before` 口径同 audit）/ 三桶语义（cleaned /
-   unchanged / hitl，TASK-015）/ 坏行与单行异常都只记 errors 不中断 / max_steps 停止条件 /
-   空输入 / 确定性 / 入参不被修改
+   unchanged / hitl，TASK-015）/ **LLM 兜底三级流 + llm_max_calls 护栏（TASK-016）** /
+   坏行与单行异常都只记 errors 不中断 / max_steps 停止条件 / 空输入 / 确定性 / 入参不被修改
 R: src/zhclean/loop.py、src/zhclean/tools/normalize.py
 A: uv run --project . pytest tests/test_loop.py -q
-S: 只用手写样例，不读 benchmarks 数据/词典；不联网
+S: 只用手写样例，不读 benchmarks 数据/词典；不联网（llm_fn 全部是假函数）
 """
 
 from __future__ import annotations
@@ -97,6 +97,88 @@ def test_hitl_threshold_is_configurable(rows):
 
 def test_default_threshold_constant_matches_contract():
     assert HITL_THRESHOLD == 0.2
+
+
+# ---- LLM 兜底三级流（TASK-016）：规则 → LLM → HITL ----------------------------
+def make_llm(table):
+    """假 llm_fn：table 是 {value: (after, conf)}，未命中则 (原值, 0.1)；记账所有调用。"""
+    calls = []
+
+    def fn(value, field):
+        calls.append((value, field))
+        return table.get(value, (value, 0.1))
+
+    fn.calls = calls
+    return fn
+
+
+def test_llm_not_called_when_rules_confident(rows):
+    """规则有把握的行不过 LLM（省钱）；结果与纯规则一致。"""
+    llm = make_llm({})
+    out = run_loop(rows, llm_fn=llm)
+    assert llm.calls == []
+    assert [r["id"] for r in out["cleaned"]] == [1, 2, 3, 4]
+
+
+def test_low_confidence_row_reaches_cleaned_via_llm():
+    llm = make_llm({"范童": ("范童言", 0.85)})
+    out = run_loop([row(1, "范童", "unknown")], llm_fn=llm)
+    assert llm.calls == [("范童", "unknown")]
+    assert out["cleaned"] == [{"id": 1, "field": "unknown", "value": "范童言", "_before": "范童"}]
+    assert out["hitl"] == [] and out["unchanged"] == []
+
+
+def test_low_confidence_row_llm_cannot_fix_goes_to_hitl():
+    """LLM 也返回原值（0.1 < 阈值）⇒ 存疑，进 hitl（不是 unchanged）。"""
+    llm = make_llm({})
+    out = run_loop([row(1, "拿不准", "unknown")], llm_fn=llm)
+    assert llm.calls == [("拿不准", "unknown")]
+    assert out["hitl"] == [{"id": 1, "field": "unknown", "value": "拿不准", "confidence": 0.1}]
+    assert out["cleaned"] == [] and out["unchanged"] == []
+
+
+def test_llm_confident_but_value_unchanged_has_no_before():
+    """LLM 有把握但值没变 ⇒ cleaned，且不加 `_before`（口径同 audit）。"""
+    llm = make_llm({"x": ("x", 0.85)})
+    out = run_loop([row(1, "x", "unknown")], llm_fn=llm)
+    assert out["cleaned"] == [{"id": 1, "field": "unknown", "value": "x"}]
+    assert out["hitl"] == [] and out["unchanged"] == []
+
+
+def test_llm_fn_exception_goes_to_hitl_and_loop_continues():
+    """LLM 抛异常 ⇒ 当作没把握进 hitl，不中断后续行。"""
+    def boom(value, field):
+        if value == "炸":
+            raise RuntimeError("LLM 崩了")
+        return value, 0.1
+
+    out = run_loop([row(1, "炸", "unknown"), row(2, "王 小明")], llm_fn=boom)
+    assert [r["id"] for r in out["hitl"]] == [1]
+    assert [r["id"] for r in out["cleaned"]] == [2]
+
+
+def test_llm_max_calls_guardrail():
+    """成本护栏：超上限后剩余低置信行直接进 hitl，不再调 LLM。"""
+    llm = make_llm({"a": ("A", 0.85), "b": ("B", 0.85)})
+    out = run_loop([row(1, "a", "unknown"), row(2, "b", "unknown")],
+                   llm_fn=llm, llm_max_calls=1)
+    assert llm.calls == [("a", "unknown")]
+    assert [r["id"] for r in out["cleaned"]] == [1]
+    assert [r["id"] for r in out["hitl"]] == [2]
+
+
+def test_llm_max_calls_zero_never_calls_llm():
+    llm = make_llm({})
+    out = run_loop([row(1, "a", "unknown")], llm_fn=llm, llm_max_calls=0)
+    assert llm.calls == [] and [r["id"] for r in out["hitl"]] == [1]
+
+
+def test_no_llm_fn_keeps_task015_behavior(rows):
+    """不给 llm_fn ⇒ 与 TASK-015 逐字相同：低置信且没改动 ⇒ unchanged（不是 hitl）。"""
+    extra = rows + [row(5, "随便什么", "unknown")]
+    assert run_loop(extra) == run_loop(extra, llm_fn=None)
+    assert [r["id"] for r in run_loop(extra)["unchanged"]] == [5]
+    assert run_loop(extra)["hitl"] == []
 
 
 # ---- 单条失败不中断 -----------------------------------------------------------
