@@ -1,5 +1,13 @@
 # Progress: S2 zhclean 会话日志
 
+## 2026-10-08 · 脑侧验收会话⑫（DSH）
+
+- **TASK-012 验收通过**（`9220c53`）：判据亲跑（405 passed / --help / normalize 管道端到端）；audit→rollback 往返逐行数据相等（脑亲验）；代码审查 2/2（0 阻塞，low 2）。
+- 六条契约空白口径全采纳；脑侧执行 `[project.scripts]`——**`zhclean` 一键命令亲验通过**。
+- **里程碑：M1 功能全齐**（四类 normalize + dedupe + audit + CLI 一键）。
+- **TASK-013 已派**：M1 验收汇总（README 重构 + 失败案例公开，数字台账已锁）。
+- 下一步：等 RESULT-013 → 数字对照台账核验；之后 Agent Loop + LLM 兜底。
+
 ## 2026-10-08 · 脑侧验收会话⑪（DSH）
 
 - **TASK-011 验收通过**（`8ef8adc`）：判据亲跑（364 passed / heldout R100 P100 / train R99.90 P99.25 全对上）；边界零越界；代码审查 4/4 零发现。

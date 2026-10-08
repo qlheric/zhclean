@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-Phase 4（dedupe + audit）→ TASK-011 已通过（`8ef8adc`，**dedupe 达标：heldout R100/P100，train R99.90/P99.25**）；**TASK-012（cli.py 串接三命令）已派**，手执行中
+**Phase 5（LLM 兜底 + M1 验收）** → TASK-012 已通过（`9220c53`，cli 四子命令 + `zhclean` 一键，**M1 功能全齐**）；**TASK-013（M1 验收汇总：README 重构 + 失败案例公开）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-012.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；之后 M1 验收汇总（README + 失败案例公开）。
+手交 `.handoff/outbox/RESULT-013.md` 后：数字对照 findings 台账核验 + 验收；之后排 Agent Loop（Phase 2）与 LLM 兜底。
 
 ## Phases
 
@@ -70,13 +70,15 @@ Phase 4（dedupe + audit）→ TASK-011 已通过（`8ef8adc`，**dedupe 达标�
 - [x] dedupe 评测接入（TASK-009 已通过 `5229d99`：pair P/R/F1 + train 选阈；**heldout R85.42% / P100%**——recall 未达 95% 如实报，攻坚排 TASK-011）
 - [x] audit 工具（TASK-010 已通过 `c40fc9b`：清洗报告 + dry-run 预览 + checksum 回滚；**M1 三工具齐**）
 - [x] recall 攻坚（TASK-011 已通过 `8ef8adc`：按字段相似度 + link 守卫；**heldout R100/P100，train R99.90/P99.25**——达标，100/100 不作泛化承诺）
-- [ ] cli.py 串接（TASK-012 执行中：normalize/dedupe/audit 三命令，一键卖点落地）
-- **Status:** in_progress
+- [x] cli.py 串接（TASK-012 已通过 `9220c53`：四子命令 + `zhclean` 一键入口；脑侧加 [project.scripts] 并亲验）
+- **Status:** complete（Phase 4 全绿）
 
 ### Phase 5: LLM 兜底 + M1 验收
 
+- [ ] M1 验收汇总（TASK-013 执行中：README 重构 + 失败案例公开；数字台账已锁）
 - [ ] `llm.py` 可插拔 API 兜底（规则低置信 → LLM → 仍低置信 → HITL）
 - [ ] M1 留出集实测：每类规范化 ≥95%、去重 recall ≥95%，**报真实数**；失败案例公开
+- [ ] Agent Loop（Phase 2 补做：observe→think→act + HITL，练 #1 功夫）
 - **Status:** pending
 
 ### Phase 6: M2 扩展（金额/日期/身份证/邮箱 → 整表清洗）

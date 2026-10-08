@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/cli.py`、`tests/test_cli.py` |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `src/zhclean/**`（三工具接口）、`task_plan.md`、`findings.md`。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外任何文件（尤其 benchmarks/generate.py 词典常量——不可读）** |
 | **_Depends:**（依赖） | TASK-011（已通过，`8ef8adc`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `9220c53`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -65,3 +65,13 @@ git status --porcelain -uall
 - 落盘只在 cli 层发生（audit 本体保持纯函数——RESULT-010 §6-1 的分层约定）。
 - cli 是 M1 功能闭环的最后一块；其后是 M1 验收汇总（README 整理 + 失败案例公开 + 发布准备）。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-012.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 405 passed；②`--help` exit 0 + normalize 管道端到端；另亲验 audit --apply + rollback 往返**逐行数据相等**。
+- 边界检查：2 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- **结构化代码审查**（2/2 覆盖 100%）：critical/high/medium 0、low 2（同名键覆盖、audit apply 重复计算），不阻塞。
+- §5-2 六条口径（stdin 缺省/输出流分工/默认输出名/--force 不覆盖/先备份后清洗/中文化）全采纳。
+- **§5-1 已由脑侧执行**：pyproject 加 `[project.scripts] zhclean = "zhclean.cli:main"`，`zhclean` 一键命令亲验通过。
+- **里程碑：M1 功能全齐（四类 normalize + dedupe + audit + CLI 一键）。**
+- `_Status: 已完成`；`_Commit: 9220c53`。

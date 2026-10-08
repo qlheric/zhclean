@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-10-07T10:06:36Z",
-  "updated_at": "2026-10-08T11:36:15Z",
+  "updated_at": "2026-10-08T12:11:41Z",
   "files": {
     ".gitattributes": {
       "role": "index",
@@ -95,9 +95,15 @@
     },
     ".handoff/inbox/TASK-012.md": {
       "role": "index",
-      "sha256": "dcd762243ccfae915daa3e90ec2f6af70f13da33dbacf3f096cad3ed6c2ae104",
-      "size": 4473,
-      "normalized_sha256": "dcd762243ccfae915daa3e90ec2f6af70f13da33dbacf3f096cad3ed6c2ae104"
+      "sha256": "aab99a74798f07c297ccd99dc421eebf9335da12a490a0934851393ae676def1",
+      "size": 5381,
+      "normalized_sha256": "aab99a74798f07c297ccd99dc421eebf9335da12a490a0934851393ae676def1"
+    },
+    ".handoff/inbox/TASK-013.md": {
+      "role": "index",
+      "sha256": "beac9f3979c9f24c51397c2dff362a00df3bce6c4b34e9b351961e23e3615d52",
+      "size": 4731,
+      "normalized_sha256": "beac9f3979c9f24c51397c2dff362a00df3bce6c4b34e9b351961e23e3615d52"
     },
     ".handoff/outbox/RESULT-001.md": {
       "role": "index",
@@ -165,6 +171,12 @@
       "size": 18162,
       "normalized_sha256": "03a2f236cca191172321e1ee7bd48734263025767983f7899d129f91d74316e7"
     },
+    ".handoff/outbox/RESULT-012.md": {
+      "role": "index",
+      "sha256": "47ee1f2c4ee6181c3d9aa044f6fa3dee12561407e001484196f6a83d88640135",
+      "size": 14630,
+      "normalized_sha256": "47ee1f2c4ee6181c3d9aa044f6fa3dee12561407e001484196f6a83d88640135"
+    },
     "AGENTS.md": {
       "role": "index",
       "sha256": "0cffbc699f674660a801ee15fa63d59da00e4122796b8b1e28f7c7eb83b4444e",
@@ -191,9 +203,9 @@
     },
     "aoci.code.txt": {
       "role": "index",
-      "sha256": "c4440c22554555ae3bc03a7a6f9a1114c63c027bc4978919d4c9283e505f9739",
-      "size": 12896,
-      "normalized_sha256": "c4440c22554555ae3bc03a7a6f9a1114c63c027bc4978919d4c9283e505f9739"
+      "sha256": "f053432cdd1c6a87102ad40fb71eada8f52c9b383ba73643b4be4e21b8954393",
+      "size": 13293,
+      "normalized_sha256": "f053432cdd1c6a87102ad40fb71eada8f52c9b383ba73643b4be4e21b8954393"
     },
     "aoci.meta.txt": {
       "role": "index",
@@ -310,15 +322,15 @@
     },
     "progress.md": {
       "role": "index",
-      "sha256": "fd46513adf85f30862d30dd72b2ca6df508dbce2253b8a779681c55be1d98d3d",
-      "size": 8731,
-      "normalized_sha256": "fd46513adf85f30862d30dd72b2ca6df508dbce2253b8a779681c55be1d98d3d"
+      "sha256": "fbe1220a8528c684b90f2e9575160f3b702756a7f38a94bcd645f4f7cca3b133",
+      "size": 9400,
+      "normalized_sha256": "fbe1220a8528c684b90f2e9575160f3b702756a7f38a94bcd645f4f7cca3b133"
     },
     "pyproject.toml": {
       "role": "index",
-      "sha256": "7a455a73c61ace484f3983c40a6e4ae327d52414dcc78972d99e2f5d65e6792d",
-      "size": 600,
-      "normalized_sha256": "7a455a73c61ace484f3983c40a6e4ae327d52414dcc78972d99e2f5d65e6792d"
+      "sha256": "21d4db635582f7cdd8f1f271d1e1911ca30ae5382d7b5861abb3f4a1fbe01885",
+      "size": 648,
+      "normalized_sha256": "21d4db635582f7cdd8f1f271d1e1911ca30ae5382d7b5861abb3f4a1fbe01885"
     },
     "src/zhclean/__init__.py": {
       "role": "index",
@@ -328,9 +340,9 @@
     },
     "src/zhclean/cli.py": {
       "role": "index",
-      "sha256": "5c0f9aaf366c8b1d1ee17ab7d89da3922d8694760b3cca47e4f20ae6e42cdb68",
-      "size": 292,
-      "normalized_sha256": "5c0f9aaf366c8b1d1ee17ab7d89da3922d8694760b3cca47e4f20ae6e42cdb68"
+      "sha256": "8cb5099f51e16f9eadfda638210e979cd02f15b1f222524687c4355222558453",
+      "size": 13722,
+      "normalized_sha256": "8cb5099f51e16f9eadfda638210e979cd02f15b1f222524687c4355222558453"
     },
     "src/zhclean/llm.py": {
       "role": "index",
@@ -418,9 +430,9 @@
     },
     "task_plan.md": {
       "role": "index",
-      "sha256": "d0d7728343d996e55a5979fd35925414d87c78b2018be5c5e539fdf94273e218",
-      "size": 8258,
-      "normalized_sha256": "d0d7728343d996e55a5979fd35925414d87c78b2018be5c5e539fdf94273e218"
+      "sha256": "1eb0aafecdffbd02a12349ea2db6be3f798d2e7b5d987dcfc44e86c6b7607ec9",
+      "size": 8489,
+      "normalized_sha256": "1eb0aafecdffbd02a12349ea2db6be3f798d2e7b5d987dcfc44e86c6b7607ec9"
     },
     "tests/test_address.py": {
       "role": "index",
