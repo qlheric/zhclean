@@ -144,6 +144,7 @@ failures-m1.md[SG7S]: F:M1 四类失败归因（历史文档，数字仍有效�
 release-checklist.md[SG6T]: F:发布检查单 v0.1.0（测试/数字/失败案例/许可证/tag/文档面） | R:code:README.md | A:发布前逐项打勾 | S:heldout 发布时不重跑
 failures-m2.md[SG7S]: F:M2 六类定版失败归因（金额口径修正过程公开） | R:code:benchmarks/results/summary-rules-heldout.json | A:对外交付件 | S:只加指针不更新数字
 failures-m3.md[SG7S]: F:M3 八类定版失败归因（分列口径+idcard/email 归因） | R:code:benchmarks/results/summary-rules-heldout.json | A:对外交付件 | S:数字以定版产物为准；heldout 不重跑
+launch-copy.md[SG7S]: F:发布物料：About 文案+qlheric 主页段+发布清单+放大器建议 | R:code:README.md | A:发布时直接粘贴 | S:数字与定版表一致；发布后按效果迭代
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/docs/examples/===
 sample.jsonl[SG5T]: F:8 行手写样例（README 快速上手用） | R:code:README.md | A:被快速上手命令引用 | S:手写样例非评测数据
