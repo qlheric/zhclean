@@ -6,6 +6,8 @@
 
 M1 四类字段的详细归因见 [failures-m1.md](failures-m1.md)（数字仍有效）；本文覆盖六类定版并补 M2 新字段。
 
+> **八类定版（含第三批身份证 / 邮箱）见 [failures-m3.md](failures-m3.md)。**
+
 ## 总览：规范化（heldout，规则版）
 
 | 字段 | abbrev | noise | sep | space | typo | 合计 |
