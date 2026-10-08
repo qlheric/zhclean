@@ -242,12 +242,16 @@ def gen_amount(rng: random.Random) -> tuple[str, list[str]]:
 
     干净值**一律纯数字、不带千分位**（TASK-020 §2.5-A）：千分位只作为 `sep` 扰动出现，
     与规则侧闸门 `^\\d+(\\.\\d+)?元$` 自洽 —— 否则两种干净形态会把单值 normalize 锁死。
+    **小数末位取 1–9**（TASK-021）：尾随零（`88982.0`）是冗余写法，万元记法经 float 后
+    必然丢失该位 ⇒ truth 与规范值逐字符不等。排除末位零后 amount 可无损回环。
     """
     intpart = rng.randint(1, 9_999_999)
     numeral = str(intpart)
     ndigits = rng.choice([0, 0, 1, 2])  # 多数整数，少数带小数
     if ndigits:
-        numeral += "." + "".join(str(rng.randint(0, 9)) for _ in range(ndigits))
+        digits = [str(rng.randint(0, 9)) for _ in range(ndigits - 1)]
+        digits.append(str(rng.randint(1, 9)))  # 末位 1–9：杜绝尾随零
+        numeral += "." + "".join(digits)
     return numeral + "元", [numeral, "元"]
 
 
