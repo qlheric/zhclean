@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 5（LLM 兜底 + M1 验收）** → TASK-015 已通过（`47959c4`，CONF_CLEAN 四档 + loop 三桶 + 编码统一，评测零漂移）；**TASK-016（llm.py 兜底接 think，三级闭环）已派**，手执行中
+**Phase 5（LLM 兜底 + M1 验收）** → TASK-016 已通过（`5783929`，LLM 兜底三级流，**两件功夫练齐**）；**TASK-017（M1 收官：CI + License 段 + 发布检查单）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-016.md` 后：亲跑两条判据 + 结构化代码审查 → 边界检查 → 置状态 → 提交；之后 M1 收官盘点（CI/发布件）。
+手交 `.handoff/outbox/RESULT-017.md` 后：亲跑三条判据 + 审查 → 边界 → 置状态 → 提交；M1 收官后进入 Phase 6（M2 扩展）。
 
 ## Phases
 
@@ -76,9 +76,10 @@
 ### Phase 5: LLM 兜底 + M1 验收
 
 - [x] 乱码修复 + Agent Loop 骨架（TASK-014 已通过 `3c28a97`：zhclean 无环境变量中文正常 + loop observe→think→act + HITL）
-- [ ] 置信度语义拆分 + loop 桶语义 + 编码统一（TASK-015 执行中：CONF_CLEAN=0.95 / unchanged 桶 / _compat.py）
-- [ ] `llm.py` 可插拔 API 兜底（规则低置信 → LLM → 仍低置信 → HITL）
-- [ ] M1 留出集实测：每类规范化 ≥95%、去重 recall ≥95%，**报真实数**；失败案例公开
+- [x] 置信度语义拆分 + loop 桶语义 + 编码统一（TASK-015 已通过 `47959c4`：CONF_CLEAN=0.95 / unchanged 桶 / _compat.py；评测零漂移）
+- [x] `llm.py` 可插拔 API 兜底（TASK-016 已通过 `5783929`：规则 → LLM → HITL 三级 + llm_max_calls 护栏；**两件功夫练齐**）
+- [ ] M1 收官（TASK-017 执行中：CI + License 段 + 发布检查单）
+- [x] M1 留出集实测：规范化总盘 85.88%（heldout）/ 86.16%（train）；去重 recall heldout 100% / train 99.90%——**报真实数**；失败案例公开（docs/failures-m1.md）
 - **Status:** in_progress
 
 ### Phase 6: M2 扩展（金额/日期/身份证/邮箱 → 整表清洗）

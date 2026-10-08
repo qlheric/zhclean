@@ -22,8 +22,8 @@ evaluate_dedupe.py[TQ8M]: F:dedupe 评测：pair P/R/F1 + train 选阈 + --adapt
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/src/zhclean/===
 __init__.py[EG5T]: F:包入口：导出 normalize/normalize_with_confidence 与版本 | R:code:src/zhclean/tools/normalize.py | A:import zhclean | S:不写业务逻辑只做导出
 cli.py[EU8M]: F:CLI 入口：四子命令 jsonl 进出；utf8_stdio 在 main 顶部 | R:code:src/zhclean/tools/audit.py | A:zhclean <子命令> | S:落盘只在本层发生；退出码 0/1/2
-llm.py[IN6T]: F:LLM API 兜底客户端（OpenAI 兼容，deepseek/qwen） | R:code:src/zhclean/loop.py | A:被 loop.py 调用 | S:GPT-6 用 max_completion_tokens
-loop.py[AW9S]: F:手写 Agent Loop：三桶（cleaned/unchanged/hitl）+llm_fn 扩展点（#1 件功夫） | R:code:src/zhclean/tools/normalize.py | A:自检 python -m zhclean.loop | S:单条失败不中断；think 段是 LLM 扩展点
+llm.py[IN8M]: F:LLM 兜底客户端：OpenAI 兼容+llm_normalize+client_from_env（三级流第二级） | R:code:src/zhclean/loop.py | A:被 loop.py think 段调用 | S:GPT-6 用 max_completion_tokens；key 只读环境变量
+loop.py[AW9S]: F:手写 Agent Loop：三桶+llm_fn 扩展点+llm_max_calls 护栏 | R:code:src/zhclean/llm.py | A:自检 python -m zhclean.loop | S:单条失败不中断；无 llm_fn 时行为不变
 _compat.py[EG4T]: F:utf8_stdio 公共件（四入口统一控制台编码） | R:code:src/zhclean/cli.py | A:被四个模块 __main__ 调用 | S:仅 TextIOWrapper 才 reconfigure
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/src/zhclean/rules/===
@@ -62,7 +62,8 @@ TASK-012.md[SG8T]: F:派单：cli 串接（已通过 9220c53，M1 功能全齐�
 TASK-013.md[SG8T]: F:派单：M1 验收汇总（已通过 65be228） | R:code:README.md | A:手侧执行入口 | S:状态只有脑能改
 TASK-014.md[SG8T]: F:派单：乱码修复+Loop（已通过 3c28a97） | R:code:src/zhclean/loop.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-015.md[SG8T]: F:派单：置信度语义拆分（已通过 47959c4，评测零漂移） | R:code:src/zhclean/rules/common.py | A:手侧执行入口 | S:状态只有脑能改
-TASK-016.md[SG8T]: F:派单：llm.py 兜底接 think（三级闭环+mock 零联网） | R:code:src/zhclean/llm.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-016.md[SG8T]: F:派单：llm 兜底接入（已通过 5783929，两件功夫齐） | R:code:src/zhclean/llm.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-017.md[SG8T]: F:派单：M1 收官（CI+License 段+发布检查单） | R:code:.github/workflows/ci.yml | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -92,6 +93,7 @@ RESULT-012.md[SG7M]: F:回执：TASK-012 cli 交付（已通过，含脑侧审�
 RESULT-013.md[SG7S]: F:回执：TASK-013 M1 文档交付（已通过，含脑侧数字核验§8） | R:code:.handoff/inbox/TASK-013.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-014.md[SG7M]: F:回执：TASK-014 乱码修复+Loop 交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-014.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-015.md[SG7M]: F:回执：TASK-015 置信度拆分交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-015.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-016.md[SG7M]: F:回执：TASK-016 llm 兜底交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-016.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改

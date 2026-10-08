@@ -6,11 +6,11 @@
 | 日期 | 2026-10-08 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `src/zhclean/llm.py`（新建）、`src/zhclean/loop.py`（think 扩展点接入 llm_fn）、`tests/test_llm.py`（新建）、`tests/test_loop.py`（扩展用例）、`README.md`（档位描述补 0.95，两处）、`findings.md`（档位行补 0.95，一处）、`tests/test_normalize.py`（第 91 行过期注释） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `src/zhclean/**`、`task_plan.md`、`findings.md`。**禁止：联网（测试用 mock，不发真 API 请求）、装新包/改依赖、git commit、调用其他 agent、动范围外文件（尤其 benchmarks/generate.py 词典常量——不可读；heldout 不跑）** |
 | **_Depends:**（依赖） | TASK-015（已通过，`47959c4`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `5783929`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -70,3 +70,13 @@ git status --porcelain -uall
 - 模型渠道参考（findings）：DeepSeek 官方 `DEEPSEEK_API_KEY` / 智谱 `ZHIPU_API_KEY`，OpenAI 兼容协议；GPT-6 系列用 `max_completion_tokens`。
 - LLM 兜底是 S2 架构「规则 80% + LLM 20%」的 20% 部分；真调用控量（llm_max_calls + 批量）是使用方责任，本单只给护栏。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-016.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-08 · 脑）
+
+- **已通过**。两条判据均经脑亲跑：①`uv run --project . pytest tests/ -q` → 467 passed；②`uv run --project . python -m zhclean.llm` → `llm._demo: OK` exit 0（mock 零网络）。
+- 边界检查：6 个改动文件 ⊆ `_Boundary:_`（零越界）。
+- **结构化代码审查**（6/6 覆盖 100%）：critical/high/medium/low 全 0；「不给 llm_fn 逐字不变」有 3206 行 × 4 组参数全等实据。
+- 三拍板裁决：①findings 已改确认（脑侧派单时已写好）；②unchanged 恒空采纳契约字面语义（LLM 存在时低置信行就该进人工队列）；③client_from_env 采纳（生产构造必需、零 key 硬编码）。
+- 手自报 rm -rf 被拦不记失分（没执行过）。
+- **里程碑：Agent Loop（#1）+ Tool Design（#3）两件功夫练齐。**
+- `_Status: 已完成`；`_Commit: 5783929`。
