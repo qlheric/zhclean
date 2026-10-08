@@ -23,11 +23,11 @@
 
 ## Current Phase
 
-**Phase 6（M2）** → TASK-019 已通过（`938dd6a`，amount/date 规则；date 顶天花板 85.75%，amount 瓶颈已归因）；**TASK-020（修复单：A 干净集纯数字 + B _wan 去截断 + C 测试字段数派生）已派**，手执行中
+**Phase 6（M2）** → TASK-020 已通过（`4eff077`，A/B/C 三项修复，**amount 99.00%**、4 红消除、老五类零漂移）；**TASK-021（定版单：尾零口径修复 + heldout 首次定版跑）已派**，手执行中
 
 ## Next Step
 
-手交 `.handoff/outbox/RESULT-020.md` 后：亲跑三条判据（amount ≥85% + 老五类零漂移）→ 边界 → 置状态 → 提交。
+手交 `.handoff/outbox/RESULT-021.md` 后：亲跑四条判据 → 边界 → 置状态 → 提交；六类 heldout 定版数如实汇报，随后 TASK-022 更新文档台账。
 
 ## Phases
 
@@ -86,7 +86,9 @@
 
 - [x] M2 评测集扩展（TASK-018 已通过 `714997a`：generate.py 加 amount/date，老四类逐字节不变）
 - [x] 金额/日期规则 + 评测接入（TASK-019 已通过 `938dd6a`：**date 85.75% 顶天花板**（abbrev 可回收 100%）；amount 40.88% 瓶颈 = 干净集双形态混装（脑侧 TASK 规格缺陷认账：判据 1 与边界自相矛盾致 4 红挂账））
-- [ ] 修复单（TASK-020 执行中：A 纯数字口径 + B _wan 去截断 + C 测试字段数派生；预测 amount ≈ 90%）
+- [x] 修复单（TASK-020 已通过 `4eff077`：A 纯数字口径 + B _wan 去截断 + C 测试派生；**amount 99.00%**、4 红消除、老五类零漂移）
+- [ ] 定版单（TASK-021 执行中：amount 尾零口径修复 + heldout 首次定版跑）
+- [ ] M2 文档更新（TASK-022 排队：README/findings/failures 补 M2 定版数）
 - [ ] 大写数字轴（壹/贰/叁）单独一单（已裁定，排队）
 - [ ] 身份证/邮箱校验（格式级，不做真实性查询）
 - [ ] 整表清洗（CSV/XLSX 进出）

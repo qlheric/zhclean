@@ -6,11 +6,11 @@
 | 日期 | 2026-10-09 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `benchmarks/generate.py`（仅 amount 相关：gen_amount 去千分位分支 + `_wan` 去截断）、`benchmarks/clean|dirty/amount.jsonl`（重生成）、`tests/test_evaluate.py`（字段数/计数从 `ev.FIELDS` 派生）、`tests/test_benchmark.py`（如 amount 不变式涉及逗号需同步）、`benchmarks/results/**`（评测产物，不入库） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `benchmarks/generate.py`（**本单允许：修 amount 生成器本身**）、`task_plan.md`、`findings.md`、train 数据。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件。⚡ heldout 不跑（定版单才跑）** |
 | **_Depends:**（依赖） | TASK-019（已通过，`938dd6a`；RESULT-019 §5 的 A/B/C 三项裁决） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `4eff077`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -63,3 +63,10 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀。
 - 修 A/B 后 amount 干净集口径变化 = 评测基准变化（脑裁定的口径修正，非调规则）；heldout 的 amount/date 尚未定版，重生成安全。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-020.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过**。三判据亲跑：①564 passed **零失败**（4 红消除，C 根治生效）；②train 六类总盘 88.23%——**amount 99.00%**（abbrev 95% / 其余四列 100%）、date 85.75% 不变、老四类逐位零回归；③只有 amount 两个文件有 diff（其余五类零漂移）。
+- 边界零越界（未碰 rules）。
+- §6 裁决：amount 剩余 1%（8 行全在 abbrev）= 小数尾随零口径问题——**采纳修 a（生成器去尾零）**，与 heldout 定版首跑合成 TASK-021。
+- `_Status: 已完成`；`_Commit: 4eff077`。

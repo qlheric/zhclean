@@ -14,7 +14,7 @@ CLAUDE.md[SG9T]: F:手侧契约：手脑方案执行侧规则（机制生成） 
 uv.lock[FV5T]: F:依赖锁文件（uv 生成） | R:code:pyproject.toml | A:uv sync/run 读取 | S:机器生成勿手改；与 pyproject 同批变更
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/===
-generate.py[TQ8M]: F:benchmark 数据生成器：六类字段（含 amount/date）+五类扰动+留出集 | R:code:tests/test_benchmark.py | A:python -m benchmarks.generate --seed 42 | S:每字段独立 RNG 流；老四类 seed42 逐字节不变
+generate.py[TQ8M]: F:benchmark 数据生成器：六类字段+五类扰动+留出集 | R:code:tests/test_benchmark.py | A:python -m benchmarks.generate --seed 42 | S:每字段独立 RNG；amount 干净值纯数字无尾零
 __init__.py[EG4T]: F:benchmarks 包入口（支持 python -m 调用） | R:code:benchmarks/generate.py | A:import benchmarks | S:只做包声明
 evaluate.py[TQ8M]: F:评测管线：规范化率分组统计+失败案例（六类 FIELDS） | R:code:benchmarks/dirty/person.jsonl | A:python -m benchmarks.evaluate --impl rules | S:默认只评 heldout；逐字符相等无宽容
 evaluate_dedupe.py[TQ8M]: F:dedupe 评测：pair P/R/F1 + train 选阈 + --adaptive 透传 | R:code:src/zhclean/tools/dedupe.py | A:python -m benchmarks.evaluate_dedupe --adaptive | S:阈值只在 train 扫选；heldout 只跑一次
@@ -66,7 +66,8 @@ TASK-016.md[SG8T]: F:派单：llm 兜底接入（已通过 5783929，两件功�
 TASK-017.md[SG8T]: F:派单：M1 收官（已通过 1e3213b） | R:code:.github/workflows/ci.yml | A:手侧执行入口 | S:状态只有脑能改
 TASK-018.md[SG8T]: F:派单：M2 评测集扩展（已通过 714997a） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
 TASK-019.md[SG8T]: F:派单：amount/date 规则（已通过 938dd6a，4 红挂账 TASK-020） | R:code:src/zhclean/rules/amount.py | A:手侧执行入口 | S:状态只有脑能改
-TASK-020.md[SG8T]: F:派单：修复单（A 纯数字口径+B _wan+C 测试派生） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-020.md[SG8T]: F:派单：修复单（已通过 4eff077，amount 99%） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
+TASK-021.md[SG8T]: F:派单：M2 定版单（尾零修复+heldout 首跑） | R:code:benchmarks/generate.py | A:手侧执行入口 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/clean/===
 person.jsonl[TQ5S]: F:人名干净集 200 条（ground truth） | R:code:benchmarks/generate.py | A:被评测读取 | S:机器生成勿手改
@@ -104,6 +105,7 @@ RESULT-016.md[SG7M]: F:回执：TASK-016 llm 兜底交付（已通过，含脑�
 RESULT-017.md[SG7S]: F:回执：TASK-017 M1 收官交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-017.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-018.md[SG7M]: F:回执：TASK-018 M2 评测集交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-018.md | A:脑验收读取 | S:状态只有脑能改
 RESULT-019.md[SG7M]: F:回执：TASK-019 amount/date 交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-019.md | A:脑验收读取 | S:状态只有脑能改
+RESULT-020.md[SG7M]: F:回执：TASK-020 修复单交付（已通过，含脑侧审查§8） | R:code:.handoff/inbox/TASK-020.md | A:脑验收读取 | S:状态只有脑能改
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/benchmarks/results/===
 summary-stub-heldout.json[TQ4T]: F:评测汇总产物（stub 0% 基线） | R:code:benchmarks/evaluate.py | A:对外报告引用 | S:机器生成勿手改
@@ -113,6 +115,7 @@ failures-perfect-heldout.jsonl[TQ4T]: F:失败案例产物（perfect 0 字节）
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/tests/===
 test_address.py[TQ6T]: F:地址规则测试（含约束②两向用例） | R:code:src/zhclean/rules/address.py | A:uv run --project . pytest tests/ -q | S:只测规则与接口
+test_evaluate.py[TQ7M]: F:评测管线测试：字段数从 ev.FIELDS 派生（增字段不红） | R:code:benchmarks/evaluate.py | A:被 pytest 运行 | S:不再硬编码字段数
 
 ===G:/Agentwork_mvp/s2-中文脏数据净化器-zhclean/docs/===
 failures-m1.md[SG7S]: F:M1 失败案例公开：分字段×扰动归因+去重对照+复现命令 | R:code:findings.md | A:对外交付件 | S:数字以台账为准；不许重跑 heldout 更新
