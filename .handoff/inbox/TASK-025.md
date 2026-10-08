@@ -6,11 +6,11 @@
 | 日期 | 2026-10-09 |
 | 执行（手） | Claude Code（侧边栏终端） |
 | 项目路径 | G:\Agentwork_mvp\s2-中文脏数据净化器-zhclean |
-| 状态 | 待执行 |
+| 状态 | 已通过 |
 | **_Boundary:**（只许动） | `benchmarks/evaluate.py`（仅 FIELDS 扩至 8 类）、`benchmarks/results/**`（重定版产物，不入库） |
 | **_Capability:**（只许用） | 写 Python 代码（stdlib + 已声明依赖）；跑 `uv run` / `pytest` 命令；读 `benchmarks/clean|dirty/*.jsonl`、`task_plan.md`、`findings.md`、RESULT-024 §3.4/§3.5（train 回环基线）。**禁止：联网、装新包/改依赖、git commit、调用其他 agent、动范围外文件。⚡ 特别禁止：读 generate.py 词典常量；heldout 只跑判据 3 那一次** |
 | **_Depends:**（依赖） | TASK-024（已通过，`6f8d2db`） |
-| **_Commit:**（对应提交） | 脑验收后填 |
+| **_Commit:**（对应提交） | `bd80f42`（脑验收通过后提交） |
 
 ## 1. 目标（一句话）
 
@@ -60,3 +60,11 @@ git status --porcelain -uall
 - 判据命令一律 `uv run --project .` 前缀。
 - 重定版后：TASK-026 更新 README/findings/failures-m3（八类定版表，分列口径）。
 - 手脑方案：干完写 `.handoff\outbox\RESULT-025.md`（判据/命令/输出/证据 + 第 7 节），然后停下；不动 TASK 状态字段。
+
+## 7. 验收结论（2026-10-09 · 脑）
+
+- **已通过**。三判据亲跑：①650 passed（test_evaluate 自动适配未改）；②train：idcard 100.00% / email 51.50%、老六类逐位不变；③**heldout 重定版**：老六类 72.00/90.50/100.00/81.00/100.00/84.00 **逐位复现 M2 定版**（逐格核验双证）、idcard 100.00% / email 52.50% 首次定版。
+- 边界零越界（evaluate.py 一行）。
+- §5 处置：抽样波动无异议；旧产物先备份再覆盖正确；分列口径（老六类 87.92% / 新两类 76.25% / 八类总平均 85.00% 仅参考）TASK-026 沿用；email 提分不动（需先裁新口径）。
+- **里程碑：M2 第三批定版完成（八类 heldout 数字锁定）。**
+- `_Status: 已完成`；`_Commit: bd80f42`。
